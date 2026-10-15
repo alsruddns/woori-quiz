@@ -1,0 +1,16 @@
+﻿services:
+  quiz:
+    build: .
+    expose:
+      - "3005"
+    environment:
+      PORT: 3005
+      NEXT_PUBLIC_ADS_ENABLED: "false"
+  nginx:
+    image: nginx:alpine
+    ports:
+      - "8080:80"
+    depends_on:
+      - quiz
+    volumes:
+      - ./nginx.conf:/etc/nginx/conf.d/default.conf:ro

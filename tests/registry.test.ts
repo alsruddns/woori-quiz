@@ -1,0 +1,12 @@
+﻿import { readFileSync } from "node:fs";
+import { describe, expect, it } from "vitest";
+import { GET } from "../src/app/quiz-sitemap.xml/route";
+import { generateMathQuestion } from "../src/lib/math";
+import { locales } from "../src/lib/i18n";
+import { quizzes } from "../src/lib/registry";
+import { saveQuizResult } from "../src/lib/storage";
+
+describe("quiz registry",()=>{it("uses unique slugs and all 15 locales",()=>{expect(new Set(quizzes.map(q=>q.slug)).size).toBe(quizzes.length);expect(locales).toHaveLength(15);expect(quizzes.every(q=>q.supportedLocales.length===15)).toBe(true);});it("covers the initial 58 requested quiz slugs",()=>{expect(quizzes).toHaveLength(58);});});
+describe("dynamic arithmetic",()=>{it("always returns one answer among four unique finite options",()=>{for(const slug of ["addition-quiz","subtraction-quiz","multiplication-quiz","multiplication-table-quiz","division-quiz","fraction-quiz","percentage-quiz","equation-quiz","mental-math-quiz","arithmetic-challenge"]){for(let i=0;i<100;i++){const q=generateMathQuestion(slug);expect(q.options).toHaveLength(4);expect(new Set(q.options).size).toBe(4);expect(q.options.filter(x=>x===q.answer)).toHaveLength(1);expect(q.options.every(Number.isFinite)).toBe(true);}}});});
+describe("catalog artifacts",()=>{it("contains a catalog row for every registry slug",()=>{const doc=readFileSync("docs/quiz-catalog.md","utf8");for(const quiz of quizzes)expect(doc).toContain(quiz.slug);});it("generates locale list and registry detail URLs",async()=>{const response=GET();const xml=await response.text();expect(response.headers.get("content-type")).toContain("application/xml");expect((xml.match(/<url>/g)||[]).length).toBe(15+15*quizzes.filter(q=>q.isPublic).length);expect(xml).toContain("/quiz/ko/quiz/addition-quiz");});});
+describe("local score storage",()=>{it("stores recent score, difficulty and updates best score",()=>{const values=new Map<string,string>();const storage={getItem:(key:string)=>values.get(key)??null,setItem:(key:string,value:string)=>values.set(key,value)};expect(saveQuizResult(storage,"addition-quiz",7,"medium",52)).toBe(7);expect(saveQuizResult(storage,"addition-quiz",5,"hard",61)).toBe(7);expect(values.get("woori-quiz:recent:addition-quiz")).toBe("5");expect(values.get("woori-quiz:difficulty:addition-quiz")).toBe("hard");expect(values.get("woori-quiz:last-played")).toBe("addition-quiz");});});
