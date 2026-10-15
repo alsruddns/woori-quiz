@@ -25,4 +25,22 @@ describe("generated question localizations", () => {
       }
     }
   }, 30000);
+  it("translates all technology choices without changing their positions", async () => {
+    const originals = await loadQuestionBankForCategory("technology");
+    const generated = originals.filter((question) => question.id.startsWith("it-x-concept-"));
+    expect(generated).toHaveLength(40);
+    for (const locale of locales.filter((item) => item !== "en")) {
+      const localized = await loadQuestionBankForCategory("technology", locale);
+      for (const original of generated) {
+        const translated = localized.find((question) => question.id === original.id)!;
+        const copy = translated.localizations?.[locale];
+        expect(copy?.question).not.toBe(original.question);
+        expect(copy?.options).toHaveLength(original.options.length);
+        expect(copy?.options[translated.answer]).not.toBe(original.options[original.answer]);
+        expect(new Set(copy?.options).size).toBe(original.options.length);
+        expect(copy?.explanation.trim()).toBeTruthy();
+        expect(translated.answer).toBe(original.answer);
+      }
+    }
+  }, 30000);
 });
