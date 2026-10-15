@@ -1,44 +1,29 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+﻿# woori-quiz
 
-## Getting Started
+`woori.today`의 퀴즈테스트 서비스입니다. 서비스는 `/quiz` prefix, 개발 포트 `3005`를 사용합니다.
 
-First, run the development server:
+## 개발
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
+pnpm install
 pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+개발 서버: <http://localhost:3005/quiz/ko>
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Branch workflow
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- `main` is the production branch; `develop` is the regular development branch.
+- Start all work on `develop`. Verify the change, commit and push `develop`, then merge it into `main` and push `main`.
+- Return to `develop` after the production push. Do not create release branches.
 
-## Learn More
+## Project documents
 
-To learn more about Next.js, take a look at the following resources:
+- [Common rules](docs/common-rules.md)
+- [UI guidelines](docs/ui-guidelines.md)
+- [Service catalog](docs/service-catalog.md)
+- [Quiz catalog](docs/quiz-catalog.md)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Scripts
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-
-## Branch Workflow
-
-- `main` is the production branch.
-- `develop` is the branch for all regular development. Start all work from `develop`.
-- After completing work, verify it, commit and push to `develop`, then merge `develop` into `main` and push `main`.
-- Return to `develop` after pushing `main`.
-- Do not create or use release branches.
+`pnpm test`, `pnpm lint`, `pnpm exec tsc --noEmit`, `pnpm build`
