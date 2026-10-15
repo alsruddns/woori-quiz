@@ -34,3 +34,11 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+## Branch Workflow
+
+- `main` is the production branch.
+- `develop` is the branch for all regular development. Start all work from `develop`.
+- After completing work, verify it, commit and push to `develop`, then merge `develop` into `main` and push `main`.
+- Return to `develop` after pushing `main`.
+- Do not create or use release branches.
