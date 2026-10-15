@@ -6,6 +6,7 @@ import { capitalCopy, featureCopy } from "./geography-patterns";
 import { vocabularyCopy } from "./language-patterns";
 import { technologyCopy } from "./technology-patterns";
 import { historyCopy } from "./history-patterns";
+import { scienceCopy } from "./science-patterns";
 
 const mathPhrases = {
   ko: () => import("./ko/math"), ja: () => import("./ja/math"), zh: () => import("./zh/math"),
@@ -55,6 +56,14 @@ const historyPhrases = {
   nl: () => import("./nl/history"), hi: () => import("./hi/history"),
 };
 
+const sciencePhrases = {
+  ko: () => import("./ko/science"), ja: () => import("./ja/science"), zh: () => import("./zh/science"),
+  es: () => import("./es/science"), "pt-br": () => import("./pt-br/science"), de: () => import("./de/science"),
+  fr: () => import("./fr/science"), vi: () => import("./vi/science"), id: () => import("./id/science"),
+  th: () => import("./th/science"), "zh-tw": () => import("./zh-tw/science"), it: () => import("./it/science"),
+  nl: () => import("./nl/science"), hi: () => import("./hi/science"),
+};
+
 export async function generatedCopiesForLocale(
   questions: readonly QuizQuestion[], locale: Locale,
 ): Promise<Map<string, QuestionLocaleCopy>> {
@@ -99,6 +108,13 @@ export async function generatedCopiesForLocale(
     const { phrases } = await historyPhrases[locale]();
     for (const question of questions) {
       const copy = historyCopy(question, phrases);
+      if (copy) copies.set(question.id, copy);
+    }
+  }
+  if (questions.some((q) => q.id.startsWith("science-x-"))) {
+    const { phrases } = await sciencePhrases[locale]();
+    for (const question of questions) {
+      const copy = scienceCopy(question, questions, phrases);
       if (copy) copies.set(question.id, copy);
     }
   }

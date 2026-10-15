@@ -63,4 +63,23 @@ describe("generated question localizations", () => {
       }
     }
   }, 30000);
+  it("translates science facts and choices with intact chemical symbols", async () => {
+    const originals = (await loadQuestionBankForCategory("science")).filter((question) => question.id.startsWith("science-x-"));
+    expect(originals).toHaveLength(40);
+    for (const locale of locales.filter((item) => item !== "en")) {
+      const translated = await loadQuestionBankForCategory("science", locale);
+      for (const original of originals) {
+        const question = translated.find((item) => item.id === original.id)!;
+        const copy = question.localizations?.[locale];
+        expect(copy?.question).toContain("___");
+        expect(copy?.explanation).not.toContain("___");
+        expect(copy?.options).toHaveLength(original.options.length);
+        expect(new Set(copy?.options).size).toBe(original.options.length);
+        expect(question.answer).toBe(original.answer);
+        original.options.forEach((option, index) => {
+          if (/^(O|Au|Na|Fe|C|7)$/.test(option)) expect(copy?.options[index]).toBe(option);
+        });
+      }
+    }
+  }, 30000);
 });
