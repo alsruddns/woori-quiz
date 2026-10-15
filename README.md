@@ -1,6 +1,6 @@
 ﻿# woori-quiz
 
-`woori.today`의 퀴즈테스트 서비스입니다. 서비스는 `/quiz` prefix, 개발 포트 `3005`를 사용합니다.
+`woori.today` quiz service. Official routes use locale-first `/{locale}/quiz`; dev port is `3005`.
 
 ## 개발
 
@@ -9,7 +9,7 @@ pnpm install
 pnpm dev
 ```
 
-개발 서버: <http://localhost:3005/quiz/ko>
+개발 서버: <http://localhost:3005/ko/quiz>
 
 ## Branch workflow
 
