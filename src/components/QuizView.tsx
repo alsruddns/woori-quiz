@@ -44,11 +44,13 @@ export function QuizView({ locale: rawLocale, slug }: { locale: string; slug: st
     if (quiz.mode === "bank") {
       setBankDeck([]);
       const count = quiz.slug === "challenge-20" ? 20 : 10;
-      void import("@/lib/question-bank").then(({ questionBank, questionCategoryForQuiz, selectQuestions }) => {
+      void import("@/lib/question-bank/select-questions").then(async ({ loadQuestionBankForCategory, selectQuestionsForCategory }) => {
+        const { questionCategoryForQuiz } = await import("@/lib/question-bank/core");
         const category = questionCategoryForQuiz(quiz.slug, quiz.category);
         const filter = { category, ...(bankDifficulty === "all" ? {} : { difficulty: bankDifficulty }), count };
-        const fresh = selectQuestions(questionBank, { ...filter, excludeIds: previousQuestionIds.current });
-        const deck = fresh.length >= count ? fresh : selectQuestions(questionBank, filter);
+        const pool = await loadQuestionBankForCategory(category);
+        const fresh = selectQuestionsForCategory(pool, { ...filter, excludeIds: previousQuestionIds.current });
+        const deck = fresh.length >= count ? fresh : selectQuestionsForCategory(pool, filter);
         setBankDeck(deck);
         previousQuestionIds.current = deck.map((question) => question.id);
         setBankIndex(0);
