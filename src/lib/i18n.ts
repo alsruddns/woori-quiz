@@ -47,6 +47,24 @@ export const discoveryCopy: Record<Locale, DiscoveryCopy> = {
   hi:{intro:"सामान्य ज्ञान, गणित और दिमाग़ी पहेलियों में अपनी पसंद का क्विज़ चुनें।",quickStart:"तुरंत शुरू करें",searchResults:"खोज के परिणाम",browseCategories:"श्रेणी चुनें",clearSearch:"खोज मिटाएँ",resultsFor:(q,n)=>`“${q}” के लिए ${n} क्विज़`},
 };
 
+export const detailCopy: Record<Locale, { correctCount: string; incorrectCount: string; newSet: string; otherQuizzes: string }> = {
+  ko:{correctCount:"정답",incorrectCount:"오답",newSet:"새 문제로 다시 풀기",otherQuizzes:"다른 퀴즈 보기"},
+  en:{correctCount:"Correct",incorrectCount:"Incorrect",newSet:"Try new questions",otherQuizzes:"Browse other quizzes"},
+  ja:{correctCount:"正解",incorrectCount:"不正解",newSet:"新しい問題で挑戦",otherQuizzes:"ほかのクイズを見る"},
+  zh:{correctCount:"答对",incorrectCount:"答错",newSet:"换一组题再试",otherQuizzes:"查看其他测验"},
+  es:{correctCount:"Correctas",incorrectCount:"Incorrectas",newSet:"Probar preguntas nuevas",otherQuizzes:"Ver otros cuestionarios"},
+  "pt-br":{correctCount:"Acertos",incorrectCount:"Erros",newSet:"Tentar novas perguntas",otherQuizzes:"Ver outros quizzes"},
+  de:{correctCount:"Richtig",incorrectCount:"Falsch",newSet:"Neue Fragen spielen",otherQuizzes:"Weitere Quiz ansehen"},
+  fr:{correctCount:"Bonnes réponses",incorrectCount:"Erreurs",newSet:"Essayer de nouvelles questions",otherQuizzes:"Voir d’autres quiz"},
+  vi:{correctCount:"Đúng",incorrectCount:"Sai",newSet:"Thử bộ câu hỏi mới",otherQuizzes:"Xem câu đố khác"},
+  id:{correctCount:"Benar",incorrectCount:"Salah",newSet:"Coba soal baru",otherQuizzes:"Lihat kuis lainnya"},
+  th:{correctCount:"ถูก",incorrectCount:"ผิด",newSet:"ลองคำถามชุดใหม่",otherQuizzes:"ดูแบบทดสอบอื่น"},
+  "zh-tw":{correctCount:"答對",incorrectCount:"答錯",newSet:"換一組題再試",otherQuizzes:"查看其他測驗"},
+  it:{correctCount:"Corrette",incorrectCount:"Errate",newSet:"Prova nuove domande",otherQuizzes:"Scopri altri quiz"},
+  nl:{correctCount:"Goed",incorrectCount:"Fout",newSet:"Nieuwe vragen proberen",otherQuizzes:"Andere quizzen bekijken"},
+  hi:{correctCount:"सही",incorrectCount:"गलत",newSet:"नए प्रश्न आज़माएँ",otherQuizzes:"अन्य क्विज़ देखें"},
+};
+
 export type UiMessages = {
   familySites: string; portal: string; calculator: string; tools: string; moneyBook: string; docs: string; quiz: string;
   language: string; openMenu: string; closeMenu: string; allQuizzes: string; freeToPlay: string; noAccount: string;

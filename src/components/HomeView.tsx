@@ -3,8 +3,7 @@
 import { useEffect, useRef, useSyncExternalStore } from "react";
 import Link from "next/link";
 import { AdSlot } from "@/components/AdSlot";
-import { SiteHeader } from "@/components/SiteHeader";
-import { SiteFooter } from "@/components/SiteFooter";
+import { QuizShell } from "@/components/QuizShell";
 import { discoveryCopy, isLocale, messages, uiMessages } from "@/lib/i18n";
 import { categories, quizzes, type Quiz, type Category } from "@/lib/registry";
 import { discoveryQuizzes, discoveryState } from "@/lib/discovery";
@@ -44,7 +43,6 @@ export function HomeView({ locale: rawLocale }: { locale: string }) {
   const { mode, category, query } = discoveryState(search, categories);
   const visible = discoveryQuizzes(quizzes, locale, search, categories);
   const mainRef = useRef<HTMLElement>(null);
-  const mobileMenuRef = useRef<HTMLDetailsElement>(null);
 
   useEffect(() => {
     if (mode === "home") return;
@@ -59,7 +57,6 @@ export function HomeView({ locale: rawLocale }: { locale: string }) {
       params.set("category", value);
       params.delete("q");
     }, true);
-    if (mobileMenuRef.current) mobileMenuRef.current.open = false;
     const node = mainRef.current;
     if (node) window.scrollTo({ top: Math.max(0, node.getBoundingClientRect().top + window.scrollY - 82), behavior: "smooth" });
   }
@@ -67,18 +64,6 @@ export function HomeView({ locale: rawLocale }: { locale: string }) {
   function setQuery(value: string) {
     updateSearch((params) => value.trim() ? params.set("q", value) : params.delete("q"));
   }
-
-  const searchField = <label className="discovery-search">
-    <span className="sr-only">{t.searchLabel}</span>
-    <span aria-hidden="true">⌕</span>
-    <input type="search" value={query} onChange={(event) => setQuery(event.target.value)} placeholder={t.searchLabel} aria-label={t.searchLabel}/>
-    {query && <button type="button" onClick={() => setQuery("")} aria-label={copy.clearSearch}>×</button>}
-  </label>;
-
-  const categoryButtons = <>
-    <button type="button" className={`side-link${mode === "all" ? " selected" : ""}`} aria-current={mode === "all" ? "page" : undefined} onClick={() => selectCategory("all")}><span aria-hidden="true">▦</span>{t.allQuizzes}</button>
-    {categories.map((item) => <button type="button" className={`side-link${mode === "category" && category === item ? " selected" : ""}`} aria-current={mode === "category" && category === item ? "page" : undefined} onClick={() => selectCategory(item)} key={item}><span aria-hidden="true">{icon[item]}</span>{quizCategoryName(locale, item)}</button>)}
-  </>;
 
   const cards = (items: Quiz[]) => <div className="quiz-grid">{items.map((quiz) => {
     const title = quizTitle(locale, quiz);
@@ -93,15 +78,7 @@ export function HomeView({ locale: rawLocale }: { locale: string }) {
 
   const heading = mode === "search" ? copy.searchResults : mode === "category" && category ? quizCategoryName(locale, category) : t.allQuizzes;
 
-  return <div className="discovery-page">
-    <SiteHeader locale={locale} logoHref={`/${locale}`} />
-    <div className="layout discovery-layout">
-      <aside className="sidebar discovery-sidebar" aria-label={base.categories}>
-        <div className="desktop-discovery-nav">{searchField}<div className="side-heading">{base.categories}</div>{categoryButtons}</div>
-        <div className="mobile-discovery-nav">{searchField}<details ref={mobileMenuRef}><summary>{mode === "category" && category ? quizCategoryName(locale, category) : copy.browseCategories}<span aria-hidden="true">⌄</span></summary><div className="mobile-category-list">{categoryButtons}</div></details></div>
-      </aside>
-
-      <main ref={mainRef} className="content discovery-content">
+  return <QuizShell ref={mainRef} locale={locale} logoHref={`/${locale}`} mode={mode} activeCategory={category} query={query} onSelectCategory={selectCategory} onSearchChange={setQuery}>
         {mode === "home" ? <>
           <section className="discovery-intro">
             <div><span className="discovery-kicker">woori.today</span><h1>{t.quiz}</h1><p>{copy.intro}</p></div>
@@ -127,10 +104,7 @@ export function HomeView({ locale: rawLocale }: { locale: string }) {
           <div className="results-header"><div><span className="discovery-kicker">{t.quiz}</span><h1>{heading}</h1><p>{mode === "search" ? copy.resultsFor(query, visible.length) : t.quizCount(visible.length)}</p></div></div>
           {visible.length ? cards(visible) : <p className="empty-state" role="status">{t.searchEmpty}</p>}
         </section>}
-        <SiteFooter locale={locale}/>
-      </main>
-    </div>
-  </div>;
+  </QuizShell>;
 }
 
 const icon: Record<Category, string> = { general:"✳", nonsense:"?", math:"＋", brain:"◇", history:"◷", science:"⚗", geography:"◎", language:"文", technology:"⌘", memory:"▦", random:"⤨", challenge:"⚑", speed:"↯", fun:"☺" };
