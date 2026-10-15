@@ -13,6 +13,28 @@ export type GeographyPhrases = {
   capitalWhy: (city: string, country: string) => string;
 };
 
+export type FeaturePhrases = {
+  names: readonly string[];
+  question: (name: string) => string;
+  explanation: (name: string, continent: string) => string;
+};
+
+const continentCodes: Record<string, string> = {
+  Africa: "002", Asia: "142", Europe: "150", "North America": "021",
+  "South America": "005", Australia: "AU", Antarctica: "AQ",
+};
+
+export function featureCopy(question: QuizQuestion, locale: Locale, phrases: FeaturePhrases): QuestionLocaleCopy | undefined {
+  const match = /^geography-x-feature-(\d+)$/.exec(question.id);
+  if (!match) return undefined;
+  const index = Number(match[1]) - 1;
+  const name = phrases.names[index];
+  if (!name || phrases.names.length !== 10) throw new Error(`Invalid feature: ${question.id}`);
+  const labels = new Intl.DisplayNames([locale], { type: "region" });
+  const options = question.options.map((option) => labels.of(continentCodes[option]) ?? option);
+  return { question: phrases.question(name), options, explanation: phrases.explanation(name, options[question.answer]) };
+}
+
 export function capitalCopy(question: QuizQuestion, locale: Locale, phrases: GeographyPhrases): QuestionLocaleCopy | undefined {
   const match = /^geography-x-capital-(\d+)$/.exec(question.id);
   if (!match) return undefined;
