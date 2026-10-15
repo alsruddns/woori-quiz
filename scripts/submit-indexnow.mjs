@@ -1,6 +1,9 @@
 const siteOrigin = process.env.INDEXNOW_SITE_ORIGIN ?? "https://www.woori.today";
 const sitemapUrl = process.env.INDEXNOW_SITEMAP_URL ?? `${siteOrigin}/quiz-sitemap.xml`;
 const endpoint = "https://api.indexnow.org/IndexNow";
+const supportedLocales = "ko|en|ja|zh|es|pt-br|de|fr|vi|id|th|zh-tw|it|nl|hi";
+const publicQuizUrl = new RegExp(`^https://www\\.woori\\.today/(?:${supportedLocales})/quiz(?:/[a-z0-9-]+)?$`);
+const legacyQuizUrl = new RegExp(`^https://www\\.woori\\.today/quiz/(?:${supportedLocales})(?:/|$)`);
 
 async function readSitemapUrls() {
   const response = await fetch(sitemapUrl);
@@ -8,15 +11,26 @@ async function readSitemapUrls() {
   const xml = await response.text();
   const urls = [...xml.matchAll(/<loc>([^<]+)<\/loc>/g)].map(([, url]) => url.trim());
   if (!urls.length) throw new Error("The sitemap contains no URLs.");
-  if (urls.some((url) => !/^https:\/\/www\.woori\.today\/(?:[a-z]{2}(?:-[a-z]{2})?\/quiz)(?:\/[^/]+)?$/.test(url))) {
+  const uniqueUrls = [...new Set(urls)];
+  const legacyUrlCount = urls.filter((url) => legacyQuizUrl.test(url)).length;
+  const malformedUrlCount = urls.filter((url) => !publicQuizUrl.test(url) && !legacyQuizUrl.test(url)).length;
+  if (legacyUrlCount || malformedUrlCount) {
     throw new Error("The sitemap contains a URL outside the locale-first quiz routes.");
   }
-  return [...new Set(urls)];
+  return { urls, uniqueUrls, duplicateUrlCount: urls.length - uniqueUrls.length };
 }
 
-const urlList = await readSitemapUrls();
+const { urls, uniqueUrls: urlList, duplicateUrlCount } = await readSitemapUrls();
 if (process.env.INDEXNOW_DRY_RUN === "true") {
-  console.log(JSON.stringify({ urlCount: urlList.length, urlList }, null, 2));
+  console.log(JSON.stringify({
+    urlCount: urls.length,
+    uniqueUrlCount: urlList.length,
+    localeFirst: urlList.every((url) => publicQuizUrl.test(url)),
+    duplicateUrlCount,
+    legacyUrlCount: urls.filter((url) => legacyQuizUrl.test(url)).length,
+    malformedUrlCount: urls.filter((url) => !publicQuizUrl.test(url) && !legacyQuizUrl.test(url)).length,
+    urlList,
+  }, null, 2));
 } else {
   const key = process.env.INDEXNOW_KEY?.trim();
   if (!key) throw new Error("INDEXNOW_KEY is required unless INDEXNOW_DRY_RUN=true.");

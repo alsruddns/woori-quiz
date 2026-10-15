@@ -78,3 +78,13 @@ jobs:
 
       - name: Check production health
         run: curl --fail --silent --show-error --retry 12 --retry-delay 5 --retry-connrefused https://www.woori.today/ko/quiz
+
+      - name: Submit URLs to IndexNow
+        env:
+          INDEXNOW_KEY: ${{ secrets.INDEXNOW_KEY }}
+        run: |
+          if curl --fail --silent --show-error https://www.woori.today/quiz-sitemap.xml > /dev/null; then
+            pnpm exec node scripts/submit-indexnow.mjs
+          else
+            echo "::warning::Skipping IndexNow until the production quiz sitemap is available."
+          fi
