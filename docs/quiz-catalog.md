@@ -62,3 +62,48 @@ Registry in `src/lib/registry.ts` is the single source of truth. Interactive and
 | fun | True or False Challenge | pending | easy, medium | static | Closed; question bank pending | /{locale}/quiz/true-false-challenge | Original content pending |
 | fun | Impossible Quiz | pending | hard, expert | static | Closed; question bank pending | /{locale}/quiz/impossible-quiz | Original content pending |
 | fun | Mixed Hard Quiz | pending | hard, expert | static | Closed; question bank pending | /{locale}/quiz/mixed-hard-quiz | Original content pending |
+
+## Published question-bank quizzes
+
+These routes use the shared, validated question bank in `src/lib/question-bank.ts` (90 questions across nine seeded categories, 10 per category). Registry summaries, categories, slugs, and locale routes remain defined in `src/lib/registry.ts`.
+
+Question copy supports locale overrides and falls back to the source English copy when a translation is not present. The brain-teaser bank includes Korean-localized question, answer, and explanation copy; other seeded bank questions still need editorial translation before their content is fully localized.
+
+- general-knowledge
+- easy-general-knowledge
+- hard-general-knowledge
+- random-general-knowledge
+- adult-general-knowledge
+- daily-life-quiz
+- nonsense
+- easy-nonsense-quiz
+- riddle-quiz
+- brain-teaser
+- easy-brain-teaser
+- hard-brain-teaser
+- number-pattern-quiz
+- logic-reasoning-quiz
+- random-brain-teaser
+- math-basic
+- math-advanced
+- mental-arithmetic-test
+- sequence-math-quiz
+- probability-quiz
+- history-knowledge-quiz
+- ancient-civilizations-quiz
+- modern-history-knowledge
+- science-knowledge-quiz
+- space-quiz
+- biology-knowledge-quiz
+- world-geography
+- capital-cities-quiz
+- country-knowledge-quiz
+- language-knowledge-quiz
+- english-vocabulary
+- it-development-quiz
+- programming-knowledge-quiz
+- random-quiz
+- random-math-10
+- random-nonsense-10
+- challenge-10
+- challenge-20
