@@ -1,7 +1,7 @@
 import type { Locale } from "./i18n";
-export type Category = "general"|"geography"|"science"|"history"|"math"|"language"|"technology"|"memory"|"speed"|"fun";
+export type Category = "general"|"nonsense"|"math"|"brain"|"history"|"science"|"geography"|"language"|"technology"|"memory"|"random"|"challenge"|"speed"|"fun";
 export type Difficulty = "easy"|"medium"|"hard"|"expert";
-export type QuestionMode = "static"|"dynamic"|"interactive";
+export type QuestionMode = "static"|"dynamic"|"interactive"|"bank";
 export type Quiz = { slug:string; category:Category; title:string; mode:QuestionMode; count:number|string; difficulty:Difficulty[]; tags:string[]; policyReviewRequired:boolean; isPublic:boolean; supportedLocales:Locale[]; summary:string };
 const specs: [Category,string,string,QuestionMode,number|string,Difficulty[],boolean][] = [
 ["general","general-knowledge-quiz","General Knowledge Quiz","static","pending",["easy","medium","hard"],false],["general","everyday-knowledge-quiz","Everyday Knowledge Quiz","static","pending",["easy","medium"],false],["general","difficult-general-knowledge-quiz","Difficult General Knowledge Quiz","static","pending",["hard","expert"],false],
@@ -15,7 +15,51 @@ const specs: [Category,string,string,QuestionMode,number|string,Difficulty[],boo
 ["speed","reaction-time-test","Reaction Time Test","interactive","interactive",["medium"],false],["speed","click-speed-test","Click Speed Test","interactive","interactive",["medium"],false],["speed","typing-speed-test","Typing Speed Test","interactive","interactive",["medium"],false],["speed","color-reaction-test","Color Reaction Test","interactive","interactive",["medium"],false],
 ["fun","random-trivia-challenge","Random Trivia Challenge","static","pending",["easy","medium","hard"],false],["fun","true-false-challenge","True or False Challenge","static","pending",["easy","medium"],false],["fun","impossible-quiz","Impossible Quiz","static","pending",["hard","expert"],false],["fun","mixed-hard-quiz","Mixed Hard Quiz","static","pending",["hard","expert"],false]
 ];
-export const categoryLabels: Record<Category,string> = {general:"General Knowledge",geography:"World Geography",science:"Science",history:"History",math:"Math",language:"Language",technology:"IT",memory:"Memory & Brain",speed:"Speed & Reaction",fun:"Just for Fun"};
-export const quizzes: Quiz[] = specs.map(([category,slug,title,mode,count,difficulty,policyReviewRequired])=>({category,slug,title,mode,count,difficulty,policyReviewRequired,isPublic:mode!=="static",supportedLocales:["ko","en","ja","zh","es","pt-br","de","fr","vi","id","th","zh-tw","it","nl","hi"],tags:[category,slug.replaceAll("-"," ")],summary:`A ${difficulty[0]}-to-${difficulty.at(-1)} ${title.toLowerCase()} for curious minds.`}));
+const bankSpecs: [Category,string,string,Difficulty[],string][] = [
+  ["general","general-knowledge","General Knowledge Quiz",["easy","medium"],"A broad set of timeless everyday facts, science basics, and world knowledge questions."],
+  ["general","easy-general-knowledge","Easy General Knowledge Quiz",["easy"],"A welcoming general knowledge round with clear, beginner-friendly questions."],
+  ["general","hard-general-knowledge","Hard General Knowledge Quiz",["hard"],"A challenging general knowledge set for players who want a tougher round."],
+  ["general","random-general-knowledge","Random General Knowledge Quiz",["easy","medium","hard"],"A fresh random selection of general knowledge questions on every attempt."],
+  ["general","adult-general-knowledge","Adult General Knowledge Quiz",["medium","hard"],"A mixed general knowledge quiz for adult players, focused on evergreen facts."],
+  ["general","daily-life-quiz","Everyday Life Quiz",["easy","medium"],"Test practical knowledge about measurements, objects, and everyday facts."],
+  ["nonsense","nonsense","Nonsense Riddles",["easy","medium"],"Short, playful riddles with one clear answer. Take a moment to spot the twist."],
+  ["nonsense","easy-nonsense-quiz","Easy Nonsense Quiz",["easy"],"A light set of familiar, accessible riddles for a quick break."],
+  ["nonsense","riddle-quiz","Riddle Quiz",["easy","medium"],"Solve concise riddles using careful reading and lateral thinking."],
+  ["brain","brain-teaser","Brain Teaser - Wake Up Your Brain",["easy","medium","hard"],"Try logic, patterns, numbers, and deduction puzzles to give your brain a gentle workout."],
+  ["brain","easy-brain-teaser","Easy Brain Teaser",["easy"],"Warm up with approachable logic and sequence puzzles."],
+  ["brain","hard-brain-teaser","Hard Brain Teaser",["hard"],"A tougher collection of logic, sequence, and lateral-thinking questions."],
+  ["brain","number-pattern-quiz","Number Pattern Quiz",["medium","hard"],"Find the rule behind number sequences and predict what comes next."],
+  ["brain","logic-reasoning-quiz","Logic and Reasoning Quiz",["medium","hard"],"Use clues, implications, and careful reasoning to solve each question."],
+  ["brain","random-brain-teaser","Random Brain Teaser",["easy","medium","hard"],"A new randomized mix of brain teasers on each round."],
+  ["math","math-basic","Basic Math Quiz",["easy","medium"],"Practice arithmetic, fractions, percentages, equations, and number patterns."],
+  ["math","math-advanced","Advanced Math Quiz",["hard"],"Challenge yourself with equations, probability, sequences, and multi-step math."],
+  ["math","mental-arithmetic-test","Mental Arithmetic Test",["easy","medium","hard"],"Solve arithmetic questions in your head with a fresh randomized set."],
+  ["math","sequence-math-quiz","Math Sequence Quiz",["medium","hard"],"Use arithmetic patterns and number sequences to find the missing term."],
+  ["math","probability-quiz","Probability Quiz",["medium","hard"],"Check your understanding of simple probability and fair outcomes."],
+  ["history","history-knowledge-quiz","History Knowledge Quiz",["easy","medium","hard"],"Explore enduring milestones and people from world history."],
+  ["history","ancient-civilizations-quiz","Ancient Civilizations Quiz",["easy","medium"],"Review facts about ancient Egypt, Greece, Rome, and other civilizations."],
+  ["history","modern-history-knowledge","Modern History Knowledge Quiz",["medium","hard"],"Test knowledge of major events from the modern era."],
+  ["science","science-knowledge-quiz","Science Knowledge Quiz",["easy","medium","hard"],"A broad science round covering physics, biology, chemistry, and space."],
+  ["science","space-quiz","Space and Astronomy Quiz",["easy","medium"],"Explore planets, stars, and basic facts about the universe."],
+  ["science","biology-knowledge-quiz","Biology Knowledge Quiz",["easy","medium"],"Review cells, living things, and core biology concepts."],
+  ["geography","world-geography","World Geography Quiz",["easy","medium","hard"],"Explore continents, oceans, countries, rivers, and world landmarks."],
+  ["geography","capital-cities-quiz","Capital Cities Quiz",["easy","medium"],"Test your knowledge of capital cities around the world."],
+  ["geography","country-knowledge-quiz","Country Knowledge Quiz",["easy","medium","hard"],"Identify countries through their geography, flags, and notable places."],
+  ["language","language-knowledge-quiz","Language Quiz",["easy","medium"],"Practice vocabulary, spelling, grammar, and language concepts."],
+  ["language","english-vocabulary","English Vocabulary Quiz",["easy","medium"],"Build English vocabulary with meanings, synonyms, and usage questions."],
+  ["technology","it-development-quiz","IT and Development Quiz",["easy","medium","hard"],"Test foundational knowledge of programming, databases, networks, and the web."],
+  ["technology","programming-knowledge-quiz","Programming Knowledge Quiz",["easy","medium","hard"],"Review core concepts shared by programming languages and tools."],
+  ["random","random-quiz","Fully Random Quiz",["easy","medium","hard"],"A mixed random set drawn from all available question categories."],
+  ["random","random-math-10","Random Math 10 Questions",["easy","medium","hard"],"Ten randomly selected math questions in a quick practice round."],
+  ["random","random-nonsense-10","Random Nonsense 10 Questions",["easy","medium"],"Ten playful riddles selected at random for a light challenge."],
+  ["challenge","challenge-10","10 Question Challenge",["easy","medium","hard"],"Take on a ten-question mixed challenge and check your final score."],
+  ["challenge","challenge-20","20 Question Challenge",["easy","medium","hard"],"Take on a longer twenty-question mixed challenge."],
+];
+export const categoryLabels: Record<Category,string> = {general:"General Knowledge",nonsense:"Nonsense & Riddles",math:"Math",brain:"Brain Teasers",history:"History",science:"Science",geography:"World Geography",language:"Language",technology:"IT & Development",memory:"Memory & Focus",random:"Random Quiz",challenge:"Challenge",speed:"Speed & Reaction",fun:"Just for Fun"};
+const supportedLocales: Locale[] = ["ko","en","ja","zh","es","pt-br","de","fr","vi","id","th","zh-tw","it","nl","hi"];
+export const quizzes: Quiz[] = [
+  ...specs.map(([category,slug,title,mode,count,difficulty,policyReviewRequired])=>({category,slug,title,mode,count,difficulty,policyReviewRequired,isPublic:mode!=="static",supportedLocales,tags:[category,slug.replaceAll("-"," ")],summary:`A ${difficulty[0]}-to-${difficulty.at(-1)} ${title.toLowerCase()} for curious minds.`})),
+  ...bankSpecs.map(([category,slug,title,difficulty,summary])=>({category,slug,title,mode:"bank" as const,count:10,policyReviewRequired:false,isPublic:true,supportedLocales,difficulty,tags:[category,slug.replaceAll("-"," ")],summary})),
+];
 export const categories = Object.keys(categoryLabels) as Category[];
 export function getQuiz(slug:string){return quizzes.find((quiz)=>quiz.slug===slug);}

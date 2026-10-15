@@ -30,14 +30,93 @@ const koreanTitles: Record<string, string> = {
   "general-knowledge-quiz":"일반 상식 퀴즈","everyday-knowledge-quiz":"생활 상식 퀴즈","difficult-general-knowledge-quiz":"고난도 일반 상식 퀴즈","world-capitals-quiz":"세계 수도 퀴즈","country-flags-quiz":"국기 퀴즈","country-currency-quiz":"국가별 통화 퀴즈","country-location-quiz":"국가 위치 퀴즈","asia-capitals-quiz":"아시아 수도 퀴즈","europe-capitals-quiz":"유럽 수도 퀴즈","world-geography-quiz":"세계 지리 퀴즈","basic-science-quiz":"기초 과학 퀴즈","physics-quiz":"물리 퀴즈","chemistry-quiz":"화학 퀴즈","biology-quiz":"생물 퀴즈","astronomy-quiz":"천문학 퀴즈","difficult-science-quiz":"고난도 과학 퀴즈","world-history-quiz":"세계사 퀴즈","korean-history-quiz":"한국사 퀴즈","ancient-history-quiz":"고대사 퀴즈","modern-history-quiz":"근현대사 퀴즈","addition-quiz":"덧셈 퀴즈","subtraction-quiz":"뺄셈 퀴즈","multiplication-quiz":"곱셈 퀴즈","division-quiz":"나눗셈 퀴즈","multiplication-table-quiz":"구구단 퀴즈","mental-math-quiz":"암산 퀴즈","fraction-quiz":"분수 퀴즈","percentage-quiz":"백분율 퀴즈","equation-quiz":"방정식 퀴즈","arithmetic-challenge":"산수 도전","english-vocabulary-quiz":"영어 어휘 퀴즈","english-spelling-quiz":"영어 철자 퀴즈","english-grammar-quiz":"영어 문법 퀴즈","hiragana-quiz":"히라가나 퀴즈","katakana-quiz":"가타카나 퀴즈","japanese-vocabulary-quiz":"일본어 어휘 퀴즈","chinese-character-quiz":"한자 퀴즈","korean-vocabulary-quiz":"한국어 어휘 퀴즈","computer-basics-quiz":"컴퓨터 기초 퀴즈","programming-basics-quiz":"프로그래밍 기초 퀴즈","web-development-quiz":"웹 개발 퀴즈","database-quiz":"데이터베이스 퀴즈","network-basics-quiz":"네트워크 기초 퀴즈","difficult-it-quiz":"고난도 IT 퀴즈","number-memory-test":"숫자 기억력 테스트","word-memory-test":"단어 기억력 테스트","sequence-memory-test":"순서 기억력 테스트","visual-memory-test":"시각 기억력 테스트","pattern-recognition-test":"패턴 인식 테스트","concentration-test":"집중력 테스트","reaction-time-test":"반응 속도 테스트","click-speed-test":"클릭 속도 테스트","typing-speed-test":"타자 속도 테스트","color-reaction-test":"색상 반응 테스트","random-trivia-challenge":"랜덤 상식 도전","true-false-challenge":"참·거짓 퀴즈","impossible-quiz":"불가능 퀴즈","mixed-hard-quiz":"종합 고난도 퀴즈"
 };
 
+const bankTerms: Record<Locale, Record<string, string>> = {
+  ko:{easy:"쉬운",adult:"성인",daily:"일상",life:"생활",nonsense:"넌센스",riddle:"수수께끼",brain:"두뇌",teaser:"티저",logic:"논리",reasoning:"추론",advanced:"심화",probability:"확률",civilizations:"문명",space:"우주",capital:"수도",cities:"도시",language:"언어",fully:"완전",10:"10",20:"20",question:"문제"},
+  en:{easy:"Easy",adult:"Adult",daily:"Daily",life:"Life",nonsense:"Nonsense",riddle:"Riddle",brain:"Brain",teaser:"Teaser",logic:"Logic",reasoning:"Reasoning",advanced:"Advanced",probability:"Probability",civilizations:"Civilizations",space:"Space",capital:"Capital",cities:"Cities",language:"Language",fully:"Fully",10:"10",20:"20",question:"Question"},
+  ja:{easy:"やさしい",adult:"大人",daily:"日常",life:"生活",nonsense:"ナンセンス",riddle:"なぞなぞ",brain:"脳",teaser:"パズル",logic:"論理",reasoning:"推理",advanced:"上級",probability:"確率",civilizations:"文明",space:"宇宙",capital:"首都",cities:"都市",language:"言語",fully:"完全",10:"10",20:"20",question:"問"},
+  zh:{easy:"简单",adult:"成人",daily:"日常",life:"生活",nonsense:"趣味",riddle:"谜语",brain:"脑力",teaser:"挑战",logic:"逻辑",reasoning:"推理",advanced:"进阶",probability:"概率",civilizations:"文明",space:"太空",capital:"首都",cities:"城市",language:"语言",fully:"完全",10:"10",20:"20",question:"题"},
+  es:{easy:"Fácil",adult:"Adulto",daily:"Diario",life:"Vida",nonsense:"Absurdo",riddle:"Adivinanzas",brain:"Cerebro",teaser:"Reto",logic:"Lógica",reasoning:"Razonamiento",advanced:"Avanzado",probability:"Probabilidad",civilizations:"Civilizaciones",space:"Espacio",capital:"Capitales",cities:"Ciudades",language:"Idioma",fully:"Totalmente",10:"10",20:"20",question:"Preguntas"},
+  "pt-br":{easy:"Fácil",adult:"Adulto",daily:"Diário",life:"Vida",nonsense:"Charadas",riddle:"Adivinhas",brain:"Cérebro",teaser:"Desafio",logic:"Lógica",reasoning:"Raciocínio",advanced:"Avançado",probability:"Probabilidade",civilizations:"Civilizações",space:"Espaço",capital:"Capitais",cities:"Cidades",language:"Idioma",fully:"Totalmente",10:"10",20:"20",question:"Perguntas"},
+  de:{easy:"Einfach",adult:"Erwachsene",daily:"Alltag",life:"Leben",nonsense:"Unsinn",riddle:"Rätsel",brain:"Gehirn",teaser:"Knobel",logic:"Logik",reasoning:"Denken",advanced:"Fortgeschritten",probability:"Wahrscheinlichkeit",civilizations:"Zivilisationen",space:"Weltraum",capital:"Hauptstädte",cities:"Städte",language:"Sprache",fully:"Komplett",10:"10",20:"20",question:"Fragen"},
+  fr:{easy:"Facile",adult:"Adulte",daily:"Quotidien",life:"Vie",nonsense:"Loufoque",riddle:"Devinettes",brain:"Cerveau",teaser:"Défi",logic:"Logique",reasoning:"Raisonnement",advanced:"Avancé",probability:"Probabilité",civilizations:"Civilisations",space:"Espace",capital:"Capitales",cities:"Villes",language:"Langue",fully:"Entièrement",10:"10",20:"20",question:"Questions"},
+  vi:{easy:"Dễ",adult:"Người lớn",daily:"Hằng ngày",life:"Đời sống",nonsense:"Đố vui",riddle:"Câu đố",brain:"Trí não",teaser:"Thử thách",logic:"Logic",reasoning:"Suy luận",advanced:"Nâng cao",probability:"Xác suất",civilizations:"Nền văn minh",space:"Vũ trụ",capital:"Thủ đô",cities:"Thành phố",language:"Ngôn ngữ",fully:"Toàn bộ",10:"10",20:"20",question:"Câu hỏi"},
+  id:{easy:"Mudah",adult:"Dewasa",daily:"Harian",life:"Kehidupan",nonsense:"Teka-teki lucu",riddle:"Teka-teki",brain:"Otak",teaser:"Tantangan",logic:"Logika",reasoning:"Penalaran",advanced:"Lanjutan",probability:"Probabilitas",civilizations:"Peradaban",space:"Antariksa",capital:"Ibu kota",cities:"Kota",language:"Bahasa",fully:"Sepenuhnya",10:"10",20:"20",question:"Soal"},
+  th:{easy:"ง่าย",adult:"ผู้ใหญ่",daily:"ประจำวัน",life:"ชีวิต",nonsense:"ปริศนาชวนขำ",riddle:"ปริศนา",brain:"สมอง",teaser:"ท้าทาย",logic:"ตรรกะ",reasoning:"การคิด",advanced:"ขั้นสูง",probability:"ความน่าจะเป็น",civilizations:"อารยธรรม",space:"อวกาศ",capital:"เมืองหลวง",cities:"เมือง",language:"ภาษา",fully:"ครบถ้วน",10:"10",20:"20",question:"ข้อ"},
+  "zh-tw":{easy:"簡單",adult:"成人",daily:"日常",life:"生活",nonsense:"趣味",riddle:"謎語",brain:"腦力",teaser:"挑戰",logic:"邏輯",reasoning:"推理",advanced:"進階",probability:"機率",civilizations:"文明",space:"太空",capital:"首都",cities:"城市",language:"語言",fully:"完全",10:"10",20:"20",question:"題"},
+  it:{easy:"Facile",adult:"Adulti",daily:"Quotidiano",life:"Vita",nonsense:"Assurdo",riddle:"Indovinelli",brain:"Cervello",teaser:"Sfida",logic:"Logica",reasoning:"Ragionamento",advanced:"Avanzato",probability:"Probabilità",civilizations:"Civiltà",space:"Spazio",capital:"Capitali",cities:"Città",language:"Lingua",fully:"Completo",10:"10",20:"20",question:"Domande"},
+  nl:{easy:"Makkelijke",adult:"Volwassenen",daily:"Dagelijkse",life:"Levens",nonsense:"Gekke",riddle:"Raadsels",brain:"Brein",teaser:"Puzzel",logic:"Logica",reasoning:"Redeneren",advanced:"Gevorderde",probability:"Kansberekening",civilizations:"Beschavingen",space:"Ruimte",capital:"Hoofdsteden",cities:"Steden",language:"Taal",fully:"Volledig",10:"10",20:"20",question:"Vragen"},
+  hi:{easy:"आसान",adult:"वयस्क",daily:"दैनिक",life:"जीवन",nonsense:"मज़ेदार",riddle:"पहेली",brain:"दिमाग़",teaser:"चुनौती",logic:"तर्क",reasoning:"अनुमान",advanced:"उन्नत",probability:"प्रायिकता",civilizations:"सभ्यताएँ",space:"अंतरिक्ष",capital:"राजधानियाँ",cities:"शहर",language:"भाषा",fully:"पूर्ण",10:"10",20:"20",question:"प्रश्न"},
+};
+
+const addedCategoryLabels: Record<Locale, Record<"nonsense" | "brain" | "random" | "challenge", string>> = {
+  ko:{nonsense:"넌센스·수수께끼",brain:"브레인 티저",random:"랜덤 퀴즈",challenge:"챌린지"},
+  en:{nonsense:"Nonsense & Riddles",brain:"Brain Teasers",random:"Random Quiz",challenge:"Challenge"},
+  ja:{nonsense:"ナンセンス・なぞなぞ",brain:"脳トレ",random:"ランダムクイズ",challenge:"チャレンジ"},
+  zh:{nonsense:"趣味谜题",brain:"脑力挑战",random:"随机测验",challenge:"挑战"},
+  es:{nonsense:"Acertijos y adivinanzas",brain:"Retos mentales",random:"Quiz aleatorio",challenge:"Desafío"},
+  "pt-br":{nonsense:"Charadas e adivinhas",brain:"Desafios para o cérebro",random:"Quiz aleatório",challenge:"Desafio"},
+  de:{nonsense:"Unsinn & Rätsel",brain:"Knobelaufgaben",random:"Zufallsquiz",challenge:"Herausforderung"},
+  fr:{nonsense:"Devinettes et énigmes",brain:"Défis cérébraux",random:"Quiz aléatoire",challenge:"Défi"},
+  vi:{nonsense:"Đố vui và câu đố",brain:"Thử thách trí não",random:"Câu đố ngẫu nhiên",challenge:"Thử thách"},
+  id:{nonsense:"Teka-teki lucu",brain:"Asah otak",random:"Kuis acak",challenge:"Tantangan"},
+  th:{nonsense:"ปริศนาชวนสนุก",brain:"ท้าทายสมอง",random:"ควิซสุ่ม",challenge:"ชาเลนจ์"},
+  "zh-tw":{nonsense:"趣味謎題",brain:"腦力挑戰",random:"隨機測驗",challenge:"挑戰"},
+  it:{nonsense:"Indovinelli e rompicapi",brain:"Sfide per la mente",random:"Quiz casuale",challenge:"Sfida"},
+  nl:{nonsense:"Gekke raadsels",brain:"Breinbrekers",random:"Willekeurige quiz",challenge:"Uitdaging"},
+  hi:{nonsense:"मज़ेदार पहेलियाँ",brain:"दिमाग़ी चुनौती",random:"रैंडम क्विज़",challenge:"चुनौती"},
+};
+
+export function quizCategoryName(locale: Locale, category: string): string {
+  if (category in addedCategoryLabels[locale]) return addedCategoryLabels[locale][category as keyof typeof addedCategoryLabels[Locale]];
+  return uiMessages[locale].category[category] ?? category;
+}
+
 export function quizTitle(locale: Locale, quiz: Pick<Quiz, "slug" | "title">): string {
+  if (quiz.slug === "brain-teaser") return brainTeaserTitles[locale];
   if (locale === "en") return quiz.title;
-  if (locale === "ko") return koreanTitles[quiz.slug] ?? quiz.title;
+  if (locale === "ko" && koreanTitles[quiz.slug]) return koreanTitles[quiz.slug];
   const localized = localizedTerms[locale];
   const replacements = new Map<string, string>(terms.map((term, index) => [term, localized[index] ?? term]));
   for (const [term, translation] of Object.entries(extraTerms[locale])) replacements.set(term, translation);
+  for (const [term, translation] of Object.entries(bankTerms[locale])) replacements.set(term, translation);
   const words = quiz.slug.split("-").map((word) => replacements.get(word) ?? word);
   return ["ja", "zh", "zh-tw"].includes(locale) ? words.join("") : words.join(" ");
+}
+
+const brainTeaserTitles: Record<Locale, string> = {
+  ko: "뇌를 깨우는 퀴즈 - 브레인 티저", en: "Brain Teaser - Wake Up Your Brain",
+  ja: "脳を目覚めさせるクイズ - ブレインティーザー", zh: "唤醒大脑的谜题 - 脑力挑战",
+  es: "Despierta tu mente - Acertijos", "pt-br": "Desperte seu cérebro - Desafios de lógica",
+  de: "Wecke dein Gehirn – Knobelquiz", fr: "Réveillez votre esprit – Casse-tête",
+  vi: "Đánh thức trí não – Câu đố tư duy", id: "Asah Otak dengan Teka-teki",
+  th: "ปลุกสมองด้วยเกมปริศนา", "zh-tw": "喚醒大腦的謎題－腦力挑戰",
+  it: "Risveglia la mente – Rompicapi", nl: "Prikkel je brein – Breinbrekers",
+  hi: "दिमाग़ जगाने वाली पहेलियाँ",
+};
+
+export function quizSeoCopy(locale: Locale, quiz: Quiz): { title: string; description: string } {
+  if (quiz.slug === "brain-teaser") {
+    const descriptions: Record<Locale, string> = {
+      ko: "가볍게 풀면서 뇌를 깨워보세요. 논리, 패턴, 숫자, 기억력, 추리 문제로 구성된 브레인 티저 퀴즈를 무료로 즐길 수 있습니다.",
+      en: "Wake up your brain with free logic, pattern, number, memory, and deduction puzzles in this brain teaser quiz.",
+      ja: "論理、パターン、数字、記憶、推理の問題に挑戦して、気軽に頭をリフレッシュしましょう。",
+      zh: "通过逻辑、规律、数字、记忆和推理题轻松唤醒大脑，免费享受脑力挑战。",
+      es: "Despierta tu mente con retos gratuitos de lógica, patrones, números, memoria y deducción.",
+      "pt-br": "Desperte a mente com desafios gratuitos de lógica, padrões, números, memória e dedução.",
+      de: "Bringe dein Gehirn mit kostenlosen Rätseln zu Logik, Mustern, Zahlen, Gedächtnis und Schlussfolgern in Schwung.",
+      fr: "Réveillez votre esprit avec des énigmes gratuites de logique, de suites, de nombres, de mémoire et de déduction.",
+      vi: "Đánh thức trí não với các câu đố miễn phí về logic, quy luật, con số, trí nhớ và suy luận.",
+      id: "Asah otak dengan teka-teki gratis tentang logika, pola, angka, ingatan, dan penalaran.",
+      th: "ปลุกสมองด้วยปริศนาฟรีเกี่ยวกับตรรกะ รูปแบบ ตัวเลข ความจำ และการใช้เหตุผล",
+      "zh-tw": "透過邏輯、規律、數字、記憶與推理題輕鬆喚醒大腦，免費享受腦力挑戰。",
+      it: "Risveglia la mente con rompicapi gratuiti di logica, schemi, numeri, memoria e deduzione.",
+      nl: "Prikkel je brein met gratis puzzels over logica, patronen, getallen, geheugen en redeneren.",
+      hi: "तर्क, पैटर्न, संख्या, स्मृति और अनुमान वाली मुफ़्त पहेलियों से अपने दिमाग़ को सक्रिय करें।",
+    };
+    return { title: `${brainTeaserTitles[locale]} | woori.today`, description: descriptions[locale] };
+  }
+  const title = quizTitle(locale, quiz);
+  return { title: `${title} | woori.today`, description: uiMessages[locale].quizSummary(title) };
 }
 
 export function quizSummary(locale: Locale, title: string): string {
@@ -53,12 +132,12 @@ export function localizeMathPrompt(locale: Locale, prompt: string): string {
 }
 
 export function hasQuizTermTranslations(locale: Locale, slugs: readonly string[]): boolean {
-  const translated = new Set<string>([...terms, ...Object.keys(extraTerms[locale])]);
+  const translated = new Set<string>([...terms, ...Object.keys(extraTerms[locale]), ...Object.keys(bankTerms[locale])]);
   const localized = localizedTerms[locale];
   return localized.length === terms.length && slugs.every((slug) => slug.split("-").every((word) => translated.has(word)));
 }
 
 export function missingQuizTitleWords(slugs: readonly string[]): string[] {
-  const translated = new Set<string>([...terms, ...Object.keys(extraTerms.en)]);
+  const translated = new Set<string>([...terms, ...Object.keys(extraTerms.en), ...Object.keys(bankTerms.en)]);
   return [...new Set(slugs.flatMap((slug) => slug.split("-").filter((word) => !translated.has(word))))];
 }

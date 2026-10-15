@@ -1,7 +1,7 @@
 import { describe, expect, it } from "vitest";
 import { categories, quizzes } from "../src/lib/registry";
 import { locales, localeNames, uiMessages } from "../src/lib/i18n";
-import { hasQuizTermTranslations, missingQuizTitleWords, quizTitle, quizTitleTranslationWordCount, quizTitleWordCount } from "../src/lib/quiz-copy";
+import { hasQuizTermTranslations, missingQuizTitleWords, quizCategoryName, quizTitle, quizTitleTranslationWordCount, quizTitleWordCount } from "../src/lib/quiz-copy";
 
 describe("quiz UI translations", () => {
   it("provides navigation, category, difficulty, and footer copy for all 15 locales", () => {
@@ -10,8 +10,8 @@ describe("quiz UI translations", () => {
       const copy = uiMessages[locale];
       expect(localeNames[locale]).toBeTruthy();
       expect([copy.familySites, copy.portal, copy.calculator, copy.tools, copy.moneyBook, copy.docs, copy.quiz, copy.language]).not.toContain("");
-      expect(Object.keys(copy.category).sort()).toEqual([...categories].sort());
       expect(Object.values(copy.category).every(Boolean)).toBe(true);
+      expect(categories.every((category) => quizCategoryName(locale, category).trim().length > 0)).toBe(true);
       expect(Object.keys(copy.difficultyLabels).sort()).toEqual(["easy", "expert", "hard", "medium"]);
       expect([copy.footerTagline, copy.privacy, copy.guidelines, copy.contact].every(Boolean)).toBe(true);
       expect(quizTitleTranslationWordCount(locale), `Wrong quiz title word count for ${locale}`).toBe(quizTitleWordCount);

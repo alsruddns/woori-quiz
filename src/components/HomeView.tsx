@@ -6,7 +6,7 @@ import Link from "next/link";
 import { categories, quizzes } from "@/lib/registry";
 import { isLocale, messages, uiMessages } from "@/lib/i18n";
 import { quizPath } from "@/lib/urls";
-import { quizSummary, quizTitle } from "@/lib/quiz-copy";
+import { quizCategoryName, quizSummary, quizTitle } from "@/lib/quiz-copy";
 import { SiteHeader } from "@/components/SiteHeader";
 import { SiteFooter } from "@/components/SiteFooter";
 
@@ -33,10 +33,10 @@ export function HomeView({ locale: rawLocale }: { locale: string }) {
 
   const visible = useMemo(() => quizzes.filter((quiz) => {
     const title = quizTitle(locale, quiz);
-    const category = t.category[quiz.category];
+    const category = quizCategoryName(locale, quiz.category);
     return (active === "all" || quiz.category === active)
       && `${title} ${quiz.title} ${quiz.slug} ${category}`.toLocaleLowerCase(locale).includes(query.toLocaleLowerCase(locale));
-  }), [active, locale, query, t.category]);
+  }), [active, locale, query]);
   const today = quizzes[day % quizzes.length];
   const todayTitle = quizTitle(locale, today);
 
@@ -49,7 +49,7 @@ export function HomeView({ locale: rawLocale }: { locale: string }) {
           <span aria-hidden="true">✦</span>{t.allQuizzes}
         </button>
         {categories.map((category) => <button className={active === category ? "side-link selected" : "side-link"} onClick={() => setActive(category)} key={category}>
-          <span aria-hidden="true">{icon[category]}</span>{t.category[category]}
+          <span aria-hidden="true">{icon[category]}</span>{quizCategoryName(locale, category)}
         </button>)}
         <div className="side-note"><span className="dot"/>{t.freeToPlay}<br/>{t.noAccount}</div>
       </aside>
@@ -78,13 +78,25 @@ export function HomeView({ locale: rawLocale }: { locale: string }) {
           </div><div className="today-graphic" aria-hidden="true"><span>✷</span><b>?</b><i>✦</i></div></div>
         </section>
 
+        <section className="quiz-section random-section">
+          <div className="section-head"><div><span className="eyebrow">{t.nextChallenge}</span><h2>{t.category.fun}</h2></div></div>
+          <div className="quiz-grid">{["random-general-knowledge", "random-math-10", "random-nonsense-10", "random-brain-teaser", "random-quiz", "challenge-10"].map((slug) => {
+            const quiz = quizzes.find((item) => item.slug === slug);
+            if (!quiz) return null;
+            const randomTitle = quizTitle(locale, quiz);
+            return <Link className="quiz-card" href={quizPath(locale, slug)} key={slug}>
+              <span className="card-category">{quizCategoryName(locale, quiz.category)}</span><h3>{randomTitle}</h3><p>{quizSummary(locale, randomTitle)}</p>
+            </Link>;
+          })}</div>
+        </section>
+
         <section className="quiz-section">
-          <div className="section-head"><div><span className="eyebrow">{t.nextChallenge}</span><h2>{active === "all" ? base.popular : t.category[active]}</h2></div><span className="result-count">{t.quizCount(visible.length)}</span></div>
+          <div className="section-head"><div><span className="eyebrow">{t.nextChallenge}</span><h2>{active === "all" ? base.popular : quizCategoryName(locale, active as keyof typeof icon)}</h2></div><span className="result-count">{t.quizCount(visible.length)}</span></div>
           {visible.length === 0 ? <p className="empty-state" role="status">{t.searchEmpty}</p> : <div className="quiz-grid">{visible.map((quiz, index) => {
             const title = quizTitle(locale, quiz);
             return <Link className="quiz-card" href={quizPath(locale, quiz.slug)} key={quiz.slug}>
               <span className={`card-icon color-${index % 6}`} aria-hidden="true">{icon[quiz.category]}</span>
-              <span className="card-category">{t.category[quiz.category]}</span>
+              <span className="card-category">{quizCategoryName(locale, quiz.category)}</span>
               <h3>{title}</h3>
               <p>{quizSummary(locale, title)}</p>
               <div className="card-meta"><span>{quiz.mode === "dynamic" ? t.dynamicGeneration : quiz.mode === "interactive" ? t.interactiveTest : t.questionSetReview}</span><span>{t.difficultyLabels[quiz.difficulty[0]]}</span></div>
@@ -98,4 +110,4 @@ export function HomeView({ locale: rawLocale }: { locale: string }) {
   </>;
 }
 
-const icon: Record<string, string> = { general:"✳", geography:"◎", science:"⚗", history:"◷", math:"＋", language:"文", technology:"⌘", memory:"▦", speed:"↯", fun:"☻" };
+const icon: Record<string, string> = { general:"✳", nonsense:"❔", math:"＋", brain:"◇", history:"◷", science:"⚗", geography:"◎", language:"文", technology:"⌘", memory:"▦", random:"⤨", challenge:"⚑", speed:"↯", fun:"☻" };
