@@ -20,6 +20,33 @@ hi:{title:"क्विज़",subtitle:"हर दिन अपनी जिज
 };
 export function isLocale(value:string): value is Locale { return (locales as readonly string[]).includes(value); }
 
+type DiscoveryCopy = {
+  intro: string;
+  quickStart: string;
+  searchResults: string;
+  browseCategories: string;
+  clearSearch: string;
+  resultsFor: (query: string, count: number) => string;
+};
+
+export const discoveryCopy: Record<Locale, DiscoveryCopy> = {
+  ko:{intro:"상식부터 수학, 브레인 티저까지 원하는 퀴즈에 도전해 보세요.",quickStart:"빠르게 시작하기",searchResults:"검색 결과",browseCategories:"카테고리 선택",clearSearch:"검색어 지우기",resultsFor:(q,n)=>`“${q}” 검색 결과 · 퀴즈 ${n}개`},
+  en:{intro:"Explore quizzes from general knowledge and math to brain teasers.",quickStart:"Quick start",searchResults:"Search results",browseCategories:"Choose a category",clearSearch:"Clear search",resultsFor:(q,n)=>`${n} quizzes for “${q}”`},
+  ja:{intro:"一般常識から数学、脳トレまで、好きなクイズに挑戦しましょう。",quickStart:"すぐに始める",searchResults:"検索結果",browseCategories:"カテゴリーを選ぶ",clearSearch:"検索語を消去",resultsFor:(q,n)=>`「${q}」の検索結果：${n}件`},
+  zh:{intro:"从常识、数学到脑力挑战，选择喜欢的测验开始吧。",quickStart:"快速开始",searchResults:"搜索结果",browseCategories:"选择类别",clearSearch:"清除搜索",resultsFor:(q,n)=>`“${q}”的搜索结果：${n} 个测验`},
+  es:{intro:"Explora desafíos de cultura general, matemáticas y lógica.",quickStart:"Empieza rápido",searchResults:"Resultados de búsqueda",browseCategories:"Elige una categoría",clearSearch:"Borrar búsqueda",resultsFor:(q,n)=>`${n} cuestionarios para «${q}»`},
+  "pt-br":{intro:"Explore quizzes de conhecimentos gerais, matemática e desafios mentais.",quickStart:"Comece agora",searchResults:"Resultados da busca",browseCategories:"Escolha uma categoria",clearSearch:"Limpar busca",resultsFor:(q,n)=>`${n} quizzes para “${q}”`},
+  de:{intro:"Entdecke Quiz zu Allgemeinwissen, Mathematik und Knobelaufgaben.",quickStart:"Schnell starten",searchResults:"Suchergebnisse",browseCategories:"Kategorie wählen",clearSearch:"Suche löschen",resultsFor:(q,n)=>`${n} Quiz für „${q}“`},
+  fr:{intro:"Explorez des quiz de culture générale, de maths et de logique.",quickStart:"Commencer vite",searchResults:"Résultats de recherche",browseCategories:"Choisir une catégorie",clearSearch:"Effacer la recherche",resultsFor:(q,n)=>`${n} quiz pour « ${q} »`},
+  vi:{intro:"Khám phá câu đố kiến thức, toán học và thử thách trí não.",quickStart:"Bắt đầu nhanh",searchResults:"Kết quả tìm kiếm",browseCategories:"Chọn danh mục",clearSearch:"Xóa tìm kiếm",resultsFor:(q,n)=>`${n} câu đố cho “${q}”`},
+  id:{intro:"Jelajahi kuis pengetahuan umum, matematika, dan asah otak.",quickStart:"Mulai cepat",searchResults:"Hasil pencarian",browseCategories:"Pilih kategori",clearSearch:"Hapus pencarian",resultsFor:(q,n)=>`${n} kuis untuk “${q}”`},
+  th:{intro:"เลือกทำแบบทดสอบความรู้ คณิตศาสตร์ และปริศนาฝึกสมอง",quickStart:"เริ่มได้ทันที",searchResults:"ผลการค้นหา",browseCategories:"เลือกหมวดหมู่",clearSearch:"ล้างคำค้นหา",resultsFor:(q,n)=>`พบ ${n} แบบทดสอบสำหรับ “${q}”`},
+  "zh-tw":{intro:"從常識、數學到腦力挑戰，選擇喜歡的測驗開始吧。",quickStart:"快速開始",searchResults:"搜尋結果",browseCategories:"選擇類別",clearSearch:"清除搜尋",resultsFor:(q,n)=>`「${q}」的搜尋結果：${n} 個測驗`},
+  it:{intro:"Esplora quiz di cultura generale, matematica e logica.",quickStart:"Inizia subito",searchResults:"Risultati di ricerca",browseCategories:"Scegli una categoria",clearSearch:"Cancella la ricerca",resultsFor:(q,n)=>`${n} quiz per “${q}”`},
+  nl:{intro:"Ontdek quizzen over algemene kennis, wiskunde en denkpuzzels.",quickStart:"Snel beginnen",searchResults:"Zoekresultaten",browseCategories:"Kies een categorie",clearSearch:"Zoekopdracht wissen",resultsFor:(q,n)=>`${n} quizzen voor ‘${q}’`},
+  hi:{intro:"सामान्य ज्ञान, गणित और दिमाग़ी पहेलियों में अपनी पसंद का क्विज़ चुनें।",quickStart:"तुरंत शुरू करें",searchResults:"खोज के परिणाम",browseCategories:"श्रेणी चुनें",clearSearch:"खोज मिटाएँ",resultsFor:(q,n)=>`“${q}” के लिए ${n} क्विज़`},
+};
+
 export type UiMessages = {
   familySites: string; portal: string; calculator: string; tools: string; moneyBook: string; docs: string; quiz: string;
   language: string; openMenu: string; closeMenu: string; allQuizzes: string; freeToPlay: string; noAccount: string;

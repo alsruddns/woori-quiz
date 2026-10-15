@@ -1,113 +1,136 @@
 "use client";
 
-import { useEffect, useMemo, useRef, useState, useSyncExternalStore } from "react";
-import { AdSlot } from "@/components/AdSlot";
+import { useEffect, useRef, useSyncExternalStore } from "react";
 import Link from "next/link";
-import { categories, quizzes } from "@/lib/registry";
-import { isLocale, messages, uiMessages } from "@/lib/i18n";
-import { quizPath } from "@/lib/urls";
-import { quizCategoryName, quizSummary, quizTitle } from "@/lib/quiz-copy";
+import { AdSlot } from "@/components/AdSlot";
 import { SiteHeader } from "@/components/SiteHeader";
 import { SiteFooter } from "@/components/SiteFooter";
+import { discoveryCopy, isLocale, messages, uiMessages } from "@/lib/i18n";
+import { categories, quizzes, type Quiz, type Category } from "@/lib/registry";
+import { discoveryQuizzes, discoveryState } from "@/lib/discovery";
+import { quizCategoryName, quizSummary, quizTitle } from "@/lib/quiz-copy";
+import { quizPath } from "@/lib/urls";
+
+const urlEvent = "quiz-discovery-url";
+const subscribe = (notify: () => void) => {
+  window.addEventListener("popstate", notify);
+  window.addEventListener(urlEvent, notify);
+  return () => {
+    window.removeEventListener("popstate", notify);
+    window.removeEventListener(urlEvent, notify);
+  };
+};
+const currentSearch = () => window.location.search;
+const serverSearch = () => "";
+
+function updateSearch(change: (params: URLSearchParams) => void, push = false) {
+  const url = new URL(window.location.href);
+  change(url.searchParams);
+  const next = `${url.pathname}${url.search}${url.hash}`;
+  if (next === `${window.location.pathname}${window.location.search}${window.location.hash}`) return;
+  window.history[push ? "pushState" : "replaceState"](null, "", next);
+  window.dispatchEvent(new Event(urlEvent));
+}
+
+const quickSlugs = ["random-quiz", "random-general-knowledge", "random-math-10", "brain-teaser"];
+const featuredSlugs = ["general-knowledge", "brain-teaser", "math-basic", "world-geography", "it-development-quiz", "random-quiz"];
 
 export function HomeView({ locale: rawLocale }: { locale: string }) {
   const locale = isLocale(rawLocale) ? rawLocale : "en";
   const t = uiMessages[locale];
+  const copy = discoveryCopy[locale];
   const base = messages[locale];
-  const [query, setQuery] = useState("");
-  const [active, setActive] = useState("all");
-  const day = useSyncExternalStore(() => () => {}, () => {
-    const now = new Date();
-    return now.getUTCFullYear() * 372 + (now.getUTCMonth() + 1) * 31 + now.getUTCDate();
-  }, () => 0);
-  const sidebarRef = useRef<HTMLElement>(null);
+  const search = useSyncExternalStore(subscribe, currentSearch, serverSearch);
+  const { mode, category, query } = discoveryState(search, categories);
+  const visible = discoveryQuizzes(quizzes, locale, search, categories);
+  const mainRef = useRef<HTMLElement>(null);
+  const mobileMenuRef = useRef<HTMLDetailsElement>(null);
 
   useEffect(() => {
-    const node = sidebarRef.current;
+    if (mode === "home") return;
+    const node = mainRef.current;
     if (!node) return;
-    node.scrollTop = Number(localStorage.getItem("woori-quiz:sidebar-scroll") || 0);
-    const save = () => localStorage.setItem("woori-quiz:sidebar-scroll", String(node.scrollTop));
-    node.addEventListener("scroll", save, { passive: true });
-    return () => node.removeEventListener("scroll", save);
-  }, []);
+    const top = node.getBoundingClientRect().top + window.scrollY - 82;
+    if (window.scrollY > top + 24) window.scrollTo({ top, behavior: "smooth" });
+  }, [mode, category]);
 
-  const visible = useMemo(() => quizzes.filter((quiz) => {
+  function selectCategory(value: Category | "all") {
+    updateSearch((params) => {
+      params.set("category", value);
+      params.delete("q");
+    }, true);
+    if (mobileMenuRef.current) mobileMenuRef.current.open = false;
+    const node = mainRef.current;
+    if (node) window.scrollTo({ top: Math.max(0, node.getBoundingClientRect().top + window.scrollY - 82), behavior: "smooth" });
+  }
+
+  function setQuery(value: string) {
+    updateSearch((params) => value.trim() ? params.set("q", value) : params.delete("q"));
+  }
+
+  const searchField = <label className="discovery-search">
+    <span className="sr-only">{t.searchLabel}</span>
+    <span aria-hidden="true">⌕</span>
+    <input type="search" value={query} onChange={(event) => setQuery(event.target.value)} placeholder={t.searchLabel} aria-label={t.searchLabel}/>
+    {query && <button type="button" onClick={() => setQuery("")} aria-label={copy.clearSearch}>×</button>}
+  </label>;
+
+  const categoryButtons = <>
+    <button type="button" className={`side-link${mode === "all" ? " selected" : ""}`} aria-current={mode === "all" ? "page" : undefined} onClick={() => selectCategory("all")}><span aria-hidden="true">▦</span>{t.allQuizzes}</button>
+    {categories.map((item) => <button type="button" className={`side-link${mode === "category" && category === item ? " selected" : ""}`} aria-current={mode === "category" && category === item ? "page" : undefined} onClick={() => selectCategory(item)} key={item}><span aria-hidden="true">{icon[item]}</span>{quizCategoryName(locale, item)}</button>)}
+  </>;
+
+  const cards = (items: Quiz[]) => <div className="quiz-grid">{items.map((quiz) => {
     const title = quizTitle(locale, quiz);
-    const category = quizCategoryName(locale, quiz.category);
-    return (active === "all" || quiz.category === active)
-      && `${title} ${quiz.title} ${quiz.slug} ${category}`.toLocaleLowerCase(locale).includes(query.toLocaleLowerCase(locale));
-  }), [active, locale, query]);
-  const today = quizzes[day % quizzes.length];
-  const todayTitle = quizTitle(locale, today);
+    return <Link className="quiz-card" href={quizPath(locale, quiz.slug)} key={quiz.slug}>
+      <span className="card-category">{quizCategoryName(locale, quiz.category)}</span>
+      <h3>{title}</h3>
+      <p>{quizSummary(locale, title)}</p>
+      <div className="card-meta"><span>{typeof quiz.count === "number" ? t.questionCount(quiz.count) : quiz.mode === "dynamic" ? t.dynamicGeneration : quiz.mode === "interactive" ? t.interactiveTest : t.questionSetReview}</span><span>{t.difficultyLabels[quiz.difficulty[0]]}</span></div>
+      <span className="card-action">{base.play}<span aria-hidden="true"> →</span></span>
+    </Link>;
+  })}</div>;
 
-  return <>
+  const heading = mode === "search" ? copy.searchResults : mode === "category" && category ? quizCategoryName(locale, category) : t.allQuizzes;
+
+  return <div className="discovery-page">
     <SiteHeader locale={locale} logoHref={`/${locale}`} />
-    <div className="layout">
-      <aside ref={sidebarRef} className="sidebar" aria-label={base.categories}>
-        <div className="side-heading">{base.categories}</div>
-        <button className={active === "all" ? "side-link selected" : "side-link"} onClick={() => setActive("all")}>
-          <span aria-hidden="true">✦</span>{t.allQuizzes}
-        </button>
-        {categories.map((category) => <button className={active === category ? "side-link selected" : "side-link"} onClick={() => setActive(category)} key={category}>
-          <span aria-hidden="true">{icon[category]}</span>{quizCategoryName(locale, category)}
-        </button>)}
-        <div className="side-note"><span className="dot"/>{t.freeToPlay}<br/>{t.noAccount}</div>
+    <div className="layout discovery-layout">
+      <aside className="sidebar discovery-sidebar" aria-label={base.categories}>
+        <div className="desktop-discovery-nav">{searchField}<div className="side-heading">{base.categories}</div>{categoryButtons}</div>
+        <div className="mobile-discovery-nav">{searchField}<details ref={mobileMenuRef}><summary>{mode === "category" && category ? quizCategoryName(locale, category) : copy.browseCategories}<span aria-hidden="true">⌄</span></summary><div className="mobile-category-list">{categoryButtons}</div></details></div>
       </aside>
 
-      <main className="content">
-        <div className="hero">
-          <div className="hero-copy">
-            <span className="eyebrow">{t.heroEyebrow}</span>
-            <h1>{t.heroTitle}</h1>
-            <p>{t.heroDescription}</p>
-            <label className="search"><span aria-hidden="true">⌕</span>
-              <input value={query} onChange={(event) => setQuery(event.target.value)} placeholder={t.searchLabel} aria-label={t.searchLabel}/>
-              <kbd>⌘ K</kbd>
-            </label>
-          </div>
-          <div className="hero-art" aria-hidden="true"><div className="sun"/><div className="quiz-card-art"><span>✳</span><b>Q</b><small>{t.quiz}</small></div><div className="spark spark-a">✦</div><div className="spark spark-b">✳</div><div className="art-caption">{t.heroEyebrow}</div></div>
-        </div>
-
-        <AdSlot/>
-        <section className="today-section">
-          <div className="today-card"><div>
-            <span className="eyebrow">✦　{base.today}</span>
-            <h2>{todayTitle}</h2>
-            <p>{quizSummary(locale, todayTitle)}</p>
-            <Link className="button primary" href={quizPath(locale, today.slug)}>{base.play}<span aria-hidden="true">→</span></Link>
-          </div><div className="today-graphic" aria-hidden="true"><span>✷</span><b>?</b><i>✦</i></div></div>
-        </section>
-
-        <section className="quiz-section random-section">
-          <div className="section-head"><div><span className="eyebrow">{t.nextChallenge}</span><h2>{t.category.fun}</h2></div></div>
-          <div className="quiz-grid">{["random-general-knowledge", "random-math-10", "random-nonsense-10", "random-brain-teaser", "random-quiz", "challenge-10"].map((slug) => {
-            const quiz = quizzes.find((item) => item.slug === slug);
-            if (!quiz) return null;
-            const randomTitle = quizTitle(locale, quiz);
-            return <Link className="quiz-card" href={quizPath(locale, slug)} key={slug}>
-              <span className="card-category">{quizCategoryName(locale, quiz.category)}</span><h3>{randomTitle}</h3><p>{quizSummary(locale, randomTitle)}</p>
-            </Link>;
-          })}</div>
-        </section>
-
-        <section className="quiz-section">
-          <div className="section-head"><div><span className="eyebrow">{t.nextChallenge}</span><h2>{active === "all" ? base.popular : quizCategoryName(locale, active as keyof typeof icon)}</h2></div><span className="result-count">{t.quizCount(visible.length)}</span></div>
-          {visible.length === 0 ? <p className="empty-state" role="status">{t.searchEmpty}</p> : <div className="quiz-grid">{visible.map((quiz, index) => {
-            const title = quizTitle(locale, quiz);
-            return <Link className="quiz-card" href={quizPath(locale, quiz.slug)} key={quiz.slug}>
-              <span className={`card-icon color-${index % 6}`} aria-hidden="true">{icon[quiz.category]}</span>
-              <span className="card-category">{quizCategoryName(locale, quiz.category)}</span>
-              <h3>{title}</h3>
-              <p>{quizSummary(locale, title)}</p>
-              <div className="card-meta"><span>{quiz.mode === "dynamic" ? t.dynamicGeneration : quiz.mode === "interactive" ? t.interactiveTest : t.questionSetReview}</span><span>{t.difficultyLabels[quiz.difficulty[0]]}</span></div>
-            </Link>;
-          })}</div>}
-        </section>
-
+      <main ref={mainRef} className="content discovery-content">
+        {mode === "home" ? <>
+          <section className="discovery-intro">
+            <div><span className="discovery-kicker">woori.today</span><h1>{t.quiz}</h1><p>{copy.intro}</p></div>
+            <span className="intro-count">{t.quizCount(quizzes.filter((quiz) => quiz.isPublic).length)}</span>
+          </section>
+          <AdSlot/>
+          <section className="quiz-section quick-section" aria-labelledby="quick-heading">
+            <div className="section-head"><h2 id="quick-heading">{copy.quickStart}</h2></div>
+            <div className="quick-grid">{quickSlugs.map((slug) => {
+              const quiz = quizzes.find((item) => item.slug === slug && item.isPublic);
+              if (!quiz) return null;
+              return <Link href={quizPath(locale, slug)} className="quick-link" key={slug}><span aria-hidden="true">{icon[quiz.category]}</span>{quizTitle(locale, quiz)}<b aria-hidden="true">↗</b></Link>;
+            })}</div>
+          </section>
+          <section className="quiz-section" aria-labelledby="featured-heading">
+            <div className="section-head"><h2 id="featured-heading">{base.popular}</h2><button className="text-action" type="button" onClick={() => selectCategory("all")}>{t.allQuizzes} <span aria-hidden="true">→</span></button></div>
+            {cards(featuredSlugs.flatMap((slug) => {
+              const quiz = visible.find((item) => item.slug === slug);
+              return quiz ? [quiz] : [];
+            }))}
+          </section>
+        </> : <section className="quiz-section results-section" aria-live="polite">
+          <div className="results-header"><div><span className="discovery-kicker">{t.quiz}</span><h1>{heading}</h1><p>{mode === "search" ? copy.resultsFor(query, visible.length) : t.quizCount(visible.length)}</p></div></div>
+          {visible.length ? cards(visible) : <p className="empty-state" role="status">{t.searchEmpty}</p>}
+        </section>}
         <SiteFooter locale={locale}/>
       </main>
     </div>
-  </>;
+  </div>;
 }
 
-const icon: Record<string, string> = { general:"✳", nonsense:"❔", math:"＋", brain:"◇", history:"◷", science:"⚗", geography:"◎", language:"文", technology:"⌘", memory:"▦", random:"⤨", challenge:"⚑", speed:"↯", fun:"☻" };
+const icon: Record<Category, string> = { general:"✳", nonsense:"?", math:"＋", brain:"◇", history:"◷", science:"⚗", geography:"◎", language:"文", technology:"⌘", memory:"▦", random:"⤨", challenge:"⚑", speed:"↯", fun:"☺" };
