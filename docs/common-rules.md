@@ -24,3 +24,9 @@
 - Finish and verify work, commit and push `develop`, merge into `main`, verify and push `main`, then return to `develop`.
 - Never create release branches. Do not force push or discard user changes.
 - Run `pnpm test`, `pnpm lint`, `pnpm exec tsc --noEmit`, `pnpm build`, and `git diff --check` before release.
+
+## Interactive tests
+
+- Reaction, click speed, typing, memory, visual recall, patterns, and concentration activities run in the browser.
+- Use `performance.now()` for elapsed measurements. Use `requestAnimationFrame` for live timing updates.
+- Typing metrics are calculated from the locale-specific passage, including words per minute, accuracy, elapsed time, and character errors.
