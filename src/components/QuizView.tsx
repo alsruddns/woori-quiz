@@ -1,30 +1,96 @@
-﻿"use client";
+"use client";
+
 import { useMemo, useState } from "react";
-import { useRouter } from "next/navigation";
 import Link from "next/link";
 import { getQuiz, quizzes } from "@/lib/registry";
-import { isLocale, locales, localeNames, messages, type Locale } from "@/lib/i18n";
-import { quizPath, quizPathForLocale } from "@/lib/urls";
+import { isLocale, messages, uiMessages } from "@/lib/i18n";
+import { quizPath } from "@/lib/urls";
+import { quizSummary, quizTitle, localizeMathPrompt } from "@/lib/quiz-copy";
 import { generateMathQuestion, type MathQuestion } from "@/lib/math";
 import { saveQuizResult } from "@/lib/storage";
 import { InteractiveTest } from "@/components/InteractiveTest";
-export function QuizView({locale:rawLocale,slug}:{locale:string;slug:string}){
- const locale=isLocale(rawLocale)?rawLocale:"en",t=messages[locale],quiz=getQuiz(slug),router=useRouter();const [q,setQ]=useState<MathQuestion|null>(null),[answer,setAnswer]=useState<number|null>(null),[score,setScore]=useState(0),[step,setStep]=useState(0),[started,setStarted]=useState(false),[startTime,setStartTime]=useState(0),[elapsed,setElapsed]=useState(0),[difficulty,setDifficulty]=useState<"easy"|"medium"|"hard"|"expert">("medium");
- const related=useMemo(()=>quiz?quizzes.filter(x=>x.category===quiz.category&&x.slug!==quiz.slug).slice(0,4):[],[quiz]);
- if(!quiz)return <main className="not-found"><h1>Quiz not found</h1><Link href={quizPath(locale)}>{t.home}</Link></main>;
- const begin=()=>{setStarted(true);setStartTime(performance.now());localStorage.setItem(`woori-quiz:difficulty:${quiz.slug}`,difficulty);setQ(quiz.mode==="dynamic"?generateMathQuestion(quiz.slug,difficulty):null);};
- const finish=(finalScore:number)=>{const duration=Math.round((performance.now()-startTime)/1000);setElapsed(duration);setScore(finalScore);saveQuizResult(localStorage,quiz.slug,finalScore,difficulty,duration);setStarted(false);setStep(10);};
- const submit=()=>{const finalScore=score+(answer===q?.answer?1:0);if(step===9){finish(finalScore);return;}setScore(finalScore);setStep(step+1);setAnswer(null);setQ(generateMathQuestion(quiz.slug,difficulty));};
- const active=started&&quiz.mode==="dynamic"&&q;
- if(quiz.mode==="interactive")return <><header className="topbar"><Link className="brand" href={quizPath(locale)}><span className="brand-mark">Q</span><span>woori<span className="brand-accent">.quiz</span></span></Link><Link className="back-link" href={quizPath(locale)}>← {t.home}</Link><select aria-label="Language" value={locale} onChange={e=>router.push(quizPathForLocale(window.location.pathname,e.target.value as Locale))}>{locales.map(code=><option value={code} key={code}>{localeNames[code]}</option>)}</select></header><main className="detail-wrap"><div className="crumb"><Link href={quizPath(locale)}>{t.home}</Link><span> / </span>{quiz.title}</div><div className="detail-hero"><span className="eyebrow">{quiz.category.toUpperCase()}　·　INTERACTIVE</span><h1>{quiz.title}</h1><p>{quiz.summary}</p><div className="detail-tags"><span>Interactive test</span><span>15 locales</span><span>No account needed</span></div><InteractiveTest slug={slug} locale={locale}/><div className="howto"><h2>How it works</h2><p>Your score and timing are measured in this browser and stored only on this device.</p></div></div><footer className="footer"><a href="#privacy">Privacy</a><a href="#terms">Guidelines</a><a href="mailto:krdd125@gmail.com">Contact</a></footer></main></>;
- return <><header className="topbar"><Link className="brand" href={quizPath(locale)}><span className="brand-mark">Q</span><span>woori<span className="brand-accent">.quiz</span></span></Link><Link className="back-link" href={quizPath(locale)}>← {t.home}</Link><select aria-label="Language" value={locale} onChange={e=>router.push(quizPathForLocale(window.location.pathname,e.target.value as Locale))}>{locales.map(code=><option value={code} key={code}>{localeNames[code]}</option>)}</select></header><main className="detail-wrap"><div className="crumb"><Link href={quizPath(locale)}>{t.home}</Link><span> / </span>{quiz.title}</div><div className="detail-hero"><span className="eyebrow">{quiz.category.toUpperCase()}　·　{quiz.mode.toUpperCase()}</span><h1>{quiz.title}</h1><p>{quiz.summary}</p><div className="detail-tags"><span>{quiz.count==="dynamic"?"Dynamic generation":typeof quiz.count==="number"?`${quiz.count} questions`:"Question set in review"}</span><span>{quiz.difficulty.join(" · ")}</span><span>15 languages</span></div>
- {!started&&step<10&&<div className="start-panel"><h2>Ready when you are.</h2><p>Take a breath, trust what you know, and enjoy the challenge.</p>{quiz.mode==="dynamic"&&<label className="difficulty-select">Difficulty <select value={difficulty} onChange={e=>setDifficulty(e.target.value as typeof difficulty)}>{quiz.difficulty.map(level=><option key={level} value={level}>{level}</option>)}</select></label>}<button className="button primary" onClick={begin}>{t.play} <span>→</span></button></div>}
- {active&&<div className="play-panel"><div className="progress-row"><span>{t.question} {step+1} <i>/ 10</i></span><span>{Math.round(step/10*100)}%</span></div><div className="progress"><span style={{width:`${step/10*100}%`}}/></div><h2>{q.prompt}</h2><div className="answer-grid">{q.options.map(o=><button key={o} onClick={()=>setAnswer(o)} className={answer===o?"answer selected":"answer"}>{o}</button>)}</div>{answer!==null&&<div className={answer===q.answer?"feedback correct":"feedback wrong"}>{answer===q.answer?"Correct!":"Not quite."} {q.explanation}</div>}<button disabled={answer===null} className="button primary" onClick={submit}>{step===9?t.result:t.submit} →</button></div>}
- {!started&&step===10&&<div className="start-panel result-panel"><span className="eyebrow">{t.result.toUpperCase()}</span><h2>{t.score}: {score} / 10</h2><p>{Math.round(score/10*100)}% accuracy · {difficulty} · Finished in {elapsed} seconds. Your best score is saved on this device.</p><button className="button primary" onClick={()=>{setStep(0);setScore(0);begin();}}>{t.retry} ↻</button></div>}
- {quiz.mode==="static"&&<div className="coming-panel"><span>✳</span><div><b>Question set in editorial review</b><p>This quiz is listed in the catalog while its original, localized question bank is being fact-checked. It will become playable when review is complete.</p></div></div>}
- <div className="howto"><h2>How to play</h2><p>Choose an answer for each question. Your progress stays in this browser only; no account or personal information is needed.</p><h3>About this quiz</h3><p>{quiz.summary} Difficulty: {quiz.difficulty.join(", ")}.</p><h3>FAQ</h3><details><summary>Is my score uploaded?</summary><p>No. Scores are stored locally in your browser.</p></details></div></div><section className="related"><h2>{t.related}</h2><div className="quiz-grid">{related.map(r=><Link className="quiz-card" href={quizPath(locale,r.slug)} key={r.slug}><span className="card-category">{r.category}</span><h3>{r.title}</h3><p>{r.summary}</p></Link>)}</div></section><footer className="footer"><a href="#privacy">Privacy</a><a href="#terms">Guidelines</a><a href="mailto:krdd125@gmail.com">Contact</a></footer></main></>;
+import { SiteHeader } from "@/components/SiteHeader";
+import { SiteFooter } from "@/components/SiteFooter";
+
+export function QuizView({ locale: rawLocale, slug }: { locale: string; slug: string }) {
+  const locale = isLocale(rawLocale) ? rawLocale : "en";
+  const t = uiMessages[locale];
+  const base = messages[locale];
+  const quiz = getQuiz(slug);
+  const [q, setQ] = useState<MathQuestion | null>(null);
+  const [answer, setAnswer] = useState<number | null>(null);
+  const [score, setScore] = useState(0);
+  const [step, setStep] = useState(0);
+  const [started, setStarted] = useState(false);
+  const [startTime, setStartTime] = useState(0);
+  const [elapsed, setElapsed] = useState(0);
+  const [difficulty, setDifficulty] = useState<"easy" | "medium" | "hard" | "expert">("medium");
+  const related = useMemo(() => quiz ? quizzes.filter((item) => item.category === quiz.category && item.slug !== quiz.slug).slice(0, 4) : [], [quiz]);
+
+  if (!quiz) return <main className="not-found"><h1>{t.searchEmpty}</h1><Link href={quizPath(locale)}>{t.back}</Link></main>;
+
+  const title = quizTitle(locale, quiz);
+  const begin = () => {
+    setStarted(true);
+    setStartTime(performance.now());
+    localStorage.setItem(`woori-quiz:difficulty:${quiz.slug}`, difficulty);
+    setQ(quiz.mode === "dynamic" ? generateMathQuestion(quiz.slug, difficulty) : null);
+  };
+  const finish = (finalScore: number) => {
+    const duration = Math.round((performance.now() - startTime) / 1000);
+    setElapsed(duration);
+    setScore(finalScore);
+    saveQuizResult(localStorage, quiz.slug, finalScore, difficulty, duration);
+    setStarted(false);
+    setStep(10);
+  };
+  const submit = () => {
+    const finalScore = score + (answer === q?.answer ? 1 : 0);
+    if (step === 9) { finish(finalScore); return; }
+    setScore(finalScore);
+    setStep(step + 1);
+    setAnswer(null);
+    setQ(generateMathQuestion(quiz.slug, difficulty));
+  };
+  const active = started && quiz.mode === "dynamic" && q;
+
+  return <>
+    <SiteHeader locale={locale} logoHref={quizPath(locale)} backHref={quizPath(locale)}/>
+    <main className="detail-wrap">
+      <div className="crumb"><Link href={quizPath(locale)}>{t.back}</Link><span> / </span>{title}</div>
+      <div className="detail-hero">
+        <span className="eyebrow">{t.category[quiz.category]}　·　{quiz.mode === "dynamic" ? t.dynamicGeneration : quiz.mode === "interactive" ? t.interactiveTest : t.questionSetReview}</span>
+        <h1>{title}</h1><p>{quizSummary(locale, title)}</p>
+        <div className="detail-tags"><span>{quiz.mode === "dynamic" ? t.dynamicGeneration : quiz.mode === "interactive" ? t.interactiveTest : t.questionSetReview}</span><span>{quiz.difficulty.map((level) => t.difficultyLabels[level]).join(" · ")}</span><span>{t.localeCount}</span></div>
+
+        {quiz.mode === "interactive" ? <>
+          <InteractiveTest slug={slug} locale={locale}/>
+          <div className="howto"><h2>{t.aboutQuiz}</h2><p>{t.howToDescription}</p></div>
+        </> : <>
+          {!started && step < 10 && <div className="start-panel"><h2>{t.startHeading}</h2><p>{t.startDescription}</p>
+            {quiz.mode === "dynamic" && <label className="difficulty-select">{t.difficulty}<select value={difficulty} onChange={(event) => setDifficulty(event.target.value as typeof difficulty)}>{quiz.difficulty.map((level) => <option key={level} value={level}>{t.difficultyLabels[level]}</option>)}</select></label>}
+            <button className="button primary" onClick={begin}>{base.play}<span aria-hidden="true">→</span></button>
+          </div>}
+          {active && <div className="play-panel"><div className="progress-row"><span>{base.question} {step + 1} <i>/ 10</i></span><span>{Math.round(step / 10 * 100)}%</span></div>
+            <div className="progress"><span style={{ width: `${step / 10 * 100}%` }}/></div>
+            <h2>{localizeMathPrompt(locale, q.prompt)}</h2>
+            <div className="answer-grid">{q.options.map((option) => <button key={option} onClick={() => setAnswer(option)} className={answer === option ? "answer selected" : "answer"}>{option}</button>)}</div>
+            {answer !== null && <div className={answer === q.answer ? "feedback correct" : "feedback wrong"}>{answer === q.answer ? t.correct : `${t.incorrect} (${q.answer})`}</div>}
+            <button disabled={answer === null} className="button primary" onClick={submit}>{step === 9 ? base.result : base.submit}<span aria-hidden="true">→</span></button>
+          </div>}
+          {!started && step === 10 && <div className="start-panel result-panel"><span className="eyebrow">{base.result.toUpperCase()}</span><h2>{base.score}: {score} / 10</h2>
+            <p>{t.accuracy}: {Math.round(score / 10 * 100)}% · {t.difficulty}: {t.difficultyLabels[difficulty]} · {t.finishedIn} {elapsed} {t.seconds}. {t.bestScore}</p>
+            <button className="button primary" onClick={() => { setStep(0); setScore(0); begin(); }}>{base.retry}<span aria-hidden="true">↻</span></button>
+          </div>}
+          {quiz.mode === "static" && <div className="coming-panel"><span aria-hidden="true">✳</span><div><b>{t.reviewHeading}</b><p>{t.reviewDescription}</p></div></div>}
+          <div className="howto"><h2>{t.howToPlay}</h2><p>{t.howToDescription}</p><h3>{t.aboutQuiz}</h3><p>{quizSummary(locale, title)} {t.difficulty}: {quiz.difficulty.map((level) => t.difficultyLabels[level]).join(", ")}.</p><h3>{t.faq}</h3><details><summary>{t.scoreUploadedQuestion}</summary><p>{t.scoreUploadedAnswer}</p></details></div>
+        </>}
+      </div>
+      {related.length > 0 && <section className="related"><h2>{base.related}</h2><div className="quiz-grid">{related.map((item) => {
+        const relatedTitle = quizTitle(locale, item);
+        return <Link className="quiz-card" href={quizPath(locale, item.slug)} key={item.slug}><span className="card-category">{t.category[item.category]}</span><h3>{relatedTitle}</h3><p>{quizSummary(locale, relatedTitle)}</p></Link>;
+      })}</div></section>}
+      <SiteFooter locale={locale}/>
+    </main>
+  </>;
 }
-
-
-
-
