@@ -10,6 +10,15 @@ export function quizUrl(locale: Locale, slug?: string): string {
   return `${SITE_ORIGIN}${quizPath(locale, slug)}`;
 }
 
+export function familyServiceUrl(locale: Locale, service: "docs" | "quiz"): string {
+  return `${SITE_ORIGIN}/${locale}/${service}`;
+}
+
+export function quizPathForLocale(currentPath: string, locale: Locale): string {
+  const segments = currentPath.split("/").filter(Boolean);
+  return quizPath(locale, segments[1] === "quiz" ? segments.slice(2).join("/") || undefined : undefined);
+}
+
 export function quizAlternates(locales: readonly Locale[], slug?: string) {
   const languageTags: Record<Locale, string> = {
     ko: "ko", en: "en", ja: "ja", zh: "zh", es: "es", "pt-br": "pt-BR",
