@@ -1,6 +1,7 @@
 import type { Locale } from "./i18n";
 import { uiMessages } from "./i18n";
 import type { Quiz } from "./registry";
+import { quizDescription } from "./content-copy";
 
 const terms = ["general","knowledge","everyday","difficult","world","capitals","country","flags","currency","location","asia","europe","geography","basic","science","physics","chemistry","biology","astronomy","history","korean","ancient","modern","addition","subtraction","multiplication","division","table","mental","math","arithmetic","challenge","english","vocabulary","spelling","grammar","hiragana","katakana","japanese","chinese","character","computer","programming","web","development","database","network","it","number","word","sequence","visual","pattern","recognition","concentration","reaction","time","click","typing","speed","color","random","trivia","true","false","impossible","mixed","hard","quiz","test"] as const;
 export const quizTitleWordCount = terms.length;
@@ -116,7 +117,7 @@ export function quizSeoCopy(locale: Locale, quiz: Quiz): { title: string; descri
     return { title: `${brainTeaserTitles[locale]} | woori.today`, description: descriptions[locale] };
   }
   const title = quizTitle(locale, quiz);
-  return { title: `${title} | woori.today`, description: uiMessages[locale].quizSummary(title) };
+  return { title: `${title} | woori.today`, description: quizDescription(locale, quiz, title) };
 }
 
 export function quizSummary(locale: Locale, title: string): string {

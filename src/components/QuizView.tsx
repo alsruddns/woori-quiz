@@ -5,17 +5,19 @@ import Link from "next/link";
 import { getQuiz, quizzes } from "@/lib/registry";
 import { detailCopy, isLocale, messages, uiMessages } from "@/lib/i18n";
 import { quizPath } from "@/lib/urls";
-import { quizCategoryName, quizSummary, quizTitle, localizeMathPrompt } from "@/lib/quiz-copy";
+import { quizCategoryName, quizTitle, localizeMathPrompt } from "@/lib/quiz-copy";
 import { generateMathQuestion, type MathQuestion } from "@/lib/math";
 import type { QuizQuestion } from "@/lib/question-bank";
 import { saveQuizResult } from "@/lib/storage";
 import { InteractiveTest } from "@/components/InteractiveTest";
 import { QuizShell } from "@/components/QuizShell";
+import { categoryDescription, quizDescription, scoreFeedback, serviceGuide } from "@/lib/content-copy";
 
 export function QuizView({ locale: rawLocale, slug }: { locale: string; slug: string }) {
   const locale = isLocale(rawLocale) ? rawLocale : "en";
   const t = uiMessages[locale];
   const detail = detailCopy[locale];
+  const guide = serviceGuide[locale];
   const base = messages[locale];
   const quiz = getQuiz(slug);
   const [q, setQ] = useState<MathQuestion | null>(null);
@@ -99,7 +101,7 @@ export function QuizView({ locale: rawLocale, slug }: { locale: string; slug: st
       <div className="crumb"><Link href={quizPath(locale)}>{t.back}</Link><span> / </span>{title}</div>
       <section className="detail-hero">
         <span className="eyebrow">{quizCategoryName(locale, quiz.category)}</span>
-        <h1>{title}</h1><p>{quizSummary(locale, title)}</p>
+        <h1>{title}</h1><p>{quizDescription(locale, quiz, title)}</p>
         <div className="detail-tags"><span>{quiz.mode === "interactive" ? t.interactiveTest : quiz.mode === "static" ? t.questionSetReview : t.questionCount(sessionLength)}</span><span>{quiz.mode === "bank" && bankDifficulty === "all" ? t.dynamicGeneration : quiz.difficulty.map((level) => t.difficultyLabels[level]).join(" · ")}</span><span>{quiz.mode === "bank" || quiz.mode === "dynamic" ? `≈ ${Math.max(60, Math.ceil(sessionLength * 18))} ${t.seconds}` : t.localeCount}</span></div>
       </section>
         {quiz.mode === "interactive" ? <>
@@ -127,16 +129,16 @@ export function QuizView({ locale: rawLocale, slug }: { locale: string; slug: st
           </div>}
           {!started && step === 10 && <div className="start-panel result-panel"><span className="eyebrow">{base.result}</span><h2>{base.score}: {score} / {sessionLength}</h2>
             <div className="result-stats"><span>{detail.correctCount}<strong>{score}</strong></span><span>{detail.incorrectCount}<strong>{Math.max(0, sessionLength - score)}</strong></span><span>{t.accuracy}<strong>{Math.round(score / Math.max(1, sessionLength) * 100)}%</strong></span><span>{t.finishedIn}<strong>{elapsed} {t.seconds}</strong></span></div>
-            <p>{t.bestScore}</p>
+            <h3>{guide.score}</h3><p>{scoreFeedback(locale, score, sessionLength)}</p><p>{guide.scoreNote}</p><p>{t.bestScore}</p>
             {quiz.mode === "bank" ? <div className="result-actions"><button className="button primary" onClick={restartSameBank}>{base.retry}<span aria-hidden="true">↻</span></button><button className="button" onClick={() => { setStep(0); setScore(0); begin(); }}>{detail.newSet}</button><Link className="button" href={quizPath(locale)}>{detail.otherQuizzes}</Link></div> : <div className="result-actions"><button className="button primary" onClick={() => { setStep(0); setScore(0); begin(); }}>{base.retry}<span aria-hidden="true">↻</span></button><Link className="button" href={quizPath(locale)}>{detail.otherQuizzes}</Link></div>}
             {quiz.mode === "bank" && <details className="question-review"><summary>{t.aboutQuiz}</summary><ol>{bankReview.map(({ question, selected }) => { const copy = question.localizations?.[locale] ?? question; return <li key={question.id}><strong>{copy.question}</strong><p>{copy.explanation}</p><small>{selected === question.answer ? t.correct : t.incorrect} · {copy.options[question.answer]}</small></li>; })}</ol></details>}
           </div>}
           {quiz.mode === "static" && <div className="coming-panel"><span aria-hidden="true">✳</span><div><b>{t.reviewHeading}</b><p>{t.reviewDescription}</p></div></div>}
-          <div className="howto"><h2>{t.howToPlay}</h2><p>{t.howToDescription}</p><h3>{t.aboutQuiz}</h3><p>{quizSummary(locale, title)} {t.difficulty}: {quiz.difficulty.map((level) => t.difficultyLabels[level]).join(", ")}.</p><h3>{t.faq}</h3><details><summary>{t.scoreUploadedQuestion}</summary><p>{t.scoreUploadedAnswer}</p></details></div>
+          <div className="howto"><h2>{guide.focus}</h2><p>{categoryDescription(locale, quiz.category)}</p><p>{t.difficulty}: {quiz.difficulty.map((level) => t.difficultyLabels[level]).join(", ")}.</p><h2>{t.howToPlay}</h2><p>{t.howToDescription}</p><h3>{guide.score}</h3><p>{guide.scoreNote}</p><h3>{t.faq}</h3><details><summary>{t.scoreUploadedQuestion}</summary><p>{t.scoreUploadedAnswer}</p></details></div>
         </>}
       {related.length > 0 && <section className="related"><h2>{base.related}</h2><div className="quiz-grid">{related.map((item) => {
         const relatedTitle = quizTitle(locale, item);
-        return <Link className="quiz-card" href={quizPath(locale, item.slug)} key={item.slug}><span className="card-category">{quizCategoryName(locale, item.category)}</span><h3>{relatedTitle}</h3><p>{quizSummary(locale, relatedTitle)}</p></Link>;
+        return <Link className="quiz-card" href={quizPath(locale, item.slug)} key={item.slug}><span className="card-category">{quizCategoryName(locale, item.category)}</span><h3>{relatedTitle}</h3><p>{quizDescription(locale, item, relatedTitle)}</p></Link>;
       })}</div></section>}
     </div>
   </QuizShell>;

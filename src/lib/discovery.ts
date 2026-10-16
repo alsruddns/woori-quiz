@@ -1,6 +1,7 @@
 import type { Locale } from "./i18n";
 import type { Category, Quiz } from "./registry";
-import { quizCategoryName, quizSummary, quizTitle } from "./quiz-copy";
+import { quizCategoryName, quizTitle } from "./quiz-copy";
+import { categoryDescription, quizDescription } from "./content-copy";
 
 export type DiscoveryMode = "home" | "all" | "category" | "search";
 
@@ -20,8 +21,8 @@ export function discoveryQuizzes(items: readonly Quiz[], locale: Locale, search:
     if (mode === "category") return quiz.category === category;
     if (mode !== "search") return true;
     const title = quizTitle(locale, quiz);
-    const haystack = [title, quiz.title, quizSummary(locale, title), quiz.summary,
-      quizCategoryName(locale, quiz.category), ...quiz.tags]
+    const haystack = [title, quiz.title, quizDescription(locale, quiz, title), quiz.summary,
+      quizCategoryName(locale, quiz.category), categoryDescription(locale, quiz.category), ...quiz.tags]
       .join(" ").toLocaleLowerCase(locale);
     return haystack.includes(needle);
   });

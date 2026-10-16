@@ -59,7 +59,7 @@ export const categoryLabels: Record<Category,string> = {general:"General Knowled
 const supportedLocales: Locale[] = ["ko","en","ja","zh","es","pt-br","de","fr","vi","id","th","zh-tw","it","nl","hi"];
 export const quizzes: Quiz[] = [
   ...specs.map(([category,slug,title,mode,count,difficulty,policyReviewRequired])=>({category,slug,title,mode,count,difficulty,policyReviewRequired,isPublic:mode!=="static",supportedLocales,tags:[category,slug.replaceAll("-"," ")],summary:`A ${difficulty[0]}-to-${difficulty.at(-1)} ${title.toLowerCase()} for curious minds.`})),
-  ...bankSpecs.map(([category,slug,title,difficulty,summary])=>({category,slug,title,mode:"bank" as const,count:10,policyReviewRequired:false,isPublic:true,supportedLocales,difficulty,tags:[category,slug.replaceAll("-"," ")],summary})),
+  ...bankSpecs.map(([category,slug,title,difficulty,summary])=>({category,slug,title,mode:"bank" as const,count:slug==="challenge-20"?20:10,policyReviewRequired:false,isPublic:true,supportedLocales,difficulty,tags:[category,slug.replaceAll("-"," ")],summary})),
 ];
 export const categories = Object.keys(categoryLabels) as Category[];
 export function getQuiz(slug:string){return quizzes.find((quiz)=>quiz.slug===slug);}
