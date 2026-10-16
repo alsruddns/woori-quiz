@@ -60,3 +60,10 @@ export const advertisementLabel: Record<Locale, string> = {
   de: "Werbung", fr: "Publicité", vi: "Quảng cáo", id: "Iklan", th: "โฆษณา", "zh-tw": "廣告",
   it: "Pubblicità", nl: "Advertentie", hi: "विज्ञापन",
 };
+
+export const anyDifficultyLabel: Record<Locale, string> = {
+  ko: "모든 난이도", en: "All difficulties", ja: "すべての難易度", zh: "所有难度", es: "Todas las dificultades",
+  "pt-br": "Todos os níveis", de: "Alle Schwierigkeitsgrade", fr: "Toutes les difficultés", vi: "Mọi mức độ",
+  id: "Semua tingkat kesulitan", th: "ทุกระดับความยาก", "zh-tw": "所有難度", it: "Tutte le difficoltà",
+  nl: "Alle moeilijkheidsgraden", hi: "सभी कठिनाई स्तर",
+};

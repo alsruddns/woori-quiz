@@ -19,5 +19,5 @@ const answers = [...new Set(allFacts.map((x) => x[1]))];
 export const generalKnowledgeQuestions: QuizQuestion[] = allFacts.map(([question, answer, explanation], i) => ({
   id: `general-x-${i + 1}`, category: "general", difficulty: i % 10 < 3 ? "easy" : i % 10 < 7 ? "medium" : i % 10 < 9 ? "hard" : "expert",
   question, options: [answer, ...answers.filter((x) => x !== answer).slice((i * 7) % (answers.length - 3), (i * 7) % (answers.length - 3) + 3)], answer: 0,
-  explanation, tags: ["general-knowledge", ["daily-life","food","animals","culture","sports","economics","society","korea"][Math.floor(i / 10)] ?? "general"],
+  explanation, tags: ["general-knowledge", i < 10 || i >= 80 ? "general-basics" : ["food","animals","culture","sports","economics","daily-life","korea"][Math.floor((i - 10) / 10)]],
 }));

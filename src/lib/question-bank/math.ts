@@ -5,7 +5,10 @@ const add = (id: string, difficulty: QuizQuestion["difficulty"], prompt: string,
   const answer = String(value);
   const distractors = seededDistractors(answer, pool.map(String));
   while (distractors.length < 3) distractors.push(String(value + distractors.length + 1));
-  out.push(makeQuestion(`math-x-${id}`, "math", difficulty, prompt, answer, distractors, why));
+  const tag = id.startsWith("sum-") || id.startsWith("product-") ? "arithmetic"
+    : id.startsWith("sequence-") ? "sequence"
+      : id.startsWith("combination-") ? "combinations" : "equations";
+  out.push(makeQuestion(`math-x-${id}`, "math", difficulty, prompt, answer, distractors, why, ["math", tag]));
 };
 
 // Arithmetic is generated from checked integer operations, not hand-entered answer keys.

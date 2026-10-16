@@ -7,6 +7,8 @@ import { locales } from "../src/lib/i18n";
 import { categories, quizzes } from "../src/lib/registry";
 import { quizTitle } from "../src/lib/quiz-copy";
 import { quizPath } from "../src/lib/urls";
+import { loadQuestionBankForCategory, selectQuestionsForQuiz } from "../src/lib/question-bank/select-questions";
+import { questionTagForQuiz } from "../src/lib/question-bank/core";
 
 describe("public content and navigation", () => {
   it("publishes only complete, distinct quizzes with valid links", () => {
@@ -60,4 +62,27 @@ describe("public content and navigation", () => {
       else process.env.NEXT_PUBLIC_ADS_ENABLED = previous;
     }
   });
+
+  it("uses subject-specific pools where reviewed topic tags are available", async () => {
+    const cases = [
+      ["daily-life-quiz", "general", "daily-life"], ["space-quiz", "science", "astronomy"],
+      ["biology-knowledge-quiz", "science", "biology"], ["capital-cities-quiz", "geography", "capitals"],
+      ["world-geography", "geography", "landforms"], ["number-pattern-quiz", "brain", "number-pattern"],
+      ["sequence-math-quiz", "math", "sequence"],
+      ["mental-arithmetic-test", "math", "arithmetic"], ["programming-knowledge-quiz", "technology", "programming"],
+    ] as const;
+    for (const [slug, category, expectedTag] of cases) {
+      expect(questionTagForQuiz(slug)).toBe(expectedTag);
+      const pool = await loadQuestionBankForCategory(category);
+      const selected = selectQuestionsForQuiz(pool, { category, tag: expectedTag, count: 10, seed: 17 });
+      expect(selected, slug).toHaveLength(10);
+      expect(selected.slice(0, Math.min(10, pool.filter((question) => question.tags?.includes(expectedTag)).length)).every((question) => question.tags?.includes(expectedTag)), slug).toBe(true);
+      expect(new Set(selected.map((question) => question.id)).size).toBe(10);
+    }
+    const science = await loadQuestionBankForCategory("science");
+    const mediumSpace = selectQuestionsForQuiz(science, { category: "science", tag: "astronomy", difficulty: "medium", count: 10, seed: 23 });
+    expect(mediumSpace).toHaveLength(10);
+    expect(mediumSpace.every((question) => question.difficulty === "medium")).toBe(true);
+    expect(mediumSpace.slice(0, 5).every((question) => question.tags?.includes("astronomy"))).toBe(true);
+  }, 30000);
 });

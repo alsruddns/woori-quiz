@@ -14,5 +14,5 @@ const answers = [...new Set(concepts.map((x) => x[1]))];
 export const itQuestions: QuizQuestion[] = concepts.map(([term, answer, explanation], i) => ({
   id: `it-x-concept-${i + 1}`, category: "technology", difficulty: i < 14 ? "easy" : i < 30 ? "medium" : "expert",
   question: `What is the primary purpose or meaning of ${term}?`, options: [answer, ...answers.filter((x) => x !== answer).slice((i * 7) % (answers.length - 3), (i * 7) % (answers.length - 3) + 3)], answer: 0,
-  explanation, tags: ["technology", "it-fundamentals"],
+  explanation, tags: ["technology", "it-fundamentals", ...(i >= 30 ? ["programming"] : [])],
 }));

@@ -35,3 +35,16 @@ export async function loadQuestionBankForCategory(category: string, locale?: Loc
 export function selectQuestionsForCategory(pool: readonly QuizQuestion[], filter: QuestionFilter): QuizQuestion[] {
   return selectQuestions(pool, filter);
 }
+
+export function selectQuestionsForQuiz(pool: readonly QuizQuestion[], filter: QuestionFilter): QuizQuestion[] {
+  const focused = selectQuestions(pool, filter);
+  if (!filter.tag || focused.length >= filter.count) return focused;
+  const excluded = [...(filter.excludeIds ?? []), ...focused.map((question) => question.id)];
+  const supplemental = selectQuestions(pool, {
+    category: filter.category,
+    difficulty: filter.difficulty,
+    count: filter.count - focused.length,
+    excludeIds: excluded,
+  });
+  return [...focused, ...supplemental];
+}

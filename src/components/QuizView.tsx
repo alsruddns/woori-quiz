@@ -11,7 +11,12 @@ import type { QuizQuestion } from "@/lib/question-bank";
 import { saveQuizResult } from "@/lib/storage";
 import { InteractiveTest } from "@/components/InteractiveTest";
 import { QuizShell } from "@/components/QuizShell";
-import { categoryDescription, quizDescription, scoreFeedback, serviceGuide } from "@/lib/content-copy";
+import { anyDifficultyLabel, categoryDescription, quizDescription, scoreFeedback, serviceGuide } from "@/lib/content-copy";
+
+const allDifficultyBankSlugs = new Set([
+  "daily-life-quiz", "space-quiz", "biology-knowledge-quiz", "world-geography", "number-pattern-quiz",
+  "sequence-math-quiz", "mental-arithmetic-test", "programming-knowledge-quiz",
+]);
 
 export function QuizView({ locale: rawLocale, slug }: { locale: string; slug: string }) {
   const locale = isLocale(rawLocale) ? rawLocale : "en";
@@ -28,7 +33,7 @@ export function QuizView({ locale: rawLocale, slug }: { locale: string; slug: st
   const [startTime, setStartTime] = useState(0);
   const [elapsed, setElapsed] = useState(0);
   const [difficulty, setDifficulty] = useState<"easy" | "medium" | "hard" | "expert">(quiz?.difficulty[0] ?? "medium");
-  const [bankDifficulty, setBankDifficulty] = useState<"all" | "easy" | "medium" | "hard" | "expert">(quiz?.slug.startsWith("random-") || quiz?.slug.startsWith("challenge-") ? "all" : quiz?.difficulty[0] ?? "medium");
+  const [bankDifficulty, setBankDifficulty] = useState<"all" | "easy" | "medium" | "hard" | "expert">(quiz?.slug.startsWith("random-") || quiz?.slug.startsWith("challenge-") || (quiz ? allDifficultyBankSlugs.has(quiz.slug) : false) ? "all" : quiz?.difficulty[0] ?? "medium");
   const [bankDeck, setBankDeck] = useState<QuizQuestion[]>([]);
   const [bankIndex, setBankIndex] = useState(0);
   const [bankReview, setBankReview] = useState<Array<{ question: QuizQuestion; selected: number }>>([]);
@@ -46,13 +51,14 @@ export function QuizView({ locale: rawLocale, slug }: { locale: string; slug: st
     if (quiz.mode === "bank") {
       setBankDeck([]);
       const count = quiz.slug === "challenge-20" ? 20 : 10;
-      void import("@/lib/question-bank/select-questions").then(async ({ loadQuestionBankForCategory, selectQuestionsForCategory }) => {
-        const { questionCategoryForQuiz } = await import("@/lib/question-bank/core");
+      void import("@/lib/question-bank/select-questions").then(async ({ loadQuestionBankForCategory, selectQuestionsForQuiz }) => {
+        const { questionCategoryForQuiz, questionTagForQuiz } = await import("@/lib/question-bank/core");
         const category = questionCategoryForQuiz(quiz.slug, quiz.category);
-        const filter = { category, ...(bankDifficulty === "all" ? {} : { difficulty: bankDifficulty }), count };
+        const tag = questionTagForQuiz(quiz.slug);
+        const filter = { category, ...(tag ? { tag } : {}), ...(bankDifficulty === "all" ? {} : { difficulty: bankDifficulty }), count };
         const pool = await loadQuestionBankForCategory(category, locale);
-        const fresh = selectQuestionsForCategory(pool, { ...filter, excludeIds: previousQuestionIds.current });
-        const deck = fresh.length >= count ? fresh : selectQuestionsForCategory(pool, filter);
+        const fresh = selectQuestionsForQuiz(pool, { ...filter, excludeIds: previousQuestionIds.current });
+        const deck = fresh.length >= count ? fresh : selectQuestionsForQuiz(pool, filter);
         setBankDeck(deck);
         previousQuestionIds.current = deck.map((question) => question.id);
         setBankIndex(0);
@@ -102,7 +108,7 @@ export function QuizView({ locale: rawLocale, slug }: { locale: string; slug: st
       <section className="detail-hero">
         <span className="eyebrow">{quizCategoryName(locale, quiz.category)}</span>
         <h1>{title}</h1><p>{quizDescription(locale, quiz, title)}</p>
-        <div className="detail-tags"><span>{quiz.mode === "interactive" ? t.interactiveTest : quiz.mode === "static" ? t.questionSetReview : t.questionCount(sessionLength)}</span><span>{quiz.mode === "bank" && bankDifficulty === "all" ? t.dynamicGeneration : quiz.difficulty.map((level) => t.difficultyLabels[level]).join(" · ")}</span><span>{quiz.mode === "bank" || quiz.mode === "dynamic" ? `≈ ${Math.max(60, Math.ceil(sessionLength * 18))} ${t.seconds}` : t.localeCount}</span></div>
+        <div className="detail-tags"><span>{quiz.mode === "interactive" ? t.interactiveTest : quiz.mode === "static" ? t.questionSetReview : t.questionCount(sessionLength)}</span><span>{quiz.mode === "bank" && bankDifficulty === "all" ? anyDifficultyLabel[locale] : quiz.difficulty.map((level) => t.difficultyLabels[level]).join(" · ")}</span><span>{quiz.mode === "bank" || quiz.mode === "dynamic" ? `≈ ${Math.max(60, Math.ceil(sessionLength * 18))} ${t.seconds}` : t.localeCount}</span></div>
       </section>
         {quiz.mode === "interactive" ? <>
           <InteractiveTest slug={slug} locale={locale}/>
@@ -110,7 +116,7 @@ export function QuizView({ locale: rawLocale, slug }: { locale: string; slug: st
         </> : <>
           {!started && step < 10 && <div className="start-panel"><h2>{t.startHeading}</h2><p>{t.startDescription}</p>
             {quiz.mode === "dynamic" && <label className="difficulty-select">{t.difficulty}<select value={difficulty} onChange={(event) => setDifficulty(event.target.value as typeof difficulty)}>{quiz.difficulty.map((level) => <option key={level} value={level}>{t.difficultyLabels[level]}</option>)}</select></label>}
-            {quiz.mode === "bank" && <label className="difficulty-select">{t.difficulty}<select value={bankDifficulty} onChange={(event) => { const value = event.target.value as typeof bankDifficulty; setBankDifficulty(value); if (value !== "all") setDifficulty(value); }}><option value="all">{t.dynamicGeneration}</option>{quiz.difficulty.map((level) => <option key={level} value={level}>{t.difficultyLabels[level]}</option>)}</select></label>}
+            {quiz.mode === "bank" && <label className="difficulty-select">{t.difficulty}<select value={bankDifficulty} onChange={(event) => { const value = event.target.value as typeof bankDifficulty; setBankDifficulty(value); if (value !== "all") setDifficulty(value); }}><option value="all">{anyDifficultyLabel[locale]}</option>{quiz.difficulty.map((level) => <option key={level} value={level}>{t.difficultyLabels[level]}</option>)}</select></label>}
             <button className="button primary" onClick={begin}>{base.play}<span aria-hidden="true">→</span></button>
           </div>}
           {active && <div className="play-panel"><div className="progress-row"><span>{base.question} {step + 1} <i>/ 10</i></span><span>{Math.round(step / 10 * 100)}%</span></div>
