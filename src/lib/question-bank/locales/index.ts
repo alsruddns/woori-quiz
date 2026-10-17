@@ -118,5 +118,14 @@ export async function generatedCopiesForLocale(
       if (copy) copies.set(question.id, copy);
     }
   }
+  if (locale === "ko") {
+    const [{ legacyKoreanCopies }, { generalKoreanCopy }, { nonsenseKoreanCopy }] = await Promise.all([
+      import("./ko/legacy"), import("./ko/general-knowledge"), import("./ko/nonsense"),
+    ]);
+    for (const question of questions) {
+      const copy = legacyKoreanCopies[question.id] ?? generalKoreanCopy(question) ?? nonsenseKoreanCopy(question);
+      if (copy) copies.set(question.id, copy);
+    }
+  }
   return copies;
 }

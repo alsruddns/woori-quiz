@@ -7,8 +7,9 @@ import { QuizShell } from "@/components/QuizShell";
 import { discoveryCopy, isLocale, messages, uiMessages } from "@/lib/i18n";
 import { categories, quizzes, type Quiz, type Category } from "@/lib/registry";
 import { discoveryQuizzes, discoveryState } from "@/lib/discovery";
-import { quizCategoryName, quizSummary, quizTitle } from "@/lib/quiz-copy";
+import { quizCategoryName, quizTitle } from "@/lib/quiz-copy";
 import { quizPath } from "@/lib/urls";
+import { categoryDescription, quizDescription, serviceGuide } from "@/lib/content-copy";
 
 const urlEvent = "quiz-discovery-url";
 const subscribe = (notify: () => void) => {
@@ -39,6 +40,7 @@ export function HomeView({ locale: rawLocale }: { locale: string }) {
   const t = uiMessages[locale];
   const copy = discoveryCopy[locale];
   const base = messages[locale];
+  const guide = serviceGuide[locale];
   const search = useSyncExternalStore(subscribe, currentSearch, serverSearch);
   const { mode, category, query } = discoveryState(search, categories);
   const visible = discoveryQuizzes(quizzes, locale, search, categories);
@@ -70,7 +72,7 @@ export function HomeView({ locale: rawLocale }: { locale: string }) {
     return <Link className="quiz-card" href={quizPath(locale, quiz.slug)} key={quiz.slug}>
       <span className="card-category">{quizCategoryName(locale, quiz.category)}</span>
       <h3>{title}</h3>
-      <p>{quizSummary(locale, title)}</p>
+      <p>{quizDescription(locale, quiz, title)}</p>
       <div className="card-meta"><span>{typeof quiz.count === "number" ? t.questionCount(quiz.count) : quiz.mode === "dynamic" ? t.dynamicGeneration : quiz.mode === "interactive" ? t.interactiveTest : t.questionSetReview}</span><span>{t.difficultyLabels[quiz.difficulty[0]]}</span></div>
       <span className="card-action">{base.play}<span aria-hidden="true"> →</span></span>
     </Link>;
@@ -84,7 +86,7 @@ export function HomeView({ locale: rawLocale }: { locale: string }) {
             <div><span className="discovery-kicker">woori.today</span><h1>{t.quiz}</h1><p>{copy.intro}</p></div>
             <span className="intro-count">{t.quizCount(quizzes.filter((quiz) => quiz.isPublic).length)}</span>
           </section>
-          <AdSlot/>
+          <AdSlot locale={locale}/>
           <section className="quiz-section quick-section" aria-labelledby="quick-heading">
             <div className="section-head"><h2 id="quick-heading">{copy.quickStart}</h2></div>
             <div className="quick-grid">{quickSlugs.map((slug) => {
@@ -100,8 +102,16 @@ export function HomeView({ locale: rawLocale }: { locale: string }) {
               return quiz ? [quiz] : [];
             }))}
           </section>
+          <section className="quiz-section content-guide" aria-labelledby="category-guide-heading">
+            <div className="section-head"><h2 id="category-guide-heading">{guide.categories}</h2></div>
+            <div className="category-guide-grid">{categories.filter((item) => quizzes.some((quiz) => quiz.isPublic && quiz.category === item)).map((item) => <button type="button" key={item} onClick={() => selectCategory(item)} className="category-guide-card"><strong>{quizCategoryName(locale, item)}</strong><span>{categoryDescription(locale, item)}</span></button>)}</div>
+          </section>
+          <section className="quiz-section content-guide" aria-labelledby="how-guide-heading">
+            <div className="section-head"><h2 id="how-guide-heading">{guide.how}</h2></div>
+            <p>{guide.account}</p><h3>{guide.score}</h3><p>{guide.scoreNote}</p>
+          </section>
         </> : <section className="quiz-section results-section" aria-live="polite">
-          <div className="results-header"><div><span className="discovery-kicker">{t.quiz}</span><h1>{heading}</h1><p>{mode === "search" ? copy.resultsFor(query, visible.length) : t.quizCount(visible.length)}</p></div></div>
+          <div className="results-header"><div><span className="discovery-kicker">{t.quiz}</span><h1>{heading}</h1><p>{mode === "search" ? copy.resultsFor(query, visible.length) : mode === "category" && category ? categoryDescription(locale, category) : t.quizCount(visible.length)}</p></div></div>
           {visible.length ? cards(visible) : <p className="empty-state" role="status">{t.searchEmpty}</p>}
         </section>}
   </QuizShell>;

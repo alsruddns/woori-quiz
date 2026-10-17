@@ -118,11 +118,39 @@ export const legacyQuestionBank: QuizQuestion[] = rows.map(([category, difficult
 }));
 
 export function questionCopyForLocale(question: QuizQuestion, locale: Locale): QuestionLocaleCopy {
-  const { question: prompt, options, explanation } = question.localizations?.[locale] ?? question;
-  return { question: prompt, options, explanation };
+  return questionCopyResultForLocale(question, locale).value;
 }
 
-export type QuestionFilter = { category?: string; difficulty?: Difficulty; count: number; seed?: number; excludeIds?: string[] };
+export type QuestionCopyResult = {
+  value: QuestionLocaleCopy;
+  sourceLocale: Locale;
+  isFallback: boolean;
+  questionIsFallback: boolean;
+  optionFallbacks: boolean[];
+  explanationIsFallback: boolean;
+};
+
+export function questionCopyResultForLocale(question: QuizQuestion, locale: Locale): QuestionCopyResult {
+  const localized = question.localizations?.[locale];
+  const value = localized ?? {
+    question: question.question,
+    options: question.options,
+    explanation: question.explanation,
+  };
+  const questionIsFallback = locale !== "en" && value.question === question.question;
+  const optionFallbacks = value.options.map((option, index) => locale !== "en" && option === question.options[index]);
+  const explanationIsFallback = locale !== "en" && value.explanation === question.explanation;
+  return {
+    value,
+    sourceLocale: questionIsFallback ? "en" : locale,
+    isFallback: questionIsFallback || optionFallbacks.some(Boolean) || explanationIsFallback,
+    questionIsFallback,
+    optionFallbacks,
+    explanationIsFallback,
+  };
+}
+
+export type QuestionFilter = { category?: string; tag?: string; difficulty?: Difficulty; count: number; seed?: number; excludeIds?: string[] };
 
 export function questionCategoryForQuiz(slug: string, fallback: string): string {
   if (slug === "random-quiz" || slug.startsWith("challenge-")) return "all";
@@ -137,9 +165,23 @@ export function questionCategoryForQuiz(slug: string, fallback: string): string 
   return fallback;
 }
 
+export function questionTagForQuiz(slug: string): string | undefined {
+  if (slug === "daily-life-quiz") return "daily-life";
+  if (slug === "space-quiz") return "astronomy";
+  if (slug === "biology-knowledge-quiz") return "biology";
+  if (slug === "capital-cities-quiz") return "capitals";
+  if (slug === "world-geography") return "landforms";
+  if (slug === "number-pattern-quiz") return "number-pattern";
+  if (slug === "sequence-math-quiz") return "sequence";
+  if (slug === "mental-arithmetic-test") return "arithmetic";
+  if (slug === "programming-knowledge-quiz") return "programming";
+  return undefined;
+}
+
 /** Deterministic Fisher-Yates when a seed is supplied; always returns unique questions. */
 export function selectQuestions(pool: readonly QuizQuestion[], filter: QuestionFilter): QuizQuestion[] {
   const candidates = pool.filter((q) => (!filter.category || filter.category === "all" || q.category === filter.category || q.tags?.includes(filter.category))
+    && (!filter.tag || q.tags?.includes(filter.tag))
     && (!filter.difficulty || q.difficulty === filter.difficulty)
     && !filter.excludeIds?.includes(q.id));
   let state = filter.seed ?? Math.floor(Math.random() * 0x7fffffff);

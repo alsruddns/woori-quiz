@@ -13,5 +13,9 @@ const facts: Array<[string, string, string]> = [
 const answerPool = [...new Set(facts.map((x) => x[1]))];
 export const scienceQuestions: QuizQuestion[] = facts.map(([question, answer, explanation], i) => {
   const options = [answer, ...answerPool.filter((x) => x !== answer).slice((i * 3) % (answerPool.length - 3), (i * 3) % (answerPool.length - 3) + 3)];
-  return { id: `science-x-${i + 1}`, category: "science", difficulty: i < 14 ? "easy" : i < 30 ? "medium" : "expert", question, options, answer: 0, explanation, tags: ["science", ["physics","chemistry","biology","earth-science","astronomy"][i % 5]] };
+  const topic = i >= 15 && i <= 19 ? "astronomy"
+    : (i >= 5 && i <= 9) || (i >= 25 && i <= 29) ? "biology"
+      : i <= 4 || i === 10 || (i >= 31 && i <= 33) || i === 36 ? "chemistry"
+        : (i >= 22 && i <= 24) || i === 34 || (i >= 35 && i <= 37) ? "earth-science" : "physics";
+  return { id: `science-x-${i + 1}`, category: "science", difficulty: i < 14 ? "easy" : i < 30 ? "medium" : "expert", question, options, answer: 0, explanation, tags: ["science", topic] };
 });
