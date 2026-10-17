@@ -129,6 +129,10 @@ const mathPromptCopy: Record<Locale, { findX: string; decimal: string }> = {
 };
 
 export function localizeMathPrompt(locale: Locale, prompt: string): string {
+  if (locale === "ko") {
+    const percentage = prompt.match(/^(\d+(?:[.,]\d+)?)% of (\d+(?:[.,]\d+)?) = \?$/);
+    if (percentage) return `${percentage[2]}의 ${percentage[1]}%는 얼마인가요?`;
+  }
   return prompt.replace("What is x?", mathPromptCopy[locale].findX).replace("(decimal)", `(${mathPromptCopy[locale].decimal})`);
 }
 

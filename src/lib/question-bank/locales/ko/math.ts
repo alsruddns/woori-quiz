@@ -1,5 +1,6 @@
 import type { MathPhrases } from "../math-patterns";
 export const phrases: MathPhrases = {
+  sumWhy: (a,b,x) => `${a}에 ${b}를 더하면 ${x}입니다.`, productWhy: (a,b,x) => `${a} × ${b} = ${x}이므로 정답은 ${x}입니다.`,
   sum: (a,b) => `${a} + ${b}는 얼마인가요?`, product: (a,b) => `${a} × ${b}는 얼마인가요?`,
   equation: (a,b,c) => `${a}x + ${b} = ${c}에서 x를 구하세요.`, equationWhy: (a,b,x) => `${b}를 빼고 ${a}로 나누면 x = ${x}입니다.`,
   percent: (p,n) => `${n}의 ${p}%는 얼마인가요?`, percentWhy: (n,p,x) => `${n} × ${p} ÷ 100 = ${x}입니다.`,

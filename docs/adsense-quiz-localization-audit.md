@@ -5,25 +5,25 @@ The indexing gate does not translate or change quiz data. It keeps incomplete pa
 
 ## Source localization gaps
 
-Counts are exact unchanged source fields in the 621-question bank. The choice count includes numeric and proper-name choices that may legitimately remain unchanged; the indexing rate separately excludes those approved values.
+Question and explanation counts are unchanged fallback fields across the 621-question bank. Choice counts omit unchanged values that are intentionally preserved as the language sample being tested, a number or symbol, or a recognized proper/technical name; this matches the existing quality gate's protected-choice rules. The gate thresholds remain unchanged.
 
 | Locale | Question fallback | Choice fallback | Explanation fallback |
 |---|---:|---:|---:|
-| ko | 221 | 2,126 | 269 |
+| ko | 0 | 0 | 0 |
 | en | 0 | 0 | 0 |
-| ja | 231 | 2,150 | 279 |
-| zh | 231 | 2,150 | 279 |
-| es | 231 | 2,174 | 279 |
-| pt-br | 231 | 2,178 | 279 |
-| de | 231 | 2,194 | 279 |
-| fr | 231 | 2,186 | 279 |
-| vi | 231 | 2,175 | 279 |
-| id | 231 | 2,194 | 279 |
-| th | 231 | 2,150 | 279 |
-| zh-tw | 231 | 2,150 | 279 |
-| it | 231 | 2,194 | 279 |
-| nl | 231 | 2,180 | 279 |
-| hi | 231 | 2,150 | 279 |
+| ja | 231 | 766 | 279 |
+| zh | 231 | 766 | 279 |
+| es | 231 | 794 | 279 |
+| pt-br | 231 | 794 | 279 |
+| de | 231 | 809 | 279 |
+| fr | 231 | 807 | 279 |
+| vi | 231 | 791 | 279 |
+| id | 231 | 810 | 279 |
+| th | 231 | 766 | 279 |
+| zh-tw | 231 | 766 | 279 |
+| it | 231 | 810 | 279 |
+| nl | 231 | 795 | 279 |
+| hi | 231 | 766 | 279 |
 
 For a per-question Korean translation worklist, call `getQuestionLocalizationGaps("ko")` from `src/lib/localization-quality.ts`. Each row contains the stable question ID, category, English prompt/choices/explanation, missing fields, and choice indexes needing translation. Other non-English locales use the same helper.
 
@@ -31,14 +31,14 @@ For a per-question Korean translation worklist, call `getQuestionLocalizationGap
 
 - English detail pages are always indexable.
 - Non-English details require localized title and category description, localized result UI, at least 95% localized questions, 95% localized non-protected choices, and 90% localized explanations.
-- Numeric-only expressions, standard capital names, historical date values, chemical symbols, and listed technology names can remain unchanged where appropriate.
+- Language quiz answer text, single-letter pattern targets, numeric/unit expressions, standard capital names, historical date values, chemical symbols, and listed technology names can remain unchanged where they are the content being tested.
 - Incomplete detail pages stay available at their existing locale-first URL, retain a self-canonical, and return `noindex,follow`.
 - `hreflang` lists only indexable locale pages; `x-default` remains English.
-- Quiz-list pages are checked separately. Fourteen list locales are indexable; Dutch is `noindex,follow` because its visible play CTA is still the English `Start quiz` label.
+- Quiz-list pages are checked separately. All 15 localized list locales are indexable, including Dutch after the CTA was translated to `Quiz starten`.
 
 | Locale | Indexable details / 58 | Noindex details |
 |---|---:|---:|
-| ko | 28 | 30 |
+| ko | 58 | 0 |
 | en | 58 | 0 |
 | ja | 26 | 32 |
 | zh | 26 | 32 |
@@ -54,11 +54,11 @@ For a per-question Korean translation worklist, call `getQuestionLocalizationGap
 | nl | 25 | 33 |
 | hi | 26 | 32 |
 
-The resulting sitemap contains **425 URLs**: 411 indexable detail URLs plus 14 localized list pages. The previous sitemap contained 885 URLs. No URL shape changed; all entries remain `/{locale}/quiz[/slug]`.
+The resulting sitemap contains **456 URLs**: 441 indexable detail URLs plus 15 localized list pages. Korean detail coverage is now 58/58. Dutch `Start quiz` was changed to `Quiz starten`, so the Dutch list remains eligible under the unchanged list localization gate. No SEO policy or URL shape changed; all entries remain `/{locale}/quiz[/slug]`.
 
 ## Translation priority
 
-The current uncovered set is concentrated in general knowledge, nonsense, and legacy question rows. Translate the Korean missing rows first, then complete the other 13 non-English locales. The locale pages currently omitted from indexing will automatically return to sitemap and `hreflang` when their measured quality crosses the threshold.
+Korean question, unapproved choice, and explanation fallback counts are now zero. Remaining non-English gaps are concentrated in the other locales; translate those before enabling their detail pages for indexing. The locale pages currently omitted from indexing will automatically return to sitemap and `hreflang` when their measured quality crosses the unchanged threshold. English-target examples, numeric/symbol values, and approved proper-name terms are not counted as untranslated choices.
 
 ## Duplicate and uniqueness review
 

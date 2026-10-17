@@ -49,10 +49,14 @@ function isNeutral(value: string): boolean {
 
 function isPreservedChoice(question: QuizQuestion, value: string): boolean {
   if (isNeutral(value)) return true;
+  if (question.category === "language") return true;
+  if (question.category === "brain" && /^[A-Z]$/.test(value)) return true;
+  if (/^[\d,.]+\s?(?:°[CF]|km\/s)$/.test(value)) return true;
+  if (question.category === "science" && /^(?:CO₂|H₂O|O₂|NaCl)$/.test(value)) return true;
   if (question.category === "geography" && question.id.includes("capital")) return true;
   if (question.category === "history" && /^(?:\d{3,4}(?:\s?(?:BCE|CE|BC|AD))?|Ancient (?:Greece|Rome)|China|The Inca)$/i.test(value)) return true;
   if (question.category === "science" && /^(?:[A-Z][a-z]?|DNA|pH|ATP|UVB|Mohs scale)$/.test(value)) return true;
-  if (question.category === "technology" && /^(?:Java|JavaScript|TypeScript|SQL|Git|HTTP(?:S)?|HTML|CSS|TCP|IP|DNS|API|JSON|Linux|Windows|React|Next\.js|CPU|RAM|SSD)$/i.test(value)) return true;
+  if (question.category === "technology" && /^(?:Java|JavaScript|TypeScript|SQL|Git|HTTP(?:S)?|HTML|CSS|TCP|IP|DNS|API|JSON|Linux|Windows|React|Next\.js|CPU|RAM|SSD|C|Swift|PNG|\.(?:png|mp3|csv|exe))$/i.test(value)) return true;
   return false;
 }
 
@@ -292,7 +296,9 @@ export async function getLocalizationAudit() {
       for (const question of await getPool("all", locale)) {
         const copy = questionCopyResultForLocale(question, locale).value;
         if (copy.question === question.question) questionFallbacks++;
-        question.options.forEach((option, index) => { if (copy.options[index] === option) choiceFallbacks++; });
+        question.options.forEach((option, index) => {
+          if (copy.options[index] === option && !isPreservedChoice(question, option)) choiceFallbacks++;
+        });
         if (copy.explanation === question.explanation) explanationFallbacks++;
       }
     }
@@ -319,7 +325,9 @@ export async function getQuestionLocalizationGaps(locale: Locale): Promise<Quest
   const gaps: QuestionLocalizationGap[] = [];
   for (const question of await getPool("all", locale)) {
     const copy = questionCopyResultForLocale(question, locale);
-    const missingChoiceIndexes = question.options.flatMap((option, index) => copy.optionFallbacks[index] ? [index] : []);
+    const missingChoiceIndexes = question.options.flatMap((option, index) =>
+      copy.optionFallbacks[index] && !isPreservedChoice(question, option) ? [index] : [],
+    );
     const missing: QuestionLocalizationGap["missing"] = [];
     if (copy.questionIsFallback) missing.push("question");
     if (missingChoiceIndexes.length) missing.push("choices");

@@ -2,7 +2,9 @@ import type { QuestionLocaleCopy, QuizQuestion } from "../types";
 
 export type MathPhrases = {
   sum: (a: number, b: number) => string;
+  sumWhy?: (a: number, b: number, answer: number) => string;
   product: (a: number, b: number) => string;
+  productWhy?: (a: number, b: number, answer: number) => string;
   equation: (a: number, b: number, c: number) => string;
   equationWhy: (a: number, b: number, answer: number) => string;
   percent: (percent: number, amount: number) => string;
@@ -24,11 +26,11 @@ export function mathPatternCopy(question: QuizQuestion, phrases: MathPhrases): Q
   if (kind === "sum") {
     const a = 11 + i * 3, b = 7 + i;
     prompt = phrases.sum(a, b);
-    explanation = `${a} + ${b} = ${a + b}.`;
+    explanation = phrases.sumWhy?.(a, b, a + b) ?? `${a} + ${b} = ${a + b}.`;
   } else if (kind === "product") {
     const a = i + 6, b = i + 4;
     prompt = phrases.product(a, b);
-    explanation = `${a} × ${b} = ${a * b}.`;
+    explanation = phrases.productWhy?.(a, b, a * b) ?? `${a} × ${b} = ${a * b}.`;
   } else if (kind === "equation") {
     const a = i + 2, b = i, c = a * (i + 3) + b;
     prompt = phrases.equation(a, b, c);

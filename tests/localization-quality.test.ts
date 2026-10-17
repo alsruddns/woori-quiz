@@ -7,7 +7,7 @@ import { quizzes } from "../src/lib/registry";
 import { questionBank, questionCopyForLocale, questionCopyResultForLocale } from "../src/lib/question-bank";
 import { quizDescription } from "../src/lib/content-copy";
 import { quizCategoryName, quizTitle } from "../src/lib/quiz-copy";
-import { getListLocalizationQuality, getLocalizationAudit, getQuizLocalizationQuality, getQuizQuestionPoolIds, LOCALIZATION_INDEX_THRESHOLD } from "../src/lib/localization-quality";
+import { getListLocalizationQuality, getLocalizationAudit, getQuestionLocalizationGaps, getQuizLocalizationQuality, getQuizQuestionPoolIds, LOCALIZATION_INDEX_THRESHOLD } from "../src/lib/localization-quality";
 
 describe("localization quality index policy", () => {
   it("uses the configured quality thresholds and always permits English", async () => {
@@ -33,7 +33,7 @@ describe("localization quality index policy", () => {
     for (const locale of locales) {
       const result = getListLocalizationQuality(locale);
       expect(result.complete).toBe(result.indexable);
-      expect(result.complete, locale).toBe(locale !== "nl");
+      expect(result.complete, locale).toBe(true);
     }
   });
 
@@ -68,31 +68,42 @@ describe("localization quality index policy", () => {
     }
   }, 30000);
 
-  it("noindexes the incomplete Dutch list while keeping its locale-first self canonical", async () => {
+  it("indexes the localized Dutch list with its locale-first self canonical", async () => {
     const metadata = await generateListMetadata({ params: Promise.resolve({ locale: "nl" }) });
-    expect(metadata.robots).toMatchObject({ index: false, follow: true });
+    expect(metadata.robots).toMatchObject({ index: true, follow: true });
     expect(metadata.alternates?.canonical).toBe("/nl/quiz");
     const languages = metadata.alternates?.languages as Record<string, string>;
-    expect(languages.nl).toBeUndefined();
+    expect(languages.nl).toBe("/nl/quiz");
     expect(languages.en).toBe("/en/quiz");
   });
 
   it("reports source fallback counts and index coverage for the audit document", async () => {
     const audit = await getLocalizationAudit();
     expect(audit.detailQuizCount).toBe(58);
-    expect(audit.listPageCount).toBe(14);
+    expect(audit.listPageCount).toBe(15);
     expect(audit.sitemapUrlCount).toBe(audit.listPageCount + audit.detailUrlCount);
-    expect(audit.sitemapUrlCount).toBe(425);
+    expect(audit.sitemapUrlCount).toBe(456);
     console.log("Localization indexing audit", JSON.stringify(audit));
     expect(audit.byLocale.en.indexableQuizCount).toBe(58);
     expect(audit.byLocale.en.noindexQuizCount).toBe(0);
-    expect(audit.byLocale.ko.questionFallbacks).toBe(221);
-    expect(audit.byLocale.ko.choiceFallbacks).toBe(2126);
-    expect(audit.byLocale.ko.explanationFallbacks).toBe(269);
+    expect(audit.byLocale.ko.indexableQuizCount).toBe(58);
+    expect(audit.byLocale.ko.noindexQuizCount).toBe(0);
     for (const locale of locales.filter((item) => item !== "en")) {
       expect(audit.byLocale[locale].indexableQuizCount).toBeGreaterThanOrEqual(0);
       expect(audit.byLocale[locale].noindexQuizCount + audit.byLocale[locale].indexableQuizCount).toBe(58);
     }
+  }, 60000);
+
+  it("has no unapproved Korean question, choice, or explanation fallbacks", async () => {
+    const audit = await getLocalizationAudit();
+    const gaps = await getQuestionLocalizationGaps("ko");
+    expect(questionBank).toHaveLength(621);
+    expect(gaps).toHaveLength(0);
+    expect(audit.byLocale.ko.questionFallbacks).toBe(0);
+    expect(audit.byLocale.ko.choiceFallbacks).toBe(0);
+    expect(audit.byLocale.ko.explanationFallbacks).toBe(0);
+    expect(audit.byLocale.ko.indexableQuizCount).toBe(58);
+    expect(audit.byLocale.ko.noindexQuizCount).toBe(0);
   }, 60000);
 
   it("checks the 58 public quiz identities and records high-overlap bank candidates", async () => {
