@@ -118,8 +118,36 @@ export const legacyQuestionBank: QuizQuestion[] = rows.map(([category, difficult
 }));
 
 export function questionCopyForLocale(question: QuizQuestion, locale: Locale): QuestionLocaleCopy {
-  const { question: prompt, options, explanation } = question.localizations?.[locale] ?? question;
-  return { question: prompt, options, explanation };
+  return questionCopyResultForLocale(question, locale).value;
+}
+
+export type QuestionCopyResult = {
+  value: QuestionLocaleCopy;
+  sourceLocale: Locale;
+  isFallback: boolean;
+  questionIsFallback: boolean;
+  optionFallbacks: boolean[];
+  explanationIsFallback: boolean;
+};
+
+export function questionCopyResultForLocale(question: QuizQuestion, locale: Locale): QuestionCopyResult {
+  const localized = question.localizations?.[locale];
+  const value = localized ?? {
+    question: question.question,
+    options: question.options,
+    explanation: question.explanation,
+  };
+  const questionIsFallback = locale !== "en" && value.question === question.question;
+  const optionFallbacks = value.options.map((option, index) => locale !== "en" && option === question.options[index]);
+  const explanationIsFallback = locale !== "en" && value.explanation === question.explanation;
+  return {
+    value,
+    sourceLocale: questionIsFallback ? "en" : locale,
+    isFallback: questionIsFallback || optionFallbacks.some(Boolean) || explanationIsFallback,
+    questionIsFallback,
+    optionFallbacks,
+    explanationIsFallback,
+  };
 }
 
 export type QuestionFilter = { category?: string; tag?: string; difficulty?: Difficulty; count: number; seed?: number; excludeIds?: string[] };
