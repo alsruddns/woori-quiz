@@ -82,7 +82,11 @@ describe("localization quality index policy", () => {
     expect(audit.detailQuizCount).toBe(58);
     expect(audit.listPageCount).toBe(15);
     expect(audit.sitemapUrlCount).toBe(audit.listPageCount + audit.detailUrlCount);
-    expect(audit.sitemapUrlCount).toBe(456);
+    const sitemapResponse = await GET();
+    const sitemapXml = await sitemapResponse.text();
+    const sitemapUrls = [...sitemapXml.matchAll(/<loc>([^<]+)<\/loc>/g)].map(([, url]) => url);
+    expect(sitemapUrls).toHaveLength(audit.sitemapUrlCount);
+    expect(new Set(sitemapUrls).size).toBe(sitemapUrls.length);
     console.log("Localization indexing audit", JSON.stringify(audit));
     expect(audit.byLocale.en.indexableQuizCount).toBe(58);
     expect(audit.byLocale.en.noindexQuizCount).toBe(0);
