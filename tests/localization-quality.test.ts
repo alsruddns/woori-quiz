@@ -6,7 +6,7 @@ import { locales } from "../src/lib/i18n";
 import { quizzes } from "../src/lib/registry";
 import { questionBank, questionCopyForLocale, questionCopyResultForLocale } from "../src/lib/question-bank";
 import { quizDescription } from "../src/lib/content-copy";
-import { quizTitle } from "../src/lib/quiz-copy";
+import { quizCategoryName, quizTitle } from "../src/lib/quiz-copy";
 import { getListLocalizationQuality, getLocalizationAudit, getQuizLocalizationQuality, getQuizQuestionPoolIds, LOCALIZATION_INDEX_THRESHOLD } from "../src/lib/localization-quality";
 
 describe("localization quality index policy", () => {
@@ -104,11 +104,17 @@ describe("localization quality index policy", () => {
       expect(new Set(titles).size, `duplicate titles in ${locale}`).toBe(58);
       const descriptions = published.map((quiz) => quizDescription(locale, quiz, quizTitle(locale, quiz)).trim().toLocaleLowerCase());
       expect(new Set(descriptions).size, `duplicate descriptions in ${locale}`).toBe(58);
+      for (const quiz of published) {
+        expect(quizTitle(locale, quiz), `${locale}/${quiz.slug} title`).not.toMatch(/^[a-z][a-z0-9_-]*(?:\.[a-z0-9_-]+)+$/i);
+        expect(quizDescription(locale, quiz, quizTitle(locale, quiz)), `${locale}/${quiz.slug} description`).not.toMatch(/^[a-z][a-z0-9_-]*(?:\.[a-z0-9_-]+)+$/i);
+        expect(quizCategoryName(locale, quiz.category), `${locale}/${quiz.category} category`).not.toMatch(/^[a-z][a-z0-9_-]*(?:\.[a-z0-9_-]+)+$/i);
+      }
     }
     expect(new Set(questionBank.map((question) => question.question.trim().toLocaleLowerCase())).size).toBe(621);
 
     const bankQuizzes = published.filter((quiz) => quiz.mode === "bank");
     const pools = await Promise.all(bankQuizzes.map(async (quiz) => ({ quiz, ids: new Set(await getQuizQuestionPoolIds(quiz)) })));
+    expect(pools.every(({ ids }) => ids.size > 0)).toBe(true);
     const overlaps: Array<{ first: string; second: string; shared: number; rate: number }> = [];
     for (let i = 0; i < pools.length; i++) for (let j = i + 1; j < pools.length; j++) {
       const shared = [...pools[i].ids].filter((id) => pools[j].ids.has(id)).length;
