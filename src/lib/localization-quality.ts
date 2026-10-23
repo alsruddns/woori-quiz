@@ -168,6 +168,15 @@ const czechInvariantChoices = new Set([
   "Proxima Centauri", "Michelangelo", "Chuseok", "Ondol", "Buchaechum", "Hanok",
   "Gayageum", "Antonio Vivaldi", "Hangul", "Ssireum", "Saturn",
 ]);
+const romanianInvariantChoices = new Set([
+  "Africa", "Antarctica", "Antonio Vivaldi", "Argon", "Asia", "Australia", "Austria", "Avocado",
+  "Badminton", "Beagle", "Buchaechum", "Buzz Aldrin", "Canada", "Chuseok", "Electron", "Galileo",
+  "Gayageum", "Hangul", "Hanok", "Isaac Newton", "Johannes Gutenberg", "John Glenn", "Jupiter",
+  "Kenya", "Kyoto", "Magma", "Magnetism", "Marco Polo", "Mayflower", "Michelangelo", "Monitor",
+  "Neil Armstrong", "Neutron", "Octal", "Ondol", "Origami", "Osaka", "Pascal", "Pentagon", "Persia",
+  "Proxima Centauri", "Proton", "Router", "Rugby", "Santa Maria", "Sapporo", "Saturn", "Ssireum",
+  "Sudan", "Tanzania", "Topaz", "Uganda", "Venus", "Yen", "Yuri Gagarin",
+]);
 const malayInvariantChoices = new Set([
   "Aluminium", "Ampere", "Antonio Vivaldi", "Argon", "Asia", "Australia", "Austria", "Badminton",
   "Barometer", "Buchaechum", "Buzz Aldrin", "Chuseok", "Danube", "Denmark", "Ethiopia",
@@ -196,6 +205,7 @@ function isPreservedChoice(question: QuizQuestion, value: string, locale: Locale
   if (locale === "ms" && malayInvariantChoices.has(value)) return true;
   if (locale === "sv" && swedishInvariantChoices.has(value)) return true;
   if (locale === "cs" && czechInvariantChoices.has(value)) return true;
+  if (locale === "ro" && romanianInvariantChoices.has(value)) return true;
   if (locale === "es" && spanishInvariantChoices.has(value)) return true;
   if (locale === "pt-br" && brazilianPortugueseInvariantChoices.has(value)) return true;
   if (locale === "de" && germanInvariantChoices.has(value)) return true;
@@ -227,6 +237,7 @@ function hasLocalizedLabel(locale: Locale, key: string, value: string, english: 
     fr: { title: "Quiz", question: "Question", contact: "Contact", score: "Score" },
     it: { title: "Quiz", home: "Home", privacy: "Privacy" },
     nl: { title: "Quiz", home: "Home", privacy: "Privacy", contact: "Contact", score: "Score" },
+    ro: { contact: "Contact" },
   };
   return sharedLabels[locale]?.[key] === value;
 }

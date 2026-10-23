@@ -7,21 +7,22 @@ import ukCatalog from "./i18n/uk.json";
 import msCatalog from "./i18n/ms.json";
 import svCatalog from "./i18n/sv.json";
 import csCatalog from "./i18n/cs.json";
+import roCatalog from "./i18n/ro.json";
 
-export const locales = ["ko", "en", "ja", "zh", "es", "pt-br", "de", "fr", "vi", "id", "th", "zh-tw", "it", "nl", "hi", "ru", "tr", "pl", "fil", "bn", "uk", "ms", "sv", "cs"] as const;
+export const locales = ["ko", "en", "ja", "zh", "es", "pt-br", "de", "fr", "vi", "id", "th", "zh-tw", "it", "nl", "hi", "ru", "tr", "pl", "fil", "bn", "uk", "ms", "sv", "cs", "ro"] as const;
 export type Locale = (typeof locales)[number];
 // Expansion targets are tracked separately from active locales. A target must
 // not reach routing, selectors, metadata, or the sitemap until its catalog is complete.
 export const localeExpansionTargets = [
-  ...locales.filter((locale) => locale !== "ru" && locale !== "tr" && locale !== "pl" && locale !== "fil" && locale !== "bn" && locale !== "uk" && locale !== "ms" && locale !== "sv" && locale !== "cs"),
+  ...locales.filter((locale) => locale !== "ru" && locale !== "tr" && locale !== "pl" && locale !== "fil" && locale !== "bn" && locale !== "uk" && locale !== "ms" && locale !== "sv" && locale !== "cs" && locale !== "ro"),
   "ru", "tr", "pl", "fil", "bn", "uk", "ms", "sv", "cs", "ro", "el",
 ] as const;
 export type TargetLocale = (typeof localeExpansionTargets)[number];
 export type ExpansionLocale = Exclude<TargetLocale, (typeof publishedLocales)[number]>;
 export const excludedExpansionLocales = ["ar", "ur", "fa", "he"] as const;
 // Only these locales currently meet the full catalog publication gate.
-export const publishedLocales = ["ko", "en", "ja", "zh", "es", "pt-br", "de", "fr", "vi", "id", "th", "zh-tw", "it", "nl", "hi", "ru", "tr", "pl", "fil", "bn", "uk", "ms", "sv", "cs"] as const satisfies readonly Locale[];
-export const localeNames: Record<Locale, string> = { ko:"한국어", en:"English", ja:"日本語", zh:"简体中文", es:"Español", "pt-br":"Português (Brasil)", de:"Deutsch", fr:"Français", vi:"Tiếng Việt", id:"Bahasa Indonesia", th:"ไทย", "zh-tw":"繁體中文", it:"Italiano", nl:"Nederlands", hi:"हिन्दी", ru:ruCatalog.localeName, tr:trCatalog.localeName , pl: plCatalog.localeName, fil: filCatalog.localeName, bn: bnCatalog.localeName, uk: ukCatalog.localeName, ms: msCatalog.localeName, sv: svCatalog.localeName, cs: csCatalog.localeName };
+export const publishedLocales = ["ko", "en", "ja", "zh", "es", "pt-br", "de", "fr", "vi", "id", "th", "zh-tw", "it", "nl", "hi", "ru", "tr", "pl", "fil", "bn", "uk", "ms", "sv", "cs", "ro"] as const satisfies readonly Locale[];
+export const localeNames: Record<Locale, string> = { ko:"한국어", en:"English", ja:"日本語", zh:"简体中文", es:"Español", "pt-br":"Português (Brasil)", de:"Deutsch", fr:"Français", vi:"Tiếng Việt", id:"Bahasa Indonesia", th:"ไทย", "zh-tw":"繁體中文", it:"Italiano", nl:"Nederlands", hi:"हिन्दी", ru:ruCatalog.localeName, tr:trCatalog.localeName , pl: plCatalog.localeName, fil: filCatalog.localeName, bn: bnCatalog.localeName, uk: ukCatalog.localeName, ms: msCatalog.localeName, sv: svCatalog.localeName, cs: csCatalog.localeName, ro: roCatalog.localeName };
 export const messages: Record<Locale, { title:string; subtitle:string; search:string; today:string; categories:string; popular:string; play:string; question:string; next:string; submit:string; result:string; retry:string; home:string; related:string; score:string; footer:string }> = {
 ko:{title:"퀴즈테스트",subtitle:"오늘의 호기심을 깨우는 퀴즈",search:"퀴즈 검색",today:"오늘의 퀴즈",categories:"카테고리",popular:"인기 퀴즈",play:"시작하기",question:"문제",next:"다음 문제",submit:"답변 확인",result:"퀴즈 결과",retry:"다시 풀기",home:"홈으로",related:"관련 퀴즈",score:"점수",footer:"개인정보 안내 · 이용안내 · 문의 사항"},
 en:{title:"Quiz",subtitle:"A little curiosity goes a long way.",search:"Search quizzes",today:"Quiz of the day",categories:"Categories",popular:"Popular quizzes",play:"Start quiz",question:"Question",next:"Next question",submit:"Check answer",result:"Your result",retry:"Try again",home:"Home",related:"Related quizzes",score:"Score",footer:"Privacy · Terms · Contact"},
@@ -47,6 +48,7 @@ uk: ukCatalog.messages,
 ms: msCatalog.messages,
 sv: svCatalog.messages,
 cs: csCatalog.messages,
+ro: roCatalog.messages,
 };
 export function isLocale(value:string): value is Locale { return (locales as readonly string[]).includes(value); }
 export function isPublishedLocale(value:string): value is (typeof publishedLocales)[number] { return (publishedLocales as readonly string[]).includes(value); }
@@ -109,6 +111,7 @@ export const discoveryCopy: Record<Locale, DiscoveryCopy> = {
   ms:{...msCatalog.discovery,resultsFor:(q,n)=>msCatalog.discovery.resultsFor.replace("COUNT_SLOT",String(n)).replace("QUERY_SLOT",q)},
   sv:{...svCatalog.discovery,resultsFor:(q,n)=>svCatalog.discovery.resultsFor.replace("COUNT_SLOT",String(n)).replace("QUERY_SLOT",q)},
   cs:{...csCatalog.discovery,resultsFor:(q,n)=>csCatalog.discovery.resultsFor.replace("COUNT_SLOT",String(n)).replace("QUERY_SLOT",q)},
+  ro:{...roCatalog.discovery,resultsFor:(q,n)=>roCatalog.discovery.resultsFor.replace("COUNT_SLOT",String(n)).replace("QUERY_SLOT",q)},
 };
 
 export const detailCopy: Record<Locale, { correctCount: string; incorrectCount: string; newSet: string; otherQuizzes: string }> = {
@@ -136,6 +139,7 @@ export const detailCopy: Record<Locale, { correctCount: string; incorrectCount: 
   ms:msCatalog.detail,
   sv:svCatalog.detail,
   cs:csCatalog.detail,
+  ro:roCatalog.detail,
 };
 
 export type UiMessages = {
@@ -269,4 +273,5 @@ export const uiMessages: Record<Locale, UiMessages> = {
   ms: malayUiMessages,
   sv: swedishUiMessages,
   cs: czechUiMessages,
+  ro: { ...roCatalog.ui, quizCount: (count) => roCatalog.ui.quizCount.replace("COUNT_SLOT", String(count)), questionCount: (count) => roCatalog.ui.questionCount.replace("COUNT_SLOT", String(count)), quizSummary: (title) => roCatalog.ui.quizSummary.replace("TITLE_SLOT", title) },
 };

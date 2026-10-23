@@ -141,8 +141,16 @@ export async function generatedCopiesForLocale(
     }
     return copies;
   }
+  if (locale === "ro") {
+    const { default: questionCopies } = await import("./ro/question-bank.json") as { default: Record<string, QuestionLocaleCopy> };
+    for (const question of questions) {
+      const copy = questionCopies[question.id];
+      if (copy) copies.set(question.id, copy);
+    }
+    return copies;
+  }
   if (!(locales as readonly string[]).includes(locale)) return copies;
-  const activeLocale = locale as Exclude<Locale, "ru" | "tr" | "pl" | "fil" | "bn" | "uk" | "ms" | "sv" | "cs">;
+  const activeLocale = locale as Exclude<Locale, "ru" | "tr" | "pl" | "fil" | "bn" | "uk" | "ms" | "sv" | "cs" | "ro">;
   if (activeLocale === "en") return copies;
   if (questions.some((q) => q.id.startsWith("math-x-"))) {
     const { phrases } = await mathPhrases[activeLocale]();

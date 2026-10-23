@@ -54,7 +54,8 @@ describe("Czech published runtime", () => {
     expect((list.alternates?.languages as Record<string,string>).cs).toBe("/cs/quiz");
     const xml = await (await GET()).text();
     expect(xml).toContain("https://www.woori.today/cs/quiz");
+    expect(xml).toContain("https://www.woori.today/ro/quiz");
     expect(xml).not.toContain("/ar/");
-    expect((xml.match(/<loc>/g) ?? []).length).toBe(1416);
+    expect((xml.match(/<loc>/g) ?? []).length).toBe(1475);
   }, 60000);
 });
