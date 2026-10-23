@@ -64,11 +64,22 @@ const brazilianPortugueseInvariantChoices = new Set([
   "Piano", "Proxima Centauri", "Rugby", "Santa Maria", "Sapporo", "Ssireum", "Uganda", "Watt",
   "Won", "Yuri Gagarin",
 ]);
+const germanInvariantChoices = new Set([
+  "Aluminium", "Ampere", "Antonio Vivaldi", "Argon", "Avocado", "Badminton", "Barometer", "Beagle",
+  "Buchaechum", "Buzz Aldrin", "Cello", "Chuseok", "Endeavour", "England", "Galileo", "Gayageum",
+  "Hangul", "Hanok", "Helium", "Hygrometer", "Isaac Newton", "Johannes Gutenberg", "John Glenn",
+  "Joule", "Jupiter", "Kimchi", "Kyoto", "Lava", "Magma", "Marco Polo", "Mars", "Mayflower", "Meter",
+  "Michelangelo", "Monitor", "Neil Armstrong", "Neutron", "Newton", "Ondol", "Origami", "Osaka",
+  "Pascal", "Peru", "Photon", "Proxima Centauri", "Proton", "Roman", "Router", "Rugby", "Santa Maria",
+  "Sapporo", "Saturn", "Seine", "Seoul", "Ssireum", "Sublimation", "Sudan", "Tennis", "Thermometer",
+  "Uganda", "Uniform Resource Locator", "Venus", "Vitamin C", "Vitamin D", "Watt", "Yen", "Yuri Gagarin",
+]);
 
 function isPreservedChoice(question: QuizQuestion, value: string, locale: Locale): boolean {
   if (isNeutral(value)) return true;
   if (locale === "es" && spanishInvariantChoices.has(value)) return true;
   if (locale === "pt-br" && brazilianPortugueseInvariantChoices.has(value)) return true;
+  if (locale === "de" && germanInvariantChoices.has(value)) return true;
   if (question.category === "language") return true;
   if (question.category === "brain" && /^[A-Z]$/.test(value)) return true;
   if (/^[\d,.]+\s?(?:°[CF]|km\/s)$/.test(value)) return true;

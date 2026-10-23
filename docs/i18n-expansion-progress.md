@@ -8,7 +8,7 @@ Progress is measured from the source catalog and localization quality checks. A 
 - Target: 26 locales: `ko`, `en`, `ja`, `zh`, `es`, `pt-br`, `de`, `fr`, `vi`, `id`, `th`, `zh-tw`, `it`, `nl`, `hi`, `ar`, `bn`, `fil`, `ms`, `pl`, `ru`, `sv`, `tr`, `uk`, `ur`, `fa`.
 - Quiz registry: 96 entries, 58 public quizzes, 38 closed entries.
 - Shared question bank: 621 records. UI, route and publication completion is counted separately from question data.
-- Korean, English, Japanese, Simplified Chinese, Spanish, and Brazilian Portuguese are currently published. Sitemap contains 354 URLs (6 list pages and 348 detail pages).
+- Korean, English, Japanese, Simplified Chinese, Spanish, Brazilian Portuguese, and German are currently published. Sitemap contains 413 URLs (7 list pages and 406 detail pages).
 
 ## Locale progress
 
@@ -22,7 +22,7 @@ Progress is measured from the source catalog and localization quality checks. A 
 | zh | 621/621; 0 question gaps | Connected | Pass | 1 + 58 | Pass |
 | es | 621/621; 0 question gaps | Connected | Pass | 1 + 58 | Pass |
 | pt-br | 621/621; 0 question gaps | Connected | Pass | 1 + 58 | Pass |
-| de | 390/621 baseline | Connected | Not verified | 0 | Not published |
+| de | 621/621; 0 question gaps | Connected | Pass | 1 + 58 | Pass |
 | fr | 390/621 baseline | Connected | Not verified | 0 | Not published |
 | vi | 390/621 baseline | Connected | Not verified | 0 | Not published |
 | id | 390/621 baseline | Connected | Not verified | 0 | Not published |
@@ -40,7 +40,7 @@ The existing non-English catalogs need a fresh audit. The earlier “390/621” 
 - Japanese and Simplified Chinese question localization suites cover all 621 records with zero gaps, patterned translations, stable answer positions, historical dates, and science symbols.
 - TypeScript: passed (`pnpm exec tsc --noEmit`).
 - Lint: passed (`pnpm lint`).
-- Full test suite: **52/52 passed** (`pnpm test`), including full question coverage for Japanese, Simplified Chinese, Spanish, and Brazilian Portuguese; route, selector, SEO, sitemap, and mobile UI checks.
-- Production build: passed (`pnpm build`); 367 static pages generated, including 6 localized list pages and 348 quiz detail routes.
+- Full test suite: **53/53 passed** (`pnpm test`), including 621-question coverage for Japanese, Simplified Chinese, Spanish, Brazilian Portuguese, and German; route, selector, SEO, sitemap, and mobile UI checks.
+- Production build: passed (`pnpm build`); 427 static pages generated, including 7 localized list pages and 406 quiz detail routes.
 
-**Next start:** run TypeScript, lint, full tests, and production build for Brazilian Portuguese, then commit and push if they pass. Continue with German (`de`): audit all 621 records and close the current gaps (231 question strings, 809 choice strings, 279 explanations). Keep it unpublished until the full UI, quiz, routing, selector, SEO, mobile, and build gates pass. Korean, English, Japanese, Chinese, Spanish, and Brazilian Portuguese are currently public.
+**Next start:** commit and push the verified German rollout. Continue with French (`fr`): audit all 621 records and close the current gaps (231 question strings, 807 choice strings, 279 explanations). Keep it unpublished until the full UI, quiz, routing, selector, SEO, mobile, and build gates pass. Korean, English, Japanese, Chinese, Spanish, Brazilian Portuguese, and German are currently public.
