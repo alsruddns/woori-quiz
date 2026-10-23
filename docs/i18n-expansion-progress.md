@@ -31,7 +31,8 @@ Progress is measured from the source catalog and localization quality checks. A 
 | it | 621/621; 0 question gaps | Connected | Pass | 1 + 58 | Pass |
 | nl | 621/621; 0 question gaps | Connected | Pass | 1 + 58 | Pass |
 | hi | 621/621; 0 question gaps | Connected | Pass | 1 + 58 | Pass |
-| ar, bn, fil, ms, pl, ru, sv, tr, uk, ur, fa | 0/621 | Missing | Not verified | 0 | Not published |
+| ar | 621/621 staged; not connected | Missing | Structural check pass; runtime not verified | 0 | Not published |
+| bn, fil, ms, pl, ru, sv, tr, uk, ur, fa | 0/621 | Missing | Not verified | 0 | Not published |
 
 The existing non-English catalogs need a fresh audit. The earlier “390/621” values are the pre-expansion baseline, not proof of completion. Japanese, Simplified Chinese, Spanish, Brazilian Portuguese, German, French, Vietnamese, Indonesian, Thai, Traditional Chinese, Italian, Dutch, and Hindi pass common UI and question coverage, all 58 public quiz gates, routing, selector, canonical/hreflang, and sitemap checks. Other incomplete languages remain out of routes, selectors, hreflang, and sitemap.
 
@@ -43,5 +44,6 @@ The existing non-English catalogs need a fresh audit. The earlier “390/621” 
 - Full test suite: **61/61 passed** (`pnpm test`), including 621-question coverage for Japanese, Simplified Chinese, Spanish, Brazilian Portuguese, German, French, Vietnamese, Indonesian, Thai, Traditional Chinese, Italian, Dutch, and Hindi; route, selector, SEO, sitemap, scoring, and mobile UI checks.
 - Production build: passed (`pnpm build`); 907 paths generated, including 15 localized list pages and 870 quiz detail routes.
 - Incomplete-target publication guard: all 11 not-yet-connected targets are checked for absence from generated routes, published hreflang, and sitemap list/detail URLs. Focused localization tests passed (11/11), TypeScript passed, and lint passed after this guard change.
+- Arabic question copy: 621/621 records are staged in `src/lib/question-bank/locales/ar/question-bank.json`; a structural test checks IDs, nonempty Arabic question/explanation copy, option count and uniqueness, and unchanged English language-test choices. It is not connected to runtime, and no Arabic pages are published.
 
-**Next start:** Arabic (`ar`) UI and question-bank expansion. No catalog or question-bank localization is currently connected (0/621). Keep it unpublished while building common UI, content, route, RTL layout, SEO, and quiz coverage. Hindi and the other completed languages are public. Prior locale commits and this publication-guard update are pushed to `origin/develop`.
+**Next start:** Connect the staged Arabic question copy to runtime, then add and verify Arabic UI, titles, interactive tests, RTL layout, routing, SEO, and remaining quiz behavior. Keep it unpublished until all gates pass. The other ten new targets have no connected data yet (0/621 each). Hindi and the other completed languages are public. Prior locale commits and the publication-guard update are pushed to `origin/develop`.
