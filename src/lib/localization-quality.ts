@@ -62,10 +62,11 @@ function isPreservedChoice(question: QuizQuestion, value: string): boolean {
 }
 
 function differentFromEnglish(value: string, english: string): boolean {
-  return value.trim().length > 0 && value.trim() !== english.trim();
+  return value.trim().length > 0 && !/[\uFFFD]|\?{2,}/u.test(value) && value.trim() !== english.trim();
 }
 
 function hasLocalizedLabel(locale: Locale, key: string, value: string, english: string): boolean {
+  if (/[\uFFFD]|\?{2,}/u.test(value)) return false;
   if (differentFromEnglish(value, english)) return true;
   const sharedLabels: Partial<Record<Locale, Record<string, string>>> = {
     es: { title: "Quiz" }, "pt-br": { title: "Quiz" }, de: { title: "Quiz" },

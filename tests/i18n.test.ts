@@ -2,6 +2,7 @@ import { describe, expect, it } from "vitest";
 import { categories, quizzes } from "../src/lib/registry";
 import { isLocale, localeExpansionTargets, locales, localeNames, publishedLocales, uiMessages } from "../src/lib/i18n";
 import { hasQuizTermTranslations, missingQuizTitleWords, quizCategoryName, quizTitle, quizTitleTranslationWordCount, quizTitleWordCount } from "../src/lib/quiz-copy";
+import { quizPathForLocale } from "../src/lib/urls";
 
 describe("quiz UI translations", () => {
   it("tracks 26 expansion targets without activating incomplete languages", () => {
@@ -10,7 +11,7 @@ describe("quiz UI translations", () => {
     expect(localeExpansionTargets.slice(0, locales.length)).toEqual(locales);
     expect(localeExpansionTargets.slice(locales.length)).toEqual(["ar", "bn", "fil", "ms", "pl", "ru", "sv", "tr", "uk", "ur", "fa"]);
     expect(localeExpansionTargets.slice(locales.length).every((locale) => !isLocale(locale))).toBe(true);
-    expect(publishedLocales).toEqual(["ko", "en"]);
+    expect(publishedLocales).toEqual(["ko", "en", "ja"]);
   });
 
   it("provides navigation, category, difficulty, and footer copy for all 15 locales", () => {
@@ -28,6 +29,11 @@ describe("quiz UI translations", () => {
       expect(hasQuizTermTranslations(locale, quizzes.map((quiz) => quiz.slug)), `Incomplete quiz word translations for ${locale}`).toBe(true);
       expect(quizzes.every((quiz) => quizTitle(locale, quiz).trim().length > 0)).toBe(true);
     }
+  });
+
+  it("switches quiz routes between the published languages", () => {
+    expect(quizPathForLocale("/en/quiz/general-knowledge", "ja")).toBe("/ja/quiz/general-knowledge");
+    expect(quizPathForLocale("/ja/quiz", "ko")).toBe("/ko/quiz");
   });
 
   it("uses the requested Korean navigation and category labels instead of English fallbacks", () => {

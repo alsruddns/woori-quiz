@@ -1,8 +1,27 @@
 import { describe, expect, it } from "vitest";
 import { locales } from "../src/lib/i18n";
 import { loadQuestionBankForCategory } from "../src/lib/question-bank/select-questions";
+import { getQuestionLocalizationGaps } from "../src/lib/localization-quality";
 
 describe("generated question localizations", () => {
+  it("provides a complete Japanese copy for the shared question bank", async () => {
+    const originals = await loadQuestionBankForCategory("all");
+    const translated = await loadQuestionBankForCategory("all", "ja");
+    expect(originals).toHaveLength(621);
+    expect(translated).toHaveLength(originals.length);
+    const gaps = await getQuestionLocalizationGaps("ja");
+    expect(gaps, "Japanese translation gaps").toEqual([]);
+    for (const original of originals) {
+      const localized = translated.find((question) => question.id === original.id)!;
+      const copy = localized.localizations?.ja;
+      expect(copy?.question.trim(), original.id).toBeTruthy();
+      expect(copy?.options).toHaveLength(original.options.length);
+      expect(new Set(copy?.options).size, original.id).toBe(original.options.length);
+      expect(copy?.explanation.trim(), original.id).toBeTruthy();
+      expect(localized.answer).toBe(original.answer);
+    }
+  }, 30000);
+
   it("loads patterned copies by locale without changing answers", async () => {
     for (const category of ["math", "brain", "geography", "language"]) {
       const originals = await loadQuestionBankForCategory(category);
