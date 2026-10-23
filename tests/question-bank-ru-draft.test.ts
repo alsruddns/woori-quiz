@@ -7,7 +7,7 @@ import { localeExpansionTargets, locales, publishedLocales } from "../src/lib/i1
 describe("Russian question bank draft", () => {
   it("covers all source questions while the incomplete locale stays unpublished", () => {
     const sourceById = new Map(questionBank.map((question) => [question.id, question]));
-    const preservedRussianTokens = new Set(["CO₂", "H₂O", "NaCl", "Java", "C", "JavaScript", "Swift", "SQL", "HTML", "CSS", "PNG", ".png", ".mp3", ".csv", ".exe"]);
+    const preservedRussianTokens = new Set(["CO₂", "H₂O", "NaCl", "O", "Au", "Na", "Fe", "Java", "C", "JavaScript", "Swift", "SQL", "HTML", "CSS", "PNG", ".png", ".mp3", ".csv", ".exe"]);
     expect(Object.keys(copies)).toHaveLength(questionBank.length);
     expect(Object.keys(copies).sort()).toEqual([...sourceById.keys()].sort());
     expect(localeExpansionTargets).toContain("ru");
@@ -82,6 +82,38 @@ describe("Russian question bank draft", () => {
         expect(copy.question, id).toMatch(/^Сколько будет/);
       }
       if (id.startsWith("math-x-percent-")) expect(copy.question, id).toMatch(/^Сколько составляет/);
+      if (id.startsWith("math-x-sequence-square-")) {
+        expect(copy.question, id).toContain("член последовательности");
+        expect(copy.explanation, id).toContain("произведение");
+        expect(copy.explanation, id).toContain("× 5² =");
+      }
+    }
+    expect(copies["history-x-1"].question).toMatch(/^В каком году/);
+    expect(copies["history-x-5"].question).toContain("Вояджер-1");
+    expect(copies["history-x-15"].question).toContain("перемирие в Корейской войне");
+    expect(copies["history-x-22"].question).toMatch(/^Где был построен/);
+    expect(copies["history-x-24"].question).toMatch(/^Кто построил/);
+    expect(copies["history-x-39"].question).toMatch(/^В каком году/);
+    expect(copies["science-x-1"].options[0]).toBe("O");
+    expect(copies["science-x-2"].options[0]).toBe("Au");
+    expect(copies["science-x-3"].options[0]).toBe("Na");
+    expect(copies["science-x-4"].options[0]).toBe("Fe");
+    expect(copies["science-x-5"].options[0]).toBe("C");
+    expect(copies["science-x-26"].options[0]).toBe("Зрачок");
+    expect(copies["science-x-27"].options[1]).toBe("C");
+    expect(copies["science-x-28"].options[0]).toBe("Кожа");
+    expect(copies["geography-x-feature-4"].question).toContain("Большой Барьерный риф");
+    expect(copies["it-x-concept-1"].question).toContain("CPU");
+    expect(copies["it-x-concept-29"].question).toContain("межсетевого экрана");
+    expect(copies["it-x-concept-37"].question).toContain("интерпретатора");
+    expect(copies["it-x-concept-40"].explanation).toContain("сколько данных канал может передать");
+    for (const [id, copy] of Object.entries(copies)) {
+      if (!id.startsWith("language-x-vocab-")) continue;
+      const sourceQuestion = sourceById.get(id)!.question;
+      const term = sourceQuestion.match(/[“"]([^”"]+)[”"]/ )?.[1];
+      expect(term, `${id} source vocabulary term`).toBeTruthy();
+      expect(copy.question, `${id} asks about the English term`).toContain(term);
+      expect(copy.explanation.toLowerCase(), `${id} explains the English term`).toContain(term!.toLowerCase());
     }
   });
 
