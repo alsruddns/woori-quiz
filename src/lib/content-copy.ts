@@ -8,11 +8,12 @@ import bnCatalog from "./i18n/bn.json";
 import ukCatalog from "./i18n/uk.json";
 import msCatalog from "./i18n/ms.json";
 import svCatalog from "./i18n/sv.json";
+import csCatalog from "./i18n/cs.json";
 
 const categoryOrder: Category[] = ["general", "nonsense", "math", "brain", "history", "science", "geography", "language", "technology", "memory", "random", "challenge", "speed", "fun"];
 
 // Each entry describes the actual subject or interaction of a category, not its name alone.
-const categoryDescriptions: Record<Exclude<Locale, "tr" | "pl" | "fil" | "bn" | "uk" | "ms" | "sv">, string[]> = {
+const categoryDescriptions: Record<Exclude<Locale, "tr" | "pl" | "fil" | "bn" | "uk" | "ms" | "sv" | "cs">, string[]> = {
   ko: ["생활 속 사실과 폭넓은 상식을 여러 주제에서 확인합니다.", "말의 뜻을 뒤집어 생각하는 짧은 수수께끼와 넌센스 문제입니다.", "사칙연산부터 수열과 확률까지 계산과 추론을 연습합니다.", "숫자 규칙, 조건과 단서를 읽고 논리적으로 답을 찾습니다.", "고대 문명과 근현대의 사건·인물을 사실 중심으로 살펴봅니다.", "생물, 화학, 물리, 우주에 관한 기초 원리를 확인합니다.", "대륙, 국가, 수도와 자연 지형의 위치를 떠올려 봅니다.", "어휘, 문법과 여러 문자 체계에 관한 이해를 확인합니다.", "웹, 프로그래밍, 데이터베이스와 네트워크의 기본 개념을 다룹니다.", "숫자·단어·순서를 기억하거나 시각적 변화를 알아차립니다.", "여러 분야의 문제를 섞어 매번 다른 순서로 풀어 봅니다.", "정해진 문항 수를 이어 풀며 끝까지 집중해 봅니다.", "반응 시간, 클릭 또는 입력 속도를 직접 측정합니다.", "가벼운 상식과 재미있는 문제로 짧게 쉬어 갑니다."],
   en: ["Check everyday facts across a broad mix of subjects.", "Solve short riddles by looking for a playful twist in the wording.", "Practice calculation and reasoning, from arithmetic to sequences and probability.", "Use clues, number patterns, and logical steps to find an answer.", "Explore factual milestones, people, and events from ancient to modern history.", "Review basic ideas in biology, chemistry, physics, and space.", "Recall where continents, countries, capitals, and natural features are found.", "Explore vocabulary, grammar, and writing systems across languages.", "Review foundations of the web, programming, databases, and networks.", "Remember numbers, words, and sequences or spot visual changes.", "Play a fresh mix of questions drawn from several subjects.", "Stay focused through a fixed set of consecutive questions.", "Measure reaction time, clicking, or typing speed directly.", "Take a short break with light trivia and playful challenges."],
   ja: ["身近な事実から幅広い分野の知識を確かめます。", "言葉のひねりに気づいて短いなぞなぞを解きます。", "四則演算から数列・確率まで計算と推理を練習します。", "手がかりや数字の規則を使って論理的に答えを導きます。", "古代から近現代までの出来事と人物を事実に沿って振り返ります。", "生物・化学・物理・宇宙の基本的な仕組みを確認します。", "大陸、国、首都、自然地形の位置を思い出します。", "語彙、文法、さまざまな文字の仕組みを確かめます。", "ウェブ、プログラミング、データベース、ネットワークの基礎を扱います。", "数字や言葉、順番を覚え、視覚的な変化を見つけます。", "複数分野から選ばれた問題を毎回新しい順番で解きます。", "決まった数の問題を続けて解き、集中力を試します。", "反応時間やクリック・入力の速さを直接測ります。", "軽い雑学や楽しい問題でひと息つけます。"],
@@ -33,6 +34,7 @@ const categoryDescriptions: Record<Exclude<Locale, "tr" | "pl" | "fil" | "bn" | 
 
 export function categoryDescription(locale: Locale, category: Category): string {
   if (locale === "sv") return svCatalog.categoryDescriptions[category as keyof typeof svCatalog.categoryDescriptions];
+  if (locale === "cs") return csCatalog.categoryDescriptions[category as keyof typeof csCatalog.categoryDescriptions];
   if (locale === "ms") return msCatalog.categoryDescriptions[category as keyof typeof msCatalog.categoryDescriptions];
   if (locale === "uk") return ukCatalog.categoryDescriptions[category];
   if (locale === "bn") return bnCatalog.categories[category];
@@ -66,6 +68,7 @@ export const serviceGuide: Record<Locale, { categories: string; how: string; acc
   uk: ukCatalog.serviceGuide,
   ms: msCatalog.serviceGuide,
   sv: svCatalog.serviceGuide,
+  cs: csCatalog.serviceGuide,
 };
 
 export function scoreFeedback(locale: Locale, correct: number, total: number): string {
@@ -80,6 +83,7 @@ export function quizDescription(locale: Locale, quiz: Quiz, title: string): stri
   if (locale === "fil") return filCatalog.quizDescriptions[quiz.slug as keyof typeof filCatalog.quizDescriptions] ?? `${title}: ${categoryDescription(locale, quiz.category)}`;
   if (locale === "bn") return bnCatalog.quizDescriptions[quiz.slug as keyof typeof bnCatalog.quizDescriptions] ?? `${title}: ${categoryDescription(locale, quiz.category)}`;
   if (locale === "sv") return svCatalog.quizDescriptions[quiz.slug as keyof typeof svCatalog.quizDescriptions] ?? `${title}: ${categoryDescription(locale, quiz.category)}`;
+  if (locale === "cs") return csCatalog.quizDescriptions[quiz.slug as keyof typeof csCatalog.quizDescriptions] ?? `${title}: ${categoryDescription(locale, quiz.category)}`;
   if (locale === "ms") return msCatalog.quizDescriptions[quiz.slug as keyof typeof msCatalog.quizDescriptions] ?? `${title}: ${categoryDescription(locale, quiz.category)}`;
   if (locale === "uk") return ukCatalog.quizDescriptions[quiz.slug as keyof typeof ukCatalog.quizDescriptions] ?? `${title}: ${categoryDescription(locale, quiz.category)}`;
   if (locale === "en") return quiz.summary;
@@ -89,12 +93,12 @@ export function quizDescription(locale: Locale, quiz: Quiz, title: string): stri
 export const advertisementLabel: Record<Locale, string> = {
   ko: "광고", en: "Advertisement", ja: "広告", zh: "广告", es: "Publicidad", "pt-br": "Publicidade",
   de: "Werbung", fr: "Publicité", vi: "Quảng cáo", id: "Iklan", th: "โฆษณา", "zh-tw": "廣告",
-  it: "Pubblicità", nl: "Advertentie", hi: "विज्ञापन", ru: ruCatalog.advertisement, tr: trCatalog.advertisement, pl: plCatalog.advertisement, fil: filCatalog.advertisement, bn: bnCatalog.advertisement, uk: ukCatalog.advertisement, ms: msCatalog.advertisement, sv: svCatalog.advertisement,
+  it: "Pubblicità", nl: "Advertentie", hi: "विज्ञापन", ru: ruCatalog.advertisement, tr: trCatalog.advertisement, pl: plCatalog.advertisement, fil: filCatalog.advertisement, bn: bnCatalog.advertisement, uk: ukCatalog.advertisement, ms: msCatalog.advertisement, sv: svCatalog.advertisement, cs: csCatalog.advertisement,
 };
 
 export const anyDifficultyLabel: Record<Locale, string> = {
   ko: "모든 난이도", en: "All difficulties", ja: "すべての難易度", zh: "所有难度", es: "Todas las dificultades",
   "pt-br": "Todos os níveis", de: "Alle Schwierigkeitsgrade", fr: "Toutes les difficultés", vi: "Mọi mức độ",
   id: "Semua tingkat kesulitan", th: "ทุกระดับความยาก", "zh-tw": "所有難度", it: "Tutte le difficoltà",
-  nl: "Alle moeilijkheidsgraden", hi: "सभी कठिनाई स्तर", ru: ruCatalog.difficulty, tr: trCatalog.difficulty, pl: plCatalog.difficulty, fil: filCatalog.difficulty, bn: bnCatalog.difficulty, uk: ukCatalog.difficulty, ms: msCatalog.difficulty, sv: svCatalog.difficulty,
+  nl: "Alle moeilijkheidsgraden", hi: "सभी कठिनाई स्तर", ru: ruCatalog.difficulty, tr: trCatalog.difficulty, pl: plCatalog.difficulty, fil: filCatalog.difficulty, bn: bnCatalog.difficulty, uk: ukCatalog.difficulty, ms: msCatalog.difficulty, sv: svCatalog.difficulty, cs: csCatalog.difficulty,
 };

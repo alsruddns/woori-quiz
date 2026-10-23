@@ -54,8 +54,8 @@ describe("Swedish published runtime", () => {
     const xml = await (await GET()).text();
     expect(xml).toContain("https://www.woori.today/sv/quiz");
     expect(xml).toContain("https://www.woori.today/sv/quiz/general-knowledge");
-    expect(xml).not.toContain("/cs/");
+    expect(xml).toContain("https://www.woori.today/cs/quiz");
     expect(xml).not.toContain("/ar/");
-    expect((xml.match(/<loc>/g) ?? []).length).toBe(1357);
+    expect((xml.match(/<loc>/g) ?? []).length).toBe(1416);
   }, 60000);
 });

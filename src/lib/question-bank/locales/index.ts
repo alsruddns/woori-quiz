@@ -117,6 +117,14 @@ export async function generatedCopiesForLocale(
     }
     return copies;
   }
+  if (locale === "cs") {
+    const { default: questionCopies } = await import("./cs/question-bank.json") as { default: Record<string, QuestionLocaleCopy> };
+    for (const question of questions) {
+      const copy = questionCopies[question.id];
+      if (copy) copies.set(question.id, copy);
+    }
+    return copies;
+  }
   if (locale === "ms") {
     const { default: questionCopies } = await import("./ms/question-bank.json") as { default: Record<string, QuestionLocaleCopy> };
     for (const question of questions) {
@@ -134,7 +142,7 @@ export async function generatedCopiesForLocale(
     return copies;
   }
   if (!(locales as readonly string[]).includes(locale)) return copies;
-  const activeLocale = locale as Exclude<Locale, "ru" | "tr" | "pl" | "fil" | "bn" | "uk" | "ms" | "sv">;
+  const activeLocale = locale as Exclude<Locale, "ru" | "tr" | "pl" | "fil" | "bn" | "uk" | "ms" | "sv" | "cs">;
   if (activeLocale === "en") return copies;
   if (questions.some((q) => q.id.startsWith("math-x-"))) {
     const { phrases } = await mathPhrases[activeLocale]();
