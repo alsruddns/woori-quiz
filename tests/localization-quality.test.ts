@@ -4,7 +4,7 @@ import { generateMetadata } from "../src/app/[locale]/quiz/[slug]/page";
 import { generateStaticParams as generateQuizParams } from "../src/app/[locale]/quiz/[slug]/page";
 import { generateMetadata as generateListMetadata } from "../src/app/[locale]/quiz/page";
 import { generateStaticParams as generateListParams } from "../src/app/[locale]/quiz/page";
-import { locales, publishedLocales } from "../src/lib/i18n";
+import { localeExpansionTargets, locales, publishedLocales } from "../src/lib/i18n";
 import { quizzes } from "../src/lib/registry";
 import { questionBank, questionCopyForLocale, questionCopyResultForLocale } from "../src/lib/question-bank";
 import { quizDescription } from "../src/lib/content-copy";
@@ -13,10 +13,10 @@ import { getListLocalizationQuality, getLocalizationAudit, getQuestionLocalizati
 
 describe("localization quality index policy", () => {
   it("statically generates only fully published locale routes", () => {
-    expect(generateListParams()).toEqual([{ locale: "ko" }, { locale: "en" }, { locale: "ja" }, { locale: "zh" }, { locale: "es" }, { locale: "pt-br" }, { locale: "de" }, { locale: "fr" }, { locale: "vi" }, { locale: "id" }, { locale: "th" }, { locale: "zh-tw" }, { locale: "it" }, { locale: "nl" }]);
+    expect(generateListParams()).toEqual([{ locale: "ko" }, { locale: "en" }, { locale: "ja" }, { locale: "zh" }, { locale: "es" }, { locale: "pt-br" }, { locale: "de" }, { locale: "fr" }, { locale: "vi" }, { locale: "id" }, { locale: "th" }, { locale: "zh-tw" }, { locale: "it" }, { locale: "nl" }, { locale: "hi" }]);
     const quizParams = generateQuizParams();
-    expect(quizParams).toHaveLength(812);
-    expect(new Set(quizParams.map(({ locale }) => locale))).toEqual(new Set(["ko", "en", "ja", "zh", "es", "pt-br", "de", "fr", "vi", "id", "th", "zh-tw", "it", "nl"]));
+    expect(quizParams).toHaveLength(870);
+    expect(new Set(quizParams.map(({ locale }) => locale))).toEqual(new Set(["ko", "en", "ja", "zh", "es", "pt-br", "de", "fr", "vi", "id", "th", "zh-tw", "it", "nl", "hi"]));
   });
 
   it("uses the configured quality thresholds and always permits English", async () => {
@@ -46,10 +46,11 @@ describe("localization quality index policy", () => {
     }
   }, 60000);
 
-  it("keeps the unfinished Hindi locale outside routes and indexing", async () => {
-    expect(publishedLocales).not.toContain("hi");
-    expect(await getListLocalizationQuality("hi")).toEqual({ complete: false, indexable: false });
-    expect(await getQuestionLocalizationGaps("hi")).not.toHaveLength(0);
+  it("keeps unsupported Arabic outside routing until its catalog is connected", () => {
+    expect(publishedLocales).not.toContain("ar");
+    expect(locales).not.toContain("ar");
+    expect(localeExpansionTargets).toContain("ar");
+    expect(generateListParams().some(({ locale }) => String(locale) === "ar")).toBe(false);
   });
 
   it("filters sitemap detail URLs by the same page quality result", async () => {
@@ -79,11 +80,12 @@ describe("localization quality index policy", () => {
     expect(urls.has("https://www.woori.today/zh-tw/quiz/general-knowledge")).toBe(true);
     expect(urls.has("https://www.woori.today/it/quiz/general-knowledge")).toBe(true);
     expect(urls.has("https://www.woori.today/nl/quiz/general-knowledge")).toBe(true);
+    expect(urls.has("https://www.woori.today/hi/quiz/general-knowledge")).toBe(true);
     expect(new Set(urls).size).toBe(urls.size);
   }, 60000);
 
   it("keeps self canonicals but excludes incomplete locales from robots and hreflang", async () => {
-    for (const locale of ["en", "ko", "ja", "zh", "es", "pt-br", "de", "fr", "vi", "id", "th", "zh-tw", "it", "nl"] as const) {
+    for (const locale of ["en", "ko", "ja", "zh", "es", "pt-br", "de", "fr", "vi", "id", "th", "zh-tw", "it", "nl", "hi"] as const) {
       const metadata = await generateMetadata({ params: Promise.resolve({ locale, slug: "general-knowledge" }) });
       expect(metadata.alternates?.canonical).toBe(`/${locale}/quiz/general-knowledge`);
       const quality = await getQuizLocalizationQuality(locale, quizzes.find((quiz) => quiz.slug === "general-knowledge")!);
@@ -96,19 +98,19 @@ describe("localization quality index policy", () => {
     }
   }, 30000);
 
-  it("withholds an incomplete Hindi list and excludes it from hreflang", async () => {
+  it("keeps unsupported Arabic out of a published locale's hreflang", async () => {
     const metadata = await generateListMetadata({ params: Promise.resolve({ locale: "hi" }) });
-    expect(metadata.robots).toMatchObject({ index: false, follow: true });
+    expect(metadata.robots).toMatchObject({ index: true, follow: true });
     expect(metadata.alternates?.canonical).toBe("/hi/quiz");
     const languages = metadata.alternates?.languages as Record<string, string>;
-    expect(languages.hi).toBeUndefined();
+    expect(languages.ar).toBeUndefined();
     expect(languages.en).toBe("/en/quiz");
   });
 
   it("reports source fallback counts and index coverage for the audit document", async () => {
     const audit = await getLocalizationAudit();
     expect(audit.detailQuizCount).toBe(58);
-    expect(audit.listPageCount).toBe(14);
+    expect(audit.listPageCount).toBe(15);
     expect(audit.sitemapUrlCount).toBe(audit.listPageCount + audit.detailUrlCount);
     const sitemapResponse = await GET();
     const sitemapXml = await sitemapResponse.text();
