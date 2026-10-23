@@ -5,12 +5,13 @@ import { quizDescription } from "./content-copy";
 import ruCatalog from "./i18n/ru.json";
 import trCatalog from "./i18n/tr.json";
 import plCatalog from "./i18n/pl.json";
+import filCatalog from "./i18n/fil.json";
 
-type StaticLocale = Exclude<Locale, "ru" | "tr" | "pl">;
+type StaticLocale = Exclude<Locale, "ru" | "tr" | "pl" | "fil">;
 
 const terms = ["general","knowledge","everyday","difficult","world","capitals","country","flags","currency","location","asia","europe","geography","basic","science","physics","chemistry","biology","astronomy","history","korean","ancient","modern","addition","subtraction","multiplication","division","table","mental","math","arithmetic","challenge","english","vocabulary","spelling","grammar","hiragana","katakana","japanese","chinese","character","computer","programming","web","development","database","network","it","number","word","sequence","visual","pattern","recognition","concentration","reaction","time","click","typing","speed","color","random","trivia","true","false","impossible","mixed","hard","quiz","test"] as const;
 export const quizTitleWordCount = terms.length;
-export function quizTitleTranslationWordCount(locale: Locale): number { return locale === "ru" ? ruCatalog.titleTerms.length : locale === "tr" ? quizTitleWordCount : locale === "pl" ? plCatalog.titleTerms.length : localizedTerms[locale].length; }
+export function quizTitleTranslationWordCount(locale: Locale): number { return locale === "ru" ? ruCatalog.titleTerms.length : locale === "tr" || locale === "fil" ? quizTitleWordCount : locale === "pl" ? plCatalog.titleTerms.length : localizedTerms[locale].length; }
 const localizedTerms: Record<StaticLocale, readonly string[]> = {
   ko:"일반|상식|일상|고난도|세계|수도|국가|국기|통화|위치|아시아|유럽|지리|기초|과학|물리|화학|생물|천문|역사|한국|고대|근현대|덧셈|뺄셈|곱셈|나눗셈|구구단|암산|수학|산수|도전|영어|어휘|맞춤법|문법|히라가나|가타카나|일본어|중국어|문자|컴퓨터|프로그래밍|웹|개발|데이터베이스|네트워크|IT|숫자|단어|순서|시각|패턴|인식|집중력|반응|시간|클릭|타자|속도|색상|랜덤|상식|참거짓|거짓|불가능|종합|고난도|퀴즈|테스트".split("|"),
   en:terms.map((term)=>term==="it"?"IT":term.charAt(0).toUpperCase()+term.slice(1)),
@@ -73,6 +74,7 @@ const addedCategoryLabels: Record<StaticLocale, Record<"nonsense" | "brain" | "r
 };
 
 export function quizCategoryName(locale: Locale, category: string): string {
+  if (locale === "fil") return filCatalog.categoryLabels[category as keyof typeof filCatalog.categoryLabels] ?? category;
   if (locale === "ru") return ruCatalog.categoryLabels[category as keyof typeof ruCatalog.categoryLabels] ?? ruCatalog.ui.category[category as keyof typeof ruCatalog.ui.category] ?? category;
   if (locale === "tr") return trCatalog.categoryLabels[category as keyof typeof trCatalog.categoryLabels] ?? category;
   if (locale === "pl") return plCatalog.categoryLabels[category as keyof typeof plCatalog.categoryLabels] ?? category;
@@ -84,6 +86,7 @@ export function quizTitle(locale: Locale, quiz: Pick<Quiz, "slug" | "title">): s
   if (locale === "ru") return ruCatalog.quizTitles[quiz.slug as keyof typeof ruCatalog.quizTitles] ?? quiz.title;
   if (locale === "tr") return trCatalog.quizTitles[quiz.slug as keyof typeof trCatalog.quizTitles] ?? quiz.title;
   if (locale === "pl") return plCatalog.quizTitles[quiz.slug as keyof typeof plCatalog.quizTitles] ?? quiz.title;
+  if (locale === "fil") return filCatalog.quizTitles[quiz.slug as keyof typeof filCatalog.quizTitles] ?? quiz.title;
   if (quiz.slug === "brain-teaser") return brainTeaserTitles[locale];
   if (locale === "en") return quiz.title;
   if (locale === "ko" && koreanTitles[quiz.slug]) return koreanTitles[quiz.slug];
@@ -121,6 +124,10 @@ export function quizSeoCopy(locale: Locale, quiz: Quiz): { title: string; descri
     const title = quizTitle(locale, quiz);
     return { title: quiz.slug === "brain-teaser" ? plCatalog.brainSeo.title : `${title} | woori.today`, description: quizDescription(locale, quiz, title) };
   }
+  if (locale === "fil") {
+    const title = quizTitle(locale, quiz);
+    return { title: quiz.slug === "brain-teaser" ? filCatalog.brainSeo.title : `${title} | woori.today`, description: quizDescription(locale, quiz, title) };
+  }
   if (quiz.slug === "brain-teaser") {
     const descriptions: Record<StaticLocale, string> = {
       ko: "가볍게 풀면서 뇌를 깨워보세요. 논리, 패턴, 숫자, 기억력, 추리 문제로 구성된 브레인 티저 퀴즈를 무료로 즐길 수 있습니다.",
@@ -154,6 +161,11 @@ const mathPromptCopy: Record<StaticLocale, { findX: string; decimal: string }> =
 };
 
 export function localizeMathPrompt(locale: Locale, prompt: string): string {
+  if (locale === "fil") {
+    const percentage = prompt.match(/^(\d+(?:[.,]\d+)?)% of (\d+(?:[.,]\d+)?) = \?$/);
+    if (percentage) return `Magkano ang ${percentage[1]}% ng ${percentage[2]}?`;
+    return prompt.replace("What is x?", "Ano ang halaga ng x?").replace("Find x.", "Hanapin ang halaga ng x.").replace("(decimal)", "(decimal na numero)");
+  }
   if (locale === "tr") {
     const percentage = prompt.match(/^(\d+(?:[.,]\d+)?)% of (\d+(?:[.,]\d+)?) = \?$/);
     if (percentage) return `${percentage[2]} sayısının %${percentage[1]}'i kaçtır?`;
@@ -246,6 +258,9 @@ export function hasQuizTermTranslations(locale: Locale, slugs: readonly string[]
   }
   if (locale === "pl") {
     return slugs.every((slug) => Object.hasOwn(plCatalog.quizTitles, slug));
+  }
+  if (locale === "fil") {
+    return slugs.every((slug) => Object.hasOwn(filCatalog.quizTitles, slug));
   }
   const translated = new Set<string>([...terms, ...Object.keys(extraTerms[locale]), ...Object.keys(bankTerms[locale])]);
   const localized = localizedTerms[locale];

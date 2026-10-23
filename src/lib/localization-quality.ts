@@ -135,11 +135,18 @@ export const polishInvariantChoices = new Set([
   ".png", ".mp3", ".csv", ".exe", "Islamabad", "Dhaka", "Osaka", "Rabat", "Ulaanbaatar", "Topaz", "Beagle", "Chuseok", "Hanok", "Pentagon",
   "Santa Maria", "Mayflower", "Endeavour",
 ]);
+const filipinoInvariantChoices = new Set([
+  "Canada", "Cello", "Danube", "Denmark", "Europe", "India", "Indian", "Jordan", "Jupiter", "Kenya",
+  "Kyoto", "Morocco", "Naples", "Persia", "Rhine", "Roman", "Seine", "Seoul", "Thames", "Tokyo",
+  "Venice", "Venus", "Watt", "Won", "Yen", "Octal", "Orbit", "Pacific", "Quartz", "Ribosome",
+  "Keyboard", "Kimchi", "Lava", "Neutral", "Plum", "Tennis",
+]);
 
 function isPreservedChoice(question: QuizQuestion, value: string, locale: Locale): boolean {
   if (isNeutral(value)) return true;
   if (locale === "tr" && turkishInvariantChoices.has(value)) return true;
   if (locale === "pl" && polishInvariantChoices.has(value)) return true;
+  if (locale === "fil" && (filipinoInvariantChoices.has(value) || polishInvariantChoices.has(value))) return true;
   if (locale === "es" && spanishInvariantChoices.has(value)) return true;
   if (locale === "pt-br" && brazilianPortugueseInvariantChoices.has(value)) return true;
   if (locale === "de" && germanInvariantChoices.has(value)) return true;
