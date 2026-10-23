@@ -34,8 +34,11 @@ describe("Russian UI catalog draft", () => {
       expect(term, "Russian title terms contain no mistranslated batch vocabulary").not.toMatch(/^(Отдел|Стол|Психический|Выкройка|Признание|Нажмите|Мелочи|Жесткий|Контрольный опрос|Дополнение)$/);
       expect(term, "Russian title terms contain no stray colon").not.toMatch(/:$/);
     }
-    expect(catalog.ui.localeCount).toContain("26");
+    expect(catalog.ui.localeCount).toContain("15");
     expect(catalog.discovery.resultsFor).toContain("QUERY_SLOT");
+    expect(catalog.discovery.resultsFor).toContain("QUERY_COUNT");
+    expect(catalog.ui.quizCount).toContain("COUNT_SLOT");
+    expect(catalog.ui.questionCount).toContain("COUNT_SLOT");
     expect(catalog.ui.quizSummary).toContain("TITLE_SLOT");
     expect(catalog.quizTitles["click-speed-test"]).toBe("Тест на скорость нажатий");
     expect(catalog.quizTitles["english-vocabulary"]).not.toMatch(/:$/);

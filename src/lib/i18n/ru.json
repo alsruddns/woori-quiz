@@ -24,7 +24,7 @@
     "searchResults": "Результаты поиска",
     "browseCategories": "Выберите категорию",
     "clearSearch": "Очистить поиск",
-    "resultsFor": "17 результатов по запросу QUERY_SLOT"
+    "resultsFor": "Результаты по запросу «QUERY_SLOT»: QUERY_COUNT"
   },
   "detail": {
     "correctCount": "Правильный",
@@ -51,8 +51,8 @@
     "heroDescription": "Примите быстрый вызов и наслаждайтесь новым открытием.",
     "nextChallenge": "Выберите следующее испытание",
     "searchEmpty": "Викторины не найдены.",
-    "quizCount": "17 викторин",
-    "questionCount": "17 вопросов",
+    "quizCount": "COUNT_SLOT викторин",
+    "questionCount": "COUNT_SLOT вопросов",
     "questionSetReview": "Набор вопросов на рассмотрении",
     "difficulty": "Сложность",
     "startHeading": "Готов, когда вы будете",
@@ -72,7 +72,7 @@
     "scoreUploadedQuestion": "Загружена ли моя оценка?",
     "scoreUploadedAnswer": "Нет. Ваш результат сохраняется только в этом браузере.",
     "interactiveTest": "Интерактивный тест",
-    "localeCount": "26 языков",
+    "localeCount": "15 языков",
     "dynamicGeneration": "Вопросы, генерируемые для каждого раунда",
     "back": "Список викторин",
     "footerTagline": "Создано для любознательных умов повсюду.",
@@ -439,7 +439,7 @@
     },
     "memoryWords": "океан яблоко звездное облако",
     "extraCopy": {
-      "moves": "Переезды",
+    "moves": "Ходы",
       "tapFast": "Нажимайте как можно быстрее",
       "cell": "Ячейка"
     }
