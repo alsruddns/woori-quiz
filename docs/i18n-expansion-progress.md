@@ -20,7 +20,7 @@ Progress is measured from the source catalog and localization quality checks. A 
 | en | 621/621 (source) | Connected | Pass | 59 | Pass |
 | ja | 621/621; 0 question gaps | Connected | Pass | 1 + 58 | Pass |
 | zh | 621/621; 0 question gaps | Connected | Pass | 1 + 58 | Pass |
-| es | 390/621 baseline | Connected | Not verified | 0 | Not published |
+| es | 548/621 gap-free; 73 records retain choice gaps | Connected | Blocked by content gaps | 0 | Not published |
 | pt-br | 390/621 baseline | Connected | Not verified | 0 | Not published |
 | de | 390/621 baseline | Connected | Not verified | 0 | Not published |
 | fr | 390/621 baseline | Connected | Not verified | 0 | Not published |
@@ -40,7 +40,9 @@ The existing non-English catalogs need a fresh audit. The earlier “390/621” 
 - Japanese and Simplified Chinese question localization suites cover all 621 records with zero gaps, patterned translations, stable answer positions, historical dates, and science symbols.
 - TypeScript: passed (`pnpm exec tsc --noEmit`).
 - Lint: passed (`pnpm lint`).
-- Full test suite: **49/49 passed** (`pnpm test`), including Japanese and Simplified Chinese question coverage, route generation, language switching, SEO, sitemap, and mobile UI checks.
+- Full test suite: **50/50 passed** (`pnpm test`), including Japanese and Simplified Chinese question coverage, Spanish withholding checks, route generation, language switching, SEO, sitemap, and mobile UI checks.
 - Production build: passed (`pnpm build`); 247 static pages generated, including 4 localized list pages and 232 quiz detail routes.
 
-**Next start:** commit and push the verified Chinese rollout. Continue with Spanish (`es`): audit all 621 question records, repair missing question, choice, and explanation copy, and keep it unpublished until its UI, all 58 public quizzes, routing, selector, canonical/hreflang, sitemap, mobile UI, TypeScript, lint, tests, and production build pass. Korean, English, Japanese, and Chinese are currently public.
+Spanish translation checkpoint: a batched translation draft covers 231 records. The source audit reports 0 question fallbacks, 0 explanation fallbacks, and 107 unresolved choice fallbacks across 73 question records. The UI catalog exists; the list quality gate remains blocked by these content gaps, and no Spanish routes are generated or indexed. Resume by running `getQuestionLocalizationGaps("es")` against `src/lib/question-bank/locales/es/question-bank.json`, resolve the remaining proper-name choices and generated feature options, then run all 58 detail quality checks.
+
+**Next start:** finish the 107 unresolved Spanish choice fallbacks across 73 question records, run the full language and SEO checks, then publish only if all gates pass. Korean, English, Japanese, and Chinese are currently public. Following Spanish, proceed with Brazilian Portuguese (`pt-br`).

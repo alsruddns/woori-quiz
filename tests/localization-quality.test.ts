@@ -46,6 +46,12 @@ describe("localization quality index policy", () => {
     }
   }, 60000);
 
+  it("keeps the unfinished Spanish draft outside routes and indexing", async () => {
+    expect(publishedLocales).not.toContain("es");
+    expect(await getListLocalizationQuality("es")).toEqual({ complete: false, indexable: false });
+    expect(await getQuestionLocalizationGaps("es")).not.toHaveLength(0);
+  });
+
   it("filters sitemap detail URLs by the same page quality result", async () => {
     const response = await GET();
     const xml = await response.text();
