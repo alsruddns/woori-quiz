@@ -141,12 +141,18 @@ const filipinoInvariantChoices = new Set([
   "Venice", "Venus", "Watt", "Won", "Yen", "Octal", "Orbit", "Pacific", "Quartz", "Ribosome",
   "Keyboard", "Kimchi", "Lava", "Neutral", "Plum", "Tennis",
 ]);
+const bengaliInvariantChoices = new Set([
+  "0 °C", "10 °C", "32 °C", "50 °C", "75 °C", "100 °C", "150 °C", "0°", "7.5°", "15°", "30°",
+  "1325 CE", "221 BCE", "490 BCE", "C", "O", "S", "T", "U", "V", "DNA", "CSS", "HTML", "SQL", "PNG",
+  ".png", ".mp3", ".csv", ".exe",
+]);
 
 function isPreservedChoice(question: QuizQuestion, value: string, locale: Locale): boolean {
   if (isNeutral(value)) return true;
   if (locale === "tr" && turkishInvariantChoices.has(value)) return true;
   if (locale === "pl" && polishInvariantChoices.has(value)) return true;
   if (locale === "fil" && (filipinoInvariantChoices.has(value) || polishInvariantChoices.has(value))) return true;
+  if (locale === "bn" && bengaliInvariantChoices.has(value)) return true;
   if (locale === "es" && spanishInvariantChoices.has(value)) return true;
   if (locale === "pt-br" && brazilianPortugueseInvariantChoices.has(value)) return true;
   if (locale === "de" && germanInvariantChoices.has(value)) return true;

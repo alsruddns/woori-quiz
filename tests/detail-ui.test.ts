@@ -27,7 +27,7 @@ describe("shared quiz detail navigation", () => {
     expect(css).toContain(".detail-content .result-panel .result-stats");
   });
 
-  it("provides result actions in all 16 locales", () => {
+  it("provides result actions in all 20 runtime locales", () => {
     for (const locale of locales) {
       expect(Object.values(detailCopy[locale]).every((value) => value.length > 0)).toBe(true);
     }
