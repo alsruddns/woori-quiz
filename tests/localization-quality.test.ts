@@ -13,10 +13,10 @@ import { getListLocalizationQuality, getLocalizationAudit, getQuestionLocalizati
 
 describe("localization quality index policy", () => {
   it("statically generates only fully published locale routes", () => {
-    expect(generateListParams()).toEqual([{ locale: "ko" }, { locale: "en" }, { locale: "ja" }, { locale: "zh" }, { locale: "es" }, { locale: "pt-br" }, { locale: "de" }, { locale: "fr" }, { locale: "vi" }, { locale: "id" }, { locale: "th" }, { locale: "zh-tw" }, { locale: "it" }, { locale: "nl" }, { locale: "hi" }, { locale: "ru" }, { locale: "tr" }, { locale: "pl" }, { locale: "fil" }, { locale: "bn" }, { locale: "uk" }, { locale: "ms" }, { locale: "sv" }, { locale: "cs" }, { locale: "ro" }]);
+    expect(generateListParams()).toEqual([{ locale: "ko" }, { locale: "en" }, { locale: "ja" }, { locale: "zh" }, { locale: "es" }, { locale: "pt-br" }, { locale: "de" }, { locale: "fr" }, { locale: "vi" }, { locale: "id" }, { locale: "th" }, { locale: "zh-tw" }, { locale: "it" }, { locale: "nl" }, { locale: "hi" }, { locale: "ru" }, { locale: "tr" }, { locale: "pl" }, { locale: "fil" }, { locale: "bn" }, { locale: "uk" }, { locale: "ms" }, { locale: "sv" }, { locale: "cs" }, { locale: "ro" }, { locale: "el" }]);
     const quizParams = generateQuizParams();
-    expect(quizParams).toHaveLength(1450);
-    expect(new Set(quizParams.map(({ locale }) => locale))).toEqual(new Set(["ko", "en", "ja", "zh", "es", "pt-br", "de", "fr", "vi", "id", "th", "zh-tw", "it", "nl", "hi", "ru", "tr", "pl", "fil", "bn", "uk", "ms", "sv", "cs", "ro"]));
+    expect(quizParams).toHaveLength(1508);
+    expect(new Set(quizParams.map(({ locale }) => locale))).toEqual(new Set(["ko", "en", "ja", "zh", "es", "pt-br", "de", "fr", "vi", "id", "th", "zh-tw", "it", "nl", "hi", "ru", "tr", "pl", "fil", "bn", "uk", "ms", "sv", "cs", "ro", "el"]));
   });
 
   it("uses the configured quality thresholds and always permits English", async () => {
@@ -129,9 +129,9 @@ describe("localization quality index policy", () => {
   it("reports source fallback counts and index coverage for the audit document", async () => {
     const audit = await getLocalizationAudit();
     expect(audit.detailQuizCount).toBe(58);
-    expect(audit.listPageCount).toBe(25);
-    expect(audit.detailUrlCount).toBe(1450);
-    expect(audit.sitemapUrlCount).toBe(1475);
+    expect(audit.listPageCount).toBe(26);
+    expect(audit.detailUrlCount).toBe(1508);
+    expect(audit.sitemapUrlCount).toBe(1534);
     expect(audit.sitemapUrlCount).toBe(audit.listPageCount + audit.detailUrlCount);
     const sitemapResponse = await GET();
     const sitemapXml = await sitemapResponse.text();

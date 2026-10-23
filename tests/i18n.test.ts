@@ -5,11 +5,11 @@ import { hasQuizTermTranslations, missingQuizTitleWords, quizCategoryName, quizT
 import { quizPathForLocale } from "../src/lib/urls";
 
 describe("quiz UI translations", () => {
-  it("tracks 26 expansion targets without activating incomplete languages", () => {
+  it("tracks all 26 expansion targets and published locales", () => {
     expect(localeExpansionTargets).toHaveLength(26);
     expect(new Set(localeExpansionTargets).size).toBe(26);
     expect(localeExpansionTargets).toEqual([
-      ...locales.filter((locale) => locale !== "ru" && locale !== "tr" && locale !== "pl" && locale !== "fil" && locale !== "bn" && locale !== "uk" && locale !== "ms" && locale !== "sv" && locale !== "cs" && locale !== "ro"),
+      ...locales.filter((locale) => locale !== "ru" && locale !== "tr" && locale !== "pl" && locale !== "fil" && locale !== "bn" && locale !== "uk" && locale !== "ms" && locale !== "sv" && locale !== "cs" && locale !== "ro" && locale !== "el"),
       "ru", "tr", "pl", "fil", "bn", "uk", "ms", "sv", "cs", "ro", "el",
     ]);
     expect(localeExpansionTargets.slice(publishedLocales.length).every((locale) => !isPublishedLocale(locale))).toBe(true);
@@ -25,7 +25,7 @@ describe("quiz UI translations", () => {
     expect(isPublishedLocale("sv")).toBe(true);
     expect(excludedExpansionLocales).toEqual(["ar", "ur", "fa", "he"]);
     expect(excludedExpansionLocales.some((locale) => (localeExpansionTargets as readonly string[]).includes(locale))).toBe(false);
-    expect(publishedLocales).toEqual(["ko", "en", "ja", "zh", "es", "pt-br", "de", "fr", "vi", "id", "th", "zh-tw", "it", "nl", "hi", "ru", "tr", "pl", "fil", "bn", "uk", "ms", "sv", "cs", "ro"]);
+    expect(publishedLocales).toEqual(["ko", "en", "ja", "zh", "es", "pt-br", "de", "fr", "vi", "id", "th", "zh-tw", "it", "nl", "hi", "ru", "tr", "pl", "fil", "bn", "uk", "ms", "sv", "cs", "ro", "el"]);
   });
 
   it("provides navigation, category, difficulty, and footer copy for wired locales", () => {
@@ -41,7 +41,7 @@ describe("quiz UI translations", () => {
       expect([copy.footerTagline, copy.privacy, copy.guidelines, copy.contact].every(Boolean)).toBe(true);
       expect(quizTitleTranslationWordCount(locale), `Wrong quiz title word count for ${locale}`).toBe(quizTitleWordCount);
       expect(missingQuizTitleWords(quizzes.map((quiz) => quiz.slug))).toEqual([]);
-      expect(hasQuizTermTranslations(locale, locale === "ru" || locale === "tr" || locale === "pl" || locale === "fil" || locale === "bn" || locale === "uk" || locale === "ms" || locale === "sv" || locale === "cs" || locale === "ro" ? publicQuizSlugs : quizzes.map((quiz) => quiz.slug)), `Incomplete quiz word translations for ${locale}`).toBe(true);
+      expect(hasQuizTermTranslations(locale, locale === "ru" || locale === "tr" || locale === "pl" || locale === "fil" || locale === "bn" || locale === "uk" || locale === "ms" || locale === "sv" || locale === "cs" || locale === "ro" || locale === "el" ? publicQuizSlugs : quizzes.map((quiz) => quiz.slug)), `Incomplete quiz word translations for ${locale}`).toBe(true);
       expect(quizzes.every((quiz) => quizTitle(locale, quiz).trim().length > 0)).toBe(true);
     }
   });

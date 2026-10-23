@@ -55,8 +55,8 @@ describe("Romanian published runtime", () => {
     expect((list.alternates?.languages as Record<string, string>).ro).toBe("/ro/quiz");
     const sitemap = await (await GET()).text();
     expect(sitemap).toContain("https://www.woori.today/ro/quiz");
-    expect(sitemap).not.toContain("/el/quiz");
+    expect(sitemap).toContain("https://www.woori.today/el/quiz");
     expect(sitemap).not.toContain("/ar/");
-    expect((sitemap.match(/<loc>/g) ?? []).length).toBe(1475);
+    expect((sitemap.match(/<loc>/g) ?? []).length).toBe(1534);
   }, 60000);
 });
