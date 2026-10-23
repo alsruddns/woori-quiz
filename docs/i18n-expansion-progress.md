@@ -31,7 +31,8 @@ Progress is measured from the source catalog and localization quality checks. A 
 | it | 621/621; 0 question gaps | Connected | Pass | 1 + 58 | Pass |
 | nl | 621/621; 0 question gaps | Connected | Pass | 1 + 58 | Pass |
 | hi | 621/621; 0 question gaps | Connected | Pass | 1 + 58 | Pass |
-| ru, tr, pl, fil, bn, uk, ms, sv, cs, ro, el | 0/621 | Missing | Not verified | 0 | Not published |
+| ru | 621/621 staged; not connected | Missing | Structural check pass; linguistic review/runtime not verified | 0 | Not published |
+| tr, pl, fil, bn, uk, ms, sv, cs, ro, el | 0/621 | Missing | Not verified | 0 | Not published |
 
 The existing non-English catalogs need a fresh audit. The earlier “390/621” values are the pre-expansion baseline, not proof of completion. Japanese, Simplified Chinese, Spanish, Brazilian Portuguese, German, French, Vietnamese, Indonesian, Thai, Traditional Chinese, Italian, Dutch, and Hindi pass common UI and question coverage, all 58 public quiz gates, routing, selector, canonical/hreflang, and sitemap checks. Other incomplete languages remain out of routes, selectors, hreflang, and sitemap.
 
@@ -40,7 +41,8 @@ The existing non-English catalogs need a fresh audit. The earlier “390/621” 
 - Question localization suites cover all 621 records with zero gaps for Japanese, Simplified Chinese, Spanish, Brazilian Portuguese, German, French, Vietnamese, Indonesian, Thai, Traditional Chinese, Italian, Dutch, and Hindi; patterned questions preserve stable answer positions, historical dates, and science symbols.
 - TypeScript: passed (`pnpm exec tsc --noEmit`).
 - Lint: passed (`pnpm lint`).
-- Full test suite: **61/61 passed** (`pnpm test` on 2026-10-23), including route, selector, SEO, sitemap, scoring, and mobile UI checks. TypeScript (`pnpm exec tsc --noEmit`) and lint (`pnpm lint`) passed after updating the exact 11-target list. Production build passed (`pnpm build`): 907 paths generated, including 15 localized list pages and 870 quiz detail routes; sitemap remains at 885 URLs.
+- Full test suite: **62/62 passed** (`pnpm test` on 2026-10-24), including route, selector, SEO, sitemap, scoring, mobile UI checks, and Russian draft question coverage. TypeScript (`pnpm exec tsc --noEmit`) and lint (`pnpm lint`) passed. Production build passed (`pnpm build`): 907 paths generated, including 15 localized list pages and 870 quiz detail routes; sitemap remains at 885 URLs.
 - Incomplete-target publication guard: all 11 newly requested targets are checked for absence from generated routes, published hreflang, and sitemap list/detail URLs; the updated full test suite passes.
+- Russian question copy: 621/621 source IDs are staged in `src/lib/question-bank/locales/ru/question-bank.json`. Structural checks pass for all records, four unique choices, Russian question/explanation text, unchanged English language-test choices, and unpublished routing. Machine translations need linguistic review and are not connected to runtime.
 
-**Next start:** Begin Russian (`ru`) question and UI localization. It must remain unpublished until all 621 questions, common UI, all 58 public quizzes, runtime behavior, routing, selector, canonical/hreflang, sitemap, tests, and production build pass. The other ten new targets also have no connected data yet (0/621 each). Hindi and the other 14 existing completed locales remain public. Arabic draft files from the superseded target list have been removed. Push verified changes only to `origin/develop`.
+**Next start:** Complete Russian linguistic review, common UI and quiz catalog translations, then wire Russian to runtime and verify behavior, routing, selector, canonical/hreflang, sitemap, tests, and production build before publication. Continue with `tr`, `pl`, `fil`, `bn`, `uk`, `ms`, `sv`, `cs`, `ro`, and `el` only after ru meets every gate. Hindi and the other 14 existing completed locales remain public. Push verified changes only to `origin/develop`.
