@@ -1,9 +1,9 @@
 import { describe, expect, it } from "vitest";
 import { GET } from "../src/app/sitemap.xml/route";
-import { generateMetadata } from "../src/app/[locale]/quiz/[slug]/page";
-import { generateStaticParams as generateQuizParams } from "../src/app/[locale]/quiz/[slug]/page";
-import { generateMetadata as generateListMetadata } from "../src/app/[locale]/quiz/page";
-import { generateStaticParams as generateListParams } from "../src/app/[locale]/quiz/page";
+import { generateMetadata } from "../src/app/(localized)/[locale]/quiz/[slug]/page";
+import { generateStaticParams as generateQuizParams } from "../src/app/(localized)/[locale]/quiz/[slug]/page";
+import { generateMetadata as generateListMetadata } from "../src/app/(localized)/[locale]/quiz/page";
+import { generateStaticParams as generateListParams } from "../src/app/(localized)/[locale]/quiz/page";
 import { isLocale, isPublishedLocale, localeExpansionTargets, locales, publishedLocales } from "../src/lib/i18n";
 import { quizzes } from "../src/lib/registry";
 import { questionBank, questionCopyForLocale, questionCopyResultForLocale } from "../src/lib/question-bank";
@@ -13,10 +13,10 @@ import { getListLocalizationQuality, getLocalizationAudit, getQuestionLocalizati
 
 describe("localization quality index policy", () => {
   it("statically generates only fully published locale routes", () => {
-    expect(generateListParams()).toEqual([{ locale: "ko" }, { locale: "en" }, { locale: "ja" }, { locale: "zh" }, { locale: "es" }, { locale: "pt-br" }, { locale: "de" }, { locale: "fr" }, { locale: "vi" }, { locale: "id" }, { locale: "th" }, { locale: "zh-tw" }, { locale: "it" }, { locale: "nl" }, { locale: "hi" }, { locale: "ru" }, { locale: "tr" }]);
+    expect(generateListParams()).toEqual([{ locale: "ko" }, { locale: "en" }, { locale: "ja" }, { locale: "zh" }, { locale: "es" }, { locale: "pt-br" }, { locale: "de" }, { locale: "fr" }, { locale: "vi" }, { locale: "id" }, { locale: "th" }, { locale: "zh-tw" }, { locale: "it" }, { locale: "nl" }, { locale: "hi" }, { locale: "ru" }, { locale: "tr" }, { locale: "pl" }]);
     const quizParams = generateQuizParams();
-    expect(quizParams).toHaveLength(986);
-    expect(new Set(quizParams.map(({ locale }) => locale))).toEqual(new Set(["ko", "en", "ja", "zh", "es", "pt-br", "de", "fr", "vi", "id", "th", "zh-tw", "it", "nl", "hi", "ru", "tr"]));
+    expect(quizParams).toHaveLength(1044);
+    expect(new Set(quizParams.map(({ locale }) => locale))).toEqual(new Set(["ko", "en", "ja", "zh", "es", "pt-br", "de", "fr", "vi", "id", "th", "zh-tw", "it", "nl", "hi", "ru", "tr", "pl"]));
   });
 
   it("uses the configured quality thresholds and always permits English", async () => {
@@ -59,7 +59,7 @@ describe("localization quality index policy", () => {
     for (const locale of incompleteTargets) {
       expect(publishedLocales, `${locale} must not be published`).not.toContain(locale);
       expect(isPublishedLocale(locale), `${locale} must not be published`).toBe(false);
-      if (locale !== "ru" && locale !== "tr") expect(isLocale(locale), `${locale} must not have runtime locale data yet`).toBe(false);
+      if (locale !== "ru" && locale !== "tr" && locale !== "pl") expect(isLocale(locale), `${locale} must not have runtime locale data yet`).toBe(false);
       expect(routedLocales, `${locale} must not have a generated list route`).not.toContain(locale);
     }
   });
@@ -129,9 +129,9 @@ describe("localization quality index policy", () => {
   it("reports source fallback counts and index coverage for the audit document", async () => {
     const audit = await getLocalizationAudit();
     expect(audit.detailQuizCount).toBe(58);
-    expect(audit.listPageCount).toBe(17);
-    expect(audit.detailUrlCount).toBe(986);
-    expect(audit.sitemapUrlCount).toBe(1003);
+    expect(audit.listPageCount).toBe(18);
+    expect(audit.detailUrlCount).toBe(1044);
+    expect(audit.sitemapUrlCount).toBe(1062);
     expect(audit.sitemapUrlCount).toBe(audit.listPageCount + audit.detailUrlCount);
     const sitemapResponse = await GET();
     const sitemapXml = await sitemapResponse.text();

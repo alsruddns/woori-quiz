@@ -123,10 +123,23 @@ const turkishInvariantChoices = new Set([
   "Pascal", "Peru", "Proxima Centauri", "Proton", "Neutron", "Rugby", "Santa Maria", "Sapporo", "Seine",
   "Ssireum", "Sudan", "Thames", "Tokyo", "Topaz", "Uganda", "Watt", "Yen", "Yuri Gagarin",
 ]);
+export const polishInvariantChoices = new Set([
+  "0 \u00b0C", "10 \u00b0C", "32 \u00b0C", "50 \u00b0C", "75 \u00b0C", "100 \u00b0C", "150 \u00b0C", "0\u00b0", "15\u00b0", "30\u00b0",
+  "C", "S", "T", "U", "V", "O", "Na", "Fe", "Au", "NaCl", "DNA", "Proton", "Neutron", "Argon", "Aluminium",
+  "Ampere", "Joule", "Newton", "Pascal", "Saturn", "Magma", "Mars", "Proxima Centauri", "Badminton", "Piano", "Rugby",
+  "Hangul", "Ssireum", "Origami", "Buchaechum", "Gayageum", "Ondol", "Canberra", "Australia", "Ottawa", "Bras\u00edlia", "Buenos Aires",
+  "Santiago", "Lima", "Berlin", "Oslo", "Helsinki", "Nairobi", "Addis Ababa", "Abuja", "Bangkok", "Hanoi", "Jakarta",
+  "Wellington", "Dublin", "Reykjav\u00edk", "Ankara", "Sapporo", "Sudan", "Austria", "Peru", "Tanzania", "Uganda", "Milan",
+  "Galileo", "Antonio Vivaldi", "Michelangelo", "Johannes Gutenberg", "Isaac Newton", "Marco Polo", "Buzz Aldrin", "Yuri Gagarin",
+  "Neil Armstrong", "John Glenn", "Santa Maria", "Java", "JavaScript", "Swift", "Router", "Monitor", "SQL", "HTML", "CSS", "PNG",
+  ".png", ".mp3", ".csv", ".exe", "Islamabad", "Dhaka", "Osaka", "Rabat", "Ulaanbaatar", "Topaz", "Beagle", "Chuseok", "Hanok", "Pentagon",
+  "Santa Maria", "Mayflower", "Endeavour",
+]);
 
 function isPreservedChoice(question: QuizQuestion, value: string, locale: Locale): boolean {
   if (isNeutral(value)) return true;
   if (locale === "tr" && turkishInvariantChoices.has(value)) return true;
+  if (locale === "pl" && polishInvariantChoices.has(value)) return true;
   if (locale === "es" && spanishInvariantChoices.has(value)) return true;
   if (locale === "pt-br" && brazilianPortugueseInvariantChoices.has(value)) return true;
   if (locale === "de" && germanInvariantChoices.has(value)) return true;

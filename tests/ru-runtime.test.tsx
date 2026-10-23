@@ -1,11 +1,11 @@
-﻿import { createElement } from "react";
+import { createElement } from "react";
 import { renderToStaticMarkup } from "react-dom/server";
 import { describe, expect, it, vi } from "vitest";
 import { HomeView } from "../src/components/HomeView";
 import { InteractiveTest } from "../src/components/InteractiveTest";
 import { QuizView } from "../src/components/QuizView";
-import { generateMetadata as quizMetadata } from "../src/app/[locale]/quiz/[slug]/page";
-import { generateMetadata as listMetadata } from "../src/app/[locale]/quiz/page";
+import { generateMetadata as quizMetadata } from "../src/app/(localized)/[locale]/quiz/[slug]/page";
+import { generateMetadata as listMetadata } from "../src/app/(localized)/[locale]/quiz/page";
 import { discoveryCopy, isLocale, isPublishedLocale, publishedLocales, uiMessages } from "../src/lib/i18n";
 import { localizeMathPrompt, quizTitle } from "../src/lib/quiz-copy";
 import { quizzes } from "../src/lib/registry";

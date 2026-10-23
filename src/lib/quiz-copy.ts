@@ -4,12 +4,13 @@ import type { Quiz } from "./registry";
 import { quizDescription } from "./content-copy";
 import ruCatalog from "./i18n/ru.json";
 import trCatalog from "./i18n/tr.json";
+import plCatalog from "./i18n/pl.json";
 
-type StaticLocale = Exclude<Locale, "ru" | "tr">;
+type StaticLocale = Exclude<Locale, "ru" | "tr" | "pl">;
 
 const terms = ["general","knowledge","everyday","difficult","world","capitals","country","flags","currency","location","asia","europe","geography","basic","science","physics","chemistry","biology","astronomy","history","korean","ancient","modern","addition","subtraction","multiplication","division","table","mental","math","arithmetic","challenge","english","vocabulary","spelling","grammar","hiragana","katakana","japanese","chinese","character","computer","programming","web","development","database","network","it","number","word","sequence","visual","pattern","recognition","concentration","reaction","time","click","typing","speed","color","random","trivia","true","false","impossible","mixed","hard","quiz","test"] as const;
 export const quizTitleWordCount = terms.length;
-export function quizTitleTranslationWordCount(locale: Locale): number { return locale === "ru" ? ruCatalog.titleTerms.length : locale === "tr" ? quizTitleWordCount : localizedTerms[locale].length; }
+export function quizTitleTranslationWordCount(locale: Locale): number { return locale === "ru" ? ruCatalog.titleTerms.length : locale === "tr" ? quizTitleWordCount : locale === "pl" ? plCatalog.titleTerms.length : localizedTerms[locale].length; }
 const localizedTerms: Record<StaticLocale, readonly string[]> = {
   ko:"일반|상식|일상|고난도|세계|수도|국가|국기|통화|위치|아시아|유럽|지리|기초|과학|물리|화학|생물|천문|역사|한국|고대|근현대|덧셈|뺄셈|곱셈|나눗셈|구구단|암산|수학|산수|도전|영어|어휘|맞춤법|문법|히라가나|가타카나|일본어|중국어|문자|컴퓨터|프로그래밍|웹|개발|데이터베이스|네트워크|IT|숫자|단어|순서|시각|패턴|인식|집중력|반응|시간|클릭|타자|속도|색상|랜덤|상식|참거짓|거짓|불가능|종합|고난도|퀴즈|테스트".split("|"),
   en:terms.map((term)=>term==="it"?"IT":term.charAt(0).toUpperCase()+term.slice(1)),
@@ -74,6 +75,7 @@ const addedCategoryLabels: Record<StaticLocale, Record<"nonsense" | "brain" | "r
 export function quizCategoryName(locale: Locale, category: string): string {
   if (locale === "ru") return ruCatalog.categoryLabels[category as keyof typeof ruCatalog.categoryLabels] ?? ruCatalog.ui.category[category as keyof typeof ruCatalog.ui.category] ?? category;
   if (locale === "tr") return trCatalog.categoryLabels[category as keyof typeof trCatalog.categoryLabels] ?? category;
+  if (locale === "pl") return plCatalog.categoryLabels[category as keyof typeof plCatalog.categoryLabels] ?? category;
   if (category in addedCategoryLabels[locale]) return addedCategoryLabels[locale][category as keyof typeof addedCategoryLabels[StaticLocale]];
   return uiMessages[locale].category[category] ?? category;
 }
@@ -81,6 +83,7 @@ export function quizCategoryName(locale: Locale, category: string): string {
 export function quizTitle(locale: Locale, quiz: Pick<Quiz, "slug" | "title">): string {
   if (locale === "ru") return ruCatalog.quizTitles[quiz.slug as keyof typeof ruCatalog.quizTitles] ?? quiz.title;
   if (locale === "tr") return trCatalog.quizTitles[quiz.slug as keyof typeof trCatalog.quizTitles] ?? quiz.title;
+  if (locale === "pl") return plCatalog.quizTitles[quiz.slug as keyof typeof plCatalog.quizTitles] ?? quiz.title;
   if (quiz.slug === "brain-teaser") return brainTeaserTitles[locale];
   if (locale === "en") return quiz.title;
   if (locale === "ko" && koreanTitles[quiz.slug]) return koreanTitles[quiz.slug];
@@ -113,6 +116,10 @@ export function quizSeoCopy(locale: Locale, quiz: Quiz): { title: string; descri
     if (quiz.slug === "brain-teaser") return { title: trCatalog.brainSeo.title, description: trCatalog.brainSeo.description };
     const title = quizTitle(locale, quiz);
     return { title: `${title} | woori.today`, description: trCatalog.quizDescriptions[quiz.slug as keyof typeof trCatalog.quizDescriptions] };
+  }
+  if (locale === "pl") {
+    const title = quizTitle(locale, quiz);
+    return { title: quiz.slug === "brain-teaser" ? plCatalog.brainSeo.title : `${title} | woori.today`, description: quizDescription(locale, quiz, title) };
   }
   if (quiz.slug === "brain-teaser") {
     const descriptions: Record<StaticLocale, string> = {
@@ -222,6 +229,11 @@ export function localizeMathPrompt(locale: Locale, prompt: string): string {
     const percentage = prompt.match(/^(\d+(?:[.,]\d+)?)% of (\d+(?:[.,]\d+)?) = \?$/);
     if (percentage) return `${percentage[2]}의 ${percentage[1]}%는 얼마인가요?`;
   }
+  if (locale === "pl") {
+    const percentage = prompt.match(/^(\d+(?:[.,]\d+)?)% of (\d+(?:[.,]\d+)?) = \?$/);
+    if (percentage) return `Ile wynosi ${percentage[1]}% z ${percentage[2]}?`;
+    return prompt.replace("What is x?", "Rozwi\u0105\u017c r\u00f3wnanie dla x").replace("(decimal)", "(liczba dziesi\u0119tna)");
+  }
   return prompt.replace("What is x?", mathPromptCopy[locale].findX).replace("(decimal)", `(${mathPromptCopy[locale].decimal})`);
 }
 
@@ -231,6 +243,9 @@ export function hasQuizTermTranslations(locale: Locale, slugs: readonly string[]
   }
   if (locale === "tr") {
     return slugs.every((slug) => Object.hasOwn(trCatalog.quizTitles, slug));
+  }
+  if (locale === "pl") {
+    return slugs.every((slug) => Object.hasOwn(plCatalog.quizTitles, slug));
   }
   const translated = new Set<string>([...terms, ...Object.keys(extraTerms[locale]), ...Object.keys(bankTerms[locale])]);
   const localized = localizedTerms[locale];

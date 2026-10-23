@@ -1,0 +1,6212 @@
+{
+  "general-001": {
+    "question": "Która planeta jest znana jako Czerwona Planeta?",
+    "explanation": "Bogaty w żelazo pył daje Marsowi swój czerwony wygląd.",
+    "options": [
+      "Wenus",
+      "Mars",
+      "Jowisz",
+      "Rtęć"
+    ]
+  },
+  "general-002": {
+    "question": "Ile stron ma sześciokąt?",
+    "explanation": "Sześciokąt ma sześć boków.",
+    "options": [
+      "Pięć",
+      "Sześć",
+      "Siedem",
+      "Osiem"
+    ]
+  },
+  "general-003": {
+    "question": "Który instrument mierzy ciśnienie powietrza?",
+    "explanation": "Barometr mierzy ciśnienie atmosferyczne.",
+    "options": [
+      "Termometr",
+      "Barometr",
+      "Hygrometr",
+      "Kompas"
+    ]
+  },
+  "general-004": {
+    "question": "Co jest najtrudniejszym naturalnym minerałem na Mohs skali?",
+    "explanation": "Diament jest oceniony 10 na skali twardości Mohsa.",
+    "options": [
+      "Kwarc",
+      "Topaz",
+      "Diament",
+      "Korund"
+    ]
+  },
+  "general-005": {
+    "question": "Ile minut będzie za dwie godziny?",
+    "explanation": "Dwie godziny zawierają 120 minut.",
+    "options": [
+      "100",
+      "110",
+      "120",
+      "130"
+    ]
+  },
+  "general-006": {
+    "question": "Który gaz stanowi większość ziemskiej atmosfery?",
+    "explanation": "Azot stanowi około 78% suchego powietrza.",
+    "options": [
+      "Tlen",
+      "Azot",
+      "Ditlenek węgla",
+      "Argon"
+    ]
+  },
+  "general-007": {
+    "question": "Który ocean jest największy?",
+    "explanation": "Pacyfik jest największym oceanem według obszarów.",
+    "options": [
+      "Atlantyk",
+      "Indyjski",
+      "Arktyka",
+      "Pacyfik"
+    ]
+  },
+  "general-008": {
+    "question": "Jaki jest punkt zamrażania wody przy standardowym ciśnieniu?",
+    "explanation": "Czysta woda zamraża przy temperaturze 0 °C (32 °F) przy ciśnieniu standardowym.",
+    "options": [
+      "0 °C",
+      "10 °C",
+      "32 °C",
+      "100 °C"
+    ]
+  },
+  "general-009": {
+    "question": "Który kształt ma trzy boki?",
+    "explanation": "Trójkąt ma trzy strony.",
+    "options": [
+      "Kwadrat",
+      "Trójkąt",
+      "Pięciokąt",
+      "Koło"
+    ]
+  },
+  "general-010": {
+    "question": "Który metal jest płynny w zwykłej temperaturze pokojowej?",
+    "explanation": "Rtęć jest płynna w typowej temperaturze pokojowej.",
+    "options": [
+      "Żelazo",
+      "Miedź",
+      "Rtęć",
+      "Aluminium"
+    ]
+  },
+  "science-011": {
+    "question": "Jaki jest symbol chemiczny dla wody?",
+    "explanation": "Molekula zawiera dwa atomy wodoru i jeden atom tlenu.",
+    "options": [
+      "CO2",
+      "H2O",
+      "O2",
+      "NaCl"
+    ]
+  },
+  "science-012": {
+    "question": "Która część rośliny zazwyczaj pochłania wodę z gleby?",
+    "explanation": "Korzenie wchłaniają wodę i minerały z gleby.",
+    "options": [
+      "Kwiat",
+      "Liście",
+      "Korzenie",
+      "Owoce"
+    ]
+  },
+  "science-013": {
+    "question": "Jaka siła trzyma planety na orbicie wokół Słońca?",
+    "explanation": "Grawitacja zapewnia przyspieszenie centryferalne dla orbit planetarnych.",
+    "options": [
+      "Tarcie",
+      "Grawitacja",
+      "Magnetyzm",
+      "Wyporność"
+    ]
+  },
+  "science-014": {
+    "question": "Które cząsteczki mają ujemny ładunek elektryczny?",
+    "explanation": "Elektrony niosą ujemny ładunek podstawowy.",
+    "options": [
+      "Proton",
+      "Neutron",
+      "Elektron",
+      "Foton"
+    ]
+  },
+  "science-015": {
+    "question": "Na poziomie morza, woda gotuje się w przybliżeniu w jakiej temperaturze?",
+    "explanation": "Przy standardowym ciśnieniu atmosferycznym woda gotuje się w temperaturze 100 °C.",
+    "options": [
+      "50 °C",
+      "75 °C",
+      "100 °C",
+      "150 °C"
+    ]
+  },
+  "science-016": {
+    "question": "Który organelle jest znany z produkcji większości komórek ATP?",
+    "explanation": "Mitochondria wytwarza dużo ATP komórek eukaryotycznych poprzez oddychanie komórkowe.",
+    "options": [
+      "Jądro atomowe",
+      "Mitochondrium",
+      "Rybosom",
+      "Aparat Golgiego"
+    ]
+  },
+  "science-017": {
+    "question": "Jaki gaz przybierają rośliny do fotosyntezy?",
+    "explanation": "W czasie fotosyntezy rośliny używają dwutlenku węgla i wody do budowania cukrów.",
+    "options": [
+      "Tlen",
+      "Ditlenek węgla",
+      "Hel",
+      "Wodór"
+    ]
+  },
+  "science-018": {
+    "question": "Jaka jest prędkość światła w próżni?",
+    "explanation": "Światło podróżuje z prędkością około 300 000 kilometrów na sekundę w próżni.",
+    "options": [
+      "30.000 km/s",
+      "150 000 km/s",
+      "300 000 km/s",
+      "3 000 000 km/s"
+    ]
+  },
+  "science-019": {
+    "question": "Które komórki krwi przenoszą głównie tlen?",
+    "explanation": "Hemoglobina w czerwonych krwinkach wiąże i transportuje tlen.",
+    "options": [
+      "Czerwone krwinki",
+      "Płytki krwionośne",
+      "Białe krwinki",
+      "Komórki macierzyste"
+    ]
+  },
+  "science-020": {
+    "question": "Jak się nazywa środek atomu?",
+    "explanation": "jądro atomu zawiera protony i neutrony.",
+    "options": [
+      "Orbita",
+      "Jądro atomowe",
+      "Powłoka",
+      "Wiązanie"
+    ]
+  },
+  "geography-021": {
+    "question": "Jaka jest stolica Japonii?",
+    "explanation": "Tokio jest stolicą Japonii.",
+    "options": [
+      "Osaka",
+      "Kioto",
+      "Tokio",
+      "Sapporo"
+    ]
+  },
+  "geography-022": {
+    "question": "Który kraj jest domem miasta Kairu?",
+    "explanation": "Kairo jest stolicą Egiptu.",
+    "options": [
+      "Maroko",
+      "Egipt",
+      "Jordania",
+      "Sudan"
+    ]
+  },
+  "geography-023": {
+    "question": "Który jest największym kontynentem po okolicy?",
+    "explanation": "Azja jest największym kontynentem w podziale na tereny.",
+    "options": [
+      "Afryka",
+      "Azja",
+      "Europa",
+      "Ameryka Północna"
+    ]
+  },
+  "geography-024": {
+    "question": "Góry Andów znajdują się przede wszystkim na którym kontynencie?",
+    "explanation": "Andy rozciągają się wzdłuż zachodniej strony Ameryki Południowej.",
+    "options": [
+      "Afryka",
+      "Azja",
+      "Ameryka Południowa",
+      "Europa"
+    ]
+  },
+  "geography-025": {
+    "question": "Który kraj ma liść klonu na flagi narodowej?",
+    "explanation": "Liść klonowa jest głównym symbolem flagi Kanady.",
+    "options": [
+      "Kanada",
+      "Austria",
+      "Dania",
+      "Peru"
+    ]
+  },
+  "geography-026": {
+    "question": "Która rzeka płynie przez Paryż?",
+    "explanation": "Sekwany płyną przez Paryż.",
+    "options": [
+      "Ren",
+      "Sekwana",
+      "Dunaj",
+      "Tamiza"
+    ]
+  },
+  "geography-027": {
+    "question": "Jaki jest najmniejszy kontynent po okolicy?",
+    "explanation": "Australia jest najmniejszym kontynentem według obszarów.",
+    "options": [
+      "Europa",
+      "Antarktyka",
+      "Australia",
+      "Ameryka Południowa"
+    ]
+  },
+  "geography-028": {
+    "question": "Góra Kilimandżaro jest w którym kraju?",
+    "explanation": "Kilimandżaro jest w północno-wschodniej Tanzanii.",
+    "options": [
+      "Kenia",
+      "Tanzania",
+      "Uganda",
+      "Etiopia"
+    ]
+  },
+  "geography-029": {
+    "question": "Który ocean leży na wschód od Afryki?",
+    "explanation": "Ocean Indyjski graniczy z Afryką na wschód.",
+    "options": [
+      "Pacyfik",
+      "Atlantyk",
+      "Indyjski",
+      "Arktyka"
+    ]
+  },
+  "geography-030": {
+    "question": "Jaka jest stolica Włoch?",
+    "explanation": "Rzym jest stolicą Włoch.",
+    "options": [
+      "Milan",
+      "Wenecja",
+      "Rzym",
+      "Neapol"
+    ]
+  },
+  "history-031": {
+    "question": "Starożytne Igrzyska Olimpijskie rozpoczęły się w jakim regionie?",
+    "explanation": "Starożytne Igrzyska Olimpijskie odbyły się w Olympii w Grecji.",
+    "options": [
+      "Grecja",
+      "Egipt",
+      "Persja",
+      "Rzym"
+    ]
+  },
+  "history-032": {
+    "question": "Która ściana spadła w 1989 roku, stając się symbolem niemieckiego zjednoczenia?",
+    "explanation": "Mur berliński otworzył się w listopadzie 1989 roku.",
+    "options": [
+      "Ściana Hadriana",
+      "Mur berliński",
+      "Wielki mur",
+      "Ściana zachodnia"
+    ]
+  },
+  "history-033": {
+    "question": "Z kim powiązana jest prasa drukarska związana z ruchomym typem metalu w Europie?",
+    "explanation": "Prasa Gutenberga przyczyniła się do rozpowszechniania druku w Europie w XV wieku.",
+    "options": [
+      "Galileo",
+      "Johannes Gutenberg",
+      "Isaac Newton",
+      "Marco Polo"
+    ]
+  },
+  "history-034": {
+    "question": "Która cywilizacja zbudowała piramidy w Gizie?",
+    "explanation": "Piramidy Giza zbudowano w starożytnym Egipcie.",
+    "options": [
+      "Rzymianie",
+      "Starożytni Egipcjanie",
+      "Aztecy",
+      "Minojczycy"
+    ]
+  },
+  "history-035": {
+    "question": "W którym roku rozpoczęła się rewolucja francuska?",
+    "explanation": "Rewolucja francuska rozpoczęła się w 1789 roku.",
+    "options": [
+      "1492",
+      "1776",
+      "1789",
+      "1815"
+    ]
+  },
+  "history-036": {
+    "question": "Renesans zaczął się w jakim kraju obecnym?",
+    "explanation": "Renesans rozpoczął się w włoskich miastach, zanim rozprzestrzenił się po całej Europie.",
+    "options": [
+      "Włochy",
+      "Niemcy",
+      "Hiszpania",
+      "Anglia"
+    ]
+  },
+  "history-037": {
+    "question": "Kto pierwszy chodził po Księżycu?",
+    "explanation": "Neil Armstrong wstąpił na Księżyc w 1969 roku w czasie Apollo 11.",
+    "options": [
+      "Buzz Aldrin",
+      "Yuri Gagarin",
+      "Neil Armstrong",
+      "John Glenn"
+    ]
+  },
+  "history-038": {
+    "question": "Które imperium zbudowało rozległą sieć drogową skupioną na Rzymie?",
+    "explanation": "Drogi rzymskie połączone terytoriami w całym Imperium Rzymskim.",
+    "options": [
+      "Imperium Mongolskie",
+      "Imperium rzymskie",
+      "Imperium Mali",
+      "Imperium Inków"
+    ]
+  },
+  "history-039": {
+    "question": "Magna Carta została zapieczętowana w którym roku?",
+    "explanation": "Król Jan zapieczętował Magnę Cartę w 1215 roku.",
+    "options": [
+      "1066",
+      "1215",
+      "1492",
+      "1607"
+    ]
+  },
+  "history-040": {
+    "question": "Który statek zaniósł pielgrzymów do Ameryki Północnej w 1620 roku?",
+    "explanation": "Mayflower nosił angielskich separatystów w 1620 roku.",
+    "options": [
+      "Santa Maria",
+      "Mayflower",
+      "Endeavour",
+      "Beagle"
+    ]
+  },
+  "math-041": {
+    "question": "Co to jest 8 × 7?",
+    "explanation": "Osiem po siódemce równa się 56.",
+    "options": [
+      "54",
+      "56",
+      "58",
+      "64"
+    ]
+  },
+  "math-042": {
+    "question": "Co to jest 144 ± 12?",
+    "explanation": "144 podzielone przez 12 to 12.",
+    "options": [
+      "10",
+      "11",
+      "12",
+      "14"
+    ]
+  },
+  "math-043": {
+    "question": "Rozpuszczalnik: 3x + 5 = 20.",
+    "explanation": "Odlicz 5, aby uzyskać 3x = 15, następnie podzielić przez 3: x = 5.",
+    "options": [
+      "3",
+      "5",
+      "7",
+      "15"
+    ]
+  },
+  "math-044": {
+    "question": "Co to jest 25% z 80?",
+    "explanation": "25% to jedna czwarta; 80 podzielone przez 4 to 20.",
+    "options": [
+      "10",
+      "15",
+      "20",
+      "25"
+    ]
+  },
+  "math-045": {
+    "question": "Co to jest 3/4 zapisane jako dziesiętne?",
+    "explanation": "Trzy podzielone przez cztery równa się 0,75.",
+    "options": [
+      "0.25",
+      "0.5",
+      "0.75",
+      "1.25"
+    ]
+  },
+  "math-046": {
+    "question": "Jaki numer będzie następny: 2, 6, 12, 20, 30, ...?",
+    "explanation": "Różnice to 4, 6, 8, 10, a następnie 12, a następna jest 42.",
+    "options": [
+      "36",
+      "40",
+      "42",
+      "44"
+    ]
+  },
+  "math-047": {
+    "question": "Jaka jest prawdopodobieństwo walcowania liczby równomiernej?",
+    "explanation": "Trzy z sześciu wyników (2, 4, 6) są równe, więc prawdopodobieństwo wynosi 1/2.",
+    "options": [
+      "1/6",
+      "1/3",
+      "1/2",
+      "2/3"
+    ]
+  },
+  "math-048": {
+    "question": "W obwodzie znajduje się obwód 30 i długość 9. Jaka jest jego szerokość?",
+    "explanation": "2:9 + w) = 30, więc w = 6.",
+    "options": [
+      "5",
+      "6",
+      "7",
+      "12"
+    ]
+  },
+  "math-049": {
+    "question": "Jaka jest najmniejsza wspólna wielokrotność 6 i 8?",
+    "explanation": "24 jest najmniejszą liczbą dodatnią podzieloną przez 6 i 8.",
+    "options": [
+      "12",
+      "18",
+      "24",
+      "48"
+    ]
+  },
+  "math-050": {
+    "question": "Jeśli 5 pracowników kończy pracę w ciągu 12 dni w tym samym tempie, ile dni pracy jest pracą?",
+    "explanation": "5 pracowników × 12 dni = 60 dni roboczych.",
+    "options": [
+      "17",
+      "30",
+      "60",
+      "72"
+    ]
+  },
+  "language-051": {
+    "question": "Które słowo jest synonimem „bryef”?",
+    "explanation": "Krótki oznacza krótki czas trwania lub długość.",
+    "options": [
+      "Short",
+      "Distant",
+      "Heavy",
+      "Quiet"
+    ]
+  },
+  "language-052": {
+    "question": "Który znak interpunkcyjny kończy się pytaniem bezpośrednim?",
+    "explanation": "Bezpośrednie pytanie kończy się znakiem zapytania.",
+    "options": [
+      "Comma",
+      "Colon",
+      "Question mark",
+      "Semicolon"
+    ]
+  },
+  "language-053": {
+    "question": "Co to jest mnogość „dzieci”?",
+    "explanation": "Dzieci to konwencjonalna mnoga forma dziecka.",
+    "options": [
+      "Childs",
+      "Children",
+      "Childes",
+      "Childrens"
+    ]
+  },
+  "language-054": {
+    "question": "Które zdanie używa poprawnie „swoich”?",
+    "explanation": "Ich jest posiadłym decydentem; pokazuje, że torby należą do zespołu.",
+    "options": [
+      "Their going home.",
+      "The team left their bags here.",
+      "Put it over their.",
+      "Their is a book."
+    ]
+  },
+  "language-055": {
+    "question": "Które słowo jest poprawnie napisane?",
+    "explanation": "Oddzielony jest napis “par” w środku.",
+    "options": [
+      "Separate",
+      "Seperate",
+      "Seperete",
+      "Sepparate"
+    ]
+  },
+  "language-056": {
+    "question": "Co jest przeciwieństwem „starego”?",
+    "explanation": "Nowoczesny jest antonimem starożytnego.",
+    "options": [
+      "Old",
+      "Historic",
+      "Modern",
+      "Early"
+    ]
+  },
+  "language-057": {
+    "question": "W “Pięknie śpiewała”, które słowo jest adverb?",
+    "explanation": "Pięknie modyfikuje czasownik śpiewany i jest adverbem.",
+    "options": [
+      "She",
+      "sang",
+      "beautifully",
+      "none"
+    ]
+  },
+  "language-058": {
+    "question": "Co jest pełnym wyrokiem?",
+    "explanation": "„Weszli do domu” ma temat i całkowicie predyspozycje.",
+    "options": [
+      "Because it was raining.",
+      "The bright red umbrella.",
+      "They walked home.",
+      "After the long trip."
+    ]
+  },
+  "language-059": {
+    "question": "Które słowo oznacza „by szybko patrzeć”?",
+    "explanation": "Spojrzenie to krótkie lub szybkie spojrzenie.",
+    "options": [
+      "Glance",
+      "Stare",
+      "Watch",
+      "Observe"
+    ]
+  },
+  "language-060": {
+    "question": "Która para to homofony we wspólnej wymowie angielskiej?",
+    "explanation": "Kwiat i mąka są wyrażone podobnie w języku powszechnym angielskim.",
+    "options": [
+      "Flower / flour",
+      "Book / boot",
+      "Cat / cut",
+      "Seat / set"
+    ]
+  },
+  "technology-061": {
+    "question": "Co oznacza procesor?",
+    "explanation": "CPU oznacza Centralny Dział Przetwarzania.",
+    "options": [
+      "Centralna jednostka przetwórcza",
+      "Komputerowy sprzęt zasilający",
+      "Przesyłanie programu Core",
+      "Centralna jednostka drukowania"
+    ]
+  },
+  "technology-062": {
+    "question": "Jaki język działa natywnie w przeglądarkach internetowych?",
+    "explanation": "Przeglądacze implementują silniki JavaScript, aby uruchomić JavaScript.",
+    "options": [
+      "Java",
+      "C",
+      "JavaScript",
+      "Swift"
+    ]
+  },
+  "technology-063": {
+    "question": "Co oznacza kod statusu HTTP 404?",
+    "explanation": "HTTP 404 wskazuje, że nie znaleziono wymaganych zasobów.",
+    "options": [
+      "Sukces",
+      "Nie znaleziono",
+      "Nieautoryzowany",
+      "Niedostępny serwer"
+    ]
+  },
+  "technology-064": {
+    "question": "Które urządzenie do przodu pakiety między różnymi sieciami?",
+    "explanation": "Router do przodu pakiety między sieciami.",
+    "options": [
+      "Router",
+      "Klawiatury",
+      "Monitor",
+      "Drukarka"
+    ]
+  },
+  "technology-065": {
+    "question": "Co reprezentuje w Git?",
+    "explanation": "Git zapisuje migawkę i jej metadane w historii repozytorium.",
+    "options": [
+      "Zapisywane migawki zmian projektu",
+      "Kabel sieciowy",
+      "Język programowania",
+      "Format kompresji pliku"
+    ]
+  },
+  "technology-066": {
+    "question": "Który to relatywny język zapytania o bazę danych?",
+    "explanation": "SQL jest używany do zapytania i zarządzania bazą danych relacyjnych.",
+    "options": [
+      "SQL",
+      "HTML",
+      "CSS",
+      "PNG"
+    ]
+  },
+  "technology-067": {
+    "question": "Co oznacza URL?",
+    "explanation": "URL oznacza jednolity lokalizator zasobów.",
+    "options": [
+      "Jednolity lokalizator zasobów",
+      "Powszechne połączenie przesuwowe",
+      "Zjednoczona lista wpisów",
+      "Język referencyjny użytkownika"
+    ]
+  },
+  "technology-068": {
+    "question": "Który system używa tylko 0 i 1?",
+    "explanation": "Powtarzanie jest podstawą 2 i używa cyfr 0 i 1.",
+    "options": [
+      "Dziesiętny",
+      "Binarny",
+      "Ósemkowy",
+      "Rzymski"
+    ]
+  },
+  "technology-069": {
+    "question": "Jaka jest główna rola DNS?",
+    "explanation": "DNS rozwiązuje nazwy domen do rejestrów używanych do lokalizacji usług internetowych.",
+    "options": [
+      "Przetłumacz nazwy domen na rejestry sieciowe, takie jak adresy IP",
+      "Zaszyfruj każdy plik",
+      "Zapisz hasła w przeglądarce",
+      "Skonfiguruj kod źródłowy"
+    ]
+  },
+  "technology-070": {
+    "question": "Które rozszerzenie pliku jest powszechnie stosowane do obrazu PNG?",
+    "explanation": "Pliki obrazów PNG często używają rozszerzenia .png.",
+    "options": [
+      ".png",
+      ".mp3",
+      ".csv",
+      ".exe"
+    ]
+  },
+  "brain-071": {
+    "question": "Co będzie dalej w sekwencji 1, 4, 9, 16, ...?",
+    "explanation": "To są kolejne liczby kwadratowe: 12, 22, 32, 42; następne 52 = 25.",
+    "options": [
+      "20",
+      "24",
+      "25",
+      "36"
+    ]
+  },
+  "brain-072": {
+    "question": "Zegar pokazuje 3:15. Jaki jest mniejszy kąt między rękami?",
+    "explanation": "Na 3:15 minutowa ręka jest na 90°, a godzinna ręka na 97,5°, przepaść 7,5°.",
+    "options": [
+      "0°",
+      "7,5°",
+      "15°",
+      "30°"
+    ]
+  },
+  "brain-073": {
+    "question": "Jeśli wszyscy Bloops to razzies i razzies to Lazzies, to są Lazzies?",
+    "explanation": "Przez przeprawę, każdy Bloop należy do zestawu Razzies i dlatego Lazzies.",
+    "options": [
+      "Tak.",
+      "Nie",
+      "Nie można ustalić",
+      "Tylko niektórych."
+    ]
+  },
+  "brain-074": {
+    "question": "Wzór powtarza się: okrąg, kwadrat, trójkąt, okrąg, kwadrat, ... Co dalej?",
+    "explanation": "Sekwencja trzech kształtów się powtarza, więc trójkąt jest następny.",
+    "options": [
+      "Koło",
+      "Kwadrat",
+      "Trójkąt",
+      "Pięciokąt"
+    ]
+  },
+  "brain-075": {
+    "question": "- Zmierzasz do drugiego miejsca.",
+    "explanation": "Mijanie drugiego miejsca, stawia cię na drugim miejscu.",
+    "options": [
+      "Pierwszy",
+      "Druga.",
+      "Trzeci",
+      "Czwarty"
+    ]
+  },
+  "brain-076": {
+    "question": "Który numer nie należy: 2, 3, 5, 9, 11?",
+    "explanation": "9 jest kompozytowe; pozostałe to liczby pierwsze.",
+    "options": [
+      "2",
+      "3",
+      "9",
+      "11"
+    ]
+  },
+  "brain-077": {
+    "question": "Rolnik ma 17 owiec.",
+    "explanation": "„Wszystko oprócz 9” oznacza pozostanie 9 owiec.",
+    "options": [
+      "8",
+      "9",
+      "17",
+      "26"
+    ]
+  },
+  "brain-078": {
+    "question": "Jeśli wczoraj był poniedziałek, to jaki dzień będzie pojutrze?",
+    "explanation": "Wczoraj w poniedziałek oznacza dziś wtorek, jutro w środę i pojutrze w czwartek.",
+    "options": [
+      "Wtorek",
+      "Środa",
+      "Czwartek",
+      "Piątek"
+    ]
+  },
+  "brain-079": {
+    "question": "Dwóch ojców i dwóch synów podziela trzy jabłka, po jednym.",
+    "explanation": "Pośrednikiem jest zarówno syn, jak i ojciec, więc grupa ma trzech ludzi.",
+    "options": [
+      "Pocięli każde jabłko.",
+      "Jest trzech ludzi: dziadek, ojciec, syn",
+      "Jedna osoba nie dostanie żadnej",
+      "Są czworo ludzi."
+    ]
+  },
+  "brain-080": {
+    "question": "Co to jest następny list: A, C, F, J, O, ...?",
+    "explanation": "Pozycje liter zwiększają się o 2, 3, 4, 5; następne dodać 6 do O (15), aby uzyskać U (21).",
+    "options": [
+      "S",
+      "T",
+      "U",
+      "V"
+    ]
+  },
+  "nonsense-081": {
+    "question": "Co ma wiele zębów, ale nie może gryzać?",
+    "explanation": "Gniazdo ma zęby, ale nie są używane do gryzienia.",
+    "options": [
+      "Grzebień",
+      "Rekin",
+      "Zamek",
+      "Piła"
+    ]
+  },
+  "nonsense-082": {
+    "question": "Co sprawia, że schnie?",
+    "explanation": "Ręcznik pochłania wodę podczas suszenia czegoś innego.",
+    "options": [
+      "Ręcznik.",
+      "Chmura",
+      "Gąbka",
+      "Rzeka."
+    ]
+  },
+  "nonsense-083": {
+    "question": "Co ma szyję, ale bez głowy?",
+    "explanation": "Butelka ma szyję, ale bez głowy.",
+    "options": [
+      "Butelka",
+      "Osoba",
+      "Żyrafa",
+      "Koszula."
+    ]
+  },
+  "nonsense-084": {
+    "question": "Co ma ręce, ale nie może klaskać?",
+    "explanation": "Zegar ma godzinę i minutę.",
+    "options": [
+      "Zegar",
+      "Pianista",
+      "Rękawiczka.",
+      "Pomnik"
+    ]
+  },
+  "nonsense-085": {
+    "question": "Co może podróżować po świecie podczas pobytu w jednym rogu?",
+    "explanation": "Znak pocztowy zostaje w rogu koperty podczas podróży.",
+    "options": [
+      "Pieczęć",
+      "Kompas",
+      "Chmura",
+      "Walizka."
+    ]
+  },
+  "nonsense-086": {
+    "question": "Co ma jedno oko, ale nie może widzieć?",
+    "explanation": "Oko igły jest dziurą na nici.",
+    "options": [
+      "Igła",
+      "Kamera",
+      "Burza",
+      "Ziemniak"
+    ]
+  },
+  "nonsense-087": {
+    "question": "Co ma kluczyki, ale nie może otworzyć zamka?",
+    "explanation": "Na fortepianie są klucze muzyczne, a nie klucze zamkowe.",
+    "options": [
+      "Piano",
+      "Ślusarz.",
+      "Mapa",
+      "Drzwi."
+    ]
+  },
+  "nonsense-088": {
+    "question": "Co ma twarz i dwie ręce, ale bez rąk i nóg?",
+    "explanation": "Twarz i ręce zegara nazywają się analogią z osobą.",
+    "options": [
+      "Zegar",
+      "Lalka.",
+      "Obraz.",
+      "Rękawiczka."
+    ]
+  },
+  "nonsense-089": {
+    "question": "Co się dzieje, ale nigdy nie zejdzie?",
+    "explanation": "Twój wiek wzrasta wraz z upływem czasu.",
+    "options": [
+      "W twoim wieku",
+      "Balon.",
+      "Dym",
+      "Winda."
+    ]
+  },
+  "nonsense-090": {
+    "question": "Co ma cztery nogi, ale nie może chodzić?",
+    "explanation": "Stół ma nogi, ale sam nie może się poruszać.",
+    "options": [
+      "Stół",
+      "Pies.",
+      "Koń.",
+      "Pająk."
+    ]
+  },
+  "general-x-1": {
+    "question": "Która gwiazda jest najbliższa Ziemi po Słońcu?",
+    "explanation": "Proxima Centauri jest najbliższą gwiazdą Słońca po Słońcu.",
+    "options": [
+      "Proxima Centauri",
+      "Cztery",
+      "Hygrometr",
+      "Kalcyn"
+    ]
+  },
+  "general-x-2": {
+    "question": "Ile sznurków ma standardowe skrzypce?",
+    "explanation": "Standardowe skrzypce mają cztery sznurki.",
+    "options": [
+      "Cztery",
+      "Żelazo",
+      "Witamina C",
+      "Ciecierzyca"
+    ]
+  },
+  "general-x-3": {
+    "question": "Który instrument mierzy wilgotność atmosferyczną?",
+    "explanation": "Higrometr mierzy wilgotność w powietrzu.",
+    "options": [
+      "Hygrometr",
+      "Śliwka",
+      "Sfermentowane soje",
+      "Migdał"
+    ]
+  },
+  "general-x-4": {
+    "question": "Jaki minerał jest głównym składnikiem wapna?",
+    "explanation": "Limestone składa się głównie z kalcynianu mineralnego.",
+    "options": [
+      "Kalcyn",
+      "Opakowanie",
+      "Kameleon",
+      "Papuga"
+    ]
+  },
+  "general-x-5": {
+    "question": "Ile sekund jest za minutę?",
+    "explanation": "Jedna minuta zawiera 60 sekund.",
+    "options": [
+      "60",
+      "Piano",
+      "Michelangelo",
+      "Struny"
+    ]
+  },
+  "general-x-6": {
+    "question": "Jaki jest pierwszy element tabeli okresowej?",
+    "explanation": "Wodór ma numer 1 i jest pierwszym elementem w tabeli okresowej.",
+    "options": [
+      "Wodór",
+      "Origami",
+      "Tynk mokry",
+      "Napis"
+    ]
+  },
+  "general-x-7": {
+    "question": "Który ocean leży między wschodnią Afryką a zachodnią Australią?",
+    "explanation": "Ocean Indyjski leży między Afryką, Azją i Australią.",
+    "options": [
+      "Ocean Indyjski",
+      "Sześć",
+      "Rugby",
+      "Osiemnaście"
+    ]
+  },
+  "general-x-8": {
+    "question": "Pod ciśnieniem standardowym, przy jakiej temperaturze Celsjusza gotuje czysta woda?",
+    "explanation": "Woda gotuje w temperaturze 100 °C przy jednej atmosferze ciśnienia.",
+    "options": [
+      "100 °C",
+      "Koszt zaciągnięcia pożyczki",
+      "Utrzymywanie dochodów do celów przyszłego wykorzystania",
+      "System wymiany kupujących i sprzedawców"
+    ]
+  },
+  "general-x-9": {
+    "question": "Ile twarzy ma tetrahedron?",
+    "explanation": "Tetrahedron ma cztery trójkątne twarze.",
+    "options": [
+      "Cztery",
+      "Adres",
+      "Kompas",
+      "366"
+    ]
+  },
+  "general-x-10": {
+    "question": "Który metal ma symbol chemiczny Fe?",
+    "explanation": "Fe jest symbolem chemicznym żelaza.",
+    "options": [
+      "Żelazo",
+      "/Przejdź bezpieczną drogą.",
+      "112",
+      "Dym"
+    ]
+  },
+  "general-x-11": {
+    "question": "Które witaminy są obfite w owoce cytrusowe?",
+    "explanation": "Owoce cytrusowe są znanymi źródłami witaminy C.",
+    "options": [
+      "Witamina C",
+      "Chuseok",
+      "Ondol",
+      "Buchaechum"
+    ]
+  },
+  "general-x-12": {
+    "question": "Jaki jest główny składnik tradycyjnego hummusa?",
+    "explanation": "Tradycyjny hummus jest głównie z ciecierzycy.",
+    "options": [
+      "Ciecierzyca",
+      "Druga.",
+      "90",
+      "Wszystkożerzca"
+    ]
+  },
+  "general-x-13": {
+    "question": "Które ziarno jest używane do produkcji risotto?",
+    "explanation": "Risotto zazwyczaj stosuje odmiany krótkoziarniste, takie jak Arborio.",
+    "options": [
+      "Ryż Arborio",
+      "Cztery",
+      "Hygrometr",
+      "Kalcyn"
+    ]
+  },
+  "general-x-14": {
+    "question": "Z czego pochodzi tofu?",
+    "explanation": "Tofu jest wytwarzane przez koagulację mleka sojowego.",
+    "options": [
+      "Sojowe",
+      "Żelazo",
+      "Witamina C",
+      "Ciecierzyca"
+    ]
+  },
+  "general-x-15": {
+    "question": "Który przyprawa daje wielu kurier żółty kolor?",
+    "explanation": "Kurkuma w kurkumie daje mu silny żółty kolor.",
+    "options": [
+      "Kurkuma",
+      "Sfermentowane soje",
+      "Migdał",
+      "Krem"
+    ]
+  },
+  "general-x-16": {
+    "question": "Jaki jest główny składnik guacamole?",
+    "explanation": "Guacamole opiera się na awokado.",
+    "options": [
+      "Awokado",
+      "Kameleon",
+      "Papuga",
+      "Rekina chlewna"
+    ]
+  },
+  "general-x-17": {
+    "question": "Które owoce są suszone, żeby zrobić śliwkę?",
+    "explanation": "Śliwka to suszona śliwka.",
+    "options": [
+      "Śliwka",
+      "Michelangelo",
+      "Struny",
+      "Tańcz."
+    ]
+  },
+  "general-x-18": {
+    "question": "Jaki jest główny składnik miso?",
+    "explanation": "Miso jest sfermentowaną pastą, najczęściej wyprodukowaną z soi.",
+    "options": [
+      "Sfermentowane soje",
+      "Tynk mokry",
+      "Napis",
+      "Pięć"
+    ]
+  },
+  "general-x-19": {
+    "question": "Które orzechy są używane do produkcji marzipanu?",
+    "explanation": "Marzipan jest głównie z migdałów migdałkowych i cukru.",
+    "options": [
+      "Migdał",
+      "Rugby",
+      "Osiemnaście",
+      "Szachy"
+    ]
+  },
+  "general-x-20": {
+    "question": "Który produkt mleczarski jest skonstruowany do produkcji masła?",
+    "explanation": "Krem do żucia oddziela masło tłuszcz od maślanki.",
+    "options": [
+      "Krem",
+      "Utrzymywanie dochodów do celów przyszłego wykorzystania",
+      "System wymiany kupujących i sprzedawców",
+      "Ogólny wzrost cen"
+    ]
+  },
+  "general-x-21": {
+    "question": "Jaka jest największa żywa ziemia zwierzęcia?",
+    "explanation": "Słoń afrykański jest największym zwierzęciem żyjącym w ziemi.",
+    "options": [
+      "Słoń afrykański",
+      "Kompas",
+      "366",
+      "Siedem"
+    ]
+  },
+  "general-x-22": {
+    "question": "Co jest najszybszym zwierzęciem lądowym na krótkich dystansach?",
+    "explanation": "Gepardy mogą osiągnąć najwyższe prędkości sprintu lądowo-zwierzęcego.",
+    "options": [
+      "Gepard",
+      "112",
+      "Dym",
+      "Seul"
+    ]
+  },
+  "general-x-23": {
+    "question": "Które ssaki składają jaja i mają kaczątkę?",
+    "explanation": "Platypus to ssak, który rzuca jajka z rachunkiem.",
+    "options": [
+      "Dziobak",
+      "Ondol",
+      "Buchaechum",
+      "Hanok"
+    ]
+  },
+  "general-x-24": {
+    "question": "Jak się nazywa grupa wilków?",
+    "explanation": "Grupa wilków jest powszechnie nazywana opakowaniem.",
+    "options": [
+      "Opakowanie",
+      "90",
+      "Wszystkożerzca",
+      "Opady deszczu"
+    ]
+  },
+  "general-x-25": {
+    "question": "Które zwierzę jest znane ze zmiany koloru za pomocą wyspecjalizowanych komórek skóry?",
+    "explanation": "Kameleony mogą zmieniać kolor za pomocą wyspecjalizowanych komórek skóry.",
+    "options": [
+      "Kameleon",
+      "Hygrometr",
+      "Kalcyn",
+      "60"
+    ]
+  },
+  "general-x-26": {
+    "question": "Który ptak słynie z naśladowania ludzkiej mowy?",
+    "explanation": "Wiele gatunków papug może naśladować dźwięki, w tym mową ludzką.",
+    "options": [
+      "Papuga",
+      "Witamina C",
+      "Ciecierzyca",
+      "Ryż Arborio"
+    ]
+  },
+  "general-x-27": {
+    "question": "Jaki jest największy gatunek rekina?",
+    "explanation": "Rekin wielorybowy jest największym żywym gatunkiem ryb.",
+    "options": [
+      "Rekina chlewna",
+      "Sfermentowane soje",
+      "Migdał",
+      "Krem"
+    ]
+  },
+  "general-x-28": {
+    "question": "Który owad produkuje miód?",
+    "explanation": "Pszczoły miodne produkują miód z zebranego nektary.",
+    "options": [
+      "Pszczoła miodna",
+      "Kameleon",
+      "Papuga",
+      "Rekina chlewna"
+    ]
+  },
+  "general-x-29": {
+    "question": "Jak nazywa się młoda żaba?",
+    "explanation": "Łarwal żaby nazywany jest kijem.",
+    "options": [
+      "Kijanka",
+      "Struny",
+      "Tańcz.",
+      "Szkło kolorowe"
+    ]
+  },
+  "general-x-30": {
+    "question": "Który ssak używa echolokacji do nawigacji?",
+    "explanation": "Wielu nietoperzy używają echolokacji, aby znaleźć zdobycz i nawigację.",
+    "options": [
+      "Nietoperz",
+      "Napis",
+      "Pięć",
+      "Miłość"
+    ]
+  },
+  "general-x-31": {
+    "question": "Jaki instrument posiada 88 kluczy w swojej nowoczesnej formie?",
+    "explanation": "Standardowy nowoczesny fortepian posiada 88 kluczy.",
+    "options": [
+      "Piano",
+      "Osiemnaście",
+      "Szachy",
+      "Jen"
+    ]
+  },
+  "general-x-32": {
+    "question": "Który artysta namalował sufit Kaplicy Sykstyńskiej?",
+    "explanation": "Michelangelo namalował sufit Kaplicy Sykstyńskiej.",
+    "options": [
+      "Michelangelo",
+      "System wymiany kupujących i sprzedawców",
+      "Ogólny wzrost cen",
+      "Wymagana płatność na rzecz rządu"
+    ]
+  },
+  "general-x-33": {
+    "question": "Która rodzina instrumentów obejmuje skrzypce?",
+    "explanation": "skrzypce to smyczkowy instrument.",
+    "options": [
+      "Struny",
+      "366",
+      "Siedem",
+      "Śniadanie"
+    ]
+  },
+  "general-x-34": {
+    "question": "Która forma sztuki używa ruchu i choreografii do muzyki?",
+    "explanation": "Tańcz wyraża idee i formy poprzez ruch.",
+    "options": [
+      "Tańcz.",
+      "Dym",
+      "Seul",
+      "Wygrał"
+    ]
+  },
+  "general-x-35": {
+    "question": "Jaki materiał jest tradycyjnie używany do produkcji szkła barwionego?",
+    "explanation": "Szklane artykuly zmontowane są z kolorowych kawałków.",
+    "options": [
+      "Szkło kolorowe",
+      "Buchaechum",
+      "Hanok",
+      "Gayageum"
+    ]
+  },
+  "general-x-36": {
+    "question": "Który kompozytor napisał Four Seasons?",
+    "explanation": "Vivaldi skomponował zestaw koncertów skrzypcowych znany jako The Four Seasons.",
+    "options": [
+      "Antonio Vivaldi",
+      "Wszystkożerzca",
+      "Opady deszczu",
+      "Władca"
+    ]
+  },
+  "general-x-37": {
+    "question": "Który instrument jest grany na łuku i jest większy niż skrzypce?",
+    "explanation": "Wiolonczelizna jest smyczkowym instrumentem smyczkowym większym niż skrzypce.",
+    "options": [
+      "Wiolonczela",
+      "Kalcyn",
+      "60",
+      "Wodór"
+    ]
+  },
+  "general-x-38": {
+    "question": "Jak nazywa się japońska sztuka składania papieru?",
+    "explanation": "Origami jest sztuką składanego papieru w formie.",
+    "options": [
+      "Origami",
+      "Ciecierzyca",
+      "Ryż Arborio",
+      "Sojowe"
+    ]
+  },
+  "general-x-39": {
+    "question": "Które medium jest używane do tworzenia freska?",
+    "explanation": "Fresco jest malowany na świeżo ułożony mokrym tynku.",
+    "options": [
+      "Tynk mokry",
+      "Migdał",
+      "Krem",
+      "Słoń afrykański"
+    ]
+  },
+  "general-x-40": {
+    "question": "Który artefakt muzeum używa pisania na kamieniu, metalu czy drewnie?",
+    "explanation": "Napis jest wyrzeźbiony lub napisany na trwałej powierzchni.",
+    "options": [
+      "Napis",
+      "Papuga",
+      "Rekina chlewna",
+      "Pszczoła miodna"
+    ]
+  },
+  "general-x-41": {
+    "question": "Ilu graczy z drużyny koszykówki na raz jest w sądzie?",
+    "explanation": "Każda drużyna koszykówki, pięć graczy w sądzie.",
+    "options": [
+      "Pięć",
+      "Struny",
+      "Tańcz.",
+      "Szkło kolorowe"
+    ]
+  },
+  "general-x-42": {
+    "question": "W tenisie, co oznacza wynik zero zwany?",
+    "explanation": "Tennis używa terminu miłości do zera.",
+    "options": [
+      "Miłość",
+      "Napis",
+      "Pięć",
+      "Badminton"
+    ]
+  },
+  "general-x-43": {
+    "question": "Ile pierścieni pojawia się na olimpijskiej flagi?",
+    "explanation": "Symbol olimpijski ma pięć przeplatanych pierścieni.",
+    "options": [
+      "Pięć",
+      "Szachy",
+      "Jen",
+      "Planowane dochody i wydatki"
+    ]
+  },
+  "general-x-44": {
+    "question": "Który sport używa wahadłowca?",
+    "explanation": "Badminton gra z promem.",
+    "options": [
+      "Badminton",
+      "Ogólny wzrost cen",
+      "Wymagana płatność na rzecz rządu",
+      "Dochody pomniejszone o koszty"
+    ]
+  },
+  "general-x-45": {
+    "question": "Ile jest baz na diamentie baseballowym?",
+    "explanation": "Diament bejsbolowy ma cztery bazy, w tym płytkę domową.",
+    "options": [
+      "Cztery",
+      "Siedem",
+      "Śniadanie",
+      "Wykaz składników"
+    ]
+  },
+  "general-x-46": {
+    "question": "Jaki sport rozgrywa się w Wimbledon?",
+    "explanation": "Wimbledon to główny turniej tenisowy.",
+    "options": [
+      "Tenis",
+      "Seul",
+      "Wygrał",
+      "Hangul"
+    ]
+  },
+  "general-x-47": {
+    "question": "Ile punktów jest warta touchdown przed jakimkolwiek nawróceniem?",
+    "explanation": "Przyłożenie jest warte sześć punktów w amerykańskiej piłce nożnej.",
+    "options": [
+      "Sześć",
+      "Hanok",
+      "Gayageum",
+      "Ssireum"
+    ]
+  },
+  "general-x-48": {
+    "question": "Który sport używa scrum?",
+    "explanation": "Scrum to metoda restartowania gry w rugby.",
+    "options": [
+      "Rugby",
+      "Opady deszczu",
+      "Władca",
+      "Pożar"
+    ]
+  },
+  "general-x-49": {
+    "question": "Ile dziur jest w standardowej rundce golfowej?",
+    "explanation": "Standardowa runda golfowa jest rozgrywana przez 18 otworów.",
+    "options": [
+      "Osiemnaście",
+      "60",
+      "Wodór",
+      "Ocean Indyjski"
+    ]
+  },
+  "general-x-50": {
+    "question": "Który sport używa warunków sprawdzania i szach mat?",
+    "explanation": "Szach i szach mat są w szachach.",
+    "options": [
+      "Szachy",
+      "Ryż Arborio",
+      "Sojowe",
+      "Kurkuma"
+    ]
+  },
+  "general-x-51": {
+    "question": "Jaka jest jednostka walutowa stosowana w Japonii?",
+    "explanation": "Jen jest japońską walutą.",
+    "options": [
+      "Jen",
+      "Krem",
+      "Słoń afrykański",
+      "Gepard"
+    ]
+  },
+  "general-x-52": {
+    "question": "Co porównuje budżet?",
+    "explanation": "Budżet organizuje oczekiwane dochody i wydatki.",
+    "options": [
+      "Planowane dochody i wydatki",
+      "Rekina chlewna",
+      "Pszczoła miodna",
+      "Kijanka"
+    ]
+  },
+  "general-x-53": {
+    "question": "Co to jest barter?",
+    "explanation": "Barter jest bezpośrednią wymianą bez wykorzystania pieniędzy jako płatności.",
+    "options": [
+      "Wymiana towarów bez pieniędzy",
+      "Tańcz.",
+      "Szkło kolorowe",
+      "Antonio Vivaldi"
+    ]
+  },
+  "general-x-54": {
+    "question": "Co to jest odsetki od pożyczki?",
+    "explanation": "Odsetki to cena zapłacona za pożyczenie.",
+    "options": [
+      "Koszt zaciągnięcia pożyczki",
+      "Pięć",
+      "Miłość",
+      "Badminton"
+    ]
+  },
+  "general-x-55": {
+    "question": "Co oznacza ratowanie?",
+    "explanation": "Oszczędność oznacza raczej rezerwowanie zasobów niż wydawanie ich teraz.",
+    "options": [
+      "Utrzymywanie dochodów do celów przyszłego wykorzystania",
+      "Szachy",
+      "Jen",
+      "Planowane dochody i wydatki"
+    ]
+  },
+  "general-x-56": {
+    "question": "Czym jest rynek gospodarki?",
+    "explanation": "Rynek łączy nabywców i sprzedawców do wymiany.",
+    "options": [
+      "System wymiany kupujących i sprzedawców",
+      "Wymagana płatność na rzecz rządu",
+      "Dochody pomniejszone o koszty",
+      "Ile sprzedawców oferuje na sprzedaż"
+    ]
+  },
+  "general-x-57": {
+    "question": "Czym jest inflacja?",
+    "explanation": "Inflacja jest stałym wzrostem ogólnego poziomu cen.",
+    "options": [
+      "Ogólny wzrost cen",
+      "Śniadanie",
+      "Wykaz składników",
+      "Przetwarzanie go do ponownego użycia"
+    ]
+  },
+  "general-x-58": {
+    "question": "Co to jest podatek?",
+    "explanation": "Podatki finansują usługi publiczne i są nakładane przez rządy.",
+    "options": [
+      "Wymagana płatność na rzecz rządu",
+      "Wygrał",
+      "Hangul",
+      "Kimchi."
+    ]
+  },
+  "general-x-59": {
+    "question": "Czym jest zysk?",
+    "explanation": "Zysk pozostaje wtedy, gdy koszty są odejmowane od dochodów.",
+    "options": [
+      "Dochody pomniejszone o koszty",
+      "Gayageum",
+      "Ssireum",
+      "Pomiar"
+    ]
+  },
+  "general-x-60": {
+    "question": "Co opisuje podaż?",
+    "explanation": "Podaż jest ilością, którą producenci są skłonni do sprzedaży po różnych cenach.",
+    "options": [
+      "Ile sprzedawców oferuje na sprzedaż",
+      "Władca",
+      "Pożar",
+      "Południe"
+    ]
+  },
+  "general-x-61": {
+    "question": "Jaka jest nazwa pisemnego zestawu kierunków do miejsca?",
+    "explanation": "Adres określa miejsce dostawy lub nawigacji.",
+    "options": [
+      "Adres",
+      "Wodór",
+      "Ocean Indyjski",
+      "100 °C"
+    ]
+  },
+  "general-x-62": {
+    "question": "Które urządzenie jest powszechnie używane do znalezienia kierunku z igłą magnetyczną?",
+    "explanation": "Igła kompasu jest w przybliżeniu z polem magnetycznym Ziemi.",
+    "options": [
+      "Kompas",
+      "Sojowe",
+      "Kurkuma",
+      "Awokado"
+    ]
+  },
+  "general-x-63": {
+    "question": "Ile dni jest w roku skokowym?",
+    "explanation": "Rok skokowy ma jeden dodatkowy dzień w lutym, za 366 razem.",
+    "options": [
+      "366",
+      "Słoń afrykański",
+      "Gepard",
+      "Dziobak"
+    ]
+  },
+  "general-x-64": {
+    "question": "Ile miesięcy minęło 31 dni?",
+    "explanation": "Siedem miesięcy ma 31 dni.",
+    "options": [
+      "Siedem",
+      "Pszczoła miodna",
+      "Kijanka",
+      "Nietoperz"
+    ]
+  },
+  "general-x-65": {
+    "question": "Jak często nazywa się pierwszy posiłek dnia?",
+    "explanation": "Śniadanie jest często pierwszym posiłkiem po przebudzeniu.",
+    "options": [
+      "Śniadanie",
+      "Szkło kolorowe",
+      "Antonio Vivaldi",
+      "Wiolonczela"
+    ]
+  },
+  "general-x-66": {
+    "question": "Jaki dokument zawiera wykaz składników w pakowanej żywności?",
+    "explanation": "Etykiety żywnościowe wymieniają składniki, zazwyczaj w malejącej kolejności wagowej.",
+    "options": [
+      "Wykaz składników",
+      "Miłość",
+      "Badminton",
+      "Tenis"
+    ]
+  },
+  "general-x-67": {
+    "question": "Co robi recykling z użytecznym materiałem?",
+    "explanation": "Recykling przetwarza odpady, dzięki czemu może być stosowany ponownie.",
+    "options": [
+      "Przetwarzanie go do ponownego użycia",
+      "Jen",
+      "Planowane dochody i wydatki",
+      "Wymiana towarów bez pieniędzy"
+    ]
+  },
+  "general-x-68": {
+    "question": "Co pomaga ludziom przejść pieszo?",
+    "explanation": "Oznaczone skrzyżowania wyznaczają miejsca dla pieszych do przekraczania.",
+    "options": [
+      "/Przejdź bezpieczną drogą.",
+      "Wymagana płatność na rzecz rządu",
+      "Dochody pomniejszone o koszty",
+      "Ile sprzedawców oferuje na sprzedaż"
+    ]
+  },
+  "general-x-69": {
+    "question": "Jaki numer alarmowy stosuje się w całej Unii Europejskiej?",
+    "explanation": "112 jest wspólnym numerem alarmowym w całej UE.",
+    "options": [
+      "112",
+      "Śniadanie",
+      "Wykaz składników",
+      "Przetwarzanie go do ponownego użycia"
+    ]
+  },
+  "general-x-70": {
+    "question": "Co ma sens wykrywacz dymu?",
+    "explanation": "Czujniki dymu ostrzegają mieszkańców po wykryciu dymu.",
+    "options": [
+      "Dym",
+      "Hangul",
+      "Kimchi.",
+      "Chuseok"
+    ]
+  },
+  "general-x-71": {
+    "question": "Jaka jest stolica Korei Południowej?",
+    "explanation": "Seul jest stolicą Korei Południowej.",
+    "options": [
+      "Seul",
+      "Ssireum",
+      "Pomiar",
+      "Druga."
+    ]
+  },
+  "general-x-72": {
+    "question": "Jaka jest waluta narodowa Korei Południowej?",
+    "explanation": "Wygrane są walutą Korei Południowej.",
+    "options": [
+      "Wygrał",
+      "Pożar",
+      "Południe",
+      "Krzyż"
+    ]
+  },
+  "general-x-73": {
+    "question": "Który koreański alfabet został ogłoszony przez króla Sejonga?",
+    "explanation": "Król Sejong promułgated Hunminjeongeum, teraz zwany Hangul, w 1446 roku.",
+    "options": [
+      "Hangul",
+      "Ocean Indyjski",
+      "100 °C",
+      "Żelazo"
+    ]
+  },
+  "general-x-74": {
+    "question": "Jak nazywa się tradycyjne koreańskie fermentowane danie kapustne?",
+    "explanation": "Kimchi jest tradycyjnym fermentowanym daniem warzywnym, często z kapusty.",
+    "options": [
+      "Kimchi.",
+      "Kurkuma",
+      "Awokado",
+      "Śliwka"
+    ]
+  },
+  "general-x-75": {
+    "question": "Które święto koreańskie jest związane z uroczystością żniwa?",
+    "explanation": "Chuseok jest ważnym jesiennym wakacjami w Korei.",
+    "options": [
+      "Chuseok",
+      "Gepard",
+      "Dziobak",
+      "Opakowanie"
+    ]
+  },
+  "general-x-76": {
+    "question": "Jak nazywa się tradycyjny koreański system podgrzewania podłogi?",
+    "explanation": "Ondol to tradycyjny koreański system ogrzewania podłogowego.",
+    "options": [
+      "Ondol",
+      "Kijanka",
+      "Nietoperz",
+      "Piano"
+    ]
+  },
+  "general-x-77": {
+    "question": "Którą koreańską formę sztuki wykorzystuje się w występie tańca w składaniu fanów?",
+    "explanation": "Buchaechum jest koreańskim tańcem fanów.",
+    "options": [
+      "Buchaechum",
+      "Antonio Vivaldi",
+      "Wiolonczela",
+      "Origami"
+    ]
+  },
+  "general-x-78": {
+    "question": "Jak koreańskie słowo na tradycyjny dom?",
+    "explanation": "Hanok odnosi się do tradycyjnej koreańskiej architektury i domów.",
+    "options": [
+      "Hanok",
+      "Badminton",
+      "Tenis",
+      "Sześć"
+    ]
+  },
+  "general-x-79": {
+    "question": "Który z koreańskich instrumentów ma długi kark i zazwyczaj 12 sznurków?",
+    "explanation": "Gejowski jest tradycyjnym koreańskim zitherem, powszechnie z 12 strunami.",
+    "options": [
+      "Gayageum",
+      "Planowane dochody i wydatki",
+      "Wymiana towarów bez pieniędzy",
+      "Koszt zaciągnięcia pożyczki"
+    ]
+  },
+  "general-x-80": {
+    "question": "Jak nazywa się koreański tradycyjny sport wrestlingowy?",
+    "explanation": "Ssireum to tradycyjna koreańska forma wrestlingu.",
+    "options": [
+      "Ssireum",
+      "Dochody pomniejszone o koszty",
+      "Ile sprzedawców oferuje na sprzedaż",
+      "Adres"
+    ]
+  },
+  "general-x-81": {
+    "question": "Czym jest jednostka SI o długości?",
+    "explanation": "Licznik jest jednostką podstawową SI o długości.",
+    "options": [
+      "Pomiar",
+      "Wykaz składników",
+      "Przetwarzanie go do ponownego użycia",
+      "/Przejdź bezpieczną drogą."
+    ]
+  },
+  "general-x-82": {
+    "question": "Co to jest jednostka czasu SI?",
+    "explanation": "Drugą jednostką czasu jest SI.",
+    "options": [
+      "Druga.",
+      "Hangul",
+      "Kimchi.",
+      "Chuseok"
+    ]
+  },
+  "general-x-83": {
+    "question": "Ile stopni jest pod kątem prostym?",
+    "explanation": "Kąt prawy wynosi 90 stopni.",
+    "options": [
+      "90",
+      "Ssireum",
+      "Pomiar",
+      "Druga."
+    ]
+  },
+  "general-x-84": {
+    "question": "Jak nazywa się zwierzę, które je zarówno rośliny, jak i zwierzęta?",
+    "explanation": "Omnivores jedzą zarówno rośliny, jak i substancje zwierzęce.",
+    "options": [
+      "Wszystkożerzca",
+      "Proxima Centauri",
+      "Cztery",
+      "Hygrometr"
+    ]
+  },
+  "general-x-85": {
+    "question": "Jaka jest nazwa wody spadającej z chmur jako deszcz, śnieg czy grad?",
+    "explanation": "Opady obejmują deszcz, śnieg, śnieg i grad.",
+    "options": [
+      "Opady deszczu",
+      "100 °C",
+      "Żelazo",
+      "Witamina C"
+    ]
+  },
+  "general-x-86": {
+    "question": "Które narzędzie gospodarstwa domowego jest zaprojektowane do pomiaru długości?",
+    "explanation": "Linijka jest oznaczona jednostkami do pomiaru długości.",
+    "options": [
+      "Władca",
+      "Awokado",
+      "Śliwka",
+      "Sfermentowane soje"
+    ]
+  },
+  "general-x-87": {
+    "question": "Co pomogło kontrolować gaśnicę?",
+    "explanation": "Gaśnica używana jest do tłumienia małych pożarów.",
+    "options": [
+      "Pożar",
+      "Dziobak",
+      "Opakowanie",
+      "Kameleon"
+    ]
+  },
+  "general-x-88": {
+    "question": "Ile kolorów tradycyjnie nazywa się w tęczy?",
+    "explanation": "Tradycyjna lista nazywa siedem kolorów tęczowych.",
+    "options": [
+      "Siedem",
+      "Nietoperz",
+      "Piano",
+      "Michelangelo"
+    ]
+  },
+  "general-x-89": {
+    "question": "Który kierunek znajduje się na północy na kompasie?",
+    "explanation": "Południe znajduje się na północy na kompasie.",
+    "options": [
+      "Południe",
+      "Wiolonczela",
+      "Origami",
+      "Tynk mokry"
+    ]
+  },
+  "general-x-90": {
+    "question": "Jak nazywa się lita zewnętrzna warstwa bochenku chleba?",
+    "explanation": "Krupa jest brązową zewnętrzną warstwą chleba.",
+    "options": [
+      "Krzyż",
+      "Tenis",
+      "Sześć",
+      "Rugby"
+    ]
+  },
+  "nonsense-x-1": {
+    "question": "Co ma miasta, ale nie ma domów, rzek, nie ma wody i dróg, ale nie ma samochodów?",
+    "explanation": "Mapa reprezentuje te cechy, nie zawierając ich fizycznie.",
+    "options": [
+      "Mapa",
+      "Jajo.",
+      "Telefon.",
+      "Książka"
+    ]
+  },
+  "nonsense-x-2": {
+    "question": "Co trzeba złamać zanim go użyjesz?",
+    "explanation": "Przed użyciem jaja należy pęknąć.",
+    "options": [
+      "Jajo.",
+      "Światło",
+      "Rzeka.",
+      "Rękawiczka."
+    ]
+  },
+  "nonsense-x-3": {
+    "question": "Co ma pierścionek, ale nie palec?",
+    "explanation": "Telefon może zadzwonić bez palców.",
+    "options": [
+      "Telefon.",
+      "Bank.",
+      "Moneta.",
+      "Przeziębienie"
+    ]
+  },
+  "nonsense-x-4": {
+    "question": "Co ma, ale nigdy nie mówi?",
+    "explanation": "Książka zawiera spisane słowa, ale sama nie mówi.",
+    "options": [
+      "Książka",
+      "Imię i nazwisko",
+      "Kalendarz",
+      "Drzewo"
+    ]
+  },
+  "nonsense-x-5": {
+    "question": "Co może zapełnić pokój, ale nie zajmuje miejsca?",
+    "explanation": "Światło może oświetlić pokój bez zajmowania go jak stały obiekt.",
+    "options": [
+      "Światło",
+      "Sola",
+      "Grzyb.",
+      "Twój oddech"
+    ]
+  },
+  "nonsense-x-6": {
+    "question": "Co ucieka, ale nigdy nie chodzi, ma łóżko, ale nigdy nie śpi?",
+    "explanation": "Rzeka biegnie w kanale zwanym jego łóżkiem.",
+    "options": [
+      "Rzeka.",
+      "Koperta",
+      "But.",
+      "Butelka"
+    ]
+  },
+  "nonsense-x-7": {
+    "question": "Co ma kciuk i cztery palce, ale nie żyje?",
+    "explanation": "Rękawica posiada miejsca w kształcie palców i kciuka.",
+    "options": [
+      "Rękawiczka.",
+      "Dowcip.",
+      "Karczoch",
+      "Łóżko"
+    ]
+  },
+  "nonsense-x-8": {
+    "question": "Co ma gałęzie, ale nie ma owocu, bagażnika czy liści?",
+    "explanation": "Bank może mieć oddziały jako lokalizacje.",
+    "options": [
+      "Bank.",
+      "Jaskinia.",
+      "Pióro.",
+      "Bateria"
+    ]
+  },
+  "nonsense-x-9": {
+    "question": "Co ma głowę i ogon, ale nie ma ciała?",
+    "explanation": "Moneta ma dwie strony zwane głowami i ogonami.",
+    "options": [
+      "Moneta.",
+      "Pismo M",
+      "Herbata.",
+      "Łódź."
+    ]
+  },
+  "nonsense-x-10": {
+    "question": "Co można złapać, ale nie rzucać?",
+    "explanation": "Można się przeziębić, ale nie można rzucić.",
+    "options": [
+      "Przeziębienie",
+      "Pędzel do zębów",
+      "Zapinacz",
+      "Zegar alarmowy"
+    ]
+  },
+  "nonsense-x-11": {
+    "question": "Co należy do ciebie, ale inni używają go bardziej niż ty?",
+    "explanation": "Inni często mówią twoje imię, kiedy się do ciebie zwracają.",
+    "options": [
+      "Imię i nazwisko",
+      "Naczynie.",
+      "Kociołek.",
+      "Nożyczki"
+    ]
+  },
+  "nonsense-x-12": {
+    "question": "Czym jest wiele stron, ale nie jest książka i pomaga planować daty?",
+    "explanation": "Kalendarz wyświetla dni i daty w obrębie stron lub paneli.",
+    "options": [
+      "Kalendarz",
+      "Strona internetowa",
+      "Ślimak",
+      "Ołówek"
+    ]
+  },
+  "nonsense-x-13": {
+    "question": "Co ma korę, ale nie gryzie?",
+    "explanation": "Bark jest ochronną zewnętrzną warstwą drzewa.",
+    "options": [
+      "Drzewo",
+      "Nóż.",
+      "Kamera",
+      "Pociąg."
+    ]
+  },
+  "nonsense-x-14": {
+    "question": "Jaka jest dolna część buta?",
+    "explanation": "Podeszwa jest dolną powierzchnią buta.",
+    "options": [
+      "Sola",
+      "Komputer",
+      "Zegar ścienny.",
+      "Miotła"
+    ]
+  },
+  "nonsense-x-15": {
+    "question": "Jaki pokój nie ma drzwi ani okien?",
+    "explanation": "Słowo grzyb zawiera słowo pokój, ale to nie jest pokój.",
+    "options": [
+      "Grzyb.",
+      "Telefon.",
+      "Książka",
+      "Światło"
+    ]
+  },
+  "nonsense-x-16": {
+    "question": "Co wytrzymasz bez dotykania?",
+    "explanation": "Możesz wstrzymać oddech bez posiadania fizycznego przedmiotu.",
+    "options": [
+      "Twój oddech",
+      "Rzeka.",
+      "Rękawiczka.",
+      "Bank."
+    ]
+  },
+  "nonsense-x-17": {
+    "question": "Co zaczyna się i kończy na E i zawiera jedną literę?",
+    "explanation": "Koperta zaczyna się i kończy literą E i może zawierać jedną literę wewnątrz.",
+    "options": [
+      "Koperta",
+      "Moneta.",
+      "Przeziębienie",
+      "Imię i nazwisko"
+    ]
+  },
+  "nonsense-x-18": {
+    "question": "Co ma kręgosłup, ale nie ma kości?",
+    "explanation": "Szczypcą książki jest granica, a nie szkielet.",
+    "options": [
+      "Książka",
+      "Drzewo",
+      "Sola",
+      "Grzyb."
+    ]
+  },
+  "nonsense-x-19": {
+    "question": "Co ma język, ale nie może smakować?",
+    "explanation": "Język buta to klapa pod koronkami.",
+    "options": [
+      "But.",
+      "Grzyb.",
+      "Twój oddech",
+      "Koperta"
+    ]
+  },
+  "nonsense-x-20": {
+    "question": "Co ma czapkę, ale bez głowy?",
+    "explanation": "Nasadka na butelkę pokrywa otwarcie butelki.",
+    "options": [
+      "Butelka",
+      "But.",
+      "Dowcip.",
+      "Karczoch"
+    ]
+  },
+  "nonsense-x-21": {
+    "question": "Co można złamać, zrobić, powiedzieć i grać?",
+    "explanation": "Ludzie pękają, robią, opowiadają, albo żartują.",
+    "options": [
+      "Dowcip.",
+      "Łóżko",
+      "Jaskinia.",
+      "Pióro."
+    ]
+  },
+  "nonsense-x-22": {
+    "question": "Co ma serce, które nie bije?",
+    "explanation": "Jadalną centralną część karczocha nazywa się jego sercem.",
+    "options": [
+      "Karczoch",
+      "Bateria",
+      "Pismo M",
+      "Herbata."
+    ]
+  },
+  "nonsense-x-23": {
+    "question": "Co ma głowę i stopę, ale nie ma ciała?",
+    "explanation": "Łóżko ma słuchawkę i deski.",
+    "options": [
+      "Łóżko",
+      "Łódź.",
+      "Pędzel do zębów",
+      "Zapinacz"
+    ]
+  },
+  "nonsense-x-24": {
+    "question": "Co ma gębę, ale nigdy nie je?",
+    "explanation": "Wejście do jaskini nazywa się czasami jej ustami.",
+    "options": [
+      "Jaskinia.",
+      "Zegar alarmowy",
+      "Naczynie.",
+      "Kociołek."
+    ]
+  },
+  "nonsense-x-25": {
+    "question": "Co ma korę i rośnie, ale nie jest psem?",
+    "explanation": "Drzewo rośnie i ma korę jako zewnętrzną przykrywkę.",
+    "options": [
+      "Drzewo",
+      "Nożyczki",
+      "Strona internetowa",
+      "Ślimak"
+    ]
+  },
+  "nonsense-x-26": {
+    "question": "Jaki obiekt świetlny może pływać na powietrzu i rosnąć na ptaku?",
+    "explanation": "Pióro jest lekkie i rośnie jako część ptaka?",
+    "options": [
+      "Pióro.",
+      "Ołówek",
+      "Nóż.",
+      "Kamera"
+    ]
+  },
+  "nonsense-x-27": {
+    "question": "Co nie ma życia, tylko może umrzeć?",
+    "explanation": "Bateria jest uważana za martwa, gdy nie może już zapewnić pożytecznej mocy.",
+    "options": [
+      "Bateria",
+      "Pociąg.",
+      "Komputer",
+      "Zegar ścienny."
+    ]
+  },
+  "nonsense-x-28": {
+    "question": "Co można zobaczyć raz na minutę, dwa razy w minutę, i nigdy w ciągu tysiąca lat?",
+    "explanation": "List M pojawia się raz w minutę, dwa razy w chwili, a nie w tysiącach lat.",
+    "options": [
+      "Pismo M",
+      "Jajo.",
+      "Telefon.",
+      "Książka"
+    ]
+  },
+  "nonsense-x-29": {
+    "question": "Co zaczyna się od T, kończy się na T, i ma T w środku?",
+    "explanation": "Herbata zaczyna się i kończy z T i może trzymać herbatę w środku.",
+    "options": [
+      "Herbata.",
+      "Światło",
+      "Rzeka.",
+      "Rękawiczka."
+    ]
+  },
+  "nonsense-x-30": {
+    "question": "Która część łodzi jest jej przodkiem?",
+    "explanation": "Łuk to przedni koniec łodzi.",
+    "options": [
+      "Łódź.",
+      "Bank.",
+      "Moneta.",
+      "Przeziębienie"
+    ]
+  },
+  "nonsense-x-31": {
+    "question": "Która część statku wskazuje przed ruchem?",
+    "explanation": "Łódź ma łuk z przodu i może nosić ludzi.",
+    "options": [
+      "Łódź.",
+      "Imię i nazwisko",
+      "Kalendarz",
+      "Drzewo"
+    ]
+  },
+  "nonsense-x-32": {
+    "question": "Co ma uchwyt i szczotki, ale nie jest pędzlem?",
+    "explanation": "Szczoteczka do zębów ma uchwyt i bryczesy do czyszczenia zębów.",
+    "options": [
+      "Pędzel do zębów",
+      "Sola",
+      "Grzyb.",
+      "Twój oddech"
+    ]
+  },
+  "nonsense-x-33": {
+    "question": "Co ma dziurę w środku i trzyma pas?",
+    "explanation": "Sprzęgło taśmowe ma otwór, przez który pas jest zapięty.",
+    "options": [
+      "Zapinacz",
+      "Koperta",
+      "But.",
+      "Butelka"
+    ]
+  },
+  "nonsense-x-34": {
+    "question": "Co ma telefon i mówi ci, kiedy się obudzić?",
+    "explanation": "Alarm używa ustawień czasu i alarmu, by kogoś obudzić.",
+    "options": [
+      "Zegar alarmowy",
+      "Dowcip.",
+      "Karczoch",
+      "Łóżko"
+    ]
+  },
+  "nonsense-x-35": {
+    "question": "Co ma pokrywkę i podgrzewa zupę?",
+    "explanation": "Naczynie do gotowania może mieć pokrywę i przytrzymać ciepłą zupę.",
+    "options": [
+      "Naczynie.",
+      "Jaskinia.",
+      "Pióro.",
+      "Bateria"
+    ]
+  },
+  "nonsense-x-36": {
+    "question": "Co ma uchwyt i naleje wodę, ale nie jest rzeką?",
+    "explanation": "Kocioł posiada kocioł i uchwyt do nalewania ogrzewanej wody.",
+    "options": [
+      "Kociołek.",
+      "Pismo M",
+      "Herbata.",
+      "Łódź."
+    ]
+  },
+  "nonsense-x-37": {
+    "question": "Co ma ostrze, ale jest używane do ręcznie cięcia papieru?",
+    "explanation": "Nożyce mają dwa ostrza, które wycinają materiał, gdy ich uchwyty są wyciskane.",
+    "options": [
+      "Nożyczki",
+      "Pędzel do zębów",
+      "Zapinacz",
+      "Zegar alarmowy"
+    ]
+  },
+  "nonsense-x-38": {
+    "question": "Co ma podeszwę i koronki, ale to nie jest ryba?",
+    "explanation": "Buty mogą mieć podeszwę i koronki.",
+    "options": [
+      "But.",
+      "Kociołek.",
+      "Nożyczki",
+      "Strona internetowa"
+    ]
+  },
+  "nonsense-x-39": {
+    "question": "Co ma strona, ale nie jest książką i ładuje przeglądarką?",
+    "explanation": "Strona internetowa jest dokumentem wyświetlanym w przeglądarce.",
+    "options": [
+      "Strona internetowa",
+      "Ślimak",
+      "Ołówek",
+      "Nóż."
+    ]
+  },
+  "nonsense-x-40": {
+    "question": "Co ma muszlę i może nosić swój dom na plecach?",
+    "explanation": "Ślimak niesie skorupę podczas ruchu.",
+    "options": [
+      "Ślimak",
+      "Kamera",
+      "Pociąg.",
+      "Komputer"
+    ]
+  },
+  "nonsense-x-41": {
+    "question": "Co to ma znaczyć, ale nie może kłócić się i pisać na papierze?",
+    "explanation": "Ołówek zostawia ślady na papierze.",
+    "options": [
+      "Ołówek",
+      "Mapa",
+      "Jajo.",
+      "Telefon."
+    ]
+  },
+  "nonsense-x-42": {
+    "question": "Co ma przykrywkę, strony i tytuł, ale nie jest domem?",
+    "explanation": "Książka ma okładkę i strony, a jej tytuł ją określa.",
+    "options": [
+      "Książka",
+      "Światło",
+      "Rzeka.",
+      "Rękawiczka."
+    ]
+  },
+  "nonsense-x-43": {
+    "question": "Co ma uchwyt i ostrze i jest używany na kolacji?",
+    "explanation": "Nóż stołowy ma uchwyt i ostrze do cięcia jedzenia.",
+    "options": [
+      "Nóż.",
+      "Rękawiczka.",
+      "Bank.",
+      "Moneta."
+    ]
+  },
+  "nonsense-x-44": {
+    "question": "Co ma soczewki i robi zdjęcia?",
+    "explanation": "Kamera używa obiektywu do tworzenia zdjęć.",
+    "options": [
+      "Kamera",
+      "Przeziębienie",
+      "Imię i nazwisko",
+      "Kalendarz"
+    ]
+  },
+  "nonsense-x-45": {
+    "question": "Co dzwoni i dzwoni, gdy ktoś dzwoni?",
+    "explanation": "Tradycyjny telefon może zadzwonić do sygnału przychodzącego.",
+    "options": [
+      "Telefon.",
+      "Sola",
+      "Grzyb.",
+      "Twój oddech"
+    ]
+  },
+  "nonsense-x-46": {
+    "question": "Co ma koła i przewozi pasażerów wzdłuż kolei?",
+    "explanation": "Pociąg biegnie koleją i przewozi pasażerów lub ładunki.",
+    "options": [
+      "Pociąg.",
+      "Twój oddech",
+      "Koperta",
+      "But."
+    ]
+  },
+  "nonsense-x-47": {
+    "question": "Co ma klawiatury i wyświetla litery, ale nie jest maszyną do pisania?",
+    "explanation": "Klawiatury komputerowej wprowadzany jest tekst, a jego wyświetlacz zawiera informacje.",
+    "options": [
+      "Komputer",
+      "Butelka",
+      "Dowcip.",
+      "Karczoch"
+    ]
+  },
+  "nonsense-x-48": {
+    "question": "Co ma uchwyt, strony i pomaga w czyszczeniu zębów?",
+    "explanation": "Szczoteczka do zębów ma uchwyt i bryczesy do czyszczenia zębów.",
+    "options": [
+      "Pędzel do zębów",
+      "Łóżko",
+      "Jaskinia.",
+      "Pióro."
+    ]
+  },
+  "nonsense-x-49": {
+    "question": "Co ma do herbaty i wlewa herbatę do filiżanki?",
+    "explanation": "Zbiory na herbatnik i nalewa herbatę przez jej wysypkę.",
+    "options": [
+      "Herbata.",
+      "Bateria",
+      "Pismo M",
+      "Łódź."
+    ]
+  },
+  "nonsense-x-50": {
+    "question": "Co ma wybieranie, ręce i pomaga poznać czas na ścianie?",
+    "explanation": "Zegar ścienny pokazuje czas z rękami na wybieraniu.",
+    "options": [
+      "Zegar ścienny.",
+      "Łódź.",
+      "Pędzel do zębów",
+      "Zapinacz"
+    ]
+  },
+  "nonsense-x-51": {
+    "question": "Co ma zakopaną głowę i pomaga zamiatać podłogę?",
+    "explanation": "Miotła używa szczelin do zamiatania kurzu i szczątków z podłogi.",
+    "options": [
+      "Miotła",
+      "Zegar alarmowy",
+      "Naczynie.",
+      "Kociołek."
+    ]
+  },
+  "math-x-sum-1": {
+    "question": "Co to jest 14 + 8?",
+    "explanation": "14 + 8 = 22.",
+    "options": [
+      "22",
+      "21",
+      "23",
+      "32"
+    ]
+  },
+  "math-x-product-1": {
+    "question": "Czym jest 7 × 5?",
+    "explanation": "7 × 5 = 35.",
+    "options": [
+      "35",
+      "30",
+      "28",
+      "40"
+    ]
+  },
+  "math-x-equation-1": {
+    "question": "Rozwiąż równanie: 3x + 1 = 13.",
+    "explanation": "Podział 1, następnie podzielić przez 3: x = 4.",
+    "options": [
+      "4",
+      "3",
+      "5",
+      "6"
+    ]
+  },
+  "math-x-percent-1": {
+    "question": "Co to jest 15% z 60?",
+    "explanation": "60 × 15 ÷ 100 = 9.",
+    "options": [
+      "9",
+      "6",
+      "12",
+      "60"
+    ]
+  },
+  "math-x-sum-2": {
+    "question": "Co to jest 17 + 9?",
+    "explanation": "17 + 9 = 26.",
+    "options": [
+      "26",
+      "25",
+      "27",
+      "36"
+    ]
+  },
+  "math-x-product-2": {
+    "question": "Co to jest 8 × 6?",
+    "explanation": "8 × 6 = 48.",
+    "options": [
+      "48",
+      "42",
+      "40",
+      "54"
+    ]
+  },
+  "math-x-equation-2": {
+    "question": "Rozwiąż równanie: 4x + 2 = 22.",
+    "explanation": "Odejmuje 2, następnie dzieli przez 4: x = 5.",
+    "options": [
+      "5",
+      "4",
+      "6",
+      "7"
+    ]
+  },
+  "math-x-percent-2": {
+    "question": "Co to jest 20% z 80?",
+    "explanation": "80 × 20 ÷ 100 = 16.",
+    "options": [
+      "16",
+      "12",
+      "20",
+      "80"
+    ]
+  },
+  "math-x-sum-3": {
+    "question": "Co to jest 20 + 10?",
+    "explanation": "20 + 10 = 30.",
+    "options": [
+      "30",
+      "29",
+      "31",
+      "40"
+    ]
+  },
+  "math-x-product-3": {
+    "question": "Co to jest 9 × 7?",
+    "explanation": "9 × 7 = 63.",
+    "options": [
+      "63",
+      "56",
+      "54",
+      "70"
+    ]
+  },
+  "math-x-equation-3": {
+    "question": "Rozwiąż równanie: 5x + 3 = 33.",
+    "explanation": "Odejmuje 3, następnie dzieli przez 5: x = 6.",
+    "options": [
+      "6",
+      "5",
+      "7",
+      "8"
+    ]
+  },
+  "math-x-percent-3": {
+    "question": "Co to jest 25% ze 100?",
+    "explanation": "100 × 25 ÷ 100 = 25.",
+    "options": [
+      "25",
+      "20",
+      "30",
+      "100"
+    ]
+  },
+  "math-x-sum-4": {
+    "question": "Co to jest 23 + 11?",
+    "explanation": "23 + 11 = 34.",
+    "options": [
+      "34",
+      "33",
+      "35",
+      "44"
+    ]
+  },
+  "math-x-product-4": {
+    "question": "Co to jest 10 × 8?",
+    "explanation": "10 × 8 = 80.",
+    "options": [
+      "80",
+      "72",
+      "70",
+      "88"
+    ]
+  },
+  "math-x-equation-4": {
+    "question": "Rozwiąż równanie: 6x + 4 = 46.",
+    "explanation": "Odejmuje 4, następnie dzieli się przez 6: x = 7.",
+    "options": [
+      "7",
+      "6",
+      "8",
+      "9"
+    ]
+  },
+  "math-x-percent-4": {
+    "question": "Co to jest 30% z 120?",
+    "explanation": "120 × 30 ÷ 100 = 36.",
+    "options": [
+      "36",
+      "30",
+      "42",
+      "120"
+    ]
+  },
+  "math-x-sum-5": {
+    "question": "Co to jest 26 + 12?",
+    "explanation": "26 + 12 = 38.",
+    "options": [
+      "38",
+      "37",
+      "39",
+      "48"
+    ]
+  },
+  "math-x-product-5": {
+    "question": "Co to jest 11 × 9?",
+    "explanation": "11 × 9 = 99.",
+    "options": [
+      "99",
+      "90",
+      "88",
+      "108"
+    ]
+  },
+  "math-x-equation-5": {
+    "question": "Rozwiąż równanie: 7x + 5 = 61.",
+    "explanation": "Odejmuje 5, następnie dzieli przez 7: x = 8.",
+    "options": [
+      "8",
+      "7",
+      "9",
+      "10"
+    ]
+  },
+  "math-x-percent-5": {
+    "question": "Co to jest 35% ze 140?",
+    "explanation": "140 × 35 ÷ 100 = 49.",
+    "options": [
+      "49",
+      "42",
+      "56",
+      "140"
+    ]
+  },
+  "math-x-sum-6": {
+    "question": "Co to jest 29 + 13?",
+    "explanation": "29 + 13 = 42.",
+    "options": [
+      "42",
+      "41",
+      "43",
+      "52"
+    ]
+  },
+  "math-x-product-6": {
+    "question": "Co to jest 12 × 10?",
+    "explanation": "12 × 10 = 120.",
+    "options": [
+      "120",
+      "110",
+      "108",
+      "130"
+    ]
+  },
+  "math-x-equation-6": {
+    "question": "Rozwiąż równanie: 8x + 6 = 78.",
+    "explanation": "Odlicz 6, następnie podziel przez 8: x = 9.",
+    "options": [
+      "9",
+      "8",
+      "10",
+      "11"
+    ]
+  },
+  "math-x-percent-6": {
+    "question": "Czym jest 40% ze 160?",
+    "explanation": "160 × 40 ÷ 100 = 64.",
+    "options": [
+      "64",
+      "56",
+      "72",
+      "160"
+    ]
+  },
+  "math-x-sum-7": {
+    "question": "Co to jest 32 + 14?",
+    "explanation": "32 + 14 = 46.",
+    "options": [
+      "46",
+      "45",
+      "47",
+      "56"
+    ]
+  },
+  "math-x-product-7": {
+    "question": "Co to jest 13 × 11?",
+    "explanation": "13 × 11 = 143.",
+    "options": [
+      "143",
+      "132",
+      "130",
+      "154"
+    ]
+  },
+  "math-x-equation-7": {
+    "question": "Rozwiąż równanie: 9x + 7 = 97.",
+    "explanation": "Odlicz 7, następnie podziel przez 9: x = 10.",
+    "options": [
+      "10",
+      "9",
+      "11",
+      "12"
+    ]
+  },
+  "math-x-percent-7": {
+    "question": "Co to jest 45% z 180?",
+    "explanation": "180 × 45 ÷ 100 = 81.",
+    "options": [
+      "81",
+      "72",
+      "90",
+      "180"
+    ]
+  },
+  "math-x-sum-8": {
+    "question": "Co to jest 35 + 15?",
+    "explanation": "35 + 15 = 50.",
+    "options": [
+      "50",
+      "49",
+      "51",
+      "60"
+    ]
+  },
+  "math-x-product-8": {
+    "question": "Czym jest 14 × 12?",
+    "explanation": "14 × 12 = 168.",
+    "options": [
+      "168",
+      "156",
+      "154",
+      "180"
+    ]
+  },
+  "math-x-equation-8": {
+    "question": "Rozwiąż równanie: 10x + 8 = 118.",
+    "explanation": "Odejmuje 8, następnie dzieli przez 10: x = 11.",
+    "options": [
+      "11",
+      "10",
+      "12",
+      "13"
+    ]
+  },
+  "math-x-percent-8": {
+    "question": "Co to jest 50% z 200?",
+    "explanation": "200 × 50 ÷ 100 = 100.",
+    "options": [
+      "100",
+      "90",
+      "110",
+      "200"
+    ]
+  },
+  "math-x-sum-9": {
+    "question": "Co to jest 38 + 16?",
+    "explanation": "38 + 16 = 54.",
+    "options": [
+      "54",
+      "53",
+      "55",
+      "64"
+    ]
+  },
+  "math-x-product-9": {
+    "question": "Co to jest 15 × 13?",
+    "explanation": "15 × 13 = 195.",
+    "options": [
+      "195",
+      "182",
+      "180",
+      "208"
+    ]
+  },
+  "math-x-equation-9": {
+    "question": "Rozwiąż równanie: 11x + 9 = 141.",
+    "explanation": "Podział 9, następnie podziel przez 11: x = 12.",
+    "options": [
+      "12",
+      "11",
+      "13",
+      "14"
+    ]
+  },
+  "math-x-percent-9": {
+    "question": "Czym jest 55% z 220?",
+    "explanation": "220 × 55 ÷ 100 = 121.",
+    "options": [
+      "121",
+      "110",
+      "132",
+      "220"
+    ]
+  },
+  "math-x-sum-10": {
+    "question": "Co to jest 41 + 17?",
+    "explanation": "41 + 17 = 58.",
+    "options": [
+      "58",
+      "57",
+      "59",
+      "68"
+    ]
+  },
+  "math-x-product-10": {
+    "question": "Co to jest 16 × 14?",
+    "explanation": "16 × 14 = 224.",
+    "options": [
+      "224",
+      "210",
+      "208",
+      "238"
+    ]
+  },
+  "math-x-equation-10": {
+    "question": "Rozwiąż równanie: 12x + 10 = 166.",
+    "explanation": "Odlicz 10, następnie podziel przez 12: x = 13.",
+    "options": [
+      "13",
+      "12",
+      "14",
+      "15"
+    ]
+  },
+  "math-x-percent-10": {
+    "question": "Czym jest 60% z 240?",
+    "explanation": "240 × 60 ÷ 100 = 144.",
+    "options": [
+      "144",
+      "132",
+      "156",
+      "240"
+    ]
+  },
+  "math-x-sum-11": {
+    "question": "Co to jest 44 + 18?",
+    "explanation": "44 + 18 = 62.",
+    "options": [
+      "62",
+      "61",
+      "63",
+      "72"
+    ]
+  },
+  "math-x-product-11": {
+    "question": "Co to jest 17 × 15?",
+    "explanation": "17 × 15 = 255.",
+    "options": [
+      "255",
+      "240",
+      "238",
+      "270"
+    ]
+  },
+  "math-x-equation-11": {
+    "question": "Rozwiąż równanie: 13x + 11 = 193.",
+    "explanation": "Odejmuje 11, a następnie dzieli przez 13: x = 14.",
+    "options": [
+      "14",
+      "13",
+      "15",
+      "16"
+    ]
+  },
+  "math-x-percent-11": {
+    "question": "Czym jest 65% z 260?",
+    "explanation": "260 × 65 ÷ 100 = 169.",
+    "options": [
+      "169",
+      "156",
+      "182",
+      "260"
+    ]
+  },
+  "math-x-sum-12": {
+    "question": "Co to jest 47 + 19?",
+    "explanation": "47 + 19 = 66.",
+    "options": [
+      "66",
+      "65",
+      "67",
+      "76"
+    ]
+  },
+  "math-x-product-12": {
+    "question": "Co to jest 18 × 16?",
+    "explanation": "18 × 16 = 288.",
+    "options": [
+      "288",
+      "272",
+      "270",
+      "304"
+    ]
+  },
+  "math-x-equation-12": {
+    "question": "Rozwiąż równanie: 14x + 12 = 222.",
+    "explanation": "Odlicz 12, następnie podziel przez 14: x = 15.",
+    "options": [
+      "15",
+      "14",
+      "16",
+      "17"
+    ]
+  },
+  "math-x-percent-12": {
+    "question": "Co to jest 70% z 280?",
+    "explanation": "280 × 70 ÷ 100 = 196.",
+    "options": [
+      "196",
+      "182",
+      "210",
+      "280"
+    ]
+  },
+  "math-x-sum-13": {
+    "question": "Co to jest 50 + 20?",
+    "explanation": "50 + 20 = 70.",
+    "options": [
+      "70",
+      "69",
+      "71",
+      "80"
+    ]
+  },
+  "math-x-product-13": {
+    "question": "Czym jest 19 × 17?",
+    "explanation": "19 × 17 = 323.",
+    "options": [
+      "323",
+      "306",
+      "304",
+      "340"
+    ]
+  },
+  "math-x-equation-13": {
+    "question": "Rozwiąż równanie: 15x + 13 = 253.",
+    "explanation": "Odlicz 13, a następnie podzielić przez 15: x = 16.",
+    "options": [
+      "16",
+      "15",
+      "17",
+      "18"
+    ]
+  },
+  "math-x-percent-13": {
+    "question": "Co to jest 75% z 300?",
+    "explanation": "300 × 75 ÷ 100 = 225.",
+    "options": [
+      "225",
+      "210",
+      "240",
+      "300"
+    ]
+  },
+  "math-x-sum-14": {
+    "question": "Co to jest 53 + 21?",
+    "explanation": "53 + 21 = 74.",
+    "options": [
+      "74",
+      "73",
+      "75",
+      "84"
+    ]
+  },
+  "math-x-product-14": {
+    "question": "Co to jest 20 × 18?",
+    "explanation": "20 × 18 = 360.",
+    "options": [
+      "360",
+      "342",
+      "340",
+      "378"
+    ]
+  },
+  "math-x-equation-14": {
+    "question": "Rozwiąż równanie: 16x + 14 = 286.",
+    "explanation": "Odlicz 14, a następnie podzielić przez 16: x = 17.",
+    "options": [
+      "17",
+      "16",
+      "18",
+      "19"
+    ]
+  },
+  "math-x-percent-14": {
+    "question": "Co to jest 80% z 320?",
+    "explanation": "320 × 80 ÷ 100 = 256.",
+    "options": [
+      "256",
+      "240",
+      "272",
+      "320"
+    ]
+  },
+  "math-x-sum-15": {
+    "question": "Co to jest 56 + 22?",
+    "explanation": "56 + 22 = 78.",
+    "options": [
+      "78",
+      "77",
+      "79",
+      "88"
+    ]
+  },
+  "math-x-product-15": {
+    "question": "Co to jest 21 × 19?",
+    "explanation": "21 × 19 = 399.",
+    "options": [
+      "399",
+      "380",
+      "378",
+      "418"
+    ]
+  },
+  "math-x-equation-15": {
+    "question": "Rozwiąż równanie: 17x + 15 = 321.",
+    "explanation": "Odejmuje 15, następnie dzieli przez 17: x = 18.",
+    "options": [
+      "18",
+      "17",
+      "19",
+      "20"
+    ]
+  },
+  "math-x-percent-15": {
+    "question": "Co to jest 85% z 340?",
+    "explanation": "340 × 85 ÷ 100 = 289.",
+    "options": [
+      "289",
+      "272",
+      "306",
+      "340"
+    ]
+  },
+  "math-x-sum-16": {
+    "question": "Co to jest 59 + 23?",
+    "explanation": "59 + 23 = 82.",
+    "options": [
+      "82",
+      "81",
+      "83",
+      "92"
+    ]
+  },
+  "math-x-product-16": {
+    "question": "Co to jest 22 × 20?",
+    "explanation": "22 × 20 = 440.",
+    "options": [
+      "440",
+      "420",
+      "418",
+      "460"
+    ]
+  },
+  "math-x-equation-16": {
+    "question": "Rozwiąż równanie: 18x + 16 = 358.",
+    "explanation": "Odejmuje 16, następnie dzieli przez 18: x = 19.",
+    "options": [
+      "19",
+      "18",
+      "20",
+      "21"
+    ]
+  },
+  "math-x-percent-16": {
+    "question": "Co to jest 90% z 360?",
+    "explanation": "360 × 90 ÷ 100 = 324.",
+    "options": [
+      "324",
+      "306",
+      "342",
+      "360"
+    ]
+  },
+  "math-x-sum-17": {
+    "question": "Co to jest 62 + 24?",
+    "explanation": "62 + 24 = 86.",
+    "options": [
+      "86",
+      "85",
+      "87",
+      "96"
+    ]
+  },
+  "math-x-product-17": {
+    "question": "Co to jest 23 × 21?",
+    "explanation": "23 × 21 = 483.",
+    "options": [
+      "483",
+      "462",
+      "460",
+      "504"
+    ]
+  },
+  "math-x-equation-17": {
+    "question": "Rozwiąż równanie: 19x + 17 = 397.",
+    "explanation": "Odlicz 17, następnie podziel przez 19: x = 20.",
+    "options": [
+      "20",
+      "19",
+      "21",
+      "22"
+    ]
+  },
+  "math-x-percent-17": {
+    "question": "Co to jest 95% z 380?",
+    "explanation": "380 × 95 ÷ 100 = 361.",
+    "options": [
+      "361",
+      "342",
+      "380",
+      "722"
+    ]
+  },
+  "math-x-sum-18": {
+    "question": "Co to jest 65 + 25?",
+    "explanation": "65 + 25 = 90.",
+    "options": [
+      "90",
+      "89",
+      "91",
+      "100"
+    ]
+  },
+  "math-x-product-18": {
+    "question": "Co to jest 24 × 22?",
+    "explanation": "24 × 22 = 528.",
+    "options": [
+      "528",
+      "506",
+      "504",
+      "550"
+    ]
+  },
+  "math-x-equation-18": {
+    "question": "Rozwiąż równanie: 20x + 18 = 438.",
+    "explanation": "Odejmuje 18, a następnie dzieli przez 20: x = 21.",
+    "options": [
+      "21",
+      "20",
+      "22",
+      "23"
+    ]
+  },
+  "math-x-percent-18": {
+    "question": "Co to jest 100% 400?",
+    "explanation": "400 × 100 ÷ 100 = 400.",
+    "options": [
+      "400",
+      "380",
+      "420",
+      "800"
+    ]
+  },
+  "math-x-sum-19": {
+    "question": "Co to jest 68 + 26?",
+    "explanation": "68 + 26 = 94.",
+    "options": [
+      "94",
+      "93",
+      "95",
+      "104"
+    ]
+  },
+  "math-x-product-19": {
+    "question": "Czym jest 25 × 23?",
+    "explanation": "25 × 23 = 575.",
+    "options": [
+      "575",
+      "552",
+      "550",
+      "598"
+    ]
+  },
+  "math-x-equation-19": {
+    "question": "Rozwiąż równanie: 21x + 19 = 481.",
+    "explanation": "Odejmuje 19, następnie dzieli przez 21: x = 22.",
+    "options": [
+      "22",
+      "21",
+      "23",
+      "24"
+    ]
+  },
+  "math-x-percent-19": {
+    "question": "Co to jest 105% z 420?",
+    "explanation": "420 × 105 ÷ 100 = 441.",
+    "options": [
+      "441",
+      "420",
+      "462",
+      "882"
+    ]
+  },
+  "math-x-sum-20": {
+    "question": "Co to jest 71 + 27?",
+    "explanation": "71 + 27 = 98.",
+    "options": [
+      "98",
+      "97",
+      "99",
+      "108"
+    ]
+  },
+  "math-x-product-20": {
+    "question": "Co to jest 26 × 24?",
+    "explanation": "26 × 24 = 624.",
+    "options": [
+      "624",
+      "600",
+      "598",
+      "648"
+    ]
+  },
+  "math-x-equation-20": {
+    "question": "Rozwiąż równanie: 22x + 20 = 526.",
+    "explanation": "Odejmuje 20, następnie dzieli przez 22: x = 23.",
+    "options": [
+      "23",
+      "22",
+      "24",
+      "25"
+    ]
+  },
+  "math-x-percent-20": {
+    "question": "Co to jest 110% z 440?",
+    "explanation": "440 × 110 ÷ 100 = 484.",
+    "options": [
+      "484",
+      "462",
+      "506",
+      "440"
+    ]
+  },
+  "math-x-sum-21": {
+    "question": "Co to jest 74 + 28?",
+    "explanation": "74 + 28 = 102.",
+    "options": [
+      "102",
+      "101",
+      "103",
+      "112"
+    ]
+  },
+  "math-x-product-21": {
+    "question": "Co to jest 27 × 25?",
+    "explanation": "27 × 25 = 675.",
+    "options": [
+      "675",
+      "650",
+      "648",
+      "700"
+    ]
+  },
+  "math-x-equation-21": {
+    "question": "Rozwiąż równanie: 23x + 21 = 573.",
+    "explanation": "Odejmuje 21, następnie dzieli przez 23: x = 24.",
+    "options": [
+      "24",
+      "23",
+      "25",
+      "26"
+    ]
+  },
+  "math-x-percent-21": {
+    "question": "Co to jest 115% z 460?",
+    "explanation": "460 × 115 ÷ 100 = 529.",
+    "options": [
+      "529",
+      "506",
+      "552",
+      "460"
+    ]
+  },
+  "math-x-sum-22": {
+    "question": "Co to jest 77 + 29?",
+    "explanation": "77 + 29 = 106.",
+    "options": [
+      "106",
+      "105",
+      "107",
+      "116"
+    ]
+  },
+  "math-x-product-22": {
+    "question": "Co to jest 28 × 26?",
+    "explanation": "28 × 26 = 728.",
+    "options": [
+      "728",
+      "702",
+      "700",
+      "754"
+    ]
+  },
+  "math-x-equation-22": {
+    "question": "Rozwiąż równanie: 24x + 22 = 622.",
+    "explanation": "Odejmuje 22, następnie dzieli przez 24: x = 25.",
+    "options": [
+      "25",
+      "24",
+      "26",
+      "27"
+    ]
+  },
+  "math-x-percent-22": {
+    "question": "Co to jest 120% z 480?",
+    "explanation": "480 × 120 ÷ 100 = 576.",
+    "options": [
+      "576",
+      "552",
+      "600",
+      "480"
+    ]
+  },
+  "math-x-sum-23": {
+    "question": "Co to jest 80 + 30?",
+    "explanation": "80 + 30 = 110.",
+    "options": [
+      "110",
+      "109",
+      "111",
+      "120"
+    ]
+  },
+  "math-x-product-23": {
+    "question": "Co to jest 29 × 27?",
+    "explanation": "29 × 27 = 783.",
+    "options": [
+      "783",
+      "756",
+      "754",
+      "810"
+    ]
+  },
+  "math-x-equation-23": {
+    "question": "Rozwiąż równanie: 25x + 23 = 673.",
+    "explanation": "Odlicz 23, następnie podziel przez 25: x = 26.",
+    "options": [
+      "26",
+      "25",
+      "27",
+      "28"
+    ]
+  },
+  "math-x-percent-23": {
+    "question": "Co to jest 125% 500?",
+    "explanation": "500 × 125 ÷ 100 = 625.",
+    "options": [
+      "625",
+      "600",
+      "650",
+      "500"
+    ]
+  },
+  "math-x-sum-24": {
+    "question": "Co to jest 83 + 31?",
+    "explanation": "83 + 31 = 114.",
+    "options": [
+      "114",
+      "113",
+      "115",
+      "124"
+    ]
+  },
+  "math-x-product-24": {
+    "question": "Co to jest 30 × 28?",
+    "explanation": "30 × 28 = 840.",
+    "options": [
+      "840",
+      "812",
+      "810",
+      "868"
+    ]
+  },
+  "math-x-equation-24": {
+    "question": "Rozwiąż równanie: 26x + 24 = 726.",
+    "explanation": "Odlicz 24, następnie podziel przez 26: x = 27.",
+    "options": [
+      "27",
+      "26",
+      "28",
+      "29"
+    ]
+  },
+  "math-x-percent-24": {
+    "question": "Co to jest 130% z 520?",
+    "explanation": "520 × 130 ÷ 100 = 676.",
+    "options": [
+      "676",
+      "650",
+      "702",
+      "520"
+    ]
+  },
+  "math-x-sequence-square-1": {
+    "question": "Jaki będzie następny wyraz: 4, 16, 36, 64, __?",
+    "explanation": "To kolejne kwadraty pomnożone przez 4; następny wyraz to 5² × 4 = 100.",
+    "options": [
+      "100",
+      "96",
+      "104",
+      "144"
+    ]
+  },
+  "math-x-combination-1": {
+    "question": "Ile par można wybrać spośród 4 odrębnych obiektów?",
+    "explanation": "Liczbą jest C(4, 2) = 4 × 3 ± 2 = 6.",
+    "options": [
+      "6",
+      "5",
+      "7",
+      "8"
+    ]
+  },
+  "math-x-sequence-square-2": {
+    "question": "Jaki będzie następny wyraz: 5, 20, 45, 80, __?",
+    "explanation": "To kolejne kwadraty pomnożone przez 5; następny wyraz to 5² × 5 = 125.",
+    "options": [
+      "125",
+      "120",
+      "130",
+      "180"
+    ]
+  },
+  "math-x-combination-2": {
+    "question": "Ile par można wybrać z 5 różnych obiektów?",
+    "explanation": "Liczbą jest C(5, 2) = 5 × 4 ± 2 = 10.",
+    "options": [
+      "10",
+      "9",
+      "11",
+      "20"
+    ]
+  },
+  "math-x-sequence-square-3": {
+    "question": "Jaki będzie następny wyraz: 6, 24, 54, 96, __?",
+    "explanation": "To kolejne kwadraty pomnożone przez 6; następny wyraz to 5² × 6 = 150.",
+    "options": [
+      "150",
+      "144",
+      "156",
+      "216"
+    ]
+  },
+  "math-x-combination-3": {
+    "question": "Ile par można wybrać z 6 różnych obiektów?",
+    "explanation": "Liczbą jest C(6, 2) = 6 × 5 ± 2 = 15.",
+    "options": [
+      "15",
+      "14",
+      "16",
+      "12"
+    ]
+  },
+  "math-x-sequence-square-4": {
+    "question": "Jaki będzie następny wyraz: 7, 28, 63, 112, __?",
+    "explanation": "To kolejne kwadraty pomnożone przez 7; następny wyraz to 5² × 7 = 175.",
+    "options": [
+      "175",
+      "168",
+      "182",
+      "252"
+    ]
+  },
+  "math-x-combination-4": {
+    "question": "Ile par można wybrać z 7 różnych obiektów?",
+    "explanation": "Liczbą jest C(7, 2) = 7 × 6 ± 2 = 21.",
+    "options": [
+      "21",
+      "20",
+      "22",
+      "14"
+    ]
+  },
+  "math-x-sequence-square-5": {
+    "question": "Jaki będzie następny wyraz: 8, 32, 72, 128, __?",
+    "explanation": "To kolejne kwadraty pomnożone przez 8; następny wyraz to 5² × 8 = 200.",
+    "options": [
+      "200",
+      "192",
+      "208",
+      "288"
+    ]
+  },
+  "math-x-combination-5": {
+    "question": "Ile par można wybrać z 8 różnych obiektów?",
+    "explanation": "Liczbą jest C(8, 2) = 8 × 7 ± 2 = 28.",
+    "options": [
+      "28",
+      "27",
+      "29",
+      "16"
+    ]
+  },
+  "math-x-sequence-square-6": {
+    "question": "Jaki będzie następny wyraz: 9, 36, 81, 144, __?",
+    "explanation": "To kolejne kwadraty pomnożone przez 9; następny wyraz to 5² × 9 = 225.",
+    "options": [
+      "225",
+      "216",
+      "234",
+      "324"
+    ]
+  },
+  "math-x-combination-6": {
+    "question": "Ile par można wybrać z 9 różnych obiektów?",
+    "explanation": "Liczbą jest C(9, 2) = 9 × 8 ± 2 = 36.",
+    "options": [
+      "36",
+      "35",
+      "37",
+      "18"
+    ]
+  },
+  "math-x-sequence-square-7": {
+    "question": "Jakie jest następne określenie: 10, 40, 90, 160, __?",
+    "explanation": "To kolejne kwadraty pomnożone przez 10; następny wyraz to 5² × 10 = 250.",
+    "options": [
+      "250",
+      "240",
+      "260",
+      "360"
+    ]
+  },
+  "math-x-combination-7": {
+    "question": "Ile par można wybrać z 10 różnych obiektów?",
+    "explanation": "Liczbą jest C(10, 2) = 10 × 9 ± 2 = 45.",
+    "options": [
+      "45",
+      "44",
+      "46",
+      "20"
+    ]
+  },
+  "math-x-sequence-square-8": {
+    "question": "Jaki będzie następny wyraz: 11, 44, 99, 176, __?",
+    "explanation": "To kolejne kwadraty pomnożone przez 11; następny wyraz to 5² × 11 = 275.",
+    "options": [
+      "275",
+      "264",
+      "286",
+      "396"
+    ]
+  },
+  "math-x-combination-8": {
+    "question": "Ile par można wybrać z 11 różnych obiektów?",
+    "explanation": "Liczbą jest C(11, 2) = 11 × 10 ± 2 = 55.",
+    "options": [
+      "55",
+      "54",
+      "56",
+      "22"
+    ]
+  },
+  "math-x-sequence-square-9": {
+    "question": "Jaki będzie następny wyraz: 12, 48, 108, 192, __?",
+    "explanation": "To kolejne kwadraty pomnożone przez 12; następny wyraz to 5² × 12 = 300.",
+    "options": [
+      "300",
+      "288",
+      "312",
+      "432"
+    ]
+  },
+  "math-x-combination-9": {
+    "question": "Ile par można wybrać z 12 różnych obiektów?",
+    "explanation": "Liczbą jest C(12, 2) = 12 × 11 ± 2 = 66.",
+    "options": [
+      "66",
+      "65",
+      "67",
+      "24"
+    ]
+  },
+  "math-x-sequence-square-10": {
+    "question": "Jaki będzie następny wyraz: 13, 52, 117, 208, __?",
+    "explanation": "To kolejne kwadraty pomnożone przez 13; następny wyraz to 5² × 13 = 325.",
+    "options": [
+      "325",
+      "312",
+      "338",
+      "468"
+    ]
+  },
+  "math-x-combination-10": {
+    "question": "Ile par można wybrać z 13 różnych obiektów?",
+    "explanation": "Liczbą jest C(13, 2) = 13 × 12 ± 2 = 78.",
+    "options": [
+      "78",
+      "77",
+      "79",
+      "26"
+    ]
+  },
+  "math-x-sequence-square-11": {
+    "question": "Jaki będzie następny wyraz: 14, 56, 126, 224, __?",
+    "explanation": "To kolejne kwadraty pomnożone przez 14; następny wyraz to 5² × 14 = 350.",
+    "options": [
+      "350",
+      "336",
+      "364",
+      "504"
+    ]
+  },
+  "math-x-combination-11": {
+    "question": "Ile par można wybrać z 14 różnych obiektów?",
+    "explanation": "Liczbą jest C(14, 2) = 14 × 13 ± 2 = 91.",
+    "options": [
+      "91",
+      "90",
+      "92",
+      "28"
+    ]
+  },
+  "math-x-sequence-square-12": {
+    "question": "Jaki będzie następny wyraz: 15, 60, 135, 240, __?",
+    "explanation": "To kolejne kwadraty pomnożone przez 15; następny wyraz to 5² × 15 = 375.",
+    "options": [
+      "375",
+      "360",
+      "390",
+      "540"
+    ]
+  },
+  "math-x-combination-12": {
+    "question": "Ile par można wybrać z 15 różnych obiektów?",
+    "explanation": "Liczbą jest C(15, 2) = 15 × 14 ± 2 = 105.",
+    "options": [
+      "105",
+      "104",
+      "106",
+      "30"
+    ]
+  },
+  "brain-x-pattern-1": {
+    "question": "Jaki numer będzie następny: 1, 4, 7, 10, __?",
+    "explanation": "Każdy termin wzrasta o 3.",
+    "options": [
+      "13",
+      "11",
+      "12",
+      "14"
+    ]
+  },
+  "brain-x-pattern-2": {
+    "question": "Jaki numer będzie następny: 2, 5, 8, 11, __?",
+    "explanation": "Każdy termin wzrasta o 3.",
+    "options": [
+      "14",
+      "12",
+      "13",
+      "15"
+    ]
+  },
+  "brain-x-pattern-3": {
+    "question": "Jaki numer będzie następny: 3, 6, 9, 12, __?",
+    "explanation": "Każdy termin wzrasta o 3.",
+    "options": [
+      "15",
+      "13",
+      "14",
+      "16"
+    ]
+  },
+  "brain-x-pattern-4": {
+    "question": "Jaki numer będzie następny: 4, 7, 10, 13, __?",
+    "explanation": "Każdy termin wzrasta o 3.",
+    "options": [
+      "16",
+      "14",
+      "15",
+      "17"
+    ]
+  },
+  "brain-x-pattern-5": {
+    "question": "Jaki numer będzie następny: 5, 8, 11, 14, __?",
+    "explanation": "Każdy termin wzrasta o 3.",
+    "options": [
+      "17",
+      "15",
+      "16",
+      "18"
+    ]
+  },
+  "brain-x-pattern-6": {
+    "question": "Jaki numer będzie następny: 6, 9, 12, 15, __?",
+    "explanation": "Każdy termin wzrasta o 3.",
+    "options": [
+      "18",
+      "16",
+      "17",
+      "19"
+    ]
+  },
+  "brain-x-pattern-7": {
+    "question": "Jaki numer będzie następny: 7, 10, 13, 16, __?",
+    "explanation": "Każdy termin wzrasta o 3.",
+    "options": [
+      "19",
+      "17",
+      "18",
+      "20"
+    ]
+  },
+  "brain-x-pattern-8": {
+    "question": "Jaki numer będzie następny: 8, 11, 14, 17, __?",
+    "explanation": "Każdy termin wzrasta o 3.",
+    "options": [
+      "20",
+      "18",
+      "19",
+      "21"
+    ]
+  },
+  "brain-x-pattern-9": {
+    "question": "Jaki numer będzie następny: 9, 12, 15, 18, __?",
+    "explanation": "Każdy termin wzrasta o 3.",
+    "options": [
+      "21",
+      "19",
+      "20",
+      "22"
+    ]
+  },
+  "brain-x-pattern-10": {
+    "question": "Jaki numer będzie następny: 10, 13, 16, 19, __?",
+    "explanation": "Każdy termin wzrasta o 3.",
+    "options": [
+      "22",
+      "20",
+      "21",
+      "23"
+    ]
+  },
+  "brain-x-pattern-11": {
+    "question": "Jaki numer będzie następny: 11, 14, 17, 20, __?",
+    "explanation": "Każdy termin wzrasta o 3.",
+    "options": [
+      "23",
+      "21",
+      "22",
+      "24"
+    ]
+  },
+  "brain-x-pattern-12": {
+    "question": "Jaki numer będzie następny: 12, 15, 18, 21, __?",
+    "explanation": "Każdy termin wzrasta o 3.",
+    "options": [
+      "24",
+      "22",
+      "23",
+      "25"
+    ]
+  },
+  "brain-x-pattern-13": {
+    "question": "Jaki numer będzie następny: 2, 4, 8, 16, __?",
+    "explanation": "Każdy termin podwaja poprzedni termin.",
+    "options": [
+      "32",
+      "30",
+      "31",
+      "33"
+    ]
+  },
+  "brain-x-pattern-14": {
+    "question": "Jaki numer będzie następny: 3, 6, 12, 24, __?",
+    "explanation": "Każdy termin podwaja poprzedni termin.",
+    "options": [
+      "48",
+      "46",
+      "47",
+      "49"
+    ]
+  },
+  "brain-x-pattern-15": {
+    "question": "Jaki numer będzie następny: 4, 8, 16, 32, __?",
+    "explanation": "Każdy termin podwaja poprzedni termin.",
+    "options": [
+      "64",
+      "62",
+      "63",
+      "65"
+    ]
+  },
+  "brain-x-pattern-16": {
+    "question": "Jaki numer będzie następny: 5, 10, 20, 40, __?",
+    "explanation": "Każdy termin podwaja poprzedni termin.",
+    "options": [
+      "80",
+      "78",
+      "79",
+      "81"
+    ]
+  },
+  "brain-x-pattern-17": {
+    "question": "Jaki numer będzie następny: 6, 12, 24, 48, __?",
+    "explanation": "Każdy termin podwaja poprzedni termin.",
+    "options": [
+      "96",
+      "94",
+      "95",
+      "97"
+    ]
+  },
+  "brain-x-pattern-18": {
+    "question": "Jaki numer będzie następny: 7, 14, 28, 56, __?",
+    "explanation": "Każdy termin podwaja poprzedni termin.",
+    "options": [
+      "112",
+      "110",
+      "111",
+      "113"
+    ]
+  },
+  "brain-x-pattern-19": {
+    "question": "Jaki numer będzie następny: 8, 16, 32, 64, __?",
+    "explanation": "Każdy termin podwaja poprzedni termin.",
+    "options": [
+      "128",
+      "126",
+      "127",
+      "129"
+    ]
+  },
+  "brain-x-pattern-20": {
+    "question": "Jaki numer będzie następny: 9, 9, 18, 36, 72, __?",
+    "explanation": "Każdy termin podwaja poprzedni termin.",
+    "options": [
+      "144",
+      "142",
+      "143",
+      "145"
+    ]
+  },
+  "brain-x-pattern-21": {
+    "question": "Jaki numer będzie następny: 10, 20, 40, 80, __?",
+    "explanation": "Każdy termin podwaja poprzedni termin.",
+    "options": [
+      "160",
+      "158",
+      "159",
+      "161"
+    ]
+  },
+  "brain-x-pattern-22": {
+    "question": "Jaki numer będzie następny: 11, 22, 44, 88, __?",
+    "explanation": "Każdy termin podwaja poprzedni termin.",
+    "options": [
+      "176",
+      "174",
+      "175",
+      "177"
+    ]
+  },
+  "brain-x-pattern-23": {
+    "question": "Jaki numer będzie następny: 12, 24, 48, 96, __?",
+    "explanation": "Każdy termin podwaja poprzedni termin.",
+    "options": [
+      "192",
+      "190",
+      "191",
+      "193"
+    ]
+  },
+  "brain-x-pattern-24": {
+    "question": "Jaki numer będzie następny: 13, 26, 52, 104, __?",
+    "explanation": "Każdy termin podwaja poprzedni termin.",
+    "options": [
+      "208",
+      "206",
+      "207",
+      "209"
+    ]
+  },
+  "brain-x-pattern-25": {
+    "question": "Jaki numer będzie następny: 1, 4, 9, 16, __?",
+    "explanation": "Sekwencja zawiera kolejne liczby kwadratowe.",
+    "options": [
+      "25",
+      "23",
+      "24",
+      "26"
+    ]
+  },
+  "brain-x-pattern-26": {
+    "question": "Jaki numer będzie następny: 4, 9, 16, 25, __?",
+    "explanation": "Sekwencja zawiera kolejne liczby kwadratowe.",
+    "options": [
+      "36",
+      "34",
+      "35",
+      "37"
+    ]
+  },
+  "brain-x-pattern-27": {
+    "question": "Jaki numer będzie następny: 9, 16, 25, 36, __?",
+    "explanation": "Sekwencja zawiera kolejne liczby kwadratowe.",
+    "options": [
+      "49",
+      "47",
+      "48",
+      "50"
+    ]
+  },
+  "brain-x-pattern-28": {
+    "question": "Jaki numer będzie następny: 16, 25, 36, 49, __?",
+    "explanation": "Sekwencja zawiera kolejne liczby kwadratowe.",
+    "options": [
+      "64",
+      "62",
+      "63",
+      "65"
+    ]
+  },
+  "brain-x-pattern-29": {
+    "question": "Jaki numer będzie następny: 25, 36, 49, 64, __?",
+    "explanation": "Sekwencja zawiera kolejne liczby kwadratowe.",
+    "options": [
+      "81",
+      "79",
+      "80",
+      "82"
+    ]
+  },
+  "brain-x-pattern-30": {
+    "question": "Jaki numer będzie następny: 36, 49, 64, 81, __?",
+    "explanation": "Sekwencja zawiera kolejne liczby kwadratowe.",
+    "options": [
+      "100",
+      "98",
+      "99",
+      "101"
+    ]
+  },
+  "brain-x-pattern-31": {
+    "question": "Jaki numer będzie następny: 49, 64, 81, 100, __?",
+    "explanation": "Sekwencja zawiera kolejne liczby kwadratowe.",
+    "options": [
+      "121",
+      "119",
+      "120",
+      "122"
+    ]
+  },
+  "brain-x-pattern-32": {
+    "question": "Jaki numer będzie następny: 64, 81, 100, 121, __?",
+    "explanation": "Sekwencja zawiera kolejne liczby kwadratowe.",
+    "options": [
+      "144",
+      "142",
+      "143",
+      "145"
+    ]
+  },
+  "brain-x-pattern-33": {
+    "question": "Jaki numer będzie następny: 81, 100, 121, 144, __?",
+    "explanation": "Sekwencja zawiera kolejne liczby kwadratowe.",
+    "options": [
+      "169",
+      "167",
+      "168",
+      "170"
+    ]
+  },
+  "brain-x-pattern-34": {
+    "question": "Jaki numer będzie następny: 100, 121, 144, 169, __?",
+    "explanation": "Sekwencja zawiera kolejne liczby kwadratowe.",
+    "options": [
+      "196",
+      "194",
+      "195",
+      "197"
+    ]
+  },
+  "brain-x-pattern-35": {
+    "question": "Jaki numer będzie następny: 121, 144, 169, 196, __?",
+    "explanation": "Sekwencja zawiera kolejne liczby kwadratowe.",
+    "options": [
+      "225",
+      "223",
+      "224",
+      "226"
+    ]
+  },
+  "brain-x-pattern-36": {
+    "question": "Jaki numer będzie następny: 144, 169, 196, 225, __?",
+    "explanation": "Sekwencja zawiera kolejne liczby kwadratowe.",
+    "options": [
+      "256",
+      "254",
+      "255",
+      "257"
+    ]
+  },
+  "brain-x-pattern-37": {
+    "question": "Jaki numer będzie następny: 1, 3, 7, 13, __?",
+    "explanation": "Przyrosty to kolejne liczby równomierne: +2, +4, +6, a następnie +8.",
+    "options": [
+      "21",
+      "19",
+      "20",
+      "22"
+    ]
+  },
+  "brain-x-pattern-38": {
+    "question": "Jaki numer będzie następny: 2, 4, 8, 14, __?",
+    "explanation": "Przyrosty to kolejne liczby równomierne: +2, +4, +6, a następnie +8.",
+    "options": [
+      "22",
+      "20",
+      "21",
+      "23"
+    ]
+  },
+  "brain-x-pattern-39": {
+    "question": "Jaki numer będzie następny: 3, 5, 9, 15, __?",
+    "explanation": "Przyrosty to kolejne liczby równomierne: +2, +4, +6, a następnie +8.",
+    "options": [
+      "23",
+      "21",
+      "22",
+      "24"
+    ]
+  },
+  "brain-x-pattern-40": {
+    "question": "Jaki numer będzie następny: 4, 6, 10, 16, __?",
+    "explanation": "Przyrosty to kolejne liczby równomierne: +2, +4, +6, a następnie +8.",
+    "options": [
+      "24",
+      "22",
+      "23",
+      "25"
+    ]
+  },
+  "brain-x-pattern-41": {
+    "question": "Jaki numer będzie następny: 5, 7, 11, 17, __?",
+    "explanation": "Przyrosty to kolejne liczby równomierne: +2, +4, +6, a następnie +8.",
+    "options": [
+      "25",
+      "23",
+      "24",
+      "26"
+    ]
+  },
+  "brain-x-pattern-42": {
+    "question": "Jaki numer będzie następny: 6, 8, 12, 18, __?",
+    "explanation": "Przyrosty to kolejne liczby równomierne: +2, +4, +6, a następnie +8.",
+    "options": [
+      "26",
+      "24",
+      "25",
+      "27"
+    ]
+  },
+  "brain-x-pattern-43": {
+    "question": "Jaki numer będzie następny: 7, 9, 13, 19, __?",
+    "explanation": "Przyrosty to kolejne liczby równomierne: +2, +4, +6, a następnie +8.",
+    "options": [
+      "27",
+      "25",
+      "26",
+      "28"
+    ]
+  },
+  "brain-x-pattern-44": {
+    "question": "Jaki numer będzie następny: 8, 10, 14, 20, __?",
+    "explanation": "Przyrosty to kolejne liczby równomierne: +2, +4, +6, a następnie +8.",
+    "options": [
+      "28",
+      "26",
+      "27",
+      "29"
+    ]
+  },
+  "brain-x-pattern-45": {
+    "question": "Jaki numer będzie następny: 9, 11, 15, 21, __?",
+    "explanation": "Przyrosty to kolejne liczby równomierne: +2, +4, +6, a następnie +8.",
+    "options": [
+      "29",
+      "27",
+      "28",
+      "30"
+    ]
+  },
+  "brain-x-pattern-46": {
+    "question": "Jaki numer będzie następny: 10, 12, 16, 22, __?",
+    "explanation": "Przyrosty to kolejne liczby równomierne: +2, +4, +6, a następnie +8.",
+    "options": [
+      "30",
+      "28",
+      "29",
+      "31"
+    ]
+  },
+  "brain-x-pattern-47": {
+    "question": "Jaki numer będzie następny: 11, 13, 17, 23, __?",
+    "explanation": "Przyrosty to kolejne liczby równomierne: +2, +4, +6, a następnie +8.",
+    "options": [
+      "31",
+      "29",
+      "30",
+      "32"
+    ]
+  },
+  "brain-x-pattern-48": {
+    "question": "Jaki numer będzie następny: 12, 14, 18, 24, __?",
+    "explanation": "Przyrosty to kolejne liczby równomierne: +2, +4, +6, a następnie +8.",
+    "options": [
+      "32",
+      "30",
+      "31",
+      "33"
+    ]
+  },
+  "brain-x-pattern-49": {
+    "question": "Jaki numer będzie następny: 1, 3, 6, 13, __?",
+    "explanation": "Każdy termin podwaja poprzedni termin i dodaje 1, a następnie 0 naprzemiennie.",
+    "options": [
+      "26",
+      "24",
+      "25",
+      "27"
+    ]
+  },
+  "brain-x-pattern-50": {
+    "question": "Jaki numer będzie następny: 2, 5, 10, 21, __?",
+    "explanation": "Każdy termin podwaja poprzedni termin i dodaje 1, a następnie 0 naprzemiennie.",
+    "options": [
+      "42",
+      "40",
+      "41",
+      "43"
+    ]
+  },
+  "brain-x-pattern-51": {
+    "question": "Jaki numer będzie następny: 3, 7, 14, 29, __?",
+    "explanation": "Każdy termin podwaja poprzedni termin i dodaje 1, a następnie 0 naprzemiennie.",
+    "options": [
+      "58",
+      "56",
+      "57",
+      "59"
+    ]
+  },
+  "brain-x-pattern-52": {
+    "question": "Jaki numer będzie następny: 4, 9, 18, 37, __?",
+    "explanation": "Każdy termin podwaja poprzedni termin i dodaje 1, a następnie 0 naprzemiennie.",
+    "options": [
+      "74",
+      "72",
+      "73",
+      "75"
+    ]
+  },
+  "brain-x-pattern-53": {
+    "question": "Jaki numer będzie następny: 5, 11, 22, 45, __?",
+    "explanation": "Każdy termin podwaja poprzedni termin i dodaje 1, a następnie 0 naprzemiennie.",
+    "options": [
+      "90",
+      "88",
+      "89",
+      "91"
+    ]
+  },
+  "brain-x-pattern-54": {
+    "question": "Jaki numer będzie następny: 6, 13, 26, 53, __?",
+    "explanation": "Każdy termin podwaja poprzedni termin i dodaje 1, a następnie 0 naprzemiennie.",
+    "options": [
+      "106",
+      "104",
+      "105",
+      "107"
+    ]
+  },
+  "brain-x-pattern-55": {
+    "question": "Jaki numer będzie następny: 7, 15, 30, 61, __?",
+    "explanation": "Każdy termin podwaja poprzedni termin i dodaje 1, a następnie 0 naprzemiennie.",
+    "options": [
+      "122",
+      "120",
+      "121",
+      "123"
+    ]
+  },
+  "brain-x-pattern-56": {
+    "question": "Jaki numer będzie następny: 8, 17, 34, 69, __?",
+    "explanation": "Każdy termin podwaja poprzedni termin i dodaje 1, a następnie 0 naprzemiennie.",
+    "options": [
+      "138",
+      "136",
+      "137",
+      "139"
+    ]
+  },
+  "brain-x-pattern-57": {
+    "question": "Jaki numer będzie następny: 9, 19, 38, 77, __?",
+    "explanation": "Każdy termin podwaja poprzedni termin i dodaje 1, a następnie 0 naprzemiennie.",
+    "options": [
+      "154",
+      "152",
+      "153",
+      "155"
+    ]
+  },
+  "brain-x-pattern-58": {
+    "question": "Jaki numer będzie następny: 10, 21, 42, 85, __?",
+    "explanation": "Każdy termin podwaja poprzedni termin i dodaje 1, a następnie 0 naprzemiennie.",
+    "options": [
+      "170",
+      "168",
+      "169",
+      "171"
+    ]
+  },
+  "brain-x-pattern-59": {
+    "question": "Jaki numer będzie następny: 11, 23, 46, 93, __?",
+    "explanation": "Każdy termin podwaja poprzedni termin i dodaje 1, a następnie 0 naprzemiennie.",
+    "options": [
+      "186",
+      "184",
+      "185",
+      "187"
+    ]
+  },
+  "brain-x-pattern-60": {
+    "question": "Jaki numer będzie następny: 12, 25, 50, 101, __?",
+    "explanation": "Każdy termin podwaja poprzedni termin i dodaje 1, a następnie 0 naprzemiennie.",
+    "options": [
+      "202",
+      "200",
+      "201",
+      "203"
+    ]
+  },
+  "history-x-1": {
+    "question": "Który szczegół wypełnia ten historyczny fakt: Bitwa o maratończyka została walczona?",
+    "explanation": "Bitwa pod Marathonem została walczona w 490 p.n.e.",
+    "options": [
+      "490 p.n.e.",
+      "1776",
+      "221 p.n.e.",
+      "1494"
+    ]
+  },
+  "history-x-2": {
+    "question": "Który szczegół wypełnia ten historyczny fakt: Przyjęto Deklarację Niepodległości Stanów Zjednoczonych?",
+    "explanation": "Deklaracja została przyjęta w dniu 4 lipca 1776 r.",
+    "options": [
+      "1776",
+      "221 p.n.e.",
+      "1494",
+      "1977"
+    ]
+  },
+  "history-x-3": {
+    "question": "Który szczegół wypełnia ten historyczny fakt: Pierwsza chińska dynastia cesarska zjednoczyła Chiny?",
+    "explanation": "Kraj Qin zjednoczył Chiny w 221 roku p.n.e.",
+    "options": [
+      "221 p.n.e.",
+      "1494",
+      "1977",
+      "476"
+    ]
+  },
+  "history-x-4": {
+    "question": "Który szczegół wypełnia ten historyczny fakt: Traktat z Tordesilli został podpisany?",
+    "explanation": "Hiszpania i Portugalia podpisały Traktat z Tordesillas w 1494 r.",
+    "options": [
+      "1494",
+      "1977",
+      "476",
+      "1066"
+    ]
+  },
+  "history-x-5": {
+    "question": "Który szczegół wypełnia ten historyczny fakt: Voyager 1 uruchomiony?",
+    "explanation": "NASA wystrzeliła Voyager 1 w 1977 roku.",
+    "options": [
+      "1977",
+      "476",
+      "1066",
+      "1666"
+    ]
+  },
+  "history-x-6": {
+    "question": "Który szczegół wypełnia ten historyczny fakt: Zachodni Imperium Rzymskie upadło?",
+    "explanation": "Konwencjonalny termin upadku Zachodniego Imperium Rzymskiego to 476 CE.",
+    "options": [
+      "476",
+      "1066",
+      "1666",
+      "1825"
+    ]
+  },
+  "history-x-7": {
+    "question": "Który szczegół wypełnia ten historyczny fakt: Norman Conquest w Anglii miało miejsce?",
+    "explanation": "William of Normandy wygrał bitwę pod Hastings w 1066 roku.",
+    "options": [
+      "1066",
+      "1666",
+      "1825",
+      "1896"
+    ]
+  },
+  "history-x-8": {
+    "question": "Który szczegół wypełnia ten historyczny fakt: Wielki Ogień Londynu rozpoczął się?",
+    "explanation": "Wielki Ogień Londynu rozpoczął się we wrześniu 1666 roku.",
+    "options": [
+      "1666",
+      "1825",
+      "1896",
+      "1446"
+    ]
+  },
+  "history-x-9": {
+    "question": "Który szczegół wypełnia ten historyczny fakt: Otwarła kolej Stockton i Darlington?",
+    "explanation": "Kolej Stockton i Darlington rozpoczęli działalność publiczną w 1825 roku.",
+    "options": [
+      "1825",
+      "490 p.n.e.",
+      "1776",
+      "221 p.n.e."
+    ]
+  },
+  "history-x-10": {
+    "question": "Który szczegół wypełnia ten historyczny fakt: Pierwsze nowoczesne igrzyska olimpijskie odbyły się w Atenach?",
+    "explanation": "W 1896 roku Ateny odbyły się pierwsze nowoczesne igrzyska olimpijskie.",
+    "options": [
+      "1896",
+      "1776",
+      "221 p.n.e.",
+      "1494"
+    ]
+  },
+  "history-x-11": {
+    "question": "Który szczegół wypełnia ten historyczny fakt: Koreański alfabet Hangul został promułowany?",
+    "explanation": "Król Sejong promułgated Hunminjeongeum w 1446 roku.",
+    "options": [
+      "1446",
+      "221 p.n.e.",
+      "1494",
+      "1977"
+    ]
+  },
+  "history-x-12": {
+    "question": "Który szczegół wypełnia ten historyczny fakt: Joseon dynastia została założona?",
+    "explanation": "Yi Seong-gye założyła dynastię Joseon w 1392 roku.",
+    "options": [
+      "1392",
+      "1494",
+      "1977",
+      "476"
+    ]
+  },
+  "history-x-13": {
+    "question": "Który szczegół wypełnia ten historyczny fakt: Założona została dynastia Goryeo?",
+    "explanation": "Wang Geon założył Goryeo w 918 roku.",
+    "options": [
+      "918",
+      "1977",
+      "476",
+      "1066"
+    ]
+  },
+  "history-x-14": {
+    "question": "Który szczegół wypełnia ten historyczny fakt: Rozpoczęła się wojna Imjin?",
+    "explanation": "Japońskie siły zaatakowały Koreę w 1592 roku, rozpoczynając Imjin Wojnę.",
+    "options": [
+      "1592",
+      "476",
+      "1066",
+      "1666"
+    ]
+  },
+  "history-x-15": {
+    "question": "Który szczegół wypełnia ten historyczny fakt: Koreańska armia wojenna została podpisana?",
+    "explanation": "W roku 1953 podpisano koreańską umowę zbrojeniową.",
+    "options": [
+      "1953",
+      "1066",
+      "1666",
+      "1825"
+    ]
+  },
+  "history-x-16": {
+    "question": "Który szczegół wypełnia ten historyczny fakt: The Rosetta Stone został odkryty?",
+    "explanation": "Stone Rosetta został odkryty przez francuskich żołnierzy w 1799 roku.",
+    "options": [
+      "1799",
+      "1666",
+      "1825",
+      "1896"
+    ]
+  },
+  "history-x-17": {
+    "question": "Który szczegół wypełnia ten historyczny fakt: Rozpoczęła się pierwsza podróż Kolumbii po Atlantyku?",
+    "explanation": "Kolumb rozpoczął swoją pierwszą podróż atlantycką w 1492 roku.",
+    "options": [
+      "1492",
+      "490 p.n.e.",
+      "1776",
+      "221 p.n.e."
+    ]
+  },
+  "history-x-18": {
+    "question": "Który szczegół wypełnia ten historyczny fakt: Pierwsza Republika Francuska została ogłoszona?",
+    "explanation": "Republika Francuska została ogłoszona we wrześniu 1792 roku.",
+    "options": [
+      "1792",
+      "1776",
+      "221 p.n.e.",
+      "1494"
+    ]
+  },
+  "history-x-19": {
+    "question": "Który szczegół wypełnia ten historyczny fakt: Otwarty kanał Suez?",
+    "explanation": "Kanał Suez otworzył się do nawigacji w 1869 roku.",
+    "options": [
+      "1869",
+      "221 p.n.e.",
+      "1494",
+      "1977"
+    ]
+  },
+  "history-x-20": {
+    "question": "Który szczegół wypełnia ten historyczny fakt: Pierwsza kolej transkontynentalna w Stanach Zjednoczonych została ukończona?",
+    "explanation": "Pierwsza amerykańska kolej transkontynentalna została ukończona w 1869 roku.",
+    "options": [
+      "1869",
+      "1494",
+      "1977",
+      "476"
+    ]
+  },
+  "history-x-21": {
+    "question": "Który szczegół wypełnia ten historyczny fakt: Meksyka założyła Tenochtitlan wokół?",
+    "explanation": "Tenochtitlan został założony na wyspie nad jeziorem Texcoco około 1325 roku n.e.",
+    "options": [
+      "1325 n.e.",
+      "1977",
+      "476",
+      "1066"
+    ]
+  },
+  "history-x-22": {
+    "question": "Który szczegół wypełnia ten historyczny fakt: Parthenon został zbudowany?",
+    "explanation": "Partenon zbudowano w Atenach w piątym wieku p.n.e.",
+    "options": [
+      "Starożytna Grecja",
+      "476",
+      "1066",
+      "1666"
+    ]
+  },
+  "history-x-23": {
+    "question": "Który szczegół wypełnia ten historyczny fakt: Koloseum został zbudowany?",
+    "explanation": "Koloseum zbudowano w Rzymie pod flawicznymi cesarzami.",
+    "options": [
+      "Starożytny Rzym",
+      "1066",
+      "1666",
+      "1825"
+    ]
+  },
+  "history-x-24": {
+    "question": "Który szczegół wypełnia ten historyczny fakt: Miasto Machu Picchu zostało zbudowane przez?",
+    "explanation": "Machu Picchu został zbudowany przez Inkę w Andach.",
+    "options": [
+      "Inka",
+      "1666",
+      "1825",
+      "1896"
+    ]
+  },
+  "history-x-25": {
+    "question": "Który szczegół wypełnia ten historyczny fakt: Wielki Mur został zbudowany przez wieki w?",
+    "explanation": "Kraje chińskie i dynastia budowane i odbudowane mury przez wiele wieków.",
+    "options": [
+      "Chiny",
+      "490 p.n.e.",
+      "1776",
+      "221 p.n.e."
+    ]
+  },
+  "history-x-26": {
+    "question": "Który szczegół wypełnia ten historyczny fakt: Wystąpił pierwszy udany lot samolotem z napędem przez braci Wright?",
+    "explanation": "Bracia z Wrightu w 1903 r. polecieli pod Kitty Hawk.",
+    "options": [
+      "1903",
+      "1776",
+      "221 p.n.e.",
+      "1494"
+    ]
+  },
+  "history-x-27": {
+    "question": "Który szczegół wypełnia ten historyczny fakt: ONZ została założona?",
+    "explanation": "W roku 1945 powstały Organizacje Narodów Zjednoczonych.",
+    "options": [
+      "1945",
+      "221 p.n.e.",
+      "1494",
+      "1977"
+    ]
+  },
+  "history-x-28": {
+    "question": "Który szczegół wypełnia ten historyczny fakt: Przyjęto Powszechną Deklarację Praw Człowieka?",
+    "explanation": "Zgromadzenie Ogólne ONZ przyjęło oświadczenie w 1948 r.",
+    "options": [
+      "1948",
+      "1494",
+      "1977",
+      "476"
+    ]
+  },
+  "history-x-29": {
+    "question": "Który szczegół wypełnia ten historyczny fakt: Pierwszy sztuczny satelita, Sputnik 1, uruchomiony?",
+    "explanation": "W 1957 r. Związek Radziecki uruchomił Sputnik 1.",
+    "options": [
+      "1957",
+      "1977",
+      "476",
+      "1066"
+    ]
+  },
+  "history-x-30": {
+    "question": "Który szczegół wypełnia ten historyczny fakt: Nastąpił pierwszy załogowy lot kosmiczny Yuri Gagarin?",
+    "explanation": "Jurij Gagarin orbitował na orbicie Ziemi w 1961 roku.",
+    "options": [
+      "1961",
+      "476",
+      "1066",
+      "1666"
+    ]
+  },
+  "history-x-31": {
+    "question": "Który szczegół wypełnia ten historyczny fakt: The Meiji Restoration rozpoczęto?",
+    "explanation": "Transformacja polityczna Meiji rozpoczęła się w 1868 roku.",
+    "options": [
+      "1868",
+      "1066",
+      "1666",
+      "1825"
+    ]
+  },
+  "history-x-32": {
+    "question": "Który szczegół wypełnia ten historyczny fakt: Rewolucja haitańska rozpoczęła się?",
+    "explanation": "Rewolucja haitańska rozpoczęła się w 1791 roku.",
+    "options": [
+      "1791",
+      "1666",
+      "1825",
+      "1896"
+    ]
+  },
+  "history-x-33": {
+    "question": "Który szczegół wypełnia ten historyczny fakt: Indyjski ruch niepodległości osiągnął niezależność?",
+    "explanation": "Indie stały się niezależne od brytyjskich rządów w 1947 roku.",
+    "options": [
+      "1947",
+      "490 p.n.e.",
+      "1776",
+      "221 p.n.e."
+    ]
+  },
+  "history-x-34": {
+    "question": "Który szczegół wypełnia ten historyczny fakt: Nastąpiło podbój Konstantynopolu Ottomana?",
+    "explanation": "Wojska Ottomana zdobyły Konstantynopol w 1453 roku.",
+    "options": [
+      "1453",
+      "1776",
+      "221 p.n.e.",
+      "1494"
+    ]
+  },
+  "history-x-35": {
+    "question": "Który szczegół wypełnia ten historyczny fakt: Bitwa o Waterloo została walczona?",
+    "explanation": "Bitwa pod Waterloo odbyła się w 1815 roku.",
+    "options": [
+      "1815",
+      "221 p.n.e.",
+      "1494",
+      "1977"
+    ]
+  },
+  "history-x-36": {
+    "question": "Który szczegół wypełnia ten historyczny fakt: I wojna światowa rozpoczęła?",
+    "explanation": "Pierwsza wojna światowa rozpoczęła się w 1914 roku po kryzysie w lipcu.",
+    "options": [
+      "1914",
+      "1494",
+      "1977",
+      "476"
+    ]
+  },
+  "history-x-37": {
+    "question": "Który szczegół wypełnia ten historyczny fakt: Pierwsza stała angielska osada w Jamestown została założona?",
+    "explanation": "Jamestown został założony w Wirginii w 1607 roku.",
+    "options": [
+      "1607",
+      "1977",
+      "476",
+      "1066"
+    ]
+  },
+  "history-x-38": {
+    "question": "Który szczegół wypełnia ten historyczny fakt: Traktat z Versailles został podpisany?",
+    "explanation": "Traktat z Versailles został podpisany w 1919 roku.",
+    "options": [
+      "1919",
+      "476",
+      "1066",
+      "1666"
+    ]
+  },
+  "history-x-39": {
+    "question": "Który szczegół wypełnia ten historyczny fakt: Armicja kończąca walkę na zachodnim frontie w I wojnie światowej weszła w życie?",
+    "explanation": "Przyzwoitość weszła w życie 11 listopada 1918 roku.",
+    "options": [
+      "1918",
+      "1066",
+      "1666",
+      "1825"
+    ]
+  },
+  "history-x-40": {
+    "question": "Który szczegół wypełnia ten historyczny fakt: Pierwszym ludzkim obiektem dotarcia do Księżyca była Luna 2 w?",
+    "explanation": "Sowiecki statek kosmiczny Luna 2 dotarł do Księżyca w 1959 roku.",
+    "options": [
+      "1959",
+      "1666",
+      "1825",
+      "1896"
+    ]
+  },
+  "science-x-1": {
+    "question": "Jaki jest symbol chemiczny tlenu?",
+    "explanation": "O jest symbolem chemicznym tlenu.",
+    "options": [
+      "O",
+      "Au",
+      "Na",
+      "Fe"
+    ]
+  },
+  "science-x-2": {
+    "question": "Jaki jest symbol chemiczny złota?",
+    "explanation": "Au pochodzi z łacińskiego aurum.",
+    "options": [
+      "Au",
+      "C",
+      "Glukoza",
+      "Tlen"
+    ]
+  },
+  "science-x-3": {
+    "question": "Jaki jest symbol chemiczny sodu?",
+    "explanation": "Na pochodzi z łacińskiego natrium.",
+    "options": [
+      "Na",
+      "Jądro atomowe",
+      "DNA",
+      "Płytki krwionośne"
+    ]
+  },
+  "science-x-4": {
+    "question": "Jaki jest symbol chemiczny żelaza?",
+    "explanation": "Fe pochodzi z łacińskiej nazwy ferrum.",
+    "options": [
+      "Fe",
+      "7",
+      "Newton",
+      "Ampere"
+    ]
+  },
+  "science-x-5": {
+    "question": "Jaki jest symbol chemiczny węgla?",
+    "explanation": "C jest symbolem chemicznym węgla.",
+    "options": [
+      "C",
+      "Joule",
+      "Tarcie",
+      "Saturn"
+    ]
+  },
+  "science-x-6": {
+    "question": "Którego cukru produkują rośliny w trakcie fotosyntezy?",
+    "explanation": "Fotosynteza przechowuje energię w cukrach, takich jak glukoza.",
+    "options": [
+      "Glukoza",
+      "Rtęć",
+      "Księżyc",
+      "Gwiezdna gwiazda sekwencyjna"
+    ]
+  },
+  "science-x-7": {
+    "question": "Jaki gaz uwalniają rośliny podczas fotosyntezy?",
+    "explanation": "Tlen uwalniany jest jako produkt uboczny fotosyntezy.",
+    "options": [
+      "Tlen",
+      "Droga mleczna",
+      "Wat",
+      "Wyparowanie"
+    ]
+  },
+  "science-x-8": {
+    "question": "Która organelle zawiera większość DNA komórki eukaryotycznej?",
+    "explanation": "Większość eukaryotycznych DNA znajduje się w jądrze komórkowej.",
+    "options": [
+      "Jądro atomowe",
+      "Magma",
+      "Lawa",
+      "Kamizelka"
+    ]
+  },
+  "science-x-9": {
+    "question": "Która cząsteczka zawiera instrukcje genetyczne?",
+    "explanation": "DNA przechowuje dziedziczne informacje w komórkach.",
+    "options": [
+      "DNA",
+      "Uczeń.",
+      "Witamina D",
+      "Skóra"
+    ]
+  },
+  "science-x-10": {
+    "question": "Który składnik krwi pomaga w krzepnięciu?",
+    "explanation": "Płytki krwionośne pomagają tworzyć skrzepy w uszkodzonych naczyniach krwionośnych.",
+    "options": [
+      "Płytki krwionośne",
+      "Nerki",
+      "Tchawica",
+      "Pascal"
+    ]
+  },
+  "science-x-11": {
+    "question": "Jakie jest przybliżone pH neutralnej czystej wody w temperaturze pokojowej?",
+    "explanation": "Roztwory neutralne mają pH bliskie 7 w temperaturze pokojowej.",
+    "options": [
+      "7",
+      "Atom",
+      "Pozytywny",
+      "Neutralny"
+    ]
+  },
+  "science-x-12": {
+    "question": "Czym jest siła SI?",
+    "explanation": "Newton jest jednostką siły SI.",
+    "options": [
+      "Newton",
+      "Paleontologia",
+      "Skala mohsa",
+      "Sublimacja"
+    ]
+  },
+  "science-x-13": {
+    "question": "Co to jest jednostka SI prądu elektrycznego?",
+    "explanation": "Ampere to jednostka bazowa SI do prądu elektrycznego.",
+    "options": [
+      "Ampere",
+      "Stratosfera",
+      "Elastyczna energia potencjalna",
+      "Częstotliwość"
+    ]
+  },
+  "science-x-14": {
+    "question": "Co to jest jednostka SI energii?",
+    "explanation": "Joule jest jednostką SI energii.",
+    "options": [
+      "Joule",
+      "Na",
+      "Fe",
+      "C"
+    ]
+  },
+  "science-x-15": {
+    "question": "Jaka siła sprzeciwia się poruszaniu się między powierzchniami w kontakcie?",
+    "explanation": "Powierzchnia fryzury działa między powierzchniami i opiera się na względnym ruchu.",
+    "options": [
+      "Tarcie",
+      "Glukoza",
+      "Tlen",
+      "Jądro atomowe"
+    ]
+  },
+  "science-x-16": {
+    "question": "Na której planecie jest najpopularniejszy system pierścieniowy?",
+    "explanation": "Rozległe pierścienie Saturna są widoczne nawet z małym teleskopem.",
+    "options": [
+      "Saturn",
+      "DNA",
+      "Płytki krwionośne",
+      "7"
+    ]
+  },
+  "science-x-17": {
+    "question": "Która planeta jest najbliższa Słońcu?",
+    "explanation": "Mercury to najgłębsza planeta Układu Słonecznego.",
+    "options": [
+      "Rtęć",
+      "Newton",
+      "Ampere",
+      "Joule"
+    ]
+  },
+  "science-x-18": {
+    "question": "Czym jest naturalny satelita Ziemi?",
+    "explanation": "Księżyc to naturalny satelita Ziemi.",
+    "options": [
+      "Księżyc",
+      "Tarcie",
+      "Saturn",
+      "Rtęć"
+    ]
+  },
+  "science-x-19": {
+    "question": "Jakim typem gwiazdy jest Słońce?",
+    "explanation": "Słońce jest gwiazdą głównego sequencji typu G.",
+    "options": [
+      "Gwiezdna gwiazda sekwencyjna",
+      "Księżyc",
+      "Droga mleczna",
+      "Wat"
+    ]
+  },
+  "science-x-20": {
+    "question": "Która galaktyka zawiera nasz Układ Słoneczny?",
+    "explanation": "Nasz Układ Słoneczny leży w Galaktyce Drogi Mlecznej.",
+    "options": [
+      "Droga mleczna",
+      "Wyparowanie",
+      "Magma",
+      "Lawa"
+    ]
+  },
+  "science-x-21": {
+    "question": "Co to jest jednostka SI mocy?",
+    "explanation": "Wat jest jednostką zasilającą SI.",
+    "options": [
+      "Wat",
+      "Kamizelka",
+      "Uczeń.",
+      "Witamina D"
+    ]
+  },
+  "science-x-22": {
+    "question": "Czym jest proces, przez który płyn zmienia się na gaz na jego powierzchni?",
+    "explanation": "Odparowanie zmienia cząsteczki płynu powierzchniowego na parę.",
+    "options": [
+      "Wyparowanie",
+      "Skóra",
+      "Nerki",
+      "Tchawica"
+    ]
+  },
+  "science-x-23": {
+    "question": "Czym jest roztapiana skała pod powierzchnią Ziemi?",
+    "explanation": "Skała Molten pod powierzchnią nazywa się magma.",
+    "options": [
+      "Magma",
+      "Pascal",
+      "Atom",
+      "Pozytywny"
+    ]
+  },
+  "science-x-24": {
+    "question": "Czym jest roztapiana skała, która dociera do powierzchni Ziemi zwanej?",
+    "explanation": "Magma, która wybucha na powierzchni nazywa się lawa.",
+    "options": [
+      "Lawa",
+      "Neutralny",
+      "Paleontologia",
+      "Skala mohsa"
+    ]
+  },
+  "science-x-25": {
+    "question": "Która warstwa Ziemi jest najgrubsza?",
+    "explanation": "Płyta jest znacznie grubsza niż skorupa albo warstwa rdzenia.",
+    "options": [
+      "Kamizelka",
+      "Sublimacja",
+      "Stratosfera",
+      "Elastyczna energia potencjalna"
+    ]
+  },
+  "science-x-26": {
+    "question": "Która część oka zmienia rozmiar do regulacji przychodzącego światła?",
+    "explanation": "Tętnica zmienia wielkość uczniów w celu kontrolowania przychodzącego światła.",
+    "options": [
+      "Uczeń.",
+      "Au",
+      "Na",
+      "Fe"
+    ]
+  },
+  "science-x-27": {
+    "question": "Które witaminy mogą wytwarzać ludzką skórę z promieniowaniem słonecznym?",
+    "explanation": "Ekspozycja na UVB pozwala na syntetyzowanie witaminy D.",
+    "options": [
+      "Witamina D",
+      "C",
+      "Glukoza",
+      "Tlen"
+    ]
+  },
+  "science-x-28": {
+    "question": "Jaki jest największy organ ludzkiego ciała?",
+    "explanation": "Skóra jest największymi narządami ciała, według powierzchni i masy ciała.",
+    "options": [
+      "Skóra",
+      "Jądro atomowe",
+      "DNA",
+      "Płytki krwionośne"
+    ]
+  },
+  "science-x-29": {
+    "question": "Które narządy filtrują krew, by zrobić mocz?",
+    "explanation": "Nerki filtrują krew i regulują równowagę wody i elektrolitów.",
+    "options": [
+      "Nerki",
+      "7",
+      "Newton",
+      "Ampere"
+    ]
+  },
+  "science-x-30": {
+    "question": "Która struktura przenosi powietrze z gardła w płuca?",
+    "explanation": "Trachea prowadzi powietrze do oskrzeli i płuc.",
+    "options": [
+      "Tchawica",
+      "Joule",
+      "Tarcie",
+      "Saturn"
+    ]
+  },
+  "science-x-31": {
+    "question": "Jaka jest jednostka ciśnieniowa SI?",
+    "explanation": "Pascal jest jednostką ciśnienia uzyskaną przez SI.",
+    "options": [
+      "Pascal",
+      "Rtęć",
+      "Księżyc",
+      "Gwiezdna gwiazda sekwencyjna"
+    ]
+  },
+  "science-x-32": {
+    "question": "Jaka jest najmniejsza jednostka elementu, który zachowuje swoją tożsamość chemiczną?",
+    "explanation": "Atom jest najmniejszą jednostką zachowującą właściwości chemiczne pierwiastka.",
+    "options": [
+      "Atom",
+      "Droga mleczna",
+      "Wat",
+      "Wyparowanie"
+    ]
+  },
+  "science-x-33": {
+    "question": "Jaki zarzut ma proton?",
+    "explanation": "Protony niosą ładunek podstawowy.",
+    "options": [
+      "Pozytywny",
+      "Magma",
+      "Lawa",
+      "Kamizelka"
+    ]
+  },
+  "science-x-34": {
+    "question": "Jaki zarzut ma neutron?",
+    "explanation": "Neutrony nie posiadają ładunku elektrycznego netto.",
+    "options": [
+      "Neutralny",
+      "Uczeń.",
+      "Witamina D",
+      "Skóra"
+    ]
+  },
+  "science-x-35": {
+    "question": "Jaka jest nauka o skamieniałości?",
+    "explanation": "Paleontologia studiuje starożytne życie poprzez skamieniałości.",
+    "options": [
+      "Paleontologia",
+      "Nerki",
+      "Tchawica",
+      "Pascal"
+    ]
+  },
+  "science-x-36": {
+    "question": "Jaka skala jest powszechnie stosowana do pomiaru twardości mineralnej zadrapania?",
+    "explanation": "Skala Mohs porównuje odporność minerałów na drapanie.",
+    "options": [
+      "Skala mohsa",
+      "Atom",
+      "Pozytywny",
+      "Neutralny"
+    ]
+  },
+  "science-x-37": {
+    "question": "Jaka jest zmiana bezpośrednio na gaz?",
+    "explanation": "Sublimacja jest fazową zmianą z gazu stałego na gaz bez fazy ciekłej.",
+    "options": [
+      "Sublimacja",
+      "Paleontologia",
+      "Skala mohsa",
+      "Stratosfera"
+    ]
+  },
+  "science-x-38": {
+    "question": "W jakiej warstwie atmosferycznej znajduje się większość znalezionej warstwy ozonowej?",
+    "explanation": "Większość ozonu atmosferycznego jest skoncentrowana w stratosferze.",
+    "options": [
+      "Stratosfera",
+      "O",
+      "Au",
+      "Na"
+    ]
+  },
+  "science-x-39": {
+    "question": "Jaki rodzaj energii jest przechowywany w naciąganej sprężynie?",
+    "explanation": "Zdeformowana sprężyna sklepy elastyczna potencjalna energia.",
+    "options": [
+      "Elastyczna energia potencjalna",
+      "Fe",
+      "C",
+      "Glukoza"
+    ]
+  },
+  "science-x-40": {
+    "question": "Która właściwość fal jest mierzona w hertz?",
+    "explanation": "Hertz mierzy cykle na sekundę lub częstotliwość.",
+    "options": [
+      "Częstotliwość",
+      "Tlen",
+      "Jądro atomowe",
+      "DNA"
+    ]
+  },
+  "geography-x-capital-1": {
+    "question": "Jaka jest stolica Belgii?",
+    "explanation": "Bruksela jest stolicą Belgii.",
+    "options": [
+      "Bruksela",
+      "Kair",
+      "Ottawa",
+      "Canberra"
+    ]
+  },
+  "geography-x-capital-2": {
+    "question": "Jaka jest stolica Egiptu?",
+    "explanation": "Kairo jest stolicą Egiptu.",
+    "options": [
+      "Kair",
+      "Ottawa",
+      "Canberra",
+      "Brasília"
+    ]
+  },
+  "geography-x-capital-3": {
+    "question": "Jaka jest stolica Kanady?",
+    "explanation": "Ottawa jest stolicą Kanady.",
+    "options": [
+      "Ottawa",
+      "Canberra",
+      "Brasília",
+      "Buenos Aires"
+    ]
+  },
+  "geography-x-capital-4": {
+    "question": "Jaka jest stolica Australii?",
+    "explanation": "Canberra jest stolicą Australii.",
+    "options": [
+      "Canberra",
+      "Brasília",
+      "Buenos Aires",
+      "Santiago"
+    ]
+  },
+  "geography-x-capital-5": {
+    "question": "Jaka jest stolica Brazylii?",
+    "explanation": "Brasília jest stolicą Brazylii.",
+    "options": [
+      "Brasília",
+      "Buenos Aires",
+      "Santiago",
+      "Lima"
+    ]
+  },
+  "geography-x-capital-6": {
+    "question": "Jaka jest stolica Argentyny?",
+    "explanation": "Buenos Aires jest stolicą Argentyny.",
+    "options": [
+      "Buenos Aires",
+      "Santiago",
+      "Lima",
+      "Meksyk"
+    ]
+  },
+  "geography-x-capital-7": {
+    "question": "Jaka jest stolica Chile?",
+    "explanation": "Santiago jest stolicą Chile.",
+    "options": [
+      "Santiago",
+      "Lima",
+      "Meksyk",
+      "Hawana"
+    ]
+  },
+  "geography-x-capital-8": {
+    "question": "Jaka jest stolica Peru?",
+    "explanation": "Lima jest stolicą Peru.",
+    "options": [
+      "Lima",
+      "Meksyk",
+      "Hawana",
+      "Paryż"
+    ]
+  },
+  "geography-x-capital-9": {
+    "question": "Jaka jest stolica Meksyku?",
+    "explanation": "Meksyk jest stolicą Meksyku.",
+    "options": [
+      "Meksyk",
+      "Hawana",
+      "Paryż",
+      "Berlin"
+    ]
+  },
+  "geography-x-capital-10": {
+    "question": "Jaka jest stolica Kuby?",
+    "explanation": "Hawana jest stolicą Kuby.",
+    "options": [
+      "Hawana",
+      "Paryż",
+      "Berlin",
+      "Kopenhaga"
+    ]
+  },
+  "geography-x-capital-11": {
+    "question": "Jaka jest stolica Francji?",
+    "explanation": "Paryż jest stolicą Francji.",
+    "options": [
+      "Paryż",
+      "Berlin",
+      "Kopenhaga",
+      "Madryt"
+    ]
+  },
+  "geography-x-capital-12": {
+    "question": "Jaka jest stolica Niemiec?",
+    "explanation": "Berlin jest stolicą Niemiec.",
+    "options": [
+      "Berlin",
+      "Kopenhaga",
+      "Madryt",
+      "Lizbona"
+    ]
+  },
+  "geography-x-capital-13": {
+    "question": "Jaka jest stolica Danii?",
+    "explanation": "Kopenhaga jest stolicą Danii.",
+    "options": [
+      "Kopenhaga",
+      "Madryt",
+      "Lizbona",
+      "Oslo"
+    ]
+  },
+  "geography-x-capital-14": {
+    "question": "Jaka jest stolica Hiszpanii?",
+    "explanation": "Madryt jest stolicą Hiszpanii.",
+    "options": [
+      "Madryt",
+      "Lizbona",
+      "Oslo",
+      "Sztokholm"
+    ]
+  },
+  "geography-x-capital-15": {
+    "question": "Jaka jest stolica Portugalii?",
+    "explanation": "Lizbona jest stolicą Portugalii.",
+    "options": [
+      "Lizbona",
+      "Oslo",
+      "Sztokholm",
+      "Helsinki"
+    ]
+  },
+  "geography-x-capital-16": {
+    "question": "Jaka jest stolica Norwegii?",
+    "explanation": "Oslo jest stolicą Norwegii.",
+    "options": [
+      "Oslo",
+      "Sztokholm",
+      "Helsinki",
+      "Warszawa"
+    ]
+  },
+  "geography-x-capital-17": {
+    "question": "Jaka jest stolica Szwecji?",
+    "explanation": "Sztokholm jest stolicą Szwecji.",
+    "options": [
+      "Sztokholm",
+      "Helsinki",
+      "Warszawa",
+      "Ateny"
+    ]
+  },
+  "geography-x-capital-18": {
+    "question": "Jaka jest stolica Finlandii?",
+    "explanation": "Helsinki to stolica Finlandii.",
+    "options": [
+      "Helsinki",
+      "Warszawa",
+      "Ateny",
+      "Nairobi"
+    ]
+  },
+  "geography-x-capital-19": {
+    "question": "Jaka jest stolica Polski?",
+    "explanation": "Warszawa jest stolicą Polski.",
+    "options": [
+      "Warszawa",
+      "Ateny",
+      "Nairobi",
+      "Addis Ababa"
+    ]
+  },
+  "geography-x-capital-20": {
+    "question": "Jaka jest stolica Grecji?",
+    "explanation": "Ateny to stolica Grecji.",
+    "options": [
+      "Ateny",
+      "Nairobi",
+      "Addis Ababa",
+      "Akra"
+    ]
+  },
+  "geography-x-capital-21": {
+    "question": "Jaka jest stolica Kenii?",
+    "explanation": "Nairobi jest stolicą Kenii.",
+    "options": [
+      "Nairobi",
+      "Addis Ababa",
+      "Akra",
+      "Rabat"
+    ]
+  },
+  "geography-x-capital-22": {
+    "question": "Jaka jest stolica Etiopii?",
+    "explanation": "Addis Ababa jest stolicą Etiopii.",
+    "options": [
+      "Addis Ababa",
+      "Akra",
+      "Rabat",
+      "Abuja"
+    ]
+  },
+  "geography-x-capital-23": {
+    "question": "Jaka jest stolica Ghany?",
+    "explanation": "Astra jest stolicą Ghany.",
+    "options": [
+      "Akra",
+      "Rabat",
+      "Abuja",
+      "Bangkok"
+    ]
+  },
+  "geography-x-capital-24": {
+    "question": "Jaka jest stolica Maroka?",
+    "explanation": "Rabat jest stolicą Maroka.",
+    "options": [
+      "Rabat",
+      "Abuja",
+      "Bangkok",
+      "Hanoi"
+    ]
+  },
+  "geography-x-capital-25": {
+    "question": "Jaka jest stolica Nigerii?",
+    "explanation": "Abuja jest stolicą Nigerii.",
+    "options": [
+      "Abuja",
+      "Bangkok",
+      "Hanoi",
+      "Jakarta"
+    ]
+  },
+  "geography-x-capital-26": {
+    "question": "Jaka jest stolica Tajlandii?",
+    "explanation": "Bangkok jest stolicą Tajlandii.",
+    "options": [
+      "Bangkok",
+      "Hanoi",
+      "Jakarta",
+      "Kathmund"
+    ]
+  },
+  "geography-x-capital-27": {
+    "question": "Jaka jest stolica Wietnamu?",
+    "explanation": "Hanoi jest stolicą Wietnamu.",
+    "options": [
+      "Hanoi",
+      "Jakarta",
+      "Kathmund",
+      "Ulaanbaatar"
+    ]
+  },
+  "geography-x-capital-28": {
+    "question": "Jaka jest stolica Indonezji?",
+    "explanation": "Jakarta jest stolicą Indonezji.",
+    "options": [
+      "Jakarta",
+      "Kathmund",
+      "Ulaanbaatar",
+      "Wellington"
+    ]
+  },
+  "geography-x-capital-29": {
+    "question": "Jaka jest stolica Nepalu?",
+    "explanation": "Kathmund jest stolicą Nepalu.",
+    "options": [
+      "Kathmund",
+      "Ulaanbaatar",
+      "Wellington",
+      "Dublin"
+    ]
+  },
+  "geography-x-capital-30": {
+    "question": "Jaka jest stolica Mongolii?",
+    "explanation": "Ulaanbaatar jest stolicą Mongolii.",
+    "options": [
+      "Ulaanbaatar",
+      "Wellington",
+      "Dublin",
+      "Wiedeń"
+    ]
+  },
+  "geography-x-capital-31": {
+    "question": "Jaka jest stolica Nowej Zelandii?",
+    "explanation": "Wellington jest stolicą Nowej Zelandii.",
+    "options": [
+      "Wellington",
+      "Dublin",
+      "Wiedeń",
+      "Praga"
+    ]
+  },
+  "geography-x-capital-32": {
+    "question": "Jaka jest stolica Irlandii?",
+    "explanation": "Dublin jest stolicą Irlandii.",
+    "options": [
+      "Dublin",
+      "Wiedeń",
+      "Praga",
+      "Budapeszt"
+    ]
+  },
+  "geography-x-capital-33": {
+    "question": "Jaka jest stolica Austrii?",
+    "explanation": "Wiedeń jest stolicą Austrii.",
+    "options": [
+      "Wiedeń",
+      "Praga",
+      "Budapeszt",
+      "Bukareszt"
+    ]
+  },
+  "geography-x-capital-34": {
+    "question": "Jaka jest stolica Czech?",
+    "explanation": "Praga jest stolicą Czech.",
+    "options": [
+      "Praga",
+      "Budapeszt",
+      "Bukareszt",
+      "Reykjavík"
+    ]
+  },
+  "geography-x-capital-35": {
+    "question": "Jaka jest stolica Węgier?",
+    "explanation": "Budapeszt jest stolicą Węgier.",
+    "options": [
+      "Budapeszt",
+      "Bukareszt",
+      "Reykjavík",
+      "Ankara"
+    ]
+  },
+  "geography-x-capital-36": {
+    "question": "Jaka jest stolica Rumunii?",
+    "explanation": "Bukareszt jest stolicą Rumunii.",
+    "options": [
+      "Bukareszt",
+      "Reykjavík",
+      "Ankara",
+      "Islamabad"
+    ]
+  },
+  "geography-x-capital-37": {
+    "question": "Jaka jest stolica Islandii?",
+    "explanation": "Reykjavík jest stolicą Islandii.",
+    "options": [
+      "Reykjavík",
+      "Ankara",
+      "Islamabad",
+      "Dhaka"
+    ]
+  },
+  "geography-x-capital-38": {
+    "question": "Jaka jest stolica Turcji?",
+    "explanation": "Ankara jest stolicą Turcji.",
+    "options": [
+      "Ankara",
+      "Bruksela",
+      "Kair",
+      "Ottawa"
+    ]
+  },
+  "geography-x-capital-39": {
+    "question": "Jaka jest stolica Pakistanu?",
+    "explanation": "Islamabad jest stolicą Pakistanu.",
+    "options": [
+      "Islamabad",
+      "Kair",
+      "Ottawa",
+      "Canberra"
+    ]
+  },
+  "geography-x-capital-40": {
+    "question": "Jaka jest stolica Bangladeszu?",
+    "explanation": "Dhaka jest stolicą Bangladeszu.",
+    "options": [
+      "Dhaka",
+      "Ottawa",
+      "Canberra",
+      "Brasília"
+    ]
+  },
+  "geography-x-feature-1": {
+    "question": "Na którym kontynencie znajduje się przede wszystkim Sahara Desert?",
+    "explanation": "To ogromna gorąca pustynia w północnej Afryce.",
+    "options": [
+      "Afryka",
+      "Azja",
+      "Europa",
+      "Ameryka Północna"
+    ]
+  },
+  "geography-x-feature-2": {
+    "question": "Na którym kontynencie znajduje się przede wszystkim The Andes?",
+    "explanation": "Andy biegną wzdłuż zachodniej granicy Ameryki Południowej.",
+    "options": [
+      "Ameryka Południowa",
+      "Azja",
+      "Europa",
+      "Ameryka Północna"
+    ]
+  },
+  "geography-x-feature-3": {
+    "question": "Na którym kontynencie znajduje się przede wszystkim Alpy?",
+    "explanation": "Alpy są największym obszarem górskim w Europie Środkowej.",
+    "options": [
+      "Europa",
+      "Ameryka Północna",
+      "Ameryka Południowa",
+      "Australia"
+    ]
+  },
+  "geography-x-feature-4": {
+    "question": "Na którym kontynencie znajduje się przede wszystkim The Great Barrier Reef?",
+    "explanation": "Rafa leży przy północno-wschodnim wybrzeżu Australii.",
+    "options": [
+      "Australia",
+      "Afryka",
+      "Azja",
+      "Europa"
+    ]
+  },
+  "geography-x-feature-5": {
+    "question": "Na którym kontynencie znajduje się \"The Amazon River\"?",
+    "explanation": "Amazonka płynie przez północną Amerykę Południową.",
+    "options": [
+      "Ameryka Południowa",
+      "Azja",
+      "Europa",
+      "Ameryka Północna"
+    ]
+  },
+  "geography-x-feature-6": {
+    "question": "Na którym kontynencie znajduje się przede wszystkim Dunaj?",
+    "explanation": "Dunaj płynie przez Europę Środkową i Południowo-Wschodniej.",
+    "options": [
+      "Europa",
+      "Ameryka Północna",
+      "Ameryka Południowa",
+      "Australia"
+    ]
+  },
+  "geography-x-feature-7": {
+    "question": "Na którym kontynencie znajduje się przede wszystkim rzeka Nil?",
+    "explanation": "Nil płynie na północ przez północno-wschodnią Afrykę.",
+    "options": [
+      "Afryka",
+      "Azja",
+      "Europa",
+      "Ameryka Północna"
+    ]
+  },
+  "geography-x-feature-8": {
+    "question": "Na którym kontynencie znajduje się przede wszystkim Pustynia Gobi?",
+    "explanation": "Gobi są częścią Mongolii i północnych Chin.",
+    "options": [
+      "Azja",
+      "Europa",
+      "Ameryka Północna",
+      "Ameryka Południowa"
+    ]
+  },
+  "geography-x-feature-9": {
+    "question": "Na którym kontynencie znajduje się jezioro Baikal?",
+    "explanation": "Jezioro Baikal jest na Syberii, w Rosji.",
+    "options": [
+      "Azja",
+      "Ameryka Północna",
+      "Ameryka Południowa",
+      "Australia"
+    ]
+  },
+  "geography-x-feature-10": {
+    "question": "Na którym kontynencie znajduje się przede wszystkim Góry Skaliste?",
+    "explanation": "Rockies rozciągają się przez zachodnią Amerykę Północną.",
+    "options": [
+      "Ameryka Północna",
+      "Afryka",
+      "Azja",
+      "Europa"
+    ]
+  },
+  "language-x-vocab-1": {
+    "question": "Co oznacza „nieuchronny”?",
+    "explanation": "Abundant oznacza dużą ilość lub obecność w dużych ilościach.",
+    "options": [
+      "Existing in large quantities",
+      "Very old",
+      "Short in duration or length",
+      "Careful to avoid danger"
+    ]
+  },
+  "language-x-vocab-2": {
+    "question": "Co znaczy „starożytny”?",
+    "explanation": "Starożytny opisuje coś, co należy do odległej przeszłości.",
+    "options": [
+      "Very old",
+      "Easily broken or damaged",
+      "Willing to give or share",
+      "To pause before acting"
+    ]
+  },
+  "language-x-vocab-3": {
+    "question": "Co to znaczy?",
+    "explanation": "Krótkie oznacza trwanie krótkiego czasu lub używanie kilku słów.",
+    "options": [
+      "Short in duration or length",
+      "Having a sharp edge or strong interest",
+      "Faithful to a person or cause",
+      "To change something partly"
+    ]
+  },
+  "language-x-vocab-4": {
+    "question": "Co znaczy „ostrożny”?",
+    "explanation": "Ostrożne jest dbanie o zapobieganie ryzyku lub błędom.",
+    "options": [
+      "Careful to avoid danger",
+      "Exact and accurate",
+      "Able to be trusted",
+      "Limited in amount"
+    ]
+  },
+  "language-x-vocab-5": {
+    "question": "Co oznacza „dyminizowanie”?",
+    "explanation": "Niedobór oznacza zmniejszenie lub zmniejszenie.",
+    "options": [
+      "To make or become smaller",
+      "Empty or unoccupied",
+      "Very tired",
+      "To produce or give way"
+    ]
+  },
+  "language-x-vocab-6": {
+    "question": "Co znaczy „eager”?",
+    "explanation": "Eager opisuje silne zainteresowanie lub oczekiwanie.",
+    "options": [
+      "Very interested and excited",
+      "To join things together",
+      "To discover or notice",
+      "Completely necessary"
+    ]
+  },
+  "language-x-vocab-7": {
+    "question": "Co znaczy „fragile”?",
+    "explanation": "Kruche oznacza delikatne i prawdopodobnie pęknie.",
+    "options": [
+      "Easily broken or damaged",
+      "To point out or show",
+      "To keep in good condition",
+      "To happen"
+    ]
+  },
+  "language-x-vocab-8": {
+    "question": "Co znaczy „generalny”?",
+    "explanation": "Opisuje swobodne i obficie dawanie.",
+    "options": [
+      "Willing to give or share",
+      "Almost the same",
+      "To move from one place to another",
+      "Able to be seen"
+    ]
+  },
+  "language-x-vocab-9": {
+    "question": "Co znaczy „wzruszenie”?",
+    "explanation": "Wzruszanie oznacza krótkie zaprzestanie ze względu na niepewność.",
+    "options": [
+      "To pause before acting",
+      "Careful to avoid danger",
+      "To make or become smaller",
+      "Very interested and excited"
+    ]
+  },
+  "language-x-vocab-10": {
+    "question": "Co oznacza „naśladowanie”?",
+    "explanation": "Naśladowanie oznacza powielanie czyjegoś zachowania.",
+    "options": [
+      "To copy the actions or style of",
+      "To pause before acting",
+      "An act of traveling from one place to another",
+      "Having a sharp edge or strong interest"
+    ]
+  },
+  "language-x-vocab-11": {
+    "question": "Co oznacza „journey”?",
+    "explanation": "Podróż jest podróżą z punktu wyjścia do miejsca przeznaczenia.",
+    "options": [
+      "An act of traveling from one place to another",
+      "Many",
+      "Something that blocks progress",
+      "Exact and accurate"
+    ]
+  },
+  "language-x-vocab-12": {
+    "question": "Co to znaczy „keen”?",
+    "explanation": "Keen może oznaczać ostre lub bardzo interesujące, w zależności od kontekstu.",
+    "options": [
+      "Having a sharp edge or strong interest",
+      "Lasting for a limited time",
+      "Unlike anything else",
+      "Empty or unoccupied"
+    ]
+  },
+  "language-x-vocab-13": {
+    "question": "Co znaczy „lojalny”?",
+    "explanation": "Lojalne oznacza okazywanie trwałego wsparcia.",
+    "options": [
+      "Faithful to a person or cause",
+      "Correct in all details",
+      "An advantage or helpful result",
+      "To join things together"
+    ]
+  },
+  "language-x-vocab-14": {
+    "question": "Co oznacza „zmodyfikowanie”?",
+    "explanation": "Modyfikuj oznacza wprowadzenie ograniczonej zmiany.",
+    "options": [
+      "To change something partly",
+      "Happening often",
+      "Happening in small steps",
+      "To point out or show"
+    ]
+  },
+  "language-x-vocab-15": {
+    "question": "Co oznacza „liczna”?",
+    "explanation": "Liczne oznacza istnienie w dużej liczbie.",
+    "options": [
+      "Many",
+      "To allow",
+      "To need or demand",
+      "Almost the same"
+    ]
+  },
+  "language-x-vocab-16": {
+    "question": "Co oznacza „przekleństwo”?",
+    "explanation": "Przeszkodą jest przeszkoda lub trudności.",
+    "options": [
+      "Something that blocks progress",
+      "Very old",
+      "Short in duration or length",
+      "Careful to avoid danger"
+    ]
+  },
+  "language-x-vocab-17": {
+    "question": "Co oznacza „precyzyjne”?",
+    "explanation": "Precyzja oznacza dokładnie.",
+    "options": [
+      "Exact and accurate",
+      "Easily broken or damaged",
+      "Willing to give or share",
+      "To pause before acting"
+    ]
+  },
+  "language-x-vocab-18": {
+    "question": "Co oznacza „wiarygodne”?",
+    "explanation": "Wiarygodne opisy czegoś wiarygodnego.",
+    "options": [
+      "Able to be trusted",
+      "Having a sharp edge or strong interest",
+      "Faithful to a person or cause",
+      "To change something partly"
+    ]
+  },
+  "language-x-vocab-19": {
+    "question": "Co oznacza „skarce”?",
+    "explanation": "Scarce oznacza, że nie jest dużo i trudno go znaleźć.",
+    "options": [
+      "Limited in amount",
+      "Exact and accurate",
+      "Able to be trusted",
+      "Lasting for a limited time"
+    ]
+  },
+  "language-x-vocab-20": {
+    "question": "Co oznacza „tymczasowy”?",
+    "explanation": "Tymczasowy oznacza nie na stałe.",
+    "options": [
+      "Lasting for a limited time",
+      "Very tired",
+      "To produce or give way",
+      "Correct in all details"
+    ]
+  },
+  "language-x-vocab-21": {
+    "question": "Co oznacza „jeden”?",
+    "explanation": "Unikalny oznacza być jedynym w swoim rodzaju.",
+    "options": [
+      "Unlike anything else",
+      "To discover or notice",
+      "Completely necessary",
+      "Happening often"
+    ]
+  },
+  "language-x-vocab-22": {
+    "question": "Co znaczy „odstępca”?",
+    "explanation": "Vacant opisuje przestrzeń z nikim lub niczym.",
+    "options": [
+      "Empty or unoccupied",
+      "To keep in good condition",
+      "To happen",
+      "To allow"
+    ]
+  },
+  "language-x-vocab-23": {
+    "question": "Co znaczy „zmęczony”?",
+    "explanation": "Zmęczony to uczucie zmęczenia lub uczucie zmęczenia.",
+    "options": [
+      "Very tired",
+      "To move from one place to another",
+      "Able to be seen",
+      "To resist or endure"
+    ]
+  },
+  "language-x-vocab-24": {
+    "question": "Co to znaczy „żółto”?",
+    "explanation": "Zycie może oznaczać osiągnięcie rezultatu lub oddanie się.",
+    "options": [
+      "To produce or give way",
+      "To make or become smaller",
+      "Very interested and excited",
+      "Easily broken or damaged"
+    ]
+  },
+  "language-x-vocab-25": {
+    "question": "Co oznacza „dokładna”?",
+    "explanation": "Dokładne oznacza wolne od błędów.",
+    "options": [
+      "Correct in all details",
+      "To copy the actions or style of",
+      "An act of traveling from one place to another",
+      "Having a sharp edge or strong interest"
+    ]
+  },
+  "language-x-vocab-26": {
+    "question": "Co oznacza „korzyść”?",
+    "explanation": "Korzyści to coś, co poprawia sytuację.",
+    "options": [
+      "An advantage or helpful result",
+      "Many",
+      "Something that blocks progress",
+      "Exact and accurate"
+    ]
+  },
+  "language-x-vocab-27": {
+    "question": "Co oznacza „połączenie”?",
+    "explanation": "Łączenie oznacza połączenie oddzielnych części.",
+    "options": [
+      "To join things together",
+      "Lasting for a limited time",
+      "Unlike anything else",
+      "Empty or unoccupied"
+    ]
+  },
+  "language-x-vocab-28": {
+    "question": "Co znaczy „detekcja”?",
+    "explanation": "Wykrywanie oznacza znalezienie lub identyfikację czegoś nieoczywistego od razu.",
+    "options": [
+      "To discover or notice",
+      "Correct in all details",
+      "An advantage or helpful result",
+      "To join things together"
+    ]
+  },
+  "language-x-vocab-29": {
+    "question": "Co to znaczy „istotny”?",
+    "explanation": "Podstawowe oznacza podstawowe lub wymagane.",
+    "options": [
+      "Completely necessary",
+      "Happening in small steps",
+      "To point out or show",
+      "To keep in good condition"
+    ]
+  },
+  "language-x-vocab-30": {
+    "question": "Co oznacza „często ”?",
+    "explanation": "Częste środki występują w krótkich lub wielu odstępach czasu.",
+    "options": [
+      "Happening often",
+      "To need or demand",
+      "Almost the same",
+      "To move from one place to another"
+    ]
+  },
+  "language-x-vocab-31": {
+    "question": "Co oznacza „stopniowy”?",
+    "explanation": "Stopniowa opisuje zmianę, która następuje powoli w czasie.",
+    "options": [
+      "Happening in small steps",
+      "Short in duration or length",
+      "Careful to avoid danger",
+      "To make or become smaller"
+    ]
+  },
+  "language-x-vocab-32": {
+    "question": "Co znaczy „wskazać”?",
+    "explanation": "Określenie oznacza, że coś się o tym dowiadujemy lub wskażemy na to.",
+    "options": [
+      "To point out or show",
+      "Willing to give or share",
+      "To pause before acting",
+      "To copy the actions or style of"
+    ]
+  },
+  "language-x-vocab-33": {
+    "question": "Co znaczy „utrzymanie”?",
+    "explanation": "Utrzymanie środków do zachowania lub kontynuowania czegoś.",
+    "options": [
+      "To keep in good condition",
+      "Faithful to a person or cause",
+      "To change something partly",
+      "Many"
+    ]
+  },
+  "language-x-vocab-34": {
+    "question": "Co oznacza „okrągłe”?",
+    "explanation": "Occur to oznacza, że się zdarzy.",
+    "options": [
+      "To happen",
+      "Able to be trusted",
+      "Limited in amount",
+      "Lasting for a limited time"
+    ]
+  },
+  "language-x-vocab-35": {
+    "question": "Co to znaczy „zgoda”?",
+    "explanation": "Zezwolenie oznacza udzielenie pozwolenia.",
+    "options": [
+      "To allow",
+      "Very tired",
+      "To produce or give way",
+      "Correct in all details"
+    ]
+  },
+  "language-x-vocab-36": {
+    "question": "Co oznacza „zalecenie”?",
+    "explanation": "Potrzeba środków koniecznych lub nalegających.",
+    "options": [
+      "To need or demand",
+      "To discover or notice",
+      "Completely necessary",
+      "Happening often"
+    ]
+  },
+  "language-x-vocab-37": {
+    "question": "Co oznacza „podobne”?",
+    "explanation": "Podobne środki pod pewnymi względami.",
+    "options": [
+      "Almost the same",
+      "To keep in good condition",
+      "To happen",
+      "To allow"
+    ]
+  },
+  "language-x-vocab-38": {
+    "question": "Co oznacza „transfer”?",
+    "explanation": "Transfer oznacza przemieszczanie się lub przekazywanie czegoś.",
+    "options": [
+      "To move from one place to another",
+      "Existing in large quantities",
+      "Very old",
+      "Short in duration or length"
+    ]
+  },
+  "language-x-vocab-39": {
+    "question": "Co oznacza „widzialny”?",
+    "explanation": "Widoczne oznacza dostrzegalne przez wzrok.",
+    "options": [
+      "Able to be seen",
+      "Very interested and excited",
+      "Easily broken or damaged",
+      "Willing to give or share"
+    ]
+  },
+  "language-x-vocab-40": {
+    "question": "Co znaczy „niestawać”?",
+    "explanation": "Wycofanie się oznacza pozostanie nienaruszone siłą lub ciśnieniem.",
+    "options": [
+      "To resist or endure",
+      "An act of traveling from one place to another",
+      "Having a sharp edge or strong interest",
+      "Faithful to a person or cause"
+    ]
+  },
+  "it-x-concept-1": {
+    "question": "Jaki jest główny cel lub znaczenie procesora?",
+    "explanation": "Proces procesora i sterowanie wieloma operacjami komputerowymi.",
+    "options": [
+      "Wykonuje instrukcje i koordynuje operacje komputerowe",
+      "Tymczasowa pamięć robocza",
+      "Niewolne przechowywanie z użyciem pamięci o stanie stałym",
+      "Zarządza sprzętem i świadczy usługi dla aplikacji"
+    ]
+  },
+  "it-x-concept-2": {
+    "question": "Jaki jest główny cel lub znaczenie pamięci RAM?",
+    "explanation": "RAM przechowuje dane, które program aktywnie wykorzystuje; jest lotny.",
+    "options": [
+      "Tymczasowa pamięć robocza",
+      "Adres numeryczny używany do identyfikacji interfejsu sieciowego",
+      "Pakiety do przodu między sieciami",
+      "Język plotkarski dla strukturyzowania treści internetowych"
+    ]
+  },
+  "it-x-concept-3": {
+    "question": "Jaki jest główny cel lub znaczenie SSD?",
+    "explanation": "SSD przechowuje dane bez przemieszczania części mechanicznych.",
+    "options": [
+      "Niewolne przechowywanie z użyciem pamięci o stanie stałym",
+      "Rozproszony system kontroli wersji",
+      "Nagrywane migawki w historii kontroli wersji",
+      "Mobilna linia rozwoju"
+    ]
+  },
+  "it-x-concept-4": {
+    "question": "Jaki jest główny cel lub znaczenie systemu operacyjnego?",
+    "explanation": "System operacyjny koordynuje zasoby i oferuje wspólne usługi dla oprogramowania.",
+    "options": [
+      "Zarządza sprzętem i świadczy usługi dla aplikacji",
+      "Struktura, która może przyspieszyć wyszukiwanie danych",
+      "Przechowywanie czasowe danych wielokrotnego użytku",
+      "Transformowanie danych tak, że są odblokowane bez odpowiedniego klucza"
+    ]
+  },
+  "it-x-concept-5": {
+    "question": "Jaki jest główny cel lub znaczenie jądra?",
+    "explanation": "Jadro zarządza zasobami niskopoziomowymi, takimi jak pamięć i procesy.",
+    "options": [
+      "Podstawowy element systemu operacyjnego",
+      "Określony interfejs dla komponentów oprogramowania do komunikacji",
+      "Format tekstu dla ustrukturyzowanych danych",
+      "Nie znaleziono wymaganych zasobów"
+    ]
+  },
+  "it-x-concept-6": {
+    "question": "Jaki jest główny cel lub znaczenie HTTP?",
+    "explanation": "HTTP definiuje prośbę i komunikację na temat zasobów sieciowych.",
+    "options": [
+      "Protokół do przekazywania zasobów internetowych",
+      "Program, który wykonuje lub ocenia kod",
+      "Oprogramowanie, którego kod źródłowy jest dostępny na podstawie licencji",
+      "Mała część danych, którą strona internetowa przechowuje w przeglądarce"
+    ]
+  },
+  "it-x-concept-7": {
+    "question": "Jaki jest główny cel lub znaczenie HTTPS?",
+    "explanation": "HTTPS wykorzystuje TLS do ochrony komunikacji HTTP w tranzycie.",
+    "options": [
+      "HTTP chronione przez TLS",
+      "Protokół do przekazywania zasobów internetowych",
+      "System, który rozdziela nazwy domen na zapisy",
+      "Adres numeryczny używany do identyfikacji interfejsu sieciowego"
+    ]
+  },
+  "it-x-concept-8": {
+    "question": "Jaki jest główny cel DNS?",
+    "explanation": "DNS mapuje nazwy, takie jak nazwy domen, aby zapisywać, w tym adresy IP.",
+    "options": [
+      "System, który rozdziela nazwy domen na zapisy",
+      "JavaScript z systemem statycznym typu",
+      "Język do pracy z bazami danych relacjonalnych",
+      "Rozproszony system kontroli wersji"
+    ]
+  },
+  "it-x-concept-9": {
+    "question": "Jaki jest główny cel lub znaczenie adresu IP?",
+    "explanation": "Adres IP identyfikuje interfejsy dla pakietów routingowych w sieciach IP.",
+    "options": [
+      "Adres numeryczny używany do identyfikacji interfejsu sieciowego",
+      "Kolumna lub zbiór kolumn, które jednoznacznie określają wiersz",
+      "Pole odnoszące się do klucza w innej tabeli",
+      "Struktura, która może przyspieszyć wyszukiwanie danych"
+    ]
+  },
+  "it-x-concept-10": {
+    "question": "Jaki jest główny cel lub znaczenie routeru?",
+    "explanation": "Routery przesuwają pakiety między różnymi sieciami.",
+    "options": [
+      "Pakiety do przodu między sieciami",
+      "Złudna próba uzyskania wrażliwych informacji",
+      "System filtrujący ruch sieciowy według zasad",
+      "Określony interfejs dla komponentów oprogramowania do komunikacji"
+    ]
+  },
+  "it-x-concept-11": {
+    "question": "Jaki jest główny cel lub znaczenie HTML?",
+    "explanation": "HTML opisuje strukturę i znaczenie dokumentów internetowych.",
+    "options": [
+      "Język plotkarski dla strukturyzowania treści internetowych",
+      "Nazwana odwołanie do wartości",
+      "Program, który tłumaczy kod źródłowy",
+      "Program, który wykonuje lub ocenia kod"
+    ]
+  },
+  "it-x-concept-12": {
+    "question": "Jaki jest główny cel lub znaczenie CSS?",
+    "explanation": "CSS steruje prezentacją, taką jak układ, kolory i typografia.",
+    "options": [
+      "Język stylu do prezentacji dokumentów internetowych",
+      "Zarządza sprzętem i świadczy usługi dla aplikacji",
+      "Podstawowy element systemu operacyjnego",
+      "Protokół do przekazywania zasobów internetowych"
+    ]
+  },
+  "it-x-concept-13": {
+    "question": "Jaki jest główny cel lub znaczenie JavaScript?",
+    "explanation": "JavaScript jest powszechnie używany do dodania zachowań do stron internetowych.",
+    "options": [
+      "Język programowania wspierany przez przeglądarkę internetową",
+      "Język plotkarski dla strukturyzowania treści internetowych",
+      "Język stylu do prezentacji dokumentów internetowych",
+      "JavaScript z systemem statycznym typu"
+    ]
+  },
+  "it-x-concept-14": {
+    "question": "Jaki jest główny cel lub znaczenie TypeScript?",
+    "explanation": "TypeScript dodaje składnię i kompilacje do JavaScript.",
+    "options": [
+      "JavaScript z systemem statycznym typu",
+      "Łączenie zmian z różnych linii rozwoju",
+      "Sklep z danymi zawierający pliki projektowe i historię",
+      "Kolumna lub zbiór kolumn, które jednoznacznie określają wiersz"
+    ]
+  },
+  "it-x-concept-15": {
+    "question": "Jaki jest główny cel lub znaczenie SQL?",
+    "explanation": "SQL jest używany do zapytania i zarządzania względnymi danymi baz danych.",
+    "options": [
+      "Język do pracy z bazami danych relacjonalnych",
+      "Funkcja, która wyświetla dane wejściowe do trawienia o stałej długości",
+      "Używanie dwóch różnych typów czynników do weryfikacji tożsamości",
+      "Złudna próba uzyskania wrażliwych informacji"
+    ]
+  },
+  "it-x-concept-16": {
+    "question": "Jaki jest główny cel czy znaczenie Gita?",
+    "explanation": "Ślady Git zmieniają się na pliki za pomocą rozproszonego modelu repozytorium.",
+    "options": [
+      "Rozproszony system kontroli wersji",
+      "Wniosek został pomyślny",
+      "Struktura sterująca, która powtarza instrukcje",
+      "Nazwana odwołanie do wartości"
+    ]
+  },
+  "it-x-concept-17": {
+    "question": "Jaki jest główny cel lub znaczenie zobowiązania?",
+    "explanation": "Git remisuje rekordy projektu stan i związane z nimi metadane.",
+    "options": [
+      "Nagrywane migawki w historii kontroli wersji",
+      "Tymczasowa pamięć robocza",
+      "Niewolne przechowywanie z użyciem pamięci o stanie stałym",
+      "Zarządza sprzętem i świadczy usługi dla aplikacji"
+    ]
+  },
+  "it-x-concept-18": {
+    "question": "Jaki jest główny cel czy znaczenie Brancha?",
+    "explanation": "Oddział pozwala działać niezależnie, zanim zmiany zostaną zintegrowane.",
+    "options": [
+      "Mobilna linia rozwoju",
+      "Adres numeryczny używany do identyfikacji interfejsu sieciowego",
+      "Pakiety do przodu między sieciami",
+      "Język plotkarski dla strukturyzowania treści internetowych"
+    ]
+  },
+  "it-x-concept-19": {
+    "question": "Jaki jest główny cel lub znaczenie połączenia?",
+    "explanation": "Łączenie integruje historie lub zmiany z gałęzi.",
+    "options": [
+      "Łączenie zmian z różnych linii rozwoju",
+      "Rozproszony system kontroli wersji",
+      "Nagrywane migawki w historii kontroli wersji",
+      "Mobilna linia rozwoju"
+    ]
+  },
+  "it-x-concept-20": {
+    "question": "Jaki jest główny cel lub znaczenie repozytorium?",
+    "explanation": "Repozytorium kontroli wersji przechowuje zawartość projektu i jego historię.",
+    "options": [
+      "Sklep z danymi zawierający pliki projektowe i historię",
+      "Przechowywanie czasowe danych wielokrotnego użytku",
+      "Transformowanie danych tak, że są odblokowane bez odpowiedniego klucza",
+      "Funkcja, która wyświetla dane wejściowe do trawienia o stałej długości"
+    ]
+  },
+  "it-x-concept-21": {
+    "question": "Jaki jest główny cel lub znaczenie klucza pierwotnego?",
+    "explanation": "Główny klucz jednoznacznie określa każdy wiersz w tabeli względnej.",
+    "options": [
+      "Kolumna lub zbiór kolumn, które jednoznacznie określają wiersz",
+      "Format tekstu dla ustrukturyzowanych danych",
+      "Nie znaleziono wymaganych zasobów",
+      "Wniosek został pomyślny"
+    ]
+  },
+  "it-x-concept-22": {
+    "question": "Jaki jest główny cel lub znaczenie klucza zagranicznego?",
+    "explanation": "Zagraniczny klucz stanowi związek między tablicami baz danych.",
+    "options": [
+      "Pole odnoszące się do klucza w innej tabeli",
+      "Oprogramowanie, którego kod źródłowy jest dostępny na podstawie licencji",
+      "Mała część danych, którą strona internetowa przechowuje w przeglądarce",
+      "Pojemność połączenia komunikacyjnego do przewozu danych"
+    ]
+  },
+  "it-x-concept-23": {
+    "question": "Jaki jest główny cel lub znaczenie wskaźnika?",
+    "explanation": "Indeks bazy danych może przyspieszyć odczyt, z kosztami przechowywania i zapisu.",
+    "options": [
+      "Struktura, która może przyspieszyć wyszukiwanie danych",
+      "HTTP chronione przez TLS",
+      "System, który rozdziela nazwy domen na zapisy",
+      "Adres numeryczny używany do identyfikacji interfejsu sieciowego"
+    ]
+  },
+  "it-x-concept-24": {
+    "question": "Jaki jest pierwotny cel lub znaczenie Cache?",
+    "explanation": "Podręcznik przechowuje kopie danych w celu ograniczenia powtarzanej pracy lub opóźnienia.",
+    "options": [
+      "Przechowywanie czasowe danych wielokrotnego użytku",
+      "JavaScript z systemem statycznym typu",
+      "Język do pracy z bazami danych relacjonalnych",
+      "Rozproszony system kontroli wersji"
+    ]
+  },
+  "it-x-concept-25": {
+    "question": "Jaki jest główny cel lub znaczenie Szyfrowania?",
+    "explanation": "Szyfrowanie chroni poufność poprzez wymaganie odzyskiwania klucza.",
+    "options": [
+      "Transformowanie danych tak, że są odblokowane bez odpowiedniego klucza",
+      "Kolumna lub zbiór kolumn, które jednoznacznie określają wiersz",
+      "Pole odnoszące się do klucza w innej tabeli",
+      "Struktura, która może przyspieszyć wyszukiwanie danych"
+    ]
+  },
+  "it-x-concept-26": {
+    "question": "Jaki jest główny cel lub znaczenie funkcji Hasz?",
+    "explanation": "Hash kryptograficzny wytwarza wyjście o stałym rozmiarze z arbitralnego wejścia.",
+    "options": [
+      "Funkcja, która wyświetla dane wejściowe do trawienia o stałej długości",
+      "System filtrujący ruch sieciowy według zasad",
+      "Określony interfejs dla komponentów oprogramowania do komunikacji",
+      "Format tekstu dla ustrukturyzowanych danych"
+    ]
+  },
+  "it-x-concept-27": {
+    "question": "Jaki jest pierwotny cel lub znaczenie uwierzytelniania dwuczynnikowego?",
+    "explanation": "Uwierzytelnianie dwuczynnikowe łączy różne typy dowodów, takie jak hasło i kod urządzenia.",
+    "options": [
+      "Używanie dwóch różnych typów czynników do weryfikacji tożsamości",
+      "Program, który tłumaczy kod źródłowy",
+      "Program, który wykonuje lub ocenia kod",
+      "Oprogramowanie, którego kod źródłowy jest dostępny na podstawie licencji"
+    ]
+  },
+  "it-x-concept-28": {
+    "question": "Jaki jest główny cel i znaczenie Płaszczu?",
+    "explanation": "Oszukiwanie ludzi do ujawniania danych lub innych informacji.",
+    "options": [
+      "Złudna próba uzyskania wrażliwych informacji",
+      "Podstawowy element systemu operacyjnego",
+      "Protokół do przekazywania zasobów internetowych",
+      "HTTP chronione przez TLS"
+    ]
+  },
+  "it-x-concept-29": {
+    "question": "Jaki jest główny cel lub znaczenie Firewallu?",
+    "explanation": "Zapora zaporowa pozwala lub blokuje ruch zgodnie z skonfigurowaną polityką.",
+    "options": [
+      "System filtrujący ruch sieciowy według zasad",
+      "Język stylu do prezentacji dokumentów internetowych",
+      "Język programowania wspierany przez przeglądarkę internetową",
+      "JavaScript z systemem statycznym typu"
+    ]
+  },
+  "it-x-concept-30": {
+    "question": "Jaki jest główny cel lub znaczenie API?",
+    "explanation": "API określa sposób, w jaki składniki oprogramowania mogą żądać usług lub wymieniać dane.",
+    "options": [
+      "Określony interfejs dla komponentów oprogramowania do komunikacji",
+      "Łączenie zmian z różnych linii rozwoju",
+      "Sklep z danymi zawierający pliki projektowe i historię",
+      "Kolumna lub zbiór kolumn, które jednoznacznie określają wiersz"
+    ]
+  },
+  "it-x-concept-31": {
+    "question": "Jaki jest pierwotny cel lub znaczenie JSON?",
+    "explanation": "JSON reprezentuje ustrukturyzowane dane przy użyciu obiektów, tablic i prymitywnych wartości.",
+    "options": [
+      "Format tekstu dla ustrukturyzowanych danych",
+      "Funkcja, która wyświetla dane wejściowe do trawienia o stałej długości",
+      "Używanie dwóch różnych typów czynników do weryfikacji tożsamości",
+      "Złudna próba uzyskania wrażliwych informacji"
+    ]
+  },
+  "it-x-concept-32": {
+    "question": "Jaki jest pierwotny cel lub znaczenie HTTP 404?",
+    "explanation": "Status HTTP 404 wskazuje, że nie znaleziono docelowego źródła.",
+    "options": [
+      "Nie znaleziono wymaganych zasobów",
+      "Struktura sterująca, która powtarza instrukcje",
+      "Nazwana odwołanie do wartości",
+      "Program, który tłumaczy kod źródłowy"
+    ]
+  },
+  "it-x-concept-33": {
+    "question": "Jaki jest pierwotny cel lub znaczenie HTTP 200?",
+    "explanation": "Status HTTP 200 wskazuje na pomyślną prośbę.",
+    "options": [
+      "Wniosek został pomyślny",
+      "Niewolne przechowywanie z użyciem pamięci o stanie stałym",
+      "Zarządza sprzętem i świadczy usługi dla aplikacji",
+      "Podstawowy element systemu operacyjnego"
+    ]
+  },
+  "it-x-concept-34": {
+    "question": "Jaki jest główny cel czy znaczenie pętli?",
+    "explanation": "Pętla powtarza blok kodu, podczas gdy pozwala na to warunek lub zasada iteracji.",
+    "options": [
+      "Struktura sterująca, która powtarza instrukcje",
+      "Pakiety do przodu między sieciami",
+      "Język plotkarski dla strukturyzowania treści internetowych",
+      "Język stylu do prezentacji dokumentów internetowych"
+    ]
+  },
+  "it-x-concept-35": {
+    "question": "Jaki jest pierwotny cel lub znaczenie zmiennej?",
+    "explanation": "Zmienna nadaje program nazwę, przez którą może uzyskać dostęp do wartości.",
+    "options": [
+      "Nazwana odwołanie do wartości",
+      "Nagrywane migawki w historii kontroli wersji",
+      "Mobilna linia rozwoju",
+      "Łączenie zmian z różnych linii rozwoju"
+    ]
+  },
+  "it-x-concept-36": {
+    "question": "Jaki jest główny cel lub znaczenie Consumera?",
+    "explanation": "Kompilator tłumaczy kod źródłowy na inną formę, często kod maszynowy lub kod bajtowy.",
+    "options": [
+      "Program, który tłumaczy kod źródłowy",
+      "Przechowywanie czasowe danych wielokrotnego użytku",
+      "Transformowanie danych tak, że są odblokowane bez odpowiedniego klucza",
+      "Funkcja, która wyświetla dane wejściowe do trawienia o stałej długości"
+    ]
+  },
+  "it-x-concept-37": {
+    "question": "Jaki jest główny cel lub znaczenie tłumacza ustnego?",
+    "explanation": "Tłumacznik ocenia instrukcje programu, często podczas pracy programu.",
+    "options": [
+      "Program, który wykonuje lub ocenia kod",
+      "Format tekstu dla ustrukturyzowanych danych",
+      "Nie znaleziono wymaganych zasobów",
+      "Wniosek został pomyślny"
+    ]
+  },
+  "it-x-concept-38": {
+    "question": "Jaki jest główny cel lub znaczenie oprogramowania open-source?",
+    "explanation": "Licencje open-source przyznają prawo do korzystania z, kontroli, a często modyfikują i dzielą się kodem źródłowym.",
+    "options": [
+      "Oprogramowanie, którego kod źródłowy jest dostępny na podstawie licencji",
+      "Wykonuje instrukcje i koordynuje operacje komputerowe",
+      "Tymczasowa pamięć robocza",
+      "Niewolne przechowywanie z użyciem pamięci o stanie stałym"
+    ]
+  },
+  "it-x-concept-39": {
+    "question": "Jaki jest główny cel lub znaczenie Cookie?",
+    "explanation": "Cookies pozwalają stronie internetowej na przechowywanie danych związanych z przeglądarką.",
+    "options": [
+      "Mała część danych, którą strona internetowa przechowuje w przeglądarce",
+      "System, który rozdziela nazwy domen na zapisy",
+      "Adres numeryczny używany do identyfikacji interfejsu sieciowego",
+      "Pakiety do przodu między sieciami"
+    ]
+  },
+  "it-x-concept-40": {
+    "question": "Jaki jest główny cel lub znaczenie przepustowości?",
+    "explanation": "Widoczność opisuje zdolność transmisji danych łącza w czasie.",
+    "options": [
+      "Pojemność połączenia komunikacyjnego do przewozu danych",
+      "Język do pracy z bazami danych relacjonalnych",
+      "Rozproszony system kontroli wersji",
+      "Nagrywane migawki w historii kontroli wersji"
+    ]
+  }
+}

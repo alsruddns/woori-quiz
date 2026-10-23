@@ -239,7 +239,7 @@ describe("generated question localizations", () => {
       const originals = await loadQuestionBankForCategory(category);
       const prefix = category === "math" ? "math-x-" : category === "brain" ? "brain-x-pattern-" : category === "geography" ? "geography-x-" : "language-x-vocab-";
       const generated = originals.filter((question) => question.id.startsWith(prefix));
-      for (const locale of publishedLocales.filter((item) => item !== "en" && item !== "ru" && item !== "tr")) {
+      for (const locale of publishedLocales.filter((item) => item !== "en" && item !== "ru" && item !== "tr" && item !== "pl")) {
         const localized = await loadQuestionBankForCategory(category, locale);
         expect(localized).toHaveLength(originals.length);
         for (const original of generated) {
@@ -261,7 +261,7 @@ describe("generated question localizations", () => {
     const originals = await loadQuestionBankForCategory("technology");
     const generated = originals.filter((question) => question.id.startsWith("it-x-concept-"));
     expect(generated).toHaveLength(40);
-    for (const locale of publishedLocales.filter((item) => item !== "en" && item !== "ru" && item !== "tr")) {
+    for (const locale of publishedLocales.filter((item) => item !== "en" && item !== "ru" && item !== "tr" && item !== "pl")) {
       const localized = await loadQuestionBankForCategory("technology", locale);
       for (const original of generated) {
         const translated = localized.find((question) => question.id === original.id)!;
@@ -278,7 +278,7 @@ describe("generated question localizations", () => {
   it("localizes historical events while preserving dates and answer indexes", async () => {
     const originals = (await loadQuestionBankForCategory("history")).filter((question) => question.id.startsWith("history-x-"));
     expect(originals).toHaveLength(40);
-    for (const locale of publishedLocales.filter((item) => item !== "en" && item !== "ru" && item !== "tr")) {
+    for (const locale of publishedLocales.filter((item) => item !== "en" && item !== "ru" && item !== "tr" && item !== "pl")) {
       const translated = await loadQuestionBankForCategory("history", locale);
       for (const original of originals) {
         const question = translated.find((item) => item.id === original.id)!;
@@ -297,7 +297,7 @@ describe("generated question localizations", () => {
   it("translates science facts and choices with intact chemical symbols", async () => {
     const originals = (await loadQuestionBankForCategory("science")).filter((question) => question.id.startsWith("science-x-"));
     expect(originals).toHaveLength(40);
-    for (const locale of publishedLocales.filter((item) => item !== "en" && item !== "ru" && item !== "tr")) {
+    for (const locale of publishedLocales.filter((item) => item !== "en" && item !== "ru" && item !== "tr" && item !== "pl")) {
       const translated = await loadQuestionBankForCategory("science", locale);
       for (const original of originals) {
         const question = translated.find((item) => item.id === original.id)!;
