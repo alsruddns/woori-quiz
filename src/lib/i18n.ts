@@ -6,6 +6,9 @@ export const localeExpansionTargets = [
   ...locales,
   "ru", "tr", "pl", "fil", "bn", "uk", "ms", "sv", "cs", "ro", "el",
 ] as const;
+export type TargetLocale = (typeof localeExpansionTargets)[number];
+export type ExpansionLocale = Exclude<TargetLocale, Locale>;
+export const excludedExpansionLocales = ["ar", "ur", "fa", "he"] as const;
 // Only these locales currently meet the full catalog publication gate.
 export const publishedLocales = ["ko", "en", "ja", "zh", "es", "pt-br", "de", "fr", "vi", "id", "th", "zh-tw", "it", "nl", "hi"] as const satisfies readonly Locale[];
 export const localeNames: Record<Locale, string> = { ko:"한국어", en:"English", ja:"日本語", zh:"简体中文", es:"Español", "pt-br":"Português (Brasil)", de:"Deutsch", fr:"Français", vi:"Tiếng Việt", id:"Bahasa Indonesia", th:"ไทย", "zh-tw":"繁體中文", it:"Italiano", nl:"Nederlands", hi:"हिन्दी" };

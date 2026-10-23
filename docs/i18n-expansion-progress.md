@@ -7,6 +7,7 @@ Progress is measured from the source catalog and localization quality checks. A 
 - Repository identified as **Woori Quiz** (`woori-quiz`, branch `develop`).
 - Target: 26 locales: existing `ko`, `en`, `ja`, `zh`, `es`, `pt-br`, `de`, `fr`, `vi`, `id`, `th`, `zh-tw`, `it`, `nl`, `hi`, plus new `ru`, `tr`, `pl`, `fil`, `bn`, `uk`, `ms`, `sv`, `cs`, `ro`, `el`.
 - Explicitly excluded from this expansion: `ar`, `ur`, `fa`, `he`. No staged catalogs for these locales were found; they are not in route, selector, or publication registries.
+- Locale typing now exposes `TargetLocale` and `ExpansionLocale` separately from active `Locale`, with the excluded codes tracked independently. Tests guard that excluded locales do not re-enter the target set.
 - Quiz registry: 96 entries, 58 public quizzes, 38 closed entries.
 - Shared question bank: 621 records. UI, route and publication completion is counted separately from question data.
 - 15 locales are currently published: Korean, English, Japanese, Simplified Chinese, Spanish, Brazilian Portuguese, German, French, Vietnamese, Indonesian, Thai, Traditional Chinese, Italian, Dutch, and Hindi. Sitemap contains 885 URLs (15 list pages and 870 detail pages).
