@@ -1,8 +1,16 @@
 import type { MathPhrases } from "../math-patterns";
+
 export const phrases: MathPhrases = {
-  sum: (a,b) => `${a} + ${b} 等于多少？`, product: (a,b) => `${a} × ${b} 等于多少？`,
-  equation: (a,b,c) => `求方程 ${a}x + ${b} = ${c} 中 x 的值。`, equationWhy: (a,b,x) => `先减去 ${b}，再除以 ${a}，得到 x = ${x}。`,
-  percent: (p,n) => `${n} 的 ${p}% 是多少？`, percentWhy: (n,p,x) => `${n} × ${p} ÷ 100 = ${x}。`,
-  sequence: (s) => `数列 ${s}, __ 的下一项是多少？`, sequenceWhy: (n,x) => `各项是连续平方数的 ${n} 倍。下一项是 5² × ${n} = ${x}。`,
-  combination: (n) => `从 ${n} 个不同物品中选出两个，有多少种选法？`, combinationWhy: (n,x) => `组合数为 C(${n}, 2) = ${n} × ${n-1} ÷ 2 = ${x}。`,
+  sum: (a, b) => `${a} + ${b} 等于多少？`,
+  sumWhy: (a, b, answer) => `${a} + ${b} = ${answer}。`,
+  product: (a, b) => `${a} × ${b} 等于多少？`,
+  productWhy: (a, b, answer) => `${a} × ${b} = ${answer}。`,
+  equation: (a, b, c) => `解方程：${a}x + ${b} = ${c}，求 x。`,
+  equationWhy: (a, b, x) => `等式两边先减去 ${b}，再除以 ${a}，得到 x = ${x}。`,
+  percent: (percent, amount) => `${amount} 的 ${percent}% 是多少？`,
+  percentWhy: (amount, percent, answer) => `${amount} × ${percent} ÷ 100 = ${answer}。`,
+  sequence: (terms) => `数列 ${terms}, __ 的下一个数是多少？`,
+  sequenceWhy: (factor, answer) => `数列各项都是 ${factor} 的倍数。下一项是 25 × ${factor} = ${answer}。`,
+  combination: (count) => `从 ${count} 个物品中选出 2 个，有多少种组合？`,
+  combinationWhy: (count, answer) => `${count}C2 = ${count} × (${count} − 1) ÷ 2 = ${answer}。`,
 };

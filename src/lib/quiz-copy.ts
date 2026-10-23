@@ -129,6 +129,11 @@ const mathPromptCopy: Record<Locale, { findX: string; decimal: string }> = {
 };
 
 export function localizeMathPrompt(locale: Locale, prompt: string): string {
+  if (locale === "zh") {
+    const percentage = prompt.match(/^(\d+(?:[.,]\d+)?)% of (\d+(?:[.,]\d+)?) = \?$/);
+    if (percentage) return `${percentage[2]} 的 ${percentage[1]}% 是多少？`;
+    return prompt.replace("What is x?", "求 x 的值。").replace("(decimal)", "(小数)");
+  }
   if (locale === "ja") {
     const percentage = prompt.match(/^(\d+(?:[.,]\d+)?)% of (\d+(?:[.,]\d+)?) = \?$/);
     if (percentage) return `${percentage[2]} の ${percentage[1]}% はいくつですか？`;

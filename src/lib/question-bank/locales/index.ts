@@ -127,8 +127,10 @@ export async function generatedCopiesForLocale(
       if (copy) copies.set(question.id, copy);
     }
   }
-  if (locale === "ja") {
-    const { default: questionCopies } = await import("./ja/question-bank.json") as { default: Record<string, QuestionLocaleCopy> };
+  if (locale === "ja" || locale === "zh") {
+    const { default: questionCopies } = locale === "ja"
+      ? await import("./ja/question-bank.json") as { default: Record<string, QuestionLocaleCopy> }
+      : await import("./zh/question-bank.json") as { default: Record<string, QuestionLocaleCopy> };
     for (const question of questions) {
       const copy = questionCopies[question.id];
       if (copy) copies.set(question.id, copy);
