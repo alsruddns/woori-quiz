@@ -54,8 +54,8 @@ describe("Malay published runtime", () => {
     const xml = await (await GET()).text();
     expect(xml).toContain("https://www.woori.today/ms/quiz");
     expect(xml).toContain("https://www.woori.today/ms/quiz/general-knowledge");
-    expect(xml).not.toContain("/sv/");
+    expect(xml).toContain("https://www.woori.today/sv/quiz");
     expect(xml).not.toContain("/ar/");
-    expect((xml.match(/<loc>/g) ?? []).length).toBe(1298);
+    expect((xml.match(/<loc>/g) ?? []).length).toBe(1357);
   }, 60000);
 });

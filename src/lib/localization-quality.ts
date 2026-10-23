@@ -146,6 +146,21 @@ const bengaliInvariantChoices = new Set([
   "1325 CE", "221 BCE", "490 BCE", "C", "O", "S", "T", "U", "V", "DNA", "CSS", "HTML", "SQL", "PNG",
   ".png", ".mp3", ".csv", ".exe",
 ]);
+const swedishInvariantChoices = new Set([
+  "Aluminium", "Ampere", "Argon", "Barometer", "Badminton", "Beagle", "Buchaechum",
+  "Buzz Aldrin", "Cello", "Chuseok", "England", "Galileo", "Gayageum", "Hangul", "Hanok",
+  "Helium", "Hygrometer", "Isaac Newton", "Johannes Gutenberg", "John Glenn", "Joule",
+  "Jupiter", "Kenya", "Kimchi", "Kyoto", "Lava", "Marco Polo", "Mars", "Mayflower",
+  "Meter", "Michelangelo", "Magma", "Neutron", "Newton", "Ondol", "Osaka", "Origami",
+  "Pentagon", "Pascal", "Peru", "Piano", "Proxima Centauri", "Proton", "Rugby", "Sapporo",
+  "Santa Maria", "Seine", "Seoul", "Sudan", "Tanzania", "Tokyo", "Uganda", "Venus",
+  "Vitamin C", "Vitamin D", "Watt", "Yen", "Yuri Gagarin", "Antonio Vivaldi", "Chuseok",
+  "Antonio Vivaldi", "Buzz Aldrin", "Neil Armstrong", "John Glenn", "Yuri Gagarin",
+  "Roman Empire", "Mongol Empire", "Mali Empire", "Inca Empire", "Endeavour", "Router",
+  "Uniform Resource Locator", "SQL", "HTML", "CSS", "PNG", "DNA", "NaCl", "Au", "Na", "Fe", "O",
+  "C", "S", "T", "U", "V", "Neutral", "Magnetism", "Proxima Centauri", "Cello",
+  "Tennis", "Badminton", "Ssireum", "Won", "Vitamin C", "Vitamin D", "Argon", "Helium",
+]);
 const malayInvariantChoices = new Set([
   "Aluminium", "Ampere", "Antonio Vivaldi", "Argon", "Asia", "Australia", "Austria", "Badminton",
   "Barometer", "Buchaechum", "Buzz Aldrin", "Chuseok", "Danube", "Denmark", "Ethiopia",
@@ -172,6 +187,7 @@ function isPreservedChoice(question: QuizQuestion, value: string, locale: Locale
   if (locale === "bn" && bengaliInvariantChoices.has(value)) return true;
   if (locale === "uk" && ukrainianInvariantChoices.has(value)) return true;
   if (locale === "ms" && malayInvariantChoices.has(value)) return true;
+  if (locale === "sv" && swedishInvariantChoices.has(value)) return true;
   if (locale === "es" && spanishInvariantChoices.has(value)) return true;
   if (locale === "pt-br" && brazilianPortugueseInvariantChoices.has(value)) return true;
   if (locale === "de" && germanInvariantChoices.has(value)) return true;
@@ -199,7 +215,7 @@ function hasLocalizedLabel(locale: Locale, key: string, value: string, english: 
   if (/[\uFFFD]|\?{2,}/u.test(value)) return false;
   if (differentFromEnglish(value, english)) return true;
   const sharedLabels: Partial<Record<Locale, Record<string, string>>> = {
-    es: { title: "Quiz" }, "pt-br": { title: "Quiz" }, de: { title: "Quiz" },
+    es: { title: "Quiz" }, "pt-br": { title: "Quiz" }, de: { title: "Quiz" }, sv: { title: "Quiz" },
     fr: { title: "Quiz", question: "Question", contact: "Contact", score: "Score" },
     it: { title: "Quiz", home: "Home", privacy: "Privacy" },
     nl: { title: "Quiz", home: "Home", privacy: "Privacy", contact: "Contact", score: "Score" },
