@@ -48,8 +48,18 @@ function isNeutral(value: string): boolean {
   return /^[\s\p{N}\p{S}\p{P}]+$/u.test(value);
 }
 
-function isPreservedChoice(question: QuizQuestion, value: string): boolean {
+const spanishInvariantChoices = new Set([
+  "Antonio Vivaldi", "Asia", "Australia", "Austria", "Beagle", "Buchaechum", "Buzz Aldrin",
+  "Chuseok", "Galileo", "Gayageum", "Hangul", "Hanok", "Isaac Newton", "Johannes Gutenberg",
+  "John Glenn", "Kimchi", "Lava", "Magma", "Marco Polo", "Mayflower", "Neil Armstrong",
+  "Newton", "No", "Ondol", "Origami", "Osaka", "Pascal", "Persia", "Piano",
+  "Proxima Centauri", "Rugby", "Sapporo", "Ssireum", "Tanzania", "Uganda", "Venus",
+  "Yen", "Yuri Gagarin",
+]);
+
+function isPreservedChoice(question: QuizQuestion, value: string, locale: Locale): boolean {
   if (isNeutral(value)) return true;
+  if (locale === "es" && spanishInvariantChoices.has(value)) return true;
   if (question.category === "language") return true;
   if (question.category === "brain" && /^[A-Z]$/.test(value)) return true;
   if (/^[\d,.]+\s?(?:°[CF]|km\/s)$/.test(value)) return true;
@@ -171,7 +181,7 @@ async function localeContentIsComplete(locale: Locale): Promise<boolean> {
         const result = questionCopyResultForLocale(question, locale);
         if (result.questionIsFallback && !isNeutral(result.value.question)) return false;
         if (question.options.some((option, index) =>
-          result.optionFallbacks[index] && !isPreservedChoice(question, option),
+          result.optionFallbacks[index] && !isPreservedChoice(question, option, locale),
         )) return false;
         if (!isNeutral(question.explanation) && result.explanationIsFallback) return false;
       }
@@ -268,7 +278,7 @@ export async function getQuizLocalizationQuality(locale: Locale, quiz: Quiz): Pr
         if (!result.questionIsFallback || isNeutral(result.value.question)) translatedQuestionCount++;
         const copy = result.value;
         question.options.forEach((original, index) => {
-          if (isPreservedChoice(question, original)) return;
+          if (isPreservedChoice(question, original, locale)) return;
           choiceCount++;
           if (!result.optionFallbacks[index] && copy.options[index] !== original) translatedChoiceCount++;
         });
@@ -325,7 +335,7 @@ export async function getLocalizationAudit() {
         const copy = questionCopyResultForLocale(question, locale).value;
         if (copy.question === question.question) questionFallbacks++;
         question.options.forEach((option, index) => {
-          if (copy.options[index] === option && !isPreservedChoice(question, option)) choiceFallbacks++;
+          if (copy.options[index] === option && !isPreservedChoice(question, option, locale)) choiceFallbacks++;
         });
         if (copy.explanation === question.explanation) explanationFallbacks++;
       }
@@ -354,7 +364,7 @@ export async function getQuestionLocalizationGaps(locale: Locale): Promise<Quest
   for (const question of await getPool("all", locale)) {
     const copy = questionCopyResultForLocale(question, locale);
     const missingChoiceIndexes = question.options.flatMap((option, index) =>
-      copy.optionFallbacks[index] && !isPreservedChoice(question, option) ? [index] : [],
+      copy.optionFallbacks[index] && !isPreservedChoice(question, option, locale) ? [index] : [],
     );
     const missing: QuestionLocalizationGap["missing"] = [];
     if (copy.questionIsFallback) missing.push("question");

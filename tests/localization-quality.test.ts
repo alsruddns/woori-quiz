@@ -13,10 +13,10 @@ import { getListLocalizationQuality, getLocalizationAudit, getQuestionLocalizati
 
 describe("localization quality index policy", () => {
   it("statically generates only fully published locale routes", () => {
-    expect(generateListParams()).toEqual([{ locale: "ko" }, { locale: "en" }, { locale: "ja" }, { locale: "zh" }]);
+    expect(generateListParams()).toEqual([{ locale: "ko" }, { locale: "en" }, { locale: "ja" }, { locale: "zh" }, { locale: "es" }]);
     const quizParams = generateQuizParams();
-    expect(quizParams).toHaveLength(232);
-    expect(new Set(quizParams.map(({ locale }) => locale))).toEqual(new Set(["ko", "en", "ja", "zh"]));
+    expect(quizParams).toHaveLength(290);
+    expect(new Set(quizParams.map(({ locale }) => locale))).toEqual(new Set(["ko", "en", "ja", "zh", "es"]));
   });
 
   it("uses the configured quality thresholds and always permits English", async () => {
@@ -46,10 +46,10 @@ describe("localization quality index policy", () => {
     }
   }, 60000);
 
-  it("keeps the unfinished Spanish draft outside routes and indexing", async () => {
-    expect(publishedLocales).not.toContain("es");
-    expect(await getListLocalizationQuality("es")).toEqual({ complete: false, indexable: false });
-    expect(await getQuestionLocalizationGaps("es")).not.toHaveLength(0);
+  it("keeps the unfinished Brazilian Portuguese locale outside routes and indexing", async () => {
+    expect(publishedLocales).not.toContain("pt-br");
+    expect(await getListLocalizationQuality("pt-br")).toEqual({ complete: false, indexable: false });
+    expect(await getQuestionLocalizationGaps("pt-br")).not.toHaveLength(0);
   });
 
   it("filters sitemap detail URLs by the same page quality result", async () => {
@@ -69,11 +69,12 @@ describe("localization quality index policy", () => {
     expect(urls.has("https://www.woori.today/en/quiz/general-knowledge")).toBe(true);
     expect(urls.has("https://www.woori.today/ja/quiz/general-knowledge")).toBe(true);
     expect(urls.has("https://www.woori.today/zh/quiz/general-knowledge")).toBe(true);
+    expect(urls.has("https://www.woori.today/es/quiz/general-knowledge")).toBe(true);
     expect(new Set(urls).size).toBe(urls.size);
   }, 60000);
 
   it("keeps self canonicals but excludes incomplete locales from robots and hreflang", async () => {
-    for (const locale of ["en", "ko", "ja", "zh", "pt-br", "zh-tw"] as const) {
+    for (const locale of ["en", "ko", "ja", "zh", "es", "pt-br", "zh-tw"] as const) {
       const metadata = await generateMetadata({ params: Promise.resolve({ locale, slug: "general-knowledge" }) });
       expect(metadata.alternates?.canonical).toBe(`/${locale}/quiz/general-knowledge`);
       const quality = await getQuizLocalizationQuality(locale, quizzes.find((quiz) => quiz.slug === "general-knowledge")!);
@@ -97,7 +98,7 @@ describe("localization quality index policy", () => {
   it("reports source fallback counts and index coverage for the audit document", async () => {
     const audit = await getLocalizationAudit();
     expect(audit.detailQuizCount).toBe(58);
-    expect(audit.listPageCount).toBe(4);
+    expect(audit.listPageCount).toBe(5);
     expect(audit.sitemapUrlCount).toBe(audit.listPageCount + audit.detailUrlCount);
     const sitemapResponse = await GET();
     const sitemapXml = await sitemapResponse.text();
