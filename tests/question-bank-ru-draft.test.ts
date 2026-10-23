@@ -24,6 +24,7 @@ describe("Russian question bank draft", () => {
       expect(new Set(copy.options).size, `${id} duplicate options`).toBe(copy.options.length);
       for (const value of [copy.question, ...copy.options, copy.explanation]) {
         expect(value, `${id} has no Unicode replacement characters`).not.toContain("\uFFFD");
+        expect(value, `${id} has no unresolved question-mark placeholders`).not.toMatch(/\?(?!\s*$)/);
         if (/ZZQB\d{4}ZZ|[\r\n]/.test(value)) batchArtifacts.push(`${id}: ${JSON.stringify(value)}`);
       }
       if (source.category === "language") expect(copy.options, `${id} preserves English quiz material`).toEqual(source.options);
@@ -46,6 +47,42 @@ describe("Russian question bank draft", () => {
     expect(copies["language-059"].explanation).toContain("Glance означает");
     expect(copies["technology-061"].question).toContain("аббревиатура CPU");
     expect(copies["technology-062"].options).toEqual(["Java", "C", "JavaScript", "Swift"]);
+    expect(copies["technology-069"].options[0]).toContain("доменные имена");
+    expect(copies["brain-073"].question).toContain("Лаззи");
+    expect(copies["brain-073"].question).not.toContain("Ленивцы");
+    expect(copies["nonsense-083"].question).toContain("У чего есть горлышко");
+    expect(copies["nonsense-086"].question).toContain("У чего есть один глаз");
+    expect(copies["general-x-10"].options[0]).toBe("Железо");
+    expect(copies["general-x-20"].options[0]).toBe("Сливки");
+    expect(copies["general-x-24"].options[0]).toBe("Стая");
+    expect(copies["general-x-37"].question).toContain("смычковый инструмент");
+    expect(copies["general-x-40"].question).toContain("текст, вырезанный");
+    expect(copies["general-x-55"].question).toContain("сбережение денег");
+    expect(copies["general-x-68"].options[0]).toBe("Безопасно переходить дорогу");
+    expect(copies["general-x-72"].options[0]).toBe("Вона");
+    expect(copies["math-x-percent-1"].explanation).toBe("60 × 15 ÷ 100 = 9.");
+    expect(copies["general-x-82"].options[0]).toBe("Секунда");
+    expect(copies["general-x-87"].question).toContain("с помощью огнетушителя");
+    expect(copies["nonsense-x-3"].question).toContain("может звонить");
+    expect(copies["nonsense-x-6"].question).toContain("имеет русло");
+    expect(copies["nonsense-x-15"].question).toContain("одной ножке");
+    expect(copies["nonsense-x-17"].options[0]).toBe("Конверт");
+    expect(copies["nonsense-x-18"].question).toContain("корешок");
+    expect(copies["nonsense-x-28"].question).toContain("слове «момент»");
+    expect(copies["nonsense-x-29"].explanation).toContain("чайник");
+    expect(copies["nonsense-x-30"].options[0]).toBe("Нос");
+    expect(copies["nonsense-x-31"].options[0]).toBe("Нос");
+    expect(copies["nonsense-x-35"].options[0]).toBe("Кастрюля");
+    expect(copies["nonsense-x-41"].question).toContain("остриё");
+    expect(copies["nonsense-x-47"].question).toContain("клавиатура и экран");
+    expect(copies["nonsense-x-48"].question).not.toContain("страницы");
+    for (const [id, copy] of Object.entries(copies)) {
+      if (id.startsWith("math-x-equation-")) expect(copy.question, id).toMatch(/^Решите уравнение:/);
+      if (id.startsWith("math-x-sum-") || id.startsWith("math-x-product-")) {
+        expect(copy.question, id).toMatch(/^Сколько будет/);
+      }
+      if (id.startsWith("math-x-percent-")) expect(copy.question, id).toMatch(/^Сколько составляет/);
+    }
   });
 
   it("loads Russian copy through the quiz question loader and preserves scoring after shuffling", async () => {
