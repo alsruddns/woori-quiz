@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
 import { categories, quizzes } from "../src/lib/registry";
-import { excludedExpansionLocales, isLocale, localeExpansionTargets, locales, localeNames, publishedLocales, uiMessages } from "../src/lib/i18n";
+import { excludedExpansionLocales, isLocale, isPublishedLocale, localeExpansionTargets, locales, localeNames, publishedLocales, uiMessages } from "../src/lib/i18n";
 import { hasQuizTermTranslations, missingQuizTitleWords, quizCategoryName, quizTitle, quizTitleTranslationWordCount, quizTitleWordCount } from "../src/lib/quiz-copy";
 import { quizPathForLocale } from "../src/lib/urls";
 
@@ -9,17 +9,20 @@ describe("quiz UI translations", () => {
     expect(localeExpansionTargets).toHaveLength(26);
     expect(new Set(localeExpansionTargets).size).toBe(26);
     expect(localeExpansionTargets.slice(0, locales.length)).toEqual(locales);
-    expect(localeExpansionTargets.slice(locales.length)).toEqual(["ru", "tr", "pl", "fil", "bn", "uk", "ms", "sv", "cs", "ro", "el"]);
-    expect(localeExpansionTargets.slice(locales.length).every((locale) => !isLocale(locale))).toBe(true);
+    expect(localeExpansionTargets).toEqual([...publishedLocales, "tr", "pl", "fil", "bn", "uk", "ms", "sv", "cs", "ro", "el"]);
+    expect(localeExpansionTargets.slice(publishedLocales.length).every((locale) => !isPublishedLocale(locale))).toBe(true);
+    expect(isLocale("ru")).toBe(true);
+    expect(isPublishedLocale("ru")).toBe(true);
     expect(excludedExpansionLocales).toEqual(["ar", "ur", "fa", "he"]);
     expect(excludedExpansionLocales.some((locale) => (localeExpansionTargets as readonly string[]).includes(locale))).toBe(false);
-    expect(publishedLocales).toEqual(["ko", "en", "ja", "zh", "es", "pt-br", "de", "fr", "vi", "id", "th", "zh-tw", "it", "nl", "hi"]);
+    expect(publishedLocales).toEqual(["ko", "en", "ja", "zh", "es", "pt-br", "de", "fr", "vi", "id", "th", "zh-tw", "it", "nl", "hi", "ru"]);
   });
 
-  it("provides navigation, category, difficulty, and footer copy for all 15 locales", () => {
+  it("provides navigation, category, difficulty, and footer copy for wired locales", () => {
     expect(Object.keys(uiMessages).sort()).toEqual([...locales].sort());
     for (const locale of locales) {
       const copy = uiMessages[locale];
+      const publicQuizSlugs = quizzes.filter((quiz) => quiz.isPublic).map((quiz) => quiz.slug);
       expect(localeNames[locale]).toBeTruthy();
       expect([copy.familySites, copy.portal, copy.calculator, copy.tools, copy.moneyBook, copy.docs, copy.quiz, copy.language]).not.toContain("");
       expect(Object.values(copy.category).every(Boolean)).toBe(true);
@@ -28,7 +31,7 @@ describe("quiz UI translations", () => {
       expect([copy.footerTagline, copy.privacy, copy.guidelines, copy.contact].every(Boolean)).toBe(true);
       expect(quizTitleTranslationWordCount(locale), `Wrong quiz title word count for ${locale}`).toBe(quizTitleWordCount);
       expect(missingQuizTitleWords(quizzes.map((quiz) => quiz.slug))).toEqual([]);
-      expect(hasQuizTermTranslations(locale, quizzes.map((quiz) => quiz.slug)), `Incomplete quiz word translations for ${locale}`).toBe(true);
+      expect(hasQuizTermTranslations(locale, locale === "ru" ? publicQuizSlugs : quizzes.map((quiz) => quiz.slug)), `Incomplete quiz word translations for ${locale}`).toBe(true);
       expect(quizzes.every((quiz) => quizTitle(locale, quiz).trim().length > 0)).toBe(true);
     }
   });

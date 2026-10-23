@@ -1,7 +1,7 @@
 import { describe, expect, it } from "vitest";
 import catalog from "../src/lib/i18n/ru.json";
 import { quizzes } from "../src/lib/registry";
-import { localeExpansionTargets, locales, publishedLocales } from "../src/lib/i18n";
+import { isLocale, isPublishedLocale, localeExpansionTargets, locales, publishedLocales } from "../src/lib/i18n";
 
 function stringsIn(value: unknown): string[] {
   if (typeof value === "string") return [value];
@@ -10,12 +10,14 @@ function stringsIn(value: unknown): string[] {
   return [];
 }
 
-describe("Russian UI catalog draft", () => {
-  it("covers the complete catalog while remaining outside routing and publication", () => {
+describe("Russian UI catalog", () => {
+  it("covers the complete catalog and is published only after passing the page gates", () => {
     const publicQuizzes = quizzes.filter((quiz) => quiz.isPublic);
     expect(localeExpansionTargets).toContain("ru");
-    expect(locales).not.toContain("ru");
-    expect(publishedLocales).not.toContain("ru");
+    expect(locales).toContain("ru");
+    expect(isLocale("ru")).toBe(true);
+    expect(isPublishedLocale("ru")).toBe(true);
+    expect(publishedLocales).toContain("ru");
     expect(catalog.localeName).toMatch(/[\u0400-\u04FF]/);
     expect(Object.keys(catalog.quizTitles)).toHaveLength(publicQuizzes.length);
     expect(Object.keys(catalog.quizDescriptions)).toHaveLength(publicQuizzes.length);
@@ -34,7 +36,7 @@ describe("Russian UI catalog draft", () => {
       expect(term, "Russian title terms contain no mistranslated batch vocabulary").not.toMatch(/^(Отдел|Стол|Психический|Выкройка|Признание|Нажмите|Мелочи|Жесткий|Контрольный опрос|Дополнение)$/);
       expect(term, "Russian title terms contain no stray colon").not.toMatch(/:$/);
     }
-    expect(catalog.ui.localeCount).toContain("15");
+    expect(catalog.ui.localeCount).toContain("16");
     expect(catalog.discovery.resultsFor).toContain("QUERY_SLOT");
     expect(catalog.discovery.resultsFor).toContain("QUERY_COUNT");
     expect(catalog.ui.quizCount).toContain("COUNT_SLOT");

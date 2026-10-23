@@ -1,17 +1,19 @@
-export const locales = ["ko", "en", "ja", "zh", "es", "pt-br", "de", "fr", "vi", "id", "th", "zh-tw", "it", "nl", "hi"] as const;
+import ruCatalog from "./i18n/ru.json";
+
+export const locales = ["ko", "en", "ja", "zh", "es", "pt-br", "de", "fr", "vi", "id", "th", "zh-tw", "it", "nl", "hi", "ru"] as const;
 export type Locale = (typeof locales)[number];
 // Expansion targets are tracked separately from active locales. A target must
 // not reach routing, selectors, metadata, or the sitemap until its catalog is complete.
 export const localeExpansionTargets = [
   ...locales,
-  "ru", "tr", "pl", "fil", "bn", "uk", "ms", "sv", "cs", "ro", "el",
+  "tr", "pl", "fil", "bn", "uk", "ms", "sv", "cs", "ro", "el",
 ] as const;
 export type TargetLocale = (typeof localeExpansionTargets)[number];
-export type ExpansionLocale = Exclude<TargetLocale, Locale>;
+export type ExpansionLocale = Exclude<TargetLocale, (typeof publishedLocales)[number]>;
 export const excludedExpansionLocales = ["ar", "ur", "fa", "he"] as const;
 // Only these locales currently meet the full catalog publication gate.
-export const publishedLocales = ["ko", "en", "ja", "zh", "es", "pt-br", "de", "fr", "vi", "id", "th", "zh-tw", "it", "nl", "hi"] as const satisfies readonly Locale[];
-export const localeNames: Record<Locale, string> = { ko:"한국어", en:"English", ja:"日本語", zh:"简体中文", es:"Español", "pt-br":"Português (Brasil)", de:"Deutsch", fr:"Français", vi:"Tiếng Việt", id:"Bahasa Indonesia", th:"ไทย", "zh-tw":"繁體中文", it:"Italiano", nl:"Nederlands", hi:"हिन्दी" };
+export const publishedLocales = ["ko", "en", "ja", "zh", "es", "pt-br", "de", "fr", "vi", "id", "th", "zh-tw", "it", "nl", "hi", "ru"] as const satisfies readonly Locale[];
+export const localeNames: Record<Locale, string> = { ko:"한국어", en:"English", ja:"日本語", zh:"简体中文", es:"Español", "pt-br":"Português (Brasil)", de:"Deutsch", fr:"Français", vi:"Tiếng Việt", id:"Bahasa Indonesia", th:"ไทย", "zh-tw":"繁體中文", it:"Italiano", nl:"Nederlands", hi:"हिन्दी", ru:ruCatalog.localeName };
 export const messages: Record<Locale, { title:string; subtitle:string; search:string; today:string; categories:string; popular:string; play:string; question:string; next:string; submit:string; result:string; retry:string; home:string; related:string; score:string; footer:string }> = {
 ko:{title:"퀴즈테스트",subtitle:"오늘의 호기심을 깨우는 퀴즈",search:"퀴즈 검색",today:"오늘의 퀴즈",categories:"카테고리",popular:"인기 퀴즈",play:"시작하기",question:"문제",next:"다음 문제",submit:"답변 확인",result:"퀴즈 결과",retry:"다시 풀기",home:"홈으로",related:"관련 퀴즈",score:"점수",footer:"개인정보 안내 · 이용안내 · 문의 사항"},
 en:{title:"Quiz",subtitle:"A little curiosity goes a long way.",search:"Search quizzes",today:"Quiz of the day",categories:"Categories",popular:"Popular quizzes",play:"Start quiz",question:"Question",next:"Next question",submit:"Check answer",result:"Your result",retry:"Try again",home:"Home",related:"Related quizzes",score:"Score",footer:"Privacy · Terms · Contact"},
@@ -27,9 +29,19 @@ th:{title:"แบบทดสอบ",subtitle:"ปลุกความอยา
 "zh-tw":{title:"趣味測驗",subtitle:"用測驗喚醒今天的好奇心",search:"搜尋測驗",today:"今日測驗",categories:"類別",popular:"熱門測驗",play:"開始測驗",question:"問題",next:"下一題",submit:"確認答案",result:"測驗結果",retry:"再試一次",home:"首頁",related:"相關測驗",score:"得分",footer:"隱私 · 使用指南 · 聯絡我們"},
 it:{title:"Quiz",subtitle:"Stimola la curiosità ogni giorno.",search:"Cerca quiz",today:"Quiz del giorno",categories:"Categorie",popular:"Quiz popolari",play:"Inizia",question:"Domanda",next:"Avanti",submit:"Verifica",result:"Risultato",retry:"Riprova",home:"Home",related:"Quiz correlati",score:"Punteggio",footer:"Privacy · Guida · Contatti"},
 nl:{title:"Quiz",subtitle:"Prikkel elke dag je nieuwsgierigheid.",search:"Quiz zoeken",today:"Quiz van de dag",categories:"Categorieën",popular:"Populaire quizzen",play:"Quiz starten",question:"Vraag",next:"Volgende",submit:"Controleren",result:"Resultaat",retry:"Opnieuw",home:"Home",related:"Gerelateerde quizzen",score:"Score",footer:"Privacy · Hulp · Contact"},
-hi:{title:"क्विज़",subtitle:"हर दिन अपनी जिज्ञासा जगाएँ।",search:"क्विज़ खोजें",today:"आज का क्विज़",categories:"श्रेणियाँ",popular:"लोकप्रिय क्विज़",play:"शुरू करें",question:"प्रश्न",next:"अगला",submit:"उत्तर जाँचें",result:"परिणाम",retry:"फिर प्रयास करें",home:"मुखपृष्ठ",related:"संबंधित क्विज़",score:"स्कोर",footer:"गोपनीयता · सहायता · संपर्क"}
+hi:{title:"क्विज़",subtitle:"हर दिन अपनी जिज्ञासा जगाएँ।",search:"क्विज़ खोजें",today:"आज का क्विज़",categories:"श्रेणियाँ",popular:"लोकप्रिय क्विज़",play:"शुरू करें",question:"प्रश्न",next:"अगला",submit:"उत्तर जाँचें",result:"परिणाम",retry:"फिर प्रयास करें",home:"मुखपृष्ठ",related:"संबंधित क्विज़",score:"स्कोर",footer:"गोपनीयता · सहायता · संपर्क"},
+ru: ruCatalog.messages,
 };
 export function isLocale(value:string): value is Locale { return (locales as readonly string[]).includes(value); }
+export function isPublishedLocale(value:string): value is (typeof publishedLocales)[number] { return (publishedLocales as readonly string[]).includes(value); }
+
+function formatRussianCount(count: number, noun: "викторина" | "вопрос"): string {
+  const lastTwo = Math.abs(count) % 100;
+  const last = Math.abs(count) % 10;
+  const form = lastTwo >= 11 && lastTwo <= 14 ? 2 : last === 1 ? 0 : last >= 2 && last <= 4 ? 1 : 2;
+  const forms = noun === "викторина" ? ["викторина", "викторины", "викторин"] : ["вопрос", "вопроса", "вопросов"];
+  return `${count} ${forms[form]}`;
+}
 
 type DiscoveryCopy = {
   intro: string;
@@ -56,6 +68,7 @@ export const discoveryCopy: Record<Locale, DiscoveryCopy> = {
   it:{intro:"Esplora quiz di cultura generale, matematica e logica.",quickStart:"Inizia subito",searchResults:"Risultati di ricerca",browseCategories:"Scegli una categoria",clearSearch:"Cancella la ricerca",resultsFor:(q,n)=>`${n} quiz per “${q}”`},
   nl:{intro:"Ontdek quizzen over algemene kennis, wiskunde en denkpuzzels.",quickStart:"Snel beginnen",searchResults:"Zoekresultaten",browseCategories:"Kies een categorie",clearSearch:"Zoekopdracht wissen",resultsFor:(q,n)=>`${n} quizzen voor ‘${q}’`},
   hi:{intro:"सामान्य ज्ञान, गणित और दिमाग़ी पहेलियों में अपनी पसंद का क्विज़ चुनें।",quickStart:"तुरंत शुरू करें",searchResults:"खोज के परिणाम",browseCategories:"श्रेणी चुनें",clearSearch:"खोज मिटाएँ",resultsFor:(q,n)=>`“${q}” के लिए ${n} क्विज़`},
+  ru:{intro:ruCatalog.discovery.intro,quickStart:ruCatalog.discovery.quickStart,searchResults:ruCatalog.discovery.searchResults,browseCategories:ruCatalog.discovery.browseCategories,clearSearch:ruCatalog.discovery.clearSearch,resultsFor:(q,n)=>ruCatalog.discovery.resultsFor.replace("QUERY_SLOT",q).replace("QUERY_COUNT",formatRussianCount(n,"викторина"))},
 };
 
 export const detailCopy: Record<Locale, { correctCount: string; incorrectCount: string; newSet: string; otherQuizzes: string }> = {
@@ -74,6 +87,7 @@ export const detailCopy: Record<Locale, { correctCount: string; incorrectCount: 
   it:{correctCount:"Corrette",incorrectCount:"Errate",newSet:"Prova nuove domande",otherQuizzes:"Scopri altri quiz"},
   nl:{correctCount:"Goed",incorrectCount:"Fout",newSet:"Nieuwe vragen proberen",otherQuizzes:"Andere quizzen bekijken"},
   hi:{correctCount:"सही",incorrectCount:"गलत",newSet:"नए प्रश्न आज़माएँ",otherQuizzes:"अन्य क्विज़ देखें"},
+  ru:ruCatalog.detail,
 };
 
 export type UiMessages = {
@@ -87,6 +101,13 @@ export type UiMessages = {
   scoreUploadedAnswer: string; interactiveTest: string; localeCount: string; dynamicGeneration: string; back: string;
   footerTagline: string; privacy: string; guidelines: string; contact: string; copyright: string; searchLabel: string;
   category: Record<string, string>; difficultyLabels: Record<string, string>; quizSummary: (title: string) => string;
+};
+
+const russianUiMessages: UiMessages = {
+  ...ruCatalog.ui,
+  quizCount: (count) => formatRussianCount(count, "викторина"),
+  questionCount: (count) => formatRussianCount(count, "вопрос"),
+  quizSummary: (title) => ruCatalog.ui.quizSummary.replace("TITLE_SLOT", title),
 };
 
 export const uiMessages: Record<Locale, UiMessages> = {
@@ -134,5 +155,6 @@ export const uiMessages: Record<Locale, UiMessages> = {
   },
   hi: {
     familySites:"संबंधित सेवाएँ",portal:"पोर्टल",calculator:"कैलकुलेटर",tools:"ऑनलाइन टूल",moneyBook:"मुफ़्त साझा खर्च खाता",docs:"दस्तावेज़ और फ़ॉर्म",quiz:"क्विज़ और टेस्ट",language:"भाषा चुनें",openMenu:"सेवा मेनू खोलें",closeMenu:"सेवा मेनू बंद करें",allQuizzes:"सभी क्विज़",freeToPlay:"मुफ़्त खेलें",noAccount:"खाते की ज़रूरत नहीं",heroEyebrow:"जिज्ञासा का एक पल",heroTitle:"क्विज़ के साथ अपनी जिज्ञासा जगाएँ",heroDescription:"एक छोटा-सा चुनौतीपूर्ण सवाल आज़माएँ और कुछ नया जानें।",nextChallenge:"अगली चुनौती चुनें",searchEmpty:"कोई क्विज़ नहीं मिला।",quizCount:(n)=>`${n} क्विज़`,questionCount:(n)=>`${n} प्रश्न`,questionSetReview:"प्रश्नों की समीक्षा जारी है",difficulty:"कठिनाई",startHeading:"तैयार हों तो शुरू करें",startDescription:"ध्यान से सोचें और चुनौती का आनंद लें।",correct:"सही जवाब!",incorrect:"यह सही नहीं है।",accuracy:"सटीकता",finishedIn:"पूरा करने का समय",seconds:"सेकंड",bestScore:"आपका सर्वश्रेष्ठ स्कोर इसी डिवाइस पर सहेजा जाता है।",reviewHeading:"प्रश्नों की समीक्षा जारी है",reviewDescription:"हम अनूदित प्रश्नों की जाँच कर रहे हैं। समीक्षा पूरी होने पर यह क्विज़ उपलब्ध होगा।",howToPlay:"कैसे खेलें",howToDescription:"हर प्रश्न के लिए उत्तर चुनें। आपकी प्रगति इसी ब्राउज़र में रहती है; खाते या निजी जानकारी की ज़रूरत नहीं है।",aboutQuiz:"इस क्विज़ के बारे में",faq:"अक्सर पूछे जाने वाले प्रश्न",scoreUploadedQuestion:"क्या मेरा स्कोर अपलोड होता है?",scoreUploadedAnswer:"नहीं। स्कोर केवल इसी ब्राउज़र में सहेजा जाता है।",interactiveTest:"इंटरैक्टिव टेस्ट",localeCount:"15 भाषाएँ",dynamicGeneration:"हर दौर में नए प्रश्न",back:"क्विज़ सूची",footerTagline:"हर जिज्ञासु मन के लिए।",privacy:"गोपनीयता",guidelines:"उपयोग निर्देश",contact:"संपर्क",copyright:"© 2026 woori.today",searchLabel:"क्विज़ खोजें",quizSummary:(title)=>`${title} के साथ मज़ेदार तरीके से अपना ज्ञान परखें।`,category:{general:"सामान्य ज्ञान",geography:"विश्व और भूगोल",science:"विज्ञान",history:"इतिहास",math:"गणित",language:"भाषा",technology:"तकनीक",memory:"याददाश्त और दिमाग़",speed:"गति और प्रतिक्रिया",fun:"मनोरंजक चुनौती"},difficultyLabels:{easy:"आसान",medium:"मध्यम",hard:"कठिन",expert:"विशेषज्ञ"}
-  }
+  },
+  ru: russianUiMessages,
 };

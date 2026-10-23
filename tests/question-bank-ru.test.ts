@@ -2,17 +2,19 @@ import { describe, expect, it } from "vitest";
 import copies from "../src/lib/question-bank/locales/ru/question-bank.json";
 import { questionBank } from "../src/lib/question-bank";
 import { loadQuestionBankForCategory, selectQuestionsForCategory } from "../src/lib/question-bank/select-questions";
-import { localeExpansionTargets, locales, publishedLocales } from "../src/lib/i18n";
+import { isLocale, isPublishedLocale, localeExpansionTargets, locales, publishedLocales } from "../src/lib/i18n";
 
-describe("Russian question bank draft", () => {
-  it("covers all source questions while the incomplete locale stays unpublished", () => {
+describe("Russian question bank", () => {
+  it("covers all source questions and matches the published locale registry", () => {
     const sourceById = new Map(questionBank.map((question) => [question.id, question]));
     const preservedRussianTokens = new Set(["CO₂", "H₂O", "NaCl", "O", "Au", "Na", "Fe", "Java", "C", "JavaScript", "Swift", "SQL", "HTML", "CSS", "PNG", ".png", ".mp3", ".csv", ".exe"]);
     expect(Object.keys(copies)).toHaveLength(questionBank.length);
     expect(Object.keys(copies).sort()).toEqual([...sourceById.keys()].sort());
     expect(localeExpansionTargets).toContain("ru");
-    expect(locales).not.toContain("ru");
-    expect(publishedLocales).not.toContain("ru");
+    expect(locales).toContain("ru");
+    expect(isLocale("ru")).toBe(true);
+    expect(isPublishedLocale("ru")).toBe(true);
+    expect(publishedLocales).toContain("ru");
 
     const batchArtifacts: string[] = [];
     const untranslatedOptions: string[] = [];

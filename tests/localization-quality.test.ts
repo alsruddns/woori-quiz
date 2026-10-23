@@ -4,7 +4,7 @@ import { generateMetadata } from "../src/app/[locale]/quiz/[slug]/page";
 import { generateStaticParams as generateQuizParams } from "../src/app/[locale]/quiz/[slug]/page";
 import { generateMetadata as generateListMetadata } from "../src/app/[locale]/quiz/page";
 import { generateStaticParams as generateListParams } from "../src/app/[locale]/quiz/page";
-import { localeExpansionTargets, locales, publishedLocales } from "../src/lib/i18n";
+import { isLocale, isPublishedLocale, localeExpansionTargets, locales, publishedLocales } from "../src/lib/i18n";
 import { quizzes } from "../src/lib/registry";
 import { questionBank, questionCopyForLocale, questionCopyResultForLocale } from "../src/lib/question-bank";
 import { quizDescription } from "../src/lib/content-copy";
@@ -13,10 +13,10 @@ import { getListLocalizationQuality, getLocalizationAudit, getQuestionLocalizati
 
 describe("localization quality index policy", () => {
   it("statically generates only fully published locale routes", () => {
-    expect(generateListParams()).toEqual([{ locale: "ko" }, { locale: "en" }, { locale: "ja" }, { locale: "zh" }, { locale: "es" }, { locale: "pt-br" }, { locale: "de" }, { locale: "fr" }, { locale: "vi" }, { locale: "id" }, { locale: "th" }, { locale: "zh-tw" }, { locale: "it" }, { locale: "nl" }, { locale: "hi" }]);
+    expect(generateListParams()).toEqual([{ locale: "ko" }, { locale: "en" }, { locale: "ja" }, { locale: "zh" }, { locale: "es" }, { locale: "pt-br" }, { locale: "de" }, { locale: "fr" }, { locale: "vi" }, { locale: "id" }, { locale: "th" }, { locale: "zh-tw" }, { locale: "it" }, { locale: "nl" }, { locale: "hi" }, { locale: "ru" }]);
     const quizParams = generateQuizParams();
-    expect(quizParams).toHaveLength(870);
-    expect(new Set(quizParams.map(({ locale }) => locale))).toEqual(new Set(["ko", "en", "ja", "zh", "es", "pt-br", "de", "fr", "vi", "id", "th", "zh-tw", "it", "nl", "hi"]));
+    expect(quizParams).toHaveLength(928);
+    expect(new Set(quizParams.map(({ locale }) => locale))).toEqual(new Set(["ko", "en", "ja", "zh", "es", "pt-br", "de", "fr", "vi", "id", "th", "zh-tw", "it", "nl", "hi", "ru"]));
   });
 
   it("uses the configured quality thresholds and always permits English", async () => {
@@ -25,6 +25,14 @@ describe("localization quality index policy", () => {
       const quality = await getQuizLocalizationQuality("en", quiz);
       expect(quality.indexable, quiz.slug).toBe(true);
     }
+  }, 30000);
+
+  it("confirms all Russian page content passes localization quality while publication remains gated", async () => {
+    const quizzesToCheck = quizzes.filter((quiz) => quiz.isPublic);
+    expect(await getListLocalizationQuality("ru")).toEqual({ complete: true, indexable: true });
+    const results = await Promise.all(quizzesToCheck.map((quiz) => getQuizLocalizationQuality("ru", quiz)));
+    expect(results.every((quality) => quality.complete)).toBe(true);
+    expect(results.every((quality) => quality.indexable)).toBe(true);
   }, 30000);
 
   it("exposes fallback provenance without changing the existing copy helper output", () => {
@@ -41,17 +49,17 @@ describe("localization quality index policy", () => {
   it("keeps list locales only when their visible copy is localized", async () => {
     for (const locale of locales) {
       const result = await getListLocalizationQuality(locale);
-      expect(result.complete).toBe(result.indexable);
-      expect(result.complete, locale).toBe(publishedLocales.includes(locale as (typeof publishedLocales)[number]));
+      expect(result.indexable, locale).toBe(result.complete && publishedLocales.includes(locale as (typeof publishedLocales)[number]));
     }
   }, 60000);
 
   it("keeps every incomplete target outside routing until its catalog is connected", () => {
-    const incompleteTargets = localeExpansionTargets.slice(locales.length);
+    const incompleteTargets = localeExpansionTargets.filter((locale) => !publishedLocales.includes(locale as (typeof publishedLocales)[number]));
     const routedLocales = generateListParams().map(({ locale }) => String(locale));
     for (const locale of incompleteTargets) {
       expect(publishedLocales, `${locale} must not be published`).not.toContain(locale);
-      expect(locales, `${locale} must not be routable`).not.toContain(locale);
+      expect(isPublishedLocale(locale), `${locale} must not be published`).toBe(false);
+      if (locale !== "ru") expect(isLocale(locale), `${locale} must not have runtime locale data yet`).toBe(false);
       expect(routedLocales, `${locale} must not have a generated list route`).not.toContain(locale);
     }
   });
@@ -60,7 +68,7 @@ describe("localization quality index policy", () => {
     const response = await GET();
     const xml = await response.text();
     const urls = new Set([...xml.matchAll(/<loc>([^<]+)<\/loc>/g)].map(([, url]) => url));
-    for (const locale of localeExpansionTargets.slice(locales.length)) {
+    for (const locale of localeExpansionTargets.filter((item) => !publishedLocales.includes(item as (typeof publishedLocales)[number]))) {
       expect(urls.has(`https://www.woori.today/${locale}/quiz`), `${locale} list page must stay out of the sitemap`).toBe(false);
       for (const quiz of quizzes.filter((item) => item.isPublic)) {
         expect(urls.has(`https://www.woori.today/${locale}/quiz/${quiz.slug}`), `${locale}/${quiz.slug} must stay out of the sitemap`).toBe(false);
@@ -72,7 +80,7 @@ describe("localization quality index policy", () => {
     for (const locale of locales.filter((locale) => !expectedLists.includes(locale))) expect(urls.has(`https://www.woori.today/${locale}/quiz`)).toBe(false);
     for (const quiz of quizzes.filter((item) => item.isPublic)) {
       for (const locale of locales) {
-        const expected = (await getQuizLocalizationQuality(locale, quiz)).indexable;
+        const expected = publishedLocales.includes(locale as (typeof publishedLocales)[number]) && (await getQuizLocalizationQuality(locale, quiz)).indexable;
         expect(urls.has(`https://www.woori.today/${locale}/quiz/${quiz.slug}`), `${locale}/${quiz.slug}`).toBe(expected);
       }
     }
@@ -121,7 +129,9 @@ describe("localization quality index policy", () => {
   it("reports source fallback counts and index coverage for the audit document", async () => {
     const audit = await getLocalizationAudit();
     expect(audit.detailQuizCount).toBe(58);
-    expect(audit.listPageCount).toBe(15);
+    expect(audit.listPageCount).toBe(16);
+    expect(audit.detailUrlCount).toBe(928);
+    expect(audit.sitemapUrlCount).toBe(944);
     expect(audit.sitemapUrlCount).toBe(audit.listPageCount + audit.detailUrlCount);
     const sitemapResponse = await GET();
     const sitemapXml = await sitemapResponse.text();

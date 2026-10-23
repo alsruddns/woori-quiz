@@ -2,11 +2,14 @@ import type { Locale } from "./i18n";
 import { uiMessages } from "./i18n";
 import type { Quiz } from "./registry";
 import { quizDescription } from "./content-copy";
+import ruCatalog from "./i18n/ru.json";
+
+type StaticLocale = Exclude<Locale, "ru">;
 
 const terms = ["general","knowledge","everyday","difficult","world","capitals","country","flags","currency","location","asia","europe","geography","basic","science","physics","chemistry","biology","astronomy","history","korean","ancient","modern","addition","subtraction","multiplication","division","table","mental","math","arithmetic","challenge","english","vocabulary","spelling","grammar","hiragana","katakana","japanese","chinese","character","computer","programming","web","development","database","network","it","number","word","sequence","visual","pattern","recognition","concentration","reaction","time","click","typing","speed","color","random","trivia","true","false","impossible","mixed","hard","quiz","test"] as const;
 export const quizTitleWordCount = terms.length;
-export function quizTitleTranslationWordCount(locale: Locale): number { return localizedTerms[locale].length; }
-const localizedTerms: Record<Locale, readonly string[]> = {
+export function quizTitleTranslationWordCount(locale: Locale): number { return locale === "ru" ? ruCatalog.titleTerms.length : localizedTerms[locale].length; }
+const localizedTerms: Record<StaticLocale, readonly string[]> = {
   ko:"일반|상식|일상|고난도|세계|수도|국가|국기|통화|위치|아시아|유럽|지리|기초|과학|물리|화학|생물|천문|역사|한국|고대|근현대|덧셈|뺄셈|곱셈|나눗셈|구구단|암산|수학|산수|도전|영어|어휘|맞춤법|문법|히라가나|가타카나|일본어|중국어|문자|컴퓨터|프로그래밍|웹|개발|데이터베이스|네트워크|IT|숫자|단어|순서|시각|패턴|인식|집중력|반응|시간|클릭|타자|속도|색상|랜덤|상식|참거짓|거짓|불가능|종합|고난도|퀴즈|테스트".split("|"),
   en:terms.map((term)=>term==="it"?"IT":term.charAt(0).toUpperCase()+term.slice(1)),
   ja:"一般|知識|日常|難問|世界|首都|国|国旗|通貨|位置|アジア|ヨーロッパ|地理|基礎|科学|物理|化学|生物|天文学|歴史|韓国|古代|近現代|足し算|引き算|掛け算|割り算|九九|暗算|数学|計算|チャレンジ|英語|語彙|綴り|文法|ひらがな|カタカナ|日本語|中国語|文字|コンピューター|プログラミング|ウェブ|開発|データベース|ネットワーク|IT|数字|単語|順序|視覚|パターン|認識|集中力|反応|時間|クリック|タイピング|速度|色|ランダム|トリビア|正誤|誤り|難問|総合|上級|クイズ|テスト".split("|"),
@@ -23,7 +26,7 @@ const localizedTerms: Record<Locale, readonly string[]> = {
   nl:"Algemene|Kennis|Dagelijkse|Moeilijke|Wereld|Hoofdsteden|Land|Vlaggen|Valuta|Locatie|Azië|Europa|Aardrijkskunde|Basis|Wetenschap|Natuurkunde|Scheikunde|Biologie|Astronomie|Geschiedenis|Koreaanse|Oude|Moderne|Optellen|Aftrekken|Vermenigvuldigen|Delen|Tafel|Hoofdrekenen|Wiskunde|Rekenen|Uitdaging|Engels|Woordenschat|Spelling|Grammatica|Hiragana|Katakana|Japans|Chinees|Tekens|Computer|Programmeren|Web|Ontwikkeling|Database|Netwerk|IT|Getallen|Woorden|Reeks|Visueel|Patroon|Herkenning|Concentratie|Reactie|Tijd|Klik|Typen|Snelheid|Kleur|Willekeurig|Trivia|Waar|Onwaar|Onmogelijk|Gemengd|Moeilijk|Quiz|Test".split("|"),
   hi:"सामान्य|ज्ञान|रोज़मर्रा|कठिन|विश्व|राजधानियाँ|देश|झंडे|मुद्रा|स्थान|एशिया|यूरोप|भूगोल|बुनियादी|विज्ञान|भौतिकी|रसायन|जीवविज्ञान|खगोल|इतिहास|कोरियाई|प्राचीन|आधुनिक|जोड़|घटाव|गुणा|भाग|पहाड़ा|मानसिक|गणित|अंकगणित|चुनौती|अंग्रेज़ी|शब्दावली|वर्तनी|व्याकरण|हिरागाना|काताकाना|जापानी|चीनी|अक्षर|कंप्यूटर|प्रोग्रामिंग|वेब|विकास|डेटाबेस|नेटवर्क|आईटी|संख्या|शब्द|क्रम|दृश्य|पैटर्न|पहचान|एकाग्रता|प्रतिक्रिया|समय|क्लिक|टाइपिंग|गति|रंग|यादृच्छिक|सामान्य ज्ञान|सही|गलत|असंभव|मिश्रित|कठिन|क्विज़|परीक्षण".split("|"),
 };
-const extraTerms: Record<Locale, Record<string, string>> = {
+const extraTerms: Record<StaticLocale, Record<string, string>> = {
   ko:{fraction:"분수",percentage:"백분율",equation:"방정식",basics:"기초",memory:"기억력"},en:{fraction:"Fraction",percentage:"Percentage",equation:"Equation",basics:"Basics",memory:"Memory"},ja:{fraction:"分数",percentage:"割合",equation:"方程式",basics:"基礎",memory:"記憶"},zh:{fraction:"分數",percentage:"百分比",equation:"方程",basics:"基礎",memory:"記憶"},es:{fraction:"Fracciones",percentage:"Porcentajes",equation:"Ecuaciones",basics:"Básicos",memory:"Memoria"},"pt-br":{fraction:"Frações",percentage:"Porcentagem",equation:"Equações",basics:"Básicos",memory:"Memória"},de:{fraction:"Brüche",percentage:"Prozent",equation:"Gleichungen",basics:"Grundlagen",memory:"Gedächtnis"},fr:{fraction:"Fractions",percentage:"Pourcentages",equation:"Équations",basics:"Bases",memory:"Mémoire"},vi:{fraction:"Phân số",percentage:"Phần trăm",equation:"Phương trình",basics:"Cơ bản",memory:"Trí nhớ"},id:{fraction:"Pecahan",percentage:"Persentase",equation:"Persamaan",basics:"Dasar",memory:"Ingatan"},th:{fraction:"เศษส่วน",percentage:"ร้อยละ",equation:"สมการ",basics:"พื้นฐาน",memory:"ความจำ"},"zh-tw":{fraction:"分數",percentage:"百分比",equation:"方程式",basics:"基礎",memory:"記憶"},it:{fraction:"Frazioni",percentage:"Percentuali",equation:"Equazioni",basics:"Fondamenti",memory:"Memoria"},nl:{fraction:"Breuken",percentage:"Percentages",equation:"Vergelijkingen",basics:"Basis",memory:"Geheugen"},hi:{fraction:"भिन्न",percentage:"प्रतिशत",equation:"समीकरण",basics:"मूल बातें",memory:"याददाश्त"}
 };
 
@@ -31,7 +34,7 @@ const koreanTitles: Record<string, string> = {
   "general-knowledge-quiz":"일반 상식 퀴즈","everyday-knowledge-quiz":"생활 상식 퀴즈","difficult-general-knowledge-quiz":"고난도 일반 상식 퀴즈","world-capitals-quiz":"세계 수도 퀴즈","country-flags-quiz":"국기 퀴즈","country-currency-quiz":"국가별 통화 퀴즈","country-location-quiz":"국가 위치 퀴즈","asia-capitals-quiz":"아시아 수도 퀴즈","europe-capitals-quiz":"유럽 수도 퀴즈","world-geography-quiz":"세계 지리 퀴즈","basic-science-quiz":"기초 과학 퀴즈","physics-quiz":"물리 퀴즈","chemistry-quiz":"화학 퀴즈","biology-quiz":"생물 퀴즈","astronomy-quiz":"천문학 퀴즈","difficult-science-quiz":"고난도 과학 퀴즈","world-history-quiz":"세계사 퀴즈","korean-history-quiz":"한국사 퀴즈","ancient-history-quiz":"고대사 퀴즈","modern-history-quiz":"근현대사 퀴즈","addition-quiz":"덧셈 퀴즈","subtraction-quiz":"뺄셈 퀴즈","multiplication-quiz":"곱셈 퀴즈","division-quiz":"나눗셈 퀴즈","multiplication-table-quiz":"구구단 퀴즈","mental-math-quiz":"암산 퀴즈","fraction-quiz":"분수 퀴즈","percentage-quiz":"백분율 퀴즈","equation-quiz":"방정식 퀴즈","arithmetic-challenge":"산수 도전","english-vocabulary-quiz":"영어 어휘 퀴즈","english-spelling-quiz":"영어 철자 퀴즈","english-grammar-quiz":"영어 문법 퀴즈","hiragana-quiz":"히라가나 퀴즈","katakana-quiz":"가타카나 퀴즈","japanese-vocabulary-quiz":"일본어 어휘 퀴즈","chinese-character-quiz":"한자 퀴즈","korean-vocabulary-quiz":"한국어 어휘 퀴즈","computer-basics-quiz":"컴퓨터 기초 퀴즈","programming-basics-quiz":"프로그래밍 기초 퀴즈","web-development-quiz":"웹 개발 퀴즈","database-quiz":"데이터베이스 퀴즈","network-basics-quiz":"네트워크 기초 퀴즈","difficult-it-quiz":"고난도 IT 퀴즈","number-memory-test":"숫자 기억력 테스트","word-memory-test":"단어 기억력 테스트","sequence-memory-test":"순서 기억력 테스트","visual-memory-test":"시각 기억력 테스트","pattern-recognition-test":"패턴 인식 테스트","concentration-test":"집중력 테스트","reaction-time-test":"반응 속도 테스트","click-speed-test":"클릭 속도 테스트","typing-speed-test":"타자 속도 테스트","color-reaction-test":"색상 반응 테스트","random-trivia-challenge":"랜덤 상식 도전","true-false-challenge":"참·거짓 퀴즈","impossible-quiz":"불가능 퀴즈","mixed-hard-quiz":"종합 고난도 퀴즈"
 };
 
-const bankTerms: Record<Locale, Record<string, string>> = {
+const bankTerms: Record<StaticLocale, Record<string, string>> = {
   ko:{easy:"쉬운",adult:"성인",daily:"일상",life:"생활",nonsense:"넌센스",riddle:"수수께끼",brain:"두뇌",teaser:"티저",logic:"논리",reasoning:"추론",advanced:"심화",probability:"확률",civilizations:"문명",space:"우주",capital:"수도",cities:"도시",language:"언어",fully:"완전",10:"10",20:"20",question:"문제"},
   en:{easy:"Easy",adult:"Adult",daily:"Daily",life:"Life",nonsense:"Nonsense",riddle:"Riddle",brain:"Brain",teaser:"Teaser",logic:"Logic",reasoning:"Reasoning",advanced:"Advanced",probability:"Probability",civilizations:"Civilizations",space:"Space",capital:"Capital",cities:"Cities",language:"Language",fully:"Fully",10:"10",20:"20",question:"Question"},
   ja:{easy:"やさしい",adult:"大人",daily:"日常",life:"生活",nonsense:"ナンセンス",riddle:"なぞなぞ",brain:"脳",teaser:"パズル",logic:"論理",reasoning:"推理",advanced:"上級",probability:"確率",civilizations:"文明",space:"宇宙",capital:"首都",cities:"都市",language:"言語",fully:"完全",10:"10",20:"20",question:"問"},
@@ -49,7 +52,7 @@ const bankTerms: Record<Locale, Record<string, string>> = {
   hi:{easy:"आसान",adult:"वयस्क",daily:"दैनिक",life:"जीवन",nonsense:"मज़ेदार",riddle:"पहेली",brain:"दिमाग़",teaser:"चुनौती",logic:"तर्क",reasoning:"अनुमान",advanced:"उन्नत",probability:"प्रायिकता",civilizations:"सभ्यताएँ",space:"अंतरिक्ष",capital:"राजधानियाँ",cities:"शहर",language:"भाषा",fully:"पूर्ण",10:"10",20:"20",question:"प्रश्न"},
 };
 
-const addedCategoryLabels: Record<Locale, Record<"nonsense" | "brain" | "random" | "challenge", string>> = {
+const addedCategoryLabels: Record<StaticLocale, Record<"nonsense" | "brain" | "random" | "challenge", string>> = {
   ko:{nonsense:"넌센스·수수께끼",brain:"브레인 티저",random:"랜덤 퀴즈",challenge:"챌린지"},
   en:{nonsense:"Nonsense & Riddles",brain:"Brain Teasers",random:"Random Quiz",challenge:"Challenge"},
   ja:{nonsense:"ナンセンス・なぞなぞ",brain:"脳トレ",random:"ランダムクイズ",challenge:"チャレンジ"},
@@ -68,11 +71,13 @@ const addedCategoryLabels: Record<Locale, Record<"nonsense" | "brain" | "random"
 };
 
 export function quizCategoryName(locale: Locale, category: string): string {
-  if (category in addedCategoryLabels[locale]) return addedCategoryLabels[locale][category as keyof typeof addedCategoryLabels[Locale]];
+  if (locale === "ru") return ruCatalog.categoryLabels[category as keyof typeof ruCatalog.categoryLabels] ?? ruCatalog.ui.category[category as keyof typeof ruCatalog.ui.category] ?? category;
+  if (category in addedCategoryLabels[locale]) return addedCategoryLabels[locale][category as keyof typeof addedCategoryLabels[StaticLocale]];
   return uiMessages[locale].category[category] ?? category;
 }
 
 export function quizTitle(locale: Locale, quiz: Pick<Quiz, "slug" | "title">): string {
+  if (locale === "ru") return ruCatalog.quizTitles[quiz.slug as keyof typeof ruCatalog.quizTitles] ?? quiz.title;
   if (quiz.slug === "brain-teaser") return brainTeaserTitles[locale];
   if (locale === "en") return quiz.title;
   if (locale === "ko" && koreanTitles[quiz.slug]) return koreanTitles[quiz.slug];
@@ -84,7 +89,7 @@ export function quizTitle(locale: Locale, quiz: Pick<Quiz, "slug" | "title">): s
   return ["ja", "zh", "zh-tw"].includes(locale) ? words.join("") : words.join(" ");
 }
 
-const brainTeaserTitles: Record<Locale, string> = {
+const brainTeaserTitles: Record<StaticLocale, string> = {
   ko: "뇌를 깨우는 퀴즈 - 브레인 티저", en: "Brain Teaser - Wake Up Your Brain",
   ja: "脳を目覚めさせるクイズ - ブレインティーザー", zh: "唤醒大脑的谜题 - 脑力挑战",
   es: "Despierta tu mente - Acertijos", "pt-br": "Desperte seu cérebro - Desafios de lógica",
@@ -96,8 +101,13 @@ const brainTeaserTitles: Record<Locale, string> = {
 };
 
 export function quizSeoCopy(locale: Locale, quiz: Quiz): { title: string; description: string } {
+  if (locale === "ru") {
+    if (quiz.slug === "brain-teaser") return { title: ruCatalog.brainSeo.title, description: ruCatalog.brainSeo.description };
+    const title = quizTitle(locale, quiz);
+    return { title: `${title} | woori.today`, description: ruCatalog.quizDescriptions[quiz.slug as keyof typeof ruCatalog.quizDescriptions] };
+  }
   if (quiz.slug === "brain-teaser") {
-    const descriptions: Record<Locale, string> = {
+    const descriptions: Record<StaticLocale, string> = {
       ko: "가볍게 풀면서 뇌를 깨워보세요. 논리, 패턴, 숫자, 기억력, 추리 문제로 구성된 브레인 티저 퀴즈를 무료로 즐길 수 있습니다.",
       en: "Wake up your brain with free logic, pattern, number, memory, and deduction puzzles in this brain teaser quiz.",
       ja: "論理、パターン、数字、記憶、推理の問題に挑戦して、気軽に頭をリフレッシュしましょう。",
@@ -124,11 +134,16 @@ export function quizSummary(locale: Locale, title: string): string {
   return uiMessages[locale].quizSummary(title);
 }
 
-const mathPromptCopy: Record<Locale, { findX: string; decimal: string }> = {
+const mathPromptCopy: Record<StaticLocale, { findX: string; decimal: string }> = {
   ko:{findX:"x의 값을 구하세요.",decimal:"소수로"},en:{findX:"Find x.",decimal:"decimal"},ja:{findX:"xの値を求めましょう。",decimal:"小数で"},zh:{findX:"求 x 的值。",decimal:"小数"},es:{findX:"Calcula el valor de x.",decimal:"decimal"},"pt-br":{findX:"Encontre o valor de x.",decimal:"decimal"},de:{findX:"Berechne x.",decimal:"Dezimalzahl"},fr:{findX:"Calculez la valeur de x.",decimal:"décimal"},vi:{findX:"Hãy tìm giá trị của x.",decimal:"số thập phân"},id:{findX:"Tentukan nilai x.",decimal:"desimal"},th:{findX:"หาค่าของ x",decimal:"ทศนิยม"},"zh-tw":{findX:"求出 x 的值。",decimal:"小數"},it:{findX:"Trova il valore di x.",decimal:"decimale"},nl:{findX:"Bereken de waarde van x.",decimal:"decimaal"},hi:{findX:"x का मान ज्ञात करें।",decimal:"दशमलव"}
 };
 
 export function localizeMathPrompt(locale: Locale, prompt: string): string {
+  if (locale === "ru") {
+    const percentage = prompt.match(/^(\d+(?:[.,]\d+)?)% of (\d+(?:[.,]\d+)?) = \?$/);
+    if (percentage) return `Сколько составляет ${percentage[1]}% от ${percentage[2]}?`;
+    return prompt.replace("What is x?", "Найдите x.").replace("(decimal)", "(десятичная дробь)");
+  }
   if (locale === "hi") {
     const percentage = prompt.match(/^(\d+(?:[.,]\d+)?)% of (\d+(?:[.,]\d+)?) = \?$/);
     if (percentage) return `${percentage[2]} का ${percentage[1]}% कितना है?`;
@@ -198,6 +213,9 @@ export function localizeMathPrompt(locale: Locale, prompt: string): string {
 }
 
 export function hasQuizTermTranslations(locale: Locale, slugs: readonly string[]): boolean {
+  if (locale === "ru") {
+    return slugs.every((slug) => Object.hasOwn(ruCatalog.quizTitles, slug));
+  }
   const translated = new Set<string>([...terms, ...Object.keys(extraTerms[locale]), ...Object.keys(bankTerms[locale])]);
   const localized = localizedTerms[locale];
   return localized.length === terms.length && slugs.every((slug) => slug.split("-").every((word) => translated.has(word)));

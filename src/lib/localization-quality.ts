@@ -216,7 +216,7 @@ function listPageIsLocalized(locale: Locale): boolean {
 
 export async function getListLocalizationQuality(locale: Locale): Promise<{ complete: boolean; indexable: boolean }> {
   const complete = await localeContentIsComplete(locale);
-  return { complete, indexable: complete };
+  return { complete, indexable: complete && publishedLocales.includes(locale as (typeof publishedLocales)[number]) };
 }
 
 export async function getIndexableListLocales(): Promise<Locale[]> {
@@ -325,7 +325,7 @@ export async function getQuizLocalizationQuality(locale: Locale, quiz: Quiz): Pr
         const complete = localeComplete && titleTranslated && descriptionTranslated && resultTranslated
           && questionRate >= LOCALIZATION_INDEX_THRESHOLD.questionRate;
         return {
-          complete, indexable: locale === "en" || complete,
+          complete, indexable: locale === "en" || (publishedLocales.includes(locale as (typeof publishedLocales)[number]) && complete),
           titleTranslated, descriptionTranslated, resultTranslated,
           questionRate, choiceRate: 1, explanationRate: 1,
           questionCount: 0, translatedQuestionCount: 0, choiceCount: 0,
@@ -361,7 +361,7 @@ export async function getQuizLocalizationQuality(locale: Locale, quiz: Quiz): Pr
         && choiceRate >= LOCALIZATION_INDEX_THRESHOLD.choiceRate
         && explanationRate >= LOCALIZATION_INDEX_THRESHOLD.explanationRate;
       return {
-        complete, indexable: locale === "en" || complete,
+        complete, indexable: locale === "en" || (publishedLocales.includes(locale as (typeof publishedLocales)[number]) && complete),
         titleTranslated, descriptionTranslated, resultTranslated,
         questionRate, choiceRate, explanationRate,
         questionCount: questions.length, translatedQuestionCount,
@@ -394,7 +394,7 @@ export async function getLocalizationAudit() {
     let indexableQuizCount = 0;
     for (const quiz of detailQuizzes) {
       const quality = await getQuizLocalizationQuality(locale, quiz);
-      if (quality.indexable) indexableQuizCount++;
+      if (quality.indexable && publishedLocales.includes(locale as (typeof publishedLocales)[number])) indexableQuizCount++;
     }
     if (locale !== "en") {
       for (const question of await getPool("all", locale)) {

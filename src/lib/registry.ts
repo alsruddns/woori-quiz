@@ -1,4 +1,4 @@
-import type { Locale } from "./i18n";
+import { publishedLocales, type Locale } from "./i18n";
 export type Category = "general"|"nonsense"|"math"|"brain"|"history"|"science"|"geography"|"language"|"technology"|"memory"|"random"|"challenge"|"speed"|"fun";
 export type Difficulty = "easy"|"medium"|"hard"|"expert";
 export type QuestionMode = "static"|"dynamic"|"interactive"|"bank";
@@ -56,7 +56,7 @@ const bankSpecs: [Category,string,string,Difficulty[],string][] = [
   ["challenge","challenge-20","20 Question Challenge",["easy","medium","hard"],"Take on a longer twenty-question mixed challenge."],
 ];
 export const categoryLabels: Record<Category,string> = {general:"General Knowledge",nonsense:"Nonsense & Riddles",math:"Math",brain:"Brain Teasers",history:"History",science:"Science",geography:"World Geography",language:"Language",technology:"IT & Development",memory:"Memory & Focus",random:"Random Quiz",challenge:"Challenge",speed:"Speed & Reaction",fun:"Just for Fun"};
-const supportedLocales: Locale[] = ["ko","en","ja","zh","es","pt-br","de","fr","vi","id","th","zh-tw","it","nl","hi"];
+const supportedLocales: Locale[] = [...publishedLocales];
 export const quizzes: Quiz[] = [
   ...specs.map(([category,slug,title,mode,count,difficulty,policyReviewRequired])=>({category,slug,title,mode,count,difficulty,policyReviewRequired,isPublic:mode!=="static",supportedLocales,tags:[category,slug.replaceAll("-"," ")],summary:`A ${difficulty[0]}-to-${difficulty.at(-1)} ${title.toLowerCase()} for curious minds.`})),
   ...bankSpecs.map(([category,slug,title,difficulty,summary])=>({category,slug,title,mode:"bank" as const,count:slug==="challenge-20"?20:10,policyReviewRequired:false,isPublic:true,supportedLocales,difficulty,tags:[category,slug.replaceAll("-"," ")],summary})),
