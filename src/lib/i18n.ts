@@ -7,7 +7,7 @@ export const localeExpansionTargets = [
   "ar", "bn", "fil", "ms", "pl", "ru", "sv", "tr", "uk", "ur", "fa",
 ] as const;
 // Only these locales currently meet the full catalog publication gate.
-export const publishedLocales = ["ko", "en", "ja", "zh", "es", "pt-br", "de", "fr", "vi"] as const satisfies readonly Locale[];
+export const publishedLocales = ["ko", "en", "ja", "zh", "es", "pt-br", "de", "fr", "vi", "id"] as const satisfies readonly Locale[];
 export const localeNames: Record<Locale, string> = { ko:"한국어", en:"English", ja:"日本語", zh:"简体中文", es:"Español", "pt-br":"Português (Brasil)", de:"Deutsch", fr:"Français", vi:"Tiếng Việt", id:"Bahasa Indonesia", th:"ไทย", "zh-tw":"繁體中文", it:"Italiano", nl:"Nederlands", hi:"हिन्दी" };
 export const messages: Record<Locale, { title:string; subtitle:string; search:string; today:string; categories:string; popular:string; play:string; question:string; next:string; submit:string; result:string; retry:string; home:string; related:string; score:string; footer:string }> = {
 ko:{title:"퀴즈테스트",subtitle:"오늘의 호기심을 깨우는 퀴즈",search:"퀴즈 검색",today:"오늘의 퀴즈",categories:"카테고리",popular:"인기 퀴즈",play:"시작하기",question:"문제",next:"다음 문제",submit:"답변 확인",result:"퀴즈 결과",retry:"다시 풀기",home:"홈으로",related:"관련 퀴즈",score:"점수",footer:"개인정보 안내 · 이용안내 · 문의 사항"},

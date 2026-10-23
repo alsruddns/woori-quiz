@@ -129,6 +129,11 @@ const mathPromptCopy: Record<Locale, { findX: string; decimal: string }> = {
 };
 
 export function localizeMathPrompt(locale: Locale, prompt: string): string {
+  if (locale === "id") {
+    const percentage = prompt.match(/^(\d+(?:[.,]\d+)?)% of (\d+(?:[.,]\d+)?) = \?$/);
+    if (percentage) return `Berapa ${percentage[1]}% dari ${percentage[2]}?`;
+    return prompt.replace("What is x?", "Tentukan nilai x.").replace("(decimal)", "(desimal)");
+  }
   if (locale === "vi") {
     const percentage = prompt.match(/^(\d+(?:[.,]\d+)?)% of (\d+(?:[.,]\d+)?) = \?$/);
     if (percentage) return `${percentage[1]}% của ${percentage[2]} bằng bao nhiêu?`;
