@@ -2,6 +2,12 @@
 
 Progress is measured from the source catalog and localization quality checks. A locale is complete only when common UI and every public quiz are localized, routing and quiz behavior work, and metadata, sitemap, TypeScript, lint, tests, and production build pass. Incomplete locales stay out of routing and indexing.
 
+## Current completion audit (2026-10-24)
+
+- Functional localization work is present for 26 locales, 621 question records, and 58 public quizzes per locale. The latest recorded test, TypeScript, lint, route, SEO, sitemap, and production-build checks passed; no production deployment was performed.
+- **Overall completion is pending the client-bundle requirement.** Static imports of all 11 expansion catalogs remain in `src/lib/i18n.ts`, `src/lib/content-copy.ts`, `src/lib/quiz-copy.ts`, and `src/components/InteractiveTest.tsx`. The production browser chunks `1ki7v31jep89j.js` and `33-h5n8gzb8dd.js` contain strings from multiple new locales. This contradicts the requirement to send only the active locale's translation data to the browser.
+- Next start point: replace those static catalog imports with locale-scoped loading across shared UI, content helpers, title/SEO helpers, and the interactive test; retain server-side localization quality and metadata checks; then verify browser chunk contents and route payloads for at least two locales, rerun tests, TypeScript, lint, build, and local production-route/SEO/sitemap checks. Commit and push the verified fix to `origin/develop` only.
+
 ## Scope and current counts
 
 - Repository identified as **Woori Quiz** (`woori-quiz`, branch `develop`).
