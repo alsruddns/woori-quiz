@@ -23,7 +23,7 @@ export function quizAlternates(locales: readonly Locale[], slug?: string) {
   const languageTags: Record<Locale, string> = {
     ko: "ko", en: "en", ja: "ja", zh: "zh", es: "es", "pt-br": "pt-BR",
     de: "de", fr: "fr", vi: "vi", id: "id", th: "th", "zh-tw": "zh-TW",
-    it: "it", nl: "nl", hi: "hi", ru: "ru", tr: "tr", pl: "pl", fil: "fil", bn: "bn", uk: "uk",
+    it: "it", nl: "nl", hi: "hi", ru: "ru", tr: "tr", pl: "pl", fil: "fil", bn: "bn", uk: "uk", ms: "ms",
   };
   return Object.fromEntries([
     ...locales.map((locale) => [languageTags[locale], quizPath(locale, slug)]),

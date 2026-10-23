@@ -57,9 +57,10 @@ describe("Ukrainian published runtime", () => {
     const xml = await (await GET()).text();
     expect(xml).toContain("https://www.woori.today/uk/quiz");
     expect(xml).toContain("https://www.woori.today/uk/quiz/general-knowledge");
-    expect(xml).not.toContain("/ms/");
+    expect(xml).toContain("https://www.woori.today/ms/quiz");
+    expect(xml).not.toContain("/sv/");
     expect(xml).not.toContain("/ar/");
-    expect((xml.match(/<loc>/g) ?? []).length).toBe(1239);
+    expect((xml.match(/<loc>/g) ?? []).length).toBe(1298);
   }, 60000);
 });
 

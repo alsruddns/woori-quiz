@@ -4,21 +4,22 @@ import plCatalog from "./i18n/pl.json";
 import filCatalog from "./i18n/fil.json";
 import bnCatalog from "./i18n/bn.json";
 import ukCatalog from "./i18n/uk.json";
+import msCatalog from "./i18n/ms.json";
 
-export const locales = ["ko", "en", "ja", "zh", "es", "pt-br", "de", "fr", "vi", "id", "th", "zh-tw", "it", "nl", "hi", "ru", "tr", "pl", "fil", "bn", "uk"] as const;
+export const locales = ["ko", "en", "ja", "zh", "es", "pt-br", "de", "fr", "vi", "id", "th", "zh-tw", "it", "nl", "hi", "ru", "tr", "pl", "fil", "bn", "uk", "ms"] as const;
 export type Locale = (typeof locales)[number];
 // Expansion targets are tracked separately from active locales. A target must
 // not reach routing, selectors, metadata, or the sitemap until its catalog is complete.
 export const localeExpansionTargets = [
-  ...locales.filter((locale) => locale !== "ru" && locale !== "tr" && locale !== "pl" && locale !== "fil" && locale !== "bn" && locale !== "uk"),
+  ...locales.filter((locale) => locale !== "ru" && locale !== "tr" && locale !== "pl" && locale !== "fil" && locale !== "bn" && locale !== "uk" && locale !== "ms"),
   "ru", "tr", "pl", "fil", "bn", "uk", "ms", "sv", "cs", "ro", "el",
 ] as const;
 export type TargetLocale = (typeof localeExpansionTargets)[number];
 export type ExpansionLocale = Exclude<TargetLocale, (typeof publishedLocales)[number]>;
 export const excludedExpansionLocales = ["ar", "ur", "fa", "he"] as const;
 // Only these locales currently meet the full catalog publication gate.
-export const publishedLocales = ["ko", "en", "ja", "zh", "es", "pt-br", "de", "fr", "vi", "id", "th", "zh-tw", "it", "nl", "hi", "ru", "tr", "pl", "fil", "bn", "uk"] as const satisfies readonly Locale[];
-export const localeNames: Record<Locale, string> = { ko:"한국어", en:"English", ja:"日本語", zh:"简体中文", es:"Español", "pt-br":"Português (Brasil)", de:"Deutsch", fr:"Français", vi:"Tiếng Việt", id:"Bahasa Indonesia", th:"ไทย", "zh-tw":"繁體中文", it:"Italiano", nl:"Nederlands", hi:"हिन्दी", ru:ruCatalog.localeName, tr:trCatalog.localeName , pl: plCatalog.localeName, fil: filCatalog.localeName, bn: bnCatalog.localeName, uk: ukCatalog.localeName };
+export const publishedLocales = ["ko", "en", "ja", "zh", "es", "pt-br", "de", "fr", "vi", "id", "th", "zh-tw", "it", "nl", "hi", "ru", "tr", "pl", "fil", "bn", "uk", "ms"] as const satisfies readonly Locale[];
+export const localeNames: Record<Locale, string> = { ko:"한국어", en:"English", ja:"日本語", zh:"简体中文", es:"Español", "pt-br":"Português (Brasil)", de:"Deutsch", fr:"Français", vi:"Tiếng Việt", id:"Bahasa Indonesia", th:"ไทย", "zh-tw":"繁體中文", it:"Italiano", nl:"Nederlands", hi:"हिन्दी", ru:ruCatalog.localeName, tr:trCatalog.localeName , pl: plCatalog.localeName, fil: filCatalog.localeName, bn: bnCatalog.localeName, uk: ukCatalog.localeName, ms: msCatalog.localeName };
 export const messages: Record<Locale, { title:string; subtitle:string; search:string; today:string; categories:string; popular:string; play:string; question:string; next:string; submit:string; result:string; retry:string; home:string; related:string; score:string; footer:string }> = {
 ko:{title:"퀴즈테스트",subtitle:"오늘의 호기심을 깨우는 퀴즈",search:"퀴즈 검색",today:"오늘의 퀴즈",categories:"카테고리",popular:"인기 퀴즈",play:"시작하기",question:"문제",next:"다음 문제",submit:"답변 확인",result:"퀴즈 결과",retry:"다시 풀기",home:"홈으로",related:"관련 퀴즈",score:"점수",footer:"개인정보 안내 · 이용안내 · 문의 사항"},
 en:{title:"Quiz",subtitle:"A little curiosity goes a long way.",search:"Search quizzes",today:"Quiz of the day",categories:"Categories",popular:"Popular quizzes",play:"Start quiz",question:"Question",next:"Next question",submit:"Check answer",result:"Your result",retry:"Try again",home:"Home",related:"Related quizzes",score:"Score",footer:"Privacy · Terms · Contact"},
@@ -41,6 +42,7 @@ pl: plCatalog.messages,
 fil: filCatalog.messages,
 bn: bnCatalog.messages,
 uk: ukCatalog.messages,
+ms: msCatalog.messages,
 };
 export function isLocale(value:string): value is Locale { return (locales as readonly string[]).includes(value); }
 export function isPublishedLocale(value:string): value is (typeof publishedLocales)[number] { return (publishedLocales as readonly string[]).includes(value); }
@@ -100,6 +102,7 @@ export const discoveryCopy: Record<Locale, DiscoveryCopy> = {
   fil:{...filCatalog.discovery,resultsFor:(q,n)=>filCatalog.discovery.resultsFor.replace("COUNT_SLOT",String(n)).replace("QUERY_SLOT",q)},
   bn:{...bnCatalog.discovery,resultsFor:(q,n)=>bnCatalog.discovery.resultsFor.replace("COUNT_SLOT",String(n)).replace("QUERY_SLOT",q)},
   uk:{...ukCatalog.discovery,resultsFor:(q,n)=>ukCatalog.discovery.resultsFor.replace("COUNT_SLOT",String(n)).replace("QUERY_SLOT",q)},
+  ms:{...msCatalog.discovery,resultsFor:(q,n)=>msCatalog.discovery.resultsFor.replace("COUNT_SLOT",String(n)).replace("QUERY_SLOT",q)},
 };
 
 export const detailCopy: Record<Locale, { correctCount: string; incorrectCount: string; newSet: string; otherQuizzes: string }> = {
@@ -124,6 +127,7 @@ export const detailCopy: Record<Locale, { correctCount: string; incorrectCount: 
   fil:filCatalog.detail,
   bn:bnCatalog.detail,
   uk:ukCatalog.detail,
+  ms:msCatalog.detail,
 };
 
 export type UiMessages = {
@@ -181,9 +185,16 @@ const ukrainianUiMessages: UiMessages = {
   quizSummary: (title) => ukCatalog.ui.quizSummary.replace("TITLE_SLOT", title),
 };
 
+const malayUiMessages: UiMessages = {
+  ...msCatalog.ui,
+  quizCount: (count) => msCatalog.ui.quizCount.replace("COUNT_SLOT", String(count)),
+  questionCount: (count) => msCatalog.ui.questionCount.replace("COUNT_SLOT", String(count)),
+  quizSummary: (title) => msCatalog.ui.quizSummary.replace("TITLE_SLOT", title),
+};
+
 export const uiMessages: Record<Locale, UiMessages> = {
   ko: {
-    familySites:"패밀리 사이트",portal:"포탈",calculator:"계산기",tools:"온라인 도구",moneyBook:"무료 공유 가계부",docs:"문서·양식",quiz:"퀴즈·테스트",language:"언어 선택",openMenu:"서비스 메뉴 열기",closeMenu:"서비스 메뉴 닫기",allQuizzes:"전체 퀴즈",freeToPlay:"무료 이용",noAccount:"회원가입 없이 이용",heroEyebrow:"호기심을 깨우는 순간",heroTitle:"오늘의 호기심을 깨우는 퀴즈",heroDescription:"가볍게 도전하고 새로운 발견을 즐겨 보세요.",nextChallenge:"다음 도전을 골라 보세요",searchEmpty:"검색 결과가 없습니다.",quizCount:(n)=>`퀴즈 ${n}개`,questionCount:(n)=>`문제 ${n}개`,questionSetReview:"문제 구성 검토 중",difficulty:"난이도",startHeading:"준비되면 시작하세요",startDescription:"천천히 생각하며 즐겁게 도전해 보세요.",correct:"정답입니다!",incorrect:"아쉽지만 정답이 아닙니다.",accuracy:"정답률",finishedIn:"완료 시간",seconds:"초",bestScore:"최고 점수는 이 기기에 저장됩니다.",reviewHeading:"문제 구성을 검토하고 있습니다",reviewDescription:"현지화된 문제를 확인하고 있습니다. 검토가 완료되면 이 퀴즈를 이용할 수 있습니다.",howToPlay:"이용 방법",howToDescription:"답을 선택해 문제를 풀어 보세요. 진행 상황은 이 브라우저에만 저장되며 계정이나 개인정보는 필요하지 않습니다.",aboutQuiz:"퀴즈 안내",faq:"자주 묻는 질문",scoreUploadedQuestion:"점수가 온라인에 저장되나요?",scoreUploadedAnswer:"아니요. 점수는 사용 중인 브라우저에만 저장됩니다.",interactiveTest:"인터랙티브 테스트",localeCount:"21개 언어",dynamicGeneration:"문제 자동 생성",back:"퀴즈 목록",footerTagline:"호기심 많은 모두를 위한 퀴즈",privacy:"개인정보 안내",guidelines:"이용안내",contact:"문의사항",copyright:"© 2026 woori.today",searchLabel:"퀴즈 검색",quizSummary:(title)=>`${title}에 도전하며 즐겁게 실력을 확인해 보세요.`,category:{general:"일반 상식",geography:"세계·지리",science:"과학",history:"역사",math:"수학",language:"언어",technology:"IT",memory:"기억력·두뇌",speed:"속도·반응",fun:"재미 테스트"},difficultyLabels:{easy:"쉬움",medium:"보통",hard:"어려움",expert:"전문가"}
+    familySites:"패밀리 사이트",portal:"포탈",calculator:"계산기",tools:"온라인 도구",moneyBook:"무료 공유 가계부",docs:"문서·양식",quiz:"퀴즈·테스트",language:"언어 선택",openMenu:"서비스 메뉴 열기",closeMenu:"서비스 메뉴 닫기",allQuizzes:"전체 퀴즈",freeToPlay:"무료 이용",noAccount:"회원가입 없이 이용",heroEyebrow:"호기심을 깨우는 순간",heroTitle:"오늘의 호기심을 깨우는 퀴즈",heroDescription:"가볍게 도전하고 새로운 발견을 즐겨 보세요.",nextChallenge:"다음 도전을 골라 보세요",searchEmpty:"검색 결과가 없습니다.",quizCount:(n)=>`퀴즈 ${n}개`,questionCount:(n)=>`문제 ${n}개`,questionSetReview:"문제 구성 검토 중",difficulty:"난이도",startHeading:"준비되면 시작하세요",startDescription:"천천히 생각하며 즐겁게 도전해 보세요.",correct:"정답입니다!",incorrect:"아쉽지만 정답이 아닙니다.",accuracy:"정답률",finishedIn:"완료 시간",seconds:"초",bestScore:"최고 점수는 이 기기에 저장됩니다.",reviewHeading:"문제 구성을 검토하고 있습니다",reviewDescription:"현지화된 문제를 확인하고 있습니다. 검토가 완료되면 이 퀴즈를 이용할 수 있습니다.",howToPlay:"이용 방법",howToDescription:"답을 선택해 문제를 풀어 보세요. 진행 상황은 이 브라우저에만 저장되며 계정이나 개인정보는 필요하지 않습니다.",aboutQuiz:"퀴즈 안내",faq:"자주 묻는 질문",scoreUploadedQuestion:"점수가 온라인에 저장되나요?",scoreUploadedAnswer:"아니요. 점수는 사용 중인 브라우저에만 저장됩니다.",interactiveTest:"인터랙티브 테스트",localeCount:"26 ??????",dynamicGeneration:"문제 자동 생성",back:"퀴즈 목록",footerTagline:"호기심 많은 모두를 위한 퀴즈",privacy:"개인정보 안내",guidelines:"이용안내",contact:"문의사항",copyright:"© 2026 woori.today",searchLabel:"퀴즈 검색",quizSummary:(title)=>`${title}에 도전하며 즐겁게 실력을 확인해 보세요.`,category:{general:"일반 상식",geography:"세계·지리",science:"과학",history:"역사",math:"수학",language:"언어",technology:"IT",memory:"기억력·두뇌",speed:"속도·반응",fun:"재미 테스트"},difficultyLabels:{easy:"쉬움",medium:"보통",hard:"어려움",expert:"전문가"}
   },
   en: {
     familySites:"Family sites",portal:"Portal",calculator:"Calculator",tools:"Online tools",moneyBook:"Free shared money book",docs:"Documents & forms",quiz:"Quiz & tests",language:"Choose language",openMenu:"Open services menu",closeMenu:"Close services menu",allQuizzes:"All quizzes",freeToPlay:"Free to play",noAccount:"No account needed",heroEyebrow:"A moment of curiosity",heroTitle:"Wake up your curiosity today",heroDescription:"Take a quick challenge and enjoy a new discovery.",nextChallenge:"Pick your next challenge",searchEmpty:"No quizzes found.",quizCount:(n)=>`${n} quizzes`,questionCount:(n)=>`${n} questions`,questionSetReview:"Question set under review",difficulty:"Difficulty",startHeading:"Ready when you are",startDescription:"Take your time, trust what you know, and enjoy the challenge.",correct:"Correct!",incorrect:"Not quite.",accuracy:"Accuracy",finishedIn:"Finished in",seconds:"seconds",bestScore:"Your best score is saved on this device.",reviewHeading:"Question set under review",reviewDescription:"We are reviewing the localized questions. This quiz will be playable when the review is complete.",howToPlay:"How to play",howToDescription:"Choose an answer for each question. Your progress stays in this browser; no account or personal information is needed.",aboutQuiz:"About this quiz",faq:"FAQ",scoreUploadedQuestion:"Is my score uploaded?",scoreUploadedAnswer:"No. Your score is stored only in this browser.",interactiveTest:"Interactive test",localeCount:"21 languages",dynamicGeneration:"Questions generated for each round",back:"Quiz list",footerTagline:"Made for curious minds, everywhere.",privacy:"Privacy",guidelines:"Guidelines",contact:"Contact",copyright:"© 2026 woori.today",searchLabel:"Search quizzes",quizSummary:(title)=>`Try ${title} and enjoy a quick way to test what you know.`,category:{general:"General knowledge",geography:"World geography",science:"Science",history:"History",math:"Math",language:"Language",technology:"IT",memory:"Memory & brain",speed:"Speed & reaction",fun:"Just for fun"},difficultyLabels:{easy:"Easy",medium:"Medium",hard:"Hard",expert:"Expert"}
@@ -233,4 +244,5 @@ export const uiMessages: Record<Locale, UiMessages> = {
   fil: filipinoUiMessages,
   bn: bengaliUiMessages,
   uk: ukrainianUiMessages,
+  ms: malayUiMessages,
 };

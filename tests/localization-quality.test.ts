@@ -13,10 +13,10 @@ import { getListLocalizationQuality, getLocalizationAudit, getQuestionLocalizati
 
 describe("localization quality index policy", () => {
   it("statically generates only fully published locale routes", () => {
-    expect(generateListParams()).toEqual([{ locale: "ko" }, { locale: "en" }, { locale: "ja" }, { locale: "zh" }, { locale: "es" }, { locale: "pt-br" }, { locale: "de" }, { locale: "fr" }, { locale: "vi" }, { locale: "id" }, { locale: "th" }, { locale: "zh-tw" }, { locale: "it" }, { locale: "nl" }, { locale: "hi" }, { locale: "ru" }, { locale: "tr" }, { locale: "pl" }, { locale: "fil" }, { locale: "bn" }, { locale: "uk" }]);
+    expect(generateListParams()).toEqual([{ locale: "ko" }, { locale: "en" }, { locale: "ja" }, { locale: "zh" }, { locale: "es" }, { locale: "pt-br" }, { locale: "de" }, { locale: "fr" }, { locale: "vi" }, { locale: "id" }, { locale: "th" }, { locale: "zh-tw" }, { locale: "it" }, { locale: "nl" }, { locale: "hi" }, { locale: "ru" }, { locale: "tr" }, { locale: "pl" }, { locale: "fil" }, { locale: "bn" }, { locale: "uk" }, { locale: "ms" }]);
     const quizParams = generateQuizParams();
-    expect(quizParams).toHaveLength(1218);
-    expect(new Set(quizParams.map(({ locale }) => locale))).toEqual(new Set(["ko", "en", "ja", "zh", "es", "pt-br", "de", "fr", "vi", "id", "th", "zh-tw", "it", "nl", "hi", "ru", "tr", "pl", "fil", "bn", "uk"]));
+    expect(quizParams).toHaveLength(1276);
+    expect(new Set(quizParams.map(({ locale }) => locale))).toEqual(new Set(["ko", "en", "ja", "zh", "es", "pt-br", "de", "fr", "vi", "id", "th", "zh-tw", "it", "nl", "hi", "ru", "tr", "pl", "fil", "bn", "uk", "ms"]));
   });
 
   it("uses the configured quality thresholds and always permits English", async () => {
@@ -59,7 +59,7 @@ describe("localization quality index policy", () => {
     for (const locale of incompleteTargets) {
       expect(publishedLocales, `${locale} must not be published`).not.toContain(locale);
       expect(isPublishedLocale(locale), `${locale} must not be published`).toBe(false);
-      if (locale !== "ru" && locale !== "tr" && locale !== "pl" && locale !== "fil" && locale !== "bn" && locale !== "uk") expect(isLocale(locale), `${locale} must not have runtime locale data yet`).toBe(false);
+      if (locale !== "ru" && locale !== "tr" && locale !== "pl" && locale !== "fil" && locale !== "bn" && locale !== "uk" && locale !== "ms") expect(isLocale(locale), `${locale} must not have runtime locale data yet`).toBe(false);
       expect(routedLocales, `${locale} must not have a generated list route`).not.toContain(locale);
     }
   });
@@ -129,9 +129,9 @@ describe("localization quality index policy", () => {
   it("reports source fallback counts and index coverage for the audit document", async () => {
     const audit = await getLocalizationAudit();
     expect(audit.detailQuizCount).toBe(58);
-    expect(audit.listPageCount).toBe(21);
-    expect(audit.detailUrlCount).toBe(1218);
-    expect(audit.sitemapUrlCount).toBe(1239);
+    expect(audit.listPageCount).toBe(22);
+    expect(audit.detailUrlCount).toBe(1276);
+    expect(audit.sitemapUrlCount).toBe(1298);
     expect(audit.sitemapUrlCount).toBe(audit.listPageCount + audit.detailUrlCount);
     const sitemapResponse = await GET();
     const sitemapXml = await sitemapResponse.text();

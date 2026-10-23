@@ -146,6 +146,19 @@ const bengaliInvariantChoices = new Set([
   "1325 CE", "221 BCE", "490 BCE", "C", "O", "S", "T", "U", "V", "DNA", "CSS", "HTML", "SQL", "PNG",
   ".png", ".mp3", ".csv", ".exe",
 ]);
+const malayInvariantChoices = new Set([
+  "Aluminium", "Ampere", "Antonio Vivaldi", "Argon", "Asia", "Australia", "Austria", "Badminton",
+  "Barometer", "Buchaechum", "Buzz Aldrin", "Chuseok", "Danube", "Denmark", "Ethiopia",
+  "Galileo", "Gayageum", "Hangul", "Hanok", "Helium", "Isaac Newton", "Jordan",
+  "Johannes Gutenberg", "John Glenn", "Joule", "Kenya", "Kimchi", "Kyoto", "Lava",
+  "Marco Polo", "Mayflower", "Meter", "Michelangelo", "Milan", "Monitor", "Naples",
+  "Neil Armstrong", "Neutron", "Newton", "Ondol", "Orbit", "Origami", "Osaka", "Pascal",
+  "Pentagon", "Peru", "Piano", "Printer", "Proxima Centauri", "Rhine", "Rugby", "Sapporo",
+  "Santa Maria", "Seine", "Seoul", "Sudan", "Tanzania", "Thames", "Tokyo", "Uganda",
+  "Venice", "Won", "Yen", "Yuri Gagarin", "Vitamin C", "Vitamin D", "Watt", "Magma",
+  "Plum", "Topaz", "Nitrogen", "Proton", "Roman", "Cello", "Mercury", "Stratosphere",
+  "Asia", "Australia", "Barometer", "Ampere", "Joule", "Pascal", "Argon", "Helium",
+]);
 const ukrainianInvariantChoices = new Set([
   "Antonio Vivaldi", "Beagle", "CSS", "Chuseok", "Fe", "HTML", "Java", "JavaScript", "John Glenn",
   "Marco Polo", "Neil Armstrong", "O", "PNG", "SQL", "Ssireum", "S", "T", "U", "V", "Yuri Gagarin",
@@ -158,6 +171,7 @@ function isPreservedChoice(question: QuizQuestion, value: string, locale: Locale
   if (locale === "fil" && (filipinoInvariantChoices.has(value) || polishInvariantChoices.has(value))) return true;
   if (locale === "bn" && bengaliInvariantChoices.has(value)) return true;
   if (locale === "uk" && ukrainianInvariantChoices.has(value)) return true;
+  if (locale === "ms" && malayInvariantChoices.has(value)) return true;
   if (locale === "es" && spanishInvariantChoices.has(value)) return true;
   if (locale === "pt-br" && brazilianPortugueseInvariantChoices.has(value)) return true;
   if (locale === "de" && germanInvariantChoices.has(value)) return true;
