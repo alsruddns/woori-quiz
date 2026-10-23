@@ -8,14 +8,16 @@ describe("quiz UI translations", () => {
   it("tracks 26 expansion targets without activating incomplete languages", () => {
     expect(localeExpansionTargets).toHaveLength(26);
     expect(new Set(localeExpansionTargets).size).toBe(26);
-    expect(localeExpansionTargets.slice(0, locales.length)).toEqual(locales);
-    expect(localeExpansionTargets).toEqual([...publishedLocales, "tr", "pl", "fil", "bn", "uk", "ms", "sv", "cs", "ro", "el"]);
+    expect(localeExpansionTargets).toEqual([
+      ...locales.filter((locale) => locale !== "ru" && locale !== "tr"),
+      "ru", "tr", "pl", "fil", "bn", "uk", "ms", "sv", "cs", "ro", "el",
+    ]);
     expect(localeExpansionTargets.slice(publishedLocales.length).every((locale) => !isPublishedLocale(locale))).toBe(true);
     expect(isLocale("ru")).toBe(true);
     expect(isPublishedLocale("ru")).toBe(true);
     expect(excludedExpansionLocales).toEqual(["ar", "ur", "fa", "he"]);
     expect(excludedExpansionLocales.some((locale) => (localeExpansionTargets as readonly string[]).includes(locale))).toBe(false);
-    expect(publishedLocales).toEqual(["ko", "en", "ja", "zh", "es", "pt-br", "de", "fr", "vi", "id", "th", "zh-tw", "it", "nl", "hi", "ru"]);
+    expect(publishedLocales).toEqual(["ko", "en", "ja", "zh", "es", "pt-br", "de", "fr", "vi", "id", "th", "zh-tw", "it", "nl", "hi", "ru", "tr"]);
   });
 
   it("provides navigation, category, difficulty, and footer copy for wired locales", () => {
@@ -31,7 +33,7 @@ describe("quiz UI translations", () => {
       expect([copy.footerTagline, copy.privacy, copy.guidelines, copy.contact].every(Boolean)).toBe(true);
       expect(quizTitleTranslationWordCount(locale), `Wrong quiz title word count for ${locale}`).toBe(quizTitleWordCount);
       expect(missingQuizTitleWords(quizzes.map((quiz) => quiz.slug))).toEqual([]);
-      expect(hasQuizTermTranslations(locale, locale === "ru" ? publicQuizSlugs : quizzes.map((quiz) => quiz.slug)), `Incomplete quiz word translations for ${locale}`).toBe(true);
+      expect(hasQuizTermTranslations(locale, locale === "ru" || locale === "tr" ? publicQuizSlugs : quizzes.map((quiz) => quiz.slug)), `Incomplete quiz word translations for ${locale}`).toBe(true);
       expect(quizzes.every((quiz) => quizTitle(locale, quiz).trim().length > 0)).toBe(true);
     }
   });

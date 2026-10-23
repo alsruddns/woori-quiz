@@ -86,7 +86,7 @@ export async function generatedCopiesForLocale(
     return copies;
   }
   if (!(locales as readonly string[]).includes(locale)) return copies;
-  const activeLocale = locale as Exclude<Locale, "ru">;
+  const activeLocale = locale as Exclude<Locale, "ru" | "tr">;
   if (activeLocale === "en") return copies;
   if (questions.some((q) => q.id.startsWith("math-x-"))) {
     const { phrases } = await mathPhrases[activeLocale]();

@@ -4,15 +4,15 @@ import { questionBank } from "../src/lib/question-bank";
 import { loadQuestionBankForCategory } from "../src/lib/question-bank/select-questions";
 import { isLocale, isPublishedLocale, localeExpansionTargets, publishedLocales } from "../src/lib/i18n";
 
-describe("Turkish question bank draft", () => {
-  it("covers all 621 source IDs without exposing Turkish as a locale", () => {
+describe("Turkish question bank", () => {
+  it("covers all 621 source IDs with no placeholders or locale gaps", () => {
     const sourceById = new Map(questionBank.map((question) => [question.id, question]));
     expect(questionBank).toHaveLength(621);
     expect(Object.keys(copies).sort()).toEqual([...sourceById.keys()].sort());
     expect(localeExpansionTargets).toContain("tr");
-    expect(isLocale("tr")).toBe(false);
-    expect(isPublishedLocale("tr")).toBe(false);
-    expect(publishedLocales).not.toContain("tr");
+    expect(isLocale("tr")).toBe(true);
+    expect(isPublishedLocale("tr")).toBe(true);
+    expect(publishedLocales).toContain("tr");
 
     const englishFunctionWords = /\b(?:the|is|are|was|were|of|and|with|from|which|what|who|where|when|why|how|this|that|these|those|will|does)\b/;
     for (const [id, copy] of Object.entries(copies)) {
@@ -47,7 +47,7 @@ describe("Turkish question bank draft", () => {
       const item = localized.find((question) => question.id === source.id)!;
       expect(item.category, source.id).toBe(source.category);
       expect(item.answer, source.id).toBe(source.answer);
-      expect(item.localizations?.tr, source.id).toEqual(copies[source.id]);
+      expect(item.localizations?.tr, source.id).toEqual((copies as Record<string, typeof copies[keyof typeof copies]>)[source.id]);
     }
   }, 30000);
 });

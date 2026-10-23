@@ -36,7 +36,7 @@
       "Kuvars",
       "Topaz",
       "Elmas",
-      "Corundum"
+      "Korindon"
     ]
   },
   "general-005": {
@@ -85,7 +85,7 @@
     "options": [
       "Kare",
       "Üçgen",
-      "Pentagon",
+      "Beşgen",
       "Çember"
     ]
   },
@@ -126,7 +126,7 @@
       "Sürtünme",
       "Yerçekimi",
       "Manyetizma",
-      "Buoyancy"
+      "Kaldırma kuvveti"
     ]
   },
   "science-014": {
@@ -153,9 +153,9 @@
     "question": "Hangi organel en çok hücresel ATP üretmek için bilinir?",
     "explanation": "Mitokondri, bir ökaryotik hücrenin ATP'sinin çoğunu hücresel solunum yoluyla üretir.",
     "options": [
-      "Nucleus",
+      "Çekirdek",
       "Mitokondrion",
-      "Ribosome",
+      "Ribozom",
       "Golgi aparatı"
     ]
   },
@@ -194,9 +194,9 @@
     "explanation": "Bir atomun çekirdeği proton ve nötron içerir.",
     "options": [
       "Yörünge",
-      "Nucleus",
+      "Çekirdek",
       "Kabuk",
-      "Bond"
+      "Bağ"
     ]
   },
   "geography-021": {
@@ -675,8 +675,8 @@
     "options": [
       "Ondalık",
       "İkili",
-      "Octal",
-      "Roman"
+      "Sekizlik",
+      "Roma rakamı"
     ]
   },
   "technology-069": {
@@ -736,7 +736,7 @@
       "Çember",
       "Kare",
       "Üçgen",
-      "Pentagon"
+      "Beşgen"
     ]
   },
   "brain-075": {
@@ -906,7 +906,7 @@
       "Proxima Centauri",
       "Dört",
       "Higrometre",
-      "Calcite"
+      "Kalsit"
     ]
   },
   "general-x-2": {
@@ -916,7 +916,7 @@
       "Dört",
       "Demir",
       "C vitamini",
-      "Chickpeas"
+      "Nohut"
     ]
   },
   "general-x-3": {
@@ -933,9 +933,9 @@
     "question": "Kireç taşının ana bileşeni hangi mineraldir?",
     "explanation": "Kireçtaşı esas olarak mineral kalsitten oluşur.",
     "options": [
-      "Calcite",
+      "Kalsit",
       "Bir paket",
-      "Chameleon",
+      "Bukalemun",
       "Papağan"
     ]
   },
@@ -1013,10 +1013,10 @@
     "question": "Geleneksel humusta ana madde nedir?",
     "explanation": "Geleneksel humus esas olarak nohuttan yapılır.",
     "options": [
-      "Chickpeas",
+      "Nohut",
       "İkinci",
       "90",
-      "Omnivore"
+      "Hepçil"
     ]
   },
   "general-x-13": {
@@ -1026,7 +1026,7 @@
       "Arborio pilavı",
       "Dört",
       "Higrometre",
-      "Calcite"
+      "Kalsit"
     ]
   },
   "general-x-14": {
@@ -1036,7 +1036,7 @@
       "Soya fasulyesi",
       "Demir",
       "C vitamini",
-      "Chickpeas"
+      "Nohut"
     ]
   },
   "general-x-15": {
@@ -1054,7 +1054,7 @@
     "explanation": "Guacamole, püre avokadoya dayanmaktadır.",
     "options": [
       "Avokado",
-      "Chameleon",
+      "Bukalemun",
       "Papağan",
       "Balina köpekbalığı"
     ]
@@ -1113,17 +1113,17 @@
     "question": "Kısa mesafelerde en hızlı kara hayvanı hangisidir?",
     "explanation": "Çitalar en yüksek kara-hayvan sprint hızlarına ulaşabilir.",
     "options": [
-      "Cheetah",
+      "Çita",
       "112",
       "Duman",
-      "Seoul"
+      "Seul"
     ]
   },
   "general-x-23": {
     "question": "Hangi memeli yumurta bırakır ve ördek benzeri bir faturası vardır?",
     "explanation": "Platypus, bir faturası olan yumurta yayan bir memelidir.",
     "options": [
-      "Platypus",
+      "Ornitorenk",
       "Ondol",
       "Buchaechum",
       "Hanok"
@@ -1135,7 +1135,7 @@
     "options": [
       "Bir paket",
       "90",
-      "Omnivore",
+      "Hepçil",
       "Yağış"
     ]
   },
@@ -1143,9 +1143,9 @@
     "question": "Hangi hayvan özel cilt hücrelerini kullanarak renk değiştirmesiyle bilinir?",
     "explanation": "Bukalemunlar özel cilt hücrelerini kullanarak renk değiştirebilirler.",
     "options": [
-      "Chameleon",
+      "Bukalemun",
       "Higrometre",
-      "Calcite",
+      "Kalsit",
       "60"
     ]
   },
@@ -1155,7 +1155,7 @@
     "options": [
       "Papağan",
       "C vitamini",
-      "Chickpeas",
+      "Nohut",
       "Arborio pilavı"
     ]
   },
@@ -1173,8 +1173,8 @@
     "question": "Hangi böcek bal üretir?",
     "explanation": "Bal arıları toplanan nektardan bal üretir.",
     "options": [
-      "Honeybee",
-      "Chameleon",
+      "Bal arısı",
+      "Bukalemun",
       "Papağan",
       "Balina köpekbalığı"
     ]
@@ -1183,7 +1183,7 @@
     "question": "Genç bir kurbağanın adı nedir?",
     "explanation": "Bir kurbağanın sucul larva evresine \"tadpole\" denir.",
     "options": [
-      "Tadpole",
+      "İribaş",
       "Dizgiler",
       "Dans",
       "Renkli cam"
@@ -1235,7 +1235,7 @@
     "options": [
       "Dans",
       "Duman",
-      "Seoul",
+      "Seul",
       "Kazandı"
     ]
   },
@@ -1254,7 +1254,7 @@
     "explanation": "Vivaldi, The Four Seasons olarak bilinen keman konçertolarının setini besteledi.",
     "options": [
       "Antonio Vivaldi",
-      "Omnivore",
+      "Hepçil",
       "Yağış",
       "Cetvel"
     ]
@@ -1264,7 +1264,7 @@
     "explanation": "Çello, kemandan daha büyük bir yaylı yaylı çalgıdır.",
     "options": [
       "Çello",
-      "Calcite",
+      "Kalsit",
       "60",
       "Hidrojen"
     ]
@@ -1274,7 +1274,7 @@
     "explanation": "Origami, kağıdı formlara katlama sanatıdır.",
     "options": [
       "Origami",
-      "Chickpeas",
+      "Nohut",
       "Arborio pilavı",
       "Soya fasulyesi"
     ]
@@ -1296,7 +1296,7 @@
       "Yazıt",
       "Papağan",
       "Balina köpekbalığı",
-      "Honeybee"
+      "Bal arısı"
     ]
   },
   "general-x-41": {
@@ -1354,7 +1354,7 @@
     "explanation": "Wimbledon büyük bir tenis turnuvasıdır.",
     "options": [
       "Tenis",
-      "Seoul",
+      "Seul",
       "Kazandı",
       "Hangul"
     ]
@@ -1406,7 +1406,7 @@
       "Yen",
       "Krem",
       "Afrika fili",
-      "Cheetah"
+      "Çita"
     ]
   },
   "general-x-52": {
@@ -1415,8 +1415,8 @@
     "options": [
       "Planlanan gelir ve harcamalar",
       "Balina köpekbalığı",
-      "Honeybee",
-      "Tadpole"
+      "Bal arısı",
+      "İribaş"
     ]
   },
   "general-x-53": {
@@ -1525,8 +1525,8 @@
     "options": [
       "366",
       "Afrika fili",
-      "Cheetah",
-      "Platypus"
+      "Çita",
+      "Ornitorenk"
     ]
   },
   "general-x-64": {
@@ -1534,8 +1534,8 @@
     "explanation": "Yedi ayın 31 günü var.",
     "options": [
       "Yedi",
-      "Honeybee",
-      "Tadpole",
+      "Bal arısı",
+      "İribaş",
       "Yarasa"
     ]
   },
@@ -1603,7 +1603,7 @@
     "question": "Güney Kore'nin başkenti neresidir?",
     "explanation": "Seul, Güney Kore'nin başkentidir.",
     "options": [
-      "Seoul",
+      "Seul",
       "Ssireum",
       "Metre",
       "İkinci"
@@ -1616,7 +1616,7 @@
       "Kazandı",
       "Bir ateş",
       "Güney",
-      "Crust"
+      "Kabuk"
     ]
   },
   "general-x-73": {
@@ -1644,8 +1644,8 @@
     "explanation": "Chuseok, Kore'de önemli bir sonbahar hasat bayramıdır.",
     "options": [
       "Chuseok",
-      "Cheetah",
-      "Platypus",
+      "Çita",
+      "Ornitorenk",
       "Bir paket"
     ]
   },
@@ -1654,7 +1654,7 @@
     "explanation": "Ondol, geleneksel bir Kore yer altı ısıtma sistemidir.",
     "options": [
       "Ondol",
-      "Tadpole",
+      "İribaş",
       "Yarasa",
       "Piyano"
     ]
@@ -1733,7 +1733,7 @@
     "question": "Hem bitkileri hem de hayvanları yiyen bir hayvanın adı nedir?",
     "explanation": "Omnivorlar hem bitki hem de hayvansal maddeleri yerler.",
     "options": [
-      "Omnivore",
+      "Hepçil",
       "Proxima Centauri",
       "Dört",
       "Higrometre"
@@ -1764,9 +1764,9 @@
     "explanation": "Küçük yangınları bastırmak için yangın söndürücü kullanılır.",
     "options": [
       "Bir ateş",
-      "Platypus",
+      "Ornitorenk",
       "Bir paket",
-      "Chameleon"
+      "Bukalemun"
     ]
   },
   "general-x-88": {
@@ -1793,7 +1793,7 @@
     "question": "Bir somun ekmeğin katı dış tabakasının adı nedir?",
     "explanation": "Kabuk, ekmek tabakasının kahverengileşmiş dış tabakasıdır.",
     "options": [
-      "Crust",
+      "Kabuk",
       "Tenis",
       "Altı",
       "Rugby"
@@ -2320,8 +2320,8 @@
     ]
   },
   "math-x-product-1": {
-    "question": "7 5 nedir?",
-    "explanation": "7 5 = 35.",
+    "question": "7 × 5 kaçtır?",
+    "explanation": "7 × 5 = 35.",
     "options": [
       "35",
       "30",
@@ -2360,8 +2360,8 @@
     ]
   },
   "math-x-product-2": {
-    "question": "8 6 nedir?",
-    "explanation": "8 6 = 48.",
+    "question": "8 × 6 kaçtır?",
+    "explanation": "8 × 6 = 48.",
     "options": [
       "48",
       "42",
@@ -2400,8 +2400,8 @@
     ]
   },
   "math-x-product-3": {
-    "question": "9 7 nedir?",
-    "explanation": "9 7 = 63.",
+    "question": "9 × 7 kaçtır?",
+    "explanation": "9 × 7 = 63.",
     "options": [
       "63",
       "56",
@@ -2440,8 +2440,8 @@
     ]
   },
   "math-x-product-4": {
-    "question": "10 8 nedir?",
-    "explanation": "10 8 = 80.",
+    "question": "10 × 8 kaçtır?",
+    "explanation": "10 × 8 = 80.",
     "options": [
       "80",
       "72",
@@ -2480,8 +2480,8 @@
     ]
   },
   "math-x-product-5": {
-    "question": "11 9 nedir?",
-    "explanation": "11 9 = 99.",
+    "question": "11 × 9 kaçtır?",
+    "explanation": "11 × 9 = 99.",
     "options": [
       "99",
       "90",
@@ -2520,8 +2520,8 @@
     ]
   },
   "math-x-product-6": {
-    "question": "12 10 nedir?",
-    "explanation": "12 10 = 120.",
+    "question": "12 × 10 kaçtır?",
+    "explanation": "12 × 10 = 120.",
     "options": [
       "120",
       "110",
@@ -2560,8 +2560,8 @@
     ]
   },
   "math-x-product-7": {
-    "question": "13 11 nedir?",
-    "explanation": "13 11 = 143.",
+    "question": "13 × 11 kaçtır?",
+    "explanation": "13 × 11 = 143.",
     "options": [
       "143",
       "132",
@@ -2600,8 +2600,8 @@
     ]
   },
   "math-x-product-8": {
-    "question": "14 12 nedir?",
-    "explanation": "14 12 = 168.",
+    "question": "14 × 12 kaçtır?",
+    "explanation": "14 × 12 = 168.",
     "options": [
       "168",
       "156",
@@ -2640,8 +2640,8 @@
     ]
   },
   "math-x-product-9": {
-    "question": "15 13 nedir?",
-    "explanation": "15 13 = 195.",
+    "question": "15 × 13 kaçtır?",
+    "explanation": "15 × 13 = 195.",
     "options": [
       "195",
       "182",
@@ -2680,8 +2680,8 @@
     ]
   },
   "math-x-product-10": {
-    "question": "16 14 nedir?",
-    "explanation": "16 14 = 224.",
+    "question": "16 × 14 kaçtır?",
+    "explanation": "16 × 14 = 224.",
     "options": [
       "224",
       "210",
@@ -2720,8 +2720,8 @@
     ]
   },
   "math-x-product-11": {
-    "question": "17 15 nedir?",
-    "explanation": "17 15 = 255.",
+    "question": "17 × 15 kaçtır?",
+    "explanation": "17 × 15 = 255.",
     "options": [
       "255",
       "240",
@@ -2760,8 +2760,8 @@
     ]
   },
   "math-x-product-12": {
-    "question": "18 16 nedir?",
-    "explanation": "18 16 = 288.",
+    "question": "18 × 16 kaçtır?",
+    "explanation": "18 × 16 = 288.",
     "options": [
       "288",
       "272",
@@ -2800,8 +2800,8 @@
     ]
   },
   "math-x-product-13": {
-    "question": "19 17 nedir?",
-    "explanation": "19 17 = 323.",
+    "question": "19 × 17 kaçtır?",
+    "explanation": "19 × 17 = 323.",
     "options": [
       "323",
       "306",
@@ -2840,8 +2840,8 @@
     ]
   },
   "math-x-product-14": {
-    "question": "20 18 nedir?",
-    "explanation": "20 18 = 360.",
+    "question": "20 × 18 kaçtır?",
+    "explanation": "20 × 18 = 360.",
     "options": [
       "360",
       "342",
@@ -2880,8 +2880,8 @@
     ]
   },
   "math-x-product-15": {
-    "question": "21 19 nedir?",
-    "explanation": "21 19 = 399.",
+    "question": "21 × 19 kaçtır?",
+    "explanation": "21 × 19 = 399.",
     "options": [
       "399",
       "380",
@@ -2920,8 +2920,8 @@
     ]
   },
   "math-x-product-16": {
-    "question": "22 20 nedir?",
-    "explanation": "22 20 = 440.",
+    "question": "22 × 20 kaçtır?",
+    "explanation": "22 × 20 = 440.",
     "options": [
       "440",
       "420",
@@ -2960,8 +2960,8 @@
     ]
   },
   "math-x-product-17": {
-    "question": "23 21 nedir?",
-    "explanation": "23 21 = 483.",
+    "question": "23 × 21 kaçtır?",
+    "explanation": "23 × 21 = 483.",
     "options": [
       "483",
       "462",
@@ -3000,8 +3000,8 @@
     ]
   },
   "math-x-product-18": {
-    "question": "24 22 nedir?",
-    "explanation": "24 22 = 528.",
+    "question": "24 × 22 kaçtır?",
+    "explanation": "24 × 22 = 528.",
     "options": [
       "528",
       "506",
@@ -3040,8 +3040,8 @@
     ]
   },
   "math-x-product-19": {
-    "question": "25 23 nedir?",
-    "explanation": "25 23 = 575.",
+    "question": "25 × 23 kaçtır?",
+    "explanation": "25 × 23 = 575.",
     "options": [
       "575",
       "552",
@@ -3080,8 +3080,8 @@
     ]
   },
   "math-x-product-20": {
-    "question": "26 24 nedir?",
-    "explanation": "26 24 = 624.",
+    "question": "26 × 24 kaçtır?",
+    "explanation": "26 × 24 = 624.",
     "options": [
       "624",
       "600",
@@ -3120,8 +3120,8 @@
     ]
   },
   "math-x-product-21": {
-    "question": "27 25 nedir?",
-    "explanation": "27 25 = 675.",
+    "question": "27 × 25 kaçtır?",
+    "explanation": "27 × 25 = 675.",
     "options": [
       "675",
       "650",
@@ -3160,8 +3160,8 @@
     ]
   },
   "math-x-product-22": {
-    "question": "28 26 nedir?",
-    "explanation": "28 26 = 728.",
+    "question": "28 × 26 kaçtır?",
+    "explanation": "28 × 26 = 728.",
     "options": [
       "728",
       "702",
@@ -3200,8 +3200,8 @@
     ]
   },
   "math-x-product-23": {
-    "question": "29 27 nedir?",
-    "explanation": "29 27 = 783.",
+    "question": "29 × 27 kaçtır?",
+    "explanation": "29 × 27 = 783.",
     "options": [
       "783",
       "756",
@@ -3240,8 +3240,8 @@
     ]
   },
   "math-x-product-24": {
-    "question": "30 28 nedir?",
-    "explanation": "30 28 = 840.",
+    "question": "30 × 28 kaçtır?",
+    "explanation": "30 × 28 = 840.",
     "options": [
       "840",
       "812",
@@ -3271,7 +3271,7 @@
   },
   "math-x-sequence-square-1": {
     "question": "Sonraki terim nedir: 4, 16, 36, 64, __?",
-    "explanation": "Bunlar 4 kez ardışık kareler; sonraki 52 4 = 100.",
+    "explanation": "Bunlar ardışık karelerin 4 katıdır; sıradaki terim 5² × 4 = 100 olur.",
     "options": [
       "100",
       "96",
@@ -3281,7 +3281,7 @@
   },
   "math-x-combination-1": {
     "question": "4 farklı nesneden kaç farklı çift seçilebilir?",
-    "explanation": "Sayım C(4, 2) = 4 3 2 = 6'dır.",
+    "explanation": "Farklı ikililerin sayısı C(4, 2) = 4 × 3 ÷ 2 = 6.",
     "options": [
       "6",
       "5",
@@ -3291,7 +3291,7 @@
   },
   "math-x-sequence-square-2": {
     "question": "Sonraki terim nedir: 5, 20, 45, 80, __?",
-    "explanation": "Bunlar 5 kez ardışık karelerdir; sonraki 52 5 = 125'tir.",
+    "explanation": "Bunlar ardışık karelerin 5 katıdır; sıradaki terim 5² × 5 = 125 olur.",
     "options": [
       "125",
       "120",
@@ -3301,7 +3301,7 @@
   },
   "math-x-combination-2": {
     "question": "5 farklı nesneden kaç farklı çift seçilebilir?",
-    "explanation": "Sayım C(5, 2) = 5 4 2 = 10'dur.",
+    "explanation": "Farklı ikililerin sayısı C(5, 2) = 5 × 4 ÷ 2 = 10.",
     "options": [
       "10",
       "9",
@@ -3311,7 +3311,7 @@
   },
   "math-x-sequence-square-3": {
     "question": "Sonraki terim nedir: 6, 24, 54, 96, __?",
-    "explanation": "Bunlar 6 kez ardışık karelerdir; sonraki 52 6 = 150'dir.",
+    "explanation": "Bunlar ardışık karelerin 6 katıdır; sıradaki terim 5² × 6 = 150 olur.",
     "options": [
       "150",
       "144",
@@ -3321,7 +3321,7 @@
   },
   "math-x-combination-3": {
     "question": "6 farklı nesneden kaç farklı çift seçilebilir?",
-    "explanation": "Sayım C(6, 2) = 6 5 2 = 15'tir.",
+    "explanation": "Farklı ikililerin sayısı C(6, 2) = 6 × 5 ÷ 2 = 15.",
     "options": [
       "15",
       "14",
@@ -3331,7 +3331,7 @@
   },
   "math-x-sequence-square-4": {
     "question": "Sonraki terim nedir: 7, 28, 63, 112, __?",
-    "explanation": "Bunlar 7 kez ardışık karelerdir; sonraki 52 7 = 175'tir.",
+    "explanation": "Bunlar ardışık karelerin 7 katıdır; sıradaki terim 5² × 7 = 175 olur.",
     "options": [
       "175",
       "168",
@@ -3341,7 +3341,7 @@
   },
   "math-x-combination-4": {
     "question": "7 farklı nesneden kaç farklı çift seçilebilir?",
-    "explanation": "Sayım C(7, 2) = 7 6 2 = 21'dir.",
+    "explanation": "Farklı ikililerin sayısı C(7, 2) = 7 × 6 ÷ 2 = 21.",
     "options": [
       "21",
       "20",
@@ -3351,7 +3351,7 @@
   },
   "math-x-sequence-square-5": {
     "question": "Sonraki terim nedir: 8, 32, 72, 128, __?",
-    "explanation": "Bunlar 8 kez ardışık karelerdir; sonraki 52 8 = 200'dür.",
+    "explanation": "Bunlar ardışık karelerin 8 katıdır; sıradaki terim 5² × 8 = 200 olur.",
     "options": [
       "200",
       "192",
@@ -3361,7 +3361,7 @@
   },
   "math-x-combination-5": {
     "question": "8 farklı nesneden kaç farklı çift seçilebilir?",
-    "explanation": "Sayım C(8, 2) = 8 7 2 = 28'dir.",
+    "explanation": "Farklı ikililerin sayısı C(8, 2) = 8 × 7 ÷ 2 = 28.",
     "options": [
       "28",
       "27",
@@ -3371,7 +3371,7 @@
   },
   "math-x-sequence-square-6": {
     "question": "Sonraki terim nedir: 9, 36, 81, 144, __?",
-    "explanation": "Bunlar 9 kez ardışık karelerdir; sonraki 52 9 = 225'tir.",
+    "explanation": "Bunlar ardışık karelerin 9 katıdır; sıradaki terim 5² × 9 = 225 olur.",
     "options": [
       "225",
       "216",
@@ -3381,7 +3381,7 @@
   },
   "math-x-combination-6": {
     "question": "9 farklı nesneden kaç farklı çift seçilebilir?",
-    "explanation": "Sayım C(9, 2) = 9 8 2 = 36'dır.",
+    "explanation": "Farklı ikililerin sayısı C(9, 2) = 9 × 8 ÷ 2 = 36.",
     "options": [
       "36",
       "35",
@@ -3391,7 +3391,7 @@
   },
   "math-x-sequence-square-7": {
     "question": "Sonraki terim nedir: 10, 40, 90, 160, __?",
-    "explanation": "Bunlar 10 çarpı ardışık karelerdir; sonraki 52 10 = 250'dir.",
+    "explanation": "Bunlar ardışık karelerin 10 katıdır; sıradaki terim 5² × 10 = 250 olur.",
     "options": [
       "250",
       "240",
@@ -3401,7 +3401,7 @@
   },
   "math-x-combination-7": {
     "question": "10 farklı nesneden kaç farklı çift seçilebilir?",
-    "explanation": "Sayım C(10, 2) = 10 9 2 = 45'tir.",
+    "explanation": "Farklı ikililerin sayısı C(10, 2) = 10 × 9 ÷ 2 = 45.",
     "options": [
       "45",
       "44",
@@ -3411,7 +3411,7 @@
   },
   "math-x-sequence-square-8": {
     "question": "Sonraki terim nedir: 11, 44, 99, 176, __?",
-    "explanation": "Bunlar 11 çarpı ardışık karelerdir; sonraki 52 11 = 275'tir.",
+    "explanation": "Bunlar ardışık karelerin 11 katıdır; sıradaki terim 5² × 11 = 275 olur.",
     "options": [
       "275",
       "264",
@@ -3421,7 +3421,7 @@
   },
   "math-x-combination-8": {
     "question": "11 farklı nesneden kaç farklı çift seçilebilir?",
-    "explanation": "Sayım C(11, 2) = 11 10 2 = 55'tir.",
+    "explanation": "Farklı ikililerin sayısı C(11, 2) = 11 × 10 ÷ 2 = 55.",
     "options": [
       "55",
       "54",
@@ -3431,7 +3431,7 @@
   },
   "math-x-sequence-square-9": {
     "question": "Sonraki terim nedir: 12, 48, 108, 192, __?",
-    "explanation": "Bunlar 12 çarpı ardışık karelerdir; sonraki 52 12 = 300'dür.",
+    "explanation": "Bunlar ardışık karelerin 12 katıdır; sıradaki terim 5² × 12 = 300 olur.",
     "options": [
       "300",
       "288",
@@ -3441,7 +3441,7 @@
   },
   "math-x-combination-9": {
     "question": "12 farklı nesneden kaç farklı çift seçilebilir?",
-    "explanation": "Sayım C(12, 2) = 12 11 2 = 66'dır.",
+    "explanation": "Farklı ikililerin sayısı C(12, 2) = 12 × 11 ÷ 2 = 66.",
     "options": [
       "66",
       "65",
@@ -3451,7 +3451,7 @@
   },
   "math-x-sequence-square-10": {
     "question": "Sonraki terim nedir: 13, 52, 117, 208, __?",
-    "explanation": "Bunlar 13 çarpı ardışık karelerdir; sonraki 52 13 = 325'tir.",
+    "explanation": "Bunlar ardışık karelerin 13 katıdır; sıradaki terim 5² × 13 = 325 olur.",
     "options": [
       "325",
       "312",
@@ -3461,7 +3461,7 @@
   },
   "math-x-combination-10": {
     "question": "13 farklı nesneden kaç farklı çift seçilebilir?",
-    "explanation": "Sayım C(13, 2) = 13 12 2 = 78'dir.",
+    "explanation": "Farklı ikililerin sayısı C(13, 2) = 13 × 12 ÷ 2 = 78.",
     "options": [
       "78",
       "77",
@@ -3471,7 +3471,7 @@
   },
   "math-x-sequence-square-11": {
     "question": "Sonraki terim nedir: 14, 56, 126, 224, __?",
-    "explanation": "Bunlar 14 kat art arda karelerdir; sonraki 52 14 = 350'dir.",
+    "explanation": "Bunlar ardışık karelerin 14 katıdır; sıradaki terim 5² × 14 = 350 olur.",
     "options": [
       "350",
       "336",
@@ -3481,7 +3481,7 @@
   },
   "math-x-combination-11": {
     "question": "14 farklı nesneden kaç farklı çift seçilebilir?",
-    "explanation": "Sayım C(14, 2) = 14 13 2 = 91'dir.",
+    "explanation": "Farklı ikililerin sayısı C(14, 2) = 14 × 13 ÷ 2 = 91.",
     "options": [
       "91",
       "90",
@@ -3491,7 +3491,7 @@
   },
   "math-x-sequence-square-12": {
     "question": "Sonraki terim nedir: 15, 60, 135, 240, __?",
-    "explanation": "Bunlar 15 kat art arda karelerdir; sonraki 52 15 = 375'tir.",
+    "explanation": "Bunlar ardışık karelerin 15 katıdır; sıradaki terim 5² × 15 = 375 olur.",
     "options": [
       "375",
       "360",
@@ -3501,7 +3501,7 @@
   },
   "math-x-combination-12": {
     "question": "15 farklı nesneden kaç farklı çift seçilebilir?",
-    "explanation": "Sayım C(15, 2) = 15 14 2 = 105'tir.",
+    "explanation": "Farklı ikililerin sayısı C(15, 2) = 15 × 14 ÷ 2 = 105.",
     "options": [
       "105",
       "104",
@@ -4534,7 +4534,7 @@
     "explanation": "Na Latince natrium isminden gelir.",
     "options": [
       "Na",
-      "Nucleus",
+      "Çekirdek",
       "DNA",
       "Plateletler"
     ]
@@ -4583,9 +4583,9 @@
     "question": "Hangi organelde ökaryotik hücrenin DNA'sının çoğu bulunur?",
     "explanation": "Çoğu ökaryotik DNA hücre çekirdeğinde bulunur.",
     "options": [
-      "Nucleus",
+      "Çekirdek",
       "Magma",
-      "Lava",
+      "Lav",
       "Manto"
     ]
   },
@@ -4656,7 +4656,7 @@
       "Sürtünme",
       "Glukoz",
       "Oksijen",
-      "Nucleus"
+      "Çekirdek"
     ]
   },
   "science-x-16": {
@@ -4706,7 +4706,7 @@
       "Samanyolu",
       "Buharlaşma",
       "Magma",
-      "Lava"
+      "Lav"
     ]
   },
   "science-x-21": {
@@ -4743,7 +4743,7 @@
     "question": "Dünya yüzeyine ulaşan erimiş kayanın adı nedir?",
     "explanation": "Yüzeye püsküren magma, lav olarak adlandırılır.",
     "options": [
-      "Lava",
+      "Lav",
       "Tarafsız",
       "Paleontoloji",
       "Mohs ölçeği"
@@ -4784,7 +4784,7 @@
     "explanation": "Deri, yüzey alanı ve kütleye göre vücudun en büyük organıdır.",
     "options": [
       "Cilt",
-      "Nucleus",
+      "Çekirdek",
       "DNA",
       "Plateletler"
     ]
@@ -4835,7 +4835,7 @@
     "options": [
       "Pozitif",
       "Magma",
-      "Lava",
+      "Lav",
       "Manto"
     ]
   },
@@ -4905,7 +4905,7 @@
     "options": [
       "Sıklık",
       "Oksijen",
-      "Nucleus",
+      "Çekirdek",
       "DNA"
     ]
   },

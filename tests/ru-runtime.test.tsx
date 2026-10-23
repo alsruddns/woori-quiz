@@ -13,7 +13,7 @@ import { GET } from "../src/app/sitemap.xml/route";
 
 vi.mock("next/navigation", () => ({ useRouter: () => ({ push: vi.fn() }) }));
 
-describe("Russian runtime draft", () => {
+describe("Russian runtime", () => {
   it("renders the Russian list, quiz detail, and interactive-test UI with a working locale option", () => {
     const home = renderToStaticMarkup(createElement(HomeView, { locale: "ru" }));
     const detail = renderToStaticMarkup(createElement(QuizView, { locale: "ru", slug: "general-knowledge" }));
@@ -53,7 +53,7 @@ describe("Russian runtime draft", () => {
     const xml = await (await GET()).text();
     expect(xml).toContain("https://www.woori.today/ru/quiz");
     expect(xml).toContain("https://www.woori.today/ru/quiz/general-knowledge");
-    expect(xml).not.toContain("https://www.woori.today/tr/quiz");
+    expect(xml).toContain("https://www.woori.today/tr/quiz");
   });
 });
 
