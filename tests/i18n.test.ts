@@ -11,7 +11,7 @@ describe("quiz UI translations", () => {
     expect(localeExpansionTargets.slice(0, locales.length)).toEqual(locales);
     expect(localeExpansionTargets.slice(locales.length)).toEqual(["ar", "bn", "fil", "ms", "pl", "ru", "sv", "tr", "uk", "ur", "fa"]);
     expect(localeExpansionTargets.slice(locales.length).every((locale) => !isLocale(locale))).toBe(true);
-    expect(publishedLocales).toEqual(["ko", "en", "ja", "zh", "es", "pt-br", "de", "fr"]);
+    expect(publishedLocales).toEqual(["ko", "en", "ja", "zh", "es", "pt-br", "de", "fr", "vi"]);
   });
 
   it("provides navigation, category, difficulty, and footer copy for all 15 locales", () => {
@@ -39,6 +39,8 @@ describe("quiz UI translations", () => {
     expect(quizPathForLocale("/pt-br/quiz/general-knowledge", "de")).toBe("/de/quiz/general-knowledge");
     expect(quizPathForLocale("/de/quiz/general-knowledge", "fr")).toBe("/fr/quiz/general-knowledge");
     expect(quizPathForLocale("/fr/quiz/general-knowledge", "en")).toBe("/en/quiz/general-knowledge");
+    expect(quizPathForLocale("/fr/quiz/general-knowledge", "vi")).toBe("/vi/quiz/general-knowledge");
+    expect(quizPathForLocale("/vi/quiz/general-knowledge", "de")).toBe("/de/quiz/general-knowledge");
     expect(quizPathForLocale("/ja/quiz", "ko")).toBe("/ko/quiz");
   });
 

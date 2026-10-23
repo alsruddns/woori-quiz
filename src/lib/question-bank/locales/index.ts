@@ -127,7 +127,7 @@ export async function generatedCopiesForLocale(
       if (copy) copies.set(question.id, copy);
     }
   }
-  if (locale === "ja" || locale === "zh" || locale === "es" || locale === "pt-br" || locale === "de" || locale === "fr") {
+  if (locale === "ja" || locale === "zh" || locale === "es" || locale === "pt-br" || locale === "de" || locale === "fr" || locale === "vi") {
     const { default: questionCopies } = locale === "ja"
       ? await import("./ja/question-bank.json") as { default: Record<string, QuestionLocaleCopy> }
       : locale === "zh"
@@ -138,7 +138,9 @@ export async function generatedCopiesForLocale(
             ? await import("./pt-br/question-bank.json") as { default: Record<string, QuestionLocaleCopy> }
             : locale === "de"
               ? await import("./de/question-bank.json") as { default: Record<string, QuestionLocaleCopy> }
-              : await import("./fr/question-bank.json") as { default: Record<string, QuestionLocaleCopy> };
+              : locale === "fr"
+                ? await import("./fr/question-bank.json") as { default: Record<string, QuestionLocaleCopy> }
+                : await import("./vi/question-bank.json") as { default: Record<string, QuestionLocaleCopy> };
     for (const question of questions) {
       const copy = questionCopies[question.id];
       if (copy) copies.set(question.id, copy);

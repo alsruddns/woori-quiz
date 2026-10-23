@@ -84,6 +84,13 @@ const frenchInvariantChoices = new Set([
   "Buzz Aldrin", "Santa Maria", "Mayflower", "Endeavour", "Uganda", "Peru", "Pascal", "Michelangelo",
   "Quartz", "Fruit", "Friction", "Milan", "Naples", "Omnivore", "Ssireum",
 ]);
+const vietnameseInvariantChoices = new Set([
+  "Antonio Vivaldi", "Argon", "Buchaechum", "Buzz Aldrin", "Canada", "Cello", "Chuseok", "Corundum",
+  "Ethiopia", "Galileo", "Glucose", "Hangul", "Hanok", "Isaac Newton", "Johannes Gutenberg",
+  "John Glenn", "Jordan", "Kenya", "Kyoto", "Magma", "Marco Polo", "Michelangelo", "Neil Armstrong",
+  "Newton", "Origami", "Osaka", "Pascal", "Peru", "Photon", "Proxima Centauri", "Santa Maria",
+  "Sapporo", "Seoul", "Ssireum", "Sudan", "Tanzania", "Tokyo", "Uganda", "Venice", "Vitamin C", "Vitamin D",
+]);
 
 function isPreservedChoice(question: QuizQuestion, value: string, locale: Locale): boolean {
   if (isNeutral(value)) return true;
@@ -91,6 +98,7 @@ function isPreservedChoice(question: QuizQuestion, value: string, locale: Locale
   if (locale === "pt-br" && brazilianPortugueseInvariantChoices.has(value)) return true;
   if (locale === "de" && germanInvariantChoices.has(value)) return true;
   if (locale === "fr" && frenchInvariantChoices.has(value)) return true;
+  if (locale === "vi" && vietnameseInvariantChoices.has(value)) return true;
   if (question.category === "language") return true;
   if (question.category === "brain" && /^[A-Z]$/.test(value)) return true;
   if (/^[\d,.]+\s?(?:°[CF]|km\/s)$/.test(value)) return true;
