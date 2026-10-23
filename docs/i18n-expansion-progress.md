@@ -8,7 +8,7 @@ Progress is measured from the source catalog and localization quality checks. A 
 - Target: 26 locales: `ko`, `en`, `ja`, `zh`, `es`, `pt-br`, `de`, `fr`, `vi`, `id`, `th`, `zh-tw`, `it`, `nl`, `hi`, `ar`, `bn`, `fil`, `ms`, `pl`, `ru`, `sv`, `tr`, `uk`, `ur`, `fa`.
 - Quiz registry: 96 entries, 58 public quizzes, 38 closed entries.
 - Shared question bank: 621 records. UI, route and publication completion is counted separately from question data.
-- Korean, English, Japanese, Simplified Chinese, Spanish, Brazilian Portuguese, German, French, Vietnamese, and Indonesian are currently published. Sitemap contains 590 URLs (10 list pages and 580 detail pages).
+- Korean, English, Japanese, Simplified Chinese, Spanish, Brazilian Portuguese, German, French, Vietnamese, Indonesian, and Thai are currently published. Sitemap contains 649 URLs (11 list pages and 638 detail pages).
 
 ## Locale progress
 
@@ -26,6 +26,7 @@ Progress is measured from the source catalog and localization quality checks. A 
 | fr | 621/621; 0 question gaps | Connected | Pass | 1 + 58 | Pass |
 | vi | 621/621; 0 question gaps | Connected | Pass | 1 + 58 | Pass |
 | id | 621/621; 0 question gaps | Connected | Pass | 1 + 58 | Pass |
+| th | 621/621; 0 question gaps | Connected | Pass | 1 + 58 | Pass |
 | id | 390/621 baseline | Connected | Not verified | 0 | Not published |
 | th | 390/621 baseline | Connected | Not verified | 0 | Not published |
 | zh-tw | 390/621 baseline | Connected | Not verified | 0 | Not published |
@@ -34,14 +35,14 @@ Progress is measured from the source catalog and localization quality checks. A 
 | hi | 390/621 baseline | Connected | Not verified | 0 | Not published |
 | ar, bn, fil, ms, pl, ru, sv, tr, uk, ur, fa | 0/621 | Missing | Not verified | 0 | Not published |
 
-The existing non-English catalogs need a fresh audit. The earlier “390/621” values are the pre-expansion baseline, not proof of completion. Japanese, Simplified Chinese, Spanish, Brazilian Portuguese, German, French, Vietnamese, and Indonesian pass common UI and question coverage, all 58 public quiz gates, routing, selector, canonical/hreflang, and sitemap checks. Other incomplete languages remain out of routes, selectors, hreflang, and sitemap.
+The existing non-English catalogs need a fresh audit. The earlier “390/621” values are the pre-expansion baseline, not proof of completion. Japanese, Simplified Chinese, Spanish, Brazilian Portuguese, German, French, Vietnamese, Indonesian, and Thai pass common UI and question coverage, all 58 public quiz gates, routing, selector, canonical/hreflang, and sitemap checks. Other incomplete languages remain out of routes, selectors, hreflang, and sitemap.
 
 ## Verification and next start point
 
-- Question localization suites cover all 621 records with zero gaps for Japanese, Simplified Chinese, Spanish, Brazilian Portuguese, German, French, Vietnamese, and Indonesian; patterned questions preserve stable answer positions, historical dates, and science symbols.
+- Question localization suites cover all 621 records with zero gaps for Japanese, Simplified Chinese, Spanish, Brazilian Portuguese, German, French, Vietnamese, Indonesian, and Thai; patterned questions preserve stable answer positions, historical dates, and science symbols.
 - TypeScript: passed (`pnpm exec tsc --noEmit`).
 - Lint: passed (`pnpm lint`).
-- Full test suite: **56/56 passed** (`pnpm test`), including 621-question coverage for Japanese, Simplified Chinese, Spanish, Brazilian Portuguese, German, French, Vietnamese, and Indonesian; route, selector, SEO, sitemap, scoring, and mobile UI checks.
-- Production build: passed (`pnpm build`); 607 paths generated, including 10 localized list pages and 580 quiz detail routes.
+- Full test suite: **57/57 passed** (`pnpm test`), including 621-question coverage for Japanese, Simplified Chinese, Spanish, Brazilian Portuguese, German, French, Vietnamese, Indonesian, and Thai; route, selector, SEO, sitemap, scoring, and mobile UI checks.
+- Production build: passed (`pnpm build`); 667 paths generated, including 11 localized list pages and 638 quiz detail routes.
 
-**Next start:** Thai (`th`) audit and translation: all 621 records, currently 231 question strings, 766 choice strings, and 279 explanations missing. Keep it unpublished until the full UI, quiz, routing, selector, SEO, mobile, and build gates pass. Korean, English, Japanese, Chinese, Spanish, Brazilian Portuguese, German, French, Vietnamese, and Indonesian are currently public. Prior locale commits are pushed to `origin/develop`.
+**Next start:** Traditional Chinese (`zh-tw`) audit and translation: all 621 records, currently 231 question strings, 766 choice strings, and 279 explanations missing. Keep it unpublished until the full UI, quiz, routing, selector, SEO, mobile, and build gates pass. Korean, English, Japanese, Chinese, Spanish, Brazilian Portuguese, German, French, Vietnamese, Indonesian, and Thai are currently public. Prior locale commits are pushed to `origin/develop`.

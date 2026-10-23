@@ -144,6 +144,24 @@ describe("generated question localizations", () => {
     }
   }, 30000);
 
+  it("provides a complete Thai copy for the shared question bank", async () => {
+    const originals = await loadQuestionBankForCategory("all");
+    const translated = await loadQuestionBankForCategory("all", "th");
+    expect(originals).toHaveLength(621);
+    expect(translated).toHaveLength(originals.length);
+    const gaps = await getQuestionLocalizationGaps("th");
+    expect(gaps, "Thai translation gaps").toEqual([]);
+    for (const original of originals) {
+      const localized = translated.find((question) => question.id === original.id)!;
+      const copy = localized.localizations?.th;
+      expect(copy?.question.trim(), original.id).toBeTruthy();
+      expect(copy?.options).toHaveLength(original.options.length);
+      expect(new Set(copy?.options).size, original.id).toBe(original.options.length);
+      expect(copy?.explanation.trim(), original.id).toBeTruthy();
+      expect(localized.answer).toBe(original.answer);
+    }
+  }, 30000);
+
   it("loads patterned copies by locale without changing answers", async () => {
     for (const category of ["math", "brain", "geography", "language"]) {
       const originals = await loadQuestionBankForCategory(category);
