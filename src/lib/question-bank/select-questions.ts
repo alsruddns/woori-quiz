@@ -1,7 +1,7 @@
 import { legacyQuestionBank, selectQuestions, type QuestionFilter, type QuizQuestion } from "./core";
-import type { Locale } from "../i18n";
+import type { TargetLocale } from "../i18n";
 
-export async function loadQuestionBankForCategory(category: string, locale?: Locale): Promise<QuizQuestion[]> {
+export async function loadQuestionBankForCategory(category: string, locale?: TargetLocale): Promise<QuizQuestion[]> {
   let questions: QuizQuestion[];
   if (category === "all") {
     const [general, nonsense, math, brain, history, science, geography, language, it] = await Promise.all([

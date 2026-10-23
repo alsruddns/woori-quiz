@@ -1,6 +1,7 @@
 import { describe, expect, it } from "vitest";
 import copies from "../src/lib/question-bank/locales/ru/question-bank.json";
 import { questionBank } from "../src/lib/question-bank";
+import { loadQuestionBankForCategory, selectQuestionsForCategory } from "../src/lib/question-bank/select-questions";
 import { localeExpansionTargets, locales, publishedLocales } from "../src/lib/i18n";
 
 describe("Russian question bank draft", () => {
@@ -37,5 +38,28 @@ describe("Russian question bank draft", () => {
     expect(untranslatedOptions, "Russian answer choices are translated except for scientific and technical tokens").toEqual([]);
     expect(copies["general-007"].options).toEqual(["Атлантический океан", "Индийский", "Северный Ледовитый океан", "Тихий океан"]);
     expect(copies["general-010"].options).toContain("Ртуть");
+  });
+
+  it("loads Russian copy through the quiz question loader and preserves scoring after shuffling", async () => {
+    const russianPool = await loadQuestionBankForCategory("all", "ru");
+    expect(russianPool).toHaveLength(questionBank.length);
+    const sourceById = new Map(questionBank.map((question) => [question.id, question]));
+
+    for (const localized of russianPool) {
+      const source = sourceById.get(localized.id)!;
+      expect(localized.localizations?.ru).toEqual(copies[localized.id as keyof typeof copies]);
+      expect(localized.answer).toBe(source.answer);
+    }
+
+    const selected = selectQuestionsForCategory(russianPool, { count: 120, seed: 20261024 });
+    expect(selected).toHaveLength(120);
+    for (const localized of selected) {
+      const source = sourceById.get(localized.id)!;
+      const translated = copies[localized.id as keyof typeof copies];
+      const sourceIndexes = localized.options.map((option) => source.options.indexOf(option));
+      expect(localized.answer).toBe(sourceIndexes.indexOf(source.answer));
+      expect(localized.localizations?.ru?.options).toEqual(sourceIndexes.map((index) => translated.options[index]));
+      expect(localized.localizations?.ru?.options[localized.answer]).toBe(translated.options[source.answer]);
+    }
   });
 });
