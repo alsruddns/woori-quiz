@@ -1,0 +1,684 @@
+{
+  "localeName": "简体中文",
+  "messages": {
+    "title": "趣味测验",
+    "subtitle": "用测验唤醒今天的好奇心",
+    "search": "搜索测验",
+    "today": "今日测验",
+    "categories": "类别",
+    "popular": "热门测验",
+    "play": "开始测验",
+    "question": "问题",
+    "next": "下一题",
+    "submit": "确认答案",
+    "result": "测验结果",
+    "retry": "再试一次",
+    "home": "首页",
+    "related": "相关测验",
+    "score": "得分",
+    "footer": "隐私 · 使用指南 · 联系我们"
+  },
+  "ui": {
+    "familySites": "相关服务",
+    "portal": "门户",
+    "calculator": "计算器",
+    "tools": "在线工具",
+    "moneyBook": "免费共享记账本",
+    "docs": "文档与表格",
+    "quiz": "趣味测验",
+    "language": "选择语言",
+    "openMenu": "打开服务菜单",
+    "closeMenu": "关闭服务菜单",
+    "allQuizzes": "全部测验",
+    "freeToPlay": "免费使用",
+    "noAccount": "无需注册",
+    "heroEyebrow": "唤醒好奇心的时刻",
+    "heroTitle": "用测验唤醒今天的好奇心",
+    "heroDescription": "轻松挑战，享受新的发现。",
+    "nextChallenge": "选择下一个挑战",
+    "searchEmpty": "没有找到测验。",
+    "questionSetReview": "题目正在审核中",
+    "difficulty": "难度",
+    "startHeading": "准备好后即可开始",
+    "startDescription": "慢慢思考，享受挑战的乐趣。",
+    "correct": "回答正确！",
+    "incorrect": "差一点，再试试。",
+    "accuracy": "正确率",
+    "finishedIn": "用时",
+    "seconds": "秒",
+    "bestScore": "最佳成绩仅保存在此设备上。",
+    "reviewHeading": "题目正在审核中",
+    "reviewDescription": "我们正在检查各语言版本的题目，审核完成后即可游玩。",
+    "howToPlay": "玩法说明",
+    "howToDescription": "选择答案完成测验。进度只保存在此浏览器中，无需账户或个人信息。",
+    "aboutQuiz": "测验介绍",
+    "faq": "常见问题",
+    "scoreUploadedQuestion": "成绩会上传吗？",
+    "scoreUploadedAnswer": "不会，成绩只保存在此浏览器中。",
+    "interactiveTest": "互动测试",
+    "localeCount": "26 种语言",
+    "dynamicGeneration": "每轮自动生成题目",
+    "back": "测验列表",
+    "footerTagline": "为每一份好奇心而做。",
+    "privacy": "隐私说明",
+    "guidelines": "使用指南",
+    "contact": "联系我们",
+    "copyright": "© 2026 woori.today",
+    "searchLabel": "搜索测验",
+    "quizCount": "COUNT_SLOT",
+    "questionCount": "COUNT_SLOT",
+    "quizSummary": "挑战TITLE_SLOT，轻松检验所学知识。",
+    "category": {
+      "general": "常识",
+      "geography": "世界·地理",
+      "science": "科学",
+      "history": "历史",
+      "math": "数学",
+      "language": "语言",
+      "technology": "IT",
+      "memory": "记忆力·脑力",
+      "speed": "速度·反应",
+      "fun": "趣味挑战"
+    },
+    "difficultyLabels": {
+      "easy": "简单",
+      "medium": "中等",
+      "hard": "困难",
+      "expert": "专家"
+    }
+  },
+  "uiCountForms": {
+    "quizCount": {
+      "other": "COUNT_SLOT 个测验"
+    },
+    "questionCount": {
+      "other": "COUNT_SLOT 道题"
+    }
+  },
+  "uiSummary": "挑战TITLE_SLOT，轻松检验所学知识。",
+  "discovery": {
+    "intro": "从常识、数学到脑力挑战，选择喜欢的测验开始吧。",
+    "quickStart": "快速开始",
+    "searchResults": "搜索结果",
+    "browseCategories": "选择类别",
+    "clearSearch": "清除搜索",
+    "resultsForForms": {
+      "other": "“QUERY_SLOT”的搜索结果：COUNT_SLOT 个测验"
+    }
+  },
+  "detail": {
+    "correctCount": "答对",
+    "incorrectCount": "答错",
+    "newSet": "换一组题再试",
+    "otherQuizzes": "查看其他测验"
+  },
+  "categoryLabels": {
+    "general": "常识",
+    "nonsense": "趣味谜题",
+    "math": "数学",
+    "brain": "脑力挑战",
+    "history": "历史",
+    "science": "科学",
+    "geography": "世界·地理",
+    "language": "语言",
+    "technology": "IT",
+    "memory": "记忆力·脑力",
+    "random": "随机测验",
+    "challenge": "挑战",
+    "speed": "速度·反应",
+    "fun": "趣味挑战"
+  },
+  "categoryDescriptions": {
+    "general": "从生活常识到多个领域，检验广泛的基础知识。",
+    "nonsense": "找出文字中的巧思，解开简短的谜语。",
+    "math": "练习从四则运算到数列、概率的计算与推理。",
+    "brain": "根据线索和数字规律，一步步推理出答案。",
+    "history": "依据史实回顾古代至近现代的事件与人物。",
+    "science": "了解生物、化学、物理和宇宙的基础原理。",
+    "geography": "回忆大陆、国家、首都及自然地貌的位置。",
+    "language": "检验词汇、语法与不同文字系统的知识。",
+    "technology": "学习网络、编程、数据库及计算机网络的基础概念。",
+    "memory": "记住数字、词语和顺序，或发现视觉变化。",
+    "random": "从多个主题抽取题目，每次都能遇到不同组合。",
+    "challenge": "连续完成固定数量的题目，保持专注。",
+    "speed": "直接测量反应、点击或打字速度。",
+    "fun": "用轻松的常识题和趣味挑战短暂休息。"
+  },
+  "serviceGuide": {
+    "categories": "按主题探索",
+    "how": "如何使用测验",
+    "account": "选择测验并逐题作答。无需注册，结果保存在当前浏览器中。",
+    "score": "如何理解分数？",
+    "scoreLow": "这个主题还可以多练习。阅读解析后再试一次。",
+    "scoreMid": "你已掌握基础。看看答错题目的解析。",
+    "scoreHigh": "这组题完成得不错。试试其他主题或一组新题。",
+    "scoreNote": "分数仅代表本组题的正确率，并非能力或健康诊断。",
+    "focus": "本测验涉及的内容"
+  },
+  "advertisement": "广告",
+  "difficulty": "所有难度",
+  "quizTitles": {
+    "general-knowledge-quiz": "一般知識測驗",
+    "everyday-knowledge-quiz": "日常知識測驗",
+    "difficult-general-knowledge-quiz": "高難度一般知識測驗",
+    "world-capitals-quiz": "世界首都測驗",
+    "country-flags-quiz": "國家國旗測驗",
+    "country-currency-quiz": "國家貨幣測驗",
+    "country-location-quiz": "國家位置測驗",
+    "asia-capitals-quiz": "亞洲首都測驗",
+    "europe-capitals-quiz": "歐洲首都測驗",
+    "world-geography-quiz": "世界地理測驗",
+    "basic-science-quiz": "基礎科學測驗",
+    "physics-quiz": "物理測驗",
+    "chemistry-quiz": "化學測驗",
+    "biology-quiz": "生物測驗",
+    "astronomy-quiz": "天文測驗",
+    "difficult-science-quiz": "高難度科學測驗",
+    "world-history-quiz": "世界歷史測驗",
+    "korean-history-quiz": "韓國歷史測驗",
+    "ancient-history-quiz": "古代歷史測驗",
+    "modern-history-quiz": "近代歷史測驗",
+    "addition-quiz": "加法測驗",
+    "subtraction-quiz": "減法測驗",
+    "multiplication-quiz": "乘法測驗",
+    "division-quiz": "除法測驗",
+    "multiplication-table-quiz": "乘法乘法表測驗",
+    "mental-math-quiz": "心算數學測驗",
+    "fraction-quiz": "分數測驗",
+    "percentage-quiz": "百分比測驗",
+    "equation-quiz": "方程測驗",
+    "arithmetic-challenge": "算術挑戰",
+    "english-vocabulary-quiz": "英語詞彙測驗",
+    "english-spelling-quiz": "英語拼寫測驗",
+    "english-grammar-quiz": "英語文法測驗",
+    "hiragana-quiz": "平假名測驗",
+    "katakana-quiz": "片假名測驗",
+    "japanese-vocabulary-quiz": "日語詞彙測驗",
+    "chinese-character-quiz": "中文文字測驗",
+    "korean-vocabulary-quiz": "韓國詞彙測驗",
+    "computer-basics-quiz": "電腦基礎測驗",
+    "programming-basics-quiz": "程式設計基礎測驗",
+    "web-development-quiz": "網頁開發測驗",
+    "database-quiz": "資料庫測驗",
+    "network-basics-quiz": "網路基礎測驗",
+    "difficult-it-quiz": "高難度IT測驗",
+    "number-memory-test": "數字記憶測試",
+    "word-memory-test": "詞語記憶測試",
+    "sequence-memory-test": "序列記憶測試",
+    "visual-memory-test": "視覺記憶測試",
+    "pattern-recognition-test": "圖形辨識測試",
+    "concentration-test": "專注力測試",
+    "reaction-time-test": "反應時間測試",
+    "click-speed-test": "點擊速度測試",
+    "typing-speed-test": "打字速度測試",
+    "color-reaction-test": "顏色反應測試",
+    "random-trivia-challenge": "隨機常識挑戰",
+    "true-false-challenge": "是非錯誤挑戰",
+    "impossible-quiz": "不可能測驗",
+    "mixed-hard-quiz": "綜合高難度測驗",
+    "general-knowledge": "一般知識",
+    "easy-general-knowledge": "简单一般知識",
+    "hard-general-knowledge": "高難度一般知識",
+    "random-general-knowledge": "隨機一般知識",
+    "adult-general-knowledge": "成人一般知識",
+    "daily-life-quiz": "日常生活測驗",
+    "nonsense": "趣味",
+    "easy-nonsense-quiz": "简单趣味測驗",
+    "riddle-quiz": "谜语測驗",
+    "brain-teaser": "唤醒大脑的谜题 - 脑力挑战",
+    "easy-brain-teaser": "简单脑力挑战",
+    "hard-brain-teaser": "高難度脑力挑战",
+    "number-pattern-quiz": "數字圖形測驗",
+    "logic-reasoning-quiz": "逻辑推理測驗",
+    "random-brain-teaser": "隨機脑力挑战",
+    "math-basic": "數學基礎",
+    "math-advanced": "數學进阶",
+    "mental-arithmetic-test": "心算算術測試",
+    "sequence-math-quiz": "序列數學測驗",
+    "probability-quiz": "概率測驗",
+    "history-knowledge-quiz": "歷史知識測驗",
+    "ancient-civilizations-quiz": "古代文明測驗",
+    "modern-history-knowledge": "近代歷史知識",
+    "science-knowledge-quiz": "科學知識測驗",
+    "space-quiz": "太空測驗",
+    "biology-knowledge-quiz": "生物知識測驗",
+    "world-geography": "世界地理",
+    "capital-cities-quiz": "首都城市測驗",
+    "country-knowledge-quiz": "國家知識測驗",
+    "language-knowledge-quiz": "语言知識測驗",
+    "english-vocabulary": "英語詞彙",
+    "it-development-quiz": "IT開發測驗",
+    "programming-knowledge-quiz": "程式設計知識測驗",
+    "random-quiz": "隨機測驗",
+    "random-math-10": "隨機數學10",
+    "random-nonsense-10": "隨機趣味10",
+    "challenge-10": "挑戰10",
+    "challenge-20": "挑戰20"
+  },
+  "quizDescriptions": {
+    "addition-quiz": "加法測驗: 练习从四则运算到数列、概率的计算与推理。",
+    "subtraction-quiz": "減法測驗: 练习从四则运算到数列、概率的计算与推理。",
+    "multiplication-quiz": "乘法測驗: 练习从四则运算到数列、概率的计算与推理。",
+    "division-quiz": "除法測驗: 练习从四则运算到数列、概率的计算与推理。",
+    "multiplication-table-quiz": "乘法乘法表測驗: 练习从四则运算到数列、概率的计算与推理。",
+    "mental-math-quiz": "心算數學測驗: 练习从四则运算到数列、概率的计算与推理。",
+    "fraction-quiz": "分數測驗: 练习从四则运算到数列、概率的计算与推理。",
+    "percentage-quiz": "百分比測驗: 练习从四则运算到数列、概率的计算与推理。",
+    "equation-quiz": "方程測驗: 练习从四则运算到数列、概率的计算与推理。",
+    "arithmetic-challenge": "算術挑戰: 练习从四则运算到数列、概率的计算与推理。",
+    "number-memory-test": "數字記憶測試: 记住数字、词语和顺序，或发现视觉变化。",
+    "word-memory-test": "詞語記憶測試: 记住数字、词语和顺序，或发现视觉变化。",
+    "sequence-memory-test": "序列記憶測試: 记住数字、词语和顺序，或发现视觉变化。",
+    "visual-memory-test": "視覺記憶測試: 记住数字、词语和顺序，或发现视觉变化。",
+    "pattern-recognition-test": "圖形辨識測試: 记住数字、词语和顺序，或发现视觉变化。",
+    "concentration-test": "專注力測試: 记住数字、词语和顺序，或发现视觉变化。",
+    "reaction-time-test": "反應時間測試: 直接测量反应、点击或打字速度。",
+    "click-speed-test": "點擊速度測試: 直接测量反应、点击或打字速度。",
+    "typing-speed-test": "打字速度測試: 直接测量反应、点击或打字速度。",
+    "color-reaction-test": "顏色反應測試: 直接测量反应、点击或打字速度。",
+    "general-knowledge": "一般知識: 从生活常识到多个领域，检验广泛的基础知识。",
+    "easy-general-knowledge": "简单一般知識: 从生活常识到多个领域，检验广泛的基础知识。",
+    "hard-general-knowledge": "高難度一般知識: 从生活常识到多个领域，检验广泛的基础知识。",
+    "random-general-knowledge": "隨機一般知識: 从生活常识到多个领域，检验广泛的基础知识。",
+    "adult-general-knowledge": "成人一般知識: 从生活常识到多个领域，检验广泛的基础知识。",
+    "daily-life-quiz": "日常生活測驗: 从生活常识到多个领域，检验广泛的基础知识。",
+    "nonsense": "趣味: 找出文字中的巧思，解开简短的谜语。",
+    "easy-nonsense-quiz": "简单趣味測驗: 找出文字中的巧思，解开简短的谜语。",
+    "riddle-quiz": "谜语測驗: 找出文字中的巧思，解开简短的谜语。",
+    "brain-teaser": "唤醒大脑的谜题 - 脑力挑战: 根据线索和数字规律，一步步推理出答案。",
+    "easy-brain-teaser": "简单脑力挑战: 根据线索和数字规律，一步步推理出答案。",
+    "hard-brain-teaser": "高難度脑力挑战: 根据线索和数字规律，一步步推理出答案。",
+    "number-pattern-quiz": "數字圖形測驗: 根据线索和数字规律，一步步推理出答案。",
+    "logic-reasoning-quiz": "逻辑推理測驗: 根据线索和数字规律，一步步推理出答案。",
+    "random-brain-teaser": "隨機脑力挑战: 根据线索和数字规律，一步步推理出答案。",
+    "math-basic": "數學基礎: 练习从四则运算到数列、概率的计算与推理。",
+    "math-advanced": "數學进阶: 练习从四则运算到数列、概率的计算与推理。",
+    "mental-arithmetic-test": "心算算術測試: 练习从四则运算到数列、概率的计算与推理。",
+    "sequence-math-quiz": "序列數學測驗: 练习从四则运算到数列、概率的计算与推理。",
+    "probability-quiz": "概率測驗: 练习从四则运算到数列、概率的计算与推理。",
+    "history-knowledge-quiz": "歷史知識測驗: 依据史实回顾古代至近现代的事件与人物。",
+    "ancient-civilizations-quiz": "古代文明測驗: 依据史实回顾古代至近现代的事件与人物。",
+    "modern-history-knowledge": "近代歷史知識: 依据史实回顾古代至近现代的事件与人物。",
+    "science-knowledge-quiz": "科學知識測驗: 了解生物、化学、物理和宇宙的基础原理。",
+    "space-quiz": "太空測驗: 了解生物、化学、物理和宇宙的基础原理。",
+    "biology-knowledge-quiz": "生物知識測驗: 了解生物、化学、物理和宇宙的基础原理。",
+    "world-geography": "世界地理: 回忆大陆、国家、首都及自然地貌的位置。",
+    "capital-cities-quiz": "首都城市測驗: 回忆大陆、国家、首都及自然地貌的位置。",
+    "country-knowledge-quiz": "國家知識測驗: 回忆大陆、国家、首都及自然地貌的位置。",
+    "language-knowledge-quiz": "语言知識測驗: 检验词汇、语法与不同文字系统的知识。",
+    "english-vocabulary": "英語詞彙: 检验词汇、语法与不同文字系统的知识。",
+    "it-development-quiz": "IT開發測驗: 学习网络、编程、数据库及计算机网络的基础概念。",
+    "programming-knowledge-quiz": "程式設計知識測驗: 学习网络、编程、数据库及计算机网络的基础概念。",
+    "random-quiz": "隨機測驗: 从多个主题抽取题目，每次都能遇到不同组合。",
+    "random-math-10": "隨機數學10: 从多个主题抽取题目，每次都能遇到不同组合。",
+    "random-nonsense-10": "隨機趣味10: 从多个主题抽取题目，每次都能遇到不同组合。",
+    "challenge-10": "挑戰10: 连续完成固定数量的题目，保持专注。",
+    "challenge-20": "挑戰20: 连续完成固定数量的题目，保持专注。"
+  },
+  "quizSeo": {
+    "addition-quiz": {
+      "title": "加法測驗 | woori.today",
+      "description": "加法測驗: 练习从四则运算到数列、概率的计算与推理。"
+    },
+    "subtraction-quiz": {
+      "title": "減法測驗 | woori.today",
+      "description": "減法測驗: 练习从四则运算到数列、概率的计算与推理。"
+    },
+    "multiplication-quiz": {
+      "title": "乘法測驗 | woori.today",
+      "description": "乘法測驗: 练习从四则运算到数列、概率的计算与推理。"
+    },
+    "division-quiz": {
+      "title": "除法測驗 | woori.today",
+      "description": "除法測驗: 练习从四则运算到数列、概率的计算与推理。"
+    },
+    "multiplication-table-quiz": {
+      "title": "乘法乘法表測驗 | woori.today",
+      "description": "乘法乘法表測驗: 练习从四则运算到数列、概率的计算与推理。"
+    },
+    "mental-math-quiz": {
+      "title": "心算數學測驗 | woori.today",
+      "description": "心算數學測驗: 练习从四则运算到数列、概率的计算与推理。"
+    },
+    "fraction-quiz": {
+      "title": "分數測驗 | woori.today",
+      "description": "分數測驗: 练习从四则运算到数列、概率的计算与推理。"
+    },
+    "percentage-quiz": {
+      "title": "百分比測驗 | woori.today",
+      "description": "百分比測驗: 练习从四则运算到数列、概率的计算与推理。"
+    },
+    "equation-quiz": {
+      "title": "方程測驗 | woori.today",
+      "description": "方程測驗: 练习从四则运算到数列、概率的计算与推理。"
+    },
+    "arithmetic-challenge": {
+      "title": "算術挑戰 | woori.today",
+      "description": "算術挑戰: 练习从四则运算到数列、概率的计算与推理。"
+    },
+    "number-memory-test": {
+      "title": "數字記憶測試 | woori.today",
+      "description": "數字記憶測試: 记住数字、词语和顺序，或发现视觉变化。"
+    },
+    "word-memory-test": {
+      "title": "詞語記憶測試 | woori.today",
+      "description": "詞語記憶測試: 记住数字、词语和顺序，或发现视觉变化。"
+    },
+    "sequence-memory-test": {
+      "title": "序列記憶測試 | woori.today",
+      "description": "序列記憶測試: 记住数字、词语和顺序，或发现视觉变化。"
+    },
+    "visual-memory-test": {
+      "title": "視覺記憶測試 | woori.today",
+      "description": "視覺記憶測試: 记住数字、词语和顺序，或发现视觉变化。"
+    },
+    "pattern-recognition-test": {
+      "title": "圖形辨識測試 | woori.today",
+      "description": "圖形辨識測試: 记住数字、词语和顺序，或发现视觉变化。"
+    },
+    "concentration-test": {
+      "title": "專注力測試 | woori.today",
+      "description": "專注力測試: 记住数字、词语和顺序，或发现视觉变化。"
+    },
+    "reaction-time-test": {
+      "title": "反應時間測試 | woori.today",
+      "description": "反應時間測試: 直接测量反应、点击或打字速度。"
+    },
+    "click-speed-test": {
+      "title": "點擊速度測試 | woori.today",
+      "description": "點擊速度測試: 直接测量反应、点击或打字速度。"
+    },
+    "typing-speed-test": {
+      "title": "打字速度測試 | woori.today",
+      "description": "打字速度測試: 直接测量反应、点击或打字速度。"
+    },
+    "color-reaction-test": {
+      "title": "顏色反應測試 | woori.today",
+      "description": "顏色反應測試: 直接测量反应、点击或打字速度。"
+    },
+    "general-knowledge": {
+      "title": "一般知識 | woori.today",
+      "description": "一般知識: 从生活常识到多个领域，检验广泛的基础知识。"
+    },
+    "easy-general-knowledge": {
+      "title": "简单一般知識 | woori.today",
+      "description": "简单一般知識: 从生活常识到多个领域，检验广泛的基础知识。"
+    },
+    "hard-general-knowledge": {
+      "title": "高難度一般知識 | woori.today",
+      "description": "高難度一般知識: 从生活常识到多个领域，检验广泛的基础知识。"
+    },
+    "random-general-knowledge": {
+      "title": "隨機一般知識 | woori.today",
+      "description": "隨機一般知識: 从生活常识到多个领域，检验广泛的基础知识。"
+    },
+    "adult-general-knowledge": {
+      "title": "成人一般知識 | woori.today",
+      "description": "成人一般知識: 从生活常识到多个领域，检验广泛的基础知识。"
+    },
+    "daily-life-quiz": {
+      "title": "日常生活測驗 | woori.today",
+      "description": "日常生活測驗: 从生活常识到多个领域，检验广泛的基础知识。"
+    },
+    "nonsense": {
+      "title": "趣味 | woori.today",
+      "description": "趣味: 找出文字中的巧思，解开简短的谜语。"
+    },
+    "easy-nonsense-quiz": {
+      "title": "简单趣味測驗 | woori.today",
+      "description": "简单趣味測驗: 找出文字中的巧思，解开简短的谜语。"
+    },
+    "riddle-quiz": {
+      "title": "谜语測驗 | woori.today",
+      "description": "谜语測驗: 找出文字中的巧思，解开简短的谜语。"
+    },
+    "brain-teaser": {
+      "title": "唤醒大脑的谜题 - 脑力挑战 | woori.today",
+      "description": "通过逻辑、规律、数字、记忆和推理题轻松唤醒大脑，免费享受脑力挑战。"
+    },
+    "easy-brain-teaser": {
+      "title": "简单脑力挑战 | woori.today",
+      "description": "简单脑力挑战: 根据线索和数字规律，一步步推理出答案。"
+    },
+    "hard-brain-teaser": {
+      "title": "高難度脑力挑战 | woori.today",
+      "description": "高難度脑力挑战: 根据线索和数字规律，一步步推理出答案。"
+    },
+    "number-pattern-quiz": {
+      "title": "數字圖形測驗 | woori.today",
+      "description": "數字圖形測驗: 根据线索和数字规律，一步步推理出答案。"
+    },
+    "logic-reasoning-quiz": {
+      "title": "逻辑推理測驗 | woori.today",
+      "description": "逻辑推理測驗: 根据线索和数字规律，一步步推理出答案。"
+    },
+    "random-brain-teaser": {
+      "title": "隨機脑力挑战 | woori.today",
+      "description": "隨機脑力挑战: 根据线索和数字规律，一步步推理出答案。"
+    },
+    "math-basic": {
+      "title": "數學基礎 | woori.today",
+      "description": "數學基礎: 练习从四则运算到数列、概率的计算与推理。"
+    },
+    "math-advanced": {
+      "title": "數學进阶 | woori.today",
+      "description": "數學进阶: 练习从四则运算到数列、概率的计算与推理。"
+    },
+    "mental-arithmetic-test": {
+      "title": "心算算術測試 | woori.today",
+      "description": "心算算術測試: 练习从四则运算到数列、概率的计算与推理。"
+    },
+    "sequence-math-quiz": {
+      "title": "序列數學測驗 | woori.today",
+      "description": "序列數學測驗: 练习从四则运算到数列、概率的计算与推理。"
+    },
+    "probability-quiz": {
+      "title": "概率測驗 | woori.today",
+      "description": "概率測驗: 练习从四则运算到数列、概率的计算与推理。"
+    },
+    "history-knowledge-quiz": {
+      "title": "歷史知識測驗 | woori.today",
+      "description": "歷史知識測驗: 依据史实回顾古代至近现代的事件与人物。"
+    },
+    "ancient-civilizations-quiz": {
+      "title": "古代文明測驗 | woori.today",
+      "description": "古代文明測驗: 依据史实回顾古代至近现代的事件与人物。"
+    },
+    "modern-history-knowledge": {
+      "title": "近代歷史知識 | woori.today",
+      "description": "近代歷史知識: 依据史实回顾古代至近现代的事件与人物。"
+    },
+    "science-knowledge-quiz": {
+      "title": "科學知識測驗 | woori.today",
+      "description": "科學知識測驗: 了解生物、化学、物理和宇宙的基础原理。"
+    },
+    "space-quiz": {
+      "title": "太空測驗 | woori.today",
+      "description": "太空測驗: 了解生物、化学、物理和宇宙的基础原理。"
+    },
+    "biology-knowledge-quiz": {
+      "title": "生物知識測驗 | woori.today",
+      "description": "生物知識測驗: 了解生物、化学、物理和宇宙的基础原理。"
+    },
+    "world-geography": {
+      "title": "世界地理 | woori.today",
+      "description": "世界地理: 回忆大陆、国家、首都及自然地貌的位置。"
+    },
+    "capital-cities-quiz": {
+      "title": "首都城市測驗 | woori.today",
+      "description": "首都城市測驗: 回忆大陆、国家、首都及自然地貌的位置。"
+    },
+    "country-knowledge-quiz": {
+      "title": "國家知識測驗 | woori.today",
+      "description": "國家知識測驗: 回忆大陆、国家、首都及自然地貌的位置。"
+    },
+    "language-knowledge-quiz": {
+      "title": "语言知識測驗 | woori.today",
+      "description": "语言知識測驗: 检验词汇、语法与不同文字系统的知识。"
+    },
+    "english-vocabulary": {
+      "title": "英語詞彙 | woori.today",
+      "description": "英語詞彙: 检验词汇、语法与不同文字系统的知识。"
+    },
+    "it-development-quiz": {
+      "title": "IT開發測驗 | woori.today",
+      "description": "IT開發測驗: 学习网络、编程、数据库及计算机网络的基础概念。"
+    },
+    "programming-knowledge-quiz": {
+      "title": "程式設計知識測驗 | woori.today",
+      "description": "程式設計知識測驗: 学习网络、编程、数据库及计算机网络的基础概念。"
+    },
+    "random-quiz": {
+      "title": "隨機測驗 | woori.today",
+      "description": "隨機測驗: 从多个主题抽取题目，每次都能遇到不同组合。"
+    },
+    "random-math-10": {
+      "title": "隨機數學10 | woori.today",
+      "description": "隨機數學10: 从多个主题抽取题目，每次都能遇到不同组合。"
+    },
+    "random-nonsense-10": {
+      "title": "隨機趣味10 | woori.today",
+      "description": "隨機趣味10: 从多个主题抽取题目，每次都能遇到不同组合。"
+    },
+    "challenge-10": {
+      "title": "挑戰10 | woori.today",
+      "description": "挑戰10: 连续完成固定数量的题目，保持专注。"
+    },
+    "challenge-20": {
+      "title": "挑戰20 | woori.today",
+      "description": "挑戰20: 连续完成固定数量的题目，保持专注。"
+    }
+  },
+  "titleTermCount": 70,
+  "translatedQuizSlugs": [
+    "general-knowledge-quiz",
+    "everyday-knowledge-quiz",
+    "difficult-general-knowledge-quiz",
+    "world-capitals-quiz",
+    "country-flags-quiz",
+    "country-currency-quiz",
+    "country-location-quiz",
+    "asia-capitals-quiz",
+    "europe-capitals-quiz",
+    "world-geography-quiz",
+    "basic-science-quiz",
+    "physics-quiz",
+    "chemistry-quiz",
+    "biology-quiz",
+    "astronomy-quiz",
+    "difficult-science-quiz",
+    "world-history-quiz",
+    "korean-history-quiz",
+    "ancient-history-quiz",
+    "modern-history-quiz",
+    "addition-quiz",
+    "subtraction-quiz",
+    "multiplication-quiz",
+    "division-quiz",
+    "multiplication-table-quiz",
+    "mental-math-quiz",
+    "fraction-quiz",
+    "percentage-quiz",
+    "equation-quiz",
+    "arithmetic-challenge",
+    "english-vocabulary-quiz",
+    "english-spelling-quiz",
+    "english-grammar-quiz",
+    "hiragana-quiz",
+    "katakana-quiz",
+    "japanese-vocabulary-quiz",
+    "chinese-character-quiz",
+    "korean-vocabulary-quiz",
+    "computer-basics-quiz",
+    "programming-basics-quiz",
+    "web-development-quiz",
+    "database-quiz",
+    "network-basics-quiz",
+    "difficult-it-quiz",
+    "number-memory-test",
+    "word-memory-test",
+    "sequence-memory-test",
+    "visual-memory-test",
+    "pattern-recognition-test",
+    "concentration-test",
+    "reaction-time-test",
+    "click-speed-test",
+    "typing-speed-test",
+    "color-reaction-test",
+    "random-trivia-challenge",
+    "true-false-challenge",
+    "impossible-quiz",
+    "mixed-hard-quiz",
+    "general-knowledge",
+    "easy-general-knowledge",
+    "hard-general-knowledge",
+    "random-general-knowledge",
+    "adult-general-knowledge",
+    "daily-life-quiz",
+    "nonsense",
+    "easy-nonsense-quiz",
+    "riddle-quiz",
+    "brain-teaser",
+    "easy-brain-teaser",
+    "hard-brain-teaser",
+    "number-pattern-quiz",
+    "logic-reasoning-quiz",
+    "random-brain-teaser",
+    "math-basic",
+    "math-advanced",
+    "mental-arithmetic-test",
+    "sequence-math-quiz",
+    "probability-quiz",
+    "history-knowledge-quiz",
+    "ancient-civilizations-quiz",
+    "modern-history-knowledge",
+    "science-knowledge-quiz",
+    "space-quiz",
+    "biology-knowledge-quiz",
+    "world-geography",
+    "capital-cities-quiz",
+    "country-knowledge-quiz",
+    "language-knowledge-quiz",
+    "english-vocabulary",
+    "it-development-quiz",
+    "programming-knowledge-quiz",
+    "random-quiz",
+    "random-math-10",
+    "random-nonsense-10",
+    "challenge-10",
+    "challenge-20"
+  ],
+  "mathPrompts": {
+    "whatIsX": "求 x 的值。",
+    "findX": "Find x.",
+    "decimal": "小数",
+    "percentage": "WHOLE_SLOT 的 PERCENT_SLOT% 是多少？",
+    "fraction": "FIRST_FRACTION_SLOT + SECOND_FRACTION_SLOT = ? (小数)"
+  },
+  "interactiveTest": {
+    "passage": "一点好奇心也能带来新的发现。请慢慢阅读并准确输入。",
+    "copy": {
+      "start": "开始",
+      "tap": "卡片变绿时点击",
+      "go": "现在点击",
+      "tooSoon": "太早了，再试一次。",
+      "done": "完成",
+      "submit": "确认",
+      "remember": "记住你看到的内容",
+      "type": "在此输入",
+      "accuracy": "准确率",
+      "errors": "错误",
+      "wpm": "每分钟单词数",
+      "time": "用时",
+      "clicks": "点击",
+      "matched": "找到的配对",
+      "tryAgain": "再试一次"
+    },
+    "memoryWords": "海洋 苹果 星星 云",
+    "extraCopy": {
+      "moves": "步数",
+      "tapFast": "尽可能快速点击",
+      "cell": "格"
+    }
+  }
+}

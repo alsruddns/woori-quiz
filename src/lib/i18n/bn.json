@@ -399,5 +399,12 @@
   "brainSeo": {
     "title": "মস্তিষ্কের ধাঁধা: যুক্তি ও স্মৃতির কুইজ | woori.today",
     "description": "যুক্তি, সংখ্যা, ধাঁধা ও স্মৃতির ছোট ছোট চ্যালেঞ্জ নিয়ে মস্তিষ্কের ধাঁধা কুইজ খেলুন।"
+  },
+  "mathPrompts": {
+    "whatIsX": "x-এর মান কত?",
+    "findX": "x-এর মান বের করুন।",
+    "decimal": "দশমিক সংখ্যা",
+    "percentage": "WHOLE_SLOT-এর PERCENT_SLOT% কত?",
+    "fraction": "FIRST_FRACTION_SLOT + SECOND_FRACTION_SLOT = ? (দশমিক সংখ্যা)"
   }
 }

@@ -381,5 +381,12 @@
   ],
   "localeName": "Svenska",
   "advertisement": "Annons",
-  "difficulty": "Alla svårighetsgrader"
+  "difficulty": "Alla svårighetsgrader",
+  "mathPrompts": {
+    "whatIsX": "Vad är värdet på x?",
+    "findX": "Lös ut x.",
+    "decimal": "decimaltal",
+    "percentage": "PERCENT_SLOT% av WHOLE_SLOT är hur mycket?",
+    "fraction": "FIRST_FRACTION_SLOT + SECOND_FRACTION_SLOT = ? (decimaltal)"
+  }
 }

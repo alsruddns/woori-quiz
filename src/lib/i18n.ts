@@ -1,239 +1,106 @@
-
-import { getLoadedLocaleCatalog, type ExpansionLocale as CatalogLocale } from "./locale-catalog";
+import { getLoadedLocaleCatalog, isExpansionLocale } from "./locale-catalog";
 
 export const locales = ["ko", "en", "ja", "zh", "es", "pt-br", "de", "fr", "vi", "id", "th", "zh-tw", "it", "nl", "hi", "ru", "tr", "pl", "fil", "bn", "uk", "ms", "sv", "cs", "ro", "el"] as const;
 export type Locale = (typeof locales)[number];
-// Expansion targets are tracked separately from active locales. A target must
-// not reach routing, selectors, metadata, or the sitemap until its catalog is complete.
-export const localeExpansionTargets = [
-  ...locales.filter((locale) => locale !== "ru" && locale !== "tr" && locale !== "pl" && locale !== "fil" && locale !== "bn" && locale !== "uk" && locale !== "ms" && locale !== "sv" && locale !== "cs" && locale !== "ro" && locale !== "el"),
-  "ru", "tr", "pl", "fil", "bn", "uk", "ms", "sv", "cs", "ro", "el",
-] as const;
+export const localeExpansionTargets = [...locales] as const;
 export type TargetLocale = (typeof localeExpansionTargets)[number];
 export type ExpansionLocale = Exclude<TargetLocale, (typeof publishedLocales)[number]>;
 export const excludedExpansionLocales = ["ar", "ur", "fa", "he"] as const;
-// Only these locales currently meet the full catalog publication gate.
-export const publishedLocales = ["ko", "en", "ja", "zh", "es", "pt-br", "de", "fr", "vi", "id", "th", "zh-tw", "it", "nl", "hi", "ru", "tr", "pl", "fil", "bn", "uk", "ms", "sv", "cs", "ro", "el"] as const satisfies readonly Locale[];
-export const localeNames: Record<Locale, string> = { ko:"한국어", en:"English", ja:"日本語", zh:"简体中文", es:"Español", "pt-br":"Português (Brasil)", de:"Deutsch", fr:"Français", vi:"Tiếng Việt", id:"Bahasa Indonesia", th:"ไทย", "zh-tw":"繁體中文", it:"Italiano", nl:"Nederlands", hi:"हिन्दी", ru:"\u0420\u0443\u0441\u0441\u043a\u0438\u0439", tr:"T\u00fcrk\u00e7e", pl:"Polski", fil:"Filipino", bn:"\u09ac\u09be\u0982\u09b2\u09be", uk:"\u0423\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u0430", ms:"Bahasa Melayu", sv:"Svenska", cs:"\u010ce\u0161tina", ro:"Rom\u00e2n\u0103", el:"\u0395\u03bb\u03bb\u03b7\u03bd\u03b9\u03ba\u03ac" };
-export const messages: Record<Locale, { title:string; subtitle:string; search:string; today:string; categories:string; popular:string; play:string; question:string; next:string; submit:string; result:string; retry:string; home:string; related:string; score:string; footer:string }> = {
-ko:{title:"퀴즈테스트",subtitle:"오늘의 호기심을 깨우는 퀴즈",search:"퀴즈 검색",today:"오늘의 퀴즈",categories:"카테고리",popular:"인기 퀴즈",play:"시작하기",question:"문제",next:"다음 문제",submit:"답변 확인",result:"퀴즈 결과",retry:"다시 풀기",home:"홈으로",related:"관련 퀴즈",score:"점수",footer:"개인정보 안내 · 이용안내 · 문의 사항"},
-en:{title:"Quiz",subtitle:"A little curiosity goes a long way.",search:"Search quizzes",today:"Quiz of the day",categories:"Categories",popular:"Popular quizzes",play:"Start quiz",question:"Question",next:"Next question",submit:"Check answer",result:"Your result",retry:"Try again",home:"Home",related:"Related quizzes",score:"Score",footer:"Privacy · Terms · Contact"},
-ja:{title:"クイズテスト",subtitle:"今日の好奇心を刺激するクイズ",search:"クイズを検索",today:"今日のクイズ",categories:"カテゴリー",popular:"人気のクイズ",play:"スタート",question:"問題",next:"次の問題",submit:"回答を確認",result:"結果",retry:"もう一度",home:"ホーム",related:"関連クイズ",score:"スコア",footer:"プライバシー · ご利用案内 · お問い合わせ"},
-zh:{title:"趣味测验",subtitle:"用测验唤醒今天的好奇心",search:"搜索测验",today:"今日测验",categories:"类别",popular:"热门测验",play:"开始测验",question:"问题",next:"下一题",submit:"确认答案",result:"测验结果",retry:"再试一次",home:"首页",related:"相关测验",score:"得分",footer:"隐私 · 使用指南 · 联系我们"},
-es:{title:"Quiz",subtitle:"Despierta tu curiosidad cada día.",search:"Buscar quizzes",today:"Quiz del día",categories:"Categorías",popular:"Quizzes populares",play:"Empezar",question:"Pregunta",next:"Siguiente",submit:"Comprobar",result:"Resultado",retry:"Intentar de nuevo",home:"Inicio",related:"Quizzes relacionados",score:"Puntuación",footer:"Privacidad · Ayuda · Contacto"},
-"pt-br":{title:"Quiz",subtitle:"Desperte sua curiosidade todos os dias.",search:"Buscar quizzes",today:"Quiz do dia",categories:"Categorias",popular:"Quizzes populares",play:"Começar",question:"Pergunta",next:"Próxima",submit:"Conferir",result:"Resultado",retry:"Tentar novamente",home:"Início",related:"Quizzes relacionados",score:"Pontuação",footer:"Privacidade · Ajuda · Contato"},
-de:{title:"Quiz",subtitle:"Entdecke jeden Tag etwas Neues.",search:"Quiz suchen",today:"Quiz des Tages",categories:"Kategorien",popular:"Beliebte Quiz",play:"Quiz starten",question:"Frage",next:"Weiter",submit:"Antwort prüfen",result:"Ergebnis",retry:"Nochmal spielen",home:"Startseite",related:"Ähnliche Quiz",score:"Punkte",footer:"Datenschutz · Hilfe · Kontakt"},
-fr:{title:"Quiz",subtitle:"Éveillez votre curiosité chaque jour.",search:"Rechercher",today:"Quiz du jour",categories:"Catégories",popular:"Quiz populaires",play:"Commencer",question:"Question",next:"Suivant",submit:"Vérifier",result:"Résultat",retry:"Recommencer",home:"Accueil",related:"Quiz similaires",score:"Score",footer:"Confidentialité · Aide · Contact"},
-vi:{title:"Đố vui",subtitle:"Khơi dậy trí tò mò mỗi ngày.",search:"Tìm câu đố",today:"Câu đố hôm nay",categories:"Danh mục",popular:"Câu đố phổ biến",play:"Bắt đầu",question:"Câu hỏi",next:"Tiếp theo",submit:"Kiểm tra",result:"Kết quả",retry:"Thử lại",home:"Trang chủ",related:"Câu đố liên quan",score:"Điểm",footer:"Quyền riêng tư · Trợ giúp · Liên hệ"},
-id:{title:"Kuis",subtitle:"Bangkitkan rasa ingin tahu setiap hari.",search:"Cari kuis",today:"Kuis hari ini",categories:"Kategori",popular:"Kuis populer",play:"Mulai",question:"Pertanyaan",next:"Berikutnya",submit:"Periksa jawaban",result:"Hasil",retry:"Coba lagi",home:"Beranda",related:"Kuis terkait",score:"Skor",footer:"Privasi · Panduan · Kontak"},
-th:{title:"แบบทดสอบ",subtitle:"ปลุกความอยากรู้อยากเห็นทุกวัน",search:"ค้นหาแบบทดสอบ",today:"แบบทดสอบวันนี้",categories:"หมวดหมู่",popular:"แบบทดสอบยอดนิยม",play:"เริ่ม",question:"คำถาม",next:"ถัดไป",submit:"ตรวจคำตอบ",result:"ผลลัพธ์",retry:"ลองอีกครั้ง",home:"หน้าแรก",related:"แบบทดสอบที่เกี่ยวข้อง",score:"คะแนน",footer:"ความเป็นส่วนตัว · คู่มือ · ติดต่อ"},
-"zh-tw":{title:"趣味測驗",subtitle:"用測驗喚醒今天的好奇心",search:"搜尋測驗",today:"今日測驗",categories:"類別",popular:"熱門測驗",play:"開始測驗",question:"問題",next:"下一題",submit:"確認答案",result:"測驗結果",retry:"再試一次",home:"首頁",related:"相關測驗",score:"得分",footer:"隱私 · 使用指南 · 聯絡我們"},
-it:{title:"Quiz",subtitle:"Stimola la curiosità ogni giorno.",search:"Cerca quiz",today:"Quiz del giorno",categories:"Categorie",popular:"Quiz popolari",play:"Inizia",question:"Domanda",next:"Avanti",submit:"Verifica",result:"Risultato",retry:"Riprova",home:"Home",related:"Quiz correlati",score:"Punteggio",footer:"Privacy · Guida · Contatti"},
-nl:{title:"Quiz",subtitle:"Prikkel elke dag je nieuwsgierigheid.",search:"Quiz zoeken",today:"Quiz van de dag",categories:"Categorieën",popular:"Populaire quizzen",play:"Quiz starten",question:"Vraag",next:"Volgende",submit:"Controleren",result:"Resultaat",retry:"Opnieuw",home:"Home",related:"Gerelateerde quizzen",score:"Score",footer:"Privacy · Hulp · Contact"},
-hi:{title:"क्विज़",subtitle:"हर दिन अपनी जिज्ञासा जगाएँ।",search:"क्विज़ खोजें",today:"आज का क्विज़",categories:"श्रेणियाँ",popular:"लोकप्रिय क्विज़",play:"शुरू करें",question:"प्रश्न",next:"अगला",submit:"उत्तर जाँचें",result:"परिणाम",retry:"फिर प्रयास करें",home:"मुखपृष्ठ",related:"संबंधित क्विज़",score:"स्कोर",footer:"गोपनीयता · सहायता · संपर्क"},
-  get ru() { return getLoadedLocaleCatalog("ru").messages; },
-  get tr() { return getLoadedLocaleCatalog("tr").messages; },
-  get pl() { return getLoadedLocaleCatalog("pl").messages; },
-  get fil() { return getLoadedLocaleCatalog("fil").messages; },
-  get bn() { return getLoadedLocaleCatalog("bn").messages; },
-  get uk() { return getLoadedLocaleCatalog("uk").messages; },
-  get ms() { return getLoadedLocaleCatalog("ms").messages; },
-  get sv() { return getLoadedLocaleCatalog("sv").messages; },
-  get cs() { return getLoadedLocaleCatalog("cs").messages; },
-  get ro() { return getLoadedLocaleCatalog("ro").messages; },
-  get el() { return getLoadedLocaleCatalog("el").messages; },
+export const publishedLocales = [...locales] as const satisfies readonly Locale[];
+export const localeNames: Record<Locale, string> = { ko:"한국어", en:"English", ja:"日本語", zh:"简体中文", es:"Español", "pt-br":"Português (Brasil)", de:"Deutsch", fr:"Français", vi:"Tiếng Việt", id:"Bahasa Indonesia", th:"ไทย", "zh-tw":"繁體中文", it:"Italiano", nl:"Nederlands", hi:"हिन्दी", ru:"Русский", tr:"Türkçe", pl:"Polski", fil:"Filipino", bn:"বাংলা", uk:"Українська", ms:"Bahasa Melayu", sv:"Svenska", cs:"Čeština", ro:"Română", el:"Ελληνικά" };
+
+type MessageCopy = { title:string; subtitle:string; search:string; today:string; categories:string; popular:string; play:string; question:string; next:string; submit:string; result:string; retry:string; home:string; related:string; score:string; footer:string };
+type DiscoveryCopy = { intro:string; quickStart:string; searchResults:string; browseCategories:string; clearSearch:string; resultsFor:(query:string,count:number)=>string };
+type LocaleData = {
+  messages: MessageCopy;
+  ui: Record<string, string> & { quizCount:string; questionCount:string; quizSummary:string; category:Record<string,string>; difficultyLabels:Record<string,string> };
+  detail: { correctCount:string; incorrectCount:string; newSet:string; otherQuizzes:string };
+  discovery: { intro:string; quickStart:string; searchResults:string; browseCategories:string; clearSearch:string; resultsFor?:string; resultsForForms?:Record<string,string> };
+  uiCountForms?: { quizCount:Record<string,string>; questionCount:Record<string,string> };
+  uiSummary?: string;
 };
+
+function localeRecord<T>(read: (locale: Locale) => T): Record<Locale, T> {
+  const record = {} as Record<Locale, T>;
+  for (const locale of locales) Object.defineProperty(record, locale, { enumerable:true, get:() => read(locale) });
+  return record;
+}
+
+export const messages = localeRecord((locale) => getLoadedLocaleCatalog(locale).messages as MessageCopy);
 export function isLocale(value:string): value is Locale { return (locales as readonly string[]).includes(value); }
 export function isPublishedLocale(value:string): value is (typeof publishedLocales)[number] { return (publishedLocales as readonly string[]).includes(value); }
 
 function formatPolishCount(count: number, forms: readonly [string, string, string]): string {
-  const value = Math.abs(count);
-  const lastTwo = value % 100;
-  const last = value % 10;
+  const value = Math.abs(count), lastTwo = value % 100, last = value % 10;
   const form = last === 1 && lastTwo !== 11 ? 0 : last >= 2 && last <= 4 && (lastTwo < 12 || lastTwo > 14) ? 1 : 2;
   return `${count} ${forms[form]}`;
 }
 
 function formatRussianCount(count: number, noun: "викторина" | "вопрос"): string {
-  const lastTwo = Math.abs(count) % 100;
-  const last = Math.abs(count) % 10;
+  const lastTwo = Math.abs(count) % 100, last = Math.abs(count) % 10;
   const form = lastTwo >= 11 && lastTwo <= 14 ? 2 : last === 1 ? 0 : last >= 2 && last <= 4 ? 1 : 2;
   const forms = noun === "викторина" ? ["викторина", "викторины", "викторин"] : ["вопрос", "вопроса", "вопросов"];
   return `${count} ${forms[form]}`;
 }
 
 function formatUkrainianQuizCount(count: number): string {
-  const absolute = Math.abs(count);
-  const lastTwo = absolute % 100;
-  const last = absolute % 10;
+  const absolute = Math.abs(count), lastTwo = absolute % 100, last = absolute % 10;
   const noun = lastTwo >= 11 && lastTwo <= 14 ? "вікторин" : last === 1 ? "вікторина" : last >= 2 && last <= 4 ? "вікторини" : "вікторин";
   return `${count} ${noun}`;
 }
 
-type DiscoveryCopy = {
-  intro: string;
-  quickStart: string;
-  searchResults: string;
-  browseCategories: string;
-  clearSearch: string;
-  resultsFor: (query: string, count: number) => string;
-};
-
-function expandedDiscoveryCopy(locale: CatalogLocale): DiscoveryCopy {
-  const discovery = getLoadedLocaleCatalog(locale).discovery as { intro: string; quickStart: string; searchResults: string; browseCategories: string; clearSearch: string; resultsFor?: string };
-  const resultsFor = (query: string, count: number) => {
-    if (locale === "ru") return discovery.resultsFor!.replace("QUERY_SLOT", query).replace("QUERY_COUNT", formatRussianCount(count, "\u0432\u0438\u043a\u0442\u043e\u0440\u0438\u043d\u0430"));
-    if (locale === "tr") return discovery.resultsFor!.replace("QUERY_SLOT", query).replace("QUERY_COUNT", `${count} sonu\u00e7`);
-    if (locale === "pl") return `${formatPolishCount(count, ["quiz", "quizy", "quiz\u00f3w"])} dla ?${query}?`;
+function localeDiscovery(locale: Locale): DiscoveryCopy {
+  const discovery = (getLoadedLocaleCatalog(locale) as unknown as LocaleData).discovery;
+  if (!isExpansionLocale(locale)) {
+    const plural = new Intl.PluralRules(locale);
+    const forms = discovery.resultsForForms!;
+    return { ...discovery, resultsFor:(query, count) => (forms[plural.select(count)] ?? forms.other).replace("COUNT_SLOT", String(count)).replace("QUERY_SLOT", query) };
+  }
+  const resultsFor = (query:string, count:number) => {
+    if (locale === "ru") return discovery.resultsFor!.replace("QUERY_SLOT", query).replace("QUERY_COUNT", formatRussianCount(count, "викторина"));
+    if (locale === "tr") return discovery.resultsFor!.replace("QUERY_SLOT", query).replace("QUERY_COUNT", `${count} sonuç`);
+    if (locale === "pl") return `${formatPolishCount(count, ["quiz", "quizy", "quizów"])} dla „${query}”`;
     return (discovery.resultsFor ?? "COUNT_SLOT results for QUERY_SLOT").replace("COUNT_SLOT", String(count)).replace("QUERY_SLOT", query);
   };
-  return { intro: discovery.intro, quickStart: discovery.quickStart, searchResults: discovery.searchResults, browseCategories: discovery.browseCategories, clearSearch: discovery.clearSearch, resultsFor };
+  return { intro:discovery.intro, quickStart:discovery.quickStart, searchResults:discovery.searchResults, browseCategories:discovery.browseCategories, clearSearch:discovery.clearSearch, resultsFor };
 }
 
-export const discoveryCopy: Record<Locale, DiscoveryCopy> = {
-  ko:{intro:"상식부터 수학, 브레인 티저까지 원하는 퀴즈에 도전해 보세요.",quickStart:"빠르게 시작하기",searchResults:"검색 결과",browseCategories:"카테고리 선택",clearSearch:"검색어 지우기",resultsFor:(q,n)=>`“${q}” 검색 결과 · 퀴즈 ${n}개`},
-  en:{intro:"Explore quizzes from general knowledge and math to brain teasers.",quickStart:"Quick start",searchResults:"Search results",browseCategories:"Choose a category",clearSearch:"Clear search",resultsFor:(q,n)=>`${n} quizzes for “${q}”`},
-  ja:{intro:"一般常識から数学、脳トレまで、好きなクイズに挑戦しましょう。",quickStart:"すぐに始める",searchResults:"検索結果",browseCategories:"カテゴリーを選ぶ",clearSearch:"検索語を消去",resultsFor:(q,n)=>`「${q}」の検索結果：${n}件`},
-  zh:{intro:"从常识、数学到脑力挑战，选择喜欢的测验开始吧。",quickStart:"快速开始",searchResults:"搜索结果",browseCategories:"选择类别",clearSearch:"清除搜索",resultsFor:(q,n)=>`“${q}”的搜索结果：${n} 个测验`},
-  es:{intro:"Explora desafíos de cultura general, matemáticas y lógica.",quickStart:"Empieza rápido",searchResults:"Resultados de búsqueda",browseCategories:"Elige una categoría",clearSearch:"Borrar búsqueda",resultsFor:(q,n)=>`${n} cuestionarios para «${q}»`},
-  "pt-br":{intro:"Explore quizzes de conhecimentos gerais, matemática e desafios mentais.",quickStart:"Comece agora",searchResults:"Resultados da busca",browseCategories:"Escolha uma categoria",clearSearch:"Limpar busca",resultsFor:(q,n)=>`${n} quizzes para “${q}”`},
-  de:{intro:"Entdecke Quiz zu Allgemeinwissen, Mathematik und Knobelaufgaben.",quickStart:"Schnell starten",searchResults:"Suchergebnisse",browseCategories:"Kategorie wählen",clearSearch:"Suche löschen",resultsFor:(q,n)=>`${n} Quiz für „${q}“`},
-  fr:{intro:"Explorez des quiz de culture générale, de maths et de logique.",quickStart:"Commencer vite",searchResults:"Résultats de recherche",browseCategories:"Choisir une catégorie",clearSearch:"Effacer la recherche",resultsFor:(q,n)=>`${n} quiz pour « ${q} »`},
-  vi:{intro:"Khám phá câu đố kiến thức, toán học và thử thách trí não.",quickStart:"Bắt đầu nhanh",searchResults:"Kết quả tìm kiếm",browseCategories:"Chọn danh mục",clearSearch:"Xóa tìm kiếm",resultsFor:(q,n)=>`${n} câu đố cho “${q}”`},
-  id:{intro:"Jelajahi kuis pengetahuan umum, matematika, dan asah otak.",quickStart:"Mulai cepat",searchResults:"Hasil pencarian",browseCategories:"Pilih kategori",clearSearch:"Hapus pencarian",resultsFor:(q,n)=>`${n} kuis untuk “${q}”`},
-  th:{intro:"เลือกทำแบบทดสอบความรู้ คณิตศาสตร์ และปริศนาฝึกสมอง",quickStart:"เริ่มได้ทันที",searchResults:"ผลการค้นหา",browseCategories:"เลือกหมวดหมู่",clearSearch:"ล้างคำค้นหา",resultsFor:(q,n)=>`พบ ${n} แบบทดสอบสำหรับ “${q}”`},
-  "zh-tw":{intro:"從常識、數學到腦力挑戰，選擇喜歡的測驗開始吧。",quickStart:"快速開始",searchResults:"搜尋結果",browseCategories:"選擇類別",clearSearch:"清除搜尋",resultsFor:(q,n)=>`「${q}」的搜尋結果：${n} 個測驗`},
-  it:{intro:"Esplora quiz di cultura generale, matematica e logica.",quickStart:"Inizia subito",searchResults:"Risultati di ricerca",browseCategories:"Scegli una categoria",clearSearch:"Cancella la ricerca",resultsFor:(q,n)=>`${n} quiz per “${q}”`},
-  nl:{intro:"Ontdek quizzen over algemene kennis, wiskunde en denkpuzzels.",quickStart:"Snel beginnen",searchResults:"Zoekresultaten",browseCategories:"Kies een categorie",clearSearch:"Zoekopdracht wissen",resultsFor:(q,n)=>`${n} quizzen voor ‘${q}’`},
-  hi:{intro:"सामान्य ज्ञान, गणित और दिमाग़ी पहेलियों में अपनी पसंद का क्विज़ चुनें।",quickStart:"तुरंत शुरू करें",searchResults:"खोज के परिणाम",browseCategories:"श्रेणी चुनें",clearSearch:"खोज मिटाएँ",resultsFor:(q,n)=>`“${q}” के लिए ${n} क्विज़`},
-  get ru() { return expandedDiscoveryCopy("ru"); },
-  get tr() { return expandedDiscoveryCopy("tr"); },
-  get pl() { return expandedDiscoveryCopy("pl"); },
-  get fil() { return expandedDiscoveryCopy("fil"); },
-  get bn() { return expandedDiscoveryCopy("bn"); },
-  get uk() { return expandedDiscoveryCopy("uk"); },
-  get ms() { return expandedDiscoveryCopy("ms"); },
-  get sv() { return expandedDiscoveryCopy("sv"); },
-  get cs() { return expandedDiscoveryCopy("cs"); },
-  get ro() { return expandedDiscoveryCopy("ro"); },
-  get el() { return expandedDiscoveryCopy("el"); },
-};
-
-export const detailCopy: Record<Locale, { correctCount: string; incorrectCount: string; newSet: string; otherQuizzes: string }> = {
-  ko:{correctCount:"정답",incorrectCount:"오답",newSet:"새 문제로 다시 풀기",otherQuizzes:"다른 퀴즈 보기"},
-  en:{correctCount:"Correct",incorrectCount:"Incorrect",newSet:"Try new questions",otherQuizzes:"Browse other quizzes"},
-  ja:{correctCount:"正解",incorrectCount:"不正解",newSet:"新しい問題で挑戦",otherQuizzes:"ほかのクイズを見る"},
-  zh:{correctCount:"答对",incorrectCount:"答错",newSet:"换一组题再试",otherQuizzes:"查看其他测验"},
-  es:{correctCount:"Correctas",incorrectCount:"Incorrectas",newSet:"Probar preguntas nuevas",otherQuizzes:"Ver otros cuestionarios"},
-  "pt-br":{correctCount:"Acertos",incorrectCount:"Erros",newSet:"Tentar novas perguntas",otherQuizzes:"Ver outros quizzes"},
-  de:{correctCount:"Richtig",incorrectCount:"Falsch",newSet:"Neue Fragen spielen",otherQuizzes:"Weitere Quiz ansehen"},
-  fr:{correctCount:"Bonnes réponses",incorrectCount:"Erreurs",newSet:"Essayer de nouvelles questions",otherQuizzes:"Voir d’autres quiz"},
-  vi:{correctCount:"Đúng",incorrectCount:"Sai",newSet:"Thử bộ câu hỏi mới",otherQuizzes:"Xem câu đố khác"},
-  id:{correctCount:"Benar",incorrectCount:"Salah",newSet:"Coba soal baru",otherQuizzes:"Lihat kuis lainnya"},
-  th:{correctCount:"ถูก",incorrectCount:"ผิด",newSet:"ลองคำถามชุดใหม่",otherQuizzes:"ดูแบบทดสอบอื่น"},
-  "zh-tw":{correctCount:"答對",incorrectCount:"答錯",newSet:"換一組題再試",otherQuizzes:"查看其他測驗"},
-  it:{correctCount:"Corrette",incorrectCount:"Errate",newSet:"Prova nuove domande",otherQuizzes:"Scopri altri quiz"},
-  nl:{correctCount:"Goed",incorrectCount:"Fout",newSet:"Nieuwe vragen proberen",otherQuizzes:"Andere quizzen bekijken"},
-  hi:{correctCount:"सही",incorrectCount:"गलत",newSet:"नए प्रश्न आज़माएँ",otherQuizzes:"अन्य क्विज़ देखें"},
-  get ru() { return getLoadedLocaleCatalog("ru").detail; },
-  get tr() { return getLoadedLocaleCatalog("tr").detail; },
-  get pl() { return getLoadedLocaleCatalog("pl").detail; },
-  get fil() { return getLoadedLocaleCatalog("fil").detail; },
-  get bn() { return getLoadedLocaleCatalog("bn").detail; },
-  get uk() { return getLoadedLocaleCatalog("uk").detail; },
-  get ms() { return getLoadedLocaleCatalog("ms").detail; },
-  get sv() { return getLoadedLocaleCatalog("sv").detail; },
-  get cs() { return getLoadedLocaleCatalog("cs").detail; },
-  get ro() { return getLoadedLocaleCatalog("ro").detail; },
-  get el() { return getLoadedLocaleCatalog("el").detail; },
-};
+export const discoveryCopy = localeRecord(locale => localeDiscovery(locale));
+export const detailCopy = localeRecord(locale => getLoadedLocaleCatalog(locale).detail as LocaleData["detail"]);
 
 export type UiMessages = {
-  familySites: string; portal: string; calculator: string; tools: string; moneyBook: string; docs: string; quiz: string;
-  language: string; openMenu: string; closeMenu: string; allQuizzes: string; freeToPlay: string; noAccount: string;
-  heroEyebrow: string; heroTitle: string; heroDescription: string; nextChallenge: string; searchEmpty: string;
-  quizCount: (count: number) => string; questionCount: (count: number) => string; questionSetReview: string;
-  difficulty: string; startHeading: string; startDescription: string; correct: string; incorrect: string;
-  accuracy: string; finishedIn: string; seconds: string; bestScore: string; reviewHeading: string; reviewDescription: string;
-  howToPlay: string; howToDescription: string; aboutQuiz: string; faq: string; scoreUploadedQuestion: string;
-  scoreUploadedAnswer: string; interactiveTest: string; localeCount: string; dynamicGeneration: string; back: string;
-  footerTagline: string; privacy: string; guidelines: string; contact: string; copyright: string; searchLabel: string;
-  category: Record<string, string>; difficultyLabels: Record<string, string>; quizSummary: (title: string) => string;
+  familySites:string; portal:string; calculator:string; tools:string; moneyBook:string; docs:string; quiz:string;
+  language:string; openMenu:string; closeMenu:string; allQuizzes:string; freeToPlay:string; noAccount:string;
+  heroEyebrow:string; heroTitle:string; heroDescription:string; nextChallenge:string; searchEmpty:string;
+  quizCount:(count:number)=>string; questionCount:(count:number)=>string; questionSetReview:string;
+  difficulty:string; startHeading:string; startDescription:string; correct:string; incorrect:string;
+  accuracy:string; finishedIn:string; seconds:string; bestScore:string; reviewHeading:string; reviewDescription:string;
+  howToPlay:string; howToDescription:string; aboutQuiz:string; faq:string; scoreUploadedQuestion:string;
+  scoreUploadedAnswer:string; interactiveTest:string; localeCount:string; dynamicGeneration:string; back:string;
+  footerTagline:string; privacy:string; guidelines:string; contact:string; copyright:string; searchLabel:string;
+  category:Record<string,string>; difficultyLabels:Record<string,string>; quizSummary:(title:string)=>string;
 };
 
-function expandedUiMessages(locale: CatalogLocale): UiMessages {
-  const ui = getLoadedLocaleCatalog(locale).ui;
-  const interpolate = (template: string, token: string, value: string) => template.replace(token, value);
-  const count = (key: "quizCount" | "questionCount", value: number) => {
-    if (locale === "ru") return formatRussianCount(value, key === "quizCount" ? "\u0432\u0438\u043a\u0442\u043e\u0440\u0438\u043d\u0430" : "\u0432\u043e\u043f\u0440\u043e\u0441");
-    if (locale === "pl") return formatPolishCount(value, key === "quizCount" ? ["quiz", "quizy", "quiz\u00f3w"] : ["pytanie", "pytania", "pyta\u0144"]);
+function localeUi(locale: Locale): UiMessages {
+  const catalog = getLoadedLocaleCatalog(locale) as unknown as LocaleData;
+  const ui = catalog.ui;
+  if (!isExpansionLocale(locale)) {
+    const plural = new Intl.PluralRules(locale), countForms = catalog.uiCountForms!;
+    const count = (key:"quizCount" | "questionCount", value:number) => {
+      const forms = countForms[key];
+      return (forms[plural.select(value)] ?? forms.other).replace("COUNT_SLOT", String(value));
+    };
+    return { ...ui, quizCount:value => count("quizCount", value), questionCount:value => count("questionCount", value), quizSummary:title => catalog.uiSummary!.replace("TITLE_SLOT", title) } as UiMessages;
+  }
+  const interpolate = (template:string, token:string, value:string) => template.replace(token, value);
+  const count = (key:"quizCount" | "questionCount", value:number) => {
+    if (locale === "ru") return formatRussianCount(value, key === "quizCount" ? "викторина" : "вопрос");
+    if (locale === "pl") return formatPolishCount(value, key === "quizCount" ? ["quiz", "quizy", "quizów"] : ["pytanie", "pytania", "pytań"]);
     if (locale === "uk" && key === "quizCount") return formatUkrainianQuizCount(value);
     if (locale === "tr") return `${value} ${ui[key].replace("COUNT_SLOT", "").trim()}`;
     return interpolate(ui[key], "COUNT_SLOT", String(value));
   };
-  return {
-    ...ui,
-    quizCount: (value) => count("quizCount", value),
-    questionCount: (value) => count("questionCount", value),
-    quizSummary: (title) => interpolate(ui.quizSummary, "TITLE_SLOT", title),
-  };
+  return { ...ui, quizCount:value => count("quizCount", value), questionCount:value => count("questionCount", value), quizSummary:title => interpolate(ui.quizSummary, "TITLE_SLOT", title) } as UiMessages;
 }
 
-export const uiMessages: Record<Locale, UiMessages> = {
-  ko: {
-    familySites:"패밀리 사이트",portal:"포탈",calculator:"계산기",tools:"온라인 도구",moneyBook:"무료 공유 가계부",docs:"문서·양식",quiz:"퀴즈·테스트",language:"언어 선택",openMenu:"서비스 메뉴 열기",closeMenu:"서비스 메뉴 닫기",allQuizzes:"전체 퀴즈",freeToPlay:"무료 이용",noAccount:"회원가입 없이 이용",heroEyebrow:"호기심을 깨우는 순간",heroTitle:"오늘의 호기심을 깨우는 퀴즈",heroDescription:"가볍게 도전하고 새로운 발견을 즐겨 보세요.",nextChallenge:"다음 도전을 골라 보세요",searchEmpty:"검색 결과가 없습니다.",quizCount:(n)=>`퀴즈 ${n}개`,questionCount:(n)=>`문제 ${n}개`,questionSetReview:"문제 구성 검토 중",difficulty:"난이도",startHeading:"준비되면 시작하세요",startDescription:"천천히 생각하며 즐겁게 도전해 보세요.",correct:"정답입니다!",incorrect:"아쉽지만 정답이 아닙니다.",accuracy:"정답률",finishedIn:"완료 시간",seconds:"초",bestScore:"최고 점수는 이 기기에 저장됩니다.",reviewHeading:"문제 구성을 검토하고 있습니다",reviewDescription:"현지화된 문제를 확인하고 있습니다. 검토가 완료되면 이 퀴즈를 이용할 수 있습니다.",howToPlay:"이용 방법",howToDescription:"답을 선택해 문제를 풀어 보세요. 진행 상황은 이 브라우저에만 저장되며 계정이나 개인정보는 필요하지 않습니다.",aboutQuiz:"퀴즈 안내",faq:"자주 묻는 질문",scoreUploadedQuestion:"점수가 온라인에 저장되나요?",scoreUploadedAnswer:"아니요. 점수는 사용 중인 브라우저에만 저장됩니다.",interactiveTest:"인터랙티브 테스트",localeCount:"26 ??????",dynamicGeneration:"문제 자동 생성",back:"퀴즈 목록",footerTagline:"호기심 많은 모두를 위한 퀴즈",privacy:"개인정보 안내",guidelines:"이용안내",contact:"문의사항",copyright:"© 2026 woori.today",searchLabel:"퀴즈 검색",quizSummary:(title)=>`${title}에 도전하며 즐겁게 실력을 확인해 보세요.`,category:{general:"일반 상식",geography:"세계·지리",science:"과학",history:"역사",math:"수학",language:"언어",technology:"IT",memory:"기억력·두뇌",speed:"속도·반응",fun:"재미 테스트"},difficultyLabels:{easy:"쉬움",medium:"보통",hard:"어려움",expert:"전문가"}
-  },
-  en: {
-    familySites:"Family sites",portal:"Portal",calculator:"Calculator",tools:"Online tools",moneyBook:"Free shared money book",docs:"Documents & forms",quiz:"Quiz & tests",language:"Choose language",openMenu:"Open services menu",closeMenu:"Close services menu",allQuizzes:"All quizzes",freeToPlay:"Free to play",noAccount:"No account needed",heroEyebrow:"A moment of curiosity",heroTitle:"Wake up your curiosity today",heroDescription:"Take a quick challenge and enjoy a new discovery.",nextChallenge:"Pick your next challenge",searchEmpty:"No quizzes found.",quizCount:(n)=>`${n} quizzes`,questionCount:(n)=>`${n} questions`,questionSetReview:"Question set under review",difficulty:"Difficulty",startHeading:"Ready when you are",startDescription:"Take your time, trust what you know, and enjoy the challenge.",correct:"Correct!",incorrect:"Not quite.",accuracy:"Accuracy",finishedIn:"Finished in",seconds:"seconds",bestScore:"Your best score is saved on this device.",reviewHeading:"Question set under review",reviewDescription:"We are reviewing the localized questions. This quiz will be playable when the review is complete.",howToPlay:"How to play",howToDescription:"Choose an answer for each question. Your progress stays in this browser; no account or personal information is needed.",aboutQuiz:"About this quiz",faq:"FAQ",scoreUploadedQuestion:"Is my score uploaded?",scoreUploadedAnswer:"No. Your score is stored only in this browser.",interactiveTest:"Interactive test",localeCount:"21 languages",dynamicGeneration:"Questions generated for each round",back:"Quiz list",footerTagline:"Made for curious minds, everywhere.",privacy:"Privacy",guidelines:"Guidelines",contact:"Contact",copyright:"© 2026 woori.today",searchLabel:"Search quizzes",quizSummary:(title)=>`Try ${title} and enjoy a quick way to test what you know.`,category:{general:"General knowledge",geography:"World geography",science:"Science",history:"History",math:"Math",language:"Language",technology:"IT",memory:"Memory & brain",speed:"Speed & reaction",fun:"Just for fun"},difficultyLabels:{easy:"Easy",medium:"Medium",hard:"Hard",expert:"Expert"}
-  },
-  ja: {
-    familySites:"関連サービス",portal:"ポータル",calculator:"計算機",tools:"オンラインツール",moneyBook:"無料共有家計簿",docs:"文書・書式",quiz:"クイズ・テスト",language:"言語を選択",openMenu:"サービスメニューを開く",closeMenu:"サービスメニューを閉じる",allQuizzes:"すべてのクイズ",freeToPlay:"無料で利用",noAccount:"会員登録不要",heroEyebrow:"好奇心が動き出す瞬間",heroTitle:"今日の好奇心を刺激するクイズ",heroDescription:"気軽に挑戦して、新しい発見を楽しみましょう。",nextChallenge:"次のチャレンジを選ぶ",searchEmpty:"クイズが見つかりません。",quizCount:(n)=>`クイズ ${n}件`,questionCount:(n)=>`${n}問`,questionSetReview:"問題を確認中",difficulty:"難易度",startHeading:"準備ができたら始めましょう",startDescription:"焦らず考えながら、クイズを楽しんでください。",correct:"正解です！",incorrect:"残念、正解ではありません。",accuracy:"正答率",finishedIn:"所要時間",seconds:"秒",bestScore:"最高スコアはこの端末に保存されます。",reviewHeading:"問題を確認しています",reviewDescription:"各言語の問題を確認中です。確認が完了するとプレイできるようになります。",howToPlay:"遊び方",howToDescription:"答えを選んでクイズに挑戦しましょう。進行状況はこのブラウザーだけに保存され、アカウントや個人情報は不要です。",aboutQuiz:"クイズについて",faq:"よくある質問",scoreUploadedQuestion:"スコアは送信されますか？",scoreUploadedAnswer:"いいえ。スコアはこのブラウザー内だけに保存されます。",interactiveTest:"インタラクティブテスト",localeCount:"21言語",dynamicGeneration:"問題を自動生成",back:"クイズ一覧",footerTagline:"好奇心を楽しむすべての人へ",privacy:"プライバシー",guidelines:"利用案内",contact:"お問い合わせ",copyright:"© 2026 woori.today",searchLabel:"クイズを検索",quizSummary:(title)=>`${title}に挑戦して、楽しく知識を確かめましょう。`,category:{general:"一般常識",geography:"世界・地理",science:"科学",history:"歴史",math:"数学",language:"言語",technology:"IT",memory:"記憶力・脳トレ",speed:"速度・反応",fun:"お楽しみテスト"},difficultyLabels:{easy:"かんたん",medium:"ふつう",hard:"難しい",expert:"エキスパート"}
-  },
-  zh: {
-    familySites:"相关服务",portal:"门户",calculator:"计算器",tools:"在线工具",moneyBook:"免费共享记账本",docs:"文档与表格",quiz:"趣味测验",language:"选择语言",openMenu:"打开服务菜单",closeMenu:"关闭服务菜单",allQuizzes:"全部测验",freeToPlay:"免费使用",noAccount:"无需注册",heroEyebrow:"唤醒好奇心的时刻",heroTitle:"用测验唤醒今天的好奇心",heroDescription:"轻松挑战，享受新的发现。",nextChallenge:"选择下一个挑战",searchEmpty:"没有找到测验。",quizCount:(n)=>`${n} 个测验`,questionCount:(n)=>`${n} 道题`,questionSetReview:"题目正在审核中",difficulty:"难度",startHeading:"准备好后即可开始",startDescription:"慢慢思考，享受挑战的乐趣。",correct:"回答正确！",incorrect:"差一点，再试试。",accuracy:"正确率",finishedIn:"用时",seconds:"秒",bestScore:"最佳成绩仅保存在此设备上。",reviewHeading:"题目正在审核中",reviewDescription:"我们正在检查各语言版本的题目，审核完成后即可游玩。",howToPlay:"玩法说明",howToDescription:"选择答案完成测验。进度只保存在此浏览器中，无需账户或个人信息。",aboutQuiz:"测验介绍",faq:"常见问题",scoreUploadedQuestion:"成绩会上传吗？",scoreUploadedAnswer:"不会，成绩只保存在此浏览器中。",interactiveTest:"互动测试",localeCount:"21 种语言",dynamicGeneration:"每轮自动生成题目",back:"测验列表",footerTagline:"为每一份好奇心而做。",privacy:"隐私说明",guidelines:"使用指南",contact:"联系我们",copyright:"© 2026 woori.today",searchLabel:"搜索测验",quizSummary:(title)=>`挑战${title}，轻松检验所学知识。`,category:{general:"常识",geography:"世界·地理",science:"科学",history:"历史",math:"数学",language:"语言",technology:"IT",memory:"记忆力·脑力",speed:"速度·反应",fun:"趣味挑战"},difficultyLabels:{easy:"简单",medium:"中等",hard:"困难",expert:"专家"}
-  },
-  es: {
-    familySites:"Servicios relacionados",portal:"Portal",calculator:"Calculadora",tools:"Herramientas en línea",moneyBook:"Libro de cuentas compartido gratis",docs:"Documentos y formularios",quiz:"Cuestionarios y pruebas",language:"Elegir idioma",openMenu:"Abrir menú de servicios",closeMenu:"Cerrar menú de servicios",allQuizzes:"Todos los cuestionarios",freeToPlay:"Gratis",noAccount:"Sin registro",heroEyebrow:"Un momento de curiosidad",heroTitle:"Despierta tu curiosidad con un quiz",heroDescription:"Acepta un reto rápido y disfruta de un nuevo descubrimiento.",nextChallenge:"Elige tu próximo reto",searchEmpty:"No se encontraron cuestionarios.",quizCount:(n)=>`${n} cuestionarios`,questionCount:(n)=>`${n} preguntas`,questionSetReview:"Preguntas en revisión",difficulty:"Dificultad",startHeading:"Empieza cuando quieras",startDescription:"Piensa con calma y disfruta del reto.",correct:"¡Correcto!",incorrect:"No es esa. ¡Sigue intentando!",accuracy:"Precisión",finishedIn:"Completado en",seconds:"segundos",bestScore:"Tu mejor puntuación se guarda en este dispositivo.",reviewHeading:"Preguntas en revisión",reviewDescription:"Estamos revisando las preguntas traducidas. El quiz estará disponible cuando termine la revisión.",howToPlay:"Cómo jugar",howToDescription:"Elige una respuesta para cada pregunta. Tu progreso se guarda en este navegador; no necesitas cuenta ni datos personales.",aboutQuiz:"Acerca del cuestionario",faq:"Preguntas frecuentes",scoreUploadedQuestion:"¿Se sube mi puntuación?",scoreUploadedAnswer:"No. La puntuación solo se guarda en este navegador.",interactiveTest:"Prueba interactiva",localeCount:"21 idiomas",dynamicGeneration:"Preguntas generadas en cada ronda",back:"Lista de cuestionarios",footerTagline:"Para mentes curiosas, en todas partes.",privacy:"Privacidad",guidelines:"Guía de uso",contact:"Contacto",copyright:"© 2026 woori.today",searchLabel:"Buscar cuestionarios",quizSummary:(title)=>`Prueba ${title} y comprueba lo que sabes de forma entretenida.`,category:{general:"Cultura general",geography:"Mundo y geografía",science:"Ciencia",history:"Historia",math:"Matemáticas",language:"Idiomas",technology:"Tecnología",memory:"Memoria y mente",speed:"Velocidad y reacción",fun:"Retos divertidos"},difficultyLabels:{easy:"Fácil",medium:"Media",hard:"Difícil",expert:"Experto"}
-  },
-  "pt-br": {
-    familySites:"Serviços relacionados",portal:"Portal",calculator:"Calculadora",tools:"Ferramentas online",moneyBook:"Livro de finanças compartilhado grátis",docs:"Documentos e formulários",quiz:"Quizzes e testes",language:"Escolher idioma",openMenu:"Abrir menu de serviços",closeMenu:"Fechar menu de serviços",allQuizzes:"Todos os quizzes",freeToPlay:"Grátis",noAccount:"Sem cadastro",heroEyebrow:"Um momento de curiosidade",heroTitle:"Desperte sua curiosidade com quizzes",heroDescription:"Encare um desafio rápido e aproveite uma nova descoberta.",nextChallenge:"Escolha seu próximo desafio",searchEmpty:"Nenhum quiz encontrado.",quizCount:(n)=>`${n} quizzes`,questionCount:(n)=>`${n} perguntas`,questionSetReview:"Perguntas em revisão",difficulty:"Dificuldade",startHeading:"Comece quando quiser",startDescription:"Pense com calma e aproveite o desafio.",correct:"Resposta certa!",incorrect:"Não foi dessa vez.",accuracy:"Precisão",finishedIn:"Concluído em",seconds:"segundos",bestScore:"Sua melhor pontuação fica salva neste dispositivo.",reviewHeading:"Perguntas em revisão",reviewDescription:"Estamos revisando as perguntas traduzidas. O quiz ficará disponível após a revisão.",howToPlay:"Como jogar",howToDescription:"Escolha uma resposta para cada pergunta. Seu progresso fica apenas neste navegador; não é preciso criar conta nem informar dados pessoais.",aboutQuiz:"Sobre este quiz",faq:"Perguntas frequentes",scoreUploadedQuestion:"Minha pontuação é enviada?",scoreUploadedAnswer:"Não. A pontuação fica armazenada apenas neste navegador.",interactiveTest:"Teste interativo",localeCount:"21 idiomas",dynamicGeneration:"Perguntas geradas a cada rodada",back:"Lista de quizzes",footerTagline:"Para quem gosta de descobrir coisas novas.",privacy:"Privacidade",guidelines:"Orientações de uso",contact:"Contato",copyright:"© 2026 woori.today",searchLabel:"Buscar quizzes",quizSummary:(title)=>`Desafie-se com ${title} e confira o que você sabe de um jeito leve.`,category:{general:"Conhecimentos gerais",geography:"Mundo e geografia",science:"Ciência",history:"História",math:"Matemática",language:"Idiomas",technology:"Tecnologia",memory:"Memória e raciocínio",speed:"Velocidade e reação",fun:"Desafios divertidos"},difficultyLabels:{easy:"Fácil",medium:"Média",hard:"Difícil",expert:"Especialista"}
-  },
-  de: {
-    familySites:"Weitere Angebote",portal:"Portal",calculator:"Rechner",tools:"Online-Tools",moneyBook:"Kostenloses gemeinsames Haushaltsbuch",docs:"Dokumente & Vorlagen",quiz:"Quiz & Tests",language:"Sprache wählen",openMenu:"Servicemenü öffnen",closeMenu:"Servicemenü schließen",allQuizzes:"Alle Quizze",freeToPlay:"Kostenlos spielen",noAccount:"Keine Registrierung nötig",heroEyebrow:"Ein Moment voller Neugier",heroTitle:"Entdecke deine Neugier mit einem Quiz",heroDescription:"Nimm eine kurze Herausforderung an und mach eine neue Entdeckung.",nextChallenge:"Wähle deine nächste Herausforderung",searchEmpty:"Keine Quizze gefunden.",quizCount:(n)=>`${n} Quizze`,questionCount:(n)=>`${n} Fragen`,questionSetReview:"Fragen werden geprüft",difficulty:"Schwierigkeit",startHeading:"Starte, wenn du bereit bist",startDescription:"Lass dir Zeit und hab Spaß an der Herausforderung.",correct:"Richtig!",incorrect:"Leider nicht ganz.",accuracy:"Genauigkeit",finishedIn:"Abgeschlossen in",seconds:"Sekunden",bestScore:"Dein Bestwert wird auf diesem Gerät gespeichert.",reviewHeading:"Fragen werden geprüft",reviewDescription:"Wir prüfen die lokalisierten Fragen. Nach Abschluss der Prüfung ist das Quiz spielbar.",howToPlay:"So wird gespielt",howToDescription:"Wähle für jede Frage eine Antwort. Dein Fortschritt bleibt in diesem Browser; ein Konto oder persönliche Daten sind nicht nötig.",aboutQuiz:"Über dieses Quiz",faq:"Häufige Fragen",scoreUploadedQuestion:"Wird mein Ergebnis hochgeladen?",scoreUploadedAnswer:"Nein. Dein Ergebnis wird nur in diesem Browser gespeichert.",interactiveTest:"Interaktiver Test",localeCount:"21 Sprachen",dynamicGeneration:"Neue Fragen in jeder Runde",back:"Quizübersicht",footerTagline:"Für neugierige Menschen überall.",privacy:"Datenschutz",guidelines:"Nutzungshinweise",contact:"Kontakt",copyright:"© 2026 woori.today",searchLabel:"Quizze suchen",quizSummary:(title)=>`Finde mit ${title} spielerisch heraus, was du weißt.`,category:{general:"Allgemeinwissen",geography:"Welt & Geografie",science:"Wissenschaft",history:"Geschichte",math:"Mathematik",language:"Sprachen",technology:"IT",memory:"Gedächtnis & Gehirn",speed:"Tempo & Reaktion",fun:"Quiz zum Spaß"},difficultyLabels:{easy:"Einfach",medium:"Mittel",hard:"Schwer",expert:"Experte"}
-  },
-  fr: {
-    familySites:"Services associés",portal:"Portail",calculator:"Calculatrice",tools:"Outils en ligne",moneyBook:"Carnet de comptes partagé gratuit",docs:"Documents et formulaires",quiz:"Quiz et tests",language:"Choisir la langue",openMenu:"Ouvrir le menu des services",closeMenu:"Fermer le menu des services",allQuizzes:"Tous les quiz",freeToPlay:"Gratuit",noAccount:"Sans inscription",heroEyebrow:"Un instant de curiosité",heroTitle:"Éveillez votre curiosité avec un quiz",heroDescription:"Relevez un défi rapide et faites une nouvelle découverte.",nextChallenge:"Choisissez votre prochain défi",searchEmpty:"Aucun quiz trouvé.",quizCount:(n)=>`${n} quiz`,questionCount:(n)=>`${n} questions`,questionSetReview:"Questions en cours de vérification",difficulty:"Difficulté",startHeading:"Commencez quand vous le souhaitez",startDescription:"Prenez votre temps et profitez du défi.",correct:"Bonne réponse !",incorrect:"Ce n’est pas tout à fait ça.",accuracy:"Précision",finishedIn:"Terminé en",seconds:"secondes",bestScore:"Votre meilleur score est enregistré sur cet appareil.",reviewHeading:"Questions en cours de vérification",reviewDescription:"Nous vérifions les questions traduites. Ce quiz sera disponible une fois cette vérification terminée.",howToPlay:"Comment jouer",howToDescription:"Choisissez une réponse à chaque question. Votre progression reste dans ce navigateur ; aucun compte ni renseignement personnel n’est nécessaire.",aboutQuiz:"À propos de ce quiz",faq:"Questions fréquentes",scoreUploadedQuestion:"Mon score est-il envoyé ?",scoreUploadedAnswer:"Non. Votre score est enregistré uniquement dans ce navigateur.",interactiveTest:"Test interactif",localeCount:"21 langues",dynamicGeneration:"Questions générées à chaque partie",back:"Liste des quiz",footerTagline:"Pour les esprits curieux, partout.",privacy:"Confidentialité",guidelines:"Guide d’utilisation",contact:"Contact",copyright:"© 2026 woori.today",searchLabel:"Rechercher des quiz",quizSummary:(title)=>`Testez vos connaissances avec ${title} tout en vous amusant.`,category:{general:"Culture générale",geography:"Monde et géographie",science:"Sciences",history:"Histoire",math:"Mathématiques",language:"Langues",technology:"Informatique",memory:"Mémoire et cerveau",speed:"Vitesse et réflexes",fun:"Défis amusants"},difficultyLabels:{easy:"Facile",medium:"Moyen",hard:"Difficile",expert:"Expert"}
-  },
-  vi: {
-    familySites:"Dịch vụ liên kết",portal:"Cổng thông tin",calculator:"Máy tính",tools:"Công cụ trực tuyến",moneyBook:"Sổ thu chi dùng chung miễn phí",docs:"Tài liệu và biểu mẫu",quiz:"Đố vui và thử thách",language:"Chọn ngôn ngữ",openMenu:"Mở menu dịch vụ",closeMenu:"Đóng menu dịch vụ",allQuizzes:"Tất cả câu đố",freeToPlay:"Chơi miễn phí",noAccount:"Không cần đăng ký",heroEyebrow:"Khơi dậy trí tò mò",heroTitle:"Khám phá sự tò mò qua câu đố",heroDescription:"Thử sức với một thử thách ngắn và khám phá điều mới.",nextChallenge:"Chọn thử thách tiếp theo",searchEmpty:"Không tìm thấy câu đố.",quizCount:(n)=>`${n} câu đố`,questionCount:(n)=>`${n} câu hỏi`,questionSetReview:"Đang duyệt bộ câu hỏi",difficulty:"Độ khó",startHeading:"Bắt đầu khi bạn sẵn sàng",startDescription:"Cứ bình tĩnh suy nghĩ và tận hưởng thử thách.",correct:"Chính xác!",incorrect:"Chưa đúng rồi.",accuracy:"Độ chính xác",finishedIn:"Hoàn thành trong",seconds:"giây",bestScore:"Điểm cao nhất được lưu trên thiết bị này.",reviewHeading:"Đang duyệt bộ câu hỏi",reviewDescription:"Chúng tôi đang kiểm tra câu hỏi đã dịch. Bài kiểm tra sẽ mở sau khi hoàn tất.",howToPlay:"Cách chơi",howToDescription:"Chọn đáp án cho từng câu hỏi. Tiến trình chỉ được lưu trong trình duyệt này; không cần tài khoản hay thông tin cá nhân.",aboutQuiz:"Giới thiệu",faq:"Câu hỏi thường gặp",scoreUploadedQuestion:"Điểm số có được tải lên không?",scoreUploadedAnswer:"Không. Điểm chỉ được lưu trong trình duyệt này.",interactiveTest:"Bài kiểm tra tương tác",localeCount:"21 ngôn ngữ",dynamicGeneration:"Tạo câu hỏi mới mỗi lượt",back:"Danh sách câu đố",footerTagline:"Dành cho những người ham khám phá.",privacy:"Quyền riêng tư",guidelines:"Hướng dẫn sử dụng",contact:"Liên hệ",copyright:"© 2026 woori.today",searchLabel:"Tìm câu đố",quizSummary:(title)=>`Thử sức với ${title} và khám phá kiến thức của bạn theo cách thú vị.`,category:{general:"Kiến thức tổng quát",geography:"Thế giới và địa lý",science:"Khoa học",history:"Lịch sử",math:"Toán học",language:"Ngôn ngữ",technology:"Công nghệ",memory:"Trí nhớ và tư duy",speed:"Tốc độ và phản xạ",fun:"Thử thách giải trí"},difficultyLabels:{easy:"Dễ",medium:"Trung bình",hard:"Khó",expert:"Chuyên gia"}
-  },
-  id: {
-    familySites:"Layanan terkait",portal:"Portal",calculator:"Kalkulator",tools:"Alat online",moneyBook:"Buku keuangan bersama gratis",docs:"Dokumen & formulir",quiz:"Kuis & tes",language:"Pilih bahasa",openMenu:"Buka menu layanan",closeMenu:"Tutup menu layanan",allQuizzes:"Semua kuis",freeToPlay:"Gratis dimainkan",noAccount:"Tanpa perlu akun",heroEyebrow:"Saat rasa ingin tahu muncul",heroTitle:"Bangkitkan rasa ingin tahu lewat kuis",heroDescription:"Coba tantangan singkat dan temukan hal baru.",nextChallenge:"Pilih tantangan berikutnya",searchEmpty:"Kuis tidak ditemukan.",quizCount:(n)=>`${n} kuis`,questionCount:(n)=>`${n} soal`,questionSetReview:"Paket soal sedang ditinjau",difficulty:"Tingkat kesulitan",startHeading:"Mulai saat kamu siap",startDescription:"Pikirkan dengan tenang dan nikmati tantangannya.",correct:"Benar!",incorrect:"Belum tepat.",accuracy:"Akurasi",finishedIn:"Selesai dalam",seconds:"detik",bestScore:"Skor terbaik disimpan di perangkat ini.",reviewHeading:"Paket soal sedang ditinjau",reviewDescription:"Kami sedang memeriksa soal yang telah diterjemahkan. Kuis akan tersedia setelah peninjauan selesai.",howToPlay:"Cara bermain",howToDescription:"Pilih jawaban untuk setiap soal. Progres hanya tersimpan di browser ini; akun dan data pribadi tidak diperlukan.",aboutQuiz:"Tentang kuis ini",faq:"Pertanyaan umum",scoreUploadedQuestion:"Apakah skor saya diunggah?",scoreUploadedAnswer:"Tidak. Skor hanya disimpan di browser ini.",interactiveTest:"Tes interaktif",localeCount:"21 bahasa",dynamicGeneration:"Soal dibuat setiap sesi",back:"Daftar kuis",footerTagline:"Untuk semua yang suka mencari tahu.",privacy:"Privasi",guidelines:"Panduan penggunaan",contact:"Kontak",copyright:"© 2026 woori.today",searchLabel:"Cari kuis",quizSummary:(title)=>`Coba ${title} dan uji pengetahuanmu dengan cara yang menyenangkan.`,category:{general:"Pengetahuan umum",geography:"Dunia dan geografi",science:"Sains",history:"Sejarah",math:"Matematika",language:"Bahasa",technology:"Teknologi",memory:"Ingatan dan otak",speed:"Kecepatan dan reaksi",fun:"Tantangan seru"},difficultyLabels:{easy:"Mudah",medium:"Sedang",hard:"Sulit",expert:"Ahli"}
-  },
-  th: {
-    familySites:"บริการที่เกี่ยวข้อง",portal:"พอร์ทัล",calculator:"เครื่องคิดเลข",tools:"เครื่องมือออนไลน์",moneyBook:"สมุดบัญชีใช้ร่วมกันฟรี",docs:"เอกสารและแบบฟอร์ม",quiz:"แบบทดสอบและเกมทายปัญหา",language:"เลือกภาษา",openMenu:"เปิดเมนูบริการ",closeMenu:"ปิดเมนูบริการ",allQuizzes:"แบบทดสอบทั้งหมด",freeToPlay:"เล่นฟรี",noAccount:"ไม่ต้องสมัครสมาชิก",heroEyebrow:"ช่วงเวลาแห่งความอยากรู้",heroTitle:"ปลุกความอยากรู้ด้วยแบบทดสอบ",heroDescription:"ลองทำโจทย์สั้น ๆ แล้วสนุกกับการค้นพบสิ่งใหม่",nextChallenge:"เลือกความท้าทายถัดไป",searchEmpty:"ไม่พบแบบทดสอบ",quizCount:(n)=>`${n} แบบทดสอบ`,questionCount:(n)=>`${n} ข้อ`,questionSetReview:"กำลังตรวจสอบชุดคำถาม",difficulty:"ระดับความยาก",startHeading:"เริ่มได้เมื่อพร้อม",startDescription:"ค่อย ๆ คิดและสนุกไปกับความท้าทาย",correct:"ถูกต้อง!",incorrect:"ยังไม่ถูก ลองอีกครั้งนะ",accuracy:"ความแม่นยำ",finishedIn:"ใช้เวลา",seconds:"วินาที",bestScore:"คะแนนสูงสุดจะบันทึกไว้ในอุปกรณ์นี้",reviewHeading:"กำลังตรวจสอบชุดคำถาม",reviewDescription:"เรากำลังตรวจสอบคำถามฉบับแปล แบบทดสอบจะเล่นได้เมื่อการตรวจสอบเสร็จสิ้น",howToPlay:"วิธีเล่น",howToDescription:"เลือกคำตอบในแต่ละข้อ ความคืบหน้าจะเก็บไว้ในเบราว์เซอร์นี้เท่านั้น ไม่ต้องใช้บัญชีหรือข้อมูลส่วนตัว",aboutQuiz:"เกี่ยวกับแบบทดสอบ",faq:"คำถามที่พบบ่อย",scoreUploadedQuestion:"คะแนนของฉันถูกอัปโหลดหรือไม่",scoreUploadedAnswer:"ไม่ คะแนนจะเก็บไว้ในเบราว์เซอร์นี้เท่านั้น",interactiveTest:"แบบทดสอบโต้ตอบ",localeCount:"21 ภาษา",dynamicGeneration:"สุ่มสร้างคำถามในแต่ละรอบ",back:"รายการแบบทดสอบ",footerTagline:"สำหรับทุกคนที่ชอบค้นพบสิ่งใหม่",privacy:"ความเป็นส่วนตัว",guidelines:"คำแนะนำการใช้งาน",contact:"ติดต่อ",copyright:"© 2026 woori.today",searchLabel:"ค้นหาแบบทดสอบ",quizSummary:(title)=>`ลองทำ${title} เพื่อทบทวนความรู้แบบสนุก ๆ`,category:{general:"ความรู้ทั่วไป",geography:"โลกและภูมิศาสตร์",science:"วิทยาศาสตร์",history:"ประวัติศาสตร์",math:"คณิตศาสตร์",language:"ภาษา",technology:"ไอที",memory:"ความจำและสมอง",speed:"ความเร็วและปฏิกิริยา",fun:"เกมท้าทายสนุก ๆ"},difficultyLabels:{easy:"ง่าย",medium:"ปานกลาง",hard:"ยาก",expert:"ผู้เชี่ยวชาญ"}
-  },
-  "zh-tw": {
-    familySites:"相關服務",portal:"入口網站",calculator:"計算機",tools:"線上工具",moneyBook:"免費共享記帳本",docs:"文件與表單",quiz:"趣味測驗",language:"選擇語言",openMenu:"開啟服務選單",closeMenu:"關閉服務選單",allQuizzes:"所有測驗",freeToPlay:"免費使用",noAccount:"不需註冊",heroEyebrow:"喚醒好奇心的時刻",heroTitle:"用測驗喚醒今天的好奇心",heroDescription:"輕鬆接受挑戰，享受新的發現。",nextChallenge:"選擇下一個挑戰",searchEmpty:"找不到測驗。",quizCount:(n)=>`${n} 個測驗`,questionCount:(n)=>`${n} 題`,questionSetReview:"題目審核中",difficulty:"難度",startHeading:"準備好就開始吧",startDescription:"慢慢思考，享受挑戰的樂趣。",correct:"答對了！",incorrect:"差一點，再試一次。",accuracy:"正確率",finishedIn:"完成時間",seconds:"秒",bestScore:"最高分數只會儲存在此裝置。",reviewHeading:"題目審核中",reviewDescription:"我們正在確認各語言的題目，審核完成後即可遊玩。",howToPlay:"遊戲方式",howToDescription:"選擇每題的答案即可作答。進度只會保存在此瀏覽器，不需要帳號或個人資料。",aboutQuiz:"測驗介紹",faq:"常見問題",scoreUploadedQuestion:"分數會上傳嗎？",scoreUploadedAnswer:"不會，分數只會保存在此瀏覽器。",interactiveTest:"互動測驗",localeCount:"21 種語言",dynamicGeneration:"每回合自動出題",back:"測驗列表",footerTagline:"為所有好奇的心而設計。",privacy:"隱私權",guidelines:"使用指南",contact:"聯絡我們",copyright:"© 2026 woori.today",searchLabel:"搜尋測驗",quizSummary:(title)=>`挑戰${title}，輕鬆檢視自己的知識。`,category:{general:"一般常識",geography:"世界與地理",science:"科學",history:"歷史",math:"數學",language:"語言",technology:"資訊科技",memory:"記憶力與腦力",speed:"速度與反應",fun:"趣味挑戰"},difficultyLabels:{easy:"簡單",medium:"普通",hard:"困難",expert:"專家"}
-  },
-  it: {
-    familySites:"Servizi correlati",portal:"Portale",calculator:"Calcolatrice",tools:"Strumenti online",moneyBook:"Registro spese condiviso gratuito",docs:"Documenti e moduli",quiz:"Quiz e test",language:"Scegli la lingua",openMenu:"Apri il menu dei servizi",closeMenu:"Chiudi il menu dei servizi",allQuizzes:"Tutti i quiz",freeToPlay:"Gratis",noAccount:"Senza registrazione",heroEyebrow:"Un momento di curiosità",heroTitle:"Dai spazio alla curiosità con un quiz",heroDescription:"Prova una sfida veloce e fai una nuova scoperta.",nextChallenge:"Scegli la prossima sfida",searchEmpty:"Nessun quiz trovato.",quizCount:(n)=>`${n} quiz`,questionCount:(n)=>`${n} domande`,questionSetReview:"Domande in revisione",difficulty:"Difficoltà",startHeading:"Inizia quando vuoi",startDescription:"Ragiona con calma e goditi la sfida.",correct:"Esatto!",incorrect:"Non proprio.",accuracy:"Precisione",finishedIn:"Completato in",seconds:"secondi",bestScore:"Il tuo record viene salvato su questo dispositivo.",reviewHeading:"Domande in revisione",reviewDescription:"Stiamo verificando le domande tradotte. Il quiz sarà disponibile al termine della revisione.",howToPlay:"Come si gioca",howToDescription:"Scegli una risposta per ogni domanda. I progressi restano in questo browser; non servono account né dati personali.",aboutQuiz:"Informazioni sul quiz",faq:"Domande frequenti",scoreUploadedQuestion:"Il punteggio viene caricato?",scoreUploadedAnswer:"No. Il punteggio viene salvato solo in questo browser.",interactiveTest:"Test interattivo",localeCount:"21 lingue",dynamicGeneration:"Domande generate a ogni turno",back:"Elenco dei quiz",footerTagline:"Per chi ama scoprire cose nuove.",privacy:"Privacy",guidelines:"Guida all’uso",contact:"Contatti",copyright:"© 2026 woori.today",searchLabel:"Cerca quiz",quizSummary:(title)=>`Mettiti alla prova con ${title} e divertiti a verificare ciò che sai.`,category:{general:"Cultura generale",geography:"Mondo e geografia",science:"Scienze",history:"Storia",math:"Matematica",language:"Lingue",technology:"Tecnologia",memory:"Memoria e cervello",speed:"Velocità e riflessi",fun:"Sfide divertenti"},difficultyLabels:{easy:"Facile",medium:"Media",hard:"Difficile",expert:"Esperto"}
-  },
-  nl: {
-    familySites:"Verwante diensten",portal:"Portaal",calculator:"Rekenmachine",tools:"Online hulpmiddelen",moneyBook:"Gratis gedeeld huishoudboekje",docs:"Documenten en formulieren",quiz:"Quizzen en tests",language:"Taal kiezen",openMenu:"Servicemenu openen",closeMenu:"Servicemenu sluiten",allQuizzes:"Alle quizzen",freeToPlay:"Gratis spelen",noAccount:"Geen account nodig",heroEyebrow:"Een moment vol nieuwsgierigheid",heroTitle:"Prikkel je nieuwsgierigheid met een quiz",heroDescription:"Probeer een korte uitdaging en ontdek iets nieuws.",nextChallenge:"Kies je volgende uitdaging",searchEmpty:"Geen quizzen gevonden.",quizCount:(n)=>`${n} quizzen`,questionCount:(n)=>`${n} vragen`,questionSetReview:"Vragen worden nagekeken",difficulty:"Moeilijkheid",startHeading:"Begin wanneer je klaar bent",startDescription:"Neem de tijd en geniet van de uitdaging.",correct:"Goed!",incorrect:"Net niet.",accuracy:"Nauwkeurigheid",finishedIn:"Voltooid in",seconds:"seconden",bestScore:"Je beste score wordt op dit apparaat opgeslagen.",reviewHeading:"Vragen worden nagekeken",reviewDescription:"We controleren de vertaalde vragen. Daarna is deze quiz beschikbaar.",howToPlay:"Speluitleg",howToDescription:"Kies een antwoord bij elke vraag. Je voortgang blijft in deze browser; een account of persoonsgegevens zijn niet nodig.",aboutQuiz:"Over deze quiz",faq:"Veelgestelde vragen",scoreUploadedQuestion:"Wordt mijn score geüpload?",scoreUploadedAnswer:"Nee. Je score wordt alleen in deze browser opgeslagen.",interactiveTest:"Interactieve test",localeCount:"21 talen",dynamicGeneration:"Elke ronde nieuwe vragen",back:"Quizoverzicht",footerTagline:"Voor nieuwsgierige mensen, overal.",privacy:"Privacy",guidelines:"Gebruiksaanwijzing",contact:"Contact",copyright:"© 2026 woori.today",searchLabel:"Quizzen zoeken",quizSummary:(title)=>`Test je kennis op een leuke manier met ${title}.`,category:{general:"Algemene kennis",geography:"Wereld en aardrijkskunde",science:"Wetenschap",history:"Geschiedenis",math:"Wiskunde",language:"Taal",technology:"IT",memory:"Geheugen en brein",speed:"Snelheid en reactie",fun:"Leuke uitdagingen"},difficultyLabels:{easy:"Makkelijk",medium:"Gemiddeld",hard:"Moeilijk",expert:"Expert"}
-  },
-  hi: {
-    familySites:"संबंधित सेवाएँ",portal:"पोर्टल",calculator:"कैलकुलेटर",tools:"ऑनलाइन टूल",moneyBook:"मुफ़्त साझा खर्च खाता",docs:"दस्तावेज़ और फ़ॉर्म",quiz:"क्विज़ और टेस्ट",language:"भाषा चुनें",openMenu:"सेवा मेनू खोलें",closeMenu:"सेवा मेनू बंद करें",allQuizzes:"सभी क्विज़",freeToPlay:"मुफ़्त खेलें",noAccount:"खाते की ज़रूरत नहीं",heroEyebrow:"जिज्ञासा का एक पल",heroTitle:"क्विज़ के साथ अपनी जिज्ञासा जगाएँ",heroDescription:"एक छोटा-सा चुनौतीपूर्ण सवाल आज़माएँ और कुछ नया जानें।",nextChallenge:"अगली चुनौती चुनें",searchEmpty:"कोई क्विज़ नहीं मिला।",quizCount:(n)=>`${n} क्विज़`,questionCount:(n)=>`${n} प्रश्न`,questionSetReview:"प्रश्नों की समीक्षा जारी है",difficulty:"कठिनाई",startHeading:"तैयार हों तो शुरू करें",startDescription:"ध्यान से सोचें और चुनौती का आनंद लें।",correct:"सही जवाब!",incorrect:"यह सही नहीं है।",accuracy:"सटीकता",finishedIn:"पूरा करने का समय",seconds:"सेकंड",bestScore:"आपका सर्वश्रेष्ठ स्कोर इसी डिवाइस पर सहेजा जाता है।",reviewHeading:"प्रश्नों की समीक्षा जारी है",reviewDescription:"हम अनूदित प्रश्नों की जाँच कर रहे हैं। समीक्षा पूरी होने पर यह क्विज़ उपलब्ध होगा।",howToPlay:"कैसे खेलें",howToDescription:"हर प्रश्न के लिए उत्तर चुनें। आपकी प्रगति इसी ब्राउज़र में रहती है; खाते या निजी जानकारी की ज़रूरत नहीं है।",aboutQuiz:"इस क्विज़ के बारे में",faq:"अक्सर पूछे जाने वाले प्रश्न",scoreUploadedQuestion:"क्या मेरा स्कोर अपलोड होता है?",scoreUploadedAnswer:"नहीं। स्कोर केवल इसी ब्राउज़र में सहेजा जाता है।",interactiveTest:"इंटरैक्टिव टेस्ट",localeCount:"21 भाषाएँ",dynamicGeneration:"हर दौर में नए प्रश्न",back:"क्विज़ सूची",footerTagline:"हर जिज्ञासु मन के लिए।",privacy:"गोपनीयता",guidelines:"उपयोग निर्देश",contact:"संपर्क",copyright:"© 2026 woori.today",searchLabel:"क्विज़ खोजें",quizSummary:(title)=>`${title} के साथ मज़ेदार तरीके से अपना ज्ञान परखें।`,category:{general:"सामान्य ज्ञान",geography:"विश्व और भूगोल",science:"विज्ञान",history:"इतिहास",math:"गणित",language:"भाषा",technology:"तकनीक",memory:"याददाश्त और दिमाग़",speed:"गति और प्रतिक्रिया",fun:"मनोरंजक चुनौती"},difficultyLabels:{easy:"आसान",medium:"मध्यम",hard:"कठिन",expert:"विशेषज्ञ"}
-  },
-  get ru() { return expandedUiMessages("ru"); },
-  get tr() { return expandedUiMessages("tr"); },
-  get pl() { return expandedUiMessages("pl"); },
-  get fil() { return expandedUiMessages("fil"); },
-  get bn() { return expandedUiMessages("bn"); },
-  get uk() { return expandedUiMessages("uk"); },
-  get ms() { return expandedUiMessages("ms"); },
-  get sv() { return expandedUiMessages("sv"); },
-  get cs() { return expandedUiMessages("cs"); },
-  get ro() { return expandedUiMessages("ro"); },
-  get el() { return expandedUiMessages("el"); },
-};
+export const uiMessages = localeRecord(locale => localeUi(locale));

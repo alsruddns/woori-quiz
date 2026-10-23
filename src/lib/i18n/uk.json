@@ -380,5 +380,12 @@
   "advertisement": "Реклама",
   "difficulty": "Усі рівні складності",
   "localeName": "Українська",
-  "localeCount": ""
+  "localeCount": "",
+  "mathPrompts": {
+    "whatIsX": "Знайдіть значення x.",
+    "findX": "Знайдіть x.",
+    "decimal": "десяткове число",
+    "percentage": "Скільки становить PERCENT_SLOT% від WHOLE_SLOT?",
+    "fraction": "FIRST_FRACTION_SLOT + SECOND_FRACTION_SLOT = ? (десяткове число)"
+  }
 }

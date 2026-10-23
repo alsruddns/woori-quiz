@@ -295,5 +295,12 @@
       "tapFast": "Olabildiğince hızlı tıklayın",
       "cell": "Hücre"
     }
+  },
+  "mathPrompts": {
+    "whatIsX": "x değerini bulun.",
+    "findX": "Find x.",
+    "decimal": "ondalık",
+    "percentage": "WHOLE_SLOT sayısının %PERCENT_SLOT'i kaçtır?",
+    "fraction": "FIRST_FRACTION_SLOT + SECOND_FRACTION_SLOT = ? (ondalık)"
   }
 }

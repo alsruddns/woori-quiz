@@ -443,5 +443,12 @@
       "tapFast": "Нажимайте как можно быстрее",
       "cell": "Ячейка"
     }
+  },
+  "mathPrompts": {
+    "whatIsX": "Найдите x.",
+    "findX": "Find x.",
+    "decimal": "десятичная дробь",
+    "percentage": "Сколько составляет PERCENT_SLOT% от WHOLE_SLOT?",
+    "fraction": "FIRST_FRACTION_SLOT + SECOND_FRACTION_SLOT = ? (десятичная дробь)"
   }
 }

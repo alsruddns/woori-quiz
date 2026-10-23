@@ -379,5 +379,12 @@
   ],
   "localeName": "Bahasa Melayu",
   "advertisement": "Iklan",
-  "difficulty": "Semua tahap kesukaran"
+  "difficulty": "Semua tahap kesukaran",
+  "mathPrompts": {
+    "whatIsX": "Cari nilai x.",
+    "findX": "Cari x.",
+    "decimal": "perpuluhan",
+    "percentage": "PERCENT_SLOT% daripada WHOLE_SLOT ialah berapa?",
+    "fraction": "FIRST_FRACTION_SLOT + SECOND_FRACTION_SLOT = ? (perpuluhan)"
+  }
 }

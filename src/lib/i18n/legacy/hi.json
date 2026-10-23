@@ -1,0 +1,687 @@
+{
+  "localeName": "हिन्दी",
+  "messages": {
+    "title": "क्विज़",
+    "subtitle": "हर दिन अपनी जिज्ञासा जगाएँ।",
+    "search": "क्विज़ खोजें",
+    "today": "आज का क्विज़",
+    "categories": "श्रेणियाँ",
+    "popular": "लोकप्रिय क्विज़",
+    "play": "शुरू करें",
+    "question": "प्रश्न",
+    "next": "अगला",
+    "submit": "उत्तर जाँचें",
+    "result": "परिणाम",
+    "retry": "फिर प्रयास करें",
+    "home": "मुखपृष्ठ",
+    "related": "संबंधित क्विज़",
+    "score": "स्कोर",
+    "footer": "गोपनीयता · सहायता · संपर्क"
+  },
+  "ui": {
+    "familySites": "संबंधित सेवाएँ",
+    "portal": "पोर्टल",
+    "calculator": "कैलकुलेटर",
+    "tools": "ऑनलाइन टूल",
+    "moneyBook": "मुफ़्त साझा खर्च खाता",
+    "docs": "दस्तावेज़ और फ़ॉर्म",
+    "quiz": "क्विज़ और टेस्ट",
+    "language": "भाषा चुनें",
+    "openMenu": "सेवा मेनू खोलें",
+    "closeMenu": "सेवा मेनू बंद करें",
+    "allQuizzes": "सभी क्विज़",
+    "freeToPlay": "मुफ़्त खेलें",
+    "noAccount": "खाते की ज़रूरत नहीं",
+    "heroEyebrow": "जिज्ञासा का एक पल",
+    "heroTitle": "क्विज़ के साथ अपनी जिज्ञासा जगाएँ",
+    "heroDescription": "एक छोटा-सा चुनौतीपूर्ण सवाल आज़माएँ और कुछ नया जानें।",
+    "nextChallenge": "अगली चुनौती चुनें",
+    "searchEmpty": "कोई क्विज़ नहीं मिला।",
+    "questionSetReview": "प्रश्नों की समीक्षा जारी है",
+    "difficulty": "कठिनाई",
+    "startHeading": "तैयार हों तो शुरू करें",
+    "startDescription": "ध्यान से सोचें और चुनौती का आनंद लें।",
+    "correct": "सही जवाब!",
+    "incorrect": "यह सही नहीं है।",
+    "accuracy": "सटीकता",
+    "finishedIn": "पूरा करने का समय",
+    "seconds": "सेकंड",
+    "bestScore": "आपका सर्वश्रेष्ठ स्कोर इसी डिवाइस पर सहेजा जाता है।",
+    "reviewHeading": "प्रश्नों की समीक्षा जारी है",
+    "reviewDescription": "हम अनूदित प्रश्नों की जाँच कर रहे हैं। समीक्षा पूरी होने पर यह क्विज़ उपलब्ध होगा।",
+    "howToPlay": "कैसे खेलें",
+    "howToDescription": "हर प्रश्न के लिए उत्तर चुनें। आपकी प्रगति इसी ब्राउज़र में रहती है; खाते या निजी जानकारी की ज़रूरत नहीं है।",
+    "aboutQuiz": "इस क्विज़ के बारे में",
+    "faq": "अक्सर पूछे जाने वाले प्रश्न",
+    "scoreUploadedQuestion": "क्या मेरा स्कोर अपलोड होता है?",
+    "scoreUploadedAnswer": "नहीं। स्कोर केवल इसी ब्राउज़र में सहेजा जाता है।",
+    "interactiveTest": "इंटरैक्टिव टेस्ट",
+    "localeCount": "26 भाषाएँ",
+    "dynamicGeneration": "हर दौर में नए प्रश्न",
+    "back": "क्विज़ सूची",
+    "footerTagline": "हर जिज्ञासु मन के लिए।",
+    "privacy": "गोपनीयता",
+    "guidelines": "उपयोग निर्देश",
+    "contact": "संपर्क",
+    "copyright": "© 2026 woori.today",
+    "searchLabel": "क्विज़ खोजें",
+    "quizCount": "COUNT_SLOT",
+    "questionCount": "COUNT_SLOT",
+    "quizSummary": "TITLE_SLOT के साथ मज़ेदार तरीके से अपना ज्ञान परखें।",
+    "category": {
+      "general": "सामान्य ज्ञान",
+      "geography": "विश्व और भूगोल",
+      "science": "विज्ञान",
+      "history": "इतिहास",
+      "math": "गणित",
+      "language": "भाषा",
+      "technology": "तकनीक",
+      "memory": "याददाश्त और दिमाग़",
+      "speed": "गति और प्रतिक्रिया",
+      "fun": "मनोरंजक चुनौती"
+    },
+    "difficultyLabels": {
+      "easy": "आसान",
+      "medium": "मध्यम",
+      "hard": "कठिन",
+      "expert": "विशेषज्ञ"
+    }
+  },
+  "uiCountForms": {
+    "quizCount": {
+      "one": "COUNT_SLOT क्विज़",
+      "other": "COUNT_SLOT क्विज़"
+    },
+    "questionCount": {
+      "one": "COUNT_SLOT प्रश्न",
+      "other": "COUNT_SLOT प्रश्न"
+    }
+  },
+  "uiSummary": "TITLE_SLOT के साथ मज़ेदार तरीके से अपना ज्ञान परखें।",
+  "discovery": {
+    "intro": "सामान्य ज्ञान, गणित और दिमाग़ी पहेलियों में अपनी पसंद का क्विज़ चुनें।",
+    "quickStart": "तुरंत शुरू करें",
+    "searchResults": "खोज के परिणाम",
+    "browseCategories": "श्रेणी चुनें",
+    "clearSearch": "खोज मिटाएँ",
+    "resultsForForms": {
+      "one": "“QUERY_SLOT” के लिए COUNT_SLOT क्विज़",
+      "other": "“QUERY_SLOT” के लिए COUNT_SLOT क्विज़"
+    }
+  },
+  "detail": {
+    "correctCount": "सही",
+    "incorrectCount": "गलत",
+    "newSet": "नए प्रश्न आज़माएँ",
+    "otherQuizzes": "अन्य क्विज़ देखें"
+  },
+  "categoryLabels": {
+    "general": "सामान्य ज्ञान",
+    "nonsense": "मज़ेदार पहेलियाँ",
+    "math": "गणित",
+    "brain": "दिमाग़ी चुनौती",
+    "history": "इतिहास",
+    "science": "विज्ञान",
+    "geography": "विश्व और भूगोल",
+    "language": "भाषा",
+    "technology": "तकनीक",
+    "memory": "याददाश्त और दिमाग़",
+    "random": "रैंडम क्विज़",
+    "challenge": "चुनौती",
+    "speed": "गति और प्रतिक्रिया",
+    "fun": "मनोरंजक चुनौती"
+  },
+  "categoryDescriptions": {
+    "general": "रोज़मर्रा के तथ्यों और कई विषयों का सामान्य ज्ञान परखें।",
+    "nonsense": "शब्दों के खेल को समझकर छोटी पहेलियाँ सुलझाएँ।",
+    "math": "मूल गणित से क्रम और प्रायिकता तक गणना व तर्क का अभ्यास करें।",
+    "brain": "संकेतों और संख्या के पैटर्न से तार्किक उत्तर निकालें।",
+    "history": "प्राचीन से आधुनिक इतिहास की प्रमाणित घटनाओं और व्यक्तियों को याद करें।",
+    "science": "जीव विज्ञान, रसायन, भौतिकी और अंतरिक्ष की बुनियादी बातें दोहराएँ।",
+    "geography": "महाद्वीप, देश, राजधानियाँ और प्राकृतिक स्थल पहचानें।",
+    "language": "शब्दावली, व्याकरण और लिपियों की समझ जाँचें।",
+    "technology": "वेब, प्रोग्रामिंग, डेटाबेस और नेटवर्क की बुनियाद दोहराएँ।",
+    "memory": "संख्याएँ, शब्द और क्रम याद रखें या चित्र में बदलाव पहचानें।",
+    "random": "कई विषयों से चुने नए प्रश्नों का मिश्रण हल करें।",
+    "challenge": "तय संख्या में प्रश्न लगातार हल करते हुए ध्यान बनाए रखें।",
+    "speed": "प्रतिक्रिया समय और क्लिक या टाइप की गति सीधे मापें।",
+    "fun": "हल्के ज्ञान और मज़ेदार चुनौतियों के साथ छोटा विराम लें।"
+  },
+  "serviceGuide": {
+    "categories": "विषय के अनुसार चुनें",
+    "how": "क्विज़ कैसे खेलें",
+    "account": "क्विज़ चुनें और हर प्रश्न का उत्तर दें। खाता आवश्यक नहीं है; परिणाम इसी ब्राउज़र में रहते हैं।",
+    "score": "अंकों का अर्थ क्या है?",
+    "scoreLow": "इस विषय पर और अभ्यास उपयोगी होगा। व्याख्या पढ़कर फिर कोशिश करें।",
+    "scoreMid": "आप मूल बातें जानते हैं। गलत उत्तरों की व्याख्या देखें।",
+    "scoreHigh": "आपने यह समूह अच्छे से हल किया। दूसरा विषय या नए प्रश्न आज़माएँ।",
+    "scoreNote": "अंक केवल इस समूह में सही उत्तरों का अनुपात हैं; क्षमता या स्वास्थ्य का आकलन नहीं।",
+    "focus": "इस क्विज़ में क्या शामिल है"
+  },
+  "advertisement": "विज्ञापन",
+  "difficulty": "सभी कठिनाई स्तर",
+  "quizTitles": {
+    "general-knowledge-quiz": "सामान्य ज्ञान क्विज़",
+    "everyday-knowledge-quiz": "रोज़मर्रा ज्ञान क्विज़",
+    "difficult-general-knowledge-quiz": "कठिन सामान्य ज्ञान क्विज़",
+    "world-capitals-quiz": "विश्व राजधानियाँ क्विज़",
+    "country-flags-quiz": "देश झंडे क्विज़",
+    "country-currency-quiz": "देश मुद्रा क्विज़",
+    "country-location-quiz": "देश स्थान क्विज़",
+    "asia-capitals-quiz": "एशिया राजधानियाँ क्विज़",
+    "europe-capitals-quiz": "यूरोप राजधानियाँ क्विज़",
+    "world-geography-quiz": "विश्व भूगोल क्विज़",
+    "basic-science-quiz": "बुनियादी विज्ञान क्विज़",
+    "physics-quiz": "भौतिकी क्विज़",
+    "chemistry-quiz": "रसायन क्विज़",
+    "biology-quiz": "जीवविज्ञान क्विज़",
+    "astronomy-quiz": "खगोल क्विज़",
+    "difficult-science-quiz": "कठिन विज्ञान क्विज़",
+    "world-history-quiz": "विश्व इतिहास क्विज़",
+    "korean-history-quiz": "कोरियाई इतिहास क्विज़",
+    "ancient-history-quiz": "प्राचीन इतिहास क्विज़",
+    "modern-history-quiz": "आधुनिक इतिहास क्विज़",
+    "addition-quiz": "जोड़ क्विज़",
+    "subtraction-quiz": "घटाव क्विज़",
+    "multiplication-quiz": "गुणा क्विज़",
+    "division-quiz": "भाग क्विज़",
+    "multiplication-table-quiz": "गुणा पहाड़ा क्विज़",
+    "mental-math-quiz": "मानसिक गणित क्विज़",
+    "fraction-quiz": "भिन्न क्विज़",
+    "percentage-quiz": "प्रतिशत क्विज़",
+    "equation-quiz": "समीकरण क्विज़",
+    "arithmetic-challenge": "अंकगणित चुनौती",
+    "english-vocabulary-quiz": "अंग्रेज़ी शब्दावली क्विज़",
+    "english-spelling-quiz": "अंग्रेज़ी वर्तनी क्विज़",
+    "english-grammar-quiz": "अंग्रेज़ी व्याकरण क्विज़",
+    "hiragana-quiz": "हिरागाना क्विज़",
+    "katakana-quiz": "काताकाना क्विज़",
+    "japanese-vocabulary-quiz": "जापानी शब्दावली क्विज़",
+    "chinese-character-quiz": "चीनी अक्षर क्विज़",
+    "korean-vocabulary-quiz": "कोरियाई शब्दावली क्विज़",
+    "computer-basics-quiz": "कंप्यूटर मूल बातें क्विज़",
+    "programming-basics-quiz": "प्रोग्रामिंग मूल बातें क्विज़",
+    "web-development-quiz": "वेब विकास क्विज़",
+    "database-quiz": "डेटाबेस क्विज़",
+    "network-basics-quiz": "नेटवर्क मूल बातें क्विज़",
+    "difficult-it-quiz": "कठिन आईटी क्विज़",
+    "number-memory-test": "संख्या याददाश्त परीक्षण",
+    "word-memory-test": "शब्द याददाश्त परीक्षण",
+    "sequence-memory-test": "क्रम याददाश्त परीक्षण",
+    "visual-memory-test": "दृश्य याददाश्त परीक्षण",
+    "pattern-recognition-test": "पैटर्न पहचान परीक्षण",
+    "concentration-test": "एकाग्रता परीक्षण",
+    "reaction-time-test": "प्रतिक्रिया समय परीक्षण",
+    "click-speed-test": "क्लिक गति परीक्षण",
+    "typing-speed-test": "टाइपिंग गति परीक्षण",
+    "color-reaction-test": "रंग प्रतिक्रिया परीक्षण",
+    "random-trivia-challenge": "यादृच्छिक सामान्य ज्ञान चुनौती",
+    "true-false-challenge": "सही गलत चुनौती",
+    "impossible-quiz": "असंभव क्विज़",
+    "mixed-hard-quiz": "मिश्रित कठिन क्विज़",
+    "general-knowledge": "सामान्य ज्ञान",
+    "easy-general-knowledge": "आसान सामान्य ज्ञान",
+    "hard-general-knowledge": "कठिन सामान्य ज्ञान",
+    "random-general-knowledge": "यादृच्छिक सामान्य ज्ञान",
+    "adult-general-knowledge": "वयस्क सामान्य ज्ञान",
+    "daily-life-quiz": "दैनिक जीवन क्विज़",
+    "nonsense": "मज़ेदार",
+    "easy-nonsense-quiz": "आसान मज़ेदार क्विज़",
+    "riddle-quiz": "पहेली क्विज़",
+    "brain-teaser": "दिमाग़ जगाने वाली पहेलियाँ",
+    "easy-brain-teaser": "आसान दिमाग़ चुनौती",
+    "hard-brain-teaser": "कठिन दिमाग़ चुनौती",
+    "number-pattern-quiz": "संख्या पैटर्न क्विज़",
+    "logic-reasoning-quiz": "तर्क अनुमान क्विज़",
+    "random-brain-teaser": "यादृच्छिक दिमाग़ चुनौती",
+    "math-basic": "गणित बुनियादी",
+    "math-advanced": "गणित उन्नत",
+    "mental-arithmetic-test": "मानसिक अंकगणित परीक्षण",
+    "sequence-math-quiz": "क्रम गणित क्विज़",
+    "probability-quiz": "प्रायिकता क्विज़",
+    "history-knowledge-quiz": "इतिहास ज्ञान क्विज़",
+    "ancient-civilizations-quiz": "प्राचीन सभ्यताएँ क्विज़",
+    "modern-history-knowledge": "आधुनिक इतिहास ज्ञान",
+    "science-knowledge-quiz": "विज्ञान ज्ञान क्विज़",
+    "space-quiz": "अंतरिक्ष क्विज़",
+    "biology-knowledge-quiz": "जीवविज्ञान ज्ञान क्विज़",
+    "world-geography": "विश्व भूगोल",
+    "capital-cities-quiz": "राजधानियाँ शहर क्विज़",
+    "country-knowledge-quiz": "देश ज्ञान क्विज़",
+    "language-knowledge-quiz": "भाषा ज्ञान क्विज़",
+    "english-vocabulary": "अंग्रेज़ी शब्दावली",
+    "it-development-quiz": "आईटी विकास क्विज़",
+    "programming-knowledge-quiz": "प्रोग्रामिंग ज्ञान क्विज़",
+    "random-quiz": "यादृच्छिक क्विज़",
+    "random-math-10": "यादृच्छिक गणित 10",
+    "random-nonsense-10": "यादृच्छिक मज़ेदार 10",
+    "challenge-10": "चुनौती 10",
+    "challenge-20": "चुनौती 20"
+  },
+  "quizDescriptions": {
+    "addition-quiz": "जोड़ क्विज़: मूल गणित से क्रम और प्रायिकता तक गणना व तर्क का अभ्यास करें।",
+    "subtraction-quiz": "घटाव क्विज़: मूल गणित से क्रम और प्रायिकता तक गणना व तर्क का अभ्यास करें।",
+    "multiplication-quiz": "गुणा क्विज़: मूल गणित से क्रम और प्रायिकता तक गणना व तर्क का अभ्यास करें।",
+    "division-quiz": "भाग क्विज़: मूल गणित से क्रम और प्रायिकता तक गणना व तर्क का अभ्यास करें।",
+    "multiplication-table-quiz": "गुणा पहाड़ा क्विज़: मूल गणित से क्रम और प्रायिकता तक गणना व तर्क का अभ्यास करें।",
+    "mental-math-quiz": "मानसिक गणित क्विज़: मूल गणित से क्रम और प्रायिकता तक गणना व तर्क का अभ्यास करें।",
+    "fraction-quiz": "भिन्न क्विज़: मूल गणित से क्रम और प्रायिकता तक गणना व तर्क का अभ्यास करें।",
+    "percentage-quiz": "प्रतिशत क्विज़: मूल गणित से क्रम और प्रायिकता तक गणना व तर्क का अभ्यास करें।",
+    "equation-quiz": "समीकरण क्विज़: मूल गणित से क्रम और प्रायिकता तक गणना व तर्क का अभ्यास करें।",
+    "arithmetic-challenge": "अंकगणित चुनौती: मूल गणित से क्रम और प्रायिकता तक गणना व तर्क का अभ्यास करें।",
+    "number-memory-test": "संख्या याददाश्त परीक्षण: संख्याएँ, शब्द और क्रम याद रखें या चित्र में बदलाव पहचानें।",
+    "word-memory-test": "शब्द याददाश्त परीक्षण: संख्याएँ, शब्द और क्रम याद रखें या चित्र में बदलाव पहचानें।",
+    "sequence-memory-test": "क्रम याददाश्त परीक्षण: संख्याएँ, शब्द और क्रम याद रखें या चित्र में बदलाव पहचानें।",
+    "visual-memory-test": "दृश्य याददाश्त परीक्षण: संख्याएँ, शब्द और क्रम याद रखें या चित्र में बदलाव पहचानें।",
+    "pattern-recognition-test": "पैटर्न पहचान परीक्षण: संख्याएँ, शब्द और क्रम याद रखें या चित्र में बदलाव पहचानें।",
+    "concentration-test": "एकाग्रता परीक्षण: संख्याएँ, शब्द और क्रम याद रखें या चित्र में बदलाव पहचानें।",
+    "reaction-time-test": "प्रतिक्रिया समय परीक्षण: प्रतिक्रिया समय और क्लिक या टाइप की गति सीधे मापें।",
+    "click-speed-test": "क्लिक गति परीक्षण: प्रतिक्रिया समय और क्लिक या टाइप की गति सीधे मापें।",
+    "typing-speed-test": "टाइपिंग गति परीक्षण: प्रतिक्रिया समय और क्लिक या टाइप की गति सीधे मापें।",
+    "color-reaction-test": "रंग प्रतिक्रिया परीक्षण: प्रतिक्रिया समय और क्लिक या टाइप की गति सीधे मापें।",
+    "general-knowledge": "सामान्य ज्ञान: रोज़मर्रा के तथ्यों और कई विषयों का सामान्य ज्ञान परखें।",
+    "easy-general-knowledge": "आसान सामान्य ज्ञान: रोज़मर्रा के तथ्यों और कई विषयों का सामान्य ज्ञान परखें।",
+    "hard-general-knowledge": "कठिन सामान्य ज्ञान: रोज़मर्रा के तथ्यों और कई विषयों का सामान्य ज्ञान परखें।",
+    "random-general-knowledge": "यादृच्छिक सामान्य ज्ञान: रोज़मर्रा के तथ्यों और कई विषयों का सामान्य ज्ञान परखें।",
+    "adult-general-knowledge": "वयस्क सामान्य ज्ञान: रोज़मर्रा के तथ्यों और कई विषयों का सामान्य ज्ञान परखें।",
+    "daily-life-quiz": "दैनिक जीवन क्विज़: रोज़मर्रा के तथ्यों और कई विषयों का सामान्य ज्ञान परखें।",
+    "nonsense": "मज़ेदार: शब्दों के खेल को समझकर छोटी पहेलियाँ सुलझाएँ।",
+    "easy-nonsense-quiz": "आसान मज़ेदार क्विज़: शब्दों के खेल को समझकर छोटी पहेलियाँ सुलझाएँ।",
+    "riddle-quiz": "पहेली क्विज़: शब्दों के खेल को समझकर छोटी पहेलियाँ सुलझाएँ।",
+    "brain-teaser": "दिमाग़ जगाने वाली पहेलियाँ: संकेतों और संख्या के पैटर्न से तार्किक उत्तर निकालें।",
+    "easy-brain-teaser": "आसान दिमाग़ चुनौती: संकेतों और संख्या के पैटर्न से तार्किक उत्तर निकालें।",
+    "hard-brain-teaser": "कठिन दिमाग़ चुनौती: संकेतों और संख्या के पैटर्न से तार्किक उत्तर निकालें।",
+    "number-pattern-quiz": "संख्या पैटर्न क्विज़: संकेतों और संख्या के पैटर्न से तार्किक उत्तर निकालें।",
+    "logic-reasoning-quiz": "तर्क अनुमान क्विज़: संकेतों और संख्या के पैटर्न से तार्किक उत्तर निकालें।",
+    "random-brain-teaser": "यादृच्छिक दिमाग़ चुनौती: संकेतों और संख्या के पैटर्न से तार्किक उत्तर निकालें।",
+    "math-basic": "गणित बुनियादी: मूल गणित से क्रम और प्रायिकता तक गणना व तर्क का अभ्यास करें।",
+    "math-advanced": "गणित उन्नत: मूल गणित से क्रम और प्रायिकता तक गणना व तर्क का अभ्यास करें।",
+    "mental-arithmetic-test": "मानसिक अंकगणित परीक्षण: मूल गणित से क्रम और प्रायिकता तक गणना व तर्क का अभ्यास करें।",
+    "sequence-math-quiz": "क्रम गणित क्विज़: मूल गणित से क्रम और प्रायिकता तक गणना व तर्क का अभ्यास करें।",
+    "probability-quiz": "प्रायिकता क्विज़: मूल गणित से क्रम और प्रायिकता तक गणना व तर्क का अभ्यास करें।",
+    "history-knowledge-quiz": "इतिहास ज्ञान क्विज़: प्राचीन से आधुनिक इतिहास की प्रमाणित घटनाओं और व्यक्तियों को याद करें।",
+    "ancient-civilizations-quiz": "प्राचीन सभ्यताएँ क्विज़: प्राचीन से आधुनिक इतिहास की प्रमाणित घटनाओं और व्यक्तियों को याद करें।",
+    "modern-history-knowledge": "आधुनिक इतिहास ज्ञान: प्राचीन से आधुनिक इतिहास की प्रमाणित घटनाओं और व्यक्तियों को याद करें।",
+    "science-knowledge-quiz": "विज्ञान ज्ञान क्विज़: जीव विज्ञान, रसायन, भौतिकी और अंतरिक्ष की बुनियादी बातें दोहराएँ।",
+    "space-quiz": "अंतरिक्ष क्विज़: जीव विज्ञान, रसायन, भौतिकी और अंतरिक्ष की बुनियादी बातें दोहराएँ।",
+    "biology-knowledge-quiz": "जीवविज्ञान ज्ञान क्विज़: जीव विज्ञान, रसायन, भौतिकी और अंतरिक्ष की बुनियादी बातें दोहराएँ।",
+    "world-geography": "विश्व भूगोल: महाद्वीप, देश, राजधानियाँ और प्राकृतिक स्थल पहचानें।",
+    "capital-cities-quiz": "राजधानियाँ शहर क्विज़: महाद्वीप, देश, राजधानियाँ और प्राकृतिक स्थल पहचानें।",
+    "country-knowledge-quiz": "देश ज्ञान क्विज़: महाद्वीप, देश, राजधानियाँ और प्राकृतिक स्थल पहचानें।",
+    "language-knowledge-quiz": "भाषा ज्ञान क्विज़: शब्दावली, व्याकरण और लिपियों की समझ जाँचें।",
+    "english-vocabulary": "अंग्रेज़ी शब्दावली: शब्दावली, व्याकरण और लिपियों की समझ जाँचें।",
+    "it-development-quiz": "आईटी विकास क्विज़: वेब, प्रोग्रामिंग, डेटाबेस और नेटवर्क की बुनियाद दोहराएँ।",
+    "programming-knowledge-quiz": "प्रोग्रामिंग ज्ञान क्विज़: वेब, प्रोग्रामिंग, डेटाबेस और नेटवर्क की बुनियाद दोहराएँ।",
+    "random-quiz": "यादृच्छिक क्विज़: कई विषयों से चुने नए प्रश्नों का मिश्रण हल करें।",
+    "random-math-10": "यादृच्छिक गणित 10: कई विषयों से चुने नए प्रश्नों का मिश्रण हल करें।",
+    "random-nonsense-10": "यादृच्छिक मज़ेदार 10: कई विषयों से चुने नए प्रश्नों का मिश्रण हल करें।",
+    "challenge-10": "चुनौती 10: तय संख्या में प्रश्न लगातार हल करते हुए ध्यान बनाए रखें।",
+    "challenge-20": "चुनौती 20: तय संख्या में प्रश्न लगातार हल करते हुए ध्यान बनाए रखें।"
+  },
+  "quizSeo": {
+    "addition-quiz": {
+      "title": "जोड़ क्विज़ | woori.today",
+      "description": "जोड़ क्विज़: मूल गणित से क्रम और प्रायिकता तक गणना व तर्क का अभ्यास करें।"
+    },
+    "subtraction-quiz": {
+      "title": "घटाव क्विज़ | woori.today",
+      "description": "घटाव क्विज़: मूल गणित से क्रम और प्रायिकता तक गणना व तर्क का अभ्यास करें।"
+    },
+    "multiplication-quiz": {
+      "title": "गुणा क्विज़ | woori.today",
+      "description": "गुणा क्विज़: मूल गणित से क्रम और प्रायिकता तक गणना व तर्क का अभ्यास करें।"
+    },
+    "division-quiz": {
+      "title": "भाग क्विज़ | woori.today",
+      "description": "भाग क्विज़: मूल गणित से क्रम और प्रायिकता तक गणना व तर्क का अभ्यास करें।"
+    },
+    "multiplication-table-quiz": {
+      "title": "गुणा पहाड़ा क्विज़ | woori.today",
+      "description": "गुणा पहाड़ा क्विज़: मूल गणित से क्रम और प्रायिकता तक गणना व तर्क का अभ्यास करें।"
+    },
+    "mental-math-quiz": {
+      "title": "मानसिक गणित क्विज़ | woori.today",
+      "description": "मानसिक गणित क्विज़: मूल गणित से क्रम और प्रायिकता तक गणना व तर्क का अभ्यास करें।"
+    },
+    "fraction-quiz": {
+      "title": "भिन्न क्विज़ | woori.today",
+      "description": "भिन्न क्विज़: मूल गणित से क्रम और प्रायिकता तक गणना व तर्क का अभ्यास करें।"
+    },
+    "percentage-quiz": {
+      "title": "प्रतिशत क्विज़ | woori.today",
+      "description": "प्रतिशत क्विज़: मूल गणित से क्रम और प्रायिकता तक गणना व तर्क का अभ्यास करें।"
+    },
+    "equation-quiz": {
+      "title": "समीकरण क्विज़ | woori.today",
+      "description": "समीकरण क्विज़: मूल गणित से क्रम और प्रायिकता तक गणना व तर्क का अभ्यास करें।"
+    },
+    "arithmetic-challenge": {
+      "title": "अंकगणित चुनौती | woori.today",
+      "description": "अंकगणित चुनौती: मूल गणित से क्रम और प्रायिकता तक गणना व तर्क का अभ्यास करें।"
+    },
+    "number-memory-test": {
+      "title": "संख्या याददाश्त परीक्षण | woori.today",
+      "description": "संख्या याददाश्त परीक्षण: संख्याएँ, शब्द और क्रम याद रखें या चित्र में बदलाव पहचानें।"
+    },
+    "word-memory-test": {
+      "title": "शब्द याददाश्त परीक्षण | woori.today",
+      "description": "शब्द याददाश्त परीक्षण: संख्याएँ, शब्द और क्रम याद रखें या चित्र में बदलाव पहचानें।"
+    },
+    "sequence-memory-test": {
+      "title": "क्रम याददाश्त परीक्षण | woori.today",
+      "description": "क्रम याददाश्त परीक्षण: संख्याएँ, शब्द और क्रम याद रखें या चित्र में बदलाव पहचानें।"
+    },
+    "visual-memory-test": {
+      "title": "दृश्य याददाश्त परीक्षण | woori.today",
+      "description": "दृश्य याददाश्त परीक्षण: संख्याएँ, शब्द और क्रम याद रखें या चित्र में बदलाव पहचानें।"
+    },
+    "pattern-recognition-test": {
+      "title": "पैटर्न पहचान परीक्षण | woori.today",
+      "description": "पैटर्न पहचान परीक्षण: संख्याएँ, शब्द और क्रम याद रखें या चित्र में बदलाव पहचानें।"
+    },
+    "concentration-test": {
+      "title": "एकाग्रता परीक्षण | woori.today",
+      "description": "एकाग्रता परीक्षण: संख्याएँ, शब्द और क्रम याद रखें या चित्र में बदलाव पहचानें।"
+    },
+    "reaction-time-test": {
+      "title": "प्रतिक्रिया समय परीक्षण | woori.today",
+      "description": "प्रतिक्रिया समय परीक्षण: प्रतिक्रिया समय और क्लिक या टाइप की गति सीधे मापें।"
+    },
+    "click-speed-test": {
+      "title": "क्लिक गति परीक्षण | woori.today",
+      "description": "क्लिक गति परीक्षण: प्रतिक्रिया समय और क्लिक या टाइप की गति सीधे मापें।"
+    },
+    "typing-speed-test": {
+      "title": "टाइपिंग गति परीक्षण | woori.today",
+      "description": "टाइपिंग गति परीक्षण: प्रतिक्रिया समय और क्लिक या टाइप की गति सीधे मापें।"
+    },
+    "color-reaction-test": {
+      "title": "रंग प्रतिक्रिया परीक्षण | woori.today",
+      "description": "रंग प्रतिक्रिया परीक्षण: प्रतिक्रिया समय और क्लिक या टाइप की गति सीधे मापें।"
+    },
+    "general-knowledge": {
+      "title": "सामान्य ज्ञान | woori.today",
+      "description": "सामान्य ज्ञान: रोज़मर्रा के तथ्यों और कई विषयों का सामान्य ज्ञान परखें।"
+    },
+    "easy-general-knowledge": {
+      "title": "आसान सामान्य ज्ञान | woori.today",
+      "description": "आसान सामान्य ज्ञान: रोज़मर्रा के तथ्यों और कई विषयों का सामान्य ज्ञान परखें।"
+    },
+    "hard-general-knowledge": {
+      "title": "कठिन सामान्य ज्ञान | woori.today",
+      "description": "कठिन सामान्य ज्ञान: रोज़मर्रा के तथ्यों और कई विषयों का सामान्य ज्ञान परखें।"
+    },
+    "random-general-knowledge": {
+      "title": "यादृच्छिक सामान्य ज्ञान | woori.today",
+      "description": "यादृच्छिक सामान्य ज्ञान: रोज़मर्रा के तथ्यों और कई विषयों का सामान्य ज्ञान परखें।"
+    },
+    "adult-general-knowledge": {
+      "title": "वयस्क सामान्य ज्ञान | woori.today",
+      "description": "वयस्क सामान्य ज्ञान: रोज़मर्रा के तथ्यों और कई विषयों का सामान्य ज्ञान परखें।"
+    },
+    "daily-life-quiz": {
+      "title": "दैनिक जीवन क्विज़ | woori.today",
+      "description": "दैनिक जीवन क्विज़: रोज़मर्रा के तथ्यों और कई विषयों का सामान्य ज्ञान परखें।"
+    },
+    "nonsense": {
+      "title": "मज़ेदार | woori.today",
+      "description": "मज़ेदार: शब्दों के खेल को समझकर छोटी पहेलियाँ सुलझाएँ।"
+    },
+    "easy-nonsense-quiz": {
+      "title": "आसान मज़ेदार क्विज़ | woori.today",
+      "description": "आसान मज़ेदार क्विज़: शब्दों के खेल को समझकर छोटी पहेलियाँ सुलझाएँ।"
+    },
+    "riddle-quiz": {
+      "title": "पहेली क्विज़ | woori.today",
+      "description": "पहेली क्विज़: शब्दों के खेल को समझकर छोटी पहेलियाँ सुलझाएँ।"
+    },
+    "brain-teaser": {
+      "title": "दिमाग़ जगाने वाली पहेलियाँ | woori.today",
+      "description": "तर्क, पैटर्न, संख्या, स्मृति और अनुमान वाली मुफ़्त पहेलियों से अपने दिमाग़ को सक्रिय करें।"
+    },
+    "easy-brain-teaser": {
+      "title": "आसान दिमाग़ चुनौती | woori.today",
+      "description": "आसान दिमाग़ चुनौती: संकेतों और संख्या के पैटर्न से तार्किक उत्तर निकालें।"
+    },
+    "hard-brain-teaser": {
+      "title": "कठिन दिमाग़ चुनौती | woori.today",
+      "description": "कठिन दिमाग़ चुनौती: संकेतों और संख्या के पैटर्न से तार्किक उत्तर निकालें।"
+    },
+    "number-pattern-quiz": {
+      "title": "संख्या पैटर्न क्विज़ | woori.today",
+      "description": "संख्या पैटर्न क्विज़: संकेतों और संख्या के पैटर्न से तार्किक उत्तर निकालें।"
+    },
+    "logic-reasoning-quiz": {
+      "title": "तर्क अनुमान क्विज़ | woori.today",
+      "description": "तर्क अनुमान क्विज़: संकेतों और संख्या के पैटर्न से तार्किक उत्तर निकालें।"
+    },
+    "random-brain-teaser": {
+      "title": "यादृच्छिक दिमाग़ चुनौती | woori.today",
+      "description": "यादृच्छिक दिमाग़ चुनौती: संकेतों और संख्या के पैटर्न से तार्किक उत्तर निकालें।"
+    },
+    "math-basic": {
+      "title": "गणित बुनियादी | woori.today",
+      "description": "गणित बुनियादी: मूल गणित से क्रम और प्रायिकता तक गणना व तर्क का अभ्यास करें।"
+    },
+    "math-advanced": {
+      "title": "गणित उन्नत | woori.today",
+      "description": "गणित उन्नत: मूल गणित से क्रम और प्रायिकता तक गणना व तर्क का अभ्यास करें।"
+    },
+    "mental-arithmetic-test": {
+      "title": "मानसिक अंकगणित परीक्षण | woori.today",
+      "description": "मानसिक अंकगणित परीक्षण: मूल गणित से क्रम और प्रायिकता तक गणना व तर्क का अभ्यास करें।"
+    },
+    "sequence-math-quiz": {
+      "title": "क्रम गणित क्विज़ | woori.today",
+      "description": "क्रम गणित क्विज़: मूल गणित से क्रम और प्रायिकता तक गणना व तर्क का अभ्यास करें।"
+    },
+    "probability-quiz": {
+      "title": "प्रायिकता क्विज़ | woori.today",
+      "description": "प्रायिकता क्विज़: मूल गणित से क्रम और प्रायिकता तक गणना व तर्क का अभ्यास करें।"
+    },
+    "history-knowledge-quiz": {
+      "title": "इतिहास ज्ञान क्विज़ | woori.today",
+      "description": "इतिहास ज्ञान क्विज़: प्राचीन से आधुनिक इतिहास की प्रमाणित घटनाओं और व्यक्तियों को याद करें।"
+    },
+    "ancient-civilizations-quiz": {
+      "title": "प्राचीन सभ्यताएँ क्विज़ | woori.today",
+      "description": "प्राचीन सभ्यताएँ क्विज़: प्राचीन से आधुनिक इतिहास की प्रमाणित घटनाओं और व्यक्तियों को याद करें।"
+    },
+    "modern-history-knowledge": {
+      "title": "आधुनिक इतिहास ज्ञान | woori.today",
+      "description": "आधुनिक इतिहास ज्ञान: प्राचीन से आधुनिक इतिहास की प्रमाणित घटनाओं और व्यक्तियों को याद करें।"
+    },
+    "science-knowledge-quiz": {
+      "title": "विज्ञान ज्ञान क्विज़ | woori.today",
+      "description": "विज्ञान ज्ञान क्विज़: जीव विज्ञान, रसायन, भौतिकी और अंतरिक्ष की बुनियादी बातें दोहराएँ।"
+    },
+    "space-quiz": {
+      "title": "अंतरिक्ष क्विज़ | woori.today",
+      "description": "अंतरिक्ष क्विज़: जीव विज्ञान, रसायन, भौतिकी और अंतरिक्ष की बुनियादी बातें दोहराएँ।"
+    },
+    "biology-knowledge-quiz": {
+      "title": "जीवविज्ञान ज्ञान क्विज़ | woori.today",
+      "description": "जीवविज्ञान ज्ञान क्विज़: जीव विज्ञान, रसायन, भौतिकी और अंतरिक्ष की बुनियादी बातें दोहराएँ।"
+    },
+    "world-geography": {
+      "title": "विश्व भूगोल | woori.today",
+      "description": "विश्व भूगोल: महाद्वीप, देश, राजधानियाँ और प्राकृतिक स्थल पहचानें।"
+    },
+    "capital-cities-quiz": {
+      "title": "राजधानियाँ शहर क्विज़ | woori.today",
+      "description": "राजधानियाँ शहर क्विज़: महाद्वीप, देश, राजधानियाँ और प्राकृतिक स्थल पहचानें।"
+    },
+    "country-knowledge-quiz": {
+      "title": "देश ज्ञान क्विज़ | woori.today",
+      "description": "देश ज्ञान क्विज़: महाद्वीप, देश, राजधानियाँ और प्राकृतिक स्थल पहचानें।"
+    },
+    "language-knowledge-quiz": {
+      "title": "भाषा ज्ञान क्विज़ | woori.today",
+      "description": "भाषा ज्ञान क्विज़: शब्दावली, व्याकरण और लिपियों की समझ जाँचें।"
+    },
+    "english-vocabulary": {
+      "title": "अंग्रेज़ी शब्दावली | woori.today",
+      "description": "अंग्रेज़ी शब्दावली: शब्दावली, व्याकरण और लिपियों की समझ जाँचें।"
+    },
+    "it-development-quiz": {
+      "title": "आईटी विकास क्विज़ | woori.today",
+      "description": "आईटी विकास क्विज़: वेब, प्रोग्रामिंग, डेटाबेस और नेटवर्क की बुनियाद दोहराएँ।"
+    },
+    "programming-knowledge-quiz": {
+      "title": "प्रोग्रामिंग ज्ञान क्विज़ | woori.today",
+      "description": "प्रोग्रामिंग ज्ञान क्विज़: वेब, प्रोग्रामिंग, डेटाबेस और नेटवर्क की बुनियाद दोहराएँ।"
+    },
+    "random-quiz": {
+      "title": "यादृच्छिक क्विज़ | woori.today",
+      "description": "यादृच्छिक क्विज़: कई विषयों से चुने नए प्रश्नों का मिश्रण हल करें।"
+    },
+    "random-math-10": {
+      "title": "यादृच्छिक गणित 10 | woori.today",
+      "description": "यादृच्छिक गणित 10: कई विषयों से चुने नए प्रश्नों का मिश्रण हल करें।"
+    },
+    "random-nonsense-10": {
+      "title": "यादृच्छिक मज़ेदार 10 | woori.today",
+      "description": "यादृच्छिक मज़ेदार 10: कई विषयों से चुने नए प्रश्नों का मिश्रण हल करें।"
+    },
+    "challenge-10": {
+      "title": "चुनौती 10 | woori.today",
+      "description": "चुनौती 10: तय संख्या में प्रश्न लगातार हल करते हुए ध्यान बनाए रखें।"
+    },
+    "challenge-20": {
+      "title": "चुनौती 20 | woori.today",
+      "description": "चुनौती 20: तय संख्या में प्रश्न लगातार हल करते हुए ध्यान बनाए रखें।"
+    }
+  },
+  "titleTermCount": 70,
+  "translatedQuizSlugs": [
+    "general-knowledge-quiz",
+    "everyday-knowledge-quiz",
+    "difficult-general-knowledge-quiz",
+    "world-capitals-quiz",
+    "country-flags-quiz",
+    "country-currency-quiz",
+    "country-location-quiz",
+    "asia-capitals-quiz",
+    "europe-capitals-quiz",
+    "world-geography-quiz",
+    "basic-science-quiz",
+    "physics-quiz",
+    "chemistry-quiz",
+    "biology-quiz",
+    "astronomy-quiz",
+    "difficult-science-quiz",
+    "world-history-quiz",
+    "korean-history-quiz",
+    "ancient-history-quiz",
+    "modern-history-quiz",
+    "addition-quiz",
+    "subtraction-quiz",
+    "multiplication-quiz",
+    "division-quiz",
+    "multiplication-table-quiz",
+    "mental-math-quiz",
+    "fraction-quiz",
+    "percentage-quiz",
+    "equation-quiz",
+    "arithmetic-challenge",
+    "english-vocabulary-quiz",
+    "english-spelling-quiz",
+    "english-grammar-quiz",
+    "hiragana-quiz",
+    "katakana-quiz",
+    "japanese-vocabulary-quiz",
+    "chinese-character-quiz",
+    "korean-vocabulary-quiz",
+    "computer-basics-quiz",
+    "programming-basics-quiz",
+    "web-development-quiz",
+    "database-quiz",
+    "network-basics-quiz",
+    "difficult-it-quiz",
+    "number-memory-test",
+    "word-memory-test",
+    "sequence-memory-test",
+    "visual-memory-test",
+    "pattern-recognition-test",
+    "concentration-test",
+    "reaction-time-test",
+    "click-speed-test",
+    "typing-speed-test",
+    "color-reaction-test",
+    "random-trivia-challenge",
+    "true-false-challenge",
+    "impossible-quiz",
+    "mixed-hard-quiz",
+    "general-knowledge",
+    "easy-general-knowledge",
+    "hard-general-knowledge",
+    "random-general-knowledge",
+    "adult-general-knowledge",
+    "daily-life-quiz",
+    "nonsense",
+    "easy-nonsense-quiz",
+    "riddle-quiz",
+    "brain-teaser",
+    "easy-brain-teaser",
+    "hard-brain-teaser",
+    "number-pattern-quiz",
+    "logic-reasoning-quiz",
+    "random-brain-teaser",
+    "math-basic",
+    "math-advanced",
+    "mental-arithmetic-test",
+    "sequence-math-quiz",
+    "probability-quiz",
+    "history-knowledge-quiz",
+    "ancient-civilizations-quiz",
+    "modern-history-knowledge",
+    "science-knowledge-quiz",
+    "space-quiz",
+    "biology-knowledge-quiz",
+    "world-geography",
+    "capital-cities-quiz",
+    "country-knowledge-quiz",
+    "language-knowledge-quiz",
+    "english-vocabulary",
+    "it-development-quiz",
+    "programming-knowledge-quiz",
+    "random-quiz",
+    "random-math-10",
+    "random-nonsense-10",
+    "challenge-10",
+    "challenge-20"
+  ],
+  "mathPrompts": {
+    "whatIsX": "x का मान क्या है?",
+    "findX": "Find x.",
+    "decimal": "दशमलव",
+    "percentage": "WHOLE_SLOT का PERCENT_SLOT% कितना है?",
+    "fraction": "FIRST_FRACTION_SLOT + SECOND_FRACTION_SLOT = ? (दशमलव)"
+  },
+  "interactiveTest": {
+    "passage": "छोटी सी जिज्ञासा नई खोज तक ले जा सकती है। ध्यान से पढ़ें और सही टाइप करें।",
+    "copy": {
+      "start": "शुरू करें",
+      "tap": "हरा होने पर क्लिक करें",
+      "go": "अभी क्लिक करें",
+      "tooSoon": "बहुत जल्दी। फिर कोशिश करें।",
+      "done": "पूरा हुआ",
+      "submit": "जाँचें",
+      "remember": "दिखी हुई चीज़ याद रखें",
+      "type": "यहाँ टाइप करें",
+      "accuracy": "सटीकता",
+      "errors": "त्रुटियाँ",
+      "wpm": "शब्द प्रति मिनट",
+      "time": "समय",
+      "clicks": "क्लिक",
+      "matched": "मिले जोड़े",
+      "tryAgain": "फिर प्रयास करें"
+    },
+    "memoryWords": "समुद्र सेब तारा बादल",
+    "extraCopy": {
+      "moves": "चालें",
+      "tapFast": "जितनी जल्दी हो सके टैप करें",
+      "cell": "खाना"
+    }
+  }
+}

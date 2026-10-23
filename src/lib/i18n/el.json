@@ -379,5 +379,12 @@
     "challenge-10": "Πάρτε σε δέκα ερωτήσεις μικτή πρόκληση και ελέγξτε το τελικό σκορ σας.",
     "challenge-20": "Πάρτε μια μεγαλύτερη πρόκληση είκοσι ερωτήσεων ανάμεικτη."
   },
-  "localeName": "Ελληνικά"
+  "localeName": "Ελληνικά",
+  "mathPrompts": {
+    "whatIsX": "Ποια είναι η τιμή του x;",
+    "findX": "Βρείτε την τιμή του x.",
+    "decimal": "δεκαδικός αριθμός",
+    "percentage": "Πόσο είναι το PERCENT_SLOT% του WHOLE_SLOT;",
+    "fraction": "Πόσο κάνει FIRST_FRACTION_SLOT + SECOND_FRACTION_SLOT; (δεκαδικός αριθμός)"
+  }
 }

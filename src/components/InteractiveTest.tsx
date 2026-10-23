@@ -3,42 +3,20 @@ import { useEffect, useRef, useState } from "react";
 import { saveQuizResult } from "@/lib/storage";
 import { getQuiz } from "@/lib/registry";
 import { quizTitle } from "@/lib/quiz-copy";
-import { isExpansionLocale, getLoadedLocaleCatalog } from "@/lib/locale-catalog";
+import { getLoadedLocaleCatalog } from "@/lib/locale-catalog";
 import { useLocaleCatalog } from "@/lib/use-locale-catalog";
 import type { Locale } from "@/lib/i18n";
 import { calculateTypingMetrics, scoreReaction, scoreRecall, scoreVisualRecall } from "@/lib/interactive-metrics";
-type StaticLocale = Exclude<Locale, "ru" | "tr" | "pl" | "fil" | "bn" | "uk" | "ms" | "sv" | "cs" | "ro" | "el">;
 type Phase="ready"|"waiting"|"showing"|"playing"|"done";
 const elapsedSeconds=(start:number)=>Math.round((performance.now()-start)/1000);
-const passages:Record<StaticLocale,string>={ko:"작은 호기심은 새로운 발견으로 이어집니다. 천천히 읽고 정확하게 입력해 보세요.",en:"A small curiosity can lead to a wonderful discovery. Take your time and type each word clearly.",ja:"小さな好奇心が新しい発見につながります。落ち着いて正確に入力しましょう。",zh:"一点好奇心也能带来新的发现。请慢慢阅读并准确输入。",es:"Una pequeña curiosidad puede llevarte a un gran descubrimiento. Lee con calma y escribe con precisión.","pt-br":"Uma pequena curiosidade pode levar a uma grande descoberta. Leia com calma e digite com atenção.",de:"Kleine Neugier kann zu einer großen Entdeckung führen. Lies in Ruhe und tippe sorgfältig.",fr:"Une petite curiosité peut mener à une belle découverte. Lisez calmement et saisissez avec soin.",vi:"Một chút tò mò có thể dẫn đến khám phá thú vị. Hãy đọc chậm và nhập thật chính xác.",id:"Rasa ingin tahu kecil dapat membawa penemuan baru. Bacalah dengan tenang dan ketik dengan cermat.",th:"ความอยากรู้อยากเห็นเล็กๆ อาจนำไปสู่การค้นพบใหม่ อ่านช้าๆ แล้วพิมพ์ให้ถูกต้อง", "zh-tw":"一點好奇心也能帶來新的發現。請慢慢閱讀並準確輸入。",it:"Una piccola curiosità può portare a una grande scoperta. Leggi con calma e digita con precisione.",nl:"Een beetje nieuwsgierigheid kan tot een mooie ontdekking leiden. Lees rustig en typ nauwkeurig.",hi:"छोटी सी जिज्ञासा नई खोज तक ले जा सकती है। ध्यान से पढ़ें और सही टाइप करें।"};
-const copy:Record<StaticLocale,{start:string;tap:string;go:string;tooSoon:string;done:string;submit:string;remember:string;type:string;accuracy:string;errors:string;wpm:string;time:string;clicks:string;matched:string;tryAgain:string}>={
-ko:{start:"시작",tap:"초록색이 되면 클릭하세요",go:"지금 클릭!",tooSoon:"너무 빨랐어요. 다시 도전해 보세요.",done:"완료",submit:"확인",remember:"화면의 내용을 기억하세요",type:"여기에 입력하세요",accuracy:"정확도",errors:"오류",wpm:"분당 단어 수",time:"기록",clicks:"클릭",matched:"완성한 쌍",tryAgain:"다시 도전"},
-en:{start:"Start",tap:"Click when the card turns green",go:"CLICK NOW",tooSoon:"Too soon! Try again.",done:"Finished",submit:"Check",remember:"Remember what you see",type:"Type here",accuracy:"Accuracy",errors:"Errors",wpm:"WPM",time:"Time",clicks:"Clicks",matched:"Pairs found",tryAgain:"Try again"},
-ja:{start:"スタート",tap:"緑色になったらクリック",go:"今すぐクリック",tooSoon:"早すぎます。もう一度。",done:"完了",submit:"確認",remember:"表示された内容を覚えてください",type:"ここに入力",accuracy:"正確さ",errors:"誤り",wpm:"1分あたりの単語数",time:"記録",clicks:"クリック",matched:"見つけたペア",tryAgain:"もう一度"},
-zh:{start:"开始",tap:"卡片变绿时点击",go:"现在点击",tooSoon:"太早了，再试一次。",done:"完成",submit:"确认",remember:"记住你看到的内容",type:"在此输入",accuracy:"准确率",errors:"错误",wpm:"每分钟单词数",time:"用时",clicks:"点击",matched:"找到的配对",tryAgain:"再试一次"},
-es:{start:"Empezar",tap:"Haz clic cuando se ponga verde",go:"¡AHORA!",tooSoon:"Demasiado pronto. Inténtalo otra vez.",done:"Terminado",submit:"Comprobar",remember:"Recuerda lo que ves",type:"Escribe aquí",accuracy:"Precisión",errors:"Errores",wpm:"PPM",time:"Tiempo",clicks:"Clics",matched:"Parejas",tryAgain:"Intentar de nuevo"},
-"pt-br":{start:"Começar",tap:"Clique quando ficar verde",go:"CLIQUE AGORA",tooSoon:"Cedo demais. Tente novamente.",done:"Concluído",submit:"Conferir",remember:"Lembre-se do que vê",type:"Digite aqui",accuracy:"Precisão",errors:"Erros",wpm:"PPM",time:"Tempo",clicks:"Cliques",matched:"Pares encontrados",tryAgain:"Tentar novamente"},
-de:{start:"Start",tap:"Klicke, wenn das Feld grün wird",go:"JETZT KLICKEN",tooSoon:"Zu früh. Versuch es noch einmal.",done:"Fertig",submit:"Prüfen",remember:"Merke dir, was du siehst",type:"Hier eingeben",accuracy:"Genauigkeit",errors:"Fehler",wpm:"WPM",time:"Zeit",clicks:"Klicks",matched:"Gefundene Paare",tryAgain:"Nochmal"},
-fr:{start:"Commencer",tap:"Cliquez quand la carte devient verte",go:"CLIQUEZ",tooSoon:"Trop tôt. Réessayez.",done:"Terminé",submit:"Vérifier",remember:"Mémorisez ce que vous voyez",type:"Saisissez ici",accuracy:"Précision",errors:"Erreurs",wpm:"MPM",time:"Temps",clicks:"Clics",matched:"Paires trouvées",tryAgain:"Réessayer"},
-vi:{start:"Bắt đầu",tap:"Nhấp khi ô chuyển xanh",go:"NHẤP NGAY",tooSoon:"Quá sớm. Hãy thử lại.",done:"Hoàn tất",submit:"Kiểm tra",remember:"Hãy ghi nhớ nội dung",type:"Nhập tại đây",accuracy:"Độ chính xác",errors:"Lỗi",wpm:"Từ/phút",time:"Thời gian",clicks:"Lượt nhấp",matched:"Cặp đã tìm",tryAgain:"Thử lại"},
-id:{start:"Mulai",tap:"Klik saat kartu berubah hijau",go:"KLIK SEKARANG",tooSoon:"Terlalu cepat. Coba lagi.",done:"Selesai",submit:"Periksa",remember:"Ingat yang kamu lihat",type:"Ketik di sini",accuracy:"Akurasi",errors:"Kesalahan",wpm:"KPM",time:"Waktu",clicks:"Klik",matched:"Pasangan ditemukan",tryAgain:"Coba lagi"},
-th:{start:"เริ่ม",tap:"คลิกเมื่อช่องเปลี่ยนเป็นสีเขียว",go:"คลิกเลย",tooSoon:"เร็วเกินไป ลองอีกครั้ง",done:"เสร็จแล้ว",submit:"ตรวจสอบ",remember:"จำสิ่งที่เห็น",type:"พิมพ์ที่นี่",accuracy:"ความแม่นยำ",errors:"ข้อผิดพลาด",wpm:"คำต่อนาที",time:"เวลา",clicks:"จำนวนคลิก",matched:"คู่ที่พบ",tryAgain:"ลองอีกครั้ง"},
-"zh-tw":{start:"開始",tap:"卡片變綠時點擊",go:"現在點擊",tooSoon:"太早了，再試一次。",done:"完成",submit:"確認",remember:"記住你看到的內容",type:"在此輸入",accuracy:"準確率",errors:"錯誤",wpm:"每分鐘單字數",time:"用時",clicks:"點擊",matched:"找到的配對",tryAgain:"再試一次"},
-it:{start:"Inizia",tap:"Clicca quando diventa verde",go:"CLICCA ORA",tooSoon:"Troppo presto. Riprova.",done:"Completato",submit:"Controlla",remember:"Ricorda ciò che vedi",type:"Scrivi qui",accuracy:"Precisione",errors:"Errori",wpm:"PPM",time:"Tempo",clicks:"Clic",matched:"Coppie trovate",tryAgain:"Riprova"},
-nl:{start:"Start",tap:"Klik als het vlak groen wordt",go:"KLIK NU",tooSoon:"Te vroeg. Probeer opnieuw.",done:"Klaar",submit:"Controleren",remember:"Onthoud wat je ziet",type:"Typ hier",accuracy:"Nauwkeurigheid",errors:"Fouten",wpm:"WPM",time:"Tijd",clicks:"Klikken",matched:"Gevonden paren",tryAgain:"Opnieuw"},
-hi:{start:"शुरू करें",tap:"हरा होने पर क्लिक करें",go:"अभी क्लिक करें",tooSoon:"बहुत जल्दी। फिर कोशिश करें।",done:"पूरा हुआ",submit:"जाँचें",remember:"दिखी हुई चीज़ याद रखें",type:"यहाँ टाइप करें",accuracy:"सटीकता",errors:"त्रुटियाँ",wpm:"शब्द प्रति मिनट",time:"समय",clicks:"क्लिक",matched:"मिले जोड़े",tryAgain:"फिर प्रयास करें"}
-};
-const shuffle=<T,>(a:T[])=>[...a].sort(()=>Math.random()-.5);
-const memoryWords:Record<StaticLocale,string>={ko:"바다 사과 별 구름",en:"ocean apple star cloud",ja:"海 りんご 星 雲",zh:"海洋 苹果 星星 云",es:"mar manzana estrella nube","pt-br":"mar maçã estrela nuvem",de:"meer apfel stern wolke",fr:"mer pomme étoile nuage",vi:"biển táo sao mây",id:"laut apel bintang awan",th:"ทะเล แอปเปิล ดาว เมฆ","zh-tw":"海洋 蘋果 星星 雲",it:"mare mela stella nuvola",nl:"zee appel ster wolk",hi:"समुद्र सेब तारा बादल"};
-const extraCopy:Record<StaticLocale,{moves:string;tapFast:string;cell:string}>={ko:{moves:"이동",tapFast:"빠르게 눌러 보세요",cell:"칸"},en:{moves:"Moves",tapFast:"Tap as fast as you can",cell:"Cell"},ja:{moves:"手数",tapFast:"できるだけ速くタップ",cell:"マス"},zh:{moves:"步数",tapFast:"尽可能快速点击",cell:"格"},es:{moves:"Movimientos",tapFast:"Pulsa tan rápido como puedas",cell:"Casilla"},"pt-br":{moves:"Jogadas",tapFast:"Toque o mais rápido que puder",cell:"Casa"},de:{moves:"Züge",tapFast:"Tippe so schnell du kannst",cell:"Feld"},fr:{moves:"Coups",tapFast:"Appuyez aussi vite que possible",cell:"Case"},vi:{moves:"Lượt",tapFast:"Nhấn nhanh nhất có thể",cell:"Ô"},id:{moves:"Langkah",tapFast:"Ketuk secepat mungkin",cell:"Kotak"},th:{moves:"จำนวนครั้ง",tapFast:"แตะให้เร็วที่สุด",cell:"ช่อง"},"zh-tw":{moves:"步數",tapFast:"盡可能快速點擊",cell:"格"},it:{moves:"Mosse",tapFast:"Tocca più velocemente che puoi",cell:"Casella"},nl:{moves:"Zetten",tapFast:"Tik zo snel als je kunt",cell:"Vak"},hi:{moves:"चालें",tapFast:"जितनी जल्दी हो सके टैप करें",cell:"खाना"}};
-
+const shuffle=<T,>(items:T[])=>[...items].sort(()=>Math.random()-.5);
 export function InteractiveTest({slug,locale}:{slug:string;locale:Locale}){
  useLocaleCatalog(locale);
- const catalog = isExpansionLocale(locale) ? getLoadedLocaleCatalog(locale) : undefined;
- const t = catalog?.interactiveTest.copy ?? copy[locale as StaticLocale];
- const passage = catalog?.interactiveTest.passage ?? passages[locale as StaticLocale];
- const memoryWordsForLocale = catalog?.interactiveTest.memoryWords ?? memoryWords[locale as StaticLocale];
- const extra = catalog?.interactiveTest.extraCopy ?? extraCopy[locale as StaticLocale];
+ const catalog = getLoadedLocaleCatalog(locale);
+ const t = catalog.interactiveTest.copy;
+ const passage = catalog.interactiveTest.passage;
+ const memoryWordsForLocale = catalog.interactiveTest.memoryWords;
+ const extra = catalog.interactiveTest.extraCopy;
  const [phase,setPhase]=useState<Phase>("ready"),[message,setMessage]=useState(""),[startedAt,setStartedAt]=useState(0),[elapsed,setElapsed]=useState(0),[count,setCount]=useState(0),[value,setValue]=useState("");const [target,setTarget]=useState("");const [grid,setGrid]=useState<number[]>([]),[selected,setSelected]=useState<number[]>([]),[cards,setCards]=useState<string[]>([]),[matched,setMatched]=useState<number[]>([]),[turns,setTurns]=useState(0);const timer=useRef<ReturnType<typeof setTimeout>|null>(null);const frame=useRef<number>(0);const goAt=useRef(0);
  const isVisual=slug==="visual-memory-test",isConcentration=slug==="concentration-test",clickCount=useRef(0);
  useEffect(()=>()=>{if(timer.current)clearTimeout(timer.current);cancelAnimationFrame(frame.current);},[]);

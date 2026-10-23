@@ -1,0 +1,684 @@
+{
+  "localeName": "한국어",
+  "messages": {
+    "title": "퀴즈테스트",
+    "subtitle": "오늘의 호기심을 깨우는 퀴즈",
+    "search": "퀴즈 검색",
+    "today": "오늘의 퀴즈",
+    "categories": "카테고리",
+    "popular": "인기 퀴즈",
+    "play": "시작하기",
+    "question": "문제",
+    "next": "다음 문제",
+    "submit": "답변 확인",
+    "result": "퀴즈 결과",
+    "retry": "다시 풀기",
+    "home": "홈으로",
+    "related": "관련 퀴즈",
+    "score": "점수",
+    "footer": "개인정보 안내 · 이용안내 · 문의 사항"
+  },
+  "ui": {
+    "familySites": "패밀리 사이트",
+    "portal": "포탈",
+    "calculator": "계산기",
+    "tools": "온라인 도구",
+    "moneyBook": "무료 공유 가계부",
+    "docs": "문서·양식",
+    "quiz": "퀴즈·테스트",
+    "language": "언어 선택",
+    "openMenu": "서비스 메뉴 열기",
+    "closeMenu": "서비스 메뉴 닫기",
+    "allQuizzes": "전체 퀴즈",
+    "freeToPlay": "무료 이용",
+    "noAccount": "회원가입 없이 이용",
+    "heroEyebrow": "호기심을 깨우는 순간",
+    "heroTitle": "오늘의 호기심을 깨우는 퀴즈",
+    "heroDescription": "가볍게 도전하고 새로운 발견을 즐겨 보세요.",
+    "nextChallenge": "다음 도전을 골라 보세요",
+    "searchEmpty": "검색 결과가 없습니다.",
+    "questionSetReview": "문제 구성 검토 중",
+    "difficulty": "난이도",
+    "startHeading": "준비되면 시작하세요",
+    "startDescription": "천천히 생각하며 즐겁게 도전해 보세요.",
+    "correct": "정답입니다!",
+    "incorrect": "아쉽지만 정답이 아닙니다.",
+    "accuracy": "정답률",
+    "finishedIn": "완료 시간",
+    "seconds": "초",
+    "bestScore": "최고 점수는 이 기기에 저장됩니다.",
+    "reviewHeading": "문제 구성을 검토하고 있습니다",
+    "reviewDescription": "현지화된 문제를 확인하고 있습니다. 검토가 완료되면 이 퀴즈를 이용할 수 있습니다.",
+    "howToPlay": "이용 방법",
+    "howToDescription": "답을 선택해 문제를 풀어 보세요. 진행 상황은 이 브라우저에만 저장되며 계정이나 개인정보는 필요하지 않습니다.",
+    "aboutQuiz": "퀴즈 안내",
+    "faq": "자주 묻는 질문",
+    "scoreUploadedQuestion": "점수가 온라인에 저장되나요?",
+    "scoreUploadedAnswer": "아니요. 점수는 사용 중인 브라우저에만 저장됩니다.",
+    "interactiveTest": "인터랙티브 테스트",
+    "localeCount": "26 ??????",
+    "dynamicGeneration": "문제 자동 생성",
+    "back": "퀴즈 목록",
+    "footerTagline": "호기심 많은 모두를 위한 퀴즈",
+    "privacy": "개인정보 안내",
+    "guidelines": "이용안내",
+    "contact": "문의사항",
+    "copyright": "© 2026 woori.today",
+    "searchLabel": "퀴즈 검색",
+    "quizCount": "COUNT_SLOT",
+    "questionCount": "COUNT_SLOT",
+    "quizSummary": "TITLE_SLOT에 도전하며 즐겁게 실력을 확인해 보세요.",
+    "category": {
+      "general": "일반 상식",
+      "geography": "세계·지리",
+      "science": "과학",
+      "history": "역사",
+      "math": "수학",
+      "language": "언어",
+      "technology": "IT",
+      "memory": "기억력·두뇌",
+      "speed": "속도·반응",
+      "fun": "재미 테스트"
+    },
+    "difficultyLabels": {
+      "easy": "쉬움",
+      "medium": "보통",
+      "hard": "어려움",
+      "expert": "전문가"
+    }
+  },
+  "uiCountForms": {
+    "quizCount": {
+      "other": "퀴즈 COUNT_SLOT개"
+    },
+    "questionCount": {
+      "other": "문제 COUNT_SLOT개"
+    }
+  },
+  "uiSummary": "TITLE_SLOT에 도전하며 즐겁게 실력을 확인해 보세요.",
+  "discovery": {
+    "intro": "상식부터 수학, 브레인 티저까지 원하는 퀴즈에 도전해 보세요.",
+    "quickStart": "빠르게 시작하기",
+    "searchResults": "검색 결과",
+    "browseCategories": "카테고리 선택",
+    "clearSearch": "검색어 지우기",
+    "resultsForForms": {
+      "other": "“QUERY_SLOT” 검색 결과 · 퀴즈 COUNT_SLOT개"
+    }
+  },
+  "detail": {
+    "correctCount": "정답",
+    "incorrectCount": "오답",
+    "newSet": "새 문제로 다시 풀기",
+    "otherQuizzes": "다른 퀴즈 보기"
+  },
+  "categoryLabels": {
+    "general": "일반 상식",
+    "nonsense": "넌센스·수수께끼",
+    "math": "수학",
+    "brain": "브레인 티저",
+    "history": "역사",
+    "science": "과학",
+    "geography": "세계·지리",
+    "language": "언어",
+    "technology": "IT",
+    "memory": "기억력·두뇌",
+    "random": "랜덤 퀴즈",
+    "challenge": "챌린지",
+    "speed": "속도·반응",
+    "fun": "재미 테스트"
+  },
+  "categoryDescriptions": {
+    "general": "생활 속 사실과 폭넓은 상식을 여러 주제에서 확인합니다.",
+    "nonsense": "말의 뜻을 뒤집어 생각하는 짧은 수수께끼와 넌센스 문제입니다.",
+    "math": "사칙연산부터 수열과 확률까지 계산과 추론을 연습합니다.",
+    "brain": "숫자 규칙, 조건과 단서를 읽고 논리적으로 답을 찾습니다.",
+    "history": "고대 문명과 근현대의 사건·인물을 사실 중심으로 살펴봅니다.",
+    "science": "생물, 화학, 물리, 우주에 관한 기초 원리를 확인합니다.",
+    "geography": "대륙, 국가, 수도와 자연 지형의 위치를 떠올려 봅니다.",
+    "language": "어휘, 문법과 여러 문자 체계에 관한 이해를 확인합니다.",
+    "technology": "웹, 프로그래밍, 데이터베이스와 네트워크의 기본 개념을 다룹니다.",
+    "memory": "숫자·단어·순서를 기억하거나 시각적 변화를 알아차립니다.",
+    "random": "여러 분야의 문제를 섞어 매번 다른 순서로 풀어 봅니다.",
+    "challenge": "정해진 문항 수를 이어 풀며 끝까지 집중해 봅니다.",
+    "speed": "반응 시간, 클릭 또는 입력 속도를 직접 측정합니다.",
+    "fun": "가벼운 상식과 재미있는 문제로 짧게 쉬어 갑니다."
+  },
+  "serviceGuide": {
+    "categories": "분야별로 골라 보세요",
+    "how": "퀴즈 이용 방법",
+    "account": "회원가입 없이 퀴즈를 고른 뒤 답을 선택하면 됩니다. 결과는 이 브라우저에서 확인할 수 있습니다.",
+    "score": "점수는 어떻게 읽나요?",
+    "scoreLow": "이번 주제는 더 연습해 볼 만합니다. 해설을 읽고 다시 도전해 보세요.",
+    "scoreMid": "기본 내용을 잘 이해하고 있습니다. 틀린 문제의 해설을 확인해 보세요.",
+    "scoreHigh": "이번 문제 묶음을 잘 풀었습니다. 다른 주제나 새 문제에도 도전해 보세요.",
+    "scoreNote": "점수는 이번 문제 묶음의 정답률이며 능력이나 건강 상태를 진단하지 않습니다.",
+    "focus": "이 퀴즈에서 다루는 내용"
+  },
+  "advertisement": "광고",
+  "difficulty": "모든 난이도",
+  "quizTitles": {
+    "general-knowledge-quiz": "일반 상식 퀴즈",
+    "everyday-knowledge-quiz": "생활 상식 퀴즈",
+    "difficult-general-knowledge-quiz": "고난도 일반 상식 퀴즈",
+    "world-capitals-quiz": "세계 수도 퀴즈",
+    "country-flags-quiz": "국기 퀴즈",
+    "country-currency-quiz": "국가별 통화 퀴즈",
+    "country-location-quiz": "국가 위치 퀴즈",
+    "asia-capitals-quiz": "아시아 수도 퀴즈",
+    "europe-capitals-quiz": "유럽 수도 퀴즈",
+    "world-geography-quiz": "세계 지리 퀴즈",
+    "basic-science-quiz": "기초 과학 퀴즈",
+    "physics-quiz": "물리 퀴즈",
+    "chemistry-quiz": "화학 퀴즈",
+    "biology-quiz": "생물 퀴즈",
+    "astronomy-quiz": "천문학 퀴즈",
+    "difficult-science-quiz": "고난도 과학 퀴즈",
+    "world-history-quiz": "세계사 퀴즈",
+    "korean-history-quiz": "한국사 퀴즈",
+    "ancient-history-quiz": "고대사 퀴즈",
+    "modern-history-quiz": "근현대사 퀴즈",
+    "addition-quiz": "덧셈 퀴즈",
+    "subtraction-quiz": "뺄셈 퀴즈",
+    "multiplication-quiz": "곱셈 퀴즈",
+    "division-quiz": "나눗셈 퀴즈",
+    "multiplication-table-quiz": "구구단 퀴즈",
+    "mental-math-quiz": "암산 퀴즈",
+    "fraction-quiz": "분수 퀴즈",
+    "percentage-quiz": "백분율 퀴즈",
+    "equation-quiz": "방정식 퀴즈",
+    "arithmetic-challenge": "산수 도전",
+    "english-vocabulary-quiz": "영어 어휘 퀴즈",
+    "english-spelling-quiz": "영어 철자 퀴즈",
+    "english-grammar-quiz": "영어 문법 퀴즈",
+    "hiragana-quiz": "히라가나 퀴즈",
+    "katakana-quiz": "가타카나 퀴즈",
+    "japanese-vocabulary-quiz": "일본어 어휘 퀴즈",
+    "chinese-character-quiz": "한자 퀴즈",
+    "korean-vocabulary-quiz": "한국어 어휘 퀴즈",
+    "computer-basics-quiz": "컴퓨터 기초 퀴즈",
+    "programming-basics-quiz": "프로그래밍 기초 퀴즈",
+    "web-development-quiz": "웹 개발 퀴즈",
+    "database-quiz": "데이터베이스 퀴즈",
+    "network-basics-quiz": "네트워크 기초 퀴즈",
+    "difficult-it-quiz": "고난도 IT 퀴즈",
+    "number-memory-test": "숫자 기억력 테스트",
+    "word-memory-test": "단어 기억력 테스트",
+    "sequence-memory-test": "순서 기억력 테스트",
+    "visual-memory-test": "시각 기억력 테스트",
+    "pattern-recognition-test": "패턴 인식 테스트",
+    "concentration-test": "집중력 테스트",
+    "reaction-time-test": "반응 속도 테스트",
+    "click-speed-test": "클릭 속도 테스트",
+    "typing-speed-test": "타자 속도 테스트",
+    "color-reaction-test": "색상 반응 테스트",
+    "random-trivia-challenge": "랜덤 상식 도전",
+    "true-false-challenge": "참·거짓 퀴즈",
+    "impossible-quiz": "불가능 퀴즈",
+    "mixed-hard-quiz": "종합 고난도 퀴즈",
+    "general-knowledge": "일반 상식",
+    "easy-general-knowledge": "쉬운 일반 상식",
+    "hard-general-knowledge": "고난도 일반 상식",
+    "random-general-knowledge": "랜덤 일반 상식",
+    "adult-general-knowledge": "성인 일반 상식",
+    "daily-life-quiz": "일상 생활 퀴즈",
+    "nonsense": "넌센스",
+    "easy-nonsense-quiz": "쉬운 넌센스 퀴즈",
+    "riddle-quiz": "수수께끼 퀴즈",
+    "brain-teaser": "뇌를 깨우는 퀴즈 - 브레인 티저",
+    "easy-brain-teaser": "쉬운 두뇌 티저",
+    "hard-brain-teaser": "고난도 두뇌 티저",
+    "number-pattern-quiz": "숫자 패턴 퀴즈",
+    "logic-reasoning-quiz": "논리 추론 퀴즈",
+    "random-brain-teaser": "랜덤 두뇌 티저",
+    "math-basic": "수학 기초",
+    "math-advanced": "수학 심화",
+    "mental-arithmetic-test": "암산 산수 테스트",
+    "sequence-math-quiz": "순서 수학 퀴즈",
+    "probability-quiz": "확률 퀴즈",
+    "history-knowledge-quiz": "역사 상식 퀴즈",
+    "ancient-civilizations-quiz": "고대 문명 퀴즈",
+    "modern-history-knowledge": "근현대 역사 상식",
+    "science-knowledge-quiz": "과학 상식 퀴즈",
+    "space-quiz": "우주 퀴즈",
+    "biology-knowledge-quiz": "생물 상식 퀴즈",
+    "world-geography": "세계 지리",
+    "capital-cities-quiz": "수도 도시 퀴즈",
+    "country-knowledge-quiz": "국가 상식 퀴즈",
+    "language-knowledge-quiz": "언어 상식 퀴즈",
+    "english-vocabulary": "영어 어휘",
+    "it-development-quiz": "IT 개발 퀴즈",
+    "programming-knowledge-quiz": "프로그래밍 상식 퀴즈",
+    "random-quiz": "랜덤 퀴즈",
+    "random-math-10": "랜덤 수학 10",
+    "random-nonsense-10": "랜덤 넌센스 10",
+    "challenge-10": "도전 10",
+    "challenge-20": "도전 20"
+  },
+  "quizDescriptions": {
+    "addition-quiz": "덧셈 퀴즈: 사칙연산부터 수열과 확률까지 계산과 추론을 연습합니다.",
+    "subtraction-quiz": "뺄셈 퀴즈: 사칙연산부터 수열과 확률까지 계산과 추론을 연습합니다.",
+    "multiplication-quiz": "곱셈 퀴즈: 사칙연산부터 수열과 확률까지 계산과 추론을 연습합니다.",
+    "division-quiz": "나눗셈 퀴즈: 사칙연산부터 수열과 확률까지 계산과 추론을 연습합니다.",
+    "multiplication-table-quiz": "구구단 퀴즈: 사칙연산부터 수열과 확률까지 계산과 추론을 연습합니다.",
+    "mental-math-quiz": "암산 퀴즈: 사칙연산부터 수열과 확률까지 계산과 추론을 연습합니다.",
+    "fraction-quiz": "분수 퀴즈: 사칙연산부터 수열과 확률까지 계산과 추론을 연습합니다.",
+    "percentage-quiz": "백분율 퀴즈: 사칙연산부터 수열과 확률까지 계산과 추론을 연습합니다.",
+    "equation-quiz": "방정식 퀴즈: 사칙연산부터 수열과 확률까지 계산과 추론을 연습합니다.",
+    "arithmetic-challenge": "산수 도전: 사칙연산부터 수열과 확률까지 계산과 추론을 연습합니다.",
+    "number-memory-test": "숫자 기억력 테스트: 숫자·단어·순서를 기억하거나 시각적 변화를 알아차립니다.",
+    "word-memory-test": "단어 기억력 테스트: 숫자·단어·순서를 기억하거나 시각적 변화를 알아차립니다.",
+    "sequence-memory-test": "순서 기억력 테스트: 숫자·단어·순서를 기억하거나 시각적 변화를 알아차립니다.",
+    "visual-memory-test": "시각 기억력 테스트: 숫자·단어·순서를 기억하거나 시각적 변화를 알아차립니다.",
+    "pattern-recognition-test": "패턴 인식 테스트: 숫자·단어·순서를 기억하거나 시각적 변화를 알아차립니다.",
+    "concentration-test": "집중력 테스트: 숫자·단어·순서를 기억하거나 시각적 변화를 알아차립니다.",
+    "reaction-time-test": "반응 속도 테스트: 반응 시간, 클릭 또는 입력 속도를 직접 측정합니다.",
+    "click-speed-test": "클릭 속도 테스트: 반응 시간, 클릭 또는 입력 속도를 직접 측정합니다.",
+    "typing-speed-test": "타자 속도 테스트: 반응 시간, 클릭 또는 입력 속도를 직접 측정합니다.",
+    "color-reaction-test": "색상 반응 테스트: 반응 시간, 클릭 또는 입력 속도를 직접 측정합니다.",
+    "general-knowledge": "일반 상식: 생활 속 사실과 폭넓은 상식을 여러 주제에서 확인합니다.",
+    "easy-general-knowledge": "쉬운 일반 상식: 생활 속 사실과 폭넓은 상식을 여러 주제에서 확인합니다.",
+    "hard-general-knowledge": "고난도 일반 상식: 생활 속 사실과 폭넓은 상식을 여러 주제에서 확인합니다.",
+    "random-general-knowledge": "랜덤 일반 상식: 생활 속 사실과 폭넓은 상식을 여러 주제에서 확인합니다.",
+    "adult-general-knowledge": "성인 일반 상식: 생활 속 사실과 폭넓은 상식을 여러 주제에서 확인합니다.",
+    "daily-life-quiz": "일상 생활 퀴즈: 생활 속 사실과 폭넓은 상식을 여러 주제에서 확인합니다.",
+    "nonsense": "넌센스: 말의 뜻을 뒤집어 생각하는 짧은 수수께끼와 넌센스 문제입니다.",
+    "easy-nonsense-quiz": "쉬운 넌센스 퀴즈: 말의 뜻을 뒤집어 생각하는 짧은 수수께끼와 넌센스 문제입니다.",
+    "riddle-quiz": "수수께끼 퀴즈: 말의 뜻을 뒤집어 생각하는 짧은 수수께끼와 넌센스 문제입니다.",
+    "brain-teaser": "뇌를 깨우는 퀴즈 - 브레인 티저: 숫자 규칙, 조건과 단서를 읽고 논리적으로 답을 찾습니다.",
+    "easy-brain-teaser": "쉬운 두뇌 티저: 숫자 규칙, 조건과 단서를 읽고 논리적으로 답을 찾습니다.",
+    "hard-brain-teaser": "고난도 두뇌 티저: 숫자 규칙, 조건과 단서를 읽고 논리적으로 답을 찾습니다.",
+    "number-pattern-quiz": "숫자 패턴 퀴즈: 숫자 규칙, 조건과 단서를 읽고 논리적으로 답을 찾습니다.",
+    "logic-reasoning-quiz": "논리 추론 퀴즈: 숫자 규칙, 조건과 단서를 읽고 논리적으로 답을 찾습니다.",
+    "random-brain-teaser": "랜덤 두뇌 티저: 숫자 규칙, 조건과 단서를 읽고 논리적으로 답을 찾습니다.",
+    "math-basic": "수학 기초: 사칙연산부터 수열과 확률까지 계산과 추론을 연습합니다.",
+    "math-advanced": "수학 심화: 사칙연산부터 수열과 확률까지 계산과 추론을 연습합니다.",
+    "mental-arithmetic-test": "암산 산수 테스트: 사칙연산부터 수열과 확률까지 계산과 추론을 연습합니다.",
+    "sequence-math-quiz": "순서 수학 퀴즈: 사칙연산부터 수열과 확률까지 계산과 추론을 연습합니다.",
+    "probability-quiz": "확률 퀴즈: 사칙연산부터 수열과 확률까지 계산과 추론을 연습합니다.",
+    "history-knowledge-quiz": "역사 상식 퀴즈: 고대 문명과 근현대의 사건·인물을 사실 중심으로 살펴봅니다.",
+    "ancient-civilizations-quiz": "고대 문명 퀴즈: 고대 문명과 근현대의 사건·인물을 사실 중심으로 살펴봅니다.",
+    "modern-history-knowledge": "근현대 역사 상식: 고대 문명과 근현대의 사건·인물을 사실 중심으로 살펴봅니다.",
+    "science-knowledge-quiz": "과학 상식 퀴즈: 생물, 화학, 물리, 우주에 관한 기초 원리를 확인합니다.",
+    "space-quiz": "우주 퀴즈: 생물, 화학, 물리, 우주에 관한 기초 원리를 확인합니다.",
+    "biology-knowledge-quiz": "생물 상식 퀴즈: 생물, 화학, 물리, 우주에 관한 기초 원리를 확인합니다.",
+    "world-geography": "세계 지리: 대륙, 국가, 수도와 자연 지형의 위치를 떠올려 봅니다.",
+    "capital-cities-quiz": "수도 도시 퀴즈: 대륙, 국가, 수도와 자연 지형의 위치를 떠올려 봅니다.",
+    "country-knowledge-quiz": "국가 상식 퀴즈: 대륙, 국가, 수도와 자연 지형의 위치를 떠올려 봅니다.",
+    "language-knowledge-quiz": "언어 상식 퀴즈: 어휘, 문법과 여러 문자 체계에 관한 이해를 확인합니다.",
+    "english-vocabulary": "영어 어휘: 어휘, 문법과 여러 문자 체계에 관한 이해를 확인합니다.",
+    "it-development-quiz": "IT 개발 퀴즈: 웹, 프로그래밍, 데이터베이스와 네트워크의 기본 개념을 다룹니다.",
+    "programming-knowledge-quiz": "프로그래밍 상식 퀴즈: 웹, 프로그래밍, 데이터베이스와 네트워크의 기본 개념을 다룹니다.",
+    "random-quiz": "랜덤 퀴즈: 여러 분야의 문제를 섞어 매번 다른 순서로 풀어 봅니다.",
+    "random-math-10": "랜덤 수학 10: 여러 분야의 문제를 섞어 매번 다른 순서로 풀어 봅니다.",
+    "random-nonsense-10": "랜덤 넌센스 10: 여러 분야의 문제를 섞어 매번 다른 순서로 풀어 봅니다.",
+    "challenge-10": "도전 10: 정해진 문항 수를 이어 풀며 끝까지 집중해 봅니다.",
+    "challenge-20": "도전 20: 정해진 문항 수를 이어 풀며 끝까지 집중해 봅니다."
+  },
+  "quizSeo": {
+    "addition-quiz": {
+      "title": "덧셈 퀴즈 | woori.today",
+      "description": "덧셈 퀴즈: 사칙연산부터 수열과 확률까지 계산과 추론을 연습합니다."
+    },
+    "subtraction-quiz": {
+      "title": "뺄셈 퀴즈 | woori.today",
+      "description": "뺄셈 퀴즈: 사칙연산부터 수열과 확률까지 계산과 추론을 연습합니다."
+    },
+    "multiplication-quiz": {
+      "title": "곱셈 퀴즈 | woori.today",
+      "description": "곱셈 퀴즈: 사칙연산부터 수열과 확률까지 계산과 추론을 연습합니다."
+    },
+    "division-quiz": {
+      "title": "나눗셈 퀴즈 | woori.today",
+      "description": "나눗셈 퀴즈: 사칙연산부터 수열과 확률까지 계산과 추론을 연습합니다."
+    },
+    "multiplication-table-quiz": {
+      "title": "구구단 퀴즈 | woori.today",
+      "description": "구구단 퀴즈: 사칙연산부터 수열과 확률까지 계산과 추론을 연습합니다."
+    },
+    "mental-math-quiz": {
+      "title": "암산 퀴즈 | woori.today",
+      "description": "암산 퀴즈: 사칙연산부터 수열과 확률까지 계산과 추론을 연습합니다."
+    },
+    "fraction-quiz": {
+      "title": "분수 퀴즈 | woori.today",
+      "description": "분수 퀴즈: 사칙연산부터 수열과 확률까지 계산과 추론을 연습합니다."
+    },
+    "percentage-quiz": {
+      "title": "백분율 퀴즈 | woori.today",
+      "description": "백분율 퀴즈: 사칙연산부터 수열과 확률까지 계산과 추론을 연습합니다."
+    },
+    "equation-quiz": {
+      "title": "방정식 퀴즈 | woori.today",
+      "description": "방정식 퀴즈: 사칙연산부터 수열과 확률까지 계산과 추론을 연습합니다."
+    },
+    "arithmetic-challenge": {
+      "title": "산수 도전 | woori.today",
+      "description": "산수 도전: 사칙연산부터 수열과 확률까지 계산과 추론을 연습합니다."
+    },
+    "number-memory-test": {
+      "title": "숫자 기억력 테스트 | woori.today",
+      "description": "숫자 기억력 테스트: 숫자·단어·순서를 기억하거나 시각적 변화를 알아차립니다."
+    },
+    "word-memory-test": {
+      "title": "단어 기억력 테스트 | woori.today",
+      "description": "단어 기억력 테스트: 숫자·단어·순서를 기억하거나 시각적 변화를 알아차립니다."
+    },
+    "sequence-memory-test": {
+      "title": "순서 기억력 테스트 | woori.today",
+      "description": "순서 기억력 테스트: 숫자·단어·순서를 기억하거나 시각적 변화를 알아차립니다."
+    },
+    "visual-memory-test": {
+      "title": "시각 기억력 테스트 | woori.today",
+      "description": "시각 기억력 테스트: 숫자·단어·순서를 기억하거나 시각적 변화를 알아차립니다."
+    },
+    "pattern-recognition-test": {
+      "title": "패턴 인식 테스트 | woori.today",
+      "description": "패턴 인식 테스트: 숫자·단어·순서를 기억하거나 시각적 변화를 알아차립니다."
+    },
+    "concentration-test": {
+      "title": "집중력 테스트 | woori.today",
+      "description": "집중력 테스트: 숫자·단어·순서를 기억하거나 시각적 변화를 알아차립니다."
+    },
+    "reaction-time-test": {
+      "title": "반응 속도 테스트 | woori.today",
+      "description": "반응 속도 테스트: 반응 시간, 클릭 또는 입력 속도를 직접 측정합니다."
+    },
+    "click-speed-test": {
+      "title": "클릭 속도 테스트 | woori.today",
+      "description": "클릭 속도 테스트: 반응 시간, 클릭 또는 입력 속도를 직접 측정합니다."
+    },
+    "typing-speed-test": {
+      "title": "타자 속도 테스트 | woori.today",
+      "description": "타자 속도 테스트: 반응 시간, 클릭 또는 입력 속도를 직접 측정합니다."
+    },
+    "color-reaction-test": {
+      "title": "색상 반응 테스트 | woori.today",
+      "description": "색상 반응 테스트: 반응 시간, 클릭 또는 입력 속도를 직접 측정합니다."
+    },
+    "general-knowledge": {
+      "title": "일반 상식 | woori.today",
+      "description": "일반 상식: 생활 속 사실과 폭넓은 상식을 여러 주제에서 확인합니다."
+    },
+    "easy-general-knowledge": {
+      "title": "쉬운 일반 상식 | woori.today",
+      "description": "쉬운 일반 상식: 생활 속 사실과 폭넓은 상식을 여러 주제에서 확인합니다."
+    },
+    "hard-general-knowledge": {
+      "title": "고난도 일반 상식 | woori.today",
+      "description": "고난도 일반 상식: 생활 속 사실과 폭넓은 상식을 여러 주제에서 확인합니다."
+    },
+    "random-general-knowledge": {
+      "title": "랜덤 일반 상식 | woori.today",
+      "description": "랜덤 일반 상식: 생활 속 사실과 폭넓은 상식을 여러 주제에서 확인합니다."
+    },
+    "adult-general-knowledge": {
+      "title": "성인 일반 상식 | woori.today",
+      "description": "성인 일반 상식: 생활 속 사실과 폭넓은 상식을 여러 주제에서 확인합니다."
+    },
+    "daily-life-quiz": {
+      "title": "일상 생활 퀴즈 | woori.today",
+      "description": "일상 생활 퀴즈: 생활 속 사실과 폭넓은 상식을 여러 주제에서 확인합니다."
+    },
+    "nonsense": {
+      "title": "넌센스 | woori.today",
+      "description": "넌센스: 말의 뜻을 뒤집어 생각하는 짧은 수수께끼와 넌센스 문제입니다."
+    },
+    "easy-nonsense-quiz": {
+      "title": "쉬운 넌센스 퀴즈 | woori.today",
+      "description": "쉬운 넌센스 퀴즈: 말의 뜻을 뒤집어 생각하는 짧은 수수께끼와 넌센스 문제입니다."
+    },
+    "riddle-quiz": {
+      "title": "수수께끼 퀴즈 | woori.today",
+      "description": "수수께끼 퀴즈: 말의 뜻을 뒤집어 생각하는 짧은 수수께끼와 넌센스 문제입니다."
+    },
+    "brain-teaser": {
+      "title": "뇌를 깨우는 퀴즈 - 브레인 티저 | woori.today",
+      "description": "가볍게 풀면서 뇌를 깨워보세요. 논리, 패턴, 숫자, 기억력, 추리 문제로 구성된 브레인 티저 퀴즈를 무료로 즐길 수 있습니다."
+    },
+    "easy-brain-teaser": {
+      "title": "쉬운 두뇌 티저 | woori.today",
+      "description": "쉬운 두뇌 티저: 숫자 규칙, 조건과 단서를 읽고 논리적으로 답을 찾습니다."
+    },
+    "hard-brain-teaser": {
+      "title": "고난도 두뇌 티저 | woori.today",
+      "description": "고난도 두뇌 티저: 숫자 규칙, 조건과 단서를 읽고 논리적으로 답을 찾습니다."
+    },
+    "number-pattern-quiz": {
+      "title": "숫자 패턴 퀴즈 | woori.today",
+      "description": "숫자 패턴 퀴즈: 숫자 규칙, 조건과 단서를 읽고 논리적으로 답을 찾습니다."
+    },
+    "logic-reasoning-quiz": {
+      "title": "논리 추론 퀴즈 | woori.today",
+      "description": "논리 추론 퀴즈: 숫자 규칙, 조건과 단서를 읽고 논리적으로 답을 찾습니다."
+    },
+    "random-brain-teaser": {
+      "title": "랜덤 두뇌 티저 | woori.today",
+      "description": "랜덤 두뇌 티저: 숫자 규칙, 조건과 단서를 읽고 논리적으로 답을 찾습니다."
+    },
+    "math-basic": {
+      "title": "수학 기초 | woori.today",
+      "description": "수학 기초: 사칙연산부터 수열과 확률까지 계산과 추론을 연습합니다."
+    },
+    "math-advanced": {
+      "title": "수학 심화 | woori.today",
+      "description": "수학 심화: 사칙연산부터 수열과 확률까지 계산과 추론을 연습합니다."
+    },
+    "mental-arithmetic-test": {
+      "title": "암산 산수 테스트 | woori.today",
+      "description": "암산 산수 테스트: 사칙연산부터 수열과 확률까지 계산과 추론을 연습합니다."
+    },
+    "sequence-math-quiz": {
+      "title": "순서 수학 퀴즈 | woori.today",
+      "description": "순서 수학 퀴즈: 사칙연산부터 수열과 확률까지 계산과 추론을 연습합니다."
+    },
+    "probability-quiz": {
+      "title": "확률 퀴즈 | woori.today",
+      "description": "확률 퀴즈: 사칙연산부터 수열과 확률까지 계산과 추론을 연습합니다."
+    },
+    "history-knowledge-quiz": {
+      "title": "역사 상식 퀴즈 | woori.today",
+      "description": "역사 상식 퀴즈: 고대 문명과 근현대의 사건·인물을 사실 중심으로 살펴봅니다."
+    },
+    "ancient-civilizations-quiz": {
+      "title": "고대 문명 퀴즈 | woori.today",
+      "description": "고대 문명 퀴즈: 고대 문명과 근현대의 사건·인물을 사실 중심으로 살펴봅니다."
+    },
+    "modern-history-knowledge": {
+      "title": "근현대 역사 상식 | woori.today",
+      "description": "근현대 역사 상식: 고대 문명과 근현대의 사건·인물을 사실 중심으로 살펴봅니다."
+    },
+    "science-knowledge-quiz": {
+      "title": "과학 상식 퀴즈 | woori.today",
+      "description": "과학 상식 퀴즈: 생물, 화학, 물리, 우주에 관한 기초 원리를 확인합니다."
+    },
+    "space-quiz": {
+      "title": "우주 퀴즈 | woori.today",
+      "description": "우주 퀴즈: 생물, 화학, 물리, 우주에 관한 기초 원리를 확인합니다."
+    },
+    "biology-knowledge-quiz": {
+      "title": "생물 상식 퀴즈 | woori.today",
+      "description": "생물 상식 퀴즈: 생물, 화학, 물리, 우주에 관한 기초 원리를 확인합니다."
+    },
+    "world-geography": {
+      "title": "세계 지리 | woori.today",
+      "description": "세계 지리: 대륙, 국가, 수도와 자연 지형의 위치를 떠올려 봅니다."
+    },
+    "capital-cities-quiz": {
+      "title": "수도 도시 퀴즈 | woori.today",
+      "description": "수도 도시 퀴즈: 대륙, 국가, 수도와 자연 지형의 위치를 떠올려 봅니다."
+    },
+    "country-knowledge-quiz": {
+      "title": "국가 상식 퀴즈 | woori.today",
+      "description": "국가 상식 퀴즈: 대륙, 국가, 수도와 자연 지형의 위치를 떠올려 봅니다."
+    },
+    "language-knowledge-quiz": {
+      "title": "언어 상식 퀴즈 | woori.today",
+      "description": "언어 상식 퀴즈: 어휘, 문법과 여러 문자 체계에 관한 이해를 확인합니다."
+    },
+    "english-vocabulary": {
+      "title": "영어 어휘 | woori.today",
+      "description": "영어 어휘: 어휘, 문법과 여러 문자 체계에 관한 이해를 확인합니다."
+    },
+    "it-development-quiz": {
+      "title": "IT 개발 퀴즈 | woori.today",
+      "description": "IT 개발 퀴즈: 웹, 프로그래밍, 데이터베이스와 네트워크의 기본 개념을 다룹니다."
+    },
+    "programming-knowledge-quiz": {
+      "title": "프로그래밍 상식 퀴즈 | woori.today",
+      "description": "프로그래밍 상식 퀴즈: 웹, 프로그래밍, 데이터베이스와 네트워크의 기본 개념을 다룹니다."
+    },
+    "random-quiz": {
+      "title": "랜덤 퀴즈 | woori.today",
+      "description": "랜덤 퀴즈: 여러 분야의 문제를 섞어 매번 다른 순서로 풀어 봅니다."
+    },
+    "random-math-10": {
+      "title": "랜덤 수학 10 | woori.today",
+      "description": "랜덤 수학 10: 여러 분야의 문제를 섞어 매번 다른 순서로 풀어 봅니다."
+    },
+    "random-nonsense-10": {
+      "title": "랜덤 넌센스 10 | woori.today",
+      "description": "랜덤 넌센스 10: 여러 분야의 문제를 섞어 매번 다른 순서로 풀어 봅니다."
+    },
+    "challenge-10": {
+      "title": "도전 10 | woori.today",
+      "description": "도전 10: 정해진 문항 수를 이어 풀며 끝까지 집중해 봅니다."
+    },
+    "challenge-20": {
+      "title": "도전 20 | woori.today",
+      "description": "도전 20: 정해진 문항 수를 이어 풀며 끝까지 집중해 봅니다."
+    }
+  },
+  "titleTermCount": 70,
+  "translatedQuizSlugs": [
+    "general-knowledge-quiz",
+    "everyday-knowledge-quiz",
+    "difficult-general-knowledge-quiz",
+    "world-capitals-quiz",
+    "country-flags-quiz",
+    "country-currency-quiz",
+    "country-location-quiz",
+    "asia-capitals-quiz",
+    "europe-capitals-quiz",
+    "world-geography-quiz",
+    "basic-science-quiz",
+    "physics-quiz",
+    "chemistry-quiz",
+    "biology-quiz",
+    "astronomy-quiz",
+    "difficult-science-quiz",
+    "world-history-quiz",
+    "korean-history-quiz",
+    "ancient-history-quiz",
+    "modern-history-quiz",
+    "addition-quiz",
+    "subtraction-quiz",
+    "multiplication-quiz",
+    "division-quiz",
+    "multiplication-table-quiz",
+    "mental-math-quiz",
+    "fraction-quiz",
+    "percentage-quiz",
+    "equation-quiz",
+    "arithmetic-challenge",
+    "english-vocabulary-quiz",
+    "english-spelling-quiz",
+    "english-grammar-quiz",
+    "hiragana-quiz",
+    "katakana-quiz",
+    "japanese-vocabulary-quiz",
+    "chinese-character-quiz",
+    "korean-vocabulary-quiz",
+    "computer-basics-quiz",
+    "programming-basics-quiz",
+    "web-development-quiz",
+    "database-quiz",
+    "network-basics-quiz",
+    "difficult-it-quiz",
+    "number-memory-test",
+    "word-memory-test",
+    "sequence-memory-test",
+    "visual-memory-test",
+    "pattern-recognition-test",
+    "concentration-test",
+    "reaction-time-test",
+    "click-speed-test",
+    "typing-speed-test",
+    "color-reaction-test",
+    "random-trivia-challenge",
+    "true-false-challenge",
+    "impossible-quiz",
+    "mixed-hard-quiz",
+    "general-knowledge",
+    "easy-general-knowledge",
+    "hard-general-knowledge",
+    "random-general-knowledge",
+    "adult-general-knowledge",
+    "daily-life-quiz",
+    "nonsense",
+    "easy-nonsense-quiz",
+    "riddle-quiz",
+    "brain-teaser",
+    "easy-brain-teaser",
+    "hard-brain-teaser",
+    "number-pattern-quiz",
+    "logic-reasoning-quiz",
+    "random-brain-teaser",
+    "math-basic",
+    "math-advanced",
+    "mental-arithmetic-test",
+    "sequence-math-quiz",
+    "probability-quiz",
+    "history-knowledge-quiz",
+    "ancient-civilizations-quiz",
+    "modern-history-knowledge",
+    "science-knowledge-quiz",
+    "space-quiz",
+    "biology-knowledge-quiz",
+    "world-geography",
+    "capital-cities-quiz",
+    "country-knowledge-quiz",
+    "language-knowledge-quiz",
+    "english-vocabulary",
+    "it-development-quiz",
+    "programming-knowledge-quiz",
+    "random-quiz",
+    "random-math-10",
+    "random-nonsense-10",
+    "challenge-10",
+    "challenge-20"
+  ],
+  "mathPrompts": {
+    "whatIsX": "x의 값을 구하세요.",
+    "findX": "Find x.",
+    "decimal": "소수로",
+    "percentage": "WHOLE_SLOT의 PERCENT_SLOT%는 얼마인가요?",
+    "fraction": "FIRST_FRACTION_SLOT + SECOND_FRACTION_SLOT = ? (소수로)"
+  },
+  "interactiveTest": {
+    "passage": "작은 호기심은 새로운 발견으로 이어집니다. 천천히 읽고 정확하게 입력해 보세요.",
+    "copy": {
+      "start": "시작",
+      "tap": "초록색이 되면 클릭하세요",
+      "go": "지금 클릭!",
+      "tooSoon": "너무 빨랐어요. 다시 도전해 보세요.",
+      "done": "완료",
+      "submit": "확인",
+      "remember": "화면의 내용을 기억하세요",
+      "type": "여기에 입력하세요",
+      "accuracy": "정확도",
+      "errors": "오류",
+      "wpm": "분당 단어 수",
+      "time": "기록",
+      "clicks": "클릭",
+      "matched": "완성한 쌍",
+      "tryAgain": "다시 도전"
+    },
+    "memoryWords": "바다 사과 별 구름",
+    "extraCopy": {
+      "moves": "이동",
+      "tapFast": "빠르게 눌러 보세요",
+      "cell": "칸"
+    }
+  }
+}

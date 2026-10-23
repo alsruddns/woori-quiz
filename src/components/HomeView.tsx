@@ -82,7 +82,7 @@ export function HomeView({ locale: rawLocale }: { locale: string }) {
 
   const heading = mode === "search" ? copy.searchResults : mode === "category" && category ? quizCategoryName(locale, category) : t.allQuizzes;
 
-  return <QuizShell ref={mainRef} locale={locale} logoHref={`/${locale}`} mode={mode} activeCategory={category} query={query} onSelectCategory={selectCategory} onSearchChange={setQuery}>
+  return <QuizShell ref={mainRef} locale={locale} logoHref={quizPath(locale)} mode={mode} activeCategory={category} query={query} onSelectCategory={selectCategory} onSearchChange={setQuery}>
         {mode === "home" ? <>
           <section className="discovery-intro">
             <div><span className="discovery-kicker">woori.today</span><h1>{t.quiz}</h1><p>{copy.intro}</p></div>

@@ -410,5 +410,12 @@
   "brainSeo": {
     "title": "Brain Teaser: Hamon sa Isip | woori.today",
     "description": "Brain Teaser: Hamon sa Isip: Gamitin ang mga pahiwatig, pattern ng numero, at lohika upang mahanap ang sagot."
+  },
+  "mathPrompts": {
+    "whatIsX": "Ano ang halaga ng x?",
+    "findX": "Hanapin ang halaga ng x.",
+    "decimal": "decimal na numero",
+    "percentage": "Magkano ang PERCENT_SLOT% ng WHOLE_SLOT?",
+    "fraction": "FIRST_FRACTION_SLOT + SECOND_FRACTION_SLOT = ? (decimal na numero)"
   }
 }

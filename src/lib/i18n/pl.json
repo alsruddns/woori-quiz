@@ -366,5 +366,12 @@
       "tapFast": "Klikaj tak szybko, jak potrafisz",
       "cell": "Pole"
     }
+  },
+  "mathPrompts": {
+    "whatIsX": "Rozwiąż równanie dla x",
+    "findX": "Find x.",
+    "decimal": "liczba dziesiętna",
+    "percentage": "Ile wynosi PERCENT_SLOT% z WHOLE_SLOT?",
+    "fraction": "FIRST_FRACTION_SLOT + SECOND_FRACTION_SLOT = ? (liczba dziesiętna)"
   }
 }
