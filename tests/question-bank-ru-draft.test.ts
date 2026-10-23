@@ -7,7 +7,7 @@ import { localeExpansionTargets, locales, publishedLocales } from "../src/lib/i1
 describe("Russian question bank draft", () => {
   it("covers all source questions while the incomplete locale stays unpublished", () => {
     const sourceById = new Map(questionBank.map((question) => [question.id, question]));
-    const preservedRussianTokens = new Set(["CO₂", "H₂O", "NaCl", "JavaScript", "SQL", "HTML", "CSS", "PNG", ".png", ".mp3", ".csv", ".exe"]);
+    const preservedRussianTokens = new Set(["CO₂", "H₂O", "NaCl", "Java", "C", "JavaScript", "Swift", "SQL", "HTML", "CSS", "PNG", ".png", ".mp3", ".csv", ".exe"]);
     expect(Object.keys(copies)).toHaveLength(questionBank.length);
     expect(Object.keys(copies).sort()).toEqual([...sourceById.keys()].sort());
     expect(localeExpansionTargets).toContain("ru");
@@ -38,7 +38,14 @@ describe("Russian question bank draft", () => {
     expect(batchArtifacts, "Russian copy has no batch artifacts or embedded line breaks").toEqual([]);
     expect(untranslatedOptions, "Russian answer choices are translated except for scientific and technical tokens").toEqual([]);
     expect(copies["general-007"].options).toEqual(["Атлантический океан", "Индийский", "Северный Ледовитый океан", "Тихий океан"]);
-    expect(copies["general-010"].options).toContain("Ртуть");
+    expect(copies["general-010"].options).toEqual(["Железо", "Медь", "Ртуть", "Алюминий"]);
+    expect(copies["geography-029"].options[0]).toBe("Тихий океан");
+    expect(copies["history-033"].options[1]).toBe("Иоганн Гутенберг");
+    expect(copies["language-051"].explanation).toContain("Brief означает");
+    expect(copies["language-057"].question).toContain("предложении");
+    expect(copies["language-059"].explanation).toContain("Glance означает");
+    expect(copies["technology-061"].question).toContain("аббревиатура CPU");
+    expect(copies["technology-062"].options).toEqual(["Java", "C", "JavaScript", "Swift"]);
   });
 
   it("loads Russian copy through the quiz question loader and preserves scoring after shuffling", async () => {
