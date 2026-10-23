@@ -46,17 +46,26 @@ describe("localization quality index policy", () => {
     }
   }, 60000);
 
-  it("keeps unsupported Arabic outside routing until its catalog is connected", () => {
-    expect(publishedLocales).not.toContain("ar");
-    expect(locales).not.toContain("ar");
-    expect(localeExpansionTargets).toContain("ar");
-    expect(generateListParams().some(({ locale }) => String(locale) === "ar")).toBe(false);
+  it("keeps every incomplete target outside routing until its catalog is connected", () => {
+    const incompleteTargets = localeExpansionTargets.slice(locales.length);
+    const routedLocales = generateListParams().map(({ locale }) => String(locale));
+    for (const locale of incompleteTargets) {
+      expect(publishedLocales, `${locale} must not be published`).not.toContain(locale);
+      expect(locales, `${locale} must not be routable`).not.toContain(locale);
+      expect(routedLocales, `${locale} must not have a generated list route`).not.toContain(locale);
+    }
   });
 
   it("filters sitemap detail URLs by the same page quality result", async () => {
     const response = await GET();
     const xml = await response.text();
     const urls = new Set([...xml.matchAll(/<loc>([^<]+)<\/loc>/g)].map(([, url]) => url));
+    for (const locale of localeExpansionTargets.slice(locales.length)) {
+      expect(urls.has(`https://www.woori.today/${locale}/quiz`), `${locale} list page must stay out of the sitemap`).toBe(false);
+      for (const quiz of quizzes.filter((item) => item.isPublic)) {
+        expect(urls.has(`https://www.woori.today/${locale}/quiz/${quiz.slug}`), `${locale}/${quiz.slug} must stay out of the sitemap`).toBe(false);
+      }
+    }
     const expectedLists = (await Promise.all(locales.map(async (locale) => [locale, await getListLocalizationQuality(locale)] as const)))
       .filter(([, quality]) => quality.indexable).map(([locale]) => locale);
     for (const locale of expectedLists) expect(urls.has(`https://www.woori.today/${locale}/quiz`)).toBe(true);
@@ -98,12 +107,14 @@ describe("localization quality index policy", () => {
     }
   }, 30000);
 
-  it("keeps unsupported Arabic out of a published locale's hreflang", async () => {
+  it("keeps every incomplete target out of published hreflang", async () => {
     const metadata = await generateListMetadata({ params: Promise.resolve({ locale: "hi" }) });
     expect(metadata.robots).toMatchObject({ index: true, follow: true });
     expect(metadata.alternates?.canonical).toBe("/hi/quiz");
     const languages = metadata.alternates?.languages as Record<string, string>;
-    expect(languages.ar).toBeUndefined();
+    for (const locale of localeExpansionTargets.slice(locales.length)) {
+      expect(languages[locale], `${locale} must not appear in hreflang`).toBeUndefined();
+    }
     expect(languages.en).toBe("/en/quiz");
   });
 

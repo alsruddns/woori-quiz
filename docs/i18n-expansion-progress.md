@@ -42,5 +42,6 @@ The existing non-English catalogs need a fresh audit. The earlier “390/621” 
 - Lint: passed (`pnpm lint`).
 - Full test suite: **61/61 passed** (`pnpm test`), including 621-question coverage for Japanese, Simplified Chinese, Spanish, Brazilian Portuguese, German, French, Vietnamese, Indonesian, Thai, Traditional Chinese, Italian, Dutch, and Hindi; route, selector, SEO, sitemap, scoring, and mobile UI checks.
 - Production build: passed (`pnpm build`); 907 paths generated, including 15 localized list pages and 870 quiz detail routes.
+- Incomplete-target publication guard: all 11 not-yet-connected targets are checked for absence from generated routes, published hreflang, and sitemap list/detail URLs. Focused localization tests passed (11/11), TypeScript passed, and lint passed after this guard change.
 
-**Next start:** Arabic (`ar`) UI and question-bank expansion. No catalog or question-bank localization is currently connected (0/621). Keep it unpublished while building common UI, content, route, RTL layout, SEO, and quiz coverage. Hindi and the other completed languages are public. Prior locale commits are pushed to `origin/develop`.
+**Next start:** Arabic (`ar`) UI and question-bank expansion. No catalog or question-bank localization is currently connected (0/621). Keep it unpublished while building common UI, content, route, RTL layout, SEO, and quiz coverage. Hindi and the other completed languages are public. Prior locale commits and this publication-guard update are pushed to `origin/develop`.
