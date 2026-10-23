@@ -23,6 +23,7 @@ describe("Russian question bank draft", () => {
       expect(copy.options, `${id} option count`).toHaveLength(source.options.length);
       expect(new Set(copy.options).size, `${id} duplicate options`).toBe(copy.options.length);
       for (const value of [copy.question, ...copy.options, copy.explanation]) {
+        expect(value, `${id} has no Unicode replacement characters`).not.toContain("\uFFFD");
         if (/ZZQB\d{4}ZZ|[\r\n]/.test(value)) batchArtifacts.push(`${id}: ${JSON.stringify(value)}`);
       }
       if (source.category === "language") expect(copy.options, `${id} preserves English quiz material`).toEqual(source.options);

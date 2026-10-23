@@ -51,6 +51,7 @@ describe("Russian UI catalog draft", () => {
     expect(strings.filter((value) => /[\u0400-\u04FF]/.test(value)).length).toBeGreaterThan(250);
     for (const [index, value] of strings.entries()) {
       expect(value.trim(), `catalog string ${index}`).not.toBe("");
+      expect(value, `catalog string ${index} has no Unicode replacement characters`).not.toContain("\uFFFD");
       expect(value, `catalog string ${index} has no generation artifacts`).not.toMatch(/ZZUI|98765|\n/);
     }
   });
