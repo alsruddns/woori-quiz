@@ -1,24 +1,15 @@
+import { getLoadedLocaleCatalog } from "./locale-catalog";
+type LocaleCatalog<Code extends import("./locale-catalog").ExpansionLocale> = Awaited<ReturnType<typeof import("./locale-catalog").loadLocaleCatalog<Code>>>;
 import type { Locale } from "./i18n";
 import { uiMessages } from "./i18n";
 import type { Quiz } from "./registry";
 import { quizDescription } from "./content-copy";
-import ruCatalog from "./i18n/ru.json";
-import trCatalog from "./i18n/tr.json";
-import plCatalog from "./i18n/pl.json";
-import filCatalog from "./i18n/fil.json";
-import bnCatalog from "./i18n/bn.json";
-import ukCatalog from "./i18n/uk.json";
-import msCatalog from "./i18n/ms.json";
-import svCatalog from "./i18n/sv.json";
-import csCatalog from "./i18n/cs.json";
-import roCatalog from "./i18n/ro.json";
-import elCatalog from "./i18n/el.json";
 
 type StaticLocale = Exclude<Locale, "ru" | "tr" | "pl" | "fil" | "bn" | "uk" | "ms" | "sv" | "cs" | "ro" | "el">;
 
 const terms = ["general","knowledge","everyday","difficult","world","capitals","country","flags","currency","location","asia","europe","geography","basic","science","physics","chemistry","biology","astronomy","history","korean","ancient","modern","addition","subtraction","multiplication","division","table","mental","math","arithmetic","challenge","english","vocabulary","spelling","grammar","hiragana","katakana","japanese","chinese","character","computer","programming","web","development","database","network","it","number","word","sequence","visual","pattern","recognition","concentration","reaction","time","click","typing","speed","color","random","trivia","true","false","impossible","mixed","hard","quiz","test"] as const;
 export const quizTitleWordCount = terms.length;
-export function quizTitleTranslationWordCount(locale: Locale): number { return locale === "ru" ? ruCatalog.titleTerms.length : locale === "tr" || locale === "fil" ? quizTitleWordCount : locale === "bn" ? bnCatalog.titleTerms.length : locale === "uk" ? ukCatalog.titleTerms.length : locale === "pl" ? plCatalog.titleTerms.length : locale === "ms" ? msCatalog.titleTerms.length : locale === "sv" ? svCatalog.titleTerms.length : locale === "cs" ? csCatalog.titleTerms.length : locale === "ro" ? roCatalog.titleTerms.length : locale === "el" ? elCatalog.titleTerms.length : localizedTerms[locale].length; }
+export function quizTitleTranslationWordCount(locale: Locale): number { return locale === "ru" ? getLoadedLocaleCatalog("ru").titleTerms.length : locale === "tr" || locale === "fil" ? quizTitleWordCount : locale === "bn" ? getLoadedLocaleCatalog("bn").titleTerms.length : locale === "uk" ? getLoadedLocaleCatalog("uk").titleTerms.length : locale === "pl" ? getLoadedLocaleCatalog("pl").titleTerms.length : locale === "ms" ? getLoadedLocaleCatalog("ms").titleTerms.length : locale === "sv" ? getLoadedLocaleCatalog("sv").titleTerms.length : locale === "cs" ? getLoadedLocaleCatalog("cs").titleTerms.length : locale === "ro" ? getLoadedLocaleCatalog("ro").titleTerms.length : locale === "el" ? getLoadedLocaleCatalog("el").titleTerms.length : localizedTerms[locale].length; }
 const localizedTerms: Record<StaticLocale, readonly string[]> = {
   ko:"일반|상식|일상|고난도|세계|수도|국가|국기|통화|위치|아시아|유럽|지리|기초|과학|물리|화학|생물|천문|역사|한국|고대|근현대|덧셈|뺄셈|곱셈|나눗셈|구구단|암산|수학|산수|도전|영어|어휘|맞춤법|문법|히라가나|가타카나|일본어|중국어|문자|컴퓨터|프로그래밍|웹|개발|데이터베이스|네트워크|IT|숫자|단어|순서|시각|패턴|인식|집중력|반응|시간|클릭|타자|속도|색상|랜덤|상식|참거짓|거짓|불가능|종합|고난도|퀴즈|테스트".split("|"),
   en:terms.map((term)=>term==="it"?"IT":term.charAt(0).toUpperCase()+term.slice(1)),
@@ -81,33 +72,33 @@ const addedCategoryLabels: Record<StaticLocale, Record<"nonsense" | "brain" | "r
 };
 
 export function quizCategoryName(locale: Locale, category: string): string {
-  if (locale === "sv") return svCatalog.categoryLabels[category as keyof typeof svCatalog.categoryLabels] ?? svCatalog.ui.category[category as keyof typeof svCatalog.ui.category] ?? category;
-  if (locale === "cs") return csCatalog.categoryLabels[category as keyof typeof csCatalog.categoryLabels] ?? csCatalog.ui.category[category as keyof typeof csCatalog.ui.category] ?? category;
-  if (locale === "ro") return roCatalog.categoryLabels[category as keyof typeof roCatalog.categoryLabels] ?? category;
-  if (locale === "el") return elCatalog.categoryLabels[category as keyof typeof elCatalog.categoryLabels] ?? category;
-  if (locale === "ms") return msCatalog.categoryLabels[category as keyof typeof msCatalog.categoryLabels] ?? msCatalog.ui.category[category as keyof typeof msCatalog.ui.category] ?? category;
-  if (locale === "uk") return ukCatalog.categoryLabels[category as keyof typeof ukCatalog.categoryLabels] ?? category;
-  if (locale === "bn") return bnCatalog.categoryLabels[category as keyof typeof bnCatalog.categoryLabels] ?? category;
-  if (locale === "fil") return filCatalog.categoryLabels[category as keyof typeof filCatalog.categoryLabels] ?? category;
-  if (locale === "ru") return ruCatalog.categoryLabels[category as keyof typeof ruCatalog.categoryLabels] ?? ruCatalog.ui.category[category as keyof typeof ruCatalog.ui.category] ?? category;
-  if (locale === "tr") return trCatalog.categoryLabels[category as keyof typeof trCatalog.categoryLabels] ?? category;
-  if (locale === "pl") return plCatalog.categoryLabels[category as keyof typeof plCatalog.categoryLabels] ?? category;
+  if (locale === "sv") return getLoadedLocaleCatalog("sv").categoryLabels[category as keyof LocaleCatalog<"sv">["categoryLabels"]] ?? getLoadedLocaleCatalog("sv").ui.category[category as keyof LocaleCatalog<"sv">["ui"]["category"]] ?? category;
+  if (locale === "cs") return getLoadedLocaleCatalog("cs").categoryLabels[category as keyof LocaleCatalog<"cs">["categoryLabels"]] ?? getLoadedLocaleCatalog("cs").ui.category[category as keyof LocaleCatalog<"cs">["ui"]["category"]] ?? category;
+  if (locale === "ro") return getLoadedLocaleCatalog("ro").categoryLabels[category as keyof LocaleCatalog<"ro">["categoryLabels"]] ?? category;
+  if (locale === "el") return getLoadedLocaleCatalog("el").categoryLabels[category as keyof LocaleCatalog<"el">["categoryLabels"]] ?? category;
+  if (locale === "ms") return getLoadedLocaleCatalog("ms").categoryLabels[category as keyof LocaleCatalog<"ms">["categoryLabels"]] ?? getLoadedLocaleCatalog("ms").ui.category[category as keyof LocaleCatalog<"ms">["ui"]["category"]] ?? category;
+  if (locale === "uk") return getLoadedLocaleCatalog("uk").categoryLabels[category as keyof LocaleCatalog<"uk">["categoryLabels"]] ?? category;
+  if (locale === "bn") return getLoadedLocaleCatalog("bn").categoryLabels[category as keyof LocaleCatalog<"bn">["categoryLabels"]] ?? category;
+  if (locale === "fil") return getLoadedLocaleCatalog("fil").categoryLabels[category as keyof LocaleCatalog<"fil">["categoryLabels"]] ?? category;
+  if (locale === "ru") return getLoadedLocaleCatalog("ru").categoryLabels[category as keyof LocaleCatalog<"ru">["categoryLabels"]] ?? getLoadedLocaleCatalog("ru").ui.category[category as keyof LocaleCatalog<"ru">["ui"]["category"]] ?? category;
+  if (locale === "tr") return getLoadedLocaleCatalog("tr").categoryLabels[category as keyof LocaleCatalog<"tr">["categoryLabels"]] ?? category;
+  if (locale === "pl") return getLoadedLocaleCatalog("pl").categoryLabels[category as keyof LocaleCatalog<"pl">["categoryLabels"]] ?? category;
   if (category in addedCategoryLabels[locale]) return addedCategoryLabels[locale][category as keyof typeof addedCategoryLabels[StaticLocale]];
   return uiMessages[locale].category[category] ?? category;
 }
 
 export function quizTitle(locale: Locale, quiz: Pick<Quiz, "slug" | "title">): string {
-  if (locale === "sv") return svCatalog.quizTitles[quiz.slug as keyof typeof svCatalog.quizTitles] ?? quiz.title;
-  if (locale === "cs") return csCatalog.quizTitles[quiz.slug as keyof typeof csCatalog.quizTitles] ?? quiz.title;
-  if (locale === "ro") return roCatalog.quizTitles[quiz.slug as keyof typeof roCatalog.quizTitles] ?? quiz.title;
-  if (locale === "el") return elCatalog.quizTitles[quiz.slug as keyof typeof elCatalog.quizTitles] ?? quiz.title;
-  if (locale === "ms") return msCatalog.quizTitles[quiz.slug as keyof typeof msCatalog.quizTitles] ?? quiz.title;
-  if (locale === "uk") return ukCatalog.quizTitles[quiz.slug as keyof typeof ukCatalog.quizTitles] ?? quiz.title;
-  if (locale === "bn") return bnCatalog.quizTitles[quiz.slug as keyof typeof bnCatalog.quizTitles] ?? quiz.title;
-  if (locale === "ru") return ruCatalog.quizTitles[quiz.slug as keyof typeof ruCatalog.quizTitles] ?? quiz.title;
-  if (locale === "tr") return trCatalog.quizTitles[quiz.slug as keyof typeof trCatalog.quizTitles] ?? quiz.title;
-  if (locale === "pl") return plCatalog.quizTitles[quiz.slug as keyof typeof plCatalog.quizTitles] ?? quiz.title;
-  if (locale === "fil") return filCatalog.quizTitles[quiz.slug as keyof typeof filCatalog.quizTitles] ?? quiz.title;
+  if (locale === "sv") return getLoadedLocaleCatalog("sv").quizTitles[quiz.slug as keyof LocaleCatalog<"sv">["quizTitles"]] ?? quiz.title;
+  if (locale === "cs") return getLoadedLocaleCatalog("cs").quizTitles[quiz.slug as keyof LocaleCatalog<"cs">["quizTitles"]] ?? quiz.title;
+  if (locale === "ro") return getLoadedLocaleCatalog("ro").quizTitles[quiz.slug as keyof LocaleCatalog<"ro">["quizTitles"]] ?? quiz.title;
+  if (locale === "el") return getLoadedLocaleCatalog("el").quizTitles[quiz.slug as keyof LocaleCatalog<"el">["quizTitles"]] ?? quiz.title;
+  if (locale === "ms") return getLoadedLocaleCatalog("ms").quizTitles[quiz.slug as keyof LocaleCatalog<"ms">["quizTitles"]] ?? quiz.title;
+  if (locale === "uk") return getLoadedLocaleCatalog("uk").quizTitles[quiz.slug as keyof LocaleCatalog<"uk">["quizTitles"]] ?? quiz.title;
+  if (locale === "bn") return getLoadedLocaleCatalog("bn").quizTitles[quiz.slug as keyof LocaleCatalog<"bn">["quizTitles"]] ?? quiz.title;
+  if (locale === "ru") return getLoadedLocaleCatalog("ru").quizTitles[quiz.slug as keyof LocaleCatalog<"ru">["quizTitles"]] ?? quiz.title;
+  if (locale === "tr") return getLoadedLocaleCatalog("tr").quizTitles[quiz.slug as keyof LocaleCatalog<"tr">["quizTitles"]] ?? quiz.title;
+  if (locale === "pl") return getLoadedLocaleCatalog("pl").quizTitles[quiz.slug as keyof LocaleCatalog<"pl">["quizTitles"]] ?? quiz.title;
+  if (locale === "fil") return getLoadedLocaleCatalog("fil").quizTitles[quiz.slug as keyof LocaleCatalog<"fil">["quizTitles"]] ?? quiz.title;
   if (quiz.slug === "brain-teaser") return brainTeaserTitles[locale];
   if (locale === "en") return quiz.title;
   if (locale === "ko" && koreanTitles[quiz.slug]) return koreanTitles[quiz.slug];
@@ -132,26 +123,26 @@ const brainTeaserTitles: Record<StaticLocale, string> = {
 
 export function quizSeoCopy(locale: Locale, quiz: Quiz): { title: string; description: string } {
   if (locale === "ru") {
-    if (quiz.slug === "brain-teaser") return { title: ruCatalog.brainSeo.title, description: ruCatalog.brainSeo.description };
+    if (quiz.slug === "brain-teaser") return { title: getLoadedLocaleCatalog("ru").brainSeo.title, description: getLoadedLocaleCatalog("ru").brainSeo.description };
     const title = quizTitle(locale, quiz);
-    return { title: `${title} | woori.today`, description: ruCatalog.quizDescriptions[quiz.slug as keyof typeof ruCatalog.quizDescriptions] };
+    return { title: `${title} | woori.today`, description: getLoadedLocaleCatalog("ru").quizDescriptions[quiz.slug as keyof LocaleCatalog<"ru">["quizDescriptions"]] };
   }
   if (locale === "tr") {
-    if (quiz.slug === "brain-teaser") return { title: trCatalog.brainSeo.title, description: trCatalog.brainSeo.description };
+    if (quiz.slug === "brain-teaser") return { title: getLoadedLocaleCatalog("tr").brainSeo.title, description: getLoadedLocaleCatalog("tr").brainSeo.description };
     const title = quizTitle(locale, quiz);
-    return { title: `${title} | woori.today`, description: trCatalog.quizDescriptions[quiz.slug as keyof typeof trCatalog.quizDescriptions] };
+    return { title: `${title} | woori.today`, description: getLoadedLocaleCatalog("tr").quizDescriptions[quiz.slug as keyof LocaleCatalog<"tr">["quizDescriptions"]] };
   }
   if (locale === "pl") {
     const title = quizTitle(locale, quiz);
-    return { title: quiz.slug === "brain-teaser" ? plCatalog.brainSeo.title : `${title} | woori.today`, description: quizDescription(locale, quiz, title) };
+    return { title: quiz.slug === "brain-teaser" ? getLoadedLocaleCatalog("pl").brainSeo.title : `${title} | woori.today`, description: quizDescription(locale, quiz, title) };
   }
   if (locale === "fil") {
     const title = quizTitle(locale, quiz);
-    return { title: quiz.slug === "brain-teaser" ? filCatalog.brainSeo.title : `${title} | woori.today`, description: quizDescription(locale, quiz, title) };
+    return { title: quiz.slug === "brain-teaser" ? getLoadedLocaleCatalog("fil").brainSeo.title : `${title} | woori.today`, description: quizDescription(locale, quiz, title) };
   }
   if (locale === "bn") {
     const title = quizTitle(locale, quiz);
-    return { title: quiz.slug === "brain-teaser" ? bnCatalog.brainSeo.title : `${title} | woori.today`, description: quizDescription(locale, quiz, title) };
+    return { title: quiz.slug === "brain-teaser" ? getLoadedLocaleCatalog("bn").brainSeo.title : `${title} | woori.today`, description: quizDescription(locale, quiz, title) };
   }
   if (locale === "uk") {
     const title = quizTitle(locale, quiz);
@@ -167,7 +158,7 @@ export function quizSeoCopy(locale: Locale, quiz: Quiz): { title: string; descri
   }
   if (locale === "ms") {
     const title = quizTitle(locale, quiz);
-    return { title: quiz.slug === "brain-teaser" ? `${msCatalog.quizTitles["brain-teaser"]} | woori.today` : `${title} | woori.today`, description: quizDescription(locale, quiz, title) };
+    return { title: quiz.slug === "brain-teaser" ? `${getLoadedLocaleCatalog("ms").quizTitles["brain-teaser"]} | woori.today` : `${title} | woori.today`, description: quizDescription(locale, quiz, title) };
   }
   if (locale === "el") {
     const title = quizTitle(locale, quiz);
@@ -340,24 +331,24 @@ export function localizeMathPrompt(locale: Locale, prompt: string): string {
 }
 
 export function hasQuizTermTranslations(locale: Locale, slugs: readonly string[]): boolean {
-  if (locale === "sv") return slugs.every((slug) => Object.hasOwn(svCatalog.quizTitles, slug));
-  if (locale === "cs") return slugs.every((slug) => Object.hasOwn(csCatalog.quizTitles, slug));
-  if (locale === "ro") return slugs.every((slug) => Object.hasOwn(roCatalog.quizTitles, slug));
-  if (locale === "el") return slugs.every((slug) => Object.hasOwn(elCatalog.quizTitles, slug));
-  if (locale === "ms") return slugs.every((slug) => Object.hasOwn(msCatalog.quizTitles, slug));
-  if (locale === "bn") return slugs.every((slug) => Object.hasOwn(bnCatalog.quizTitles, slug));
-  if (locale === "uk") return slugs.every((slug) => Object.hasOwn(ukCatalog.quizTitles, slug));
+  if (locale === "sv") return slugs.every((slug) => Object.hasOwn(getLoadedLocaleCatalog("sv").quizTitles, slug));
+  if (locale === "cs") return slugs.every((slug) => Object.hasOwn(getLoadedLocaleCatalog("cs").quizTitles, slug));
+  if (locale === "ro") return slugs.every((slug) => Object.hasOwn(getLoadedLocaleCatalog("ro").quizTitles, slug));
+  if (locale === "el") return slugs.every((slug) => Object.hasOwn(getLoadedLocaleCatalog("el").quizTitles, slug));
+  if (locale === "ms") return slugs.every((slug) => Object.hasOwn(getLoadedLocaleCatalog("ms").quizTitles, slug));
+  if (locale === "bn") return slugs.every((slug) => Object.hasOwn(getLoadedLocaleCatalog("bn").quizTitles, slug));
+  if (locale === "uk") return slugs.every((slug) => Object.hasOwn(getLoadedLocaleCatalog("uk").quizTitles, slug));
   if (locale === "ru") {
-    return slugs.every((slug) => Object.hasOwn(ruCatalog.quizTitles, slug));
+    return slugs.every((slug) => Object.hasOwn(getLoadedLocaleCatalog("ru").quizTitles, slug));
   }
   if (locale === "tr") {
-    return slugs.every((slug) => Object.hasOwn(trCatalog.quizTitles, slug));
+    return slugs.every((slug) => Object.hasOwn(getLoadedLocaleCatalog("tr").quizTitles, slug));
   }
   if (locale === "pl") {
-    return slugs.every((slug) => Object.hasOwn(plCatalog.quizTitles, slug));
+    return slugs.every((slug) => Object.hasOwn(getLoadedLocaleCatalog("pl").quizTitles, slug));
   }
   if (locale === "fil") {
-    return slugs.every((slug) => Object.hasOwn(filCatalog.quizTitles, slug));
+    return slugs.every((slug) => Object.hasOwn(getLoadedLocaleCatalog("fil").quizTitles, slug));
   }
   const translated = new Set<string>([...terms, ...Object.keys(extraTerms[locale]), ...Object.keys(bankTerms[locale])]);
   const localized = localizedTerms[locale];

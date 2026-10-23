@@ -6,6 +6,7 @@ import { categories, quizzes, type Quiz } from "./registry";
 import { generateMathQuestion } from "./math";
 import { questionCategoryForQuiz, questionCopyResultForLocale, questionTagForQuiz, type QuizQuestion } from "./question-bank/core";
 import { loadQuestionBankForCategory } from "./question-bank/select-questions";
+import { loadLocaleCatalogForServer } from "./locale-catalog";
 
 export const LOCALIZATION_INDEX_THRESHOLD = {
   questionRate: 1,
@@ -304,6 +305,7 @@ function listPageIsLocalized(locale: Locale): boolean {
 }
 
 export async function getListLocalizationQuality(locale: Locale): Promise<{ complete: boolean; indexable: boolean }> {
+  await loadLocaleCatalogForServer(locale);
   const complete = await localeContentIsComplete(locale);
   return { complete, indexable: complete && publishedLocales.includes(locale as (typeof publishedLocales)[number]) };
 }
@@ -390,6 +392,7 @@ const dynamicMathPromptSamples: Record<string, string[]> = {
 };
 
 export async function getQuizLocalizationQuality(locale: Locale, quiz: Quiz): Promise<LocalizationQuality> {
+  await loadLocaleCatalogForServer(locale);
   const cacheKey = `${locale}:${quiz.slug}`;
   let pending = qualityCache.get(cacheKey);
   if (!pending) {

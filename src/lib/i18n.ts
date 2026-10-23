@@ -1,14 +1,5 @@
-import ruCatalog from "./i18n/ru.json";
-import trCatalog from "./i18n/tr.json";
-import plCatalog from "./i18n/pl.json";
-import filCatalog from "./i18n/fil.json";
-import bnCatalog from "./i18n/bn.json";
-import ukCatalog from "./i18n/uk.json";
-import msCatalog from "./i18n/ms.json";
-import svCatalog from "./i18n/sv.json";
-import csCatalog from "./i18n/cs.json";
-import roCatalog from "./i18n/ro.json";
-import elCatalog from "./i18n/el.json";
+
+import { getLoadedLocaleCatalog, type ExpansionLocale as CatalogLocale } from "./locale-catalog";
 
 export const locales = ["ko", "en", "ja", "zh", "es", "pt-br", "de", "fr", "vi", "id", "th", "zh-tw", "it", "nl", "hi", "ru", "tr", "pl", "fil", "bn", "uk", "ms", "sv", "cs", "ro", "el"] as const;
 export type Locale = (typeof locales)[number];
@@ -23,7 +14,7 @@ export type ExpansionLocale = Exclude<TargetLocale, (typeof publishedLocales)[nu
 export const excludedExpansionLocales = ["ar", "ur", "fa", "he"] as const;
 // Only these locales currently meet the full catalog publication gate.
 export const publishedLocales = ["ko", "en", "ja", "zh", "es", "pt-br", "de", "fr", "vi", "id", "th", "zh-tw", "it", "nl", "hi", "ru", "tr", "pl", "fil", "bn", "uk", "ms", "sv", "cs", "ro", "el"] as const satisfies readonly Locale[];
-export const localeNames: Record<Locale, string> = { ko:"한국어", en:"English", ja:"日本語", zh:"简体中文", es:"Español", "pt-br":"Português (Brasil)", de:"Deutsch", fr:"Français", vi:"Tiếng Việt", id:"Bahasa Indonesia", th:"ไทย", "zh-tw":"繁體中文", it:"Italiano", nl:"Nederlands", hi:"हिन्दी", ru:ruCatalog.localeName, tr:trCatalog.localeName , pl: plCatalog.localeName, fil: filCatalog.localeName, bn: bnCatalog.localeName, uk: ukCatalog.localeName, ms: msCatalog.localeName, sv: svCatalog.localeName, cs: csCatalog.localeName, ro: roCatalog.localeName, el: elCatalog.localeName };
+export const localeNames: Record<Locale, string> = { ko:"한국어", en:"English", ja:"日本語", zh:"简体中文", es:"Español", "pt-br":"Português (Brasil)", de:"Deutsch", fr:"Français", vi:"Tiếng Việt", id:"Bahasa Indonesia", th:"ไทย", "zh-tw":"繁體中文", it:"Italiano", nl:"Nederlands", hi:"हिन्दी", ru:"\u0420\u0443\u0441\u0441\u043a\u0438\u0439", tr:"T\u00fcrk\u00e7e", pl:"Polski", fil:"Filipino", bn:"\u09ac\u09be\u0982\u09b2\u09be", uk:"\u0423\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u0430", ms:"Bahasa Melayu", sv:"Svenska", cs:"\u010ce\u0161tina", ro:"Rom\u00e2n\u0103", el:"\u0395\u03bb\u03bb\u03b7\u03bd\u03b9\u03ba\u03ac" };
 export const messages: Record<Locale, { title:string; subtitle:string; search:string; today:string; categories:string; popular:string; play:string; question:string; next:string; submit:string; result:string; retry:string; home:string; related:string; score:string; footer:string }> = {
 ko:{title:"퀴즈테스트",subtitle:"오늘의 호기심을 깨우는 퀴즈",search:"퀴즈 검색",today:"오늘의 퀴즈",categories:"카테고리",popular:"인기 퀴즈",play:"시작하기",question:"문제",next:"다음 문제",submit:"답변 확인",result:"퀴즈 결과",retry:"다시 풀기",home:"홈으로",related:"관련 퀴즈",score:"점수",footer:"개인정보 안내 · 이용안내 · 문의 사항"},
 en:{title:"Quiz",subtitle:"A little curiosity goes a long way.",search:"Search quizzes",today:"Quiz of the day",categories:"Categories",popular:"Popular quizzes",play:"Start quiz",question:"Question",next:"Next question",submit:"Check answer",result:"Your result",retry:"Try again",home:"Home",related:"Related quizzes",score:"Score",footer:"Privacy · Terms · Contact"},
@@ -40,17 +31,17 @@ th:{title:"แบบทดสอบ",subtitle:"ปลุกความอยา
 it:{title:"Quiz",subtitle:"Stimola la curiosità ogni giorno.",search:"Cerca quiz",today:"Quiz del giorno",categories:"Categorie",popular:"Quiz popolari",play:"Inizia",question:"Domanda",next:"Avanti",submit:"Verifica",result:"Risultato",retry:"Riprova",home:"Home",related:"Quiz correlati",score:"Punteggio",footer:"Privacy · Guida · Contatti"},
 nl:{title:"Quiz",subtitle:"Prikkel elke dag je nieuwsgierigheid.",search:"Quiz zoeken",today:"Quiz van de dag",categories:"Categorieën",popular:"Populaire quizzen",play:"Quiz starten",question:"Vraag",next:"Volgende",submit:"Controleren",result:"Resultaat",retry:"Opnieuw",home:"Home",related:"Gerelateerde quizzen",score:"Score",footer:"Privacy · Hulp · Contact"},
 hi:{title:"क्विज़",subtitle:"हर दिन अपनी जिज्ञासा जगाएँ।",search:"क्विज़ खोजें",today:"आज का क्विज़",categories:"श्रेणियाँ",popular:"लोकप्रिय क्विज़",play:"शुरू करें",question:"प्रश्न",next:"अगला",submit:"उत्तर जाँचें",result:"परिणाम",retry:"फिर प्रयास करें",home:"मुखपृष्ठ",related:"संबंधित क्विज़",score:"स्कोर",footer:"गोपनीयता · सहायता · संपर्क"},
-ru: ruCatalog.messages,
-tr: trCatalog.messages,
-pl: plCatalog.messages,
-fil: filCatalog.messages,
-bn: bnCatalog.messages,
-uk: ukCatalog.messages,
-ms: msCatalog.messages,
-sv: svCatalog.messages,
-cs: csCatalog.messages,
-  ro: roCatalog.messages,
-  el: elCatalog.messages,
+  get ru() { return getLoadedLocaleCatalog("ru").messages; },
+  get tr() { return getLoadedLocaleCatalog("tr").messages; },
+  get pl() { return getLoadedLocaleCatalog("pl").messages; },
+  get fil() { return getLoadedLocaleCatalog("fil").messages; },
+  get bn() { return getLoadedLocaleCatalog("bn").messages; },
+  get uk() { return getLoadedLocaleCatalog("uk").messages; },
+  get ms() { return getLoadedLocaleCatalog("ms").messages; },
+  get sv() { return getLoadedLocaleCatalog("sv").messages; },
+  get cs() { return getLoadedLocaleCatalog("cs").messages; },
+  get ro() { return getLoadedLocaleCatalog("ro").messages; },
+  get el() { return getLoadedLocaleCatalog("el").messages; },
 };
 export function isLocale(value:string): value is Locale { return (locales as readonly string[]).includes(value); }
 export function isPublishedLocale(value:string): value is (typeof publishedLocales)[number] { return (publishedLocales as readonly string[]).includes(value); }
@@ -88,6 +79,17 @@ type DiscoveryCopy = {
   resultsFor: (query: string, count: number) => string;
 };
 
+function expandedDiscoveryCopy(locale: CatalogLocale): DiscoveryCopy {
+  const discovery = getLoadedLocaleCatalog(locale).discovery as { intro: string; quickStart: string; searchResults: string; browseCategories: string; clearSearch: string; resultsFor?: string };
+  const resultsFor = (query: string, count: number) => {
+    if (locale === "ru") return discovery.resultsFor!.replace("QUERY_SLOT", query).replace("QUERY_COUNT", formatRussianCount(count, "\u0432\u0438\u043a\u0442\u043e\u0440\u0438\u043d\u0430"));
+    if (locale === "tr") return discovery.resultsFor!.replace("QUERY_SLOT", query).replace("QUERY_COUNT", `${count} sonu\u00e7`);
+    if (locale === "pl") return `${formatPolishCount(count, ["quiz", "quizy", "quiz\u00f3w"])} dla ?${query}?`;
+    return (discovery.resultsFor ?? "COUNT_SLOT results for QUERY_SLOT").replace("COUNT_SLOT", String(count)).replace("QUERY_SLOT", query);
+  };
+  return { intro: discovery.intro, quickStart: discovery.quickStart, searchResults: discovery.searchResults, browseCategories: discovery.browseCategories, clearSearch: discovery.clearSearch, resultsFor };
+}
+
 export const discoveryCopy: Record<Locale, DiscoveryCopy> = {
   ko:{intro:"상식부터 수학, 브레인 티저까지 원하는 퀴즈에 도전해 보세요.",quickStart:"빠르게 시작하기",searchResults:"검색 결과",browseCategories:"카테고리 선택",clearSearch:"검색어 지우기",resultsFor:(q,n)=>`“${q}” 검색 결과 · 퀴즈 ${n}개`},
   en:{intro:"Explore quizzes from general knowledge and math to brain teasers.",quickStart:"Quick start",searchResults:"Search results",browseCategories:"Choose a category",clearSearch:"Clear search",resultsFor:(q,n)=>`${n} quizzes for “${q}”`},
@@ -104,17 +106,17 @@ export const discoveryCopy: Record<Locale, DiscoveryCopy> = {
   it:{intro:"Esplora quiz di cultura generale, matematica e logica.",quickStart:"Inizia subito",searchResults:"Risultati di ricerca",browseCategories:"Scegli una categoria",clearSearch:"Cancella la ricerca",resultsFor:(q,n)=>`${n} quiz per “${q}”`},
   nl:{intro:"Ontdek quizzen over algemene kennis, wiskunde en denkpuzzels.",quickStart:"Snel beginnen",searchResults:"Zoekresultaten",browseCategories:"Kies een categorie",clearSearch:"Zoekopdracht wissen",resultsFor:(q,n)=>`${n} quizzen voor ‘${q}’`},
   hi:{intro:"सामान्य ज्ञान, गणित और दिमाग़ी पहेलियों में अपनी पसंद का क्विज़ चुनें।",quickStart:"तुरंत शुरू करें",searchResults:"खोज के परिणाम",browseCategories:"श्रेणी चुनें",clearSearch:"खोज मिटाएँ",resultsFor:(q,n)=>`“${q}” के लिए ${n} क्विज़`},
-  ru:{intro:ruCatalog.discovery.intro,quickStart:ruCatalog.discovery.quickStart,searchResults:ruCatalog.discovery.searchResults,browseCategories:ruCatalog.discovery.browseCategories,clearSearch:ruCatalog.discovery.clearSearch,resultsFor:(q,n)=>ruCatalog.discovery.resultsFor.replace("QUERY_SLOT",q).replace("QUERY_COUNT",formatRussianCount(n,"викторина"))},
-  tr:{...trCatalog.discovery,resultsFor:(q,n)=>trCatalog.discovery.resultsFor.replace("QUERY_SLOT",q).replace("QUERY_COUNT",`${n} sonuç`)},
-  pl:{...plCatalog.discovery,resultsFor:(q,n)=>`${formatPolishCount(n,["quiz","quizy","quizów"])} dla „${q}”`},
-  fil:{...filCatalog.discovery,resultsFor:(q,n)=>filCatalog.discovery.resultsFor.replace("COUNT_SLOT",String(n)).replace("QUERY_SLOT",q)},
-  bn:{...bnCatalog.discovery,resultsFor:(q,n)=>bnCatalog.discovery.resultsFor.replace("COUNT_SLOT",String(n)).replace("QUERY_SLOT",q)},
-  uk:{...ukCatalog.discovery,resultsFor:(q,n)=>ukCatalog.discovery.resultsFor.replace("COUNT_SLOT",String(n)).replace("QUERY_SLOT",q)},
-  ms:{...msCatalog.discovery,resultsFor:(q,n)=>msCatalog.discovery.resultsFor.replace("COUNT_SLOT",String(n)).replace("QUERY_SLOT",q)},
-  sv:{...svCatalog.discovery,resultsFor:(q,n)=>svCatalog.discovery.resultsFor.replace("COUNT_SLOT",String(n)).replace("QUERY_SLOT",q)},
-  cs:{...csCatalog.discovery,resultsFor:(q,n)=>csCatalog.discovery.resultsFor.replace("COUNT_SLOT",String(n)).replace("QUERY_SLOT",q)},
-  ro:{...roCatalog.discovery,resultsFor:(q,n)=>roCatalog.discovery.resultsFor.replace("COUNT_SLOT",String(n)).replace("QUERY_SLOT",q)},
-  el:{...elCatalog.discovery,resultsFor:(q,n)=>elCatalog.discovery.resultsFor.replace("COUNT_SLOT",String(n)).replace("QUERY_SLOT",q)},
+  get ru() { return expandedDiscoveryCopy("ru"); },
+  get tr() { return expandedDiscoveryCopy("tr"); },
+  get pl() { return expandedDiscoveryCopy("pl"); },
+  get fil() { return expandedDiscoveryCopy("fil"); },
+  get bn() { return expandedDiscoveryCopy("bn"); },
+  get uk() { return expandedDiscoveryCopy("uk"); },
+  get ms() { return expandedDiscoveryCopy("ms"); },
+  get sv() { return expandedDiscoveryCopy("sv"); },
+  get cs() { return expandedDiscoveryCopy("cs"); },
+  get ro() { return expandedDiscoveryCopy("ro"); },
+  get el() { return expandedDiscoveryCopy("el"); },
 };
 
 export const detailCopy: Record<Locale, { correctCount: string; incorrectCount: string; newSet: string; otherQuizzes: string }> = {
@@ -133,17 +135,17 @@ export const detailCopy: Record<Locale, { correctCount: string; incorrectCount: 
   it:{correctCount:"Corrette",incorrectCount:"Errate",newSet:"Prova nuove domande",otherQuizzes:"Scopri altri quiz"},
   nl:{correctCount:"Goed",incorrectCount:"Fout",newSet:"Nieuwe vragen proberen",otherQuizzes:"Andere quizzen bekijken"},
   hi:{correctCount:"सही",incorrectCount:"गलत",newSet:"नए प्रश्न आज़माएँ",otherQuizzes:"अन्य क्विज़ देखें"},
-  ru:ruCatalog.detail,
-  tr:trCatalog.detail,
-  pl:plCatalog.detail,
-  fil:filCatalog.detail,
-  bn:bnCatalog.detail,
-  uk:ukCatalog.detail,
-  ms:msCatalog.detail,
-  sv:svCatalog.detail,
-  cs:csCatalog.detail,
-  ro:roCatalog.detail,
-  el:elCatalog.detail,
+  get ru() { return getLoadedLocaleCatalog("ru").detail; },
+  get tr() { return getLoadedLocaleCatalog("tr").detail; },
+  get pl() { return getLoadedLocaleCatalog("pl").detail; },
+  get fil() { return getLoadedLocaleCatalog("fil").detail; },
+  get bn() { return getLoadedLocaleCatalog("bn").detail; },
+  get uk() { return getLoadedLocaleCatalog("uk").detail; },
+  get ms() { return getLoadedLocaleCatalog("ms").detail; },
+  get sv() { return getLoadedLocaleCatalog("sv").detail; },
+  get cs() { return getLoadedLocaleCatalog("cs").detail; },
+  get ro() { return getLoadedLocaleCatalog("ro").detail; },
+  get el() { return getLoadedLocaleCatalog("el").detail; },
 };
 
 export type UiMessages = {
@@ -159,68 +161,23 @@ export type UiMessages = {
   category: Record<string, string>; difficultyLabels: Record<string, string>; quizSummary: (title: string) => string;
 };
 
-const russianUiMessages: UiMessages = {
-  ...ruCatalog.ui,
-  quizCount: (count) => formatRussianCount(count, "викторина"),
-  questionCount: (count) => formatRussianCount(count, "вопрос"),
-  quizSummary: (title) => ruCatalog.ui.quizSummary.replace("TITLE_SLOT", title),
-};
-
-const turkishUiMessages: UiMessages = {
-  ...trCatalog.ui,
-  quizCount: (count) => `${count} ${trCatalog.ui.quizCount.replace("COUNT_SLOT", "").trim()}`,
-  questionCount: (count) => `${count} ${trCatalog.ui.questionCount.replace("COUNT_SLOT", "").trim()}`,
-  quizSummary: (title) => trCatalog.ui.quizSummary.replace("TITLE_SLOT", title),
-};
-
-const polishUiMessages: UiMessages = {
-  ...plCatalog.ui,
-  quizCount: (count) => formatPolishCount(count, ["quiz","quizy","quizów"]),
-  questionCount: (count) => formatPolishCount(count, ["pytanie","pytania","pytań"]),
-  quizSummary: (title) => plCatalog.ui.quizSummary.replace("TITLE_SLOT", title),
-};
-
-const filipinoUiMessages: UiMessages = {
-  ...filCatalog.ui,
-  quizCount: (count) => filCatalog.ui.quizCount.replace("COUNT_SLOT", String(count)),
-  questionCount: (count) => filCatalog.ui.questionCount.replace("COUNT_SLOT", String(count)),
-  quizSummary: (title) => filCatalog.ui.quizSummary.replace("TITLE_SLOT", title),
-};
-
-const bengaliUiMessages: UiMessages = {
-  ...bnCatalog.ui,
-  quizCount: (count) => bnCatalog.ui.quizCount.replace("COUNT_SLOT", String(count)),
-  questionCount: (count) => bnCatalog.ui.questionCount.replace("COUNT_SLOT", String(count)),
-  quizSummary: (title) => bnCatalog.ui.quizSummary.replace("TITLE_SLOT", title),
-};
-
-const ukrainianUiMessages: UiMessages = {
-  ...ukCatalog.ui,
-  quizCount: formatUkrainianQuizCount,
-  questionCount: (count) => ukCatalog.ui.questionCount.replace("COUNT_SLOT", String(count)),
-  quizSummary: (title) => ukCatalog.ui.quizSummary.replace("TITLE_SLOT", title),
-};
-
-const swedishUiMessages: UiMessages = {
-  ...svCatalog.ui,
-  quizCount: (count) => svCatalog.ui.quizCount.replace("COUNT_SLOT", String(count)),
-  questionCount: (count) => svCatalog.ui.questionCount.replace("COUNT_SLOT", String(count)),
-  quizSummary: (title) => svCatalog.ui.quizSummary.replace("TITLE_SLOT", title),
-};
-
-const czechUiMessages: UiMessages = {
-  ...csCatalog.ui,
-  quizCount: (count) => csCatalog.ui.quizCount.replace("COUNT_SLOT", String(count)),
-  questionCount: (count) => csCatalog.ui.questionCount.replace("COUNT_SLOT", String(count)),
-  quizSummary: (title) => csCatalog.ui.quizSummary.replace("TITLE_SLOT", title),
-};
-
-const malayUiMessages: UiMessages = {
-  ...msCatalog.ui,
-  quizCount: (count) => msCatalog.ui.quizCount.replace("COUNT_SLOT", String(count)),
-  questionCount: (count) => msCatalog.ui.questionCount.replace("COUNT_SLOT", String(count)),
-  quizSummary: (title) => msCatalog.ui.quizSummary.replace("TITLE_SLOT", title),
-};
+function expandedUiMessages(locale: CatalogLocale): UiMessages {
+  const ui = getLoadedLocaleCatalog(locale).ui;
+  const interpolate = (template: string, token: string, value: string) => template.replace(token, value);
+  const count = (key: "quizCount" | "questionCount", value: number) => {
+    if (locale === "ru") return formatRussianCount(value, key === "quizCount" ? "\u0432\u0438\u043a\u0442\u043e\u0440\u0438\u043d\u0430" : "\u0432\u043e\u043f\u0440\u043e\u0441");
+    if (locale === "pl") return formatPolishCount(value, key === "quizCount" ? ["quiz", "quizy", "quiz\u00f3w"] : ["pytanie", "pytania", "pyta\u0144"]);
+    if (locale === "uk" && key === "quizCount") return formatUkrainianQuizCount(value);
+    if (locale === "tr") return `${value} ${ui[key].replace("COUNT_SLOT", "").trim()}`;
+    return interpolate(ui[key], "COUNT_SLOT", String(value));
+  };
+  return {
+    ...ui,
+    quizCount: (value) => count("quizCount", value),
+    questionCount: (value) => count("questionCount", value),
+    quizSummary: (title) => interpolate(ui.quizSummary, "TITLE_SLOT", title),
+  };
+}
 
 export const uiMessages: Record<Locale, UiMessages> = {
   ko: {
@@ -268,15 +225,15 @@ export const uiMessages: Record<Locale, UiMessages> = {
   hi: {
     familySites:"संबंधित सेवाएँ",portal:"पोर्टल",calculator:"कैलकुलेटर",tools:"ऑनलाइन टूल",moneyBook:"मुफ़्त साझा खर्च खाता",docs:"दस्तावेज़ और फ़ॉर्म",quiz:"क्विज़ और टेस्ट",language:"भाषा चुनें",openMenu:"सेवा मेनू खोलें",closeMenu:"सेवा मेनू बंद करें",allQuizzes:"सभी क्विज़",freeToPlay:"मुफ़्त खेलें",noAccount:"खाते की ज़रूरत नहीं",heroEyebrow:"जिज्ञासा का एक पल",heroTitle:"क्विज़ के साथ अपनी जिज्ञासा जगाएँ",heroDescription:"एक छोटा-सा चुनौतीपूर्ण सवाल आज़माएँ और कुछ नया जानें।",nextChallenge:"अगली चुनौती चुनें",searchEmpty:"कोई क्विज़ नहीं मिला।",quizCount:(n)=>`${n} क्विज़`,questionCount:(n)=>`${n} प्रश्न`,questionSetReview:"प्रश्नों की समीक्षा जारी है",difficulty:"कठिनाई",startHeading:"तैयार हों तो शुरू करें",startDescription:"ध्यान से सोचें और चुनौती का आनंद लें।",correct:"सही जवाब!",incorrect:"यह सही नहीं है।",accuracy:"सटीकता",finishedIn:"पूरा करने का समय",seconds:"सेकंड",bestScore:"आपका सर्वश्रेष्ठ स्कोर इसी डिवाइस पर सहेजा जाता है।",reviewHeading:"प्रश्नों की समीक्षा जारी है",reviewDescription:"हम अनूदित प्रश्नों की जाँच कर रहे हैं। समीक्षा पूरी होने पर यह क्विज़ उपलब्ध होगा।",howToPlay:"कैसे खेलें",howToDescription:"हर प्रश्न के लिए उत्तर चुनें। आपकी प्रगति इसी ब्राउज़र में रहती है; खाते या निजी जानकारी की ज़रूरत नहीं है।",aboutQuiz:"इस क्विज़ के बारे में",faq:"अक्सर पूछे जाने वाले प्रश्न",scoreUploadedQuestion:"क्या मेरा स्कोर अपलोड होता है?",scoreUploadedAnswer:"नहीं। स्कोर केवल इसी ब्राउज़र में सहेजा जाता है।",interactiveTest:"इंटरैक्टिव टेस्ट",localeCount:"21 भाषाएँ",dynamicGeneration:"हर दौर में नए प्रश्न",back:"क्विज़ सूची",footerTagline:"हर जिज्ञासु मन के लिए।",privacy:"गोपनीयता",guidelines:"उपयोग निर्देश",contact:"संपर्क",copyright:"© 2026 woori.today",searchLabel:"क्विज़ खोजें",quizSummary:(title)=>`${title} के साथ मज़ेदार तरीके से अपना ज्ञान परखें।`,category:{general:"सामान्य ज्ञान",geography:"विश्व और भूगोल",science:"विज्ञान",history:"इतिहास",math:"गणित",language:"भाषा",technology:"तकनीक",memory:"याददाश्त और दिमाग़",speed:"गति और प्रतिक्रिया",fun:"मनोरंजक चुनौती"},difficultyLabels:{easy:"आसान",medium:"मध्यम",hard:"कठिन",expert:"विशेषज्ञ"}
   },
-  ru: russianUiMessages,
-  tr: turkishUiMessages,
-  pl: polishUiMessages,
-  fil: filipinoUiMessages,
-  bn: bengaliUiMessages,
-  uk: ukrainianUiMessages,
-  ms: malayUiMessages,
-  sv: swedishUiMessages,
-  cs: czechUiMessages,
-  ro: { ...roCatalog.ui, quizCount: (count) => roCatalog.ui.quizCount.replace("COUNT_SLOT", String(count)), questionCount: (count) => roCatalog.ui.questionCount.replace("COUNT_SLOT", String(count)), quizSummary: (title) => roCatalog.ui.quizSummary.replace("TITLE_SLOT", title) },
-  el: { ...elCatalog.ui, quizCount: (count) => elCatalog.ui.quizCount.replace("COUNT_SLOT", String(count)), questionCount: (count) => elCatalog.ui.questionCount.replace("COUNT_SLOT", String(count)), quizSummary: (title) => elCatalog.ui.quizSummary.replace("TITLE_SLOT", title) },
+  get ru() { return expandedUiMessages("ru"); },
+  get tr() { return expandedUiMessages("tr"); },
+  get pl() { return expandedUiMessages("pl"); },
+  get fil() { return expandedUiMessages("fil"); },
+  get bn() { return expandedUiMessages("bn"); },
+  get uk() { return expandedUiMessages("uk"); },
+  get ms() { return expandedUiMessages("ms"); },
+  get sv() { return expandedUiMessages("sv"); },
+  get cs() { return expandedUiMessages("cs"); },
+  get ro() { return expandedUiMessages("ro"); },
+  get el() { return expandedUiMessages("el"); },
 };

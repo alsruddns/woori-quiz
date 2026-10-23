@@ -1,16 +1,7 @@
+import { getLoadedLocaleCatalog } from "./locale-catalog";
+type LocaleCatalog<Code extends import("./locale-catalog").ExpansionLocale> = Awaited<ReturnType<typeof import("./locale-catalog").loadLocaleCatalog<Code>>>;
 import type { Locale } from "./i18n";
 import type { Category, Quiz } from "./registry";
-import ruCatalog from "./i18n/ru.json";
-import trCatalog from "./i18n/tr.json";
-import plCatalog from "./i18n/pl.json";
-import filCatalog from "./i18n/fil.json";
-import bnCatalog from "./i18n/bn.json";
-import ukCatalog from "./i18n/uk.json";
-import msCatalog from "./i18n/ms.json";
-import svCatalog from "./i18n/sv.json";
-import csCatalog from "./i18n/cs.json";
-import roCatalog from "./i18n/ro.json";
-import elCatalog from "./i18n/el.json";
 
 const categoryOrder: Category[] = ["general", "nonsense", "math", "brain", "history", "science", "geography", "language", "technology", "memory", "random", "challenge", "speed", "fun"];
 
@@ -35,16 +26,16 @@ const categoryDescriptions: Record<Exclude<Locale, "tr" | "pl" | "fil" | "bn" | 
 };
 
 export function categoryDescription(locale: Locale, category: Category): string {
-  if (locale === "sv") return svCatalog.categoryDescriptions[category as keyof typeof svCatalog.categoryDescriptions];
-  if (locale === "cs") return csCatalog.categoryDescriptions[category as keyof typeof csCatalog.categoryDescriptions];
-  if (locale === "ro") return roCatalog.categoryDescriptions[category as keyof typeof roCatalog.categoryDescriptions];
-  if (locale === "el") return elCatalog.categoryDescriptions[category as keyof typeof elCatalog.categoryDescriptions];
-  if (locale === "ms") return msCatalog.categoryDescriptions[category as keyof typeof msCatalog.categoryDescriptions];
-  if (locale === "uk") return ukCatalog.categoryDescriptions[category];
-  if (locale === "bn") return bnCatalog.categories[category];
-  if (locale === "fil") return filCatalog.categories[category];
-  if (locale === "tr") return trCatalog.categories[category];
-  if (locale === "pl") return plCatalog.categories[category];
+  if (locale === "sv") return getLoadedLocaleCatalog("sv").categoryDescriptions[category as keyof LocaleCatalog<"sv">["categoryDescriptions"]];
+  if (locale === "cs") return getLoadedLocaleCatalog("cs").categoryDescriptions[category as keyof LocaleCatalog<"cs">["categoryDescriptions"]];
+  if (locale === "ro") return getLoadedLocaleCatalog("ro").categoryDescriptions[category as keyof LocaleCatalog<"ro">["categoryDescriptions"]];
+  if (locale === "el") return getLoadedLocaleCatalog("el").categoryDescriptions[category as keyof LocaleCatalog<"el">["categoryDescriptions"]];
+  if (locale === "ms") return getLoadedLocaleCatalog("ms").categoryDescriptions[category as keyof LocaleCatalog<"ms">["categoryDescriptions"]];
+  if (locale === "uk") return getLoadedLocaleCatalog("uk").categoryDescriptions[category];
+  if (locale === "bn") return getLoadedLocaleCatalog("bn").categories[category];
+  if (locale === "fil") return getLoadedLocaleCatalog("fil").categories[category];
+  if (locale === "tr") return getLoadedLocaleCatalog("tr").categories[category];
+  if (locale === "pl") return getLoadedLocaleCatalog("pl").categories[category];
   return categoryDescriptions[locale][categoryOrder.indexOf(category)];
 }
 
@@ -64,17 +55,17 @@ export const serviceGuide: Record<Locale, { categories: string; how: string; acc
   it: { categories:"Esplora per argomento", how:"Come funzionano i quiz", account:"Scegli un quiz e rispondi a ogni domanda. Non serve un account; i risultati restano in questo browser.", score:"Come leggere il punteggio?", scoreLow:"Vale la pena esercitarsi ancora su questo tema. Leggi le spiegazioni e riprova.", scoreMid:"Conosci le basi. Rivedi le spiegazioni delle risposte errate.", scoreHigh:"Hai risolto bene questa serie. Prova un altro tema o nuove domande.", scoreNote:"Il punteggio indica le risposte corrette di questa serie, non valuta salute o capacità.", focus:"Contenuti del quiz" },
   nl: { categories:"Ontdek per onderwerp", how:"Zo werken de quizzen", account:"Kies een quiz en beantwoord elke vraag. Een account is niet nodig; resultaten blijven in deze browser.", score:"Wat betekent mijn score?", scoreLow:"Dit onderwerp kun je nog oefenen. Lees de uitleg en probeer het opnieuw.", scoreMid:"De basis ken je al. Bekijk de uitleg bij gemiste vragen.", scoreHigh:"Deze reeks ging goed. Probeer een ander onderwerp of nieuwe vragen.", scoreNote:"Je score is het percentage goede antwoorden in deze reeks, geen oordeel over gezondheid of vermogen.", focus:"Wat deze quiz behandelt" },
   hi: { categories:"विषय के अनुसार चुनें", how:"क्विज़ कैसे खेलें", account:"क्विज़ चुनें और हर प्रश्न का उत्तर दें। खाता आवश्यक नहीं है; परिणाम इसी ब्राउज़र में रहते हैं।", score:"अंकों का अर्थ क्या है?", scoreLow:"इस विषय पर और अभ्यास उपयोगी होगा। व्याख्या पढ़कर फिर कोशिश करें।", scoreMid:"आप मूल बातें जानते हैं। गलत उत्तरों की व्याख्या देखें।", scoreHigh:"आपने यह समूह अच्छे से हल किया। दूसरा विषय या नए प्रश्न आज़माएँ।", scoreNote:"अंक केवल इस समूह में सही उत्तरों का अनुपात हैं; क्षमता या स्वास्थ्य का आकलन नहीं।", focus:"इस क्विज़ में क्या शामिल है" },
-  ru: ruCatalog.serviceGuide,
-  tr: trCatalog.serviceGuide,
-  pl: plCatalog.serviceGuide,
-  fil: filCatalog.serviceGuide,
-  bn: bnCatalog.serviceGuide,
-  uk: ukCatalog.serviceGuide,
-  ms: msCatalog.serviceGuide,
-  sv: svCatalog.serviceGuide,
-  cs: csCatalog.serviceGuide,
-  ro: roCatalog.serviceGuide,
-  el: elCatalog.serviceGuide,
+  get ru() { return getLoadedLocaleCatalog("ru").serviceGuide; },
+  get tr() { return getLoadedLocaleCatalog("tr").serviceGuide; },
+  get pl() { return getLoadedLocaleCatalog("pl").serviceGuide; },
+  get fil() { return getLoadedLocaleCatalog("fil").serviceGuide; },
+  get bn() { return getLoadedLocaleCatalog("bn").serviceGuide; },
+  get uk() { return getLoadedLocaleCatalog("uk").serviceGuide; },
+  get ms() { return getLoadedLocaleCatalog("ms").serviceGuide; },
+  get sv() { return getLoadedLocaleCatalog("sv").serviceGuide; },
+  get cs() { return getLoadedLocaleCatalog("cs").serviceGuide; },
+  get ro() { return getLoadedLocaleCatalog("ro").serviceGuide; },
+  get el() { return getLoadedLocaleCatalog("el").serviceGuide; },
 };
 
 export function scoreFeedback(locale: Locale, correct: number, total: number): string {
@@ -84,16 +75,16 @@ export function scoreFeedback(locale: Locale, correct: number, total: number): s
 }
 
 export function quizDescription(locale: Locale, quiz: Quiz, title: string): string {
-  if (locale === "tr") return trCatalog.quizDescriptions[quiz.slug as keyof typeof trCatalog.quizDescriptions] ?? `${title}: ${categoryDescription(locale, quiz.category)}`;
+  if (locale === "tr") return getLoadedLocaleCatalog("tr").quizDescriptions[quiz.slug as keyof LocaleCatalog<"tr">["quizDescriptions"]] ?? `${title}: ${categoryDescription(locale, quiz.category)}`;
   if (locale === "pl") return `${title}: ${categoryDescription(locale, quiz.category)}`;
-  if (locale === "fil") return filCatalog.quizDescriptions[quiz.slug as keyof typeof filCatalog.quizDescriptions] ?? `${title}: ${categoryDescription(locale, quiz.category)}`;
-  if (locale === "bn") return bnCatalog.quizDescriptions[quiz.slug as keyof typeof bnCatalog.quizDescriptions] ?? `${title}: ${categoryDescription(locale, quiz.category)}`;
-  if (locale === "sv") return svCatalog.quizDescriptions[quiz.slug as keyof typeof svCatalog.quizDescriptions] ?? `${title}: ${categoryDescription(locale, quiz.category)}`;
-  if (locale === "cs") return csCatalog.quizDescriptions[quiz.slug as keyof typeof csCatalog.quizDescriptions] ?? `${title}: ${categoryDescription(locale, quiz.category)}`;
-  if (locale === "ro") return roCatalog.quizDescriptions[quiz.slug as keyof typeof roCatalog.quizDescriptions] ?? `${title}: ${categoryDescription(locale, quiz.category)}`;
-  if (locale === "el") return elCatalog.quizDescriptions[quiz.slug as keyof typeof elCatalog.quizDescriptions] ?? `${title}: ${categoryDescription(locale, quiz.category)}`;
-  if (locale === "ms") return msCatalog.quizDescriptions[quiz.slug as keyof typeof msCatalog.quizDescriptions] ?? `${title}: ${categoryDescription(locale, quiz.category)}`;
-  if (locale === "uk") return ukCatalog.quizDescriptions[quiz.slug as keyof typeof ukCatalog.quizDescriptions] ?? `${title}: ${categoryDescription(locale, quiz.category)}`;
+  if (locale === "fil") return getLoadedLocaleCatalog("fil").quizDescriptions[quiz.slug as keyof LocaleCatalog<"fil">["quizDescriptions"]] ?? `${title}: ${categoryDescription(locale, quiz.category)}`;
+  if (locale === "bn") return getLoadedLocaleCatalog("bn").quizDescriptions[quiz.slug as keyof LocaleCatalog<"bn">["quizDescriptions"]] ?? `${title}: ${categoryDescription(locale, quiz.category)}`;
+  if (locale === "sv") return getLoadedLocaleCatalog("sv").quizDescriptions[quiz.slug as keyof LocaleCatalog<"sv">["quizDescriptions"]] ?? `${title}: ${categoryDescription(locale, quiz.category)}`;
+  if (locale === "cs") return getLoadedLocaleCatalog("cs").quizDescriptions[quiz.slug as keyof LocaleCatalog<"cs">["quizDescriptions"]] ?? `${title}: ${categoryDescription(locale, quiz.category)}`;
+  if (locale === "ro") return getLoadedLocaleCatalog("ro").quizDescriptions[quiz.slug as keyof LocaleCatalog<"ro">["quizDescriptions"]] ?? `${title}: ${categoryDescription(locale, quiz.category)}`;
+  if (locale === "el") return getLoadedLocaleCatalog("el").quizDescriptions[quiz.slug as keyof LocaleCatalog<"el">["quizDescriptions"]] ?? `${title}: ${categoryDescription(locale, quiz.category)}`;
+  if (locale === "ms") return getLoadedLocaleCatalog("ms").quizDescriptions[quiz.slug as keyof LocaleCatalog<"ms">["quizDescriptions"]] ?? `${title}: ${categoryDescription(locale, quiz.category)}`;
+  if (locale === "uk") return getLoadedLocaleCatalog("uk").quizDescriptions[quiz.slug as keyof LocaleCatalog<"uk">["quizDescriptions"]] ?? `${title}: ${categoryDescription(locale, quiz.category)}`;
   if (locale === "en") return quiz.summary;
   return `${title}: ${categoryDescriptions[locale][categoryOrder.indexOf(quiz.category)]}`;
 }
@@ -101,12 +92,12 @@ export function quizDescription(locale: Locale, quiz: Quiz, title: string): stri
 export const advertisementLabel: Record<Locale, string> = {
   ko: "광고", en: "Advertisement", ja: "広告", zh: "广告", es: "Publicidad", "pt-br": "Publicidade",
   de: "Werbung", fr: "Publicité", vi: "Quảng cáo", id: "Iklan", th: "โฆษณา", "zh-tw": "廣告",
-  it: "Pubblicità", nl: "Advertentie", hi: "विज्ञापन", ru: ruCatalog.advertisement, tr: trCatalog.advertisement, pl: plCatalog.advertisement, fil: filCatalog.advertisement, bn: bnCatalog.advertisement, uk: ukCatalog.advertisement, ms: msCatalog.advertisement, sv: svCatalog.advertisement, cs: csCatalog.advertisement, ro: roCatalog.advertisement, el: elCatalog.advertisement,
+  it: "Pubblicità", nl: "Advertentie", hi: "विज्ञापन", get ru() { return getLoadedLocaleCatalog("ru").advertisement; }, get tr() { return getLoadedLocaleCatalog("tr").advertisement; }, get pl() { return getLoadedLocaleCatalog("pl").advertisement; }, get fil() { return getLoadedLocaleCatalog("fil").advertisement; }, get bn() { return getLoadedLocaleCatalog("bn").advertisement; }, get uk() { return getLoadedLocaleCatalog("uk").advertisement; }, get ms() { return getLoadedLocaleCatalog("ms").advertisement; }, get sv() { return getLoadedLocaleCatalog("sv").advertisement; }, get cs() { return getLoadedLocaleCatalog("cs").advertisement; }, get ro() { return getLoadedLocaleCatalog("ro").advertisement; }, get el() { return getLoadedLocaleCatalog("el").advertisement; },
 };
 
 export const anyDifficultyLabel: Record<Locale, string> = {
   ko: "모든 난이도", en: "All difficulties", ja: "すべての難易度", zh: "所有难度", es: "Todas las dificultades",
   "pt-br": "Todos os níveis", de: "Alle Schwierigkeitsgrade", fr: "Toutes les difficultés", vi: "Mọi mức độ",
   id: "Semua tingkat kesulitan", th: "ทุกระดับความยาก", "zh-tw": "所有難度", it: "Tutte le difficoltà",
-  nl: "Alle moeilijkheidsgraden", hi: "सभी कठिनाई स्तर", ru: ruCatalog.difficulty, tr: trCatalog.difficulty, pl: plCatalog.difficulty, fil: filCatalog.difficulty, bn: bnCatalog.difficulty, uk: ukCatalog.difficulty, ms: msCatalog.difficulty, sv: svCatalog.difficulty, cs: csCatalog.difficulty, ro: roCatalog.difficulty, el: elCatalog.difficulty,
+  nl: "Alle moeilijkheidsgraden", hi: "सभी कठिनाई स्तर", get ru() { return getLoadedLocaleCatalog("ru").difficulty; }, get tr() { return getLoadedLocaleCatalog("tr").difficulty; }, get pl() { return getLoadedLocaleCatalog("pl").difficulty; }, get fil() { return getLoadedLocaleCatalog("fil").difficulty; }, get bn() { return getLoadedLocaleCatalog("bn").difficulty; }, get uk() { return getLoadedLocaleCatalog("uk").difficulty; }, get ms() { return getLoadedLocaleCatalog("ms").difficulty; }, get sv() { return getLoadedLocaleCatalog("sv").difficulty; }, get cs() { return getLoadedLocaleCatalog("cs").difficulty; }, get ro() { return getLoadedLocaleCatalog("ro").difficulty; }, get el() { return getLoadedLocaleCatalog("el").difficulty; },
 };

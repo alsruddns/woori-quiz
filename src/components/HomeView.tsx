@@ -10,6 +10,7 @@ import { discoveryQuizzes, discoveryState } from "@/lib/discovery";
 import { quizCategoryName, quizTitle } from "@/lib/quiz-copy";
 import { quizPath } from "@/lib/urls";
 import { categoryDescription, quizDescription, serviceGuide } from "@/lib/content-copy";
+import { useLocaleCatalog } from "@/lib/use-locale-catalog";
 
 const urlEvent = "quiz-discovery-url";
 const subscribe = (notify: () => void) => {
@@ -37,6 +38,7 @@ const featuredSlugs = ["general-knowledge", "brain-teaser", "math-basic", "world
 
 export function HomeView({ locale: rawLocale }: { locale: string }) {
   const locale = isLocale(rawLocale) ? rawLocale : "en";
+  useLocaleCatalog(locale);
   const t = uiMessages[locale];
   const copy = discoveryCopy[locale];
   const base = messages[locale];

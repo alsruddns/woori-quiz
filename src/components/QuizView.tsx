@@ -12,6 +12,7 @@ import { saveQuizResult } from "@/lib/storage";
 import { InteractiveTest } from "@/components/InteractiveTest";
 import { QuizShell } from "@/components/QuizShell";
 import { anyDifficultyLabel, categoryDescription, quizDescription, scoreFeedback, serviceGuide } from "@/lib/content-copy";
+import { useLocaleCatalog } from "@/lib/use-locale-catalog";
 
 const allDifficultyBankSlugs = new Set([
   "daily-life-quiz", "space-quiz", "biology-knowledge-quiz", "world-geography", "number-pattern-quiz",
@@ -20,6 +21,7 @@ const allDifficultyBankSlugs = new Set([
 
 export function QuizView({ locale: rawLocale, slug }: { locale: string; slug: string }) {
   const locale = isLocale(rawLocale) ? rawLocale : "en";
+  useLocaleCatalog(locale);
   const t = uiMessages[locale];
   const detail = detailCopy[locale];
   const guide = serviceGuide[locale];

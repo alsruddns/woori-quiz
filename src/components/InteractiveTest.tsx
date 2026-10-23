@@ -3,18 +3,9 @@ import { useEffect, useRef, useState } from "react";
 import { saveQuizResult } from "@/lib/storage";
 import { getQuiz } from "@/lib/registry";
 import { quizTitle } from "@/lib/quiz-copy";
+import { isExpansionLocale, getLoadedLocaleCatalog } from "@/lib/locale-catalog";
+import { useLocaleCatalog } from "@/lib/use-locale-catalog";
 import type { Locale } from "@/lib/i18n";
-import ruCatalog from "@/lib/i18n/ru.json";
-import trCatalog from "@/lib/i18n/tr.json";
-import plCatalog from "@/lib/i18n/pl.json";
-import filCatalog from "@/lib/i18n/fil.json";
-import bnCatalog from "@/lib/i18n/bn.json";
-import ukCatalog from "@/lib/i18n/uk.json";
-import msCatalog from "@/lib/i18n/ms.json";
-import svCatalog from "@/lib/i18n/sv.json";
-import csCatalog from "@/lib/i18n/cs.json";
-import roCatalog from "@/lib/i18n/ro.json";
-import elCatalog from "@/lib/i18n/el.json";
 import { calculateTypingMetrics, scoreReaction, scoreRecall, scoreVisualRecall } from "@/lib/interactive-metrics";
 type StaticLocale = Exclude<Locale, "ru" | "tr" | "pl" | "fil" | "bn" | "uk" | "ms" | "sv" | "cs" | "ro" | "el">;
 type Phase="ready"|"waiting"|"showing"|"playing"|"done";
@@ -42,7 +33,13 @@ const memoryWords:Record<StaticLocale,string>={ko:"바다 사과 별 구름",en:
 const extraCopy:Record<StaticLocale,{moves:string;tapFast:string;cell:string}>={ko:{moves:"이동",tapFast:"빠르게 눌러 보세요",cell:"칸"},en:{moves:"Moves",tapFast:"Tap as fast as you can",cell:"Cell"},ja:{moves:"手数",tapFast:"できるだけ速くタップ",cell:"マス"},zh:{moves:"步数",tapFast:"尽可能快速点击",cell:"格"},es:{moves:"Movimientos",tapFast:"Pulsa tan rápido como puedas",cell:"Casilla"},"pt-br":{moves:"Jogadas",tapFast:"Toque o mais rápido que puder",cell:"Casa"},de:{moves:"Züge",tapFast:"Tippe so schnell du kannst",cell:"Feld"},fr:{moves:"Coups",tapFast:"Appuyez aussi vite que possible",cell:"Case"},vi:{moves:"Lượt",tapFast:"Nhấn nhanh nhất có thể",cell:"Ô"},id:{moves:"Langkah",tapFast:"Ketuk secepat mungkin",cell:"Kotak"},th:{moves:"จำนวนครั้ง",tapFast:"แตะให้เร็วที่สุด",cell:"ช่อง"},"zh-tw":{moves:"步數",tapFast:"盡可能快速點擊",cell:"格"},it:{moves:"Mosse",tapFast:"Tocca più velocemente che puoi",cell:"Casella"},nl:{moves:"Zetten",tapFast:"Tik zo snel als je kunt",cell:"Vak"},hi:{moves:"चालें",tapFast:"जितनी जल्दी हो सके टैप करें",cell:"खाना"}};
 
 export function InteractiveTest({slug,locale}:{slug:string;locale:Locale}){
- const t=locale === "ru" ? ruCatalog.interactiveTest.copy : locale === "tr" ? trCatalog.interactiveTest.copy : locale === "pl" ? plCatalog.interactiveTest.copy : locale === "fil" ? filCatalog.interactiveTest.copy : locale === "bn" ? bnCatalog.interactiveTest.copy : locale === "uk" ? ukCatalog.interactiveTest.copy : locale === "ms" ? msCatalog.interactiveTest.copy : locale === "sv" ? svCatalog.interactiveTest.copy : locale === "cs" ? csCatalog.interactiveTest.copy : locale === "ro" ? roCatalog.interactiveTest.copy : locale === "el" ? elCatalog.interactiveTest.copy : copy[locale],passage=locale === "ru" ? ruCatalog.interactiveTest.passage : locale === "tr" ? trCatalog.interactiveTest.passage : locale === "pl" ? plCatalog.interactiveTest.passage : locale === "fil" ? filCatalog.interactiveTest.passage : locale === "bn" ? bnCatalog.interactiveTest.passage : locale === "uk" ? ukCatalog.interactiveTest.passage : locale === "ms" ? msCatalog.interactiveTest.passage : locale === "sv" ? svCatalog.interactiveTest.passage : locale === "cs" ? csCatalog.interactiveTest.passage : locale === "ro" ? roCatalog.interactiveTest.passage : locale === "el" ? elCatalog.interactiveTest.passage : passages[locale],memoryWordsForLocale=locale === "ru" ? ruCatalog.interactiveTest.memoryWords : locale === "tr" ? trCatalog.interactiveTest.memoryWords : locale === "pl" ? plCatalog.interactiveTest.memoryWords : locale === "fil" ? filCatalog.interactiveTest.memoryWords : locale === "bn" ? bnCatalog.interactiveTest.memoryWords : locale === "uk" ? ukCatalog.interactiveTest.memoryWords : locale === "ms" ? msCatalog.interactiveTest.memoryWords : locale === "sv" ? svCatalog.interactiveTest.memoryWords : locale === "cs" ? csCatalog.interactiveTest.memoryWords : locale === "ro" ? roCatalog.interactiveTest.memoryWords : locale === "el" ? elCatalog.interactiveTest.memoryWords : memoryWords[locale],extra=locale === "ru" ? ruCatalog.interactiveTest.extraCopy : locale === "tr" ? trCatalog.interactiveTest.extraCopy : locale === "pl" ? plCatalog.interactiveTest.extraCopy : locale === "fil" ? filCatalog.interactiveTest.extraCopy : locale === "bn" ? bnCatalog.interactiveTest.extraCopy : locale === "uk" ? ukCatalog.interactiveTest.extraCopy : locale === "ms" ? msCatalog.interactiveTest.extraCopy : locale === "sv" ? svCatalog.interactiveTest.extraCopy : locale === "cs" ? csCatalog.interactiveTest.extraCopy : locale === "ro" ? roCatalog.interactiveTest.extraCopy : locale === "el" ? elCatalog.interactiveTest.extraCopy : extraCopy[locale];const [phase,setPhase]=useState<Phase>("ready"),[message,setMessage]=useState(""),[startedAt,setStartedAt]=useState(0),[elapsed,setElapsed]=useState(0),[count,setCount]=useState(0),[value,setValue]=useState("");const [target,setTarget]=useState("");const [grid,setGrid]=useState<number[]>([]),[selected,setSelected]=useState<number[]>([]),[cards,setCards]=useState<string[]>([]),[matched,setMatched]=useState<number[]>([]),[turns,setTurns]=useState(0);const timer=useRef<ReturnType<typeof setTimeout>|null>(null);const frame=useRef<number>(0);const goAt=useRef(0);
+ useLocaleCatalog(locale);
+ const catalog = isExpansionLocale(locale) ? getLoadedLocaleCatalog(locale) : undefined;
+ const t = catalog?.interactiveTest.copy ?? copy[locale as StaticLocale];
+ const passage = catalog?.interactiveTest.passage ?? passages[locale as StaticLocale];
+ const memoryWordsForLocale = catalog?.interactiveTest.memoryWords ?? memoryWords[locale as StaticLocale];
+ const extra = catalog?.interactiveTest.extraCopy ?? extraCopy[locale as StaticLocale];
+ const [phase,setPhase]=useState<Phase>("ready"),[message,setMessage]=useState(""),[startedAt,setStartedAt]=useState(0),[elapsed,setElapsed]=useState(0),[count,setCount]=useState(0),[value,setValue]=useState("");const [target,setTarget]=useState("");const [grid,setGrid]=useState<number[]>([]),[selected,setSelected]=useState<number[]>([]),[cards,setCards]=useState<string[]>([]),[matched,setMatched]=useState<number[]>([]),[turns,setTurns]=useState(0);const timer=useRef<ReturnType<typeof setTimeout>|null>(null);const frame=useRef<number>(0);const goAt=useRef(0);
  const isVisual=slug==="visual-memory-test",isConcentration=slug==="concentration-test",clickCount=useRef(0);
  useEffect(()=>()=>{if(timer.current)clearTimeout(timer.current);cancelAnimationFrame(frame.current);},[]);
  const save=(points:number,duration:number)=>{saveQuizResult(localStorage,slug,points,"medium",duration);setElapsed(duration);setPhase("done");};
