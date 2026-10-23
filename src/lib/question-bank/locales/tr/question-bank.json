@@ -1,0 +1,6212 @@
+{
+  "general-001": {
+    "question": "Kızıl Gezegen olarak bilinen gezegen hangisidir?",
+    "explanation": "Demir açısından zengin toz, Mars'a kırmızımsı bir görünüm kazandırır.",
+    "options": [
+      "Venüs",
+      "Mars",
+      "Jüpiter",
+      "Merkür"
+    ]
+  },
+  "general-002": {
+    "question": "Bir altıgenin kaç kenarı vardır?",
+    "explanation": "Bir altıgenin altı kenarı vardır.",
+    "options": [
+      "Beş",
+      "Altı",
+      "Yedi",
+      "Sekiz"
+    ]
+  },
+  "general-003": {
+    "question": "Hangi alet hava basıncını ölçer?",
+    "explanation": "Barometre atmosferik basıncı ölçer.",
+    "options": [
+      "Termometre",
+      "Barometre",
+      "Higrometre",
+      "Pusula"
+    ]
+  },
+  "general-004": {
+    "question": "Mohs ölçeğinde doğal olarak oluşan en zor mineral nedir?",
+    "explanation": "Elmas, Mohs sertlik ölçeğinde 10 olarak derecelendirilmiştir.",
+    "options": [
+      "Kuvars",
+      "Topaz",
+      "Elmas",
+      "Corundum"
+    ]
+  },
+  "general-005": {
+    "question": "İki saatte kaç dakika var?",
+    "explanation": "İki saat 120 dakika içerir.",
+    "options": [
+      "100",
+      "110",
+      "120",
+      "130"
+    ]
+  },
+  "general-006": {
+    "question": "Dünya atmosferinin çoğunu hangi gaz oluşturur?",
+    "explanation": "Azot kuru havanın yaklaşık %78'ini oluşturur.",
+    "options": [
+      "Oksijen",
+      "Azot",
+      "Karbondioksit",
+      "Argon"
+    ]
+  },
+  "general-007": {
+    "question": "En büyük okyanus hangisidir?",
+    "explanation": "Pasifik, bölgeye göre en büyük okyanustur.",
+    "options": [
+      "Atlantik",
+      "Hint",
+      "Arktik",
+      "Pasifik"
+    ]
+  },
+  "general-008": {
+    "question": "Standart basınçta suyun donma noktası nedir?",
+    "explanation": "Saf su standart basınçta 0 C'de (32 F) donar.",
+    "options": [
+      "0 C",
+      "10 C",
+      "32 C",
+      "100 C"
+    ]
+  },
+  "general-009": {
+    "question": "Hangi şeklin üç tarafı vardır?",
+    "explanation": "Bir üçgenin üç tarafı vardır.",
+    "options": [
+      "Kare",
+      "Üçgen",
+      "Pentagon",
+      "Çember"
+    ]
+  },
+  "general-010": {
+    "question": "Sıradan oda sıcaklığında hangi metal sıvıdır?",
+    "explanation": "Merkür tipik oda sıcaklığında sıvıdır.",
+    "options": [
+      "Demir",
+      "Bakır",
+      "Merkür",
+      "Alüminyum"
+    ]
+  },
+  "science-011": {
+    "question": "Suyun kimyasal sembolü nedir?",
+    "explanation": "Bir su molekülü iki hidrojen atomu ve bir oksijen atomu içerir.",
+    "options": [
+      "CO2",
+      "H2O",
+      "O2",
+      "NaCl"
+    ]
+  },
+  "science-012": {
+    "question": "Bir bitkinin hangi kısmı genellikle topraktan su emer?",
+    "explanation": "Kökler topraktan su ve mineralleri emer.",
+    "options": [
+      "Çiçek",
+      "Yaprak",
+      "Kök",
+      "Meyve"
+    ]
+  },
+  "science-013": {
+    "question": "Gezegenleri Güneş'in yörüngesinde tutan güç nedir?",
+    "explanation": "Yerçekimi gezegen yörüngeleri için merkezcil ivmeyi sağlar.",
+    "options": [
+      "Sürtünme",
+      "Yerçekimi",
+      "Manyetizma",
+      "Buoyancy"
+    ]
+  },
+  "science-014": {
+    "question": "Hangi parçacık negatif elektrik yüküne sahiptir?",
+    "explanation": "Elektronlar negatif bir temel yük taşırlar.",
+    "options": [
+      "Proton",
+      "Neutron",
+      "Elektron",
+      "Foton"
+    ]
+  },
+  "science-015": {
+    "question": "Deniz seviyesinde su yaklaşık olarak hangi sıcaklıkta kaynar?",
+    "explanation": "Standart atmosferik basınçta, su 100 C'de kaynar.",
+    "options": [
+      "50 C",
+      "75 C",
+      "100 C",
+      "150 C"
+    ]
+  },
+  "science-016": {
+    "question": "Hangi organel en çok hücresel ATP üretmek için bilinir?",
+    "explanation": "Mitokondri, bir ökaryotik hücrenin ATP'sinin çoğunu hücresel solunum yoluyla üretir.",
+    "options": [
+      "Nucleus",
+      "Mitokondrion",
+      "Ribosome",
+      "Golgi aparatı"
+    ]
+  },
+  "science-017": {
+    "question": "Bitkiler fotosentez için hangi gazları alır?",
+    "explanation": "Bitkiler fotosentez sırasında şeker oluşturmak için karbondioksit ve su kullanırlar.",
+    "options": [
+      "Oksijen",
+      "Karbondioksit",
+      "Helyum",
+      "Hidrojen"
+    ]
+  },
+  "science-018": {
+    "question": "Bir vakumda ışığın yaklaşık hızı nedir?",
+    "explanation": "Işık vakumda saniyede yaklaşık 300.000 kilometre yol alır.",
+    "options": [
+      "30.000 km/s",
+      "150.000 km/s",
+      "300.000 km/s",
+      "3.000.000 km/s"
+    ]
+  },
+  "science-019": {
+    "question": "Hangi kan hücreleri öncelikle oksijen taşır?",
+    "explanation": "Kırmızı kan hücrelerindeki hemoglobin, oksijeni bağlar ve taşır.",
+    "options": [
+      "Kırmızı kan hücreleri",
+      "Plateletler",
+      "Beyaz kan hücreleri",
+      "Kök hücreler"
+    ]
+  },
+  "science-020": {
+    "question": "Bir atomun merkezi nedir?",
+    "explanation": "Bir atomun çekirdeği proton ve nötron içerir.",
+    "options": [
+      "Yörünge",
+      "Nucleus",
+      "Kabuk",
+      "Bond"
+    ]
+  },
+  "geography-021": {
+    "question": "Japonya'nın başkenti neresidir?",
+    "explanation": "Tokyo, Japonya'nın başkentidir.",
+    "options": [
+      "Osaka",
+      "Kyoto",
+      "Tokyo",
+      "Sapporo"
+    ]
+  },
+  "geography-022": {
+    "question": "Kahire şehrine hangi ülke ev sahipliği yapıyor?",
+    "explanation": "Kahire, Mısır'ın başkentidir.",
+    "options": [
+      "Fas",
+      "Mısır",
+      "Ürdün",
+      "Sudan"
+    ]
+  },
+  "geography-023": {
+    "question": "Bölgeye göre en büyük kıta hangisidir?",
+    "explanation": "Asya, kara bölgesine göre en büyük kıtadır.",
+    "options": [
+      "Afrika",
+      "Asya",
+      "Avrupa",
+      "Kuzey Amerika"
+    ]
+  },
+  "geography-024": {
+    "question": "And Dağları öncelikle hangi kıtadadır?",
+    "explanation": "Andlar, Güney Amerika'nın batı yakası boyunca uzanır.",
+    "options": [
+      "Afrika",
+      "Asya",
+      "Güney Amerika",
+      "Avrupa"
+    ]
+  },
+  "geography-025": {
+    "question": "Hangi ülkenin ulusal bayrağında akçaağaç yaprağı var?",
+    "explanation": "Akçaağaç yaprağı, Kanada bayrağındaki merkezi amblemdir.",
+    "options": [
+      "Kanada",
+      "Avusturya",
+      "Danimarka",
+      "Peru"
+    ]
+  },
+  "geography-026": {
+    "question": "Paris'ten hangi nehir akıyor?",
+    "explanation": "Seine Paris'ten geçiyor.",
+    "options": [
+      "Ren",
+      "Seine",
+      "Tuna",
+      "Thames"
+    ]
+  },
+  "geography-027": {
+    "question": "Bölgeye göre en küçük kıta hangisidir?",
+    "explanation": "Avustralya, bölgeye göre en küçük kıtadır.",
+    "options": [
+      "Avrupa",
+      "Antarktika",
+      "Avustralya",
+      "Güney Amerika"
+    ]
+  },
+  "geography-028": {
+    "question": "Kilimanjaro Dağı hangi ülkededir?",
+    "explanation": "Kilimanjaro, Tanzanya'nın kuzeydoğusunda yer almaktadır.",
+    "options": [
+      "Kenya",
+      "Tanzanya",
+      "Uganda",
+      "Etiyopya"
+    ]
+  },
+  "geography-029": {
+    "question": "Afrika'nın doğusunda hangi okyanus var?",
+    "explanation": "Hint Okyanusu doğuda Afrika ile sınır komşusudur.",
+    "options": [
+      "Pasifik",
+      "Atlantik",
+      "Hint",
+      "Arktik"
+    ]
+  },
+  "geography-030": {
+    "question": "İtalya'nın başkenti neresidir?",
+    "explanation": "Roma İtalya'nın başkentidir.",
+    "options": [
+      "Milan",
+      "Venedik",
+      "Roma",
+      "Napoli"
+    ]
+  },
+  "history-031": {
+    "question": "Antik Olimpiyat Oyunları hangi bölgede başladı?",
+    "explanation": "Antik Olimpiyat Oyunları Yunanistan'daki Olympia'da yapıldı.",
+    "options": [
+      "Yunanistan",
+      "Mısır",
+      "Pers",
+      "Roma"
+    ]
+  },
+  "history-032": {
+    "question": "1989'da hangi duvar yıkıldı, Alman yeniden birleşmesinin sembolü haline geldi?",
+    "explanation": "Berlin Duvarı Kasım 1989'da açıldı.",
+    "options": [
+      "Hadrian Duvarı",
+      "Berlin Duvarı",
+      "Büyük Duvar",
+      "Batı Duvarı"
+    ]
+  },
+  "history-033": {
+    "question": "Avrupa'da hareketli metal tipi ile ilişkili baskı presi kime bağlıdır?",
+    "explanation": "Gutenberg'in basını, 15. yüzyılda Avrupa'da baskının yayılmasına yardımcı oldu.",
+    "options": [
+      "Galileo",
+      "Johannes Gutenberg",
+      "Isaac Newton",
+      "Marco Polo"
+    ]
+  },
+  "history-034": {
+    "question": "Giza'da piramitleri hangi uygarlık inşa etti?",
+    "explanation": "Giza piramitleri eski Mısır'da inşa edilmiştir.",
+    "options": [
+      "Romalılar",
+      "Eski Mısırlılar",
+      "Aztekler",
+      "Minoslular"
+    ]
+  },
+  "history-035": {
+    "question": "Fransız Devrimi hangi yıl başladı?",
+    "explanation": "Fransız Devrimi 1789'da başladı.",
+    "options": [
+      "1492",
+      "1776",
+      "1789",
+      "1815"
+    ]
+  },
+  "history-036": {
+    "question": "Rönesans günümüzde hangi ülkede başladı?",
+    "explanation": "Rönesans, Avrupa'ya yayılmadan önce İtalyan şehir devletlerinde başladı.",
+    "options": [
+      "İtalya",
+      "Almanya",
+      "İspanya",
+      "İngiltere"
+    ]
+  },
+  "history-037": {
+    "question": "Ay'da yürüyen ilk kişi kimdi?",
+    "explanation": "Neil Armstrong 1969 yılında Apollo 11 sırasında Ay'a adım attı.",
+    "options": [
+      "Buzz Aldrin",
+      "Yuri Gagarin",
+      "Neil Armstrong",
+      "John Glenn"
+    ]
+  },
+  "history-038": {
+    "question": "Roma merkezli geniş yol ağını hangi imparatorluk inşa etti?",
+    "explanation": "Roma yolları, Roma İmparatorluğu'nun dört bir yanındaki toprakları birbirine bağladı.",
+    "options": [
+      "Moğol İmparatorluğu",
+      "Roma İmparatorluğu",
+      "Mali İmparatorluğu",
+      "İnka İmparatorluğu"
+    ]
+  },
+  "history-039": {
+    "question": "Magna Carta hangi yıl mühürlendi?",
+    "explanation": "Kral John 1215'te Magna Carta'yı mühürledi.",
+    "options": [
+      "1066",
+      "1215",
+      "1492",
+      "1607"
+    ]
+  },
+  "history-040": {
+    "question": "1620'de Pilgrimleri Kuzey Amerika'ya taşıyan gemi hangisiydi?",
+    "explanation": "Mayflower, 1620'de İngiliz Ayrılıkçılarını taşıdı.",
+    "options": [
+      "Santa Maria",
+      "Mayflower",
+      "Endeavour",
+      "Beagle"
+    ]
+  },
+  "math-041": {
+    "question": "8 7 nedir?",
+    "explanation": "Yedili sekiz grup 56'ya eşittir.",
+    "options": [
+      "54",
+      "56",
+      "58",
+      "64"
+    ]
+  },
+  "math-042": {
+    "question": "144 12 nedir?",
+    "explanation": "144 bölü 12 eşittir 12.",
+    "options": [
+      "10",
+      "11",
+      "12",
+      "14"
+    ]
+  },
+  "math-043": {
+    "question": "Çözün: 3x + 5 = 20.",
+    "explanation": "3x = 15 elde etmek için 5'i çıkarın, sonra 3'e bölün: x = 5.",
+    "options": [
+      "3",
+      "5",
+      "7",
+      "15"
+    ]
+  },
+  "math-044": {
+    "question": "80'in %25'i nedir?",
+    "explanation": "25% bir çeyrek; 80 bölü 4 20.",
+    "options": [
+      "10",
+      "15",
+      "20",
+      "25"
+    ]
+  },
+  "math-045": {
+    "question": "Ondalık olarak yazılan 3/4 nedir?",
+    "explanation": "Üç bölü dört eşittir 0.75.",
+    "options": [
+      "0.25",
+      "0,5",
+      "0.75",
+      "1.25"
+    ]
+  },
+  "math-046": {
+    "question": "Sırada hangi sayı var: 2, 6, 12, 20, 30, ...?",
+    "explanation": "Farklılıklar 4, 6, 8, 10, sonra 12; sonraki terim 42'dir.",
+    "options": [
+      "36",
+      "40",
+      "42",
+      "44"
+    ]
+  },
+  "math-047": {
+    "question": "Adil bir altı taraflı kalıp yuvarlanır. Çift bir sayının yuvarlanma olasılığı nedir?",
+    "explanation": "Altı sonuçtan üçü (2, 4, 6) eşittir, yani olasılık 1/2'dir.",
+    "options": [
+      "1/6",
+      "1/3",
+      "1/2",
+      "2/3"
+    ]
+  },
+  "math-048": {
+    "question": "Bir dikdörtgenin çevresi 30 ve uzunluğu 9. Genişliği nedir?",
+    "explanation": "2(9 + w) = 30, yani w = 6.",
+    "options": [
+      "5",
+      "6",
+      "7",
+      "12"
+    ]
+  },
+  "math-049": {
+    "question": "6 ve 8'in en az yaygın katı nedir?",
+    "explanation": "24, hem 6 hem de 8 tarafından bölünebilen en küçük pozitif sayıdır.",
+    "options": [
+      "12",
+      "18",
+      "24",
+      "48"
+    ]
+  },
+  "math-050": {
+    "question": "5 işçi bir işi 12 günde aynı oranda bitirirse, iş kaç işçi günüdür?",
+    "explanation": "5 işçi 12 gün = 60 işçi günü.",
+    "options": [
+      "17",
+      "30",
+      "60",
+      "72"
+    ]
+  },
+  "language-051": {
+    "options": [
+      "Short",
+      "Distant",
+      "Heavy",
+      "Quiet"
+    ],
+    "question": "Hangi kelime \"kısa\" ile eşanlamlıdır?",
+    "explanation": "Kısa, süre veya uzunlukta kısa anlamına gelir."
+  },
+  "language-052": {
+    "options": [
+      "Comma",
+      "Colon",
+      "Question mark",
+      "Semicolon"
+    ],
+    "question": "Hangi noktalama işareti doğrudan bir soruyu sona erdirir?",
+    "explanation": "Doğrudan bir soru, soru işareti ile sona erer."
+  },
+  "language-053": {
+    "options": [
+      "Childs",
+      "Children",
+      "Childes",
+      "Childrens"
+    ],
+    "question": "\"Çocuk\" kelimesinin çoğulu nedir?",
+    "explanation": "Çocuklar geleneksel çoğul çocuk şeklidir."
+  },
+  "language-054": {
+    "options": [
+      "Their going home.",
+      "The team left their bags here.",
+      "Put it over their.",
+      "Their is a book."
+    ],
+    "question": "Hangi cümle \"onların\" doğru kullanır?",
+    "explanation": "Sahiplenici bir belirleyicidir; çantaların takıma ait olduğunu gösterir."
+  },
+  "language-055": {
+    "options": [
+      "Separate",
+      "Seperate",
+      "Seperete",
+      "Sepparate"
+    ],
+    "question": "Hangi kelime doğru yazılır?",
+    "explanation": "Ayrı, ortada \"par\" ile yazılır."
+  },
+  "language-056": {
+    "options": [
+      "Old",
+      "Historic",
+      "Modern",
+      "Early"
+    ],
+    "question": "\"Antik Çağ\"ın tam tersi nedir?",
+    "explanation": "Modern, antik çağların bir antonimidir."
+  },
+  "language-057": {
+    "options": [
+      "She",
+      "sang",
+      "beautifully",
+      "none"
+    ],
+    "question": "\"Çok güzel şarkı söyledi\" cümlesinde, \"Adverb\" hangi kelimedir?",
+    "explanation": "Güzel bir şekilde fiil şarkısını değiştirir ve bir adverb'dir."
+  },
+  "language-058": {
+    "options": [
+      "Because it was raining.",
+      "The bright red umbrella.",
+      "They walked home.",
+      "After the long trip."
+    ],
+    "question": "Hangisi tam bir cümledir?",
+    "explanation": "\"Eve yürüdüler\" bir konu ve tam bir emir var."
+  },
+  "language-059": {
+    "options": [
+      "Glance",
+      "Stare",
+      "Watch",
+      "Observe"
+    ],
+    "question": "Hangi kelime \"hızlı bakmak\" anlamına gelir?",
+    "explanation": "Bir bakış kısa veya hızlı bir bakıştır."
+  },
+  "language-060": {
+    "options": [
+      "Flower / flour",
+      "Book / boot",
+      "Cat / cut",
+      "Seat / set"
+    ],
+    "question": "Ortak İngilizce telaffuzda homofonlar hangi çifttir?",
+    "explanation": "Çiçek ve un, yaygın İngilizcede benzer şekilde telaffuz edilir."
+  },
+  "technology-061": {
+    "question": "CPU ne anlama geliyor?",
+    "explanation": "CPU, Merkezi İşlem Birimi anlamına gelir.",
+    "options": [
+      "Merkezi İşlem Birimi",
+      "Bilgisayar Güç Yardımcı Programı",
+      "Çekirdek Program Yükleme",
+      "Merkezi Baskı Ünitesi"
+    ]
+  },
+  "technology-062": {
+    "question": "Web tarayıcılarında doğal olarak hangi dil çalışır?",
+    "explanation": "Tarayıcılar JavaScript'i çalıştırmak için JavaScript motorlarını uygular.",
+    "options": [
+      "Java",
+      "C",
+      "JavaScript",
+      "Swift"
+    ]
+  },
+  "technology-063": {
+    "question": "HTTP durum kodu 404 yaygın olarak ne anlama gelir?",
+    "explanation": "HTTP 404, istenen kaynağın bulunamadığını gösterir.",
+    "options": [
+      "Başarı",
+      "Bulunamadı",
+      "İzinsiz",
+      "Sunucu kullanılamıyor"
+    ]
+  },
+  "technology-064": {
+    "question": "Hangi cihaz farklı ağlar arasında paketleri iletir?",
+    "explanation": "Bir yönlendirici, paketleri ağlar arasında iletir.",
+    "options": [
+      "Yönlendirici",
+      "Klavye",
+      "Monitör",
+      "Yazıcı"
+    ]
+  },
+  "technology-065": {
+    "question": "Git'te, bir taahhüt neyi temsil eder?",
+    "explanation": "Bir Git işlemi, bir anlık görüntüsünü ve meta verilerini depo geçmişinde kaydeder.",
+    "options": [
+      "Proje değişikliklerinin kaydedilmiş bir anlık görüntüsü",
+      "Ağ kablosu",
+      "Bir programlama dili",
+      "Bir dosya sıkıştırma biçimi"
+    ]
+  },
+  "technology-066": {
+    "question": "İlişkisel veritabanı sorgu dili nedir?",
+    "explanation": "SQL, ilişkisel veritabanlarını sorgulamak ve yönetmek için kullanılır.",
+    "options": [
+      "SQL",
+      "HTML",
+      "CSS",
+      "PNG"
+    ]
+  },
+  "technology-067": {
+    "question": "URL ne anlama geliyor?",
+    "explanation": "URL Uniform Resource Locator anlamına gelir.",
+    "options": [
+      "Tekdüzen Kaynak Bulucu",
+      "Evrensel Yönlendirme Bağlantısı",
+      "Birleşik Kayıt Listesi",
+      "Kullanıcı Referans Dili"
+    ]
+  },
+  "technology-068": {
+    "question": "Hangi sayı sistemi sadece 0 ve 1 kullanır?",
+    "explanation": "Binary base 2'dir ve 0 ve 1 basamaklarını kullanır.",
+    "options": [
+      "Ondalık",
+      "İkili",
+      "Octal",
+      "Roman"
+    ]
+  },
+  "technology-069": {
+    "question": "DNS'nin ana rolü nedir?",
+    "explanation": "DNS, alan adlarını internet servislerini bulmak için kullanılan kayıtlara çözer.",
+    "options": [
+      "Alan adlarını IP adresleri gibi ağ kayıtlarına çevirin",
+      "Her dosyayı şifrele",
+      "Parolaları bir tarayıcıda sakla",
+      "Kaynak kodunu derle"
+    ]
+  },
+  "technology-070": {
+    "question": "Bir PNG resmi için hangi dosya uzantısı yaygın olarak kullanılır?",
+    "explanation": "PNG resim dosyaları genellikle .png uzantısını kullanır.",
+    "options": [
+      ".png",
+      ".mp3",
+      ".csv",
+      ".exe"
+    ]
+  },
+  "brain-071": {
+    "question": "Sıra 1, 4, 9, 16, ...?",
+    "explanation": "Bunlar ardışık kare sayılarıdır: 12, 22, 32, 42; sonraki 52 = 25.",
+    "options": [
+      "20",
+      "24",
+      "25",
+      "36"
+    ]
+  },
+  "brain-072": {
+    "question": "Bir saat 3:15'i gösterir. Elleri arasındaki küçük açı nedir?",
+    "explanation": "Saat 3:15'te dakika eli 90 ve saat eli 97.5 , 7.5 boşlukta.",
+    "options": [
+      "0",
+      "7.5",
+      "15",
+      "30"
+    ]
+  },
+  "brain-073": {
+    "question": "Eğer tüm Bloop'lar Razzies ve tüm Razzies Lazzies ise, tüm Bloop'lar Lazzies mi?",
+    "explanation": "Geçiş yoluyla, her bloop Razzies ve dolayısıyla Lazzies kümesine aittir.",
+    "options": [
+      "Peki",
+      "Hayır",
+      "Belirlenemiyor",
+      "Sadece bazıları"
+    ]
+  },
+  "brain-074": {
+    "question": "Bir desen tekrar eder: daire, kare, üçgen, daire, kare, ... Sırada ne var?",
+    "explanation": "Üç şekilli dizi tekrar eder, yani üçgen sıradakidir.",
+    "options": [
+      "Çember",
+      "Kare",
+      "Üçgen",
+      "Pentagon"
+    ]
+  },
+  "brain-075": {
+    "question": "Koşucuyu ikinci sırada tutuyorsun, hangi yerdesin?",
+    "explanation": "İkinci sıradaki koşucuyu geçmek seni ikinci sıraya koyuyor.",
+    "options": [
+      "İlk",
+      "İkinci",
+      "Üçüncü",
+      "Dördüncü"
+    ]
+  },
+  "brain-076": {
+    "question": "Hangi sayı ait değildir: 2, 3, 5, 9, 11?",
+    "explanation": "9 bileşiktir; diğerleri asal sayılardır.",
+    "options": [
+      "2",
+      "3",
+      "9",
+      "11"
+    ]
+  },
+  "brain-077": {
+    "question": "Bir çiftçinin 17 koyunu vardır. 9'u hariç hepsi ayrılır. Kaç tane kaldı?",
+    "explanation": "\"9 hariç hepsi\", 9 koyunun kaldığı anlamına gelir.",
+    "options": [
+      "8",
+      "9",
+      "17",
+      "26"
+    ]
+  },
+  "brain-078": {
+    "question": "Eğer dün Pazartesi ise, yarından sonraki gün hangi gündür?",
+    "explanation": "Dün Pazartesi, bugün Salı; yarın Çarşamba ve ertesi gün Perşembe anlamına gelir.",
+    "options": [
+      "Salı",
+      "Çarşamba",
+      "Perşembe",
+      "Cuma"
+    ]
+  },
+  "brain-079": {
+    "question": "İki baba ve iki oğul, her biri birer elma olmak üzere üç elmayı eşit olarak paylaşırlar. Bu nasıl mümkün olabilir?",
+    "explanation": "Ortadaki kişi hem bir oğul hem de bir babadır, bu yüzden grubun üç kişisi vardır.",
+    "options": [
+      "Her elmayı keserler",
+      "Üç kişi var: dede, baba, oğul",
+      "Bir kişi hiçbir şey alamaz",
+      "Dört kişi var"
+    ]
+  },
+  "brain-080": {
+    "question": "Sonraki harf nedir: A, C, F, J, O, ...?",
+    "explanation": "Mektup pozisyonları 2, 3, 4, 5 oranında artar; daha sonra U'yu almak için 6'yı O'ya (15) ekleyin (21).",
+    "options": [
+      "S",
+      "T",
+      "U",
+      "V"
+    ]
+  },
+  "nonsense-081": {
+    "question": "Dişleri çok olan ama ısırmayan şey nedir?",
+    "explanation": "Bir tarak dişleri vardır, ancak ısırmak için kullanılmazlar.",
+    "options": [
+      "Bir tarak",
+      "Köpekbalığı",
+      "Bir fermuar",
+      "Bir testere"
+    ]
+  },
+  "nonsense-082": {
+    "question": "Kurudukça ne ıslanır?",
+    "explanation": "Bir havlu başka bir şeyi kuruturken suyu emer.",
+    "options": [
+      "Bir havlu",
+      "Bir bulut",
+      "Bir sünger",
+      "Bir nehir"
+    ]
+  },
+  "nonsense-083": {
+    "question": "Başı olmayan bir boynu olan nedir?",
+    "explanation": "Bir şişenin boynu vardır ama kafası yoktur.",
+    "options": [
+      "Bir şişe",
+      "Bir kişi",
+      "Bir zürafa",
+      "Bir gömlek"
+    ]
+  },
+  "nonsense-084": {
+    "question": "Elleri olan ama alkışlamayan nedir?",
+    "explanation": "Bir saatin saat ve dakika elleri vardır.",
+    "options": [
+      "Bir saat",
+      "Bir piyanist",
+      "Bir eldiven",
+      "Bir heykel"
+    ]
+  },
+  "nonsense-085": {
+    "question": "Bir köşede kalırken dünyayı ne gezebilir?",
+    "explanation": "Bir posta pulu, seyahat ederken bir zarfın köşesinde kalır.",
+    "options": [
+      "Bir pul",
+      "Pusula",
+      "Bir bulut",
+      "Bir bavul"
+    ]
+  },
+  "nonsense-086": {
+    "question": "Bir gözü olan ama görmeyen nedir?",
+    "explanation": "İğnenin gözü iplik deliğidir.",
+    "options": [
+      "İğne",
+      "Bir kamera",
+      "Bir fırtına",
+      "Bir patates"
+    ]
+  },
+  "nonsense-087": {
+    "question": "Anahtarları olan ama kilidi açamayan nedir?",
+    "explanation": "Piyanonun müzik anahtarları vardır, kilit anahtarları değil.",
+    "options": [
+      "Bir piyano",
+      "Bir çilingir",
+      "Bir harita",
+      "Bir kapı"
+    ]
+  },
+  "nonsense-088": {
+    "question": "Bir yüzü ve iki eli olan ama kolları ve bacakları olmayan şey nedir?",
+    "explanation": "Bir saat yüzü ve elleri, bir kişi ile benzetme ile adlandırılır.",
+    "options": [
+      "Bir saat",
+      "Bir bebek",
+      "Bir resim",
+      "Bir eldiven"
+    ]
+  },
+  "nonsense-089": {
+    "question": "Yukarı çıkan ama asla aşağı inmeyen şey nedir?",
+    "explanation": "Zaman geçtikçe yaşınız artar.",
+    "options": [
+      "Yaşınız",
+      "Bir balon",
+      "Duman",
+      "Asansör"
+    ]
+  },
+  "nonsense-090": {
+    "question": "Dört ayağı olan ama yürüyemeyen nedir?",
+    "explanation": "Bir masanın bacakları vardır ama kendi kendine hareket edemez.",
+    "options": [
+      "Bir masa",
+      "Bir köpek",
+      "Bir at",
+      "Bir örümcek"
+    ]
+  },
+  "general-x-1": {
+    "question": "Güneş'ten sonra Dünya'ya en yakın yıldız hangisidir?",
+    "explanation": "Proxima Centauri, Güneş'in kendisinden sonra Güneş'e en yakın yıldızdır.",
+    "options": [
+      "Proxima Centauri",
+      "Dört",
+      "Higrometre",
+      "Calcite"
+    ]
+  },
+  "general-x-2": {
+    "question": "Standart bir kemanın kaç teli vardır?",
+    "explanation": "Standart bir kemanın dört teli vardır.",
+    "options": [
+      "Dört",
+      "Demir",
+      "C vitamini",
+      "Chickpeas"
+    ]
+  },
+  "general-x-3": {
+    "question": "Hangi alet atmosferik nemi ölçer?",
+    "explanation": "Bir higrometre havadaki nemi ölçer.",
+    "options": [
+      "Higrometre",
+      "Erik",
+      "Fermente soya fasulyesi",
+      "Badem"
+    ]
+  },
+  "general-x-4": {
+    "question": "Kireç taşının ana bileşeni hangi mineraldir?",
+    "explanation": "Kireçtaşı esas olarak mineral kalsitten oluşur.",
+    "options": [
+      "Calcite",
+      "Bir paket",
+      "Chameleon",
+      "Papağan"
+    ]
+  },
+  "general-x-5": {
+    "question": "Bir dakikada kaç saniye var?",
+    "explanation": "Bir dakika 60 saniye içerir.",
+    "options": [
+      "60",
+      "Piyano",
+      "Michelangelo",
+      "Dizgiler"
+    ]
+  },
+  "general-x-6": {
+    "question": "Periyodik tablodaki ilk element nedir?",
+    "explanation": "Hidrojen 1 atom numarasına sahiptir ve periyodik tablodaki ilk elementtir.",
+    "options": [
+      "Hidrojen",
+      "Origami",
+      "Islak sıva",
+      "Yazıt"
+    ]
+  },
+  "general-x-7": {
+    "question": "Doğu Afrika ile Batı Avustralya arasında hangi okyanus bulunur?",
+    "explanation": "Hint Okyanusu Afrika, Asya ve Avustralya arasında yer alır.",
+    "options": [
+      "Hint Okyanusu",
+      "Altı",
+      "Rugby",
+      "Onsekiz"
+    ]
+  },
+  "general-x-8": {
+    "question": "Standart basınçta, saf su hangi sıcaklıkta kaynatır?",
+    "explanation": "Su, bir basınç atmosferinde 100 C'de kaynar.",
+    "options": [
+      "100 C",
+      "Borçlanma Maliyeti",
+      "Geliri gelecekteki kullanım için tutmak",
+      "Alıcıların ve satıcıların alışveriş yaptığı bir sistem"
+    ]
+  },
+  "general-x-9": {
+    "question": "Bir tetrahedronun kaç yüzü vardır?",
+    "explanation": "Bir tetrahedronun dört üçgen yüzü vardır.",
+    "options": [
+      "Dört",
+      "Adres",
+      "Pusula",
+      "366"
+    ]
+  },
+  "general-x-10": {
+    "question": "Hangi metalin Fe kimyasal sembolü var?",
+    "explanation": "Fe, demirin kimyasal sembolüdür.",
+    "options": [
+      "Demir",
+      "Güvenli bir şekilde bir yolu geçin",
+      "112",
+      "Duman"
+    ]
+  },
+  "general-x-11": {
+    "question": "Narenciye meyvesinde hangi vitamin boldur?",
+    "explanation": "Narenciye meyveleri iyi bilinen C vitamini kaynaklarıdır.",
+    "options": [
+      "C vitamini",
+      "Chuseok",
+      "Ondol",
+      "Buchaechum"
+    ]
+  },
+  "general-x-12": {
+    "question": "Geleneksel humusta ana madde nedir?",
+    "explanation": "Geleneksel humus esas olarak nohuttan yapılır.",
+    "options": [
+      "Chickpeas",
+      "İkinci",
+      "90",
+      "Omnivore"
+    ]
+  },
+  "general-x-13": {
+    "question": "Risotto yapmak için hangi tahıl kullanılır?",
+    "explanation": "Risotto genellikle Arborio gibi kısa tahıl çeşitlerini kullanır.",
+    "options": [
+      "Arborio pilavı",
+      "Dört",
+      "Higrometre",
+      "Calcite"
+    ]
+  },
+  "general-x-14": {
+    "question": "Tofu öncelikle neyden yapılır?",
+    "explanation": "Tofu, soya sütünün pıhtılaşmasıyla yapılır.",
+    "options": [
+      "Soya fasulyesi",
+      "Demir",
+      "C vitamini",
+      "Chickpeas"
+    ]
+  },
+  "general-x-15": {
+    "question": "Hangi baharat birçok körilere sarı renk verir?",
+    "explanation": "Zerdeçal cinsinden curcumin ona güçlü bir sarı renk verir.",
+    "options": [
+      "Zerdeçal",
+      "Fermente soya fasulyesi",
+      "Badem",
+      "Krem"
+    ]
+  },
+  "general-x-16": {
+    "question": "Guacamole'nin ana maddesi nedir?",
+    "explanation": "Guacamole, püre avokadoya dayanmaktadır.",
+    "options": [
+      "Avokado",
+      "Chameleon",
+      "Papağan",
+      "Balina köpekbalığı"
+    ]
+  },
+  "general-x-17": {
+    "question": "Kuru erik yapmak için hangi meyveler kurutulur?",
+    "explanation": "Kuru erik kuru eriktir.",
+    "options": [
+      "Erik",
+      "Michelangelo",
+      "Dizgiler",
+      "Dans"
+    ]
+  },
+  "general-x-18": {
+    "question": "Misodaki ana bileşen nedir?",
+    "explanation": "Miso, yaygın olarak soya fasulyesinden yapılan fermente bir macundur.",
+    "options": [
+      "Fermente soya fasulyesi",
+      "Islak sıva",
+      "Yazıt",
+      "Beş"
+    ]
+  },
+  "general-x-19": {
+    "question": "Hangi fındık marzipan yapmak için kullanılır?",
+    "explanation": "Marzipan öncelikle öğütülmüş badem ve şekerden yapılır.",
+    "options": [
+      "Badem",
+      "Rugby",
+      "Onsekiz",
+      "Satranç"
+    ]
+  },
+  "general-x-20": {
+    "question": "Tereyağı yapmak için hangi süt ürünleri çalkalanır?",
+    "explanation": "Çörek kremi tereyağını ayrandan ayırır.",
+    "options": [
+      "Krem",
+      "Geliri gelecekteki kullanım için tutmak",
+      "Alıcıların ve satıcıların alışveriş yaptığı bir sistem",
+      "Fiyatlarda genel artış"
+    ]
+  },
+  "general-x-21": {
+    "question": "Yaşayan en büyük kara hayvanı nedir?",
+    "explanation": "Afrika fili yaşayan en büyük kara hayvanıdır.",
+    "options": [
+      "Afrika fili",
+      "Pusula",
+      "366",
+      "Yedi"
+    ]
+  },
+  "general-x-22": {
+    "question": "Kısa mesafelerde en hızlı kara hayvanı hangisidir?",
+    "explanation": "Çitalar en yüksek kara-hayvan sprint hızlarına ulaşabilir.",
+    "options": [
+      "Cheetah",
+      "112",
+      "Duman",
+      "Seoul"
+    ]
+  },
+  "general-x-23": {
+    "question": "Hangi memeli yumurta bırakır ve ördek benzeri bir faturası vardır?",
+    "explanation": "Platypus, bir faturası olan yumurta yayan bir memelidir.",
+    "options": [
+      "Platypus",
+      "Ondol",
+      "Buchaechum",
+      "Hanok"
+    ]
+  },
+  "general-x-24": {
+    "question": "Bir grup kurta yaygın olarak ne denir?",
+    "explanation": "Bir grup kurta genellikle sürü denir.",
+    "options": [
+      "Bir paket",
+      "90",
+      "Omnivore",
+      "Yağış"
+    ]
+  },
+  "general-x-25": {
+    "question": "Hangi hayvan özel cilt hücrelerini kullanarak renk değiştirmesiyle bilinir?",
+    "explanation": "Bukalemunlar özel cilt hücrelerini kullanarak renk değiştirebilirler.",
+    "options": [
+      "Chameleon",
+      "Higrometre",
+      "Calcite",
+      "60"
+    ]
+  },
+  "general-x-26": {
+    "question": "Hangi kuş insan konuşmasını taklit etmekle ünlüdür?",
+    "explanation": "Birçok papağan türü, insan konuşması da dahil olmak üzere sesleri taklit edebilir.",
+    "options": [
+      "Papağan",
+      "C vitamini",
+      "Chickpeas",
+      "Arborio pilavı"
+    ]
+  },
+  "general-x-27": {
+    "question": "En büyük köpekbalığı türü nedir?",
+    "explanation": "Balina köpekbalığı yaşayan en büyük balık türüdür.",
+    "options": [
+      "Balina köpekbalığı",
+      "Fermente soya fasulyesi",
+      "Badem",
+      "Krem"
+    ]
+  },
+  "general-x-28": {
+    "question": "Hangi böcek bal üretir?",
+    "explanation": "Bal arıları toplanan nektardan bal üretir.",
+    "options": [
+      "Honeybee",
+      "Chameleon",
+      "Papağan",
+      "Balina köpekbalığı"
+    ]
+  },
+  "general-x-29": {
+    "question": "Genç bir kurbağanın adı nedir?",
+    "explanation": "Bir kurbağanın sucul larva evresine \"tadpole\" denir.",
+    "options": [
+      "Tadpole",
+      "Dizgiler",
+      "Dans",
+      "Renkli cam"
+    ]
+  },
+  "general-x-30": {
+    "question": "Hangi memeli gezinmek için ekolokasyon kullanır?",
+    "explanation": "Birçok yarasa avın yerini bulmak ve gezinmek için ekolokasyon kullanır.",
+    "options": [
+      "Yarasa",
+      "Yazıt",
+      "Beş",
+      "Aşk"
+    ]
+  },
+  "general-x-31": {
+    "question": "Hangi enstrüman standart modern formunda 88 tuşa sahiptir?",
+    "explanation": "Standart modern piyanonun 88 tuşu vardır.",
+    "options": [
+      "Piyano",
+      "Onsekiz",
+      "Satranç",
+      "Yen"
+    ]
+  },
+  "general-x-32": {
+    "question": "Sistine Şapeli'nin tavanını hangi sanatçı boyadı?",
+    "explanation": "Michelangelo Sistine Şapeli tavanını boyadı.",
+    "options": [
+      "Michelangelo",
+      "Alıcıların ve satıcıların alışveriş yaptığı bir sistem",
+      "Fiyatlarda genel artış",
+      "Hükümete ödenmesi gereken bir ödeme"
+    ]
+  },
+  "general-x-33": {
+    "question": "Hangi enstrüman ailesi kemanı içerir?",
+    "explanation": "Keman, yaylı bir yaylı çalgıdır.",
+    "options": [
+      "Dizgiler",
+      "366",
+      "Yedi",
+      "Kahvaltı"
+    ]
+  },
+  "general-x-34": {
+    "question": "Hangi sanat formu müzik için hareket ve koreografi kullanır?",
+    "explanation": "Dans, hareket yoluyla fikirleri ve formları ifade eder.",
+    "options": [
+      "Dans",
+      "Duman",
+      "Seoul",
+      "Kazandı"
+    ]
+  },
+  "general-x-35": {
+    "question": "Hangi malzeme geleneksel olarak vitray yapmak için kullanılır?",
+    "explanation": "Lekeli cam sanat eserleri renkli cam parçalardan bir araya getirilir.",
+    "options": [
+      "Renkli cam",
+      "Buchaechum",
+      "Hanok",
+      "Gayageum"
+    ]
+  },
+  "general-x-36": {
+    "question": "Dört Mevsim'i hangi besteci yazdı?",
+    "explanation": "Vivaldi, The Four Seasons olarak bilinen keman konçertolarının setini besteledi.",
+    "options": [
+      "Antonio Vivaldi",
+      "Omnivore",
+      "Yağış",
+      "Cetvel"
+    ]
+  },
+  "general-x-37": {
+    "question": "Hangi enstrüman bir yay ile çalınır ve kemandan daha büyüktür?",
+    "explanation": "Çello, kemandan daha büyük bir yaylı yaylı çalgıdır.",
+    "options": [
+      "Çello",
+      "Calcite",
+      "60",
+      "Hidrojen"
+    ]
+  },
+  "general-x-38": {
+    "question": "Japon kağıt katlama sanatının adı nedir?",
+    "explanation": "Origami, kağıdı formlara katlama sanatıdır.",
+    "options": [
+      "Origami",
+      "Chickpeas",
+      "Arborio pilavı",
+      "Soya fasulyesi"
+    ]
+  },
+  "general-x-39": {
+    "question": "Bir fresk oluşturmak için hangi ortam kullanılır?",
+    "explanation": "Taze döşenmiş ıslak sıva üzerine bir fresk boyanır.",
+    "options": [
+      "Islak sıva",
+      "Badem",
+      "Krem",
+      "Afrika fili"
+    ]
+  },
+  "general-x-40": {
+    "question": "Hangi müzede taş, metal veya ahşap üzerine yazı kullanılır?",
+    "explanation": "Bir yazıt, dayanıklı bir yüzeye oyulmuş veya yazılmış metindir.",
+    "options": [
+      "Yazıt",
+      "Papağan",
+      "Balina köpekbalığı",
+      "Honeybee"
+    ]
+  },
+  "general-x-41": {
+    "question": "Bir basketbol takımından kaç oyuncu aynı anda sahadadır?",
+    "explanation": "Her basketbol takımı sahada beş oyuncuya yer verir.",
+    "options": [
+      "Beş",
+      "Dizgiler",
+      "Dans",
+      "Renkli cam"
+    ]
+  },
+  "general-x-42": {
+    "question": "Teniste sıfır skoru ne denir?",
+    "explanation": "Tenis, aşk terimini sıfır puan için kullanır.",
+    "options": [
+      "Aşk",
+      "Yazıt",
+      "Beş",
+      "Badminton"
+    ]
+  },
+  "general-x-43": {
+    "question": "Olimpiyat bayrağında kaç yüzük görünüyor?",
+    "explanation": "Olimpik sembolün beş ara halkası vardır.",
+    "options": [
+      "Beş",
+      "Satranç",
+      "Yen",
+      "Planlanan gelir ve harcamalar"
+    ]
+  },
+  "general-x-44": {
+    "question": "Hangi spor mekik kuşu kullanır?",
+    "explanation": "Badminton bir mekikle oynanır.",
+    "options": [
+      "Badminton",
+      "Fiyatlarda genel artış",
+      "Hükümete ödenmesi gereken bir ödeme",
+      "Gelir eksi maliyetleri"
+    ]
+  },
+  "general-x-45": {
+    "question": "Bir beyzbol elmasında kaç temel vardır?",
+    "explanation": "Bir beyzbol elmasının ev plakası da dahil olmak üzere dört tabanı vardır.",
+    "options": [
+      "Dört",
+      "Yedi",
+      "Kahvaltı",
+      "Madde listesi"
+    ]
+  },
+  "general-x-46": {
+    "question": "Wimbledon'da hangi spor oynanır?",
+    "explanation": "Wimbledon büyük bir tenis turnuvasıdır.",
+    "options": [
+      "Tenis",
+      "Seoul",
+      "Kazandı",
+      "Hangul"
+    ]
+  },
+  "general-x-47": {
+    "question": "Herhangi bir dönüşümden önce bir touchdown kaç puan değerindedir?",
+    "explanation": "Bir touchdown Amerikan futbolunda altı puan değerindedir.",
+    "options": [
+      "Altı",
+      "Hanok",
+      "Gayageum",
+      "Ssireum"
+    ]
+  },
+  "general-x-48": {
+    "question": "Hangi spor scrum kullanır?",
+    "explanation": "Scrum, rugby'de oyunu yeniden başlatma yöntemidir.",
+    "options": [
+      "Rugby",
+      "Yağış",
+      "Cetvel",
+      "Bir ateş"
+    ]
+  },
+  "general-x-49": {
+    "question": "Standart bir golf turunda kaç delik vardır?",
+    "explanation": "Standart bir golf turu 18 delik üzerinde oynanır.",
+    "options": [
+      "Onsekiz",
+      "60",
+      "Hidrojen",
+      "Hint Okyanusu"
+    ]
+  },
+  "general-x-50": {
+    "question": "Hangi spor kontrol ve checkmate terimlerini kullanır?",
+    "explanation": "Check ve checkmate satrançta kullanılan terimlerdir.",
+    "options": [
+      "Satranç",
+      "Arborio pilavı",
+      "Soya fasulyesi",
+      "Zerdeçal"
+    ]
+  },
+  "general-x-51": {
+    "question": "Japonya'da kullanılan para birimi nedir?",
+    "explanation": "Yen, Japonya'nın para birimidir.",
+    "options": [
+      "Yen",
+      "Krem",
+      "Afrika fili",
+      "Cheetah"
+    ]
+  },
+  "general-x-52": {
+    "question": "Bir bütçe neyi karşılaştırır?",
+    "explanation": "Bütçe, beklenen gelir ve giderleri düzenler.",
+    "options": [
+      "Planlanan gelir ve harcamalar",
+      "Balina köpekbalığı",
+      "Honeybee",
+      "Tadpole"
+    ]
+  },
+  "general-x-53": {
+    "question": "Takas nedir?",
+    "explanation": "Barter, parayı ödeme olarak kullanmadan doğrudan bir takastır.",
+    "options": [
+      "Parasız mal değişimi",
+      "Dans",
+      "Renkli cam",
+      "Antonio Vivaldi"
+    ]
+  },
+  "general-x-54": {
+    "question": "Kredi faizi nedir?",
+    "explanation": "Faiz, borç para için ödenen bedeldir.",
+    "options": [
+      "Borçlanma Maliyeti",
+      "Beş",
+      "Aşk",
+      "Badminton"
+    ]
+  },
+  "general-x-55": {
+    "question": "Tasarruf ne anlama gelir?",
+    "explanation": "Tasarruf etmek, şimdi harcamak yerine kaynakları rezerve etmek anlamına gelir.",
+    "options": [
+      "Geliri gelecekteki kullanım için tutmak",
+      "Satranç",
+      "Yen",
+      "Planlanan gelir ve harcamalar"
+    ]
+  },
+  "general-x-56": {
+    "question": "Ekonomide piyasa nedir?",
+    "explanation": "Bir pazar, alıcıları ve satıcıları borsalar için bağlar.",
+    "options": [
+      "Alıcıların ve satıcıların alışveriş yaptığı bir sistem",
+      "Hükümete ödenmesi gereken bir ödeme",
+      "Gelir eksi maliyetleri",
+      "Satıcılar ne kadar satış teklif ediyor"
+    ]
+  },
+  "general-x-57": {
+    "question": "Enflasyon nedir?",
+    "explanation": "Enflasyon, genel fiyat seviyesinde sürekli bir artıştır.",
+    "options": [
+      "Fiyatlarda genel artış",
+      "Kahvaltı",
+      "Madde listesi",
+      "Yeniden kullanım için işler"
+    ]
+  },
+  "general-x-58": {
+    "question": "Vergi nedir?",
+    "explanation": "Vergiler kamu hizmetlerini finanse eder ve hükümetler tarafından dayatılır.",
+    "options": [
+      "Hükümete ödenmesi gereken bir ödeme",
+      "Kazandı",
+      "Hangul",
+      "Kimchi"
+    ]
+  },
+  "general-x-59": {
+    "question": "Kâr nedir?",
+    "explanation": "Kâr, maliyetler gelirden çıkarıldığında kalan şeydir.",
+    "options": [
+      "Gelir eksi maliyetleri",
+      "Gayageum",
+      "Ssireum",
+      "Metre"
+    ]
+  },
+  "general-x-60": {
+    "question": "Tedarik neyi tanımlar?",
+    "explanation": "Tedarik, üreticilerin farklı fiyatlarla satmaya istekli oldukları miktardır.",
+    "options": [
+      "Satıcılar ne kadar satış teklif ediyor",
+      "Cetvel",
+      "Bir ateş",
+      "Güney"
+    ]
+  },
+  "general-x-61": {
+    "question": "Bir yere yazılı bir yön kümesinin adı nedir?",
+    "explanation": "Bir adres, teslimat veya navigasyon için bir konum tanımlar.",
+    "options": [
+      "Adres",
+      "Hidrojen",
+      "Hint Okyanusu",
+      "100 C"
+    ]
+  },
+  "general-x-62": {
+    "question": "Manyetik iğne ile yön bulmak için yaygın olarak hangi cihaz kullanılır?",
+    "explanation": "Bir pusula iğnesi yaklaşık olarak Dünya'nın manyetik alanıyla hizalanır.",
+    "options": [
+      "Pusula",
+      "Soya fasulyesi",
+      "Zerdeçal",
+      "Avokado"
+    ]
+  },
+  "general-x-63": {
+    "question": "Sıçrama yılında kaç gün vardır?",
+    "explanation": "Bir sıçrama yılının Şubat ayında fazladan bir günü vardır, toplam 366.",
+    "options": [
+      "366",
+      "Afrika fili",
+      "Cheetah",
+      "Platypus"
+    ]
+  },
+  "general-x-64": {
+    "question": "Kaç aylık 31 gün var?",
+    "explanation": "Yedi ayın 31 günü var.",
+    "options": [
+      "Yedi",
+      "Honeybee",
+      "Tadpole",
+      "Yarasa"
+    ]
+  },
+  "general-x-65": {
+    "question": "Günün ilk yemeğinin adı nedir?",
+    "explanation": "Kahvaltı genellikle uyandıktan sonraki ilk öğündür.",
+    "options": [
+      "Kahvaltı",
+      "Renkli cam",
+      "Antonio Vivaldi",
+      "Çello"
+    ]
+  },
+  "general-x-66": {
+    "question": "Paketlenmiş gıdalardaki malzemeleri hangi belge listeler?",
+    "explanation": "Gıda etiketleri, genellikle ağırlık sırasına göre azalan bileşenleri listeler.",
+    "options": [
+      "Madde listesi",
+      "Aşk",
+      "Badminton",
+      "Tenis"
+    ]
+  },
+  "general-x-67": {
+    "question": "Geri dönüşüm kullanılabilir malzemeye ne yapar?",
+    "explanation": "Geri dönüşüm atık malzemeyi işler, böylece tekrar kullanılabilir.",
+    "options": [
+      "Yeniden kullanım için işler",
+      "Yen",
+      "Planlanan gelir ve harcamalar",
+      "Parasız mal değişimi"
+    ]
+  },
+  "general-x-68": {
+    "question": "Bir yaya geçidi insanların ne yapmasına yardımcı olur?",
+    "explanation": "İşaretli geçişler yayaların geçebileceği yerleri belirler.",
+    "options": [
+      "Güvenli bir şekilde bir yolu geçin",
+      "Hükümete ödenmesi gereken bir ödeme",
+      "Gelir eksi maliyetleri",
+      "Satıcılar ne kadar satış teklif ediyor"
+    ]
+  },
+  "general-x-69": {
+    "question": "Avrupa Birliği'nde hangi acil durum numarası kullanılır?",
+    "explanation": "112, AB genelindeki ortak acil durum numarasıdır.",
+    "options": [
+      "112",
+      "Kahvaltı",
+      "Madde listesi",
+      "Yeniden kullanım için işler"
+    ]
+  },
+  "general-x-70": {
+    "question": "Duman dedektörü ne anlama gelir?",
+    "explanation": "Duman dedektörleri, duman algılandığında yolcuları uyarır.",
+    "options": [
+      "Duman",
+      "Hangul",
+      "Kimchi",
+      "Chuseok"
+    ]
+  },
+  "general-x-71": {
+    "question": "Güney Kore'nin başkenti neresidir?",
+    "explanation": "Seul, Güney Kore'nin başkentidir.",
+    "options": [
+      "Seoul",
+      "Ssireum",
+      "Metre",
+      "İkinci"
+    ]
+  },
+  "general-x-72": {
+    "question": "Güney Kore'nin ulusal para birimi nedir?",
+    "explanation": "Kazanılan para Güney Kore'nin para birimidir.",
+    "options": [
+      "Kazandı",
+      "Bir ateş",
+      "Güney",
+      "Crust"
+    ]
+  },
+  "general-x-73": {
+    "question": "Hangi Kore alfabesi Kral Sejong tarafından telaffuz edildi?",
+    "explanation": "Kral Sejong, 1446'da Hangul olarak adlandırılan Hunminjeongeum'u ilan etti.",
+    "options": [
+      "Hangul",
+      "Hint Okyanusu",
+      "100 C",
+      "Demir"
+    ]
+  },
+  "general-x-74": {
+    "question": "Geleneksel Korece fermente lahana yemeğinin adı nedir?",
+    "explanation": "Kimchi, genellikle lahana ile yapılan geleneksel fermente edilmiş bir sebze yemeğidir.",
+    "options": [
+      "Kimchi",
+      "Zerdeçal",
+      "Avokado",
+      "Erik"
+    ]
+  },
+  "general-x-75": {
+    "question": "Hangi Kore tatili bir hasat kutlaması ile ilişkilidir?",
+    "explanation": "Chuseok, Kore'de önemli bir sonbahar hasat bayramıdır.",
+    "options": [
+      "Chuseok",
+      "Cheetah",
+      "Platypus",
+      "Bir paket"
+    ]
+  },
+  "general-x-76": {
+    "question": "Geleneksel Kore zemin ısıtma sistemi nedir?",
+    "explanation": "Ondol, geleneksel bir Kore yer altı ısıtma sistemidir.",
+    "options": [
+      "Ondol",
+      "Tadpole",
+      "Yarasa",
+      "Piyano"
+    ]
+  },
+  "general-x-77": {
+    "question": "Hangi Kore sanat formu bir dans gösterisinde katlama fanlarını kullanır?",
+    "explanation": "Buchaechum bir Kore fan dansıdır.",
+    "options": [
+      "Buchaechum",
+      "Antonio Vivaldi",
+      "Çello",
+      "Origami"
+    ]
+  },
+  "general-x-78": {
+    "question": "Geleneksel bir ev için Korece kelime nedir?",
+    "explanation": "Hanok, geleneksel Kore mimarisini ve evlerini ifade eder.",
+    "options": [
+      "Hanok",
+      "Badminton",
+      "Tenis",
+      "Altı"
+    ]
+  },
+  "general-x-79": {
+    "question": "Hangi Kore enstrümanının uzun bir boynu ve genellikle 12 teli vardır?",
+    "explanation": "Gayageum, genellikle 12 telli geleneksel bir Kore ziteridir.",
+    "options": [
+      "Gayageum",
+      "Planlanan gelir ve harcamalar",
+      "Parasız mal değişimi",
+      "Borçlanma Maliyeti"
+    ]
+  },
+  "general-x-80": {
+    "question": "Kore geleneksel güreş sporunun adı nedir?",
+    "explanation": "Ssireum geleneksel bir Kore güreşidir.",
+    "options": [
+      "Ssireum",
+      "Gelir eksi maliyetleri",
+      "Satıcılar ne kadar satış teklif ediyor",
+      "Adres"
+    ]
+  },
+  "general-x-81": {
+    "question": "SI uzunluk birimi nedir?",
+    "explanation": "Metre uzunluğu SI baz birimidir.",
+    "options": [
+      "Metre",
+      "Madde listesi",
+      "Yeniden kullanım için işler",
+      "Güvenli bir şekilde bir yolu geçin"
+    ]
+  },
+  "general-x-82": {
+    "question": "Zamanın SI birimi nedir?",
+    "explanation": "İkincisi zamanın SI baz birimidir.",
+    "options": [
+      "İkinci",
+      "Hangul",
+      "Kimchi",
+      "Chuseok"
+    ]
+  },
+  "general-x-83": {
+    "question": "Kaç derece dik açıdadır?",
+    "explanation": "Bir dik açı 90 derece ölçer.",
+    "options": [
+      "90",
+      "Ssireum",
+      "Metre",
+      "İkinci"
+    ]
+  },
+  "general-x-84": {
+    "question": "Hem bitkileri hem de hayvanları yiyen bir hayvanın adı nedir?",
+    "explanation": "Omnivorlar hem bitki hem de hayvansal maddeleri yerler.",
+    "options": [
+      "Omnivore",
+      "Proxima Centauri",
+      "Dört",
+      "Higrometre"
+    ]
+  },
+  "general-x-85": {
+    "question": "Bulutlardan yağmur, kar veya dolu olarak düşen su için terim nedir?",
+    "explanation": "Yağış yağmur, kar, sülük ve dolu içerir.",
+    "options": [
+      "Yağış",
+      "100 C",
+      "Demir",
+      "C vitamini"
+    ]
+  },
+  "general-x-86": {
+    "question": "Hangi ev aleti uzunluğu ölçmek için tasarlanmıştır?",
+    "explanation": "Bir cetvel, uzunluğu ölçmek için birimlerle işaretlenir.",
+    "options": [
+      "Cetvel",
+      "Avokado",
+      "Erik",
+      "Fermente soya fasulyesi"
+    ]
+  },
+  "general-x-87": {
+    "question": "Yangın Söndürücü Kontrole Ne Yardımcı Olur?",
+    "explanation": "Küçük yangınları bastırmak için yangın söndürücü kullanılır.",
+    "options": [
+      "Bir ateş",
+      "Platypus",
+      "Bir paket",
+      "Chameleon"
+    ]
+  },
+  "general-x-88": {
+    "question": "Gökkuşağında geleneksel olarak kaç renk adlandırılır?",
+    "explanation": "Geleneksel liste yedi gökkuşağı rengini adlandırıyor.",
+    "options": [
+      "Yedi",
+      "Yarasa",
+      "Piyano",
+      "Michelangelo"
+    ]
+  },
+  "general-x-89": {
+    "question": "Pusula üzerinde kuzeyin karşısında hangi yön var?",
+    "explanation": "Güney, bir pusula üzerinde kuzeyin karşısındadır.",
+    "options": [
+      "Güney",
+      "Çello",
+      "Origami",
+      "Islak sıva"
+    ]
+  },
+  "general-x-90": {
+    "question": "Bir somun ekmeğin katı dış tabakasının adı nedir?",
+    "explanation": "Kabuk, ekmek tabakasının kahverengileşmiş dış tabakasıdır.",
+    "options": [
+      "Crust",
+      "Tenis",
+      "Altı",
+      "Rugby"
+    ]
+  },
+  "nonsense-x-1": {
+    "question": "Şehirlerin, evlerin, nehirlerin, suların, yolların ve arabaların olmadığı ne var?",
+    "explanation": "Bir harita, bu özellikleri fiziksel olarak içermeden temsil eder.",
+    "options": [
+      "Bir harita",
+      "Bir yumurta",
+      "Telefon",
+      "Bir kitap"
+    ]
+  },
+  "nonsense-x-2": {
+    "question": "Kullanmadan önce ne kırılmalı?",
+    "explanation": "İçeriği kullanılmadan önce bir yumurta çatlatılmalıdır.",
+    "options": [
+      "Bir yumurta",
+      "Işık",
+      "Bir nehir",
+      "Bir eldiven"
+    ]
+  },
+  "nonsense-x-3": {
+    "question": "Parmağı olmayan bir yüzüğün nesi var?",
+    "explanation": "Bir telefon parmakları olmadan çalabilir.",
+    "options": [
+      "Telefon",
+      "Bir banka",
+      "Bir madeni para",
+      "Soğuk algınlığı"
+    ]
+  },
+  "nonsense-x-4": {
+    "question": "Kelimeleri olan ama hiç konuşmayan nedir?",
+    "explanation": "Bir kitap yazılı kelimeler içerir ama kendi kendine konuşmaz.",
+    "options": [
+      "Bir kitap",
+      "Adınız",
+      "Bir takvim",
+      "Bir ağaç"
+    ]
+  },
+  "nonsense-x-5": {
+    "question": "Bir odayı doldurup da yer kaplamayan nedir?",
+    "explanation": "Işık, bir odayı katı bir nesne gibi işgal etmeden aydınlatabilir.",
+    "options": [
+      "Işık",
+      "Sole",
+      "Bir mantar",
+      "Nefesin"
+    ]
+  },
+  "nonsense-x-6": {
+    "question": "Koşan ama asla yürümeyen, yatağı olan ama asla uyumayan şey nedir?",
+    "explanation": "Bir nehir kendi yatağı denilen bir kanalda akar.",
+    "options": [
+      "Bir nehir",
+      "Bir zarf",
+      "Bir ayakkabı",
+      "Bir şişe"
+    ]
+  },
+  "nonsense-x-7": {
+    "question": "Başparmağı ve dört parmağı olan ama canlı olmayan nedir?",
+    "explanation": "Bir eldivenin parmaklar ve başparmak için şekillendirilmiş boşlukları vardır.",
+    "options": [
+      "Bir eldiven",
+      "Bir şaka",
+      "Bir enginar",
+      "Bir yatak"
+    ]
+  },
+  "nonsense-x-8": {
+    "question": "Meyve, gövde veya yaprakları olmayan dallar nedir?",
+    "explanation": "Bir bankanın şubeleri olabilir.",
+    "options": [
+      "Bir banka",
+      "Bir mağara",
+      "Bir tüy",
+      "Bir pil"
+    ]
+  },
+  "nonsense-x-9": {
+    "question": "Kafası ve kuyruğu olan ama vücudu olmayan şey nedir?",
+    "explanation": "Bir madalyonun genellikle baş ve kuyruk olarak adlandırılan iki tarafı vardır.",
+    "options": [
+      "Bir madeni para",
+      "M harfi",
+      "Bir çaydanlık",
+      "Bir tekne"
+    ]
+  },
+  "nonsense-x-10": {
+    "question": "Ne yakalayabilirsin de atamazsın?",
+    "explanation": "Soğuğa yakalanabilirsin ama atamazsın.",
+    "options": [
+      "Soğuk algınlığı",
+      "Diş fırçası",
+      "Bir toka",
+      "Bir alarm saati"
+    ]
+  },
+  "nonsense-x-11": {
+    "question": "Diğer insanlardan daha çok sana ait olan şey, onu senden daha çok kullanmaktır.",
+    "explanation": "Diğer insanlar size hitap ederken sık sık adınızı söylerler.",
+    "options": [
+      "Adınız",
+      "Bir çömlek",
+      "Bir çaydanlık",
+      "Makaslar"
+    ]
+  },
+  "nonsense-x-12": {
+    "question": "Birçok sayfası olan ama kitap olmayan ve tarihleri planlamanıza yardımcı olan şey nedir?",
+    "explanation": "Bir takvim, sayfalar veya paneller arasında gün ve tarihleri görüntüler.",
+    "options": [
+      "Bir takvim",
+      "Bir web sayfası",
+      "Bir salyangoz",
+      "Bir kalem"
+    ]
+  },
+  "nonsense-x-13": {
+    "question": "Havlayan ama ısırmayan ne var?",
+    "explanation": "Bark, bir ağacın koruyucu dış tabakasıdır.",
+    "options": [
+      "Bir ağaç",
+      "Bir bıçak",
+      "Bir kamera",
+      "Bir tren"
+    ]
+  },
+  "nonsense-x-14": {
+    "question": "Bir ayakkabının alt kısmı ne denir?",
+    "explanation": "Taban, bir ayakkabının alt yüzeyidir.",
+    "options": [
+      "Sole",
+      "Bir bilgisayar",
+      "Bir duvar saati",
+      "Süpürge"
+    ]
+  },
+  "nonsense-x-15": {
+    "question": "Nasıl bir odanın kapısı ya da penceresi yoktur?",
+    "explanation": "Mantar kelimesi oda kelimesini içerir, ancak oda değildir.",
+    "options": [
+      "Bir mantar",
+      "Telefon",
+      "Bir kitap",
+      "Işık"
+    ]
+  },
+  "nonsense-x-16": {
+    "question": "Ona dokunmadan ne tutabilirsin?",
+    "explanation": "Fiziksel bir nesne tutmadan nefesinizi tutabilirsiniz.",
+    "options": [
+      "Nefesin",
+      "Bir nehir",
+      "Bir eldiven",
+      "Bir banka"
+    ]
+  },
+  "nonsense-x-17": {
+    "question": "E ile başlayan ve biten ve bir harf içeren şey nedir?",
+    "explanation": "Bir zarf E harfi ile başlar ve biter ve içinde bir harf içerebilir.",
+    "options": [
+      "Bir zarf",
+      "Bir madeni para",
+      "Soğuk algınlığı",
+      "Adınız"
+    ]
+  },
+  "nonsense-x-18": {
+    "question": "Omurgası olan ama kemiği olmayan nedir?",
+    "explanation": "Bir kitabın omurgası, bir iskelet değil, sınır kenarıdır.",
+    "options": [
+      "Bir kitap",
+      "Bir ağaç",
+      "Sole",
+      "Bir mantar"
+    ]
+  },
+  "nonsense-x-19": {
+    "question": "Dili olan ama tadı olmayan nedir?",
+    "explanation": "Bir ayakkabının dili, dantellerinin altındaki fleptir.",
+    "options": [
+      "Bir ayakkabı",
+      "Bir mantar",
+      "Nefesin",
+      "Bir zarf"
+    ]
+  },
+  "nonsense-x-20": {
+    "question": "Şapkası olan ama kafası olmayan nedir?",
+    "explanation": "Şişe kapağı şişenin açılmasını kapsar.",
+    "options": [
+      "Bir şişe",
+      "Bir ayakkabı",
+      "Bir şaka",
+      "Bir enginar"
+    ]
+  },
+  "nonsense-x-21": {
+    "question": "Ne kırılabilir, yapılabilir, anlatılabilir ve oynanabilir?",
+    "explanation": "İnsanlar şaka yapar, yapar, anlatır ya da oynar.",
+    "options": [
+      "Bir şaka",
+      "Bir yatak",
+      "Bir mağara",
+      "Bir tüy"
+    ]
+  },
+  "nonsense-x-22": {
+    "question": "Ne kalbi var ki vurmaz?",
+    "explanation": "Bir enginarın yenilebilir merkezi kısmına kalbi denir.",
+    "options": [
+      "Bir enginar",
+      "Bir pil",
+      "M harfi",
+      "Bir çaydanlık"
+    ]
+  },
+  "nonsense-x-23": {
+    "question": "Başı ve ayağı olan ama vücudu olmayan şey nedir?",
+    "explanation": "Yatağın bir başlığı ve bir ayağı vardır.",
+    "options": [
+      "Bir yatak",
+      "Bir tekne",
+      "Diş fırçası",
+      "Bir toka"
+    ]
+  },
+  "nonsense-x-24": {
+    "question": "Ağzı olan ama hiç yemeyen nedir?",
+    "explanation": "Mağara girişi bazen ağız olarak adlandırılır.",
+    "options": [
+      "Bir mağara",
+      "Bir alarm saati",
+      "Bir çömlek",
+      "Bir çaydanlık"
+    ]
+  },
+  "nonsense-x-25": {
+    "question": "Havlayan ve büyüyen ama köpek olmayan nedir?",
+    "explanation": "Bir ağaç büyür ve dış kaplaması olarak kabuğu vardır.",
+    "options": [
+      "Bir ağaç",
+      "Makaslar",
+      "Bir web sayfası",
+      "Bir salyangoz"
+    ]
+  },
+  "nonsense-x-26": {
+    "question": "Hangi hafif nesne havada yüzebilir ve bir kuş üzerinde büyüyebilir?",
+    "explanation": "Bir tüy hafiftir ve bir kuşun tüylerinin bir parçası olarak büyür.",
+    "options": [
+      "Bir tüy",
+      "Bir kalem",
+      "Bir bıçak",
+      "Bir kamera"
+    ]
+  },
+  "nonsense-x-27": {
+    "question": "Canı olmayan ama ölebilen nedir?",
+    "explanation": "Bir pilin artık yararlı güç sağlayamadığı zaman öldüğü söylenir.",
+    "options": [
+      "Bir pil",
+      "Bir tren",
+      "Bir bilgisayar",
+      "Bir duvar saati"
+    ]
+  },
+  "nonsense-x-28": {
+    "question": "Dakikada bir kez, dakikada iki kez ve bin yılda asla görülemeyen şey nedir?",
+    "explanation": "M harfi dakikada bir kez, iki kez anda ve bin yılda değil görünür.",
+    "options": [
+      "M harfi",
+      "Bir yumurta",
+      "Telefon",
+      "Bir kitap"
+    ]
+  },
+  "nonsense-x-29": {
+    "question": "T ile başlayan, T ile biten ve içinde T olan şey nedir?",
+    "explanation": "Bir çaydanlık T ile başlar ve biter ve içeride çay tutabilir.",
+    "options": [
+      "Bir çaydanlık",
+      "Işık",
+      "Bir nehir",
+      "Bir eldiven"
+    ]
+  },
+  "nonsense-x-30": {
+    "question": "Bir teknenin ön tarafı hangisidir?",
+    "explanation": "Yay, bir teknenin ileri ucudur.",
+    "options": [
+      "Bir tekne",
+      "Bir banka",
+      "Bir madeni para",
+      "Soğuk algınlığı"
+    ]
+  },
+  "nonsense-x-31": {
+    "question": "Bir geminin hangi kısmı ilerlerken ileriyi gösterir?",
+    "explanation": "Bir teknenin önünde bir yay vardır ve insanları taşıyabilir.",
+    "options": [
+      "Bir tekne",
+      "Adınız",
+      "Bir takvim",
+      "Bir ağaç"
+    ]
+  },
+  "nonsense-x-32": {
+    "question": "Sapı ve kılları olan ama bir fırça olmayan şey nedir?",
+    "explanation": "Diş fırçasının dişleri temizlemek için bir sapı ve kılları vardır.",
+    "options": [
+      "Diş fırçası",
+      "Sole",
+      "Bir mantar",
+      "Nefesin"
+    ]
+  },
+  "nonsense-x-33": {
+    "question": "Ortasından delik açıp kemeri bir arada tutan nedir?",
+    "explanation": "Kemer tokası, kemerin bağlandığı bir açıklığa sahiptir.",
+    "options": [
+      "Bir toka",
+      "Bir zarf",
+      "Bir ayakkabı",
+      "Bir şişe"
+    ]
+  },
+  "nonsense-x-34": {
+    "question": "Bir kadranı olan ve ne zaman uyanacağınızı söyleyen şey nedir?",
+    "explanation": "Bir alarm saati, birini uyandırmak için bir zaman ayarı ve alarm kullanır.",
+    "options": [
+      "Bir alarm saati",
+      "Bir şaka",
+      "Bir enginar",
+      "Bir yatak"
+    ]
+  },
+  "nonsense-x-35": {
+    "question": "Kapağı olan ve çorbayı sıcak tutan şey nedir?",
+    "explanation": "Bir pişirme tenceresinin kapağı olabilir ve sıcak çorba tutabilir.",
+    "options": [
+      "Bir çömlek",
+      "Bir mağara",
+      "Bir tüy",
+      "Bir pil"
+    ]
+  },
+  "nonsense-x-36": {
+    "question": "Bir sapı olan ve suyu döken ama bir nehir olmayan nedir?",
+    "explanation": "Bir su ısıtıcısı, ısıtılmış su dökmek için bir ağızlığa ve tutamağa sahiptir.",
+    "options": [
+      "Su ısıtıcısı;",
+      "M harfi",
+      "Çaydanlık",
+      "Bir tekne"
+    ]
+  },
+  "nonsense-x-37": {
+    "question": "Bıçağı olan ama kağıdı elle kesmek için kullanılan şey nedir?",
+    "explanation": "Makasların sapları sıkıldığında malzemeyi kesen iki bıçağı vardır.",
+    "options": [
+      "Makaslar",
+      "Diş fırçası",
+      "Bir toka",
+      "Bir alarm saati"
+    ]
+  },
+  "nonsense-x-38": {
+    "question": "Tabanı ve bağcıkları olan ama balık olmayan nedir?",
+    "explanation": "Ayakkabıların tabanı ve dantelleri olabilir.",
+    "options": [
+      "Bir ayakkabı",
+      "Bir çaydanlık",
+      "Makaslar",
+      "Bir web sayfası"
+    ]
+  },
+  "nonsense-x-39": {
+    "question": "Ne bir sayfa var ama bir kitap değil ve bir tarayıcı üzerinde yükler?",
+    "explanation": "Bir web sayfası, bir tarayıcıda görüntülenen bir belgedir.",
+    "options": [
+      "Bir web sayfası",
+      "Bir salyangoz",
+      "Bir kalem",
+      "Bir bıçak"
+    ]
+  },
+  "nonsense-x-40": {
+    "question": "Kabuğu olan ve evini sırtında taşıyabilen şey nedir?",
+    "explanation": "Salyangoz hareket ederken kabuk taşır.",
+    "options": [
+      "Bir salyangoz",
+      "Bir kamera",
+      "Bir tren",
+      "Bir bilgisayar"
+    ]
+  },
+  "nonsense-x-41": {
+    "question": "Ne anlamı var ki, bir tartışma yapıp kağıda yazamıyor?",
+    "explanation": "Kalemin ucu kağıt üzerinde izler bırakır.",
+    "options": [
+      "Bir kalem",
+      "Bir harita",
+      "Bir yumurta",
+      "Telefon"
+    ]
+  },
+  "nonsense-x-42": {
+    "question": "Kapağı, sayfaları ve başlığı olan ama bir ev olmayan şey nedir?",
+    "explanation": "Bir kitabın kapağı ve sayfaları vardır ve başlığı onu tanımlar.",
+    "options": [
+      "Bir kitap",
+      "Işık",
+      "Bir nehir",
+      "Bir eldiven"
+    ]
+  },
+  "nonsense-x-43": {
+    "question": "Sapı ve bıçağı olan ve akşam yemeğinde kullanılan nedir?",
+    "explanation": "Masa bıçağının bir sapı ve yiyecekleri kesmek için bir bıçağı vardır.",
+    "options": [
+      "Bir bıçak",
+      "Bir eldiven",
+      "Bir banka",
+      "Bir madeni para"
+    ]
+  },
+  "nonsense-x-44": {
+    "question": "Lensi olan ve fotoğraf çeken nedir?",
+    "explanation": "Bir kamera, fotoğraflar için görüntü oluşturmak için bir lens kullanır.",
+    "options": [
+      "Bir kamera",
+      "Soğuk algınlığı",
+      "Adınız",
+      "Bir takvim"
+    ]
+  },
+  "nonsense-x-45": {
+    "question": "Biri aradığında bir kadran ve zili olan nedir?",
+    "explanation": "Gelen bir çağrıya sinyal vermek için geleneksel bir telefon çalabilir.",
+    "options": [
+      "Telefon",
+      "Sole",
+      "Bir mantar",
+      "Nefesin"
+    ]
+  },
+  "nonsense-x-46": {
+    "question": "Tekerlekleri olan ve yolcuları raylar boyunca taşıyan nedir?",
+    "explanation": "Bir tren raylar üzerinde çalışır ve yolcu veya yük taşır.",
+    "options": [
+      "Bir tren",
+      "Nefesin",
+      "Bir zarf",
+      "Bir ayakkabı"
+    ]
+  },
+  "nonsense-x-47": {
+    "question": "Klavyesi olan ve harfleri gösteren ama daktilo olmayan nedir?",
+    "explanation": "Bir bilgisayar klavyesi metne girer ve ekranı bilgileri gösterir.",
+    "options": [
+      "Bir bilgisayar",
+      "Bir şişe",
+      "Bir şaka",
+      "Bir enginar"
+    ]
+  },
+  "nonsense-x-48": {
+    "question": "Sapı, sayfaları ve dişlerin temizlenmesine yardımcı olan nedir?",
+    "explanation": "Diş fırçasının dişleri temizlemek için bir sapı ve kılları vardır.",
+    "options": [
+      "Diş fırçası",
+      "Bir yatak",
+      "Bir mağara",
+      "Bir tüy"
+    ]
+  },
+  "nonsense-x-49": {
+    "question": "Bir musluğu olan ve bir fincana çay döken şey nedir?",
+    "explanation": "Bir çaydanlık tutar ve ağzından çay döker.",
+    "options": [
+      "Bir çaydanlık",
+      "Bir pil",
+      "M harfi",
+      "Bir tekne"
+    ]
+  },
+  "nonsense-x-50": {
+    "question": "Bir kadran, eller ve bir duvardaki zamanı söylemenize yardımcı olan nedir?",
+    "explanation": "Bir duvar saati, bir kadran üzerinde ellerle zamanı görüntüler.",
+    "options": [
+      "Bir duvar saati",
+      "Bir tekne",
+      "Diş fırçası",
+      "Bir toka"
+    ]
+  },
+  "nonsense-x-51": {
+    "question": "Kıl başlı ve zemini süpürmeye yardımcı olan nedir?",
+    "explanation": "Bir süpürge, zeminden toz ve döküntüleri süpürmek için kılları kullanır.",
+    "options": [
+      "Süpürge",
+      "Bir alarm saati",
+      "Bir çömlek",
+      "Bir çaydanlık"
+    ]
+  },
+  "math-x-sum-1": {
+    "question": "14 + 8 nedir?",
+    "explanation": "14 + 8 = 22.",
+    "options": [
+      "22",
+      "21",
+      "23",
+      "32"
+    ]
+  },
+  "math-x-product-1": {
+    "question": "7 5 nedir?",
+    "explanation": "7 5 = 35.",
+    "options": [
+      "35",
+      "30",
+      "28",
+      "40"
+    ]
+  },
+  "math-x-equation-1": {
+    "question": "x için çöz: 3x + 1 = 13.",
+    "explanation": "Çıkarma 1, sonra 3'e bölün: x = 4.",
+    "options": [
+      "4",
+      "3",
+      "5",
+      "6"
+    ]
+  },
+  "math-x-percent-1": {
+    "question": "60'ın %15'i nedir?",
+    "explanation": "60 × 15 ÷ 100 = 9.",
+    "options": [
+      "9",
+      "6",
+      "12",
+      "60"
+    ]
+  },
+  "math-x-sum-2": {
+    "question": "17 + 9 nedir?",
+    "explanation": "17 + 9 = 26.",
+    "options": [
+      "26",
+      "25",
+      "27",
+      "36"
+    ]
+  },
+  "math-x-product-2": {
+    "question": "8 6 nedir?",
+    "explanation": "8 6 = 48.",
+    "options": [
+      "48",
+      "42",
+      "40",
+      "54"
+    ]
+  },
+  "math-x-equation-2": {
+    "question": "x için çöz: 4x + 2 = 22.",
+    "explanation": "Çıkarma 2, sonra 4'e bölün: x = 5.",
+    "options": [
+      "5",
+      "4",
+      "6",
+      "7"
+    ]
+  },
+  "math-x-percent-2": {
+    "question": "80'in %20'si nedir?",
+    "explanation": "80 × 20 ÷ 100 = 16.",
+    "options": [
+      "16",
+      "12",
+      "20",
+      "80"
+    ]
+  },
+  "math-x-sum-3": {
+    "question": "20 + 10 nedir?",
+    "explanation": "20 + 10 = 30.",
+    "options": [
+      "30",
+      "29",
+      "31",
+      "40"
+    ]
+  },
+  "math-x-product-3": {
+    "question": "9 7 nedir?",
+    "explanation": "9 7 = 63.",
+    "options": [
+      "63",
+      "56",
+      "54",
+      "70"
+    ]
+  },
+  "math-x-equation-3": {
+    "question": "x için çöz: 5x + 3 = 33.",
+    "explanation": "3'ü çıkarın, sonra 5'e bölün: x = 6.",
+    "options": [
+      "6",
+      "5",
+      "7",
+      "8"
+    ]
+  },
+  "math-x-percent-3": {
+    "question": "100'ün %25'i nedir?",
+    "explanation": "100 × 25 ÷ 100 = 25.",
+    "options": [
+      "25",
+      "20",
+      "30",
+      "100"
+    ]
+  },
+  "math-x-sum-4": {
+    "question": "23 + 11 nedir?",
+    "explanation": "23 + 11 = 34.",
+    "options": [
+      "34",
+      "33",
+      "35",
+      "44"
+    ]
+  },
+  "math-x-product-4": {
+    "question": "10 8 nedir?",
+    "explanation": "10 8 = 80.",
+    "options": [
+      "80",
+      "72",
+      "70",
+      "88"
+    ]
+  },
+  "math-x-equation-4": {
+    "question": "x için çöz: 6x + 4 = 46.",
+    "explanation": "4'ü çıkarın, sonra 6'ya bölün: x = 7.",
+    "options": [
+      "7",
+      "6",
+      "8",
+      "9"
+    ]
+  },
+  "math-x-percent-4": {
+    "question": "120'nin %30'u nedir?",
+    "explanation": "120 × 30 ÷ 100 = 36.",
+    "options": [
+      "36",
+      "30",
+      "42",
+      "120"
+    ]
+  },
+  "math-x-sum-5": {
+    "question": "26 + 12 nedir?",
+    "explanation": "26 + 12 = 38.",
+    "options": [
+      "38",
+      "37",
+      "39",
+      "48"
+    ]
+  },
+  "math-x-product-5": {
+    "question": "11 9 nedir?",
+    "explanation": "11 9 = 99.",
+    "options": [
+      "99",
+      "90",
+      "88",
+      "108"
+    ]
+  },
+  "math-x-equation-5": {
+    "question": "x için çöz: 7x + 5 = 61.",
+    "explanation": "5'i çıkarın, sonra 7'ye bölün: x = 8.",
+    "options": [
+      "8",
+      "7",
+      "9",
+      "10"
+    ]
+  },
+  "math-x-percent-5": {
+    "question": "140'ın %35'i nedir?",
+    "explanation": "140 × 35 ÷ 100 = 49.",
+    "options": [
+      "49",
+      "42",
+      "56",
+      "140"
+    ]
+  },
+  "math-x-sum-6": {
+    "question": "29 + 13 nedir?",
+    "explanation": "29 + 13 = 42.",
+    "options": [
+      "42",
+      "41",
+      "43",
+      "52"
+    ]
+  },
+  "math-x-product-6": {
+    "question": "12 10 nedir?",
+    "explanation": "12 10 = 120.",
+    "options": [
+      "120",
+      "110",
+      "108",
+      "130"
+    ]
+  },
+  "math-x-equation-6": {
+    "question": "x için çöz: 8x + 6 = 78.",
+    "explanation": "6'yı çıkarın, sonra 8'e bölün: x = 9.",
+    "options": [
+      "9",
+      "8",
+      "10",
+      "11"
+    ]
+  },
+  "math-x-percent-6": {
+    "question": "160'ın %40'ı nedir?",
+    "explanation": "160 × 40 ÷ 100 = 64.",
+    "options": [
+      "64",
+      "56",
+      "72",
+      "160"
+    ]
+  },
+  "math-x-sum-7": {
+    "question": "32 + 14 nedir?",
+    "explanation": "32 + 14 = 46.",
+    "options": [
+      "46",
+      "45",
+      "47",
+      "56"
+    ]
+  },
+  "math-x-product-7": {
+    "question": "13 11 nedir?",
+    "explanation": "13 11 = 143.",
+    "options": [
+      "143",
+      "132",
+      "130",
+      "154"
+    ]
+  },
+  "math-x-equation-7": {
+    "question": "x için çöz: 9x + 7 = 97.",
+    "explanation": "7'yi çıkarın, sonra 9'a bölün: x = 10.",
+    "options": [
+      "10",
+      "9",
+      "11",
+      "12"
+    ]
+  },
+  "math-x-percent-7": {
+    "question": "180'in %45'i nedir?",
+    "explanation": "180 × 45 ÷ 100 = 81.",
+    "options": [
+      "81",
+      "72",
+      "90",
+      "180"
+    ]
+  },
+  "math-x-sum-8": {
+    "question": "35 + 15 nedir?",
+    "explanation": "35 + 15 = 50.",
+    "options": [
+      "50",
+      "49",
+      "51",
+      "60"
+    ]
+  },
+  "math-x-product-8": {
+    "question": "14 12 nedir?",
+    "explanation": "14 12 = 168.",
+    "options": [
+      "168",
+      "156",
+      "154",
+      "180"
+    ]
+  },
+  "math-x-equation-8": {
+    "question": "x için çöz: 10x + 8 = 118.",
+    "explanation": "8'i çıkarın, sonra 10'a bölün: x = 11.",
+    "options": [
+      "11",
+      "10",
+      "12",
+      "13"
+    ]
+  },
+  "math-x-percent-8": {
+    "question": "200'ün %50'si nedir?",
+    "explanation": "200 × 50 ÷ 100 = 100.",
+    "options": [
+      "100",
+      "90",
+      "110",
+      "200"
+    ]
+  },
+  "math-x-sum-9": {
+    "question": "38 + 16 nedir?",
+    "explanation": "38 + 16 = 54.",
+    "options": [
+      "54",
+      "53",
+      "55",
+      "64"
+    ]
+  },
+  "math-x-product-9": {
+    "question": "15 13 nedir?",
+    "explanation": "15 13 = 195.",
+    "options": [
+      "195",
+      "182",
+      "180",
+      "208"
+    ]
+  },
+  "math-x-equation-9": {
+    "question": "x için çöz: 11x + 9 = 141.",
+    "explanation": "9'u çıkarın, sonra 11'e bölün: x = 12.",
+    "options": [
+      "12",
+      "11",
+      "13",
+      "14"
+    ]
+  },
+  "math-x-percent-9": {
+    "question": "220'nin %55'i nedir?",
+    "explanation": "220 × 55 ÷ 100 = 121.",
+    "options": [
+      "121",
+      "110",
+      "132",
+      "220"
+    ]
+  },
+  "math-x-sum-10": {
+    "question": "41 + 17 nedir?",
+    "explanation": "41 + 17 = 58.",
+    "options": [
+      "58",
+      "57",
+      "59",
+      "68"
+    ]
+  },
+  "math-x-product-10": {
+    "question": "16 14 nedir?",
+    "explanation": "16 14 = 224.",
+    "options": [
+      "224",
+      "210",
+      "208",
+      "238"
+    ]
+  },
+  "math-x-equation-10": {
+    "question": "x için çöz: 12x + 10 = 166.",
+    "explanation": "10 çıkarın, sonra 12'ye bölün: x = 13.",
+    "options": [
+      "13",
+      "12",
+      "14",
+      "15"
+    ]
+  },
+  "math-x-percent-10": {
+    "question": "240'ın %60'ı nedir?",
+    "explanation": "240 × 60 ÷ 100 = 144.",
+    "options": [
+      "144",
+      "132",
+      "156",
+      "240"
+    ]
+  },
+  "math-x-sum-11": {
+    "question": "44 + 18 nedir?",
+    "explanation": "44 + 18 = 62.",
+    "options": [
+      "62",
+      "61",
+      "63",
+      "72"
+    ]
+  },
+  "math-x-product-11": {
+    "question": "17 15 nedir?",
+    "explanation": "17 15 = 255.",
+    "options": [
+      "255",
+      "240",
+      "238",
+      "270"
+    ]
+  },
+  "math-x-equation-11": {
+    "question": "x için çöz: 13x + 11 = 193.",
+    "explanation": "11'i çıkarın, sonra 13'e bölün: x = 14.",
+    "options": [
+      "14",
+      "13",
+      "15",
+      "16"
+    ]
+  },
+  "math-x-percent-11": {
+    "question": "260'ın %65'i nedir?",
+    "explanation": "260 × 65 ÷ 100 = 169.",
+    "options": [
+      "169",
+      "156",
+      "182",
+      "260"
+    ]
+  },
+  "math-x-sum-12": {
+    "question": "47 + 19 nedir?",
+    "explanation": "47 + 19 = 66.",
+    "options": [
+      "66",
+      "65",
+      "67",
+      "76"
+    ]
+  },
+  "math-x-product-12": {
+    "question": "18 16 nedir?",
+    "explanation": "18 16 = 288.",
+    "options": [
+      "288",
+      "272",
+      "270",
+      "304"
+    ]
+  },
+  "math-x-equation-12": {
+    "question": "x için çöz: 14x + 12 = 222.",
+    "explanation": "12'yi çıkarın, sonra 14'e bölün: x = 15.",
+    "options": [
+      "15",
+      "14",
+      "16",
+      "17"
+    ]
+  },
+  "math-x-percent-12": {
+    "question": "280'in %70'i nedir?",
+    "explanation": "280 × 70 ÷ 100 = 196.",
+    "options": [
+      "196",
+      "182",
+      "210",
+      "280"
+    ]
+  },
+  "math-x-sum-13": {
+    "question": "50 + 20 nedir?",
+    "explanation": "50 + 20 = 70.",
+    "options": [
+      "70",
+      "69",
+      "71",
+      "80"
+    ]
+  },
+  "math-x-product-13": {
+    "question": "19 17 nedir?",
+    "explanation": "19 17 = 323.",
+    "options": [
+      "323",
+      "306",
+      "304",
+      "340"
+    ]
+  },
+  "math-x-equation-13": {
+    "question": "x için çöz: 15x + 13 = 253.",
+    "explanation": "13'ü çıkarın, sonra 15'e bölün: x = 16.",
+    "options": [
+      "16",
+      "15",
+      "17",
+      "18"
+    ]
+  },
+  "math-x-percent-13": {
+    "question": "300'ün %75'i nedir?",
+    "explanation": "300 × 75 ÷ 100 = 225.",
+    "options": [
+      "225",
+      "210",
+      "240",
+      "300"
+    ]
+  },
+  "math-x-sum-14": {
+    "question": "53 + 21 nedir?",
+    "explanation": "53 + 21 = 74.",
+    "options": [
+      "74",
+      "73",
+      "75",
+      "84"
+    ]
+  },
+  "math-x-product-14": {
+    "question": "20 18 nedir?",
+    "explanation": "20 18 = 360.",
+    "options": [
+      "360",
+      "342",
+      "340",
+      "378"
+    ]
+  },
+  "math-x-equation-14": {
+    "question": "x için çöz: 16x + 14 = 286.",
+    "explanation": "14'ü çıkarın, sonra 16'ya bölün: x = 17.",
+    "options": [
+      "17",
+      "16",
+      "18",
+      "19"
+    ]
+  },
+  "math-x-percent-14": {
+    "question": "320'nin %80'i nedir?",
+    "explanation": "320 × 80 ÷ 100 = 256.",
+    "options": [
+      "256",
+      "240",
+      "272",
+      "320"
+    ]
+  },
+  "math-x-sum-15": {
+    "question": "56 + 22 nedir?",
+    "explanation": "56 + 22 = 78.",
+    "options": [
+      "78",
+      "77",
+      "79",
+      "88"
+    ]
+  },
+  "math-x-product-15": {
+    "question": "21 19 nedir?",
+    "explanation": "21 19 = 399.",
+    "options": [
+      "399",
+      "380",
+      "378",
+      "418"
+    ]
+  },
+  "math-x-equation-15": {
+    "question": "x için çöz: 17x + 15 = 321.",
+    "explanation": "15'i çıkarın, sonra 17'ye bölün: x = 18.",
+    "options": [
+      "18",
+      "17",
+      "19",
+      "20"
+    ]
+  },
+  "math-x-percent-15": {
+    "question": "340'ın %85'i nedir?",
+    "explanation": "340 × 85 ÷ 100 = 289.",
+    "options": [
+      "289",
+      "272",
+      "306",
+      "340"
+    ]
+  },
+  "math-x-sum-16": {
+    "question": "59 + 23 nedir?",
+    "explanation": "59 + 23 = 82.",
+    "options": [
+      "82",
+      "81",
+      "83",
+      "92"
+    ]
+  },
+  "math-x-product-16": {
+    "question": "22 20 nedir?",
+    "explanation": "22 20 = 440.",
+    "options": [
+      "440",
+      "420",
+      "418",
+      "460"
+    ]
+  },
+  "math-x-equation-16": {
+    "question": "x için çöz: 18x + 16 = 358.",
+    "explanation": "16'yı çıkarın, sonra 18'e bölün: x = 19.",
+    "options": [
+      "19",
+      "18",
+      "20",
+      "21"
+    ]
+  },
+  "math-x-percent-16": {
+    "question": "360'ın %90'ı nedir?",
+    "explanation": "360 × 90 ÷ 100 = 324.",
+    "options": [
+      "324",
+      "306",
+      "342",
+      "360"
+    ]
+  },
+  "math-x-sum-17": {
+    "question": "62 + 24 nedir?",
+    "explanation": "62 + 24 = 86.",
+    "options": [
+      "86",
+      "85",
+      "87",
+      "96"
+    ]
+  },
+  "math-x-product-17": {
+    "question": "23 21 nedir?",
+    "explanation": "23 21 = 483.",
+    "options": [
+      "483",
+      "462",
+      "460",
+      "504"
+    ]
+  },
+  "math-x-equation-17": {
+    "question": "x için çöz: 19x + 17 = 397.",
+    "explanation": "17'yi çıkarın, sonra 19'a bölün: x = 20.",
+    "options": [
+      "20",
+      "19",
+      "21",
+      "22"
+    ]
+  },
+  "math-x-percent-17": {
+    "question": "380'in %95'i nedir?",
+    "explanation": "380 × 95 ÷ 100 = 361.",
+    "options": [
+      "361",
+      "342",
+      "380",
+      "722"
+    ]
+  },
+  "math-x-sum-18": {
+    "question": "65 + 25 nedir?",
+    "explanation": "65 + 25 = 90.",
+    "options": [
+      "90",
+      "89",
+      "91",
+      "100"
+    ]
+  },
+  "math-x-product-18": {
+    "question": "24 22 nedir?",
+    "explanation": "24 22 = 528.",
+    "options": [
+      "528",
+      "506",
+      "504",
+      "550"
+    ]
+  },
+  "math-x-equation-18": {
+    "question": "x için çöz: 20x + 18 = 438.",
+    "explanation": "18'i çıkarın, sonra 20'ye bölün: x = 21.",
+    "options": [
+      "21",
+      "20",
+      "22",
+      "23"
+    ]
+  },
+  "math-x-percent-18": {
+    "question": "400'ün %100'ü nedir?",
+    "explanation": "400 × 100 ÷ 100 = 400.",
+    "options": [
+      "400",
+      "380",
+      "420",
+      "800"
+    ]
+  },
+  "math-x-sum-19": {
+    "question": "68 + 26 nedir?",
+    "explanation": "68 + 26 = 94.",
+    "options": [
+      "94",
+      "93",
+      "95",
+      "104"
+    ]
+  },
+  "math-x-product-19": {
+    "question": "25 23 nedir?",
+    "explanation": "25 23 = 575.",
+    "options": [
+      "575",
+      "552",
+      "550",
+      "598"
+    ]
+  },
+  "math-x-equation-19": {
+    "question": "x için çöz: 21x + 19 = 481.",
+    "explanation": "19'u çıkarın, sonra 21'e bölün: x = 22.",
+    "options": [
+      "22",
+      "21",
+      "23",
+      "24"
+    ]
+  },
+  "math-x-percent-19": {
+    "question": "420'nin yüzde 105'i nedir?",
+    "explanation": "420 × 105 ÷ 100 = 441.",
+    "options": [
+      "441",
+      "420",
+      "462",
+      "882"
+    ]
+  },
+  "math-x-sum-20": {
+    "question": "71 + 27 nedir?",
+    "explanation": "71 + 27 = 98.",
+    "options": [
+      "98",
+      "97",
+      "99",
+      "108"
+    ]
+  },
+  "math-x-product-20": {
+    "question": "26 24 nedir?",
+    "explanation": "26 24 = 624.",
+    "options": [
+      "624",
+      "600",
+      "598",
+      "648"
+    ]
+  },
+  "math-x-equation-20": {
+    "question": "x için çöz: 22x + 20 = 526.",
+    "explanation": "20 çıkarın, sonra 22'ye bölün: x = 23.",
+    "options": [
+      "23",
+      "22",
+      "24",
+      "25"
+    ]
+  },
+  "math-x-percent-20": {
+    "question": "440'ın %110'u nedir?",
+    "explanation": "440 × 110 ÷ 100 = 484.",
+    "options": [
+      "484",
+      "462",
+      "506",
+      "440"
+    ]
+  },
+  "math-x-sum-21": {
+    "question": "74 + 28 nedir?",
+    "explanation": "74 + 28 = 102.",
+    "options": [
+      "102",
+      "101",
+      "103",
+      "112"
+    ]
+  },
+  "math-x-product-21": {
+    "question": "27 25 nedir?",
+    "explanation": "27 25 = 675.",
+    "options": [
+      "675",
+      "650",
+      "648",
+      "700"
+    ]
+  },
+  "math-x-equation-21": {
+    "question": "x için çöz: 23x + 21 = 573.",
+    "explanation": "Çıkarma 21, sonra 23'e bölün: x = 24.",
+    "options": [
+      "24",
+      "23",
+      "25",
+      "26"
+    ]
+  },
+  "math-x-percent-21": {
+    "question": "460'ın %115'i nedir?",
+    "explanation": "460 × 115 ÷ 100 = 529.",
+    "options": [
+      "529",
+      "506",
+      "552",
+      "460"
+    ]
+  },
+  "math-x-sum-22": {
+    "question": "77 + 29 nedir?",
+    "explanation": "77 + 29 = 106.",
+    "options": [
+      "106",
+      "105",
+      "107",
+      "116"
+    ]
+  },
+  "math-x-product-22": {
+    "question": "28 26 nedir?",
+    "explanation": "28 26 = 728.",
+    "options": [
+      "728",
+      "702",
+      "700",
+      "754"
+    ]
+  },
+  "math-x-equation-22": {
+    "question": "x için çöz: 24x + 22 = 622.",
+    "explanation": "22'yi çıkarın, sonra 24'e bölün: x = 25.",
+    "options": [
+      "25",
+      "24",
+      "26",
+      "27"
+    ]
+  },
+  "math-x-percent-22": {
+    "question": "480'in %120'si nedir?",
+    "explanation": "480 × 120 ÷ 100 = 576.",
+    "options": [
+      "576",
+      "552",
+      "600",
+      "480"
+    ]
+  },
+  "math-x-sum-23": {
+    "question": "80 + 30 nedir?",
+    "explanation": "80 + 30 = 110.",
+    "options": [
+      "110",
+      "109",
+      "111",
+      "120"
+    ]
+  },
+  "math-x-product-23": {
+    "question": "29 27 nedir?",
+    "explanation": "29 27 = 783.",
+    "options": [
+      "783",
+      "756",
+      "754",
+      "810"
+    ]
+  },
+  "math-x-equation-23": {
+    "question": "x için çöz: 25x + 23 = 673.",
+    "explanation": "23'ü çıkarın, sonra 25'e bölün: x = 26.",
+    "options": [
+      "26",
+      "25",
+      "27",
+      "28"
+    ]
+  },
+  "math-x-percent-23": {
+    "question": "500'ün %125'i nedir?",
+    "explanation": "500 × 125 ÷ 100 = 625.",
+    "options": [
+      "625",
+      "600",
+      "650",
+      "500"
+    ]
+  },
+  "math-x-sum-24": {
+    "question": "83 + 31 nedir?",
+    "explanation": "83 + 31 = 114.",
+    "options": [
+      "114",
+      "113",
+      "115",
+      "124"
+    ]
+  },
+  "math-x-product-24": {
+    "question": "30 28 nedir?",
+    "explanation": "30 28 = 840.",
+    "options": [
+      "840",
+      "812",
+      "810",
+      "868"
+    ]
+  },
+  "math-x-equation-24": {
+    "question": "x için çöz: 26x + 24 = 726.",
+    "explanation": "24'ü çıkarın, sonra 26'ya bölün: x = 27.",
+    "options": [
+      "27",
+      "26",
+      "28",
+      "29"
+    ]
+  },
+  "math-x-percent-24": {
+    "question": "520'nin %130'u nedir?",
+    "explanation": "520 × 130 ÷ 100 = 676.",
+    "options": [
+      "676",
+      "650",
+      "702",
+      "520"
+    ]
+  },
+  "math-x-sequence-square-1": {
+    "question": "Sonraki terim nedir: 4, 16, 36, 64, __?",
+    "explanation": "Bunlar 4 kez ardışık kareler; sonraki 52 4 = 100.",
+    "options": [
+      "100",
+      "96",
+      "104",
+      "144"
+    ]
+  },
+  "math-x-combination-1": {
+    "question": "4 farklı nesneden kaç farklı çift seçilebilir?",
+    "explanation": "Sayım C(4, 2) = 4 3 2 = 6'dır.",
+    "options": [
+      "6",
+      "5",
+      "7",
+      "8"
+    ]
+  },
+  "math-x-sequence-square-2": {
+    "question": "Sonraki terim nedir: 5, 20, 45, 80, __?",
+    "explanation": "Bunlar 5 kez ardışık karelerdir; sonraki 52 5 = 125'tir.",
+    "options": [
+      "125",
+      "120",
+      "130",
+      "180"
+    ]
+  },
+  "math-x-combination-2": {
+    "question": "5 farklı nesneden kaç farklı çift seçilebilir?",
+    "explanation": "Sayım C(5, 2) = 5 4 2 = 10'dur.",
+    "options": [
+      "10",
+      "9",
+      "11",
+      "20"
+    ]
+  },
+  "math-x-sequence-square-3": {
+    "question": "Sonraki terim nedir: 6, 24, 54, 96, __?",
+    "explanation": "Bunlar 6 kez ardışık karelerdir; sonraki 52 6 = 150'dir.",
+    "options": [
+      "150",
+      "144",
+      "156",
+      "216"
+    ]
+  },
+  "math-x-combination-3": {
+    "question": "6 farklı nesneden kaç farklı çift seçilebilir?",
+    "explanation": "Sayım C(6, 2) = 6 5 2 = 15'tir.",
+    "options": [
+      "15",
+      "14",
+      "16",
+      "12"
+    ]
+  },
+  "math-x-sequence-square-4": {
+    "question": "Sonraki terim nedir: 7, 28, 63, 112, __?",
+    "explanation": "Bunlar 7 kez ardışık karelerdir; sonraki 52 7 = 175'tir.",
+    "options": [
+      "175",
+      "168",
+      "182",
+      "252"
+    ]
+  },
+  "math-x-combination-4": {
+    "question": "7 farklı nesneden kaç farklı çift seçilebilir?",
+    "explanation": "Sayım C(7, 2) = 7 6 2 = 21'dir.",
+    "options": [
+      "21",
+      "20",
+      "22",
+      "14"
+    ]
+  },
+  "math-x-sequence-square-5": {
+    "question": "Sonraki terim nedir: 8, 32, 72, 128, __?",
+    "explanation": "Bunlar 8 kez ardışık karelerdir; sonraki 52 8 = 200'dür.",
+    "options": [
+      "200",
+      "192",
+      "208",
+      "288"
+    ]
+  },
+  "math-x-combination-5": {
+    "question": "8 farklı nesneden kaç farklı çift seçilebilir?",
+    "explanation": "Sayım C(8, 2) = 8 7 2 = 28'dir.",
+    "options": [
+      "28",
+      "27",
+      "29",
+      "16"
+    ]
+  },
+  "math-x-sequence-square-6": {
+    "question": "Sonraki terim nedir: 9, 36, 81, 144, __?",
+    "explanation": "Bunlar 9 kez ardışık karelerdir; sonraki 52 9 = 225'tir.",
+    "options": [
+      "225",
+      "216",
+      "234",
+      "324"
+    ]
+  },
+  "math-x-combination-6": {
+    "question": "9 farklı nesneden kaç farklı çift seçilebilir?",
+    "explanation": "Sayım C(9, 2) = 9 8 2 = 36'dır.",
+    "options": [
+      "36",
+      "35",
+      "37",
+      "18"
+    ]
+  },
+  "math-x-sequence-square-7": {
+    "question": "Sonraki terim nedir: 10, 40, 90, 160, __?",
+    "explanation": "Bunlar 10 çarpı ardışık karelerdir; sonraki 52 10 = 250'dir.",
+    "options": [
+      "250",
+      "240",
+      "260",
+      "360"
+    ]
+  },
+  "math-x-combination-7": {
+    "question": "10 farklı nesneden kaç farklı çift seçilebilir?",
+    "explanation": "Sayım C(10, 2) = 10 9 2 = 45'tir.",
+    "options": [
+      "45",
+      "44",
+      "46",
+      "20"
+    ]
+  },
+  "math-x-sequence-square-8": {
+    "question": "Sonraki terim nedir: 11, 44, 99, 176, __?",
+    "explanation": "Bunlar 11 çarpı ardışık karelerdir; sonraki 52 11 = 275'tir.",
+    "options": [
+      "275",
+      "264",
+      "286",
+      "396"
+    ]
+  },
+  "math-x-combination-8": {
+    "question": "11 farklı nesneden kaç farklı çift seçilebilir?",
+    "explanation": "Sayım C(11, 2) = 11 10 2 = 55'tir.",
+    "options": [
+      "55",
+      "54",
+      "56",
+      "22"
+    ]
+  },
+  "math-x-sequence-square-9": {
+    "question": "Sonraki terim nedir: 12, 48, 108, 192, __?",
+    "explanation": "Bunlar 12 çarpı ardışık karelerdir; sonraki 52 12 = 300'dür.",
+    "options": [
+      "300",
+      "288",
+      "312",
+      "432"
+    ]
+  },
+  "math-x-combination-9": {
+    "question": "12 farklı nesneden kaç farklı çift seçilebilir?",
+    "explanation": "Sayım C(12, 2) = 12 11 2 = 66'dır.",
+    "options": [
+      "66",
+      "65",
+      "67",
+      "24"
+    ]
+  },
+  "math-x-sequence-square-10": {
+    "question": "Sonraki terim nedir: 13, 52, 117, 208, __?",
+    "explanation": "Bunlar 13 çarpı ardışık karelerdir; sonraki 52 13 = 325'tir.",
+    "options": [
+      "325",
+      "312",
+      "338",
+      "468"
+    ]
+  },
+  "math-x-combination-10": {
+    "question": "13 farklı nesneden kaç farklı çift seçilebilir?",
+    "explanation": "Sayım C(13, 2) = 13 12 2 = 78'dir.",
+    "options": [
+      "78",
+      "77",
+      "79",
+      "26"
+    ]
+  },
+  "math-x-sequence-square-11": {
+    "question": "Sonraki terim nedir: 14, 56, 126, 224, __?",
+    "explanation": "Bunlar 14 kat art arda karelerdir; sonraki 52 14 = 350'dir.",
+    "options": [
+      "350",
+      "336",
+      "364",
+      "504"
+    ]
+  },
+  "math-x-combination-11": {
+    "question": "14 farklı nesneden kaç farklı çift seçilebilir?",
+    "explanation": "Sayım C(14, 2) = 14 13 2 = 91'dir.",
+    "options": [
+      "91",
+      "90",
+      "92",
+      "28"
+    ]
+  },
+  "math-x-sequence-square-12": {
+    "question": "Sonraki terim nedir: 15, 60, 135, 240, __?",
+    "explanation": "Bunlar 15 kat art arda karelerdir; sonraki 52 15 = 375'tir.",
+    "options": [
+      "375",
+      "360",
+      "390",
+      "540"
+    ]
+  },
+  "math-x-combination-12": {
+    "question": "15 farklı nesneden kaç farklı çift seçilebilir?",
+    "explanation": "Sayım C(15, 2) = 15 14 2 = 105'tir.",
+    "options": [
+      "105",
+      "104",
+      "106",
+      "30"
+    ]
+  },
+  "brain-x-pattern-1": {
+    "question": "Sırada hangi sayı var: 1, 4, 7, 10, __?",
+    "explanation": "Her dönem 3 artar.",
+    "options": [
+      "13",
+      "11",
+      "12",
+      "14"
+    ]
+  },
+  "brain-x-pattern-2": {
+    "question": "Sırada hangi sayı var: 2, 5, 8, 11, __?",
+    "explanation": "Her dönem 3 artar.",
+    "options": [
+      "14",
+      "12",
+      "13",
+      "15"
+    ]
+  },
+  "brain-x-pattern-3": {
+    "question": "Sırada hangi sayı var: 3, 6, 9, 12, __?",
+    "explanation": "Her dönem 3 artar.",
+    "options": [
+      "15",
+      "13",
+      "14",
+      "16"
+    ]
+  },
+  "brain-x-pattern-4": {
+    "question": "Sırada hangi sayı geliyor: 4, 7, 10, 13, __?",
+    "explanation": "Her dönem 3 artar.",
+    "options": [
+      "16",
+      "14",
+      "15",
+      "17"
+    ]
+  },
+  "brain-x-pattern-5": {
+    "question": "Sırada hangi sayı var: 5, 8, 11, 14, __?",
+    "explanation": "Her dönem 3 artar.",
+    "options": [
+      "17",
+      "15",
+      "16",
+      "18"
+    ]
+  },
+  "brain-x-pattern-6": {
+    "question": "Sırada hangi sayı var: 6, 9, 12, 15, __?",
+    "explanation": "Her dönem 3 artar.",
+    "options": [
+      "18",
+      "16",
+      "17",
+      "19"
+    ]
+  },
+  "brain-x-pattern-7": {
+    "question": "Sırada hangi sayı var: 7, 10, 13, 16, __?",
+    "explanation": "Her dönem 3 artar.",
+    "options": [
+      "19",
+      "17",
+      "18",
+      "20"
+    ]
+  },
+  "brain-x-pattern-8": {
+    "question": "Sırada hangi sayı var: 8, 11, 14, 17, __?",
+    "explanation": "Her dönem 3 artar.",
+    "options": [
+      "20",
+      "18",
+      "19",
+      "21"
+    ]
+  },
+  "brain-x-pattern-9": {
+    "question": "Sırada hangi sayı var: 9, 12, 15, 18, __?",
+    "explanation": "Her dönem 3 artar.",
+    "options": [
+      "21",
+      "19",
+      "20",
+      "22"
+    ]
+  },
+  "brain-x-pattern-10": {
+    "question": "Sırada hangi sayı var: 10, 13, 16, 19, __?",
+    "explanation": "Her dönem 3 artar.",
+    "options": [
+      "22",
+      "20",
+      "21",
+      "23"
+    ]
+  },
+  "brain-x-pattern-11": {
+    "question": "Sırada hangi sayı var: 11, 14, 17, 20, __?",
+    "explanation": "Her dönem 3 artar.",
+    "options": [
+      "23",
+      "21",
+      "22",
+      "24"
+    ]
+  },
+  "brain-x-pattern-12": {
+    "question": "Sırada hangi sayı geliyor: 12, 15, 18, 21, __?",
+    "explanation": "Her dönem 3 artar.",
+    "options": [
+      "24",
+      "22",
+      "23",
+      "25"
+    ]
+  },
+  "brain-x-pattern-13": {
+    "question": "Sırada hangi sayı var: 2, 4, 8, 16, __?",
+    "explanation": "Her terim bir önceki terimi iki katına çıkarır.",
+    "options": [
+      "32",
+      "30",
+      "31",
+      "33"
+    ]
+  },
+  "brain-x-pattern-14": {
+    "question": "Sırada hangi sayı var: 3, 6, 12, 24, __?",
+    "explanation": "Her terim bir önceki terimi iki katına çıkarır.",
+    "options": [
+      "48",
+      "46",
+      "47",
+      "49"
+    ]
+  },
+  "brain-x-pattern-15": {
+    "question": "Sırada hangi sayı var: 4, 8, 16, 32, __?",
+    "explanation": "Her terim bir önceki terimi iki katına çıkarır.",
+    "options": [
+      "64",
+      "62",
+      "63",
+      "65"
+    ]
+  },
+  "brain-x-pattern-16": {
+    "question": "Sırada hangi sayı var: 5, 10, 20, 40, __?",
+    "explanation": "Her terim bir önceki terimi iki katına çıkarır.",
+    "options": [
+      "80",
+      "78",
+      "79",
+      "81"
+    ]
+  },
+  "brain-x-pattern-17": {
+    "question": "Sırada hangi sayı var: 6, 12, 24, 48, __?",
+    "explanation": "Her terim bir önceki terimi iki katına çıkarır.",
+    "options": [
+      "96",
+      "94",
+      "95",
+      "97"
+    ]
+  },
+  "brain-x-pattern-18": {
+    "question": "Sırada hangi sayı var: 7, 14, 28, 56, __?",
+    "explanation": "Her terim bir önceki terimi iki katına çıkarır.",
+    "options": [
+      "112",
+      "110",
+      "111",
+      "113"
+    ]
+  },
+  "brain-x-pattern-19": {
+    "question": "Sırada hangi sayı var: 8, 16, 32, 64, __?",
+    "explanation": "Her terim bir önceki terimi iki katına çıkarır.",
+    "options": [
+      "128",
+      "126",
+      "127",
+      "129"
+    ]
+  },
+  "brain-x-pattern-20": {
+    "question": "Sırada hangi sayı var: 9, 18, 36, 72, __?",
+    "explanation": "Her terim bir önceki terimi iki katına çıkarır.",
+    "options": [
+      "144",
+      "142",
+      "143",
+      "145"
+    ]
+  },
+  "brain-x-pattern-21": {
+    "question": "Sırada hangi sayı var: 10, 20, 40, 80, __?",
+    "explanation": "Her terim bir önceki terimi iki katına çıkarır.",
+    "options": [
+      "160",
+      "158",
+      "159",
+      "161"
+    ]
+  },
+  "brain-x-pattern-22": {
+    "question": "Sırada hangi sayı var: 11, 22, 44, 88, __?",
+    "explanation": "Her terim bir önceki terimi iki katına çıkarır.",
+    "options": [
+      "176",
+      "174",
+      "175",
+      "177"
+    ]
+  },
+  "brain-x-pattern-23": {
+    "question": "Sırada hangi sayı var: 12, 24, 48, 96, __?",
+    "explanation": "Her terim bir önceki terimi iki katına çıkarır.",
+    "options": [
+      "192",
+      "190",
+      "191",
+      "193"
+    ]
+  },
+  "brain-x-pattern-24": {
+    "question": "Sırada hangi sayı var: 13, 26, 52, 104, __?",
+    "explanation": "Her terim bir önceki terimi iki katına çıkarır.",
+    "options": [
+      "208",
+      "206",
+      "207",
+      "209"
+    ]
+  },
+  "brain-x-pattern-25": {
+    "question": "Sırada hangi sayı var: 1, 4, 9, 16, __?",
+    "explanation": "Dizi ardışık kare sayıları içerir.",
+    "options": [
+      "25",
+      "23",
+      "24",
+      "26"
+    ]
+  },
+  "brain-x-pattern-26": {
+    "question": "Sırada hangi sayı var: 4, 9, 16, 25, __?",
+    "explanation": "Dizi ardışık kare sayıları içerir.",
+    "options": [
+      "36",
+      "34",
+      "35",
+      "37"
+    ]
+  },
+  "brain-x-pattern-27": {
+    "question": "Sırada hangi sayı var: 9, 16, 25, 36, __?",
+    "explanation": "Dizi ardışık kare sayıları içerir.",
+    "options": [
+      "49",
+      "47",
+      "48",
+      "50"
+    ]
+  },
+  "brain-x-pattern-28": {
+    "question": "Sırada hangi sayı var: 16, 25, 36, 49, __?",
+    "explanation": "Dizi ardışık kare sayıları içerir.",
+    "options": [
+      "64",
+      "62",
+      "63",
+      "65"
+    ]
+  },
+  "brain-x-pattern-29": {
+    "question": "Sırada hangi sayı var: 25, 36, 49, 64, __?",
+    "explanation": "Dizi ardışık kare sayıları içerir.",
+    "options": [
+      "81",
+      "79",
+      "80",
+      "82"
+    ]
+  },
+  "brain-x-pattern-30": {
+    "question": "Sırada hangi sayı var: 36, 49, 64, 81, __?",
+    "explanation": "Dizi ardışık kare sayıları içerir.",
+    "options": [
+      "100",
+      "98",
+      "99",
+      "101"
+    ]
+  },
+  "brain-x-pattern-31": {
+    "question": "Sırada hangi sayı var: 49, 64, 81, 100, __?",
+    "explanation": "Dizi ardışık kare sayıları içerir.",
+    "options": [
+      "121",
+      "119",
+      "120",
+      "122"
+    ]
+  },
+  "brain-x-pattern-32": {
+    "question": "Sırada hangi sayı var: 64, 81, 100, 121, __?",
+    "explanation": "Dizi ardışık kare sayıları içerir.",
+    "options": [
+      "144",
+      "142",
+      "143",
+      "145"
+    ]
+  },
+  "brain-x-pattern-33": {
+    "question": "Sırada hangi sayı var: 81, 100, 121, 144, __?",
+    "explanation": "Dizi ardışık kare sayıları içerir.",
+    "options": [
+      "169",
+      "167",
+      "168",
+      "170"
+    ]
+  },
+  "brain-x-pattern-34": {
+    "question": "Sırada hangi sayı var: 100, 121, 144, 169, __?",
+    "explanation": "Dizi ardışık kare sayıları içerir.",
+    "options": [
+      "196",
+      "194",
+      "195",
+      "197"
+    ]
+  },
+  "brain-x-pattern-35": {
+    "question": "Sırada hangi sayı var: 121, 144, 169, 196, __?",
+    "explanation": "Dizi ardışık kare sayıları içerir.",
+    "options": [
+      "225",
+      "223",
+      "224",
+      "226"
+    ]
+  },
+  "brain-x-pattern-36": {
+    "question": "Sırada hangi sayı var: 144, 169, 196, 225, __?",
+    "explanation": "Dizi ardışık kare sayıları içerir.",
+    "options": [
+      "256",
+      "254",
+      "255",
+      "257"
+    ]
+  },
+  "brain-x-pattern-37": {
+    "question": "Sırada hangi sayı var: 1, 3, 7, 13, __?",
+    "explanation": "Artımlar ardışık çift sayılardır: +2, +4, +6, sonra +8.",
+    "options": [
+      "21",
+      "19",
+      "20",
+      "22"
+    ]
+  },
+  "brain-x-pattern-38": {
+    "question": "Sırada hangi sayı var: 2, 4, 8, 14, __?",
+    "explanation": "Artımlar ardışık çift sayılardır: +2, +4, +6, sonra +8.",
+    "options": [
+      "22",
+      "20",
+      "21",
+      "23"
+    ]
+  },
+  "brain-x-pattern-39": {
+    "question": "Sırada hangi sayı var: 3, 5, 9, 15, __?",
+    "explanation": "Artımlar ardışık çift sayılardır: +2, +4, +6, sonra +8.",
+    "options": [
+      "23",
+      "21",
+      "22",
+      "24"
+    ]
+  },
+  "brain-x-pattern-40": {
+    "question": "Sırada hangi sayı var: 4, 6, 10, 16, __?",
+    "explanation": "Artımlar ardışık çift sayılardır: +2, +4, +6, sonra +8.",
+    "options": [
+      "24",
+      "22",
+      "23",
+      "25"
+    ]
+  },
+  "brain-x-pattern-41": {
+    "question": "Sırada hangi sayı var: 5, 7, 11, 17, __?",
+    "explanation": "Artımlar ardışık çift sayılardır: +2, +4, +6, sonra +8.",
+    "options": [
+      "25",
+      "23",
+      "24",
+      "26"
+    ]
+  },
+  "brain-x-pattern-42": {
+    "question": "Sırada hangi sayı var: 6, 8, 12, 18, __?",
+    "explanation": "Artımlar ardışık çift sayılardır: +2, +4, +6, sonra +8.",
+    "options": [
+      "26",
+      "24",
+      "25",
+      "27"
+    ]
+  },
+  "brain-x-pattern-43": {
+    "question": "Sırada hangi sayı var: 7, 9, 13, 19, __?",
+    "explanation": "Artımlar ardışık çift sayılardır: +2, +4, +6, sonra +8.",
+    "options": [
+      "27",
+      "25",
+      "26",
+      "28"
+    ]
+  },
+  "brain-x-pattern-44": {
+    "question": "Sırada hangi sayı var: 8, 10, 14, 20, __?",
+    "explanation": "Artımlar ardışık çift sayılardır: +2, +4, +6, sonra +8.",
+    "options": [
+      "28",
+      "26",
+      "27",
+      "29"
+    ]
+  },
+  "brain-x-pattern-45": {
+    "question": "Sırada hangi sayı geliyor: 9, 11, 15, 21, __?",
+    "explanation": "Artımlar ardışık çift sayılardır: +2, +4, +6, sonra +8.",
+    "options": [
+      "29",
+      "27",
+      "28",
+      "30"
+    ]
+  },
+  "brain-x-pattern-46": {
+    "question": "Sırada hangi sayı var: 10, 12, 16, 22, __?",
+    "explanation": "Artımlar ardışık çift sayılardır: +2, +4, +6, sonra +8.",
+    "options": [
+      "30",
+      "28",
+      "29",
+      "31"
+    ]
+  },
+  "brain-x-pattern-47": {
+    "question": "Sırada hangi sayı var: 11, 13, 17, 23, __?",
+    "explanation": "Artımlar ardışık çift sayılardır: +2, +4, +6, sonra +8.",
+    "options": [
+      "31",
+      "29",
+      "30",
+      "32"
+    ]
+  },
+  "brain-x-pattern-48": {
+    "question": "Sırada hangi sayı var: 12, 14, 18, 24, __?",
+    "explanation": "Artımlar ardışık çift sayılardır: +2, +4, +6, sonra +8.",
+    "options": [
+      "32",
+      "30",
+      "31",
+      "33"
+    ]
+  },
+  "brain-x-pattern-49": {
+    "question": "Sırada hangi sayı var: 1, 3, 6, 13, __?",
+    "explanation": "Her terim bir önceki terimi iki katına çıkarır ve 1, sonra 0'ı alternatif olarak ekler.",
+    "options": [
+      "26",
+      "24",
+      "25",
+      "27"
+    ]
+  },
+  "brain-x-pattern-50": {
+    "question": "Sırada hangi sayı var: 2, 5, 10, 21, __?",
+    "explanation": "Her terim bir önceki terimi iki katına çıkarır ve 1, sonra 0'ı alternatif olarak ekler.",
+    "options": [
+      "42",
+      "40",
+      "41",
+      "43"
+    ]
+  },
+  "brain-x-pattern-51": {
+    "question": "Sırada hangi sayı geliyor: 3, 7, 14, 29, __?",
+    "explanation": "Her terim bir önceki terimi iki katına çıkarır ve 1, sonra 0'ı alternatif olarak ekler.",
+    "options": [
+      "58",
+      "56",
+      "57",
+      "59"
+    ]
+  },
+  "brain-x-pattern-52": {
+    "question": "Sırada hangi sayı var: 4, 9, 18, 37, __?",
+    "explanation": "Her terim bir önceki terimi iki katına çıkarır ve 1, sonra 0'ı alternatif olarak ekler.",
+    "options": [
+      "74",
+      "72",
+      "73",
+      "75"
+    ]
+  },
+  "brain-x-pattern-53": {
+    "question": "Sırada hangi sayı var: 5, 11, 22, 45, __?",
+    "explanation": "Her terim bir önceki terimi iki katına çıkarır ve 1, sonra 0'ı alternatif olarak ekler.",
+    "options": [
+      "90",
+      "88",
+      "89",
+      "91"
+    ]
+  },
+  "brain-x-pattern-54": {
+    "question": "Sırada hangi sayı var: 6, 13, 26, 53, __?",
+    "explanation": "Her terim bir önceki terimi iki katına çıkarır ve 1, sonra 0'ı alternatif olarak ekler.",
+    "options": [
+      "106",
+      "104",
+      "105",
+      "107"
+    ]
+  },
+  "brain-x-pattern-55": {
+    "question": "Sırada hangi sayı var: 7, 15, 30, 61, __?",
+    "explanation": "Her terim bir önceki terimi iki katına çıkarır ve 1, sonra 0'ı alternatif olarak ekler.",
+    "options": [
+      "122",
+      "120",
+      "121",
+      "123"
+    ]
+  },
+  "brain-x-pattern-56": {
+    "question": "Sırada hangi sayı var: 8, 17, 34, 69, __?",
+    "explanation": "Her terim bir önceki terimi iki katına çıkarır ve 1, sonra 0'ı alternatif olarak ekler.",
+    "options": [
+      "138",
+      "136",
+      "137",
+      "139"
+    ]
+  },
+  "brain-x-pattern-57": {
+    "question": "Sırada hangi sayı var: 9, 19, 38, 77, __?",
+    "explanation": "Her terim bir önceki terimi iki katına çıkarır ve 1, sonra 0'ı alternatif olarak ekler.",
+    "options": [
+      "154",
+      "152",
+      "153",
+      "155"
+    ]
+  },
+  "brain-x-pattern-58": {
+    "question": "Sırada hangi sayı var: 10, 21, 42, 85, __?",
+    "explanation": "Her terim bir önceki terimi iki katına çıkarır ve 1, sonra 0'ı alternatif olarak ekler.",
+    "options": [
+      "170",
+      "168",
+      "169",
+      "171"
+    ]
+  },
+  "brain-x-pattern-59": {
+    "question": "Sırada hangi sayı var: 11, 23, 46, 93, __?",
+    "explanation": "Her terim bir önceki terimi iki katına çıkarır ve 1, sonra 0'ı alternatif olarak ekler.",
+    "options": [
+      "186",
+      "184",
+      "185",
+      "187"
+    ]
+  },
+  "brain-x-pattern-60": {
+    "question": "Sırada hangi sayı var: 12, 25, 50, 101, __?",
+    "explanation": "Her terim bir önceki terimi iki katına çıkarır ve 1, sonra 0'ı alternatif olarak ekler.",
+    "options": [
+      "202",
+      "200",
+      "201",
+      "203"
+    ]
+  },
+  "history-x-1": {
+    "question": "Bu tarihsel gerçeği hangi ayrıntı tamamlar: Maraton Savaşı yapıldı?",
+    "explanation": "Marathon Muharebesi MÖ 490 yılında yapılmıştır.",
+    "options": [
+      "MÖ 490",
+      "1776",
+      "MÖ 221",
+      "1494"
+    ]
+  },
+  "history-x-2": {
+    "question": "Bu tarihsel gerçeği hangi ayrıntı tamamlar: Amerika Birleşik Devletleri Bağımsızlık Bildirgesi kabul edildi?",
+    "explanation": "Bildirge 4 Temmuz 1776'da kabul edildi.",
+    "options": [
+      "1776",
+      "MÖ 221",
+      "1494",
+      "1977"
+    ]
+  },
+  "history-x-3": {
+    "question": "Bu tarihsel gerçeği hangi ayrıntı tamamlar: İlk Çin imparatorluk hanedanı Çin'i birleştirdi?",
+    "explanation": "Qin devleti Çin'i MÖ 221 yılında birleştirdi.",
+    "options": [
+      "MÖ 221",
+      "1494",
+      "1977",
+      "476"
+    ]
+  },
+  "history-x-4": {
+    "question": "Bu tarihsel gerçeği hangi ayrıntı tamamlar: Tordesillas Antlaşması imzalandı?",
+    "explanation": "İspanya ve Portekiz 1494'te Tordesillas Antlaşması'nı imzaladı.",
+    "options": [
+      "1494",
+      "1977",
+      "476",
+      "1066"
+    ]
+  },
+  "history-x-5": {
+    "question": "Bu tarihsel gerçeği hangi ayrıntı tamamlar: Voyager 1 fırlatıldı?",
+    "explanation": "NASA, 1977'de Voyager 1'i fırlattı.",
+    "options": [
+      "1977",
+      "476",
+      "1066",
+      "1666"
+    ]
+  },
+  "history-x-6": {
+    "question": "Bu tarihsel gerçeği hangi ayrıntı tamamlar: Batı Roma İmparatorluğu düştü?",
+    "explanation": "Batı Roma İmparatorluğu'nun çöküşünün geleneksel tarihi MS 476'dır.",
+    "options": [
+      "476",
+      "1066",
+      "1666",
+      "1825"
+    ]
+  },
+  "history-x-7": {
+    "question": "Bu tarihsel gerçeği hangi ayrıntı tamamlar: İngiltere'nin Norman Fethi gerçekleşti?",
+    "explanation": "Normandiya Kralı William 1066'da Hastings Muharebesi'ni kazandı.",
+    "options": [
+      "1066",
+      "1666",
+      "1825",
+      "1896"
+    ]
+  },
+  "history-x-8": {
+    "question": "Bu tarihsel gerçeği hangi ayrıntı tamamlar: Londra Büyük Yangını başladı?",
+    "explanation": "Büyük Londra Yangını Eylül 1666'da başladı.",
+    "options": [
+      "1666",
+      "1825",
+      "1896",
+      "1446"
+    ]
+  },
+  "history-x-9": {
+    "question": "Bu tarihi gerçeği hangi ayrıntı tamamlar: Stockton ve Darlington Demiryolu açıldı?",
+    "explanation": "Stockton ve Darlington Demiryolu 1825 yılında kamuya açıldı.",
+    "options": [
+      "1825",
+      "MÖ 490",
+      "1776",
+      "MÖ 221"
+    ]
+  },
+  "history-x-10": {
+    "question": "Bu tarihsel gerçeği hangi ayrıntı tamamlar: İlk modern Olimpiyat Oyunları Atina'da yapıldı?",
+    "explanation": "Atina, 1896'da ilk modern Olimpiyat Oyunları'na ev sahipliği yaptı.",
+    "options": [
+      "1896",
+      "1776",
+      "MÖ 221",
+      "1494"
+    ]
+  },
+  "history-x-11": {
+    "question": "Bu tarihsel gerçeği hangi ayrıntı tamamlar: Kore alfabesi Hangul ilan edildi?",
+    "explanation": "Kral Sejong 1446'da Hunminjeongeum'u ilan etti.",
+    "options": [
+      "1446",
+      "MÖ 221",
+      "1494",
+      "1977"
+    ]
+  },
+  "history-x-12": {
+    "question": "Bu tarihsel gerçeği hangi ayrıntı tamamlar: Joseon Hanedanı kuruldu?",
+    "explanation": "Yi Seong-gye, 1392'de Joseon hanedanını kurdu.",
+    "options": [
+      "1392",
+      "1494",
+      "1977",
+      "476"
+    ]
+  },
+  "history-x-13": {
+    "question": "Bu tarihsel gerçeği hangi ayrıntı tamamlar: Goryeo hanedanı kuruldu?",
+    "explanation": "Wang Geon 918 yılında Goryeo'yu kurdu.",
+    "options": [
+      "918",
+      "1977",
+      "476",
+      "1066"
+    ]
+  },
+  "history-x-14": {
+    "question": "Bu tarihsel gerçeği hangi ayrıntı tamamlar: Imjin Savaşı başladı?",
+    "explanation": "Japon kuvvetleri 1592'de İmjin Savaşı'nı başlatarak Kore'yi işgal etti.",
+    "options": [
+      "1592",
+      "476",
+      "1066",
+      "1666"
+    ]
+  },
+  "history-x-15": {
+    "question": "Bu tarihsel gerçeği hangi ayrıntı tamamlar: Kore Savaşı ateşkesi imzalandı?",
+    "explanation": "Kore Ateşkes Anlaşması 1953 yılında imzalandı.",
+    "options": [
+      "1953",
+      "1066",
+      "1666",
+      "1825"
+    ]
+  },
+  "history-x-16": {
+    "question": "Bu tarihsel gerçeği hangi ayrıntı tamamlar: Rosetta Taşı keşfedildi?",
+    "explanation": "Rosetta Taşı 1799 yılında Fransız askerleri tarafından keşfedilmiştir.",
+    "options": [
+      "1799",
+      "1666",
+      "1825",
+      "1896"
+    ]
+  },
+  "history-x-17": {
+    "question": "Bu tarihsel gerçeği hangi ayrıntı tamamlar: Kolomb'un Atlantik'e ilk yolculuğu başladı?",
+    "explanation": "Kolomb ilk Atlantik yolculuğunu 1492 yılında başlattı.",
+    "options": [
+      "1492",
+      "MÖ 490",
+      "1776",
+      "MÖ 221"
+    ]
+  },
+  "history-x-18": {
+    "question": "Bu tarihsel gerçeği hangi ayrıntı tamamlar: Fransız Birinci Cumhuriyeti ilan edildi?",
+    "explanation": "Eylül 1792'de Fransız Cumhuriyeti ilan edildi.",
+    "options": [
+      "1792",
+      "1776",
+      "MÖ 221",
+      "1494"
+    ]
+  },
+  "history-x-19": {
+    "question": "Bu tarihi gerçeği hangi ayrıntı tamamlar: Süveyş Kanalı açıldı?",
+    "explanation": "Süveyş Kanalı 1869'da navigasyona açıldı.",
+    "options": [
+      "1869",
+      "MÖ 221",
+      "1494",
+      "1977"
+    ]
+  },
+  "history-x-20": {
+    "question": "Bu tarihsel gerçeği hangi ayrıntı tamamlar: ABD'deki ilk kıtalararası demiryolu tamamlandı mı?",
+    "explanation": "İlk ABD kıtalararası demiryolu 1869'da tamamlandı.",
+    "options": [
+      "1869",
+      "1494",
+      "1977",
+      "476"
+    ]
+  },
+  "history-x-21": {
+    "question": "Bu tarihsel gerçeği hangi ayrıntı tamamlar: Mexica, Tenochtitlan'ı etrafında kurdu?",
+    "explanation": "Tenochtitlan, 1325 yılı civarında Texcoco Gölü'nde bir adada kurulmuştur.",
+    "options": [
+      "1325 CE",
+      "1977",
+      "476",
+      "1066"
+    ]
+  },
+  "history-x-22": {
+    "question": "Bu tarihsel gerçeği hangi ayrıntı tamamlar: Parthenon inşa edildi?",
+    "explanation": "Parthenon, MÖ 5. yüzyılda Atina'da inşa edilmiştir.",
+    "options": [
+      "Antik Yunanistan",
+      "476",
+      "1066",
+      "1666"
+    ]
+  },
+  "history-x-23": {
+    "question": "Bu tarihsel gerçeği hangi ayrıntı tamamlar: Kolezyum inşa edildi?",
+    "explanation": "Kolezyum, Roma'da Flavian imparatorları altında inşa edildi.",
+    "options": [
+      "Antik Roma",
+      "1066",
+      "1666",
+      "1825"
+    ]
+  },
+  "history-x-24": {
+    "question": "Bu tarihsel gerçeği hangi ayrıntı tamamlar: Machu Picchu şehri tarafından inşa edildi?",
+    "explanation": "Machu Picchu, And Dağları'nda İnka tarafından inşa edilmiştir.",
+    "options": [
+      "İnka",
+      "1666",
+      "1825",
+      "1896"
+    ]
+  },
+  "history-x-25": {
+    "question": "Bu tarihsel gerçeği hangi ayrıntı tamamlar: Büyük Duvar yüzyıllar boyunca inşa edildi?",
+    "explanation": "Çin devletleri ve hanedanları yüzyıllar boyunca duvarlar inşa etti ve yeniden inşa etti.",
+    "options": [
+      "Çin",
+      "MÖ 490",
+      "1776",
+      "MÖ 221"
+    ]
+  },
+  "history-x-26": {
+    "question": "Bu tarihsel gerçeği hangi ayrıntı tamamlar: Wright kardeşler tarafından ilk başarılı motorlu uçak uçuşu gerçekleşti?",
+    "explanation": "Wright kardeşler 1903 yılında Kitty Hawk'da uçtular.",
+    "options": [
+      "1903",
+      "1776",
+      "MÖ 221",
+      "1494"
+    ]
+  },
+  "history-x-27": {
+    "question": "Bu tarihsel gerçeği hangi ayrıntı tamamlar: Birleşmiş Milletler kuruldu?",
+    "explanation": "Birleşmiş Milletler 1945 yılında kuruldu.",
+    "options": [
+      "1945",
+      "MÖ 221",
+      "1494",
+      "1977"
+    ]
+  },
+  "history-x-28": {
+    "question": "Bu tarihsel gerçeği hangi ayrıntı tamamlar: İnsan Hakları Evrensel Beyannamesi kabul edildi?",
+    "explanation": "Birleşmiş Milletler Genel Kurulu 1948'de deklarasyonu kabul etti.",
+    "options": [
+      "1948",
+      "1494",
+      "1977",
+      "476"
+    ]
+  },
+  "history-x-29": {
+    "question": "Bu tarihsel gerçeği hangi ayrıntı tamamlar: İlk yapay uydu, Sputnik 1 fırlatıldı?",
+    "explanation": "Sovyetler Birliği 1957'de Sputnik 1'i başlattı.",
+    "options": [
+      "1957",
+      "1977",
+      "476",
+      "1066"
+    ]
+  },
+  "history-x-30": {
+    "question": "Bu tarihsel gerçeği hangi ayrıntı tamamlar: Yuri Gagarin'in ilk mürettebatlı uzay uçuşu gerçekleşti?",
+    "explanation": "Yuri Gagarin 1961'de Dünya'nın yörüngesine girdi.",
+    "options": [
+      "1961",
+      "476",
+      "1066",
+      "1666"
+    ]
+  },
+  "history-x-31": {
+    "question": "Bu tarihsel gerçeği hangi ayrıntı tamamlar: Meiji Restorasyonu başladı?",
+    "explanation": "Meiji siyasi dönüşümü 1868'de başladı.",
+    "options": [
+      "1868",
+      "1066",
+      "1666",
+      "1825"
+    ]
+  },
+  "history-x-32": {
+    "question": "Bu tarihsel gerçeği hangi ayrıntı tamamlar: Haiti Devrimi başladı?",
+    "explanation": "Haiti Devrimi 1791'de başladı.",
+    "options": [
+      "1791",
+      "1666",
+      "1825",
+      "1896"
+    ]
+  },
+  "history-x-33": {
+    "question": "Bu tarihsel gerçeği hangi ayrıntı tamamlar: Hint bağımsızlık hareketi bağımsızlık elde etti?",
+    "explanation": "Hindistan 1947'de İngiliz yönetiminden bağımsız oldu.",
+    "options": [
+      "1947",
+      "MÖ 490",
+      "1776",
+      "MÖ 221"
+    ]
+  },
+  "history-x-34": {
+    "question": "Bu tarihsel gerçeği hangi ayrıntı tamamlar: Osmanlı'nın Konstantinopolis'i fethi gerçekleşti?",
+    "explanation": "Osmanlı kuvvetleri 1453'te Konstantinopolis'i ele geçirdi.",
+    "options": [
+      "1453",
+      "1776",
+      "MÖ 221",
+      "1494"
+    ]
+  },
+  "history-x-35": {
+    "question": "Bu tarihsel gerçeği hangi ayrıntı tamamlar: Waterloo Muharebesi yapıldı?",
+    "explanation": "Waterloo Muharebesi 1815 yılında gerçekleşti.",
+    "options": [
+      "1815",
+      "MÖ 221",
+      "1494",
+      "1977"
+    ]
+  },
+  "history-x-36": {
+    "question": "Bu tarihsel gerçeği hangi ayrıntı tamamlar: Birinci Dünya Savaşı başladı?",
+    "explanation": "I. Dünya Savaşı 1914'te Temmuz Krizi'nden sonra başladı.",
+    "options": [
+      "1914",
+      "1494",
+      "1977",
+      "476"
+    ]
+  },
+  "history-x-37": {
+    "question": "Bu tarihsel gerçeği hangi ayrıntı tamamlar: Jamestown'daki ilk kalıcı İngiliz yerleşimi kuruldu?",
+    "explanation": "Jamestown, 1607 yılında Virginia'da kurulmuştur.",
+    "options": [
+      "1607",
+      "1977",
+      "476",
+      "1066"
+    ]
+  },
+  "history-x-38": {
+    "question": "Bu tarihsel gerçeği hangi ayrıntı tamamlar: Versailles Antlaşması imzalandı?",
+    "explanation": "1919 yılında Versailles Antlaşması imzalandı.",
+    "options": [
+      "1919",
+      "476",
+      "1066",
+      "1666"
+    ]
+  },
+  "history-x-39": {
+    "question": "Bu tarihsel gerçeği hangi ayrıntı tamamlar: Birinci Dünya Savaşı'nda Batı Cephesi'nde çatışmayı sona erdiren ateşkes yürürlüğe girdi?",
+    "explanation": "Ateşkes 11 Kasım 1918'de yürürlüğe girdi.",
+    "options": [
+      "1918",
+      "1066",
+      "1666",
+      "1825"
+    ]
+  },
+  "history-x-40": {
+    "question": "Bu tarihsel gerçeği hangi ayrıntı tamamlar: Ay'a ulaşan ilk insan yapımı nesne Luna 2'dir?",
+    "explanation": "Sovyet Luna 2 uzay aracı 1959 yılında Ay'a ulaştı.",
+    "options": [
+      "1959",
+      "1666",
+      "1825",
+      "1896"
+    ]
+  },
+  "science-x-1": {
+    "question": "Oksijenin kimyasal sembolü nedir?",
+    "explanation": "O, oksijenin kimyasal sembolüdür.",
+    "options": [
+      "O",
+      "Au",
+      "Na",
+      "Fe"
+    ]
+  },
+  "science-x-2": {
+    "question": "Altının kimyasal sembolü nedir?",
+    "explanation": "Au Latince aurum adından gelir.",
+    "options": [
+      "Au",
+      "C",
+      "Glukoz",
+      "Oksijen"
+    ]
+  },
+  "science-x-3": {
+    "question": "Sodyumun kimyasal sembolü nedir?",
+    "explanation": "Na Latince natrium isminden gelir.",
+    "options": [
+      "Na",
+      "Nucleus",
+      "DNA",
+      "Plateletler"
+    ]
+  },
+  "science-x-4": {
+    "question": "Demirin kimyasal sembolü nedir?",
+    "explanation": "Fe Latince ferrum isminden gelir.",
+    "options": [
+      "Fe",
+      "7",
+      "Newton",
+      "Ampere"
+    ]
+  },
+  "science-x-5": {
+    "question": "Karbonun kimyasal sembolü nedir?",
+    "explanation": "C, karbonun kimyasal sembolüdür.",
+    "options": [
+      "C",
+      "Joule",
+      "Sürtünme",
+      "Satürn"
+    ]
+  },
+  "science-x-6": {
+    "question": "Bitkiler fotosentez sırasında hangi şekeri üretir?",
+    "explanation": "Fotosentez, glikoz gibi şekerlerde enerji depolar.",
+    "options": [
+      "Glukoz",
+      "Merkür",
+      "Ay",
+      "Bir ana dizi yıldız"
+    ]
+  },
+  "science-x-7": {
+    "question": "Fotosentez sırasında bitkiler tarafından hangi gaz salınır?",
+    "explanation": "Oksijen fotosentezin bir yan ürünü olarak salınır.",
+    "options": [
+      "Oksijen",
+      "Samanyolu",
+      "Watt",
+      "Buharlaşma"
+    ]
+  },
+  "science-x-8": {
+    "question": "Hangi organelde ökaryotik hücrenin DNA'sının çoğu bulunur?",
+    "explanation": "Çoğu ökaryotik DNA hücre çekirdeğinde bulunur.",
+    "options": [
+      "Nucleus",
+      "Magma",
+      "Lava",
+      "Manto"
+    ]
+  },
+  "science-x-9": {
+    "question": "Hangi molekül genetik talimatlar taşır?",
+    "explanation": "DNA kalıtsal bilgileri hücrelerde depolar.",
+    "options": [
+      "DNA",
+      "Gözbebeği",
+      "D vitamini",
+      "Cilt"
+    ]
+  },
+  "science-x-10": {
+    "question": "Hangi kan bileşeni pıhtılaşmaya yardımcı olur?",
+    "explanation": "Trombositler hasarlı kan damarlarında pıhtı oluşumuna yardımcı olur.",
+    "options": [
+      "Plateletler",
+      "Böbrekler",
+      "Trakea",
+      "Pascal"
+    ]
+  },
+  "science-x-11": {
+    "question": "Oda sıcaklığında nötr saf suyun yaklaşık pH değeri nedir?",
+    "explanation": "Nötr çözeltiler oda sıcaklığında 7'ye yakın bir pH değerine sahiptir.",
+    "options": [
+      "7",
+      "Bir atom",
+      "Pozitif",
+      "Tarafsız"
+    ]
+  },
+  "science-x-12": {
+    "question": "SI kuvvet birimi nedir?",
+    "explanation": "Newton, SI türetilmiş kuvvet birimidir.",
+    "options": [
+      "Newton",
+      "Paleontoloji",
+      "Mohs ölçeği",
+      "Sublime"
+    ]
+  },
+  "science-x-13": {
+    "question": "Elektrik akımının SI birimi nedir?",
+    "explanation": "Amper, elektrik akımı için SI baz birimidir.",
+    "options": [
+      "Ampere",
+      "Stratosfer",
+      "Elastik potansiyel enerji",
+      "Sıklık"
+    ]
+  },
+  "science-x-14": {
+    "question": "Enerjinin SI birimi nedir?",
+    "explanation": "Joule, enerjinin SI birimidir.",
+    "options": [
+      "Joule",
+      "Na",
+      "Fe",
+      "C"
+    ]
+  },
+  "science-x-15": {
+    "question": "Temas halindeki yüzeyler arasındaki harekete hangi kuvvet karşı çıkar?",
+    "explanation": "Sürtünme yüzeyler arasında etki eder ve göreceli harekete direnir.",
+    "options": [
+      "Sürtünme",
+      "Glukoz",
+      "Oksijen",
+      "Nucleus"
+    ]
+  },
+  "science-x-16": {
+    "question": "Hangi gezegen en belirgin halka sistemine sahiptir?",
+    "explanation": "Satürn'ün geniş halkaları küçük bir teleskopla bile görülebilir.",
+    "options": [
+      "Satürn",
+      "DNA",
+      "Plateletler",
+      "7"
+    ]
+  },
+  "science-x-17": {
+    "question": "Güneş'e en yakın gezegen hangisidir?",
+    "explanation": "Merkür, Güneş Sistemi'ndeki en iç gezegendir.",
+    "options": [
+      "Merkür",
+      "Newton",
+      "Ampere",
+      "Joule"
+    ]
+  },
+  "science-x-18": {
+    "question": "Dünya'nın doğal uydusu nedir?",
+    "explanation": "Ay, Dünya'nın doğal uydusudur.",
+    "options": [
+      "Ay",
+      "Sürtünme",
+      "Satürn",
+      "Merkür"
+    ]
+  },
+  "science-x-19": {
+    "question": "Güneş ne tür bir yıldızdır?",
+    "explanation": "Güneş, G tipi bir ana dizi yıldızdır.",
+    "options": [
+      "Bir ana dizi yıldız",
+      "Ay",
+      "Samanyolu",
+      "Watt"
+    ]
+  },
+  "science-x-20": {
+    "question": "Hangi galaksi Güneş Sistemimizi içerir?",
+    "explanation": "Güneş Sistemimiz Samanyolu galaksisinde yer almaktadır.",
+    "options": [
+      "Samanyolu",
+      "Buharlaşma",
+      "Magma",
+      "Lava"
+    ]
+  },
+  "science-x-21": {
+    "question": "SI güç birimi nedir?",
+    "explanation": "watt, SI türetilmiş güç birimidir.",
+    "options": [
+      "Watt",
+      "Manto",
+      "Gözbebeği",
+      "D vitamini"
+    ]
+  },
+  "science-x-22": {
+    "question": "Sıvının yüzeyinde gaza dönüşmesi işlemi nedir?",
+    "explanation": "Buharlaşma yüzey sıvı moleküllerini buhara dönüştürür.",
+    "options": [
+      "Buharlaşma",
+      "Cilt",
+      "Böbrekler",
+      "Trakea"
+    ]
+  },
+  "science-x-23": {
+    "question": "Dünya yüzeyinin altındaki erimiş kayaya ne denir?",
+    "explanation": "Yüzeyin altındaki erimiş kayaya magma denir.",
+    "options": [
+      "Magma",
+      "Pascal",
+      "Bir atom",
+      "Pozitif"
+    ]
+  },
+  "science-x-24": {
+    "question": "Dünya yüzeyine ulaşan erimiş kayanın adı nedir?",
+    "explanation": "Yüzeye püsküren magma, lav olarak adlandırılır.",
+    "options": [
+      "Lava",
+      "Tarafsız",
+      "Paleontoloji",
+      "Mohs ölçeği"
+    ]
+  },
+  "science-x-25": {
+    "question": "Dünya'nın en kalın tabakası hangisidir?",
+    "explanation": "Manto kabuğundan veya çekirdek katmanından çok daha kalındır.",
+    "options": [
+      "Manto",
+      "Sublime",
+      "Stratosfer",
+      "Elastik potansiyel enerji"
+    ]
+  },
+  "science-x-26": {
+    "question": "Gözün hangi kısmı gelen ışığı düzenlemek için boyut değiştirir?",
+    "explanation": "İris, gelen ışığı kontrol etmek için göz bebeği boyutunu değiştirir.",
+    "options": [
+      "Gözbebeği",
+      "Au",
+      "Na",
+      "Fe"
+    ]
+  },
+  "science-x-27": {
+    "question": "İnsan cildi güneş ışığına maruz kalarak hangi vitamini üretebilir?",
+    "explanation": "UVB maruziyeti cildin D vitaminini sentezlemesini sağlar.",
+    "options": [
+      "D vitamini",
+      "C",
+      "Glukoz",
+      "Oksijen"
+    ]
+  },
+  "science-x-28": {
+    "question": "İnsan vücudunun en büyük organı nedir?",
+    "explanation": "Deri, yüzey alanı ve kütleye göre vücudun en büyük organıdır.",
+    "options": [
+      "Cilt",
+      "Nucleus",
+      "DNA",
+      "Plateletler"
+    ]
+  },
+  "science-x-29": {
+    "question": "Hangi organlar idrar yapmak için kanı filtreler?",
+    "explanation": "Böbrekler kanı filtreler ve su ve elektrolit dengesini düzenler.",
+    "options": [
+      "Böbrekler",
+      "7",
+      "Newton",
+      "Ampere"
+    ]
+  },
+  "science-x-30": {
+    "question": "Hangi yapı boğazdan akciğerlere doğru hava taşır?",
+    "explanation": "Trakea bronşlara ve akciğerlere hava iletir.",
+    "options": [
+      "Trakea",
+      "Joule",
+      "Sürtünme",
+      "Satürn"
+    ]
+  },
+  "science-x-31": {
+    "question": "SI basınç birimi nedir?",
+    "explanation": "Paskal, SI türetilmiş basınç birimidir.",
+    "options": [
+      "Pascal",
+      "Merkür",
+      "Ay",
+      "Bir ana dizi yıldız"
+    ]
+  },
+  "science-x-32": {
+    "question": "Kimyasal kimliğini koruyan bir elementin en küçük birimi nedir?",
+    "explanation": "Bir atom, bir elementin kimyasal özelliklerini koruyan en küçük birimdir.",
+    "options": [
+      "Bir atom",
+      "Samanyolu",
+      "Watt",
+      "Buharlaşma"
+    ]
+  },
+  "science-x-33": {
+    "question": "Bir protonun hangi yükü vardır?",
+    "explanation": "Protonlar pozitif bir temel yük taşırlar.",
+    "options": [
+      "Pozitif",
+      "Magma",
+      "Lava",
+      "Manto"
+    ]
+  },
+  "science-x-34": {
+    "question": "Bir nötronun hangi yükü vardır?",
+    "explanation": "Nötronların net elektrik yükü yoktur.",
+    "options": [
+      "Tarafsız",
+      "Gözbebeği",
+      "D vitamini",
+      "Cilt"
+    ]
+  },
+  "science-x-35": {
+    "question": "Fosillerin incelenmesinin adı nedir?",
+    "explanation": "Paleontoloji, fosiller aracılığıyla antik yaşamı inceler.",
+    "options": [
+      "Paleontoloji",
+      "Böbrekler",
+      "Trakea",
+      "Pascal"
+    ]
+  },
+  "science-x-36": {
+    "question": "Mineral çizik sertliğini ölçmek için yaygın olarak hangi ölçek kullanılır?",
+    "explanation": "Mohs ölçeği, bir mineralin çizilmeye karşı direncini karşılaştırır.",
+    "options": [
+      "Mohs ölçeği",
+      "Bir atom",
+      "Pozitif",
+      "Tarafsız"
+    ]
+  },
+  "science-x-37": {
+    "question": "Katıdan doğrudan gaz olarak adlandırılan gaza değişim nedir?",
+    "explanation": "Süblimasyon, sıvı fazı olmayan katıdan gaza bir faz değişimidir.",
+    "options": [
+      "Sublime",
+      "Paleontoloji",
+      "Mohs ölçeği",
+      "Stratosfer"
+    ]
+  },
+  "science-x-38": {
+    "question": "Ozon tabakasının en çok hangi atmosferik tabakada bulunur?",
+    "explanation": "Atmosferik ozonun çoğu stratosferde yoğunlaşmıştır.",
+    "options": [
+      "Stratosfer",
+      "O",
+      "Au",
+      "Na"
+    ]
+  },
+  "science-x-39": {
+    "question": "Ne tür bir enerji gerilmiş bir baharda depolanır?",
+    "explanation": "Deforme olmuş bir yay elastik potansiyel enerjiyi depolar.",
+    "options": [
+      "Elastik potansiyel enerji",
+      "Fe",
+      "C",
+      "Glukoz"
+    ]
+  },
+  "science-x-40": {
+    "question": "Hertz'de hangi dalga özelliği ölçülür?",
+    "explanation": "Hertz saniyede döngüleri veya frekansı ölçer.",
+    "options": [
+      "Sıklık",
+      "Oksijen",
+      "Nucleus",
+      "DNA"
+    ]
+  },
+  "geography-x-capital-1": {
+    "question": "Belçika'nın başkenti neresidir?",
+    "explanation": "Brüksel, Belçika'nın başkentidir.",
+    "options": [
+      "Brüksel",
+      "Kahire",
+      "Ottawa",
+      "Canberra"
+    ]
+  },
+  "geography-x-capital-2": {
+    "question": "Mısır'ın başkenti neresidir?",
+    "explanation": "Kahire, Mısır'ın başkentidir.",
+    "options": [
+      "Kahire",
+      "Ottawa",
+      "Canberra",
+      "Braslia"
+    ]
+  },
+  "geography-x-capital-3": {
+    "question": "Kanada'nın başkenti neresidir?",
+    "explanation": "Ottawa, Kanada'nın başkentidir.",
+    "options": [
+      "Ottawa",
+      "Canberra",
+      "Braslia",
+      "Buenos Aires"
+    ]
+  },
+  "geography-x-capital-4": {
+    "question": "Avustralya'nın başkenti neresidir?",
+    "explanation": "Canberra, Avustralya'nın başkentidir.",
+    "options": [
+      "Canberra",
+      "Braslia",
+      "Buenos Aires",
+      "Santiago"
+    ]
+  },
+  "geography-x-capital-5": {
+    "question": "Brezilya'nın başkenti neresidir?",
+    "explanation": "Braslia, Brezilya'nın başkentidir.",
+    "options": [
+      "Braslia",
+      "Buenos Aires",
+      "Santiago",
+      "Lima"
+    ]
+  },
+  "geography-x-capital-6": {
+    "question": "Arjantin'in başkenti neresidir?",
+    "explanation": "Buenos Aires, Arjantin'in başkentidir.",
+    "options": [
+      "Buenos Aires",
+      "Santiago",
+      "Lima",
+      "Mexico City"
+    ]
+  },
+  "geography-x-capital-7": {
+    "question": "Şili'nin başkenti neresidir?",
+    "explanation": "Santiago, Şili'nin başkentidir.",
+    "options": [
+      "Santiago",
+      "Lima",
+      "Mexico City",
+      "Havana"
+    ]
+  },
+  "geography-x-capital-8": {
+    "question": "Peru'nun başkenti neresidir?",
+    "explanation": "Lima, Peru'nun başkentidir.",
+    "options": [
+      "Lima",
+      "Mexico City",
+      "Havana",
+      "Paris"
+    ]
+  },
+  "geography-x-capital-9": {
+    "question": "Meksika'nın başkenti neresidir?",
+    "explanation": "Mexico City, Meksika'nın başkentidir.",
+    "options": [
+      "Mexico City",
+      "Havana",
+      "Paris",
+      "Berlin"
+    ]
+  },
+  "geography-x-capital-10": {
+    "question": "Küba'nın başkenti neresidir?",
+    "explanation": "Havana, Küba'nın başkentidir.",
+    "options": [
+      "Havana",
+      "Paris",
+      "Berlin",
+      "Kopenhag"
+    ]
+  },
+  "geography-x-capital-11": {
+    "question": "Fransa'nın başkenti neresidir?",
+    "explanation": "Paris, Fransa'nın başkentidir.",
+    "options": [
+      "Paris",
+      "Berlin",
+      "Kopenhag",
+      "Madrid"
+    ]
+  },
+  "geography-x-capital-12": {
+    "question": "Almanya'nın başkenti neresidir?",
+    "explanation": "Berlin, Almanya'nın başkentidir.",
+    "options": [
+      "Berlin",
+      "Kopenhag",
+      "Madrid",
+      "Lizbon"
+    ]
+  },
+  "geography-x-capital-13": {
+    "question": "Danimarka'nın başkenti neresidir?",
+    "explanation": "Kopenhag, Danimarka'nın başkentidir.",
+    "options": [
+      "Kopenhag",
+      "Madrid",
+      "Lizbon",
+      "Oslo"
+    ]
+  },
+  "geography-x-capital-14": {
+    "question": "İspanya'nın başkenti neresidir?",
+    "explanation": "Madrid, İspanya'nın başkentidir.",
+    "options": [
+      "Madrid",
+      "Lizbon",
+      "Oslo",
+      "Stokholm"
+    ]
+  },
+  "geography-x-capital-15": {
+    "question": "Portekiz'in başkenti neresidir?",
+    "explanation": "Lizbon, Portekiz'in başkentidir.",
+    "options": [
+      "Lizbon",
+      "Oslo",
+      "Stokholm",
+      "Helsinki"
+    ]
+  },
+  "geography-x-capital-16": {
+    "question": "Norveç'in başkenti neresidir?",
+    "explanation": "Oslo, Norveç'in başkentidir.",
+    "options": [
+      "Oslo",
+      "Stokholm",
+      "Helsinki",
+      "Varşova"
+    ]
+  },
+  "geography-x-capital-17": {
+    "question": "İsveç'in başkenti neresidir?",
+    "explanation": "Stockholm, İsveç'in başkentidir.",
+    "options": [
+      "Stokholm",
+      "Helsinki",
+      "Varşova",
+      "Atina"
+    ]
+  },
+  "geography-x-capital-18": {
+    "question": "Finlandiya'nın başkenti neresidir?",
+    "explanation": "Helsinki, Finlandiya'nın başkentidir.",
+    "options": [
+      "Helsinki",
+      "Varşova",
+      "Atina",
+      "Nairobi"
+    ]
+  },
+  "geography-x-capital-19": {
+    "question": "Polonya'nın başkenti neresidir?",
+    "explanation": "Varşova Polonya'nın başkentidir.",
+    "options": [
+      "Varşova",
+      "Atina",
+      "Nairobi",
+      "Addis Ababa"
+    ]
+  },
+  "geography-x-capital-20": {
+    "question": "Yunanistan'ın başkenti neresidir?",
+    "explanation": "Atina, Yunanistan'ın başkentidir.",
+    "options": [
+      "Atina",
+      "Nairobi",
+      "Addis Ababa",
+      "Accra"
+    ]
+  },
+  "geography-x-capital-21": {
+    "question": "Kenya'nın başkenti neresidir?",
+    "explanation": "Nairobi, Kenya'nın başkentidir.",
+    "options": [
+      "Nairobi",
+      "Addis Ababa",
+      "Accra",
+      "Rabat"
+    ]
+  },
+  "geography-x-capital-22": {
+    "question": "Etiyopya'nın başkenti neresidir?",
+    "explanation": "Addis Ababa, Etiyopya'nın başkentidir.",
+    "options": [
+      "Addis Ababa",
+      "Accra",
+      "Rabat",
+      "Abuja"
+    ]
+  },
+  "geography-x-capital-23": {
+    "question": "Gana'nın başkenti neresidir?",
+    "explanation": "Accra, Gana'nın başkentidir.",
+    "options": [
+      "Accra",
+      "Rabat",
+      "Abuja",
+      "Bangkok"
+    ]
+  },
+  "geography-x-capital-24": {
+    "question": "Fas'ın başkenti neresidir?",
+    "explanation": "Rabat, Fas'ın başkentidir.",
+    "options": [
+      "Rabat",
+      "Abuja",
+      "Bangkok",
+      "Hanoi"
+    ]
+  },
+  "geography-x-capital-25": {
+    "question": "Nijerya'nın başkenti neresidir?",
+    "explanation": "Abuja, Nijerya'nın başkentidir.",
+    "options": [
+      "Abuja",
+      "Bangkok",
+      "Hanoi",
+      "Jakarta"
+    ]
+  },
+  "geography-x-capital-26": {
+    "question": "Tayland'ın başkenti neresidir?",
+    "explanation": "Bangkok, Tayland'ın başkentidir.",
+    "options": [
+      "Bangkok",
+      "Hanoi",
+      "Jakarta",
+      "Katmandu"
+    ]
+  },
+  "geography-x-capital-27": {
+    "question": "Vietnam'ın başkenti neresidir?",
+    "explanation": "Hanoi, Vietnam'ın başkentidir.",
+    "options": [
+      "Hanoi",
+      "Jakarta",
+      "Katmandu",
+      "Ulaanbaatar"
+    ]
+  },
+  "geography-x-capital-28": {
+    "question": "Endonezya'nın başkenti neresidir?",
+    "explanation": "Jakarta, Endonezya'nın başkentidir.",
+    "options": [
+      "Jakarta",
+      "Katmandu",
+      "Ulaanbaatar",
+      "Wellington"
+    ]
+  },
+  "geography-x-capital-29": {
+    "question": "Nepal'in başkenti neresidir?",
+    "explanation": "Katmandu, Nepal'in başkentidir.",
+    "options": [
+      "Katmandu",
+      "Ulaanbaatar",
+      "Wellington",
+      "Dublin"
+    ]
+  },
+  "geography-x-capital-30": {
+    "question": "Moğolistan'ın başkenti neresidir?",
+    "explanation": "Ulaanbaatar, Moğolistan'ın başkentidir.",
+    "options": [
+      "Ulaanbaatar",
+      "Wellington",
+      "Dublin",
+      "Viyana"
+    ]
+  },
+  "geography-x-capital-31": {
+    "question": "Yeni Zelanda'nın başkenti neresidir?",
+    "explanation": "Wellington, Yeni Zelanda'nın başkentidir.",
+    "options": [
+      "Wellington",
+      "Dublin",
+      "Viyana",
+      "Prag"
+    ]
+  },
+  "geography-x-capital-32": {
+    "question": "İrlanda'nın başkenti neresidir?",
+    "explanation": "Dublin, İrlanda'nın başkentidir.",
+    "options": [
+      "Dublin",
+      "Viyana",
+      "Prag",
+      "Budapeşte"
+    ]
+  },
+  "geography-x-capital-33": {
+    "question": "Avusturya'nın başkenti neresidir?",
+    "explanation": "Viyana, Avusturya'nın başkentidir.",
+    "options": [
+      "Viyana",
+      "Prag",
+      "Budapeşte",
+      "Bükreş"
+    ]
+  },
+  "geography-x-capital-34": {
+    "question": "Çekya'nın başkenti neresidir?",
+    "explanation": "Prag, Çekya'nın başkentidir.",
+    "options": [
+      "Prag",
+      "Budapeşte",
+      "Bükreş",
+      "Reykjavk"
+    ]
+  },
+  "geography-x-capital-35": {
+    "question": "Macaristan'ın başkenti neresidir?",
+    "explanation": "Budapeşte, Macaristan'ın başkentidir.",
+    "options": [
+      "Budapeşte",
+      "Bükreş",
+      "Reykjavk",
+      "Ankara"
+    ]
+  },
+  "geography-x-capital-36": {
+    "question": "Romanya'nın başkenti neresidir?",
+    "explanation": "Bükreş, Romanya'nın başkentidir.",
+    "options": [
+      "Bükreş",
+      "Reykjavk",
+      "Ankara",
+      "İslamabad"
+    ]
+  },
+  "geography-x-capital-37": {
+    "question": "İzlanda'nın başkenti neresidir?",
+    "explanation": "Reykjavk, İzlanda'nın başkentidir.",
+    "options": [
+      "Reykjavk",
+      "Ankara",
+      "İslamabad",
+      "Dhaka"
+    ]
+  },
+  "geography-x-capital-38": {
+    "question": "Türkiye'nin başkenti neresidir?",
+    "explanation": "Ankara, Türkiye'nin başkentidir.",
+    "options": [
+      "Ankara",
+      "Brüksel",
+      "Kahire",
+      "Ottawa"
+    ]
+  },
+  "geography-x-capital-39": {
+    "question": "Pakistan'ın başkenti neresidir?",
+    "explanation": "İslamabad Pakistan'ın başkentidir.",
+    "options": [
+      "İslamabad",
+      "Kahire",
+      "Ottawa",
+      "Canberra"
+    ]
+  },
+  "geography-x-capital-40": {
+    "question": "Bangladeş'in başkenti neresidir?",
+    "explanation": "Dakka Bangladeş'in başkentidir.",
+    "options": [
+      "Dhaka",
+      "Ottawa",
+      "Canberra",
+      "Braslia"
+    ]
+  },
+  "geography-x-feature-1": {
+    "question": "Sahra Çölü hangi kıtada öncelikli olarak bulunur?",
+    "explanation": "Kuzey Afrika'da çok sıcak bir çöldür.",
+    "options": [
+      "Afrika",
+      "Asya",
+      "Avrupa",
+      "Kuzey Amerika"
+    ]
+  },
+  "geography-x-feature-2": {
+    "question": "Andlar öncelikle hangi kıtada bulunur?",
+    "explanation": "Andlar, Güney Amerika'nın batı kenarı boyunca uzanır.",
+    "options": [
+      "Güney Amerika",
+      "Asya",
+      "Avrupa",
+      "Kuzey Amerika"
+    ]
+  },
+  "geography-x-feature-3": {
+    "question": "Alpler hangi kıtada öncelikli olarak bulunur?",
+    "explanation": "Alpler, Orta Avrupa'da önemli bir dağ silsilesidir.",
+    "options": [
+      "Avrupa",
+      "Kuzey Amerika",
+      "Güney Amerika",
+      "Avustralya"
+    ]
+  },
+  "geography-x-feature-4": {
+    "question": "Büyük Set Resifi hangi kıtada öncelikli olarak bulunur?",
+    "explanation": "Resif, Avustralya'nın kuzeydoğu kıyısında yer almaktadır.",
+    "options": [
+      "Avustralya",
+      "Afrika",
+      "Asya",
+      "Avrupa"
+    ]
+  },
+  "geography-x-feature-5": {
+    "question": "Amazon Nehri öncelikle hangi kıtada yer almaktadır?",
+    "explanation": "Amazonlar Kuzey Güney Amerika'dan akmaktadır.",
+    "options": [
+      "Güney Amerika",
+      "Asya",
+      "Avrupa",
+      "Kuzey Amerika"
+    ]
+  },
+  "geography-x-feature-6": {
+    "question": "Tuna Nehri hangi kıtada öncelikli olarak bulunur?",
+    "explanation": "Tuna, orta ve güneydoğu Avrupa'dan akar.",
+    "options": [
+      "Avrupa",
+      "Kuzey Amerika",
+      "Güney Amerika",
+      "Avustralya"
+    ]
+  },
+  "geography-x-feature-7": {
+    "question": "Nil Nehri hangi kıtada öncelikli olarak bulunur?",
+    "explanation": "Nil, kuzeyden kuzeydoğu Afrika'ya akmaktadır.",
+    "options": [
+      "Afrika",
+      "Asya",
+      "Avrupa",
+      "Kuzey Amerika"
+    ]
+  },
+  "geography-x-feature-8": {
+    "question": "Gobi Çölü hangi kıtada öncelikli olarak bulunur?",
+    "explanation": "Gobi, Moğolistan ve Kuzey Çin'in bazı bölgelerini kapsar.",
+    "options": [
+      "Asya",
+      "Avrupa",
+      "Kuzey Amerika",
+      "Güney Amerika"
+    ]
+  },
+  "geography-x-feature-9": {
+    "question": "Baykal Gölü hangi kıtada öncelikli olarak bulunur?",
+    "explanation": "Baykal Gölü Sibirya, Rusya'dadır.",
+    "options": [
+      "Asya",
+      "Kuzey Amerika",
+      "Güney Amerika",
+      "Avustralya"
+    ]
+  },
+  "geography-x-feature-10": {
+    "question": "Rocky Dağları hangi kıtada öncelikli olarak bulunur?",
+    "explanation": "Kayalıklar batı Kuzey Amerika boyunca uzanır.",
+    "options": [
+      "Kuzey Amerika",
+      "Afrika",
+      "Asya",
+      "Avrupa"
+    ]
+  },
+  "language-x-vocab-1": {
+    "options": [
+      "Existing in large quantities",
+      "Very old",
+      "Short in duration or length",
+      "Careful to avoid danger"
+    ],
+    "question": "\"Bereketli\" ne demek?",
+    "explanation": "Bolluk, bol miktarda veya büyük miktarlarda mevcut anlamına gelir."
+  },
+  "language-x-vocab-2": {
+    "options": [
+      "Very old",
+      "Easily broken or damaged",
+      "Willing to give or share",
+      "To pause before acting"
+    ],
+    "question": "\"Antik\" ne anlama gelir?",
+    "explanation": "Kadim, uzak geçmişe ait bir şeyi anlatır."
+  },
+  "language-x-vocab-3": {
+    "options": [
+      "Short in duration or length",
+      "Having a sharp edge or strong interest",
+      "Faithful to a person or cause",
+      "To change something partly"
+    ],
+    "question": "Brief anlamı nedir?",
+    "explanation": "Kısa, kısa süreli veya az kelime kullanmak anlamına gelir."
+  },
+  "language-x-vocab-4": {
+    "options": [
+      "Careful to avoid danger",
+      "Exact and accurate",
+      "Able to be trusted",
+      "Limited in amount"
+    ],
+    "question": "\"Dikkatli\" ne demek?",
+    "explanation": "Dikkatli olmak, risk veya hataları önlemek için dikkatli olmak anlamına gelir."
+  },
+  "language-x-vocab-5": {
+    "options": [
+      "To make or become smaller",
+      "Empty or unoccupied",
+      "Very tired",
+      "To produce or give way"
+    ],
+    "question": "\"Diminish\" ne anlama geliyor?",
+    "explanation": "Diminizm, azaltmak veya azaltmak anlamına gelir."
+  },
+  "language-x-vocab-6": {
+    "options": [
+      "Very interested and excited",
+      "To join things together",
+      "To discover or notice",
+      "Completely necessary"
+    ],
+    "question": "\"Yetişkin\" ne demek?",
+    "explanation": "Eager, güçlü ilgi veya keskin beklentiyi tanımlar."
+  },
+  "language-x-vocab-7": {
+    "options": [
+      "Easily broken or damaged",
+      "To point out or show",
+      "To keep in good condition",
+      "To happen"
+    ],
+    "question": "\"Kırılgan\" ne demek?",
+    "explanation": "Kırılganlık hassas ve kırılması muhtemel anlamına gelir."
+  },
+  "language-x-vocab-8": {
+    "options": [
+      "Willing to give or share",
+      "Almost the same",
+      "To move from one place to another",
+      "Able to be seen"
+    ],
+    "question": "\"Cömert\" ne demek?",
+    "explanation": "Cömert, özgürce veya bol bol vermeyi tanımlar."
+  },
+  "language-x-vocab-9": {
+    "options": [
+      "To pause before acting",
+      "Careful to avoid danger",
+      "To make or become smaller",
+      "Very interested and excited"
+    ],
+    "question": "\"Sabırsızlık\" ne anlama gelir?",
+    "explanation": "Tereddüt, belirsizlik nedeniyle kısaca durmak anlamına gelir."
+  },
+  "language-x-vocab-10": {
+    "options": [
+      "To copy the actions or style of",
+      "To pause before acting",
+      "An act of traveling from one place to another",
+      "Having a sharp edge or strong interest"
+    ],
+    "question": "\"Eşitlik\" ne anlama gelir?",
+    "explanation": "Taklit, bir başkasının davranışını veya davranışını çoğaltmak anlamına gelir."
+  },
+  "language-x-vocab-11": {
+    "options": [
+      "An act of traveling from one place to another",
+      "Many",
+      "Something that blocks progress",
+      "Exact and accurate"
+    ],
+    "question": "\"Yolculuk\" ne demek?",
+    "explanation": "Bir yolculuk, bir başlangıç noktasından bir varış noktasına yolculuktur."
+  },
+  "language-x-vocab-12": {
+    "options": [
+      "Having a sharp edge or strong interest",
+      "Lasting for a limited time",
+      "Unlike anything else",
+      "Empty or unoccupied"
+    ],
+    "question": "\"Keen\" ne anlama geliyor?",
+    "explanation": "Keen, içeriğe bağlı olarak keskin veya çok ilgili anlamına gelebilir."
+  },
+  "language-x-vocab-13": {
+    "options": [
+      "Faithful to a person or cause",
+      "Correct in all details",
+      "An advantage or helpful result",
+      "To join things together"
+    ],
+    "question": "\"Sadık\" ne demek?",
+    "explanation": "Sadık, sürekli destek göstermek anlamına gelir."
+  },
+  "language-x-vocab-14": {
+    "options": [
+      "To change something partly",
+      "Happening often",
+      "Happening in small steps",
+      "To point out or show"
+    ],
+    "question": "\"Değiştirmek\" ne anlama gelir?",
+    "explanation": "Değiştirmek, sınırlı bir değişiklik yapmak anlamına gelir."
+  },
+  "language-x-vocab-15": {
+    "options": [
+      "Many",
+      "To allow",
+      "To need or demand",
+      "Almost the same"
+    ],
+    "question": "\"Çok sayıda\" ne anlama geliyor?",
+    "explanation": "Çok sayıda, çok sayıda mevcut anlamına gelir."
+  },
+  "language-x-vocab-16": {
+    "options": [
+      "Something that blocks progress",
+      "Very old",
+      "Short in duration or length",
+      "Careful to avoid danger"
+    ],
+    "question": "\"Obstacle\" ne anlama geliyor?",
+    "explanation": "Engel bir engel veya zorluktur."
+  },
+  "language-x-vocab-17": {
+    "options": [
+      "Exact and accurate",
+      "Easily broken or damaged",
+      "Willing to give or share",
+      "To pause before acting"
+    ],
+    "question": "\"Precise\" ne anlama geliyor?",
+    "explanation": "Kesinlik, dikkatli olmak demektir."
+  },
+  "language-x-vocab-18": {
+    "options": [
+      "Able to be trusted",
+      "Having a sharp edge or strong interest",
+      "Faithful to a person or cause",
+      "To change something partly"
+    ],
+    "question": "\"Güvenilir\" ne demek?",
+    "explanation": "Güvenilir bir şey tarif eder."
+  },
+  "language-x-vocab-19": {
+    "options": [
+      "Limited in amount",
+      "Exact and accurate",
+      "Able to be trusted",
+      "Lasting for a limited time"
+    ],
+    "question": "\"Scarce\" ne anlama geliyor?",
+    "explanation": "Scarce, bol miktarda veya bulunması zor anlamına gelir."
+  },
+  "language-x-vocab-20": {
+    "options": [
+      "Lasting for a limited time",
+      "Very tired",
+      "To produce or give way",
+      "Correct in all details"
+    ],
+    "question": "\"Geçici\" ne anlama geliyor?",
+    "explanation": "Geçici, kalıcı olmayan anlamına gelir."
+  },
+  "language-x-vocab-21": {
+    "options": [
+      "Unlike anything else",
+      "To discover or notice",
+      "Completely necessary",
+      "Happening often"
+    ],
+    "question": "\"Eşsiz\" ne demek?",
+    "explanation": "Eşsiz, türünün tek örneği olmak demektir."
+  },
+  "language-x-vocab-22": {
+    "options": [
+      "Empty or unoccupied",
+      "To keep in good condition",
+      "To happen",
+      "To allow"
+    ],
+    "question": "\"Vacant\" ne anlama geliyor?",
+    "explanation": "Vacant, içinde hiç kimsenin ya da hiçbir şeyin olmadığı bir alanı tarif eder."
+  },
+  "language-x-vocab-23": {
+    "options": [
+      "Very tired",
+      "To move from one place to another",
+      "Able to be seen",
+      "To resist or endure"
+    ],
+    "question": "\"Yorgun\" ne demek?",
+    "explanation": "Yorgunluk, hissetmek veya yorgunluk göstermek anlamına gelir."
+  },
+  "language-x-vocab-24": {
+    "options": [
+      "To produce or give way",
+      "To make or become smaller",
+      "Very interested and excited",
+      "Easily broken or damaged"
+    ],
+    "question": "\"Yield\" ne anlama geliyor?",
+    "explanation": "Verim, bir sonuç üretmek veya yol vermek anlamına gelebilir."
+  },
+  "language-x-vocab-25": {
+    "options": [
+      "Correct in all details",
+      "To copy the actions or style of",
+      "An act of traveling from one place to another",
+      "Having a sharp edge or strong interest"
+    ],
+    "question": "\"Doğru\" ne anlama geliyor?",
+    "explanation": "Doğru, hatalardan arınmış demektir."
+  },
+  "language-x-vocab-26": {
+    "options": [
+      "An advantage or helpful result",
+      "Many",
+      "Something that blocks progress",
+      "Exact and accurate"
+    ],
+    "question": "\"İyilik\" ne anlama geliyor?",
+    "explanation": "Fayda, bir durumu iyileştiren bir şeydir."
+  },
+  "language-x-vocab-27": {
+    "options": [
+      "To join things together",
+      "Lasting for a limited time",
+      "Unlike anything else",
+      "Empty or unoccupied"
+    ],
+    "question": "\"Kombine\" ne anlama geliyor?",
+    "explanation": "Kombine, ayrı parçaları bir araya getirmek anlamına gelir."
+  },
+  "language-x-vocab-28": {
+    "options": [
+      "To discover or notice",
+      "Correct in all details",
+      "An advantage or helpful result",
+      "To join things together"
+    ],
+    "question": "\"Tanık\" ne anlama geliyor?",
+    "explanation": "Tespit etmek, hemen belirgin olmayan bir şeyi bulmak veya tanımlamak anlamına gelir."
+  },
+  "language-x-vocab-29": {
+    "options": [
+      "Completely necessary",
+      "Happening in small steps",
+      "To point out or show",
+      "To keep in good condition"
+    ],
+    "question": "\"Gerekli\" ne anlama geliyor?",
+    "explanation": "Temel ya da gerekli anlamına gelir."
+  },
+  "language-x-vocab-30": {
+    "options": [
+      "Happening often",
+      "To need or demand",
+      "Almost the same",
+      "To move from one place to another"
+    ],
+    "question": "\"Sık\" ne anlama geliyor?",
+    "explanation": "Sık sık kısa aralıklarla veya birçok kez meydana gelen anlamına gelir."
+  },
+  "language-x-vocab-31": {
+    "options": [
+      "Happening in small steps",
+      "Short in duration or length",
+      "Careful to avoid danger",
+      "To make or become smaller"
+    ],
+    "question": "\"Gradual\" ne anlama geliyor?",
+    "explanation": "Gradual, zaman içinde yavaş yavaş meydana gelen değişimi tanımlar."
+  },
+  "language-x-vocab-32": {
+    "options": [
+      "To point out or show",
+      "Willing to give or share",
+      "To pause before acting",
+      "To copy the actions or style of"
+    ],
+    "question": "\"İndicate\" ne anlama geliyor?",
+    "explanation": "Bir şeyi bilinmek veya ona işaret etmek anlamına gelir."
+  },
+  "language-x-vocab-33": {
+    "options": [
+      "To keep in good condition",
+      "Faithful to a person or cause",
+      "To change something partly",
+      "Many"
+    ],
+    "question": "\"Bakım\" ne anlama geliyor?",
+    "explanation": "Bir şeyi korumak veya devam ettirmek anlamına gelir."
+  },
+  "language-x-vocab-34": {
+    "options": [
+      "To happen",
+      "Able to be trusted",
+      "Limited in amount",
+      "Lasting for a limited time"
+    ],
+    "question": "\"Occur\" ne anlama geliyor?",
+    "explanation": "Occur, gerçekleşmek anlamına gelir."
+  },
+  "language-x-vocab-35": {
+    "options": [
+      "To allow",
+      "Very tired",
+      "To produce or give way",
+      "Correct in all details"
+    ],
+    "question": "\"Permit\" ne anlama geliyor?",
+    "explanation": "İzin, izin vermek anlamına gelir."
+  },
+  "language-x-vocab-36": {
+    "options": [
+      "To need or demand",
+      "To discover or notice",
+      "Completely necessary",
+      "Happening often"
+    ],
+    "question": "\"Gerekçe\" ne anlama geliyor?",
+    "explanation": "İhtiyaç, gerekli yapmak veya ısrar etmek anlamına gelir."
+  },
+  "language-x-vocab-37": {
+    "options": [
+      "Almost the same",
+      "To keep in good condition",
+      "To happen",
+      "To allow"
+    ],
+    "question": "\"benzer\" ne anlama geliyor?",
+    "explanation": "Bazı açılardan benzer anlamlar ifade eder."
+  },
+  "language-x-vocab-38": {
+    "options": [
+      "To move from one place to another",
+      "Existing in large quantities",
+      "Very old",
+      "Short in duration or length"
+    ],
+    "question": "\"Transfer\" ne anlama geliyor?",
+    "explanation": "Transfer, bir şeyi taşımak veya iletmek anlamına gelir."
+  },
+  "language-x-vocab-39": {
+    "options": [
+      "Able to be seen",
+      "Very interested and excited",
+      "Easily broken or damaged",
+      "Willing to give or share"
+    ],
+    "question": "\"Görünür\" ne anlama gelir?",
+    "explanation": "Görülebilir, gözle görülebilen anlamına gelir."
+  },
+  "language-x-vocab-40": {
+    "options": [
+      "To resist or endure",
+      "An act of traveling from one place to another",
+      "Having a sharp edge or strong interest",
+      "Faithful to a person or cause"
+    ],
+    "question": "\"Saldırı\" ne anlama geliyor?",
+    "explanation": "Dayanmak, kuvvet veya baskıdan etkilenmemek anlamına gelir."
+  },
+  "it-x-concept-1": {
+    "question": "CPU'nun temel amacı veya anlamı nedir?",
+    "explanation": "Bir CPU talimatları işler ve birçok bilgisayar işlemini kontrol eder.",
+    "options": [
+      "Talimatları uygular ve bilgisayar işlemlerini koordine eder",
+      "Geçici çalışma belleği",
+      "Katı hal belleği kullanan uçucu olmayan depolama",
+      "Donanımı yönetir ve uygulamalara hizmet sağlar"
+    ]
+  },
+  "it-x-concept-2": {
+    "question": "RAM'in temel amacı veya anlamı nedir?",
+    "explanation": "RAM, programların aktif olarak kullandığı verileri tutar; uçucudur.",
+    "options": [
+      "Geçici çalışma belleği",
+      "Bir ağ arabirimini tanımlamak için kullanılan sayısal bir adres",
+      "Ağlar arasında paketleri iletir",
+      "Web içeriğinin yapılandırılması için bir işaretleme dili"
+    ]
+  },
+  "it-x-concept-3": {
+    "question": "SSD'nin temel amacı veya anlamı nedir?",
+    "explanation": "Bir SSD, mekanik parçaları hareket ettirmeden verileri saklar.",
+    "options": [
+      "Katı hal belleği kullanan uçucu olmayan depolama",
+      "Dağıtılmış sürüm kontrol sistemi",
+      "Sürüm-kontrol geçmişinde kaydedilmiş bir anlık görüntü",
+      "Hareketli bir geliştirme hattı"
+    ]
+  },
+  "it-x-concept-4": {
+    "question": "İşletim sisteminin temel amacı veya anlamı nedir?",
+    "explanation": "Bir işletim sistemi kaynakları koordine eder ve yazılıma ortak hizmetler sunar.",
+    "options": [
+      "Donanımı yönetir ve uygulamalara hizmet sağlar",
+      "Veri aramasını hızlandırabilen bir yapı",
+      "Yeniden kullanılabilir veriler için geçici bir mağaza",
+      "Doğru anahtar olmadan okunamayacak şekilde veri dönüştürme"
+    ]
+  },
+  "it-x-concept-5": {
+    "question": "Kernel'in birincil amacı veya anlamı nedir?",
+    "explanation": "Çekirdek, bellek ve süreçler gibi düşük seviyeli kaynakları yönetir.",
+    "options": [
+      "Bir işletim sisteminin temel bileşeni",
+      "Yazılım bileşenlerinin iletişim kurması için tanımlanmış bir arayüz",
+      "Yapılandırılmış veriler için bir metin biçimi",
+      "İstenen kaynak bulunamadı"
+    ]
+  },
+  "it-x-concept-6": {
+    "question": "HTTP'nin temel amacı veya anlamı nedir?",
+    "explanation": "HTTP, web kaynakları için istek ve yanıt iletişimini tanımlar.",
+    "options": [
+      "Web kaynaklarının aktarılması için bir protokol",
+      "Kodu çalıştıran veya değerlendiren bir program",
+      "Kaynak kodu lisans altında mevcut olan yazılım",
+      "Bir web sitesinin bir tarayıcıda sakladığı küçük bir veri parçası"
+    ]
+  },
+  "it-x-concept-7": {
+    "question": "HTTPS'nin temel amacı veya anlamı nedir?",
+    "explanation": "HTTPS, geçiş sırasında HTTP iletişimini korumak için TLS kullanır.",
+    "options": [
+      "TLS tarafından korunan HTTP",
+      "Web kaynaklarının aktarılması için bir protokol",
+      "Alan adlarını kayıtlara çözen bir sistem",
+      "Bir ağ arabirimini tanımlamak için kullanılan sayısal bir adres"
+    ]
+  },
+  "it-x-concept-8": {
+    "question": "DNS'in temel amacı veya anlamı nedir?",
+    "explanation": "DNS, IP adresleri de dahil olmak üzere kayıtlara alan adları gibi isimleri haritalar.",
+    "options": [
+      "Alan adlarını kayıtlara çözen bir sistem",
+      "Statik tip sistemine sahip JavaScript",
+      "İlişkisel veritabanları ile çalışmak için bir dil",
+      "Dağıtılmış sürüm kontrol sistemi"
+    ]
+  },
+  "it-x-concept-9": {
+    "question": "IP adresinin birincil amacı veya anlamı nedir?",
+    "explanation": "IP adresleri, paketlerin IP ağlarında yönlendirilmesi için arayüzleri tanımlar.",
+    "options": [
+      "Bir ağ arabirimini tanımlamak için kullanılan sayısal bir adres",
+      "Bir satırı benzersiz bir şekilde tanımlayan bir sütun veya sütun kümesi",
+      "Başka bir tablodaki bir anahtarı ifade eden bir alan",
+      "Veri aramasını hızlandırabilen bir yapı"
+    ]
+  },
+  "it-x-concept-10": {
+    "question": "Router'ın temel amacı veya anlamı nedir?",
+    "explanation": "Yönlendiriciler paketleri farklı ağlar arasında taşır.",
+    "options": [
+      "Ağlar arasında paketleri iletir",
+      "Hassas bilgiler elde etmek için aldatıcı bir girişim",
+      "Ağ trafiğini kurallara göre filtreleyen bir sistem",
+      "Yazılım bileşenlerinin iletişim kurması için tanımlanmış bir arayüz"
+    ]
+  },
+  "it-x-concept-11": {
+    "question": "HTML'nin temel amacı veya anlamı nedir?",
+    "explanation": "HTML, web belgelerinin yapısını ve anlamını tanımlar.",
+    "options": [
+      "Web içeriğinin yapılandırılması için bir işaretleme dili",
+      "Bir değere isimlendirilmiş bir referans",
+      "Kaynak kodu çeviren bir program",
+      "Kodu çalıştıran veya değerlendiren bir program"
+    ]
+  },
+  "it-x-concept-12": {
+    "question": "CSS'nin temel amacı veya anlamı nedir?",
+    "explanation": "CSS, düzen, renkler ve tipografi gibi sunumları kontrol eder.",
+    "options": [
+      "Web belgelerinin sunumu için bir stil dili",
+      "Donanımı yönetir ve uygulamalara hizmet sağlar",
+      "Bir işletim sisteminin temel bileşeni",
+      "Web kaynaklarının aktarılması için bir protokol"
+    ]
+  },
+  "it-x-concept-13": {
+    "question": "JavaScript'in temel amacı veya anlamı nedir?",
+    "explanation": "JavaScript, web sayfalarına davranış eklemek için yaygın olarak kullanılır.",
+    "options": [
+      "Web tarayıcıları tarafından desteklenen bir programlama dili",
+      "Web içeriğinin yapılandırılması için bir işaretleme dili",
+      "Web belgelerinin sunumu için bir stil dili",
+      "Statik tip sistemine sahip JavaScript"
+    ]
+  },
+  "it-x-concept-14": {
+    "question": "TypeScript'in birincil amacı veya anlamı nedir?",
+    "explanation": "TypeScript, tip sözdizimi ekler ve JavaScript'e derler.",
+    "options": [
+      "Statik tip sistemine sahip JavaScript",
+      "Farklı geliştirme hatlarındaki değişikliklerin birleştirilmesi",
+      "Proje dosyalarını ve geçmişini içeren bir veri deposu",
+      "Bir satırı benzersiz bir şekilde tanımlayan bir sütun veya sütun kümesi"
+    ]
+  },
+  "it-x-concept-15": {
+    "question": "SQL'in temel amacı veya anlamı nedir?",
+    "explanation": "SQL, ilişkisel veritabanı verilerini sorgulamak ve yönetmek için kullanılır.",
+    "options": [
+      "İlişkisel veritabanları ile çalışmak için bir dil",
+      "Girdi verilerini sabit uzunlukta bir sindirmeye eşleyen bir işlev",
+      "Kimliği doğrulamak için iki farklı faktör türünü kullanmak",
+      "Hassas bilgiler elde etmek için aldatıcı bir girişim"
+    ]
+  },
+  "it-x-concept-16": {
+    "question": "Git'in birincil amacı veya anlamı nedir?",
+    "explanation": "Git, dağıtılmış bir depo modeli kullanarak dosyalardaki değişiklikleri izler.",
+    "options": [
+      "Dağıtılmış sürüm kontrol sistemi",
+      "İstek başarılı oldu",
+      "Talimatları tekrar eden bir kontrol yapısı",
+      "Bir değere isimlendirilmiş bir referans"
+    ]
+  },
+  "it-x-concept-17": {
+    "question": "Bağlılığın birincil amacı veya anlamı nedir?",
+    "explanation": "Bir Git, proje durumunu ve ilgili meta verileri kaydeder.",
+    "options": [
+      "Sürüm-kontrol geçmişinde kaydedilmiş bir anlık görüntü",
+      "Geçici çalışma belleği",
+      "Katı hal belleği kullanan uçucu olmayan depolama",
+      "Donanımı yönetir ve uygulamalara hizmet sağlar"
+    ]
+  },
+  "it-x-concept-18": {
+    "question": "Branch'ın temel amacı veya anlamı nedir?",
+    "explanation": "Bir şube, değişiklikler entegre edilmeden önce bağımsız olarak çalışma ilerlemesine izin verir.",
+    "options": [
+      "Hareketli bir geliştirme hattı",
+      "Bir ağ arabirimini tanımlamak için kullanılan sayısal bir adres",
+      "Ağlar arasında paketleri iletir",
+      "Web içeriğinin yapılandırılması için bir işaretleme dili"
+    ]
+  },
+  "it-x-concept-19": {
+    "question": "Birleşmenin birincil amacı veya anlamı nedir?",
+    "explanation": "Bir birleştirme, geçmişleri veya dallardan gelen değişiklikleri bütünleştirir.",
+    "options": [
+      "Farklı geliştirme hatlarındaki değişikliklerin birleştirilmesi",
+      "Dağıtılmış sürüm kontrol sistemi",
+      "Sürüm-kontrol geçmişinde kaydedilmiş bir anlık görüntü",
+      "Hareketli bir geliştirme hattı"
+    ]
+  },
+  "it-x-concept-20": {
+    "question": "Deponun temel amacı veya anlamı nedir?",
+    "explanation": "Bir sürüm kontrol deposu proje içeriğini ve geçmişini depolar.",
+    "options": [
+      "Proje dosyalarını ve geçmişini içeren bir veri deposu",
+      "Yeniden kullanılabilir veriler için geçici bir mağaza",
+      "Doğru anahtar olmadan okunamayacak şekilde veri dönüştürme",
+      "Girdi verilerini sabit uzunlukta bir sindirmeye eşleyen bir işlev"
+    ]
+  },
+  "it-x-concept-21": {
+    "question": "Birincil anahtarın birincil amacı veya anlamı nedir?",
+    "explanation": "Birincil bir anahtar, ilişkisel bir tablodaki her satırı benzersiz bir şekilde tanımlar.",
+    "options": [
+      "Bir satırı benzersiz bir şekilde tanımlayan bir sütun veya sütun kümesi",
+      "Yapılandırılmış veriler için bir metin biçimi",
+      "İstenen kaynak bulunamadı",
+      "İstek başarılı oldu"
+    ]
+  },
+  "it-x-concept-22": {
+    "question": "Yabancı anahtarın birincil amacı veya anlamı nedir?",
+    "explanation": "Yabancı bir anahtar, veritabanı tabloları arasındaki ilişkiyi temsil eder.",
+    "options": [
+      "Başka bir tablodaki bir anahtarı ifade eden bir alan",
+      "Kaynak kodu lisans altında mevcut olan yazılım",
+      "Bir web sitesinin bir tarayıcıda sakladığı küçük bir veri parçası",
+      "Veri taşımak için bir iletişim bağlantısının kapasitesi"
+    ]
+  },
+  "it-x-concept-23": {
+    "question": "Index'in temel amacı veya anlamı nedir?",
+    "explanation": "Bir veritabanı indeksi, depolama ve yazma maliyetleriyle okumaları hızlandırabilir.",
+    "options": [
+      "Veri aramasını hızlandırabilen bir yapı",
+      "TLS tarafından korunan HTTP",
+      "Alan adlarını kayıtlara çözen bir sistem",
+      "Bir ağ arabirimini tanımlamak için kullanılan sayısal bir adres"
+    ]
+  },
+  "it-x-concept-24": {
+    "question": "Önbelleğin birincil amacı veya anlamı nedir?",
+    "explanation": "Bir önbellek, tekrarlanan çalışmayı veya gecikmeyi azaltmak için verilerin kopyalarını tutar.",
+    "options": [
+      "Yeniden kullanılabilir veriler için geçici bir mağaza",
+      "Statik tip sistemine sahip JavaScript",
+      "İlişkisel veritabanları ile çalışmak için bir dil",
+      "Dağıtılmış sürüm kontrol sistemi"
+    ]
+  },
+  "it-x-concept-25": {
+    "question": "Şifrelemenin temel amacı veya anlamı nedir?",
+    "explanation": "Şifreleme, düz metinleri kurtarmak için bir anahtar gerektirerek gizliliği korur.",
+    "options": [
+      "Doğru anahtar olmadan okunamayacak şekilde veri dönüştürme",
+      "Bir satırı benzersiz bir şekilde tanımlayan bir sütun veya sütun kümesi",
+      "Başka bir tablodaki bir anahtarı ifade eden bir alan",
+      "Veri aramasını hızlandırabilen bir yapı"
+    ]
+  },
+  "it-x-concept-26": {
+    "question": "Hash fonksiyonunun birincil amacı veya anlamı nedir?",
+    "explanation": "Bir kriptografik hash, keyfi girdiden sabit boyutlu bir çıktı üretir.",
+    "options": [
+      "Girdi verilerini sabit uzunlukta bir sindirmeye eşleyen bir işlev",
+      "Ağ trafiğini kurallara göre filtreleyen bir sistem",
+      "Yazılım bileşenlerinin iletişim kurması için tanımlanmış bir arayüz",
+      "Yapılandırılmış veriler için bir metin biçimi"
+    ]
+  },
+  "it-x-concept-27": {
+    "question": "İki faktörlü kimlik doğrulamanın birincil amacı veya anlamı nedir?",
+    "explanation": "İki faktörlü kimlik doğrulama, parola ve cihaz kodu gibi farklı kanıt türlerini birleştirir.",
+    "options": [
+      "Kimliği doğrulamak için iki farklı faktör türünü kullanmak",
+      "Kaynak kodu çeviren bir program",
+      "Kodu çalıştıran veya değerlendiren bir program",
+      "Kaynak kodu lisans altında mevcut olan yazılım"
+    ]
+  },
+  "it-x-concept-28": {
+    "question": "Phishing'in birincil amacı veya anlamı nedir?",
+    "explanation": "Phishing, insanları kimlik bilgilerini veya diğer bilgileri ortaya çıkarmak için kandırır.",
+    "options": [
+      "Hassas bilgiler elde etmek için aldatıcı bir girişim",
+      "Bir işletim sisteminin temel bileşeni",
+      "Web kaynaklarının aktarılması için bir protokol",
+      "TLS tarafından korunan HTTP"
+    ]
+  },
+  "it-x-concept-29": {
+    "question": "Firewall'ın temel amacı veya anlamı nedir?",
+    "explanation": "Bir güvenlik duvarı, yapılandırılmış politikalara göre trafiği sağlar veya engeller.",
+    "options": [
+      "Ağ trafiğini kurallara göre filtreleyen bir sistem",
+      "Web belgelerinin sunumu için bir stil dili",
+      "Web tarayıcıları tarafından desteklenen bir programlama dili",
+      "Statik tip sistemine sahip JavaScript"
+    ]
+  },
+  "it-x-concept-30": {
+    "question": "API'nin temel amacı veya anlamı nedir?",
+    "explanation": "Bir API, yazılım bileşenlerinin nasıl hizmet talep edebileceğini veya veri alışverişi yapabileceğini belirtir.",
+    "options": [
+      "Yazılım bileşenlerinin iletişim kurması için tanımlanmış bir arayüz",
+      "Farklı geliştirme hatlarındaki değişikliklerin birleştirilmesi",
+      "Proje dosyalarını ve geçmişini içeren bir veri deposu",
+      "Bir satırı benzersiz bir şekilde tanımlayan bir sütun veya sütun kümesi"
+    ]
+  },
+  "it-x-concept-31": {
+    "question": "JSON'un temel amacı veya anlamı nedir?",
+    "explanation": "JSON, nesneler, diziler ve ilkel değerler kullanılarak yapılandırılmış verileri temsil eder.",
+    "options": [
+      "Yapılandırılmış veriler için bir metin biçimi",
+      "Girdi verilerini sabit uzunlukta bir sindirmeye eşleyen bir işlev",
+      "Kimliği doğrulamak için iki farklı faktör türünü kullanmak",
+      "Hassas bilgiler elde etmek için aldatıcı bir girişim"
+    ]
+  },
+  "it-x-concept-32": {
+    "question": "HTTP 404'ün temel amacı veya anlamı nedir?",
+    "explanation": "HTTP durumu 404, hedef kaynağın bulunamadığını gösterir.",
+    "options": [
+      "İstenen kaynak bulunamadı",
+      "Talimatları tekrar eden bir kontrol yapısı",
+      "Bir değere isimlendirilmiş bir referans",
+      "Kaynak kodu çeviren bir program"
+    ]
+  },
+  "it-x-concept-33": {
+    "question": "HTTP 200'ün temel amacı veya anlamı nedir?",
+    "explanation": "HTTP durumu 200 başarılı bir isteği gösterir.",
+    "options": [
+      "İstek başarılı oldu",
+      "Katı hal belleği kullanan uçucu olmayan depolama",
+      "Donanımı yönetir ve uygulamalara hizmet sağlar",
+      "Bir işletim sisteminin temel bileşeni"
+    ]
+  },
+  "it-x-concept-34": {
+    "question": "Loop'un birincil amacı veya anlamı nedir?",
+    "explanation": "Bir döngü, bir koşul veya yineleme kuralı izin verirken bir kod bloğunu tekrarlar.",
+    "options": [
+      "Talimatları tekrar eden bir kontrol yapısı",
+      "Ağlar arasında paketleri iletir",
+      "Web içeriğinin yapılandırılması için bir işaretleme dili",
+      "Web belgelerinin sunumu için bir stil dili"
+    ]
+  },
+  "it-x-concept-35": {
+    "question": "Değişkenin temel amacı veya anlamı nedir?",
+    "explanation": "Bir değişken, bir programa bir değere erişebileceği bir isim verir.",
+    "options": [
+      "Bir değere isimlendirilmiş bir referans",
+      "Sürüm-kontrol geçmişinde kaydedilmiş bir anlık görüntü",
+      "Hareketli bir geliştirme hattı",
+      "Farklı geliştirme hatlarındaki değişikliklerin birleştirilmesi"
+    ]
+  },
+  "it-x-concept-36": {
+    "question": "Derleyicinin birincil amacı veya anlamı nedir?",
+    "explanation": "Bir derleyici kaynak kodunu başka bir forma çevirir, genellikle makine kodu veya bytecode.",
+    "options": [
+      "Kaynak kodu çeviren bir program",
+      "Yeniden kullanılabilir veriler için geçici bir mağaza",
+      "Doğru anahtar olmadan okunamayacak şekilde veri dönüştürme",
+      "Girdi verilerini sabit uzunlukta bir sindirmeye eşleyen bir işlev"
+    ]
+  },
+  "it-x-concept-37": {
+    "question": "Tercüman'ın temel amacı veya anlamı nedir?",
+    "explanation": "Bir tercüman program talimatlarını, genellikle program çalışırken değerlendirir.",
+    "options": [
+      "Kodu çalıştıran veya değerlendiren bir program",
+      "Yapılandırılmış veriler için bir metin biçimi",
+      "İstenen kaynak bulunamadı",
+      "İstek başarılı oldu"
+    ]
+  },
+  "it-x-concept-38": {
+    "question": "Açık kaynaklı yazılımın temel amacı veya anlamı nedir?",
+    "explanation": "Açık kaynaklı lisanslar, kaynak kodunu kullanma, denetleme ve sıklıkla değiştirme ve paylaşma haklarını verir.",
+    "options": [
+      "Kaynak kodu lisans altında mevcut olan yazılım",
+      "Talimatları uygular ve bilgisayar işlemlerini koordine eder",
+      "Geçici çalışma belleği",
+      "Katı hal belleği kullanan uçucu olmayan depolama"
+    ]
+  },
+  "it-x-concept-39": {
+    "question": "Cookie'nin temel amacı veya anlamı nedir?",
+    "explanation": "Çerezler, bir web sitesinin bir tarayıcıyla ilişkili verileri tutmasına izin verir.",
+    "options": [
+      "Bir web sitesinin bir tarayıcıda sakladığı küçük bir veri parçası",
+      "Alan adlarını kayıtlara çözen bir sistem",
+      "Bir ağ arabirimini tanımlamak için kullanılan sayısal bir adres",
+      "Ağlar arasında paketleri iletir"
+    ]
+  },
+  "it-x-concept-40": {
+    "question": "Bandwidth'in birincil amacı veya anlamı nedir?",
+    "explanation": "Bandwidth, bir bağlantının veri taşıma kapasitesini zaman içinde açıklar.",
+    "options": [
+      "Veri taşımak için bir iletişim bağlantısının kapasitesi",
+      "İlişkisel veritabanları ile çalışmak için bir dil",
+      "Dağıtılmış sürüm kontrol sistemi",
+      "Sürüm-kontrol geçmişinde kaydedilmiş bir anlık görüntü"
+    ]
+  }
+}

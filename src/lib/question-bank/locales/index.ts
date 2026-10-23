@@ -77,6 +77,14 @@ export async function generatedCopiesForLocale(
     }
     return copies;
   }
+  if (locale === "tr") {
+    const { default: questionCopies } = await import("./tr/question-bank.json") as { default: Record<string, QuestionLocaleCopy> };
+    for (const question of questions) {
+      const copy = questionCopies[question.id];
+      if (copy) copies.set(question.id, copy);
+    }
+    return copies;
+  }
   if (!(locales as readonly string[]).includes(locale)) return copies;
   const activeLocale = locale as Exclude<Locale, "ru">;
   if (activeLocale === "en") return copies;
