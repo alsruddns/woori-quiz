@@ -33,10 +33,15 @@ describe("Russian UI catalog draft", () => {
     expect(catalog.ui.localeCount).toContain("26");
     expect(catalog.discovery.resultsFor).toContain("QUERY_SLOT");
     expect(catalog.ui.quizSummary).toContain("TITLE_SLOT");
+    expect(catalog.quizTitles["click-speed-test"]).toBe("Тест на скорость нажатий");
+    expect(catalog.quizTitles["english-vocabulary"]).not.toMatch(/:$/);
+    expect(catalog.quizTitles["brain-teaser"]).not.toContain(" - ");
 
     for (const quiz of publicQuizzes) {
       expect((catalog.quizTitles as Record<string, string>)[quiz.slug], `${quiz.slug} title`).toBeTruthy();
       expect((catalog.quizDescriptions as Record<string, string>)[quiz.slug], `${quiz.slug} description`).toBeTruthy();
+      expect((catalog.quizDescriptions as Record<string, string>)[quiz.slug], `${quiz.slug} has no batch-template residue`)
+        .not.toMatch(/средней и средней|от среднего до среднего|любознательных умов/);
     }
     const strings = stringsIn(catalog);
     expect(strings.filter((value) => /[\u0400-\u04FF]/.test(value)).length).toBeGreaterThan(250);

@@ -22,5 +22,7 @@ describe("Russian question bank draft", () => {
       expect(`${copy.question} ${copy.explanation}`, `${id} has Russian text`).toMatch(/[\u0400-\u04FF]/);
       expect(JSON.stringify(copy), `${id} has no unresolved batch marker`).not.toMatch(/ZZQB\d{4}ZZ/);
     }
+    expect(copies["general-007"].options).toEqual(["Атлантический океан", "Индийский", "Северный Ледовитый океан", "Тихий океан"]);
+    expect(copies["general-010"].options).toContain("Ртуть");
   });
 });
