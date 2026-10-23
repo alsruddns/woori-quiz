@@ -1,5 +1,5 @@
 import { siteMetadata } from "@/lib/site-metadata";
-import { isPublishedLocale } from "@/lib/i18n";
+import { isLocale } from "@/lib/i18n";
 import "../../globals.css";
 import "../../navigation.css";
 import "../../discovery.css";
@@ -14,6 +14,6 @@ export default async function LocaleRootLayout({
   params: Promise<{ locale: string }>;
 }) {
   const { locale } = await params;
-  const language = isPublishedLocale(locale) ? locale : "en";
+  const language = isLocale(locale) ? locale : "en";
   return <html lang={language}><body>{children}</body></html>;
 }

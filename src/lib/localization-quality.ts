@@ -146,6 +146,10 @@ const bengaliInvariantChoices = new Set([
   "1325 CE", "221 BCE", "490 BCE", "C", "O", "S", "T", "U", "V", "DNA", "CSS", "HTML", "SQL", "PNG",
   ".png", ".mp3", ".csv", ".exe",
 ]);
+const ukrainianInvariantChoices = new Set([
+  "Antonio Vivaldi", "Beagle", "CSS", "Chuseok", "Fe", "HTML", "Java", "JavaScript", "John Glenn",
+  "Marco Polo", "Neil Armstrong", "O", "PNG", "SQL", "Ssireum", "S", "T", "U", "V", "Yuri Gagarin",
+]);
 
 function isPreservedChoice(question: QuizQuestion, value: string, locale: Locale): boolean {
   if (isNeutral(value)) return true;
@@ -153,6 +157,7 @@ function isPreservedChoice(question: QuizQuestion, value: string, locale: Locale
   if (locale === "pl" && polishInvariantChoices.has(value)) return true;
   if (locale === "fil" && (filipinoInvariantChoices.has(value) || polishInvariantChoices.has(value))) return true;
   if (locale === "bn" && bengaliInvariantChoices.has(value)) return true;
+  if (locale === "uk" && ukrainianInvariantChoices.has(value)) return true;
   if (locale === "es" && spanishInvariantChoices.has(value)) return true;
   if (locale === "pt-br" && brazilianPortugueseInvariantChoices.has(value)) return true;
   if (locale === "de" && germanInvariantChoices.has(value)) return true;

@@ -55,7 +55,7 @@ describe("Bengali published runtime", () => {
     const xml = await (await GET()).text();
     expect(xml).toContain("https://www.woori.today/bn/quiz");
     expect(xml).toContain("https://www.woori.today/bn/quiz/general-knowledge");
-    expect(xml).not.toContain("/uk/");
+    expect(xml).toContain("https://www.woori.today/uk/quiz");
     expect(xml).not.toContain("/ar/");
   }, 60000);
 });

@@ -60,6 +60,7 @@ describe("Filipino runtime and publication", () => {
     expect(xml).toContain("https://www.woori.today/fil/quiz");
     expect(xml).toContain("https://www.woori.today/fil/quiz/general-knowledge");
     expect(xml).toContain("https://www.woori.today/bn/quiz");
+    expect(xml).toContain("https://www.woori.today/uk/quiz");
     expect(xml).not.toContain("/ar/");
   });
 });
