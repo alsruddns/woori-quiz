@@ -4,7 +4,7 @@ import { useState } from "react";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
-import { isLocale, localeNames, locales, uiMessages, type Locale } from "@/lib/i18n";
+import { isLocale, localeNames, publishedLocales, uiMessages, type Locale } from "@/lib/i18n";
 import { quizPath, quizPathForLocale, SITE_ORIGIN } from "@/lib/urls";
 
 type Service = { id: "portal" | "calculator" | "tools" | "moneyBook" | "docs" | "quiz"; href: string };
@@ -44,7 +44,7 @@ export function SiteHeader({ locale: rawLocale, logoHref, backHref, activeServic
       <label className="language-control">
         <span className="sr-only">{t.language}</span>
         <select aria-label={t.language} value={locale} onChange={(event) => router.push(quizPathForLocale(window.location.pathname, event.target.value as Locale))} className="language">
-          {locales.map((code) => <option value={code} key={code}>{localeNames[code]}</option>)}
+          {publishedLocales.map((code) => <option value={code} key={code}>{localeNames[code]}</option>)}
         </select>
       </label>
     </div>

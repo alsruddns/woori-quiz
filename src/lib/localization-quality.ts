@@ -1,5 +1,5 @@
 import type { Locale } from "./i18n";
-import { detailCopy, discoveryCopy, locales, messages, uiMessages } from "./i18n";
+import { detailCopy, discoveryCopy, locales, messages, publishedLocales, uiMessages } from "./i18n";
 import { categoryDescription, serviceGuide } from "./content-copy";
 import { hasQuizTermTranslations, localizeMathPrompt, quizCategoryName } from "./quiz-copy";
 import { categories, quizzes, type Quiz } from "./registry";
@@ -8,9 +8,9 @@ import { questionCategoryForQuiz, questionCopyResultForLocale, questionTagForQui
 import { loadQuestionBankForCategory } from "./question-bank/select-questions";
 
 export const LOCALIZATION_INDEX_THRESHOLD = {
-  questionRate: 0.95,
-  choiceRate: 0.95,
-  explanationRate: 0.9,
+  questionRate: 1,
+  choiceRate: 1,
+  explanationRate: 1,
 } as const;
 
 export type LocalizationQuality = {
@@ -42,6 +42,7 @@ export type QuestionLocalizationGap = {
 
 const poolCache = new Map<string, Promise<QuizQuestion[]>>();
 const qualityCache = new Map<string, Promise<LocalizationQuality>>();
+const localeContentCache = new Map<Locale, Promise<boolean>>();
 
 function isNeutral(value: string): boolean {
   return /^[\s\p{N}\p{S}\p{P}]+$/u.test(value);
@@ -136,13 +137,17 @@ function listPageIsLocalized(locale: Locale): boolean {
   return messagesLocalized && discoveryLocalized && categoriesLocalized && quizzesLocalized && footerLocalized && resultCopyIsLocalized(locale);
 }
 
-export function getListLocalizationQuality(locale: Locale): { complete: boolean; indexable: boolean } {
-  const complete = listPageIsLocalized(locale);
+export async function getListLocalizationQuality(locale: Locale): Promise<{ complete: boolean; indexable: boolean }> {
+  const complete = await localeContentIsComplete(locale);
   return { complete, indexable: complete };
 }
 
-export function getIndexableListLocales(): Locale[] {
-  return locales.filter((locale) => getListLocalizationQuality(locale).indexable);
+export async function getIndexableListLocales(): Promise<Locale[]> {
+  const available: Locale[] = [];
+  for (const locale of publishedLocales) {
+    if ((await getListLocalizationQuality(locale)).indexable) available.push(locale);
+  }
+  return available;
 }
 
 function getPool(category: string, locale: Locale): Promise<QuizQuestion[]> {
@@ -153,6 +158,27 @@ function getPool(category: string, locale: Locale): Promise<QuizQuestion[]> {
     poolCache.set(key, pool);
   }
   return pool;
+}
+
+async function localeContentIsComplete(locale: Locale): Promise<boolean> {
+  if (locale === "en") return true;
+  let pending = localeContentCache.get(locale);
+  if (!pending) {
+    pending = (async () => {
+      const questions = await getPool("all", locale);
+      for (const question of questions) {
+        const result = questionCopyResultForLocale(question, locale);
+        if (result.questionIsFallback && !isNeutral(result.value.question)) return false;
+        if (question.options.some((option, index) =>
+          result.optionFallbacks[index] && !isPreservedChoice(question, option),
+        )) return false;
+        if (!isNeutral(question.explanation) && result.explanationIsFallback) return false;
+      }
+      return listPageIsLocalized(locale);
+    })();
+    localeContentCache.set(locale, pending);
+  }
+  return pending;
 }
 
 async function questionsForQuiz(quiz: Quiz, locale: Locale): Promise<QuizQuestion[]> {
@@ -205,6 +231,7 @@ export async function getQuizLocalizationQuality(locale: Locale, quiz: Quiz): Pr
       const titleTranslated = locale === "en" || hasQuizTermTranslations(locale, [quiz.slug]);
       const descriptionTranslated = locale === "en" || differentFromEnglish(categoryDescription(locale, quiz.category), categoryDescription("en", quiz.category));
       const resultTranslated = resultCopyIsLocalized(locale);
+      const localeComplete = await localeContentIsComplete(locale);
 
       if (quiz.mode !== "bank") {
         let questionRate = 1;
@@ -218,7 +245,7 @@ export async function getQuizLocalizationQuality(locale: Locale, quiz: Quiz): Pr
           }
           questionRate = translatedPrompts / samples.length;
         }
-        const complete = titleTranslated && descriptionTranslated && resultTranslated
+        const complete = localeComplete && titleTranslated && descriptionTranslated && resultTranslated
           && questionRate >= LOCALIZATION_INDEX_THRESHOLD.questionRate;
         return {
           complete, indexable: locale === "en" || complete,
@@ -252,7 +279,7 @@ export async function getQuizLocalizationQuality(locale: Locale, quiz: Quiz): Pr
       const questionRate = rate(translatedQuestionCount, questions.length);
       const choiceRate = rate(translatedChoiceCount, choiceCount);
       const explanationRate = rate(translatedExplanationCount, explanationCount);
-      const complete = titleTranslated && descriptionTranslated && resultTranslated
+      const complete = localeComplete && titleTranslated && descriptionTranslated && resultTranslated
         && questionRate >= LOCALIZATION_INDEX_THRESHOLD.questionRate
         && choiceRate >= LOCALIZATION_INDEX_THRESHOLD.choiceRate
         && explanationRate >= LOCALIZATION_INDEX_THRESHOLD.explanationRate;
@@ -273,7 +300,7 @@ export async function getIndexableQuizLocales(slug: string): Promise<Locale[]> {
   const quiz = quizzes.find((item) => item.slug === slug && item.isPublic);
   if (!quiz) return [];
   const available: Locale[] = [];
-  for (const locale of locales) {
+  for (const locale of publishedLocales) {
     const quality = await getQuizLocalizationQuality(locale, quiz);
     if (quality.indexable) available.push(locale);
   }
@@ -308,7 +335,7 @@ export async function getLocalizationAudit() {
       noindexQuizCount: detailQuizzes.length - indexableQuizCount,
     };
   }
-  const listLocales = getIndexableListLocales();
+  const listLocales = await getIndexableListLocales();
   const detailUrlCount = Object.values(byLocale).reduce((sum, item) => sum + item.indexableQuizCount, 0);
   return {
     byLocale,

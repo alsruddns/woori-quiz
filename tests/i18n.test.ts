@@ -1,9 +1,18 @@
 import { describe, expect, it } from "vitest";
 import { categories, quizzes } from "../src/lib/registry";
-import { locales, localeNames, uiMessages } from "../src/lib/i18n";
+import { isLocale, localeExpansionTargets, locales, localeNames, publishedLocales, uiMessages } from "../src/lib/i18n";
 import { hasQuizTermTranslations, missingQuizTitleWords, quizCategoryName, quizTitle, quizTitleTranslationWordCount, quizTitleWordCount } from "../src/lib/quiz-copy";
 
 describe("quiz UI translations", () => {
+  it("tracks 26 expansion targets without activating incomplete languages", () => {
+    expect(localeExpansionTargets).toHaveLength(26);
+    expect(new Set(localeExpansionTargets).size).toBe(26);
+    expect(localeExpansionTargets.slice(0, locales.length)).toEqual(locales);
+    expect(localeExpansionTargets.slice(locales.length)).toEqual(["ar", "bn", "fil", "ms", "pl", "ru", "sv", "tr", "uk", "ur", "fa"]);
+    expect(localeExpansionTargets.slice(locales.length).every((locale) => !isLocale(locale))).toBe(true);
+    expect(publishedLocales).toEqual(["ko", "en"]);
+  });
+
   it("provides navigation, category, difficulty, and footer copy for all 15 locales", () => {
     expect(Object.keys(uiMessages).sort()).toEqual([...locales].sort());
     for (const locale of locales) {
