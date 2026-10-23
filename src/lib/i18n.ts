@@ -4,7 +4,7 @@ export type Locale = (typeof locales)[number];
 // not reach routing, selectors, metadata, or the sitemap until its catalog is complete.
 export const localeExpansionTargets = [
   ...locales,
-  "ar", "bn", "fil", "ms", "pl", "ru", "sv", "tr", "uk", "ur", "fa",
+  "ru", "tr", "pl", "fil", "bn", "uk", "ms", "sv", "cs", "ro", "el",
 ] as const;
 // Only these locales currently meet the full catalog publication gate.
 export const publishedLocales = ["ko", "en", "ja", "zh", "es", "pt-br", "de", "fr", "vi", "id", "th", "zh-tw", "it", "nl", "hi"] as const satisfies readonly Locale[];

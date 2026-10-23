@@ -9,7 +9,7 @@ describe("quiz UI translations", () => {
     expect(localeExpansionTargets).toHaveLength(26);
     expect(new Set(localeExpansionTargets).size).toBe(26);
     expect(localeExpansionTargets.slice(0, locales.length)).toEqual(locales);
-    expect(localeExpansionTargets.slice(locales.length)).toEqual(["ar", "bn", "fil", "ms", "pl", "ru", "sv", "tr", "uk", "ur", "fa"]);
+    expect(localeExpansionTargets.slice(locales.length)).toEqual(["ru", "tr", "pl", "fil", "bn", "uk", "ms", "sv", "cs", "ro", "el"]);
     expect(localeExpansionTargets.slice(locales.length).every((locale) => !isLocale(locale))).toBe(true);
     expect(publishedLocales).toEqual(["ko", "en", "ja", "zh", "es", "pt-br", "de", "fr", "vi", "id", "th", "zh-tw", "it", "nl", "hi"]);
   });
