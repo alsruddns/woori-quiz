@@ -164,10 +164,11 @@ export function localizeMathPrompt(locale: Locale, prompt: string): string {
     if (percentage) return `¿Cuánto es el ${percentage[1]}% de ${percentage[2]}?`;
     return prompt.replace("What is x?", "¿Cuál es el valor de x?").replace("(decimal)", "(decimal)");
   }
-  if (locale === "zh") {
+  if (locale === "zh" || locale === "zh-tw") {
     const percentage = prompt.match(/^(\d+(?:[.,]\d+)?)% of (\d+(?:[.,]\d+)?) = \?$/);
     if (percentage) return `${percentage[2]} 的 ${percentage[1]}% 是多少？`;
-    return prompt.replace("What is x?", "求 x 的值。").replace("(decimal)", "(小数)");
+    const decimal = locale === "zh-tw" ? "小數" : "小数";
+    return prompt.replace("What is x?", "求 x 的值。").replace("(decimal)", `(${decimal})`);
   }
   if (locale === "ja") {
     const percentage = prompt.match(/^(\d+(?:[.,]\d+)?)% of (\d+(?:[.,]\d+)?) = \?$/);
