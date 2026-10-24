@@ -1,7 +1,7 @@
 const siteOrigin = process.env.INDEXNOW_SITE_ORIGIN ?? "https://www.woori.today";
 const sitemapUrl = process.env.INDEXNOW_SITEMAP_URL ?? `${siteOrigin}/quiz-sitemap.xml`;
 const endpoint = "https://api.indexnow.org/IndexNow";
-const supportedLocales = "ko|en|ja|zh|es|pt-br|de|fr|vi|id|th|zh-tw|it|nl|hi";
+const supportedLocales = "ko|en|ja|zh|es|pt-br|de|fr|vi|id|th|zh-tw|it|nl|hi|ru|tr|pl|fil|bn|uk|ms|sv|cs|ro|el";
 const publicQuizUrl = new RegExp(`^https://www\\.woori\\.today/(?:${supportedLocales})/quiz(?:/[a-z0-9-]+)?$`);
 const legacyQuizUrl = new RegExp(`^https://www\\.woori\\.today/quiz/(?:${supportedLocales})(?:/|$)`);
 
