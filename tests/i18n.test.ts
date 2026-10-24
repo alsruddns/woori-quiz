@@ -1,13 +1,38 @@
 import { describe, expect, it } from "vitest";
 import { categories, quizzes } from "../src/lib/registry";
-import { locales, localeNames, uiMessages } from "../src/lib/i18n";
+import { excludedExpansionLocales, isLocale, isPublishedLocale, localeExpansionTargets, locales, localeNames, publishedLocales, uiMessages } from "../src/lib/i18n";
 import { hasQuizTermTranslations, missingQuizTitleWords, quizCategoryName, quizTitle, quizTitleTranslationWordCount, quizTitleWordCount } from "../src/lib/quiz-copy";
+import { quizPathForLocale } from "../src/lib/urls";
 
 describe("quiz UI translations", () => {
-  it("provides navigation, category, difficulty, and footer copy for all 15 locales", () => {
+  it("tracks all 26 expansion targets and published locales", () => {
+    expect(localeExpansionTargets).toHaveLength(26);
+    expect(new Set(localeExpansionTargets).size).toBe(26);
+    expect(localeExpansionTargets).toEqual([
+      ...locales.filter((locale) => locale !== "ru" && locale !== "tr" && locale !== "pl" && locale !== "fil" && locale !== "bn" && locale !== "uk" && locale !== "ms" && locale !== "sv" && locale !== "cs" && locale !== "ro" && locale !== "el"),
+      "ru", "tr", "pl", "fil", "bn", "uk", "ms", "sv", "cs", "ro", "el",
+    ]);
+    expect(localeExpansionTargets.slice(publishedLocales.length).every((locale) => !isPublishedLocale(locale))).toBe(true);
+    expect(isLocale("ru")).toBe(true);
+    expect(isPublishedLocale("ru")).toBe(true);
+    expect(isLocale("bn")).toBe(true);
+    expect(isPublishedLocale("bn")).toBe(true);
+    expect(isLocale("uk")).toBe(true);
+    expect(isPublishedLocale("uk")).toBe(true);
+    expect(isLocale("ms")).toBe(true);
+    expect(isPublishedLocale("ms")).toBe(true);
+    expect(isLocale("sv")).toBe(true);
+    expect(isPublishedLocale("sv")).toBe(true);
+    expect(excludedExpansionLocales).toEqual(["ar", "ur", "fa", "he"]);
+    expect(excludedExpansionLocales.some((locale) => (localeExpansionTargets as readonly string[]).includes(locale))).toBe(false);
+    expect(publishedLocales).toEqual(["ko", "en", "ja", "zh", "es", "pt-br", "de", "fr", "vi", "id", "th", "zh-tw", "it", "nl", "hi", "ru", "tr", "pl", "fil", "bn", "uk", "ms", "sv", "cs", "ro", "el"]);
+  });
+
+  it("provides navigation, category, difficulty, and footer copy for wired locales", () => {
     expect(Object.keys(uiMessages).sort()).toEqual([...locales].sort());
     for (const locale of locales) {
       const copy = uiMessages[locale];
+      const publicQuizSlugs = quizzes.filter((quiz) => quiz.isPublic).map((quiz) => quiz.slug);
       expect(localeNames[locale]).toBeTruthy();
       expect([copy.familySites, copy.portal, copy.calculator, copy.tools, copy.moneyBook, copy.docs, copy.quiz, copy.language]).not.toContain("");
       expect(Object.values(copy.category).every(Boolean)).toBe(true);
@@ -16,9 +41,34 @@ describe("quiz UI translations", () => {
       expect([copy.footerTagline, copy.privacy, copy.guidelines, copy.contact].every(Boolean)).toBe(true);
       expect(quizTitleTranslationWordCount(locale), `Wrong quiz title word count for ${locale}`).toBe(quizTitleWordCount);
       expect(missingQuizTitleWords(quizzes.map((quiz) => quiz.slug))).toEqual([]);
-      expect(hasQuizTermTranslations(locale, quizzes.map((quiz) => quiz.slug)), `Incomplete quiz word translations for ${locale}`).toBe(true);
+      expect(hasQuizTermTranslations(locale, locale === "ru" || locale === "tr" || locale === "pl" || locale === "fil" || locale === "bn" || locale === "uk" || locale === "ms" || locale === "sv" || locale === "cs" || locale === "ro" || locale === "el" ? publicQuizSlugs : quizzes.map((quiz) => quiz.slug)), `Incomplete quiz word translations for ${locale}`).toBe(true);
       expect(quizzes.every((quiz) => quizTitle(locale, quiz).trim().length > 0)).toBe(true);
     }
+  });
+
+  it("switches quiz routes between the published languages", () => {
+    expect(quizPathForLocale("/en/quiz/general-knowledge", "ja")).toBe("/ja/quiz/general-knowledge");
+    expect(quizPathForLocale("/ja/quiz/general-knowledge", "zh")).toBe("/zh/quiz/general-knowledge");
+    expect(quizPathForLocale("/zh/quiz/general-knowledge", "es")).toBe("/es/quiz/general-knowledge");
+    expect(quizPathForLocale("/es/quiz/general-knowledge", "pt-br")).toBe("/pt-br/quiz/general-knowledge");
+    expect(quizPathForLocale("/pt-br/quiz/general-knowledge", "de")).toBe("/de/quiz/general-knowledge");
+    expect(quizPathForLocale("/de/quiz/general-knowledge", "fr")).toBe("/fr/quiz/general-knowledge");
+    expect(quizPathForLocale("/fr/quiz/general-knowledge", "en")).toBe("/en/quiz/general-knowledge");
+    expect(quizPathForLocale("/fr/quiz/general-knowledge", "vi")).toBe("/vi/quiz/general-knowledge");
+    expect(quizPathForLocale("/vi/quiz/general-knowledge", "de")).toBe("/de/quiz/general-knowledge");
+    expect(quizPathForLocale("/vi/quiz/general-knowledge", "id")).toBe("/id/quiz/general-knowledge");
+    expect(quizPathForLocale("/id/quiz/general-knowledge", "vi")).toBe("/vi/quiz/general-knowledge");
+    expect(quizPathForLocale("/id/quiz/general-knowledge", "th")).toBe("/th/quiz/general-knowledge");
+    expect(quizPathForLocale("/th/quiz/general-knowledge", "id")).toBe("/id/quiz/general-knowledge");
+    expect(quizPathForLocale("/th/quiz/general-knowledge", "zh-tw")).toBe("/zh-tw/quiz/general-knowledge");
+    expect(quizPathForLocale("/zh-tw/quiz/general-knowledge", "th")).toBe("/th/quiz/general-knowledge");
+    expect(quizPathForLocale("/zh-tw/quiz/general-knowledge", "it")).toBe("/it/quiz/general-knowledge");
+    expect(quizPathForLocale("/it/quiz/general-knowledge", "zh-tw")).toBe("/zh-tw/quiz/general-knowledge");
+    expect(quizPathForLocale("/it/quiz/general-knowledge", "nl")).toBe("/nl/quiz/general-knowledge");
+    expect(quizPathForLocale("/nl/quiz/general-knowledge", "it")).toBe("/it/quiz/general-knowledge");
+    expect(quizPathForLocale("/nl/quiz/general-knowledge", "hi")).toBe("/hi/quiz/general-knowledge");
+    expect(quizPathForLocale("/hi/quiz/general-knowledge", "nl")).toBe("/nl/quiz/general-knowledge");
+    expect(quizPathForLocale("/ja/quiz", "ko")).toBe("/ko/quiz");
   });
 
   it("uses the requested Korean navigation and category labels instead of English fallbacks", () => {

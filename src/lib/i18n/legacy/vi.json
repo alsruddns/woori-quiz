@@ -1,0 +1,684 @@
+{
+  "localeName": "Tiếng Việt",
+  "messages": {
+    "title": "Đố vui",
+    "subtitle": "Khơi dậy trí tò mò mỗi ngày.",
+    "search": "Tìm câu đố",
+    "today": "Câu đố hôm nay",
+    "categories": "Danh mục",
+    "popular": "Câu đố phổ biến",
+    "play": "Bắt đầu",
+    "question": "Câu hỏi",
+    "next": "Tiếp theo",
+    "submit": "Kiểm tra",
+    "result": "Kết quả",
+    "retry": "Thử lại",
+    "home": "Trang chủ",
+    "related": "Câu đố liên quan",
+    "score": "Điểm",
+    "footer": "Quyền riêng tư · Trợ giúp · Liên hệ"
+  },
+  "ui": {
+    "familySites": "Dịch vụ liên kết",
+    "portal": "Cổng thông tin",
+    "calculator": "Máy tính",
+    "tools": "Công cụ trực tuyến",
+    "moneyBook": "Sổ thu chi dùng chung miễn phí",
+    "docs": "Tài liệu và biểu mẫu",
+    "quiz": "Đố vui và thử thách",
+    "language": "Chọn ngôn ngữ",
+    "openMenu": "Mở menu dịch vụ",
+    "closeMenu": "Đóng menu dịch vụ",
+    "allQuizzes": "Tất cả câu đố",
+    "freeToPlay": "Chơi miễn phí",
+    "noAccount": "Không cần đăng ký",
+    "heroEyebrow": "Khơi dậy trí tò mò",
+    "heroTitle": "Khám phá sự tò mò qua câu đố",
+    "heroDescription": "Thử sức với một thử thách ngắn và khám phá điều mới.",
+    "nextChallenge": "Chọn thử thách tiếp theo",
+    "searchEmpty": "Không tìm thấy câu đố.",
+    "questionSetReview": "Đang duyệt bộ câu hỏi",
+    "difficulty": "Độ khó",
+    "startHeading": "Bắt đầu khi bạn sẵn sàng",
+    "startDescription": "Cứ bình tĩnh suy nghĩ và tận hưởng thử thách.",
+    "correct": "Chính xác!",
+    "incorrect": "Chưa đúng rồi.",
+    "accuracy": "Độ chính xác",
+    "finishedIn": "Hoàn thành trong",
+    "seconds": "giây",
+    "bestScore": "Điểm cao nhất được lưu trên thiết bị này.",
+    "reviewHeading": "Đang duyệt bộ câu hỏi",
+    "reviewDescription": "Chúng tôi đang kiểm tra câu hỏi đã dịch. Bài kiểm tra sẽ mở sau khi hoàn tất.",
+    "howToPlay": "Cách chơi",
+    "howToDescription": "Chọn đáp án cho từng câu hỏi. Tiến trình chỉ được lưu trong trình duyệt này; không cần tài khoản hay thông tin cá nhân.",
+    "aboutQuiz": "Giới thiệu",
+    "faq": "Câu hỏi thường gặp",
+    "scoreUploadedQuestion": "Điểm số có được tải lên không?",
+    "scoreUploadedAnswer": "Không. Điểm chỉ được lưu trong trình duyệt này.",
+    "interactiveTest": "Bài kiểm tra tương tác",
+    "localeCount": "26 ngôn ngữ",
+    "dynamicGeneration": "Tạo câu hỏi mới mỗi lượt",
+    "back": "Danh sách câu đố",
+    "footerTagline": "Dành cho những người ham khám phá.",
+    "privacy": "Quyền riêng tư",
+    "guidelines": "Hướng dẫn sử dụng",
+    "contact": "Liên hệ",
+    "copyright": "© 2026 woori.today",
+    "searchLabel": "Tìm câu đố",
+    "quizCount": "COUNT_SLOT",
+    "questionCount": "COUNT_SLOT",
+    "quizSummary": "Thử sức với TITLE_SLOT và khám phá kiến thức của bạn theo cách thú vị.",
+    "category": {
+      "general": "Kiến thức tổng quát",
+      "geography": "Thế giới và địa lý",
+      "science": "Khoa học",
+      "history": "Lịch sử",
+      "math": "Toán học",
+      "language": "Ngôn ngữ",
+      "technology": "Công nghệ",
+      "memory": "Trí nhớ và tư duy",
+      "speed": "Tốc độ và phản xạ",
+      "fun": "Thử thách giải trí"
+    },
+    "difficultyLabels": {
+      "easy": "Dễ",
+      "medium": "Trung bình",
+      "hard": "Khó",
+      "expert": "Chuyên gia"
+    }
+  },
+  "uiCountForms": {
+    "quizCount": {
+      "other": "COUNT_SLOT câu đố"
+    },
+    "questionCount": {
+      "other": "COUNT_SLOT câu hỏi"
+    }
+  },
+  "uiSummary": "Thử sức với TITLE_SLOT và khám phá kiến thức của bạn theo cách thú vị.",
+  "discovery": {
+    "intro": "Khám phá câu đố kiến thức, toán học và thử thách trí não.",
+    "quickStart": "Bắt đầu nhanh",
+    "searchResults": "Kết quả tìm kiếm",
+    "browseCategories": "Chọn danh mục",
+    "clearSearch": "Xóa tìm kiếm",
+    "resultsForForms": {
+      "other": "COUNT_SLOT câu đố cho “QUERY_SLOT”"
+    }
+  },
+  "detail": {
+    "correctCount": "Đúng",
+    "incorrectCount": "Sai",
+    "newSet": "Thử bộ câu hỏi mới",
+    "otherQuizzes": "Xem câu đố khác"
+  },
+  "categoryLabels": {
+    "general": "Kiến thức tổng quát",
+    "nonsense": "Đố vui và câu đố",
+    "math": "Toán học",
+    "brain": "Thử thách trí não",
+    "history": "Lịch sử",
+    "science": "Khoa học",
+    "geography": "Thế giới và địa lý",
+    "language": "Ngôn ngữ",
+    "technology": "Công nghệ",
+    "memory": "Trí nhớ và tư duy",
+    "random": "Câu đố ngẫu nhiên",
+    "challenge": "Thử thách",
+    "speed": "Tốc độ và phản xạ",
+    "fun": "Thử thách giải trí"
+  },
+  "categoryDescriptions": {
+    "general": "Kiểm tra kiến thức đời sống qua nhiều chủ đề khác nhau.",
+    "nonsense": "Giải câu đố ngắn bằng cách nhận ra lối chơi chữ.",
+    "math": "Luyện tính toán và suy luận, từ số học đến dãy số và xác suất.",
+    "brain": "Dùng manh mối và quy luật số để suy ra đáp án.",
+    "history": "Ôn lại sự kiện và nhân vật có thật từ cổ đại đến hiện đại.",
+    "science": "Xem lại kiến thức nền tảng về sinh học, hóa học, vật lý và vũ trụ.",
+    "geography": "Xác định vị trí châu lục, quốc gia, thủ đô và địa hình tự nhiên.",
+    "language": "Khám phá từ vựng, ngữ pháp và các hệ chữ viết.",
+    "technology": "Ôn kiến thức cơ bản về web, lập trình, cơ sở dữ liệu và mạng.",
+    "memory": "Ghi nhớ số, từ và thứ tự hoặc phát hiện thay đổi hình ảnh.",
+    "random": "Giải một bộ câu hỏi mới được chọn từ nhiều lĩnh vực.",
+    "challenge": "Giữ tập trung khi làm liên tiếp số câu hỏi đã định.",
+    "speed": "Đo trực tiếp thời gian phản ứng, tốc độ nhấp hoặc gõ phím.",
+    "fun": "Thư giãn với kiến thức nhẹ nhàng và thử thách vui."
+  },
+  "serviceGuide": {
+    "categories": "Khám phá theo chủ đề",
+    "how": "Cách làm câu đố",
+    "account": "Chọn bài rồi trả lời từng câu. Không cần tài khoản; kết quả được lưu trong trình duyệt này.",
+    "score": "Hiểu điểm số thế nào?",
+    "scoreLow": "Chủ đề này đáng để luyện thêm. Đọc lời giải rồi thử lại.",
+    "scoreMid": "Bạn đã nắm kiến thức cơ bản. Hãy xem lời giải của câu sai.",
+    "scoreHigh": "Bạn làm tốt bộ câu hỏi này. Hãy thử chủ đề khác hoặc bộ mới.",
+    "scoreNote": "Điểm chỉ là tỷ lệ đúng của bộ câu hỏi này, không đánh giá năng lực hay sức khỏe.",
+    "focus": "Nội dung bài này"
+  },
+  "advertisement": "Quảng cáo",
+  "difficulty": "Mọi mức độ",
+  "quizTitles": {
+    "general-knowledge-quiz": "Tổng Quát Đố vui",
+    "everyday-knowledge-quiz": "Hằng ngày Quát Đố vui",
+    "difficult-general-knowledge-quiz": "Khó Tổng Quát Đố vui",
+    "world-capitals-quiz": "Thế giới Thủ đô Đố vui",
+    "country-flags-quiz": "Quốc gia Lá cờ Đố vui",
+    "country-currency-quiz": "Quốc gia Tiền tệ Đố vui",
+    "country-location-quiz": "Quốc gia Vị trí Đố vui",
+    "asia-capitals-quiz": "Châu Á Thủ đô Đố vui",
+    "europe-capitals-quiz": "Châu Âu Thủ đô Đố vui",
+    "world-geography-quiz": "Thế giới Địa lý Đố vui",
+    "basic-science-quiz": "Cơ bản Khoa học Đố vui",
+    "physics-quiz": "Vật lý Đố vui",
+    "chemistry-quiz": "Hóa học Đố vui",
+    "biology-quiz": "Sinh học Đố vui",
+    "astronomy-quiz": "Thiên văn Đố vui",
+    "difficult-science-quiz": "Khó Khoa học Đố vui",
+    "world-history-quiz": "Thế giới Lịch sử Đố vui",
+    "korean-history-quiz": "Hàn Quốc Lịch sử Đố vui",
+    "ancient-history-quiz": "Cổ đại Lịch sử Đố vui",
+    "modern-history-quiz": "Hiện đại Lịch sử Đố vui",
+    "addition-quiz": "Cộng Đố vui",
+    "subtraction-quiz": "Trừ Đố vui",
+    "multiplication-quiz": "Nhân Đố vui",
+    "division-quiz": "Chia Đố vui",
+    "multiplication-table-quiz": "Nhân Bảng Đố vui",
+    "mental-math-quiz": "Nhẩm Toán Đố vui",
+    "fraction-quiz": "Phân số Đố vui",
+    "percentage-quiz": "Phần trăm Đố vui",
+    "equation-quiz": "Phương trình Đố vui",
+    "arithmetic-challenge": "Số học Thử thách",
+    "english-vocabulary-quiz": "Tiếng Anh Từ vựng Đố vui",
+    "english-spelling-quiz": "Tiếng Anh Chính tả Đố vui",
+    "english-grammar-quiz": "Tiếng Anh Ngữ pháp Đố vui",
+    "hiragana-quiz": "Hiragana Đố vui",
+    "katakana-quiz": "Katakana Đố vui",
+    "japanese-vocabulary-quiz": "Tiếng Nhật Từ vựng Đố vui",
+    "chinese-character-quiz": "Tiếng Trung Ký tự Đố vui",
+    "korean-vocabulary-quiz": "Hàn Quốc Từ vựng Đố vui",
+    "computer-basics-quiz": "Máy tính Cơ bản Đố vui",
+    "programming-basics-quiz": "Lập trình Cơ bản Đố vui",
+    "web-development-quiz": "Web Phát triển Đố vui",
+    "database-quiz": "Cơ sở dữ liệu Đố vui",
+    "network-basics-quiz": "Mạng Cơ bản Đố vui",
+    "difficult-it-quiz": "Khó IT Đố vui",
+    "number-memory-test": "Con số Trí nhớ Bài kiểm tra",
+    "word-memory-test": "Từ Trí nhớ Bài kiểm tra",
+    "sequence-memory-test": "Chuỗi Trí nhớ Bài kiểm tra",
+    "visual-memory-test": "Thị giác Trí nhớ Bài kiểm tra",
+    "pattern-recognition-test": "Mẫu Nhận dạng Bài kiểm tra",
+    "concentration-test": "Tập trung Bài kiểm tra",
+    "reaction-time-test": "Phản xạ Thời gian Bài kiểm tra",
+    "click-speed-test": "Nhấp chuột Tốc độ Bài kiểm tra",
+    "typing-speed-test": "Đánh máy Tốc độ Bài kiểm tra",
+    "color-reaction-test": "Màu sắc Phản xạ Bài kiểm tra",
+    "random-trivia-challenge": "Ngẫu nhiên Đố vui Thử thách",
+    "true-false-challenge": "Đúng Sai Thử thách",
+    "impossible-quiz": "Bất khả thi Đố vui",
+    "mixed-hard-quiz": "Tổng hợp Khó Đố vui",
+    "general-knowledge": "Tổng Quát",
+    "easy-general-knowledge": "Dễ Tổng Quát",
+    "hard-general-knowledge": "Khó Tổng Quát",
+    "random-general-knowledge": "Ngẫu nhiên Tổng Quát",
+    "adult-general-knowledge": "Người lớn Tổng Quát",
+    "daily-life-quiz": "Hằng ngày Đời sống Đố vui",
+    "nonsense": "Đố vui",
+    "easy-nonsense-quiz": "Dễ Đố vui Đố vui",
+    "riddle-quiz": "Câu đố Đố vui",
+    "brain-teaser": "Đánh thức trí não – Câu đố tư duy",
+    "easy-brain-teaser": "Dễ Trí não Thử thách",
+    "hard-brain-teaser": "Khó Trí não Thử thách",
+    "number-pattern-quiz": "Con số Mẫu Đố vui",
+    "logic-reasoning-quiz": "Logic Suy luận Đố vui",
+    "random-brain-teaser": "Ngẫu nhiên Trí não Thử thách",
+    "math-basic": "Toán Cơ bản",
+    "math-advanced": "Toán Nâng cao",
+    "mental-arithmetic-test": "Nhẩm Số học Bài kiểm tra",
+    "sequence-math-quiz": "Chuỗi Toán Đố vui",
+    "probability-quiz": "Xác suất Đố vui",
+    "history-knowledge-quiz": "Lịch sử Quát Đố vui",
+    "ancient-civilizations-quiz": "Cổ đại Nền văn minh Đố vui",
+    "modern-history-knowledge": "Hiện đại Lịch sử Quát",
+    "science-knowledge-quiz": "Khoa học Quát Đố vui",
+    "space-quiz": "Vũ trụ Đố vui",
+    "biology-knowledge-quiz": "Sinh học Quát Đố vui",
+    "world-geography": "Thế giới Địa lý",
+    "capital-cities-quiz": "Thủ đô Thành phố Đố vui",
+    "country-knowledge-quiz": "Quốc gia Quát Đố vui",
+    "language-knowledge-quiz": "Ngôn ngữ Quát Đố vui",
+    "english-vocabulary": "Tiếng Anh Từ vựng",
+    "it-development-quiz": "IT Phát triển Đố vui",
+    "programming-knowledge-quiz": "Lập trình Quát Đố vui",
+    "random-quiz": "Ngẫu nhiên Đố vui",
+    "random-math-10": "Ngẫu nhiên Toán 10",
+    "random-nonsense-10": "Ngẫu nhiên Đố vui 10",
+    "challenge-10": "Thử thách 10",
+    "challenge-20": "Thử thách 20"
+  },
+  "quizDescriptions": {
+    "addition-quiz": "Cộng Đố vui: Luyện tính toán và suy luận, từ số học đến dãy số và xác suất.",
+    "subtraction-quiz": "Trừ Đố vui: Luyện tính toán và suy luận, từ số học đến dãy số và xác suất.",
+    "multiplication-quiz": "Nhân Đố vui: Luyện tính toán và suy luận, từ số học đến dãy số và xác suất.",
+    "division-quiz": "Chia Đố vui: Luyện tính toán và suy luận, từ số học đến dãy số và xác suất.",
+    "multiplication-table-quiz": "Nhân Bảng Đố vui: Luyện tính toán và suy luận, từ số học đến dãy số và xác suất.",
+    "mental-math-quiz": "Nhẩm Toán Đố vui: Luyện tính toán và suy luận, từ số học đến dãy số và xác suất.",
+    "fraction-quiz": "Phân số Đố vui: Luyện tính toán và suy luận, từ số học đến dãy số và xác suất.",
+    "percentage-quiz": "Phần trăm Đố vui: Luyện tính toán và suy luận, từ số học đến dãy số và xác suất.",
+    "equation-quiz": "Phương trình Đố vui: Luyện tính toán và suy luận, từ số học đến dãy số và xác suất.",
+    "arithmetic-challenge": "Số học Thử thách: Luyện tính toán và suy luận, từ số học đến dãy số và xác suất.",
+    "number-memory-test": "Con số Trí nhớ Bài kiểm tra: Ghi nhớ số, từ và thứ tự hoặc phát hiện thay đổi hình ảnh.",
+    "word-memory-test": "Từ Trí nhớ Bài kiểm tra: Ghi nhớ số, từ và thứ tự hoặc phát hiện thay đổi hình ảnh.",
+    "sequence-memory-test": "Chuỗi Trí nhớ Bài kiểm tra: Ghi nhớ số, từ và thứ tự hoặc phát hiện thay đổi hình ảnh.",
+    "visual-memory-test": "Thị giác Trí nhớ Bài kiểm tra: Ghi nhớ số, từ và thứ tự hoặc phát hiện thay đổi hình ảnh.",
+    "pattern-recognition-test": "Mẫu Nhận dạng Bài kiểm tra: Ghi nhớ số, từ và thứ tự hoặc phát hiện thay đổi hình ảnh.",
+    "concentration-test": "Tập trung Bài kiểm tra: Ghi nhớ số, từ và thứ tự hoặc phát hiện thay đổi hình ảnh.",
+    "reaction-time-test": "Phản xạ Thời gian Bài kiểm tra: Đo trực tiếp thời gian phản ứng, tốc độ nhấp hoặc gõ phím.",
+    "click-speed-test": "Nhấp chuột Tốc độ Bài kiểm tra: Đo trực tiếp thời gian phản ứng, tốc độ nhấp hoặc gõ phím.",
+    "typing-speed-test": "Đánh máy Tốc độ Bài kiểm tra: Đo trực tiếp thời gian phản ứng, tốc độ nhấp hoặc gõ phím.",
+    "color-reaction-test": "Màu sắc Phản xạ Bài kiểm tra: Đo trực tiếp thời gian phản ứng, tốc độ nhấp hoặc gõ phím.",
+    "general-knowledge": "Tổng Quát: Kiểm tra kiến thức đời sống qua nhiều chủ đề khác nhau.",
+    "easy-general-knowledge": "Dễ Tổng Quát: Kiểm tra kiến thức đời sống qua nhiều chủ đề khác nhau.",
+    "hard-general-knowledge": "Khó Tổng Quát: Kiểm tra kiến thức đời sống qua nhiều chủ đề khác nhau.",
+    "random-general-knowledge": "Ngẫu nhiên Tổng Quát: Kiểm tra kiến thức đời sống qua nhiều chủ đề khác nhau.",
+    "adult-general-knowledge": "Người lớn Tổng Quát: Kiểm tra kiến thức đời sống qua nhiều chủ đề khác nhau.",
+    "daily-life-quiz": "Hằng ngày Đời sống Đố vui: Kiểm tra kiến thức đời sống qua nhiều chủ đề khác nhau.",
+    "nonsense": "Đố vui: Giải câu đố ngắn bằng cách nhận ra lối chơi chữ.",
+    "easy-nonsense-quiz": "Dễ Đố vui Đố vui: Giải câu đố ngắn bằng cách nhận ra lối chơi chữ.",
+    "riddle-quiz": "Câu đố Đố vui: Giải câu đố ngắn bằng cách nhận ra lối chơi chữ.",
+    "brain-teaser": "Đánh thức trí não – Câu đố tư duy: Dùng manh mối và quy luật số để suy ra đáp án.",
+    "easy-brain-teaser": "Dễ Trí não Thử thách: Dùng manh mối và quy luật số để suy ra đáp án.",
+    "hard-brain-teaser": "Khó Trí não Thử thách: Dùng manh mối và quy luật số để suy ra đáp án.",
+    "number-pattern-quiz": "Con số Mẫu Đố vui: Dùng manh mối và quy luật số để suy ra đáp án.",
+    "logic-reasoning-quiz": "Logic Suy luận Đố vui: Dùng manh mối và quy luật số để suy ra đáp án.",
+    "random-brain-teaser": "Ngẫu nhiên Trí não Thử thách: Dùng manh mối và quy luật số để suy ra đáp án.",
+    "math-basic": "Toán Cơ bản: Luyện tính toán và suy luận, từ số học đến dãy số và xác suất.",
+    "math-advanced": "Toán Nâng cao: Luyện tính toán và suy luận, từ số học đến dãy số và xác suất.",
+    "mental-arithmetic-test": "Nhẩm Số học Bài kiểm tra: Luyện tính toán và suy luận, từ số học đến dãy số và xác suất.",
+    "sequence-math-quiz": "Chuỗi Toán Đố vui: Luyện tính toán và suy luận, từ số học đến dãy số và xác suất.",
+    "probability-quiz": "Xác suất Đố vui: Luyện tính toán và suy luận, từ số học đến dãy số và xác suất.",
+    "history-knowledge-quiz": "Lịch sử Quát Đố vui: Ôn lại sự kiện và nhân vật có thật từ cổ đại đến hiện đại.",
+    "ancient-civilizations-quiz": "Cổ đại Nền văn minh Đố vui: Ôn lại sự kiện và nhân vật có thật từ cổ đại đến hiện đại.",
+    "modern-history-knowledge": "Hiện đại Lịch sử Quát: Ôn lại sự kiện và nhân vật có thật từ cổ đại đến hiện đại.",
+    "science-knowledge-quiz": "Khoa học Quát Đố vui: Xem lại kiến thức nền tảng về sinh học, hóa học, vật lý và vũ trụ.",
+    "space-quiz": "Vũ trụ Đố vui: Xem lại kiến thức nền tảng về sinh học, hóa học, vật lý và vũ trụ.",
+    "biology-knowledge-quiz": "Sinh học Quát Đố vui: Xem lại kiến thức nền tảng về sinh học, hóa học, vật lý và vũ trụ.",
+    "world-geography": "Thế giới Địa lý: Xác định vị trí châu lục, quốc gia, thủ đô và địa hình tự nhiên.",
+    "capital-cities-quiz": "Thủ đô Thành phố Đố vui: Xác định vị trí châu lục, quốc gia, thủ đô và địa hình tự nhiên.",
+    "country-knowledge-quiz": "Quốc gia Quát Đố vui: Xác định vị trí châu lục, quốc gia, thủ đô và địa hình tự nhiên.",
+    "language-knowledge-quiz": "Ngôn ngữ Quát Đố vui: Khám phá từ vựng, ngữ pháp và các hệ chữ viết.",
+    "english-vocabulary": "Tiếng Anh Từ vựng: Khám phá từ vựng, ngữ pháp và các hệ chữ viết.",
+    "it-development-quiz": "IT Phát triển Đố vui: Ôn kiến thức cơ bản về web, lập trình, cơ sở dữ liệu và mạng.",
+    "programming-knowledge-quiz": "Lập trình Quát Đố vui: Ôn kiến thức cơ bản về web, lập trình, cơ sở dữ liệu và mạng.",
+    "random-quiz": "Ngẫu nhiên Đố vui: Giải một bộ câu hỏi mới được chọn từ nhiều lĩnh vực.",
+    "random-math-10": "Ngẫu nhiên Toán 10: Giải một bộ câu hỏi mới được chọn từ nhiều lĩnh vực.",
+    "random-nonsense-10": "Ngẫu nhiên Đố vui 10: Giải một bộ câu hỏi mới được chọn từ nhiều lĩnh vực.",
+    "challenge-10": "Thử thách 10: Giữ tập trung khi làm liên tiếp số câu hỏi đã định.",
+    "challenge-20": "Thử thách 20: Giữ tập trung khi làm liên tiếp số câu hỏi đã định."
+  },
+  "quizSeo": {
+    "addition-quiz": {
+      "title": "Cộng Đố vui | woori.today",
+      "description": "Cộng Đố vui: Luyện tính toán và suy luận, từ số học đến dãy số và xác suất."
+    },
+    "subtraction-quiz": {
+      "title": "Trừ Đố vui | woori.today",
+      "description": "Trừ Đố vui: Luyện tính toán và suy luận, từ số học đến dãy số và xác suất."
+    },
+    "multiplication-quiz": {
+      "title": "Nhân Đố vui | woori.today",
+      "description": "Nhân Đố vui: Luyện tính toán và suy luận, từ số học đến dãy số và xác suất."
+    },
+    "division-quiz": {
+      "title": "Chia Đố vui | woori.today",
+      "description": "Chia Đố vui: Luyện tính toán và suy luận, từ số học đến dãy số và xác suất."
+    },
+    "multiplication-table-quiz": {
+      "title": "Nhân Bảng Đố vui | woori.today",
+      "description": "Nhân Bảng Đố vui: Luyện tính toán và suy luận, từ số học đến dãy số và xác suất."
+    },
+    "mental-math-quiz": {
+      "title": "Nhẩm Toán Đố vui | woori.today",
+      "description": "Nhẩm Toán Đố vui: Luyện tính toán và suy luận, từ số học đến dãy số và xác suất."
+    },
+    "fraction-quiz": {
+      "title": "Phân số Đố vui | woori.today",
+      "description": "Phân số Đố vui: Luyện tính toán và suy luận, từ số học đến dãy số và xác suất."
+    },
+    "percentage-quiz": {
+      "title": "Phần trăm Đố vui | woori.today",
+      "description": "Phần trăm Đố vui: Luyện tính toán và suy luận, từ số học đến dãy số và xác suất."
+    },
+    "equation-quiz": {
+      "title": "Phương trình Đố vui | woori.today",
+      "description": "Phương trình Đố vui: Luyện tính toán và suy luận, từ số học đến dãy số và xác suất."
+    },
+    "arithmetic-challenge": {
+      "title": "Số học Thử thách | woori.today",
+      "description": "Số học Thử thách: Luyện tính toán và suy luận, từ số học đến dãy số và xác suất."
+    },
+    "number-memory-test": {
+      "title": "Con số Trí nhớ Bài kiểm tra | woori.today",
+      "description": "Con số Trí nhớ Bài kiểm tra: Ghi nhớ số, từ và thứ tự hoặc phát hiện thay đổi hình ảnh."
+    },
+    "word-memory-test": {
+      "title": "Từ Trí nhớ Bài kiểm tra | woori.today",
+      "description": "Từ Trí nhớ Bài kiểm tra: Ghi nhớ số, từ và thứ tự hoặc phát hiện thay đổi hình ảnh."
+    },
+    "sequence-memory-test": {
+      "title": "Chuỗi Trí nhớ Bài kiểm tra | woori.today",
+      "description": "Chuỗi Trí nhớ Bài kiểm tra: Ghi nhớ số, từ và thứ tự hoặc phát hiện thay đổi hình ảnh."
+    },
+    "visual-memory-test": {
+      "title": "Thị giác Trí nhớ Bài kiểm tra | woori.today",
+      "description": "Thị giác Trí nhớ Bài kiểm tra: Ghi nhớ số, từ và thứ tự hoặc phát hiện thay đổi hình ảnh."
+    },
+    "pattern-recognition-test": {
+      "title": "Mẫu Nhận dạng Bài kiểm tra | woori.today",
+      "description": "Mẫu Nhận dạng Bài kiểm tra: Ghi nhớ số, từ và thứ tự hoặc phát hiện thay đổi hình ảnh."
+    },
+    "concentration-test": {
+      "title": "Tập trung Bài kiểm tra | woori.today",
+      "description": "Tập trung Bài kiểm tra: Ghi nhớ số, từ và thứ tự hoặc phát hiện thay đổi hình ảnh."
+    },
+    "reaction-time-test": {
+      "title": "Phản xạ Thời gian Bài kiểm tra | woori.today",
+      "description": "Phản xạ Thời gian Bài kiểm tra: Đo trực tiếp thời gian phản ứng, tốc độ nhấp hoặc gõ phím."
+    },
+    "click-speed-test": {
+      "title": "Nhấp chuột Tốc độ Bài kiểm tra | woori.today",
+      "description": "Nhấp chuột Tốc độ Bài kiểm tra: Đo trực tiếp thời gian phản ứng, tốc độ nhấp hoặc gõ phím."
+    },
+    "typing-speed-test": {
+      "title": "Đánh máy Tốc độ Bài kiểm tra | woori.today",
+      "description": "Đánh máy Tốc độ Bài kiểm tra: Đo trực tiếp thời gian phản ứng, tốc độ nhấp hoặc gõ phím."
+    },
+    "color-reaction-test": {
+      "title": "Màu sắc Phản xạ Bài kiểm tra | woori.today",
+      "description": "Màu sắc Phản xạ Bài kiểm tra: Đo trực tiếp thời gian phản ứng, tốc độ nhấp hoặc gõ phím."
+    },
+    "general-knowledge": {
+      "title": "Tổng Quát | woori.today",
+      "description": "Tổng Quát: Kiểm tra kiến thức đời sống qua nhiều chủ đề khác nhau."
+    },
+    "easy-general-knowledge": {
+      "title": "Dễ Tổng Quát | woori.today",
+      "description": "Dễ Tổng Quát: Kiểm tra kiến thức đời sống qua nhiều chủ đề khác nhau."
+    },
+    "hard-general-knowledge": {
+      "title": "Khó Tổng Quát | woori.today",
+      "description": "Khó Tổng Quát: Kiểm tra kiến thức đời sống qua nhiều chủ đề khác nhau."
+    },
+    "random-general-knowledge": {
+      "title": "Ngẫu nhiên Tổng Quát | woori.today",
+      "description": "Ngẫu nhiên Tổng Quát: Kiểm tra kiến thức đời sống qua nhiều chủ đề khác nhau."
+    },
+    "adult-general-knowledge": {
+      "title": "Người lớn Tổng Quát | woori.today",
+      "description": "Người lớn Tổng Quát: Kiểm tra kiến thức đời sống qua nhiều chủ đề khác nhau."
+    },
+    "daily-life-quiz": {
+      "title": "Hằng ngày Đời sống Đố vui | woori.today",
+      "description": "Hằng ngày Đời sống Đố vui: Kiểm tra kiến thức đời sống qua nhiều chủ đề khác nhau."
+    },
+    "nonsense": {
+      "title": "Đố vui | woori.today",
+      "description": "Đố vui: Giải câu đố ngắn bằng cách nhận ra lối chơi chữ."
+    },
+    "easy-nonsense-quiz": {
+      "title": "Dễ Đố vui Đố vui | woori.today",
+      "description": "Dễ Đố vui Đố vui: Giải câu đố ngắn bằng cách nhận ra lối chơi chữ."
+    },
+    "riddle-quiz": {
+      "title": "Câu đố Đố vui | woori.today",
+      "description": "Câu đố Đố vui: Giải câu đố ngắn bằng cách nhận ra lối chơi chữ."
+    },
+    "brain-teaser": {
+      "title": "Đánh thức trí não – Câu đố tư duy | woori.today",
+      "description": "Đánh thức trí não với các câu đố miễn phí về logic, quy luật, con số, trí nhớ và suy luận."
+    },
+    "easy-brain-teaser": {
+      "title": "Dễ Trí não Thử thách | woori.today",
+      "description": "Dễ Trí não Thử thách: Dùng manh mối và quy luật số để suy ra đáp án."
+    },
+    "hard-brain-teaser": {
+      "title": "Khó Trí não Thử thách | woori.today",
+      "description": "Khó Trí não Thử thách: Dùng manh mối và quy luật số để suy ra đáp án."
+    },
+    "number-pattern-quiz": {
+      "title": "Con số Mẫu Đố vui | woori.today",
+      "description": "Con số Mẫu Đố vui: Dùng manh mối và quy luật số để suy ra đáp án."
+    },
+    "logic-reasoning-quiz": {
+      "title": "Logic Suy luận Đố vui | woori.today",
+      "description": "Logic Suy luận Đố vui: Dùng manh mối và quy luật số để suy ra đáp án."
+    },
+    "random-brain-teaser": {
+      "title": "Ngẫu nhiên Trí não Thử thách | woori.today",
+      "description": "Ngẫu nhiên Trí não Thử thách: Dùng manh mối và quy luật số để suy ra đáp án."
+    },
+    "math-basic": {
+      "title": "Toán Cơ bản | woori.today",
+      "description": "Toán Cơ bản: Luyện tính toán và suy luận, từ số học đến dãy số và xác suất."
+    },
+    "math-advanced": {
+      "title": "Toán Nâng cao | woori.today",
+      "description": "Toán Nâng cao: Luyện tính toán và suy luận, từ số học đến dãy số và xác suất."
+    },
+    "mental-arithmetic-test": {
+      "title": "Nhẩm Số học Bài kiểm tra | woori.today",
+      "description": "Nhẩm Số học Bài kiểm tra: Luyện tính toán và suy luận, từ số học đến dãy số và xác suất."
+    },
+    "sequence-math-quiz": {
+      "title": "Chuỗi Toán Đố vui | woori.today",
+      "description": "Chuỗi Toán Đố vui: Luyện tính toán và suy luận, từ số học đến dãy số và xác suất."
+    },
+    "probability-quiz": {
+      "title": "Xác suất Đố vui | woori.today",
+      "description": "Xác suất Đố vui: Luyện tính toán và suy luận, từ số học đến dãy số và xác suất."
+    },
+    "history-knowledge-quiz": {
+      "title": "Lịch sử Quát Đố vui | woori.today",
+      "description": "Lịch sử Quát Đố vui: Ôn lại sự kiện và nhân vật có thật từ cổ đại đến hiện đại."
+    },
+    "ancient-civilizations-quiz": {
+      "title": "Cổ đại Nền văn minh Đố vui | woori.today",
+      "description": "Cổ đại Nền văn minh Đố vui: Ôn lại sự kiện và nhân vật có thật từ cổ đại đến hiện đại."
+    },
+    "modern-history-knowledge": {
+      "title": "Hiện đại Lịch sử Quát | woori.today",
+      "description": "Hiện đại Lịch sử Quát: Ôn lại sự kiện và nhân vật có thật từ cổ đại đến hiện đại."
+    },
+    "science-knowledge-quiz": {
+      "title": "Khoa học Quát Đố vui | woori.today",
+      "description": "Khoa học Quát Đố vui: Xem lại kiến thức nền tảng về sinh học, hóa học, vật lý và vũ trụ."
+    },
+    "space-quiz": {
+      "title": "Vũ trụ Đố vui | woori.today",
+      "description": "Vũ trụ Đố vui: Xem lại kiến thức nền tảng về sinh học, hóa học, vật lý và vũ trụ."
+    },
+    "biology-knowledge-quiz": {
+      "title": "Sinh học Quát Đố vui | woori.today",
+      "description": "Sinh học Quát Đố vui: Xem lại kiến thức nền tảng về sinh học, hóa học, vật lý và vũ trụ."
+    },
+    "world-geography": {
+      "title": "Thế giới Địa lý | woori.today",
+      "description": "Thế giới Địa lý: Xác định vị trí châu lục, quốc gia, thủ đô và địa hình tự nhiên."
+    },
+    "capital-cities-quiz": {
+      "title": "Thủ đô Thành phố Đố vui | woori.today",
+      "description": "Thủ đô Thành phố Đố vui: Xác định vị trí châu lục, quốc gia, thủ đô và địa hình tự nhiên."
+    },
+    "country-knowledge-quiz": {
+      "title": "Quốc gia Quát Đố vui | woori.today",
+      "description": "Quốc gia Quát Đố vui: Xác định vị trí châu lục, quốc gia, thủ đô và địa hình tự nhiên."
+    },
+    "language-knowledge-quiz": {
+      "title": "Ngôn ngữ Quát Đố vui | woori.today",
+      "description": "Ngôn ngữ Quát Đố vui: Khám phá từ vựng, ngữ pháp và các hệ chữ viết."
+    },
+    "english-vocabulary": {
+      "title": "Tiếng Anh Từ vựng | woori.today",
+      "description": "Tiếng Anh Từ vựng: Khám phá từ vựng, ngữ pháp và các hệ chữ viết."
+    },
+    "it-development-quiz": {
+      "title": "IT Phát triển Đố vui | woori.today",
+      "description": "IT Phát triển Đố vui: Ôn kiến thức cơ bản về web, lập trình, cơ sở dữ liệu và mạng."
+    },
+    "programming-knowledge-quiz": {
+      "title": "Lập trình Quát Đố vui | woori.today",
+      "description": "Lập trình Quát Đố vui: Ôn kiến thức cơ bản về web, lập trình, cơ sở dữ liệu và mạng."
+    },
+    "random-quiz": {
+      "title": "Ngẫu nhiên Đố vui | woori.today",
+      "description": "Ngẫu nhiên Đố vui: Giải một bộ câu hỏi mới được chọn từ nhiều lĩnh vực."
+    },
+    "random-math-10": {
+      "title": "Ngẫu nhiên Toán 10 | woori.today",
+      "description": "Ngẫu nhiên Toán 10: Giải một bộ câu hỏi mới được chọn từ nhiều lĩnh vực."
+    },
+    "random-nonsense-10": {
+      "title": "Ngẫu nhiên Đố vui 10 | woori.today",
+      "description": "Ngẫu nhiên Đố vui 10: Giải một bộ câu hỏi mới được chọn từ nhiều lĩnh vực."
+    },
+    "challenge-10": {
+      "title": "Thử thách 10 | woori.today",
+      "description": "Thử thách 10: Giữ tập trung khi làm liên tiếp số câu hỏi đã định."
+    },
+    "challenge-20": {
+      "title": "Thử thách 20 | woori.today",
+      "description": "Thử thách 20: Giữ tập trung khi làm liên tiếp số câu hỏi đã định."
+    }
+  },
+  "titleTermCount": 70,
+  "translatedQuizSlugs": [
+    "general-knowledge-quiz",
+    "everyday-knowledge-quiz",
+    "difficult-general-knowledge-quiz",
+    "world-capitals-quiz",
+    "country-flags-quiz",
+    "country-currency-quiz",
+    "country-location-quiz",
+    "asia-capitals-quiz",
+    "europe-capitals-quiz",
+    "world-geography-quiz",
+    "basic-science-quiz",
+    "physics-quiz",
+    "chemistry-quiz",
+    "biology-quiz",
+    "astronomy-quiz",
+    "difficult-science-quiz",
+    "world-history-quiz",
+    "korean-history-quiz",
+    "ancient-history-quiz",
+    "modern-history-quiz",
+    "addition-quiz",
+    "subtraction-quiz",
+    "multiplication-quiz",
+    "division-quiz",
+    "multiplication-table-quiz",
+    "mental-math-quiz",
+    "fraction-quiz",
+    "percentage-quiz",
+    "equation-quiz",
+    "arithmetic-challenge",
+    "english-vocabulary-quiz",
+    "english-spelling-quiz",
+    "english-grammar-quiz",
+    "hiragana-quiz",
+    "katakana-quiz",
+    "japanese-vocabulary-quiz",
+    "chinese-character-quiz",
+    "korean-vocabulary-quiz",
+    "computer-basics-quiz",
+    "programming-basics-quiz",
+    "web-development-quiz",
+    "database-quiz",
+    "network-basics-quiz",
+    "difficult-it-quiz",
+    "number-memory-test",
+    "word-memory-test",
+    "sequence-memory-test",
+    "visual-memory-test",
+    "pattern-recognition-test",
+    "concentration-test",
+    "reaction-time-test",
+    "click-speed-test",
+    "typing-speed-test",
+    "color-reaction-test",
+    "random-trivia-challenge",
+    "true-false-challenge",
+    "impossible-quiz",
+    "mixed-hard-quiz",
+    "general-knowledge",
+    "easy-general-knowledge",
+    "hard-general-knowledge",
+    "random-general-knowledge",
+    "adult-general-knowledge",
+    "daily-life-quiz",
+    "nonsense",
+    "easy-nonsense-quiz",
+    "riddle-quiz",
+    "brain-teaser",
+    "easy-brain-teaser",
+    "hard-brain-teaser",
+    "number-pattern-quiz",
+    "logic-reasoning-quiz",
+    "random-brain-teaser",
+    "math-basic",
+    "math-advanced",
+    "mental-arithmetic-test",
+    "sequence-math-quiz",
+    "probability-quiz",
+    "history-knowledge-quiz",
+    "ancient-civilizations-quiz",
+    "modern-history-knowledge",
+    "science-knowledge-quiz",
+    "space-quiz",
+    "biology-knowledge-quiz",
+    "world-geography",
+    "capital-cities-quiz",
+    "country-knowledge-quiz",
+    "language-knowledge-quiz",
+    "english-vocabulary",
+    "it-development-quiz",
+    "programming-knowledge-quiz",
+    "random-quiz",
+    "random-math-10",
+    "random-nonsense-10",
+    "challenge-10",
+    "challenge-20"
+  ],
+  "mathPrompts": {
+    "whatIsX": "Tìm giá trị của x.",
+    "findX": "Find x.",
+    "decimal": "số thập phân",
+    "percentage": "PERCENT_SLOT% của WHOLE_SLOT bằng bao nhiêu?",
+    "fraction": "FIRST_FRACTION_SLOT + SECOND_FRACTION_SLOT = ? (số thập phân)"
+  },
+  "interactiveTest": {
+    "passage": "Một chút tò mò có thể dẫn đến khám phá thú vị. Hãy đọc chậm và nhập thật chính xác.",
+    "copy": {
+      "start": "Bắt đầu",
+      "tap": "Nhấp khi ô chuyển xanh",
+      "go": "NHẤP NGAY",
+      "tooSoon": "Quá sớm. Hãy thử lại.",
+      "done": "Hoàn tất",
+      "submit": "Kiểm tra",
+      "remember": "Hãy ghi nhớ nội dung",
+      "type": "Nhập tại đây",
+      "accuracy": "Độ chính xác",
+      "errors": "Lỗi",
+      "wpm": "Từ/phút",
+      "time": "Thời gian",
+      "clicks": "Lượt nhấp",
+      "matched": "Cặp đã tìm",
+      "tryAgain": "Thử lại"
+    },
+    "memoryWords": "biển táo sao mây",
+    "extraCopy": {
+      "moves": "Lượt",
+      "tapFast": "Nhấn nhanh nhất có thể",
+      "cell": "Ô"
+    }
+  }
+}

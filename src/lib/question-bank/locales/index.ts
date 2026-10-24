@@ -1,4 +1,4 @@
-import type { Locale } from "../../i18n";
+import { locales, type Locale, type TargetLocale } from "../../i18n";
 import type { QuestionLocaleCopy, QuizQuestion } from "../types";
 import { mathPatternCopy } from "./math-patterns";
 import { brainPatternCopy } from "./brain-patterns";
@@ -65,54 +65,139 @@ const sciencePhrases = {
 };
 
 export async function generatedCopiesForLocale(
-  questions: readonly QuizQuestion[], locale: Locale,
+  questions: readonly QuizQuestion[], locale: TargetLocale,
 ): Promise<Map<string, QuestionLocaleCopy>> {
   const copies = new Map<string, QuestionLocaleCopy>();
   if (locale === "en") return copies;
+  if (locale === "ru") {
+    const { default: questionCopies } = await import("./ru/question-bank.json") as { default: Record<string, QuestionLocaleCopy> };
+    for (const question of questions) {
+      const copy = questionCopies[question.id];
+      if (copy) copies.set(question.id, copy);
+    }
+    return copies;
+  }
+  if (locale === "tr") {
+    const { default: questionCopies } = await import("./tr/question-bank.json") as { default: Record<string, QuestionLocaleCopy> };
+    for (const question of questions) {
+      const copy = questionCopies[question.id];
+      if (copy) copies.set(question.id, copy);
+    }
+    return copies;
+  }
+  if (locale === "pl") {
+    const { default: questionCopies } = await import("./pl/question-bank.json") as { default: Record<string, QuestionLocaleCopy> };
+    for (const question of questions) {
+      const copy = questionCopies[question.id];
+      if (copy) copies.set(question.id, copy);
+    }
+    return copies;
+  }
+  if (locale === "fil") {
+    const { default: questionCopies } = await import("./fil/question-bank.json") as { default: Record<string, QuestionLocaleCopy> };
+    for (const question of questions) {
+      const copy = questionCopies[question.id];
+      if (copy) copies.set(question.id, copy);
+    }
+    return copies;
+  }
+  if (locale === "bn") {
+    const { default: questionCopies } = await import("./bn/question-bank.json") as { default: Record<string, QuestionLocaleCopy> };
+    for (const question of questions) {
+      const copy = questionCopies[question.id];
+      if (copy) copies.set(question.id, copy);
+    }
+    return copies;
+  }
+  if (locale === "sv") {
+    const { default: questionCopies } = await import("./sv/question-bank.json") as { default: Record<string, QuestionLocaleCopy> };
+    for (const question of questions) {
+      const copy = questionCopies[question.id];
+      if (copy) copies.set(question.id, copy);
+    }
+    return copies;
+  }
+  if (locale === "cs") {
+    const { default: questionCopies } = await import("./cs/question-bank.json") as { default: Record<string, QuestionLocaleCopy> };
+    for (const question of questions) {
+      const copy = questionCopies[question.id];
+      if (copy) copies.set(question.id, copy);
+    }
+    return copies;
+  }
+  if (locale === "ms") {
+    const { default: questionCopies } = await import("./ms/question-bank.json") as { default: Record<string, QuestionLocaleCopy> };
+    for (const question of questions) {
+      const copy = questionCopies[question.id];
+      if (copy) copies.set(question.id, copy);
+    }
+    return copies;
+  }
+  if (locale === "uk") {
+    const { default: questionCopies } = await import("./uk/question-bank.json") as { default: Record<string, QuestionLocaleCopy> };
+    for (const question of questions) {
+      const copy = questionCopies[question.id];
+      if (copy) copies.set(question.id, copy);
+    }
+    return copies;
+  }
+  if (locale === "ro" || locale === "el") {
+    const { default: questionCopies } = locale === "ro"
+      ? await import("./ro/question-bank.json") as { default: Record<string, QuestionLocaleCopy> }
+      : await import("./el/question-bank.json") as { default: Record<string, QuestionLocaleCopy> };
+    for (const question of questions) {
+      const copy = questionCopies[question.id];
+      if (copy) copies.set(question.id, copy);
+    }
+    return copies;
+  }
+  if (!(locales as readonly string[]).includes(locale)) return copies;
+  const activeLocale = locale as Exclude<Locale, "ru" | "tr" | "pl" | "fil" | "bn" | "uk" | "ms" | "sv" | "cs" | "ro" | "el">;
+  if (activeLocale === "en") return copies;
   if (questions.some((q) => q.id.startsWith("math-x-"))) {
-    const { phrases } = await mathPhrases[locale]();
+    const { phrases } = await mathPhrases[activeLocale]();
     for (const question of questions) {
       const copy = mathPatternCopy(question, phrases);
       if (copy) copies.set(question.id, copy);
     }
   }
   if (questions.some((q) => q.id.startsWith("brain-x-pattern-"))) {
-    const { phrases } = await brainPhrases[locale]();
+    const { phrases } = await brainPhrases[activeLocale]();
     for (const question of questions) {
       const copy = brainPatternCopy(question, phrases);
       if (copy) copies.set(question.id, copy);
     }
   }
   if (questions.some((q) => q.id.startsWith("geography-x-"))) {
-    const { phrases, featurePhrases } = await geographyPhrases[locale]();
+    const { phrases, featurePhrases } = await geographyPhrases[activeLocale]();
     for (const question of questions) {
-      const copy = capitalCopy(question, locale, phrases) ?? featureCopy(question, locale, featurePhrases);
+      const copy = capitalCopy(question, activeLocale, phrases) ?? featureCopy(question, activeLocale, featurePhrases);
       if (copy) copies.set(question.id, copy);
     }
   }
   if (questions.some((q) => q.id.startsWith("language-x-vocab-"))) {
-    const { phrases } = await languagePhrases[locale]();
+    const { phrases } = await languagePhrases[activeLocale]();
     for (const question of questions) {
       const copy = vocabularyCopy(question, phrases);
       if (copy) copies.set(question.id, copy);
     }
   }
   if (questions.some((q) => q.id.startsWith("it-x-concept-"))) {
-    const { phrases } = await technologyPhrases[locale]();
+    const { phrases } = await technologyPhrases[activeLocale]();
     for (const question of questions) {
       const copy = technologyCopy(question, questions, phrases);
       if (copy) copies.set(question.id, copy);
     }
   }
   if (questions.some((q) => q.id.startsWith("history-x-"))) {
-    const { phrases } = await historyPhrases[locale]();
+    const { phrases } = await historyPhrases[activeLocale]();
     for (const question of questions) {
       const copy = historyCopy(question, phrases);
       if (copy) copies.set(question.id, copy);
     }
   }
   if (questions.some((q) => q.id.startsWith("science-x-"))) {
-    const { phrases } = await sciencePhrases[locale]();
+    const { phrases } = await sciencePhrases[activeLocale]();
     for (const question of questions) {
       const copy = scienceCopy(question, questions, phrases);
       if (copy) copies.set(question.id, copy);
@@ -124,6 +209,37 @@ export async function generatedCopiesForLocale(
     ]);
     for (const question of questions) {
       const copy = legacyKoreanCopies[question.id] ?? generalKoreanCopy(question) ?? nonsenseKoreanCopy(question);
+      if (copy) copies.set(question.id, copy);
+    }
+  }
+  if (activeLocale === "ja" || activeLocale === "zh" || activeLocale === "es" || activeLocale === "pt-br" || activeLocale === "de" || activeLocale === "fr" || activeLocale === "vi" || activeLocale === "id" || activeLocale === "th" || activeLocale === "zh-tw" || activeLocale === "it" || activeLocale === "nl" || activeLocale === "hi") {
+    const { default: questionCopies } = activeLocale === "ja"
+      ? await import("./ja/question-bank.json") as { default: Record<string, QuestionLocaleCopy> }
+      : activeLocale === "zh"
+        ? await import("./zh/question-bank.json") as { default: Record<string, QuestionLocaleCopy> }
+        : activeLocale === "es"
+          ? await import("./es/question-bank.json") as { default: Record<string, QuestionLocaleCopy> }
+          : activeLocale === "pt-br"
+            ? await import("./pt-br/question-bank.json") as { default: Record<string, QuestionLocaleCopy> }
+            : activeLocale === "de"
+              ? await import("./de/question-bank.json") as { default: Record<string, QuestionLocaleCopy> }
+              : activeLocale === "fr"
+                ? await import("./fr/question-bank.json") as { default: Record<string, QuestionLocaleCopy> }
+                : activeLocale === "vi"
+                  ? await import("./vi/question-bank.json") as { default: Record<string, QuestionLocaleCopy> }
+                  : activeLocale === "id"
+                    ? await import("./id/question-bank.json") as { default: Record<string, QuestionLocaleCopy> }
+                    : activeLocale === "th"
+                      ? await import("./th/question-bank.json") as { default: Record<string, QuestionLocaleCopy> }
+                      : activeLocale === "zh-tw"
+                        ? await import("./zh-tw/question-bank.json") as { default: Record<string, QuestionLocaleCopy> }
+                        : activeLocale === "it"
+                          ? await import("./it/question-bank.json") as { default: Record<string, QuestionLocaleCopy> }
+                          : activeLocale === "nl"
+                            ? await import("./nl/question-bank.json") as { default: Record<string, QuestionLocaleCopy> }
+                            : await import("./hi/question-bank.json") as { default: Record<string, QuestionLocaleCopy> };
+    for (const question of questions) {
+      const copy = questionCopies[question.id];
       if (copy) copies.set(question.id, copy);
     }
   }

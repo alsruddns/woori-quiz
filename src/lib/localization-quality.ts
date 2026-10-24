@@ -1,16 +1,17 @@
 import type { Locale } from "./i18n";
-import { detailCopy, discoveryCopy, locales, messages, uiMessages } from "./i18n";
+import { detailCopy, discoveryCopy, locales, messages, publishedLocales, uiMessages } from "./i18n";
 import { categoryDescription, serviceGuide } from "./content-copy";
 import { hasQuizTermTranslations, localizeMathPrompt, quizCategoryName } from "./quiz-copy";
 import { categories, quizzes, type Quiz } from "./registry";
 import { generateMathQuestion } from "./math";
 import { questionCategoryForQuiz, questionCopyResultForLocale, questionTagForQuiz, type QuizQuestion } from "./question-bank/core";
 import { loadQuestionBankForCategory } from "./question-bank/select-questions";
+import { loadLocaleCatalogForServer } from "./locale-catalog";
 
 export const LOCALIZATION_INDEX_THRESHOLD = {
-  questionRate: 0.95,
-  choiceRate: 0.95,
-  explanationRate: 0.9,
+  questionRate: 1,
+  choiceRate: 1,
+  explanationRate: 1,
 } as const;
 
 export type LocalizationQuality = {
@@ -42,13 +43,178 @@ export type QuestionLocalizationGap = {
 
 const poolCache = new Map<string, Promise<QuizQuestion[]>>();
 const qualityCache = new Map<string, Promise<LocalizationQuality>>();
+const localeContentCache = new Map<Locale, Promise<boolean>>();
 
 function isNeutral(value: string): boolean {
   return /^[\s\p{N}\p{S}\p{P}]+$/u.test(value);
 }
 
-function isPreservedChoice(question: QuizQuestion, value: string): boolean {
+const spanishInvariantChoices = new Set([
+  "Antonio Vivaldi", "Asia", "Australia", "Austria", "Beagle", "Buchaechum", "Buzz Aldrin",
+  "Chuseok", "Galileo", "Gayageum", "Hangul", "Hanok", "Isaac Newton", "Johannes Gutenberg",
+  "John Glenn", "Kimchi", "Lava", "Magma", "Marco Polo", "Mayflower", "Neil Armstrong",
+  "Newton", "No", "Ondol", "Origami", "Osaka", "Pascal", "Persia", "Piano",
+  "Proxima Centauri", "Rugby", "Sapporo", "Ssireum", "Tanzania", "Uganda", "Venus",
+  "Yen", "Yuri Gagarin",
+]);
+const brazilianPortugueseInvariantChoices = new Set([
+  "Antonio Vivaldi", "Badminton", "Beagle", "Buchaechum", "Buzz Aldrin", "Chuseok", "Endeavour",
+  "Galileo", "Gayageum", "Hangul", "Hanok", "Isaac Newton", "Johannes Gutenberg", "John Glenn",
+  "Joule", "Kimchi", "Kyoto", "Lava", "Magma", "Marco Polo", "Mayflower", "Michelangelo",
+  "Neil Armstrong", "Newton", "Ondol", "Origami", "Osaka", "Ampere", "Pascal", "Peru",
+  "Piano", "Proxima Centauri", "Rugby", "Santa Maria", "Sapporo", "Ssireum", "Uganda", "Watt",
+  "Won", "Yuri Gagarin",
+]);
+const germanInvariantChoices = new Set([
+  "Aluminium", "Ampere", "Antonio Vivaldi", "Argon", "Avocado", "Badminton", "Barometer", "Beagle",
+  "Buchaechum", "Buzz Aldrin", "Cello", "Chuseok", "Endeavour", "England", "Galileo", "Gayageum",
+  "Hangul", "Hanok", "Helium", "Hygrometer", "Isaac Newton", "Johannes Gutenberg", "John Glenn",
+  "Joule", "Jupiter", "Kimchi", "Kyoto", "Lava", "Magma", "Marco Polo", "Mars", "Mayflower", "Meter",
+  "Michelangelo", "Monitor", "Neil Armstrong", "Neutron", "Newton", "Ondol", "Origami", "Osaka",
+  "Pascal", "Peru", "Photon", "Proxima Centauri", "Proton", "Roman", "Router", "Rugby", "Santa Maria",
+  "Sapporo", "Saturn", "Seine", "Seoul", "Ssireum", "Sublimation", "Sudan", "Tennis", "Thermometer",
+  "Uganda", "Uniform Resource Locator", "Venus", "Vitamin C", "Vitamin D", "Watt", "Yen", "Yuri Gagarin",
+]);
+const frenchInvariantChoices = new Set([
+  "Aluminium", "Argon", "Badminton", "Beagle", "Buchaechum", "Buzz Aldrin", "Canada", "Chuseok",
+  "Danube", "Europe", "Gayageum", "Glucose", "Hanok", "Inscription", "Isaac Newton", "Joule",
+  "Jupiter", "Kenya", "Kimchi", "Kyoto", "Magma", "Mars", "Marco Polo", "Neutron", "Newton",
+  "Octal", "Ondol", "Origami", "Piano", "Photon", "Positive", "Proton", "Ribosome", "Rome",
+  "Rugby", "Sapporo", "Seine", "Six", "Sublimation", "Tokyo", "Triangle", "Tennis", "Watt",
+  "Yen", "Yuri Gagarin", "Antonio Vivaldi", "Johannes Gutenberg", "Neil Armstrong", "John Glenn",
+  "Buzz Aldrin", "Santa Maria", "Mayflower", "Endeavour", "Uganda", "Peru", "Pascal", "Michelangelo",
+  "Quartz", "Fruit", "Friction", "Milan", "Naples", "Omnivore", "Ssireum",
+]);
+const vietnameseInvariantChoices = new Set([
+  "Antonio Vivaldi", "Argon", "Buchaechum", "Buzz Aldrin", "Canada", "Cello", "Chuseok", "Corundum",
+  "Ethiopia", "Galileo", "Glucose", "Hangul", "Hanok", "Isaac Newton", "Johannes Gutenberg",
+  "John Glenn", "Jordan", "Kenya", "Kyoto", "Magma", "Marco Polo", "Michelangelo", "Neil Armstrong",
+  "Newton", "Origami", "Osaka", "Pascal", "Peru", "Photon", "Proxima Centauri", "Santa Maria",
+  "Sapporo", "Seoul", "Ssireum", "Sudan", "Tanzania", "Tokyo", "Uganda", "Venice", "Vitamin C", "Vitamin D",
+]);
+const indonesianInvariantChoices = new Set([
+  "Aluminium", "Ampere", "Antonio Vivaldi", "Argon", "Asia", "Australia", "Austria", "Barometer",
+  "Buchaechum", "Buzz Aldrin", "Chuseok", "Danube", "Denmark", "Galileo", "Gayageum", "Hangul",
+  "Hanok", "Helium", "Isaac Newton", "Johannes Gutenberg", "John Glenn", "Joule", "Jupiter", "Kenya",
+  "Kimchi", "Kyoto", "Lava", "Magma", "Mars", "Meter", "Michelangelo", "Milan", "Newton", "Nitrogen",
+  "Ondol", "Orbit", "Origami", "Osaka", "Pascal", "Persia", "Peru", "Piano", "Proton",
+  "Proxima Centauri", "Santa Maria", "Sapporo", "Sudan", "Tanzania", "Tokyo", "Uganda", "Venus",
+  "Vitamin C", "Vitamin D", "Watt", "Won", "Yen", "Yuri Gagarin",
+]);
+const italianInvariantChoices = new Set([
+  "Africa", "Ampere", "Antonio Vivaldi", "Argon", "Asia", "Australia", "Austria", "Avocado", "Badminton",
+  "Beagle", "Buchaechum", "Buzz Aldrin", "Calcite", "Canada", "Chuseok", "Galileo", "Gayageum", "Hangul",
+  "Hanok", "Johannes Gutenberg", "John Glenn", "Joule", "Kimchi", "Kyoto", "Lava", "Magma", "Marco Polo",
+  "Mayflower", "Michelangelo", "Neil Armstrong", "Newton", "Ondol", "Origami", "Osaka", "Pascal", "Persia",
+  "Router", "Rugby", "Sapporo", "Sudan", "Tanzania", "Tennis", "Uganda", "Watt", "Yen", "Yuri Gagarin",
+]);
+const dutchInvariantChoices = new Set([
+  "Aluminium", "Antarctica", "Antonio Vivaldi", "Argon", "Avocado", "Badminton", "Barometer", "Buchaechum",
+  "Buzz Aldrin", "Canada", "Cello", "Chuseok", "Fruit", "Galileo", "Gayageum", "Glucose", "Hangul", "Hanok",
+  "Helium", "Hygrometer", "Johannes Gutenberg", "John Glenn", "Joule", "Jupiter", "Kimchi", "Lava", "Magma",
+  "Marco Polo", "Mars", "Meter", "Michelangelo", "Monitor", "Neil Armstrong", "Neutron", "Newton", "Ondol",
+  "Origami", "Osaka", "Pascal", "Peru", "Piano", "Printer", "Proton", "Proxima Centauri", "Rome", "Router",
+  "Rugby", "Santa Maria", "Sapporo", "Seine", "Tanzania", "Tennis", "Thermometer", "Venus", "Watt", "Won", "Yen",
+]);
+const turkishInvariantChoices = new Set([
+  "Antonio Vivaldi", "Argon", "Ampere", "Badminton", "Beagle", "Buchaechum", "Buzz Aldrin",
+  "Chuseok", "Endeavour", "Galileo", "Gayageum", "Hangul", "Hanok", "Isaac Newton", "Kenya",
+  "Johannes Gutenberg", "John Glenn", "Joule", "Kimchi", "Kyoto", "Marco Polo", "Mayflower", "Mars",
+  "Magma", "Michelangelo", "Milan", "Neil Armstrong", "Newton", "Ondol", "Origami", "Osaka",
+  "Pascal", "Peru", "Proxima Centauri", "Proton", "Neutron", "Rugby", "Santa Maria", "Sapporo", "Seine",
+  "Ssireum", "Sudan", "Thames", "Tokyo", "Topaz", "Uganda", "Watt", "Yen", "Yuri Gagarin",
+]);
+export const polishInvariantChoices = new Set([
+  "0 \u00b0C", "10 \u00b0C", "32 \u00b0C", "50 \u00b0C", "75 \u00b0C", "100 \u00b0C", "150 \u00b0C", "0\u00b0", "15\u00b0", "30\u00b0",
+  "C", "S", "T", "U", "V", "O", "Na", "Fe", "Au", "NaCl", "DNA", "Proton", "Neutron", "Argon", "Aluminium",
+  "Ampere", "Joule", "Newton", "Pascal", "Saturn", "Magma", "Mars", "Proxima Centauri", "Badminton", "Piano", "Rugby",
+  "Hangul", "Ssireum", "Origami", "Buchaechum", "Gayageum", "Ondol", "Canberra", "Australia", "Ottawa", "Bras\u00edlia", "Buenos Aires",
+  "Santiago", "Lima", "Berlin", "Oslo", "Helsinki", "Nairobi", "Addis Ababa", "Abuja", "Bangkok", "Hanoi", "Jakarta",
+  "Wellington", "Dublin", "Reykjav\u00edk", "Ankara", "Sapporo", "Sudan", "Austria", "Peru", "Tanzania", "Uganda", "Milan",
+  "Galileo", "Antonio Vivaldi", "Michelangelo", "Johannes Gutenberg", "Isaac Newton", "Marco Polo", "Buzz Aldrin", "Yuri Gagarin",
+  "Neil Armstrong", "John Glenn", "Santa Maria", "Java", "JavaScript", "Swift", "Router", "Monitor", "SQL", "HTML", "CSS", "PNG",
+  ".png", ".mp3", ".csv", ".exe", "Islamabad", "Dhaka", "Osaka", "Rabat", "Ulaanbaatar", "Topaz", "Beagle", "Chuseok", "Hanok", "Pentagon",
+  "Santa Maria", "Mayflower", "Endeavour",
+]);
+const filipinoInvariantChoices = new Set([
+  "Canada", "Cello", "Danube", "Denmark", "Europe", "India", "Indian", "Jordan", "Jupiter", "Kenya",
+  "Kyoto", "Morocco", "Naples", "Persia", "Rhine", "Roman", "Seine", "Seoul", "Thames", "Tokyo",
+  "Venice", "Venus", "Watt", "Won", "Yen", "Octal", "Orbit", "Pacific", "Quartz", "Ribosome",
+  "Keyboard", "Kimchi", "Lava", "Neutral", "Plum", "Tennis",
+]);
+const bengaliInvariantChoices = new Set([
+  "0 °C", "10 °C", "32 °C", "50 °C", "75 °C", "100 °C", "150 °C", "0°", "7.5°", "15°", "30°",
+  "1325 CE", "221 BCE", "490 BCE", "C", "O", "S", "T", "U", "V", "DNA", "CSS", "HTML", "SQL", "PNG",
+  ".png", ".mp3", ".csv", ".exe",
+]);
+const swedishInvariantChoices = new Set([
+  "Aluminium", "Ampere", "Argon", "Barometer", "Badminton", "Beagle", "Buchaechum",
+  "Buzz Aldrin", "Cello", "Chuseok", "England", "Galileo", "Gayageum", "Hangul", "Hanok",
+  "Helium", "Hygrometer", "Isaac Newton", "Johannes Gutenberg", "John Glenn", "Joule",
+  "Jupiter", "Kenya", "Kimchi", "Kyoto", "Lava", "Marco Polo", "Mars", "Mayflower",
+  "Meter", "Michelangelo", "Magma", "Neutron", "Newton", "Ondol", "Osaka", "Origami",
+  "Pentagon", "Pascal", "Peru", "Piano", "Proxima Centauri", "Proton", "Rugby", "Sapporo",
+  "Santa Maria", "Seine", "Seoul", "Sudan", "Tanzania", "Tokyo", "Uganda", "Venus",
+  "Vitamin C", "Vitamin D", "Watt", "Yen", "Yuri Gagarin", "Antonio Vivaldi", "Chuseok",
+  "Antonio Vivaldi", "Buzz Aldrin", "Neil Armstrong", "John Glenn", "Yuri Gagarin",
+  "Roman Empire", "Mongol Empire", "Mali Empire", "Inca Empire", "Endeavour", "Router",
+  "Uniform Resource Locator", "SQL", "HTML", "CSS", "PNG", "DNA", "NaCl", "Au", "Na", "Fe", "O",
+  "C", "S", "T", "U", "V", "Neutral", "Magnetism", "Proxima Centauri", "Cello",
+  "Tennis", "Badminton", "Ssireum", "Won", "Vitamin C", "Vitamin D", "Argon", "Helium",
+]);
+const czechInvariantChoices = new Set([
+  "Mars", "Jupiter", "Osaka", "Tokyo", "Sapporo", "Egypt", "Peru", "Uganda", "Galileo",
+  "Johannes Gutenberg", "Isaac Newton", "Marco Polo", "Buzz Aldrin", "Yuri Gagarin",
+  "Neil Armstrong", "John Glenn", "Santa Maria", "Mayflower", "Endeavour", "Beagle",
+  "Proxima Centauri", "Michelangelo", "Chuseok", "Ondol", "Buchaechum", "Hanok",
+  "Gayageum", "Antonio Vivaldi", "Hangul", "Ssireum", "Saturn",
+]);
+const romanianInvariantChoices = new Set([
+  "Africa", "Antarctica", "Antonio Vivaldi", "Argon", "Asia", "Australia", "Austria", "Avocado",
+  "Badminton", "Beagle", "Buchaechum", "Buzz Aldrin", "Canada", "Chuseok", "Electron", "Galileo",
+  "Gayageum", "Hangul", "Hanok", "Isaac Newton", "Johannes Gutenberg", "John Glenn", "Jupiter",
+  "Kenya", "Kyoto", "Magma", "Magnetism", "Marco Polo", "Mayflower", "Michelangelo", "Monitor",
+  "Neil Armstrong", "Neutron", "Octal", "Ondol", "Origami", "Osaka", "Pascal", "Pentagon", "Persia",
+  "Proxima Centauri", "Proton", "Router", "Rugby", "Santa Maria", "Sapporo", "Saturn", "Ssireum",
+  "Sudan", "Tanzania", "Topaz", "Uganda", "Venus", "Yen", "Yuri Gagarin",
+]);
+const malayInvariantChoices = new Set([
+  "Aluminium", "Ampere", "Antonio Vivaldi", "Argon", "Asia", "Australia", "Austria", "Badminton",
+  "Barometer", "Buchaechum", "Buzz Aldrin", "Chuseok", "Danube", "Denmark", "Ethiopia",
+  "Galileo", "Gayageum", "Hangul", "Hanok", "Helium", "Isaac Newton", "Jordan",
+  "Johannes Gutenberg", "John Glenn", "Joule", "Kenya", "Kimchi", "Kyoto", "Lava",
+  "Marco Polo", "Mayflower", "Meter", "Michelangelo", "Milan", "Monitor", "Naples",
+  "Neil Armstrong", "Neutron", "Newton", "Ondol", "Orbit", "Origami", "Osaka", "Pascal",
+  "Pentagon", "Peru", "Piano", "Printer", "Proxima Centauri", "Rhine", "Rugby", "Sapporo",
+  "Santa Maria", "Seine", "Seoul", "Sudan", "Tanzania", "Thames", "Tokyo", "Uganda",
+  "Venice", "Won", "Yen", "Yuri Gagarin", "Vitamin C", "Vitamin D", "Watt", "Magma",
+  "Plum", "Topaz", "Nitrogen", "Proton", "Roman", "Cello", "Mercury", "Stratosphere",
+  "Asia", "Australia", "Barometer", "Ampere", "Joule", "Pascal", "Argon", "Helium",
+]);
+const ukrainianInvariantChoices = new Set([
+  "Antonio Vivaldi", "Beagle", "CSS", "Chuseok", "Fe", "HTML", "Java", "JavaScript", "John Glenn",
+  "Marco Polo", "Neil Armstrong", "O", "PNG", "SQL", "Ssireum", "S", "T", "U", "V", "Yuri Gagarin",
+]);
+
+function isPreservedChoice(question: QuizQuestion, value: string, locale: Locale): boolean {
   if (isNeutral(value)) return true;
+  if (locale === "tr" && turkishInvariantChoices.has(value)) return true;
+  if (locale === "pl" && polishInvariantChoices.has(value)) return true;
+  if (locale === "fil" && (filipinoInvariantChoices.has(value) || polishInvariantChoices.has(value))) return true;
+  if (locale === "bn" && bengaliInvariantChoices.has(value)) return true;
+  if (locale === "uk" && ukrainianInvariantChoices.has(value)) return true;
+  if (locale === "ms" && malayInvariantChoices.has(value)) return true;
+  if (locale === "sv" && swedishInvariantChoices.has(value)) return true;
+  if (locale === "cs" && czechInvariantChoices.has(value)) return true;
+  if (locale === "ro" && romanianInvariantChoices.has(value)) return true;
+  if (locale === "es" && spanishInvariantChoices.has(value)) return true;
+  if (locale === "pt-br" && brazilianPortugueseInvariantChoices.has(value)) return true;
+  if (locale === "de" && germanInvariantChoices.has(value)) return true;
+  if (locale === "fr" && frenchInvariantChoices.has(value)) return true;
+  if (locale === "vi" && vietnameseInvariantChoices.has(value)) return true;
+  if (locale === "id" && indonesianInvariantChoices.has(value)) return true;
+  if (locale === "it" && italianInvariantChoices.has(value)) return true;
+  if (locale === "nl" && dutchInvariantChoices.has(value)) return true;
   if (question.category === "language") return true;
   if (question.category === "brain" && /^[A-Z]$/.test(value)) return true;
   if (/^[\d,.]+\s?(?:°[CF]|km\/s)$/.test(value)) return true;
@@ -61,16 +227,18 @@ function isPreservedChoice(question: QuizQuestion, value: string): boolean {
 }
 
 function differentFromEnglish(value: string, english: string): boolean {
-  return value.trim().length > 0 && value.trim() !== english.trim();
+  return value.trim().length > 0 && !/[\uFFFD]|\?{2,}/u.test(value) && value.trim() !== english.trim();
 }
 
 function hasLocalizedLabel(locale: Locale, key: string, value: string, english: string): boolean {
+  if (/[\uFFFD]|\?{2,}/u.test(value)) return false;
   if (differentFromEnglish(value, english)) return true;
   const sharedLabels: Partial<Record<Locale, Record<string, string>>> = {
-    es: { title: "Quiz" }, "pt-br": { title: "Quiz" }, de: { title: "Quiz" },
+    es: { title: "Quiz" }, "pt-br": { title: "Quiz" }, de: { title: "Quiz" }, sv: { title: "Quiz" },
     fr: { title: "Quiz", question: "Question", contact: "Contact", score: "Score" },
     it: { title: "Quiz", home: "Home", privacy: "Privacy" },
     nl: { title: "Quiz", home: "Home", privacy: "Privacy", contact: "Contact", score: "Score" },
+    ro: { contact: "Contact" },
   };
   return sharedLabels[locale]?.[key] === value;
 }
@@ -136,13 +304,18 @@ function listPageIsLocalized(locale: Locale): boolean {
   return messagesLocalized && discoveryLocalized && categoriesLocalized && quizzesLocalized && footerLocalized && resultCopyIsLocalized(locale);
 }
 
-export function getListLocalizationQuality(locale: Locale): { complete: boolean; indexable: boolean } {
-  const complete = listPageIsLocalized(locale);
-  return { complete, indexable: complete };
+export async function getListLocalizationQuality(locale: Locale): Promise<{ complete: boolean; indexable: boolean }> {
+  await loadLocaleCatalogForServer(locale);
+  const complete = await localeContentIsComplete(locale);
+  return { complete, indexable: complete && publishedLocales.includes(locale as (typeof publishedLocales)[number]) };
 }
 
-export function getIndexableListLocales(): Locale[] {
-  return locales.filter((locale) => getListLocalizationQuality(locale).indexable);
+export async function getIndexableListLocales(): Promise<Locale[]> {
+  const available: Locale[] = [];
+  for (const locale of publishedLocales) {
+    if ((await getListLocalizationQuality(locale)).indexable) available.push(locale);
+  }
+  return available;
 }
 
 function getPool(category: string, locale: Locale): Promise<QuizQuestion[]> {
@@ -153,6 +326,27 @@ function getPool(category: string, locale: Locale): Promise<QuizQuestion[]> {
     poolCache.set(key, pool);
   }
   return pool;
+}
+
+async function localeContentIsComplete(locale: Locale): Promise<boolean> {
+  if (locale === "en") return true;
+  let pending = localeContentCache.get(locale);
+  if (!pending) {
+    pending = (async () => {
+      const questions = await getPool("all", locale);
+      for (const question of questions) {
+        const result = questionCopyResultForLocale(question, locale);
+        if (result.questionIsFallback && !isNeutral(result.value.question)) return false;
+        if (question.options.some((option, index) =>
+          result.optionFallbacks[index] && !isPreservedChoice(question, option, locale),
+        )) return false;
+        if (!isNeutral(question.explanation) && result.explanationIsFallback) return false;
+      }
+      return listPageIsLocalized(locale);
+    })();
+    localeContentCache.set(locale, pending);
+  }
+  return pending;
 }
 
 async function questionsForQuiz(quiz: Quiz, locale: Locale): Promise<QuizQuestion[]> {
@@ -198,6 +392,7 @@ const dynamicMathPromptSamples: Record<string, string[]> = {
 };
 
 export async function getQuizLocalizationQuality(locale: Locale, quiz: Quiz): Promise<LocalizationQuality> {
+  await loadLocaleCatalogForServer(locale);
   const cacheKey = `${locale}:${quiz.slug}`;
   let pending = qualityCache.get(cacheKey);
   if (!pending) {
@@ -205,6 +400,7 @@ export async function getQuizLocalizationQuality(locale: Locale, quiz: Quiz): Pr
       const titleTranslated = locale === "en" || hasQuizTermTranslations(locale, [quiz.slug]);
       const descriptionTranslated = locale === "en" || differentFromEnglish(categoryDescription(locale, quiz.category), categoryDescription("en", quiz.category));
       const resultTranslated = resultCopyIsLocalized(locale);
+      const localeComplete = await localeContentIsComplete(locale);
 
       if (quiz.mode !== "bank") {
         let questionRate = 1;
@@ -218,10 +414,10 @@ export async function getQuizLocalizationQuality(locale: Locale, quiz: Quiz): Pr
           }
           questionRate = translatedPrompts / samples.length;
         }
-        const complete = titleTranslated && descriptionTranslated && resultTranslated
+        const complete = localeComplete && titleTranslated && descriptionTranslated && resultTranslated
           && questionRate >= LOCALIZATION_INDEX_THRESHOLD.questionRate;
         return {
-          complete, indexable: locale === "en" || complete,
+          complete, indexable: locale === "en" || (publishedLocales.includes(locale as (typeof publishedLocales)[number]) && complete),
           titleTranslated, descriptionTranslated, resultTranslated,
           questionRate, choiceRate: 1, explanationRate: 1,
           questionCount: 0, translatedQuestionCount: 0, choiceCount: 0,
@@ -240,7 +436,7 @@ export async function getQuizLocalizationQuality(locale: Locale, quiz: Quiz): Pr
         if (!result.questionIsFallback || isNeutral(result.value.question)) translatedQuestionCount++;
         const copy = result.value;
         question.options.forEach((original, index) => {
-          if (isPreservedChoice(question, original)) return;
+          if (isPreservedChoice(question, original, locale)) return;
           choiceCount++;
           if (!result.optionFallbacks[index] && copy.options[index] !== original) translatedChoiceCount++;
         });
@@ -252,12 +448,12 @@ export async function getQuizLocalizationQuality(locale: Locale, quiz: Quiz): Pr
       const questionRate = rate(translatedQuestionCount, questions.length);
       const choiceRate = rate(translatedChoiceCount, choiceCount);
       const explanationRate = rate(translatedExplanationCount, explanationCount);
-      const complete = titleTranslated && descriptionTranslated && resultTranslated
+      const complete = localeComplete && titleTranslated && descriptionTranslated && resultTranslated
         && questionRate >= LOCALIZATION_INDEX_THRESHOLD.questionRate
         && choiceRate >= LOCALIZATION_INDEX_THRESHOLD.choiceRate
         && explanationRate >= LOCALIZATION_INDEX_THRESHOLD.explanationRate;
       return {
-        complete, indexable: locale === "en" || complete,
+        complete, indexable: locale === "en" || (publishedLocales.includes(locale as (typeof publishedLocales)[number]) && complete),
         titleTranslated, descriptionTranslated, resultTranslated,
         questionRate, choiceRate, explanationRate,
         questionCount: questions.length, translatedQuestionCount,
@@ -273,7 +469,7 @@ export async function getIndexableQuizLocales(slug: string): Promise<Locale[]> {
   const quiz = quizzes.find((item) => item.slug === slug && item.isPublic);
   if (!quiz) return [];
   const available: Locale[] = [];
-  for (const locale of locales) {
+  for (const locale of publishedLocales) {
     const quality = await getQuizLocalizationQuality(locale, quiz);
     if (quality.indexable) available.push(locale);
   }
@@ -290,14 +486,14 @@ export async function getLocalizationAudit() {
     let indexableQuizCount = 0;
     for (const quiz of detailQuizzes) {
       const quality = await getQuizLocalizationQuality(locale, quiz);
-      if (quality.indexable) indexableQuizCount++;
+      if (quality.indexable && publishedLocales.includes(locale as (typeof publishedLocales)[number])) indexableQuizCount++;
     }
     if (locale !== "en") {
       for (const question of await getPool("all", locale)) {
         const copy = questionCopyResultForLocale(question, locale).value;
         if (copy.question === question.question) questionFallbacks++;
         question.options.forEach((option, index) => {
-          if (copy.options[index] === option && !isPreservedChoice(question, option)) choiceFallbacks++;
+          if (copy.options[index] === option && !isPreservedChoice(question, option, locale)) choiceFallbacks++;
         });
         if (copy.explanation === question.explanation) explanationFallbacks++;
       }
@@ -308,7 +504,7 @@ export async function getLocalizationAudit() {
       noindexQuizCount: detailQuizzes.length - indexableQuizCount,
     };
   }
-  const listLocales = getIndexableListLocales();
+  const listLocales = await getIndexableListLocales();
   const detailUrlCount = Object.values(byLocale).reduce((sum, item) => sum + item.indexableQuizCount, 0);
   return {
     byLocale,
@@ -326,7 +522,7 @@ export async function getQuestionLocalizationGaps(locale: Locale): Promise<Quest
   for (const question of await getPool("all", locale)) {
     const copy = questionCopyResultForLocale(question, locale);
     const missingChoiceIndexes = question.options.flatMap((option, index) =>
-      copy.optionFallbacks[index] && !isPreservedChoice(question, option) ? [index] : [],
+      copy.optionFallbacks[index] && !isPreservedChoice(question, option, locale) ? [index] : [],
     );
     const missing: QuestionLocalizationGap["missing"] = [];
     if (copy.questionIsFallback) missing.push("question");

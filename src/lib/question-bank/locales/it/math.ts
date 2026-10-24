@@ -1,6 +1,7 @@
 import type { MathPhrases } from "../math-patterns";
 export const phrases: MathPhrases = {
-  sum: (a,b) => `Quanto fa ${a} + ${b}?`, product: (a,b) => `Quanto fa ${a} × ${b}?`,
+  sum: (a,b) => `Quanto fa ${a} + ${b}?`, sumWhy: (a,b,result) => `${a} più ${b} dà ${result}.`,
+  product: (a,b) => `Quanto fa ${a} × ${b}?`, productWhy: (a,b,result) => `${a} moltiplicato per ${b} dà ${result}.`,
   equation: (a,b,c) => `Risolvi ${a}x + ${b} = ${c} per trovare x.`, equationWhy: (a,b,x) => `Sottrai ${b} e dividi per ${a}: x = ${x}.`,
   percent: (p,n) => `Quanto fa il ${p}% di ${n}?`, percentWhy: (n,p,x) => `${n} × ${p} ÷ 100 = ${x}.`,
   sequence: (s) => `Qual è il termine successivo della sequenza ${s}, __?`, sequenceWhy: (n,x) => `Sono quadrati consecutivi moltiplicati per ${n}. Segue 5² × ${n} = ${x}.`,

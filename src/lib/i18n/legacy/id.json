@@ -1,0 +1,684 @@
+{
+  "localeName": "Bahasa Indonesia",
+  "messages": {
+    "title": "Kuis",
+    "subtitle": "Bangkitkan rasa ingin tahu setiap hari.",
+    "search": "Cari kuis",
+    "today": "Kuis hari ini",
+    "categories": "Kategori",
+    "popular": "Kuis populer",
+    "play": "Mulai",
+    "question": "Pertanyaan",
+    "next": "Berikutnya",
+    "submit": "Periksa jawaban",
+    "result": "Hasil",
+    "retry": "Coba lagi",
+    "home": "Beranda",
+    "related": "Kuis terkait",
+    "score": "Skor",
+    "footer": "Privasi · Panduan · Kontak"
+  },
+  "ui": {
+    "familySites": "Layanan terkait",
+    "portal": "Portal",
+    "calculator": "Kalkulator",
+    "tools": "Alat online",
+    "moneyBook": "Buku keuangan bersama gratis",
+    "docs": "Dokumen & formulir",
+    "quiz": "Kuis & tes",
+    "language": "Pilih bahasa",
+    "openMenu": "Buka menu layanan",
+    "closeMenu": "Tutup menu layanan",
+    "allQuizzes": "Semua kuis",
+    "freeToPlay": "Gratis dimainkan",
+    "noAccount": "Tanpa perlu akun",
+    "heroEyebrow": "Saat rasa ingin tahu muncul",
+    "heroTitle": "Bangkitkan rasa ingin tahu lewat kuis",
+    "heroDescription": "Coba tantangan singkat dan temukan hal baru.",
+    "nextChallenge": "Pilih tantangan berikutnya",
+    "searchEmpty": "Kuis tidak ditemukan.",
+    "questionSetReview": "Paket soal sedang ditinjau",
+    "difficulty": "Tingkat kesulitan",
+    "startHeading": "Mulai saat kamu siap",
+    "startDescription": "Pikirkan dengan tenang dan nikmati tantangannya.",
+    "correct": "Benar!",
+    "incorrect": "Belum tepat.",
+    "accuracy": "Akurasi",
+    "finishedIn": "Selesai dalam",
+    "seconds": "detik",
+    "bestScore": "Skor terbaik disimpan di perangkat ini.",
+    "reviewHeading": "Paket soal sedang ditinjau",
+    "reviewDescription": "Kami sedang memeriksa soal yang telah diterjemahkan. Kuis akan tersedia setelah peninjauan selesai.",
+    "howToPlay": "Cara bermain",
+    "howToDescription": "Pilih jawaban untuk setiap soal. Progres hanya tersimpan di browser ini; akun dan data pribadi tidak diperlukan.",
+    "aboutQuiz": "Tentang kuis ini",
+    "faq": "Pertanyaan umum",
+    "scoreUploadedQuestion": "Apakah skor saya diunggah?",
+    "scoreUploadedAnswer": "Tidak. Skor hanya disimpan di browser ini.",
+    "interactiveTest": "Tes interaktif",
+    "localeCount": "26 bahasa",
+    "dynamicGeneration": "Soal dibuat setiap sesi",
+    "back": "Daftar kuis",
+    "footerTagline": "Untuk semua yang suka mencari tahu.",
+    "privacy": "Privasi",
+    "guidelines": "Panduan penggunaan",
+    "contact": "Kontak",
+    "copyright": "© 2026 woori.today",
+    "searchLabel": "Cari kuis",
+    "quizCount": "COUNT_SLOT",
+    "questionCount": "COUNT_SLOT",
+    "quizSummary": "Coba TITLE_SLOT dan uji pengetahuanmu dengan cara yang menyenangkan.",
+    "category": {
+      "general": "Pengetahuan umum",
+      "geography": "Dunia dan geografi",
+      "science": "Sains",
+      "history": "Sejarah",
+      "math": "Matematika",
+      "language": "Bahasa",
+      "technology": "Teknologi",
+      "memory": "Ingatan dan otak",
+      "speed": "Kecepatan dan reaksi",
+      "fun": "Tantangan seru"
+    },
+    "difficultyLabels": {
+      "easy": "Mudah",
+      "medium": "Sedang",
+      "hard": "Sulit",
+      "expert": "Ahli"
+    }
+  },
+  "uiCountForms": {
+    "quizCount": {
+      "other": "COUNT_SLOT kuis"
+    },
+    "questionCount": {
+      "other": "COUNT_SLOT soal"
+    }
+  },
+  "uiSummary": "Coba TITLE_SLOT dan uji pengetahuanmu dengan cara yang menyenangkan.",
+  "discovery": {
+    "intro": "Jelajahi kuis pengetahuan umum, matematika, dan asah otak.",
+    "quickStart": "Mulai cepat",
+    "searchResults": "Hasil pencarian",
+    "browseCategories": "Pilih kategori",
+    "clearSearch": "Hapus pencarian",
+    "resultsForForms": {
+      "other": "COUNT_SLOT kuis untuk “QUERY_SLOT”"
+    }
+  },
+  "detail": {
+    "correctCount": "Benar",
+    "incorrectCount": "Salah",
+    "newSet": "Coba soal baru",
+    "otherQuizzes": "Lihat kuis lainnya"
+  },
+  "categoryLabels": {
+    "general": "Pengetahuan umum",
+    "nonsense": "Teka-teki lucu",
+    "math": "Matematika",
+    "brain": "Asah otak",
+    "history": "Sejarah",
+    "science": "Sains",
+    "geography": "Dunia dan geografi",
+    "language": "Bahasa",
+    "technology": "Teknologi",
+    "memory": "Ingatan dan otak",
+    "random": "Kuis acak",
+    "challenge": "Tantangan",
+    "speed": "Kecepatan dan reaksi",
+    "fun": "Tantangan seru"
+  },
+  "categoryDescriptions": {
+    "general": "Uji fakta sehari-hari dari berbagai bidang pengetahuan.",
+    "nonsense": "Pecahkan teka-teki singkat dengan mencari permainan kata.",
+    "math": "Latih hitungan dan penalaran, dari aritmetika hingga pola dan peluang.",
+    "brain": "Gunakan petunjuk dan pola angka untuk menarik kesimpulan.",
+    "history": "Telusuri peristiwa dan tokoh sejarah berdasarkan fakta.",
+    "science": "Tinjau dasar biologi, kimia, fisika, dan antariksa.",
+    "geography": "Ingat letak benua, negara, ibu kota, dan bentang alam.",
+    "language": "Jelajahi kosakata, tata bahasa, dan sistem tulisan.",
+    "technology": "Tinjau dasar web, pemrograman, basis data, dan jaringan.",
+    "memory": "Ingat angka, kata, serta urutan atau temukan perubahan visual.",
+    "random": "Mainkan campuran soal baru dari beberapa bidang.",
+    "challenge": "Selesaikan sejumlah soal secara berurutan dengan tetap fokus.",
+    "speed": "Ukur langsung waktu reaksi serta kecepatan klik atau mengetik.",
+    "fun": "Beristirahat sejenak dengan trivia ringan dan tantangan seru."
+  },
+  "serviceGuide": {
+    "categories": "Jelajahi menurut topik",
+    "how": "Cara mengerjakan kuis",
+    "account": "Pilih kuis lalu jawab setiap soal. Tidak perlu akun; hasil tersimpan di browser ini.",
+    "score": "Apa arti skor saya?",
+    "scoreLow": "Topik ini masih bisa dilatih. Baca penjelasan lalu coba lagi.",
+    "scoreMid": "Dasarnya sudah dikuasai. Tinjau penjelasan soal yang keliru.",
+    "scoreHigh": "Hasilmu baik untuk set ini. Coba topik lain atau soal baru.",
+    "scoreNote": "Skor hanya menunjukkan jawaban benar pada set ini, bukan diagnosis kemampuan atau kesehatan.",
+    "focus": "Materi kuis ini"
+  },
+  "advertisement": "Iklan",
+  "difficulty": "Semua tingkat kesulitan",
+  "quizTitles": {
+    "general-knowledge-quiz": "Umum Pengetahuan Kuis",
+    "everyday-knowledge-quiz": "Sehari-hari Pengetahuan Kuis",
+    "difficult-general-knowledge-quiz": "Sulit Umum Pengetahuan Kuis",
+    "world-capitals-quiz": "Dunia Ibu kota Kuis",
+    "country-flags-quiz": "Negara Bendera Kuis",
+    "country-currency-quiz": "Negara Mata uang Kuis",
+    "country-location-quiz": "Negara Lokasi Kuis",
+    "asia-capitals-quiz": "Asia Ibu kota Kuis",
+    "europe-capitals-quiz": "Eropa Ibu kota Kuis",
+    "world-geography-quiz": "Dunia Geografi Kuis",
+    "basic-science-quiz": "Dasar Sains Kuis",
+    "physics-quiz": "Fisika Kuis",
+    "chemistry-quiz": "Kimia Kuis",
+    "biology-quiz": "Biologi Kuis",
+    "astronomy-quiz": "Astronomi Kuis",
+    "difficult-science-quiz": "Sulit Sains Kuis",
+    "world-history-quiz": "Dunia Sejarah Kuis",
+    "korean-history-quiz": "Korea Sejarah Kuis",
+    "ancient-history-quiz": "Kuno Sejarah Kuis",
+    "modern-history-quiz": "Modern Sejarah Kuis",
+    "addition-quiz": "Penjumlahan Kuis",
+    "subtraction-quiz": "Pengurangan Kuis",
+    "multiplication-quiz": "Perkalian Kuis",
+    "division-quiz": "Pembagian Kuis",
+    "multiplication-table-quiz": "Perkalian Tabel Kuis",
+    "mental-math-quiz": "Mental Matematika Kuis",
+    "fraction-quiz": "Pecahan Kuis",
+    "percentage-quiz": "Persentase Kuis",
+    "equation-quiz": "Persamaan Kuis",
+    "arithmetic-challenge": "Aritmetika Tantangan",
+    "english-vocabulary-quiz": "Inggris Kosakata Kuis",
+    "english-spelling-quiz": "Inggris Ejaan Kuis",
+    "english-grammar-quiz": "Inggris Tata bahasa Kuis",
+    "hiragana-quiz": "Hiragana Kuis",
+    "katakana-quiz": "Katakana Kuis",
+    "japanese-vocabulary-quiz": "Jepang Kosakata Kuis",
+    "chinese-character-quiz": "Tionghoa Karakter Kuis",
+    "korean-vocabulary-quiz": "Korea Kosakata Kuis",
+    "computer-basics-quiz": "Komputer Dasar Kuis",
+    "programming-basics-quiz": "Pemrograman Dasar Kuis",
+    "web-development-quiz": "Web Pengembangan Kuis",
+    "database-quiz": "Basis data Kuis",
+    "network-basics-quiz": "Jaringan Dasar Kuis",
+    "difficult-it-quiz": "Sulit IT Kuis",
+    "number-memory-test": "Angka Ingatan Tes",
+    "word-memory-test": "Kata Ingatan Tes",
+    "sequence-memory-test": "Urutan Ingatan Tes",
+    "visual-memory-test": "Visual Ingatan Tes",
+    "pattern-recognition-test": "Pola Pengenalan Tes",
+    "concentration-test": "Konsentrasi Tes",
+    "reaction-time-test": "Reaksi Waktu Tes",
+    "click-speed-test": "Klik Kecepatan Tes",
+    "typing-speed-test": "Mengetik Kecepatan Tes",
+    "color-reaction-test": "Warna Reaksi Tes",
+    "random-trivia-challenge": "Acak Trivia Tantangan",
+    "true-false-challenge": "Benar Salah Tantangan",
+    "impossible-quiz": "Mustahil Kuis",
+    "mixed-hard-quiz": "Campuran Sulit Kuis",
+    "general-knowledge": "Umum Pengetahuan",
+    "easy-general-knowledge": "Mudah Umum Pengetahuan",
+    "hard-general-knowledge": "Sulit Umum Pengetahuan",
+    "random-general-knowledge": "Acak Umum Pengetahuan",
+    "adult-general-knowledge": "Dewasa Umum Pengetahuan",
+    "daily-life-quiz": "Harian Kehidupan Kuis",
+    "nonsense": "Teka-teki lucu",
+    "easy-nonsense-quiz": "Mudah Teka-teki lucu Kuis",
+    "riddle-quiz": "Teka-teki Kuis",
+    "brain-teaser": "Asah Otak dengan Teka-teki",
+    "easy-brain-teaser": "Mudah Otak Tantangan",
+    "hard-brain-teaser": "Sulit Otak Tantangan",
+    "number-pattern-quiz": "Angka Pola Kuis",
+    "logic-reasoning-quiz": "Logika Penalaran Kuis",
+    "random-brain-teaser": "Acak Otak Tantangan",
+    "math-basic": "Matematika Dasar",
+    "math-advanced": "Matematika Lanjutan",
+    "mental-arithmetic-test": "Mental Aritmetika Tes",
+    "sequence-math-quiz": "Urutan Matematika Kuis",
+    "probability-quiz": "Probabilitas Kuis",
+    "history-knowledge-quiz": "Sejarah Pengetahuan Kuis",
+    "ancient-civilizations-quiz": "Kuno Peradaban Kuis",
+    "modern-history-knowledge": "Modern Sejarah Pengetahuan",
+    "science-knowledge-quiz": "Sains Pengetahuan Kuis",
+    "space-quiz": "Antariksa Kuis",
+    "biology-knowledge-quiz": "Biologi Pengetahuan Kuis",
+    "world-geography": "Dunia Geografi",
+    "capital-cities-quiz": "Ibu kota Kota Kuis",
+    "country-knowledge-quiz": "Negara Pengetahuan Kuis",
+    "language-knowledge-quiz": "Bahasa Pengetahuan Kuis",
+    "english-vocabulary": "Inggris Kosakata",
+    "it-development-quiz": "IT Pengembangan Kuis",
+    "programming-knowledge-quiz": "Pemrograman Pengetahuan Kuis",
+    "random-quiz": "Acak Kuis",
+    "random-math-10": "Acak Matematika 10",
+    "random-nonsense-10": "Acak Teka-teki lucu 10",
+    "challenge-10": "Tantangan 10",
+    "challenge-20": "Tantangan 20"
+  },
+  "quizDescriptions": {
+    "addition-quiz": "Penjumlahan Kuis: Latih hitungan dan penalaran, dari aritmetika hingga pola dan peluang.",
+    "subtraction-quiz": "Pengurangan Kuis: Latih hitungan dan penalaran, dari aritmetika hingga pola dan peluang.",
+    "multiplication-quiz": "Perkalian Kuis: Latih hitungan dan penalaran, dari aritmetika hingga pola dan peluang.",
+    "division-quiz": "Pembagian Kuis: Latih hitungan dan penalaran, dari aritmetika hingga pola dan peluang.",
+    "multiplication-table-quiz": "Perkalian Tabel Kuis: Latih hitungan dan penalaran, dari aritmetika hingga pola dan peluang.",
+    "mental-math-quiz": "Mental Matematika Kuis: Latih hitungan dan penalaran, dari aritmetika hingga pola dan peluang.",
+    "fraction-quiz": "Pecahan Kuis: Latih hitungan dan penalaran, dari aritmetika hingga pola dan peluang.",
+    "percentage-quiz": "Persentase Kuis: Latih hitungan dan penalaran, dari aritmetika hingga pola dan peluang.",
+    "equation-quiz": "Persamaan Kuis: Latih hitungan dan penalaran, dari aritmetika hingga pola dan peluang.",
+    "arithmetic-challenge": "Aritmetika Tantangan: Latih hitungan dan penalaran, dari aritmetika hingga pola dan peluang.",
+    "number-memory-test": "Angka Ingatan Tes: Ingat angka, kata, serta urutan atau temukan perubahan visual.",
+    "word-memory-test": "Kata Ingatan Tes: Ingat angka, kata, serta urutan atau temukan perubahan visual.",
+    "sequence-memory-test": "Urutan Ingatan Tes: Ingat angka, kata, serta urutan atau temukan perubahan visual.",
+    "visual-memory-test": "Visual Ingatan Tes: Ingat angka, kata, serta urutan atau temukan perubahan visual.",
+    "pattern-recognition-test": "Pola Pengenalan Tes: Ingat angka, kata, serta urutan atau temukan perubahan visual.",
+    "concentration-test": "Konsentrasi Tes: Ingat angka, kata, serta urutan atau temukan perubahan visual.",
+    "reaction-time-test": "Reaksi Waktu Tes: Ukur langsung waktu reaksi serta kecepatan klik atau mengetik.",
+    "click-speed-test": "Klik Kecepatan Tes: Ukur langsung waktu reaksi serta kecepatan klik atau mengetik.",
+    "typing-speed-test": "Mengetik Kecepatan Tes: Ukur langsung waktu reaksi serta kecepatan klik atau mengetik.",
+    "color-reaction-test": "Warna Reaksi Tes: Ukur langsung waktu reaksi serta kecepatan klik atau mengetik.",
+    "general-knowledge": "Umum Pengetahuan: Uji fakta sehari-hari dari berbagai bidang pengetahuan.",
+    "easy-general-knowledge": "Mudah Umum Pengetahuan: Uji fakta sehari-hari dari berbagai bidang pengetahuan.",
+    "hard-general-knowledge": "Sulit Umum Pengetahuan: Uji fakta sehari-hari dari berbagai bidang pengetahuan.",
+    "random-general-knowledge": "Acak Umum Pengetahuan: Uji fakta sehari-hari dari berbagai bidang pengetahuan.",
+    "adult-general-knowledge": "Dewasa Umum Pengetahuan: Uji fakta sehari-hari dari berbagai bidang pengetahuan.",
+    "daily-life-quiz": "Harian Kehidupan Kuis: Uji fakta sehari-hari dari berbagai bidang pengetahuan.",
+    "nonsense": "Teka-teki lucu: Pecahkan teka-teki singkat dengan mencari permainan kata.",
+    "easy-nonsense-quiz": "Mudah Teka-teki lucu Kuis: Pecahkan teka-teki singkat dengan mencari permainan kata.",
+    "riddle-quiz": "Teka-teki Kuis: Pecahkan teka-teki singkat dengan mencari permainan kata.",
+    "brain-teaser": "Asah Otak dengan Teka-teki: Gunakan petunjuk dan pola angka untuk menarik kesimpulan.",
+    "easy-brain-teaser": "Mudah Otak Tantangan: Gunakan petunjuk dan pola angka untuk menarik kesimpulan.",
+    "hard-brain-teaser": "Sulit Otak Tantangan: Gunakan petunjuk dan pola angka untuk menarik kesimpulan.",
+    "number-pattern-quiz": "Angka Pola Kuis: Gunakan petunjuk dan pola angka untuk menarik kesimpulan.",
+    "logic-reasoning-quiz": "Logika Penalaran Kuis: Gunakan petunjuk dan pola angka untuk menarik kesimpulan.",
+    "random-brain-teaser": "Acak Otak Tantangan: Gunakan petunjuk dan pola angka untuk menarik kesimpulan.",
+    "math-basic": "Matematika Dasar: Latih hitungan dan penalaran, dari aritmetika hingga pola dan peluang.",
+    "math-advanced": "Matematika Lanjutan: Latih hitungan dan penalaran, dari aritmetika hingga pola dan peluang.",
+    "mental-arithmetic-test": "Mental Aritmetika Tes: Latih hitungan dan penalaran, dari aritmetika hingga pola dan peluang.",
+    "sequence-math-quiz": "Urutan Matematika Kuis: Latih hitungan dan penalaran, dari aritmetika hingga pola dan peluang.",
+    "probability-quiz": "Probabilitas Kuis: Latih hitungan dan penalaran, dari aritmetika hingga pola dan peluang.",
+    "history-knowledge-quiz": "Sejarah Pengetahuan Kuis: Telusuri peristiwa dan tokoh sejarah berdasarkan fakta.",
+    "ancient-civilizations-quiz": "Kuno Peradaban Kuis: Telusuri peristiwa dan tokoh sejarah berdasarkan fakta.",
+    "modern-history-knowledge": "Modern Sejarah Pengetahuan: Telusuri peristiwa dan tokoh sejarah berdasarkan fakta.",
+    "science-knowledge-quiz": "Sains Pengetahuan Kuis: Tinjau dasar biologi, kimia, fisika, dan antariksa.",
+    "space-quiz": "Antariksa Kuis: Tinjau dasar biologi, kimia, fisika, dan antariksa.",
+    "biology-knowledge-quiz": "Biologi Pengetahuan Kuis: Tinjau dasar biologi, kimia, fisika, dan antariksa.",
+    "world-geography": "Dunia Geografi: Ingat letak benua, negara, ibu kota, dan bentang alam.",
+    "capital-cities-quiz": "Ibu kota Kota Kuis: Ingat letak benua, negara, ibu kota, dan bentang alam.",
+    "country-knowledge-quiz": "Negara Pengetahuan Kuis: Ingat letak benua, negara, ibu kota, dan bentang alam.",
+    "language-knowledge-quiz": "Bahasa Pengetahuan Kuis: Jelajahi kosakata, tata bahasa, dan sistem tulisan.",
+    "english-vocabulary": "Inggris Kosakata: Jelajahi kosakata, tata bahasa, dan sistem tulisan.",
+    "it-development-quiz": "IT Pengembangan Kuis: Tinjau dasar web, pemrograman, basis data, dan jaringan.",
+    "programming-knowledge-quiz": "Pemrograman Pengetahuan Kuis: Tinjau dasar web, pemrograman, basis data, dan jaringan.",
+    "random-quiz": "Acak Kuis: Mainkan campuran soal baru dari beberapa bidang.",
+    "random-math-10": "Acak Matematika 10: Mainkan campuran soal baru dari beberapa bidang.",
+    "random-nonsense-10": "Acak Teka-teki lucu 10: Mainkan campuran soal baru dari beberapa bidang.",
+    "challenge-10": "Tantangan 10: Selesaikan sejumlah soal secara berurutan dengan tetap fokus.",
+    "challenge-20": "Tantangan 20: Selesaikan sejumlah soal secara berurutan dengan tetap fokus."
+  },
+  "quizSeo": {
+    "addition-quiz": {
+      "title": "Penjumlahan Kuis | woori.today",
+      "description": "Penjumlahan Kuis: Latih hitungan dan penalaran, dari aritmetika hingga pola dan peluang."
+    },
+    "subtraction-quiz": {
+      "title": "Pengurangan Kuis | woori.today",
+      "description": "Pengurangan Kuis: Latih hitungan dan penalaran, dari aritmetika hingga pola dan peluang."
+    },
+    "multiplication-quiz": {
+      "title": "Perkalian Kuis | woori.today",
+      "description": "Perkalian Kuis: Latih hitungan dan penalaran, dari aritmetika hingga pola dan peluang."
+    },
+    "division-quiz": {
+      "title": "Pembagian Kuis | woori.today",
+      "description": "Pembagian Kuis: Latih hitungan dan penalaran, dari aritmetika hingga pola dan peluang."
+    },
+    "multiplication-table-quiz": {
+      "title": "Perkalian Tabel Kuis | woori.today",
+      "description": "Perkalian Tabel Kuis: Latih hitungan dan penalaran, dari aritmetika hingga pola dan peluang."
+    },
+    "mental-math-quiz": {
+      "title": "Mental Matematika Kuis | woori.today",
+      "description": "Mental Matematika Kuis: Latih hitungan dan penalaran, dari aritmetika hingga pola dan peluang."
+    },
+    "fraction-quiz": {
+      "title": "Pecahan Kuis | woori.today",
+      "description": "Pecahan Kuis: Latih hitungan dan penalaran, dari aritmetika hingga pola dan peluang."
+    },
+    "percentage-quiz": {
+      "title": "Persentase Kuis | woori.today",
+      "description": "Persentase Kuis: Latih hitungan dan penalaran, dari aritmetika hingga pola dan peluang."
+    },
+    "equation-quiz": {
+      "title": "Persamaan Kuis | woori.today",
+      "description": "Persamaan Kuis: Latih hitungan dan penalaran, dari aritmetika hingga pola dan peluang."
+    },
+    "arithmetic-challenge": {
+      "title": "Aritmetika Tantangan | woori.today",
+      "description": "Aritmetika Tantangan: Latih hitungan dan penalaran, dari aritmetika hingga pola dan peluang."
+    },
+    "number-memory-test": {
+      "title": "Angka Ingatan Tes | woori.today",
+      "description": "Angka Ingatan Tes: Ingat angka, kata, serta urutan atau temukan perubahan visual."
+    },
+    "word-memory-test": {
+      "title": "Kata Ingatan Tes | woori.today",
+      "description": "Kata Ingatan Tes: Ingat angka, kata, serta urutan atau temukan perubahan visual."
+    },
+    "sequence-memory-test": {
+      "title": "Urutan Ingatan Tes | woori.today",
+      "description": "Urutan Ingatan Tes: Ingat angka, kata, serta urutan atau temukan perubahan visual."
+    },
+    "visual-memory-test": {
+      "title": "Visual Ingatan Tes | woori.today",
+      "description": "Visual Ingatan Tes: Ingat angka, kata, serta urutan atau temukan perubahan visual."
+    },
+    "pattern-recognition-test": {
+      "title": "Pola Pengenalan Tes | woori.today",
+      "description": "Pola Pengenalan Tes: Ingat angka, kata, serta urutan atau temukan perubahan visual."
+    },
+    "concentration-test": {
+      "title": "Konsentrasi Tes | woori.today",
+      "description": "Konsentrasi Tes: Ingat angka, kata, serta urutan atau temukan perubahan visual."
+    },
+    "reaction-time-test": {
+      "title": "Reaksi Waktu Tes | woori.today",
+      "description": "Reaksi Waktu Tes: Ukur langsung waktu reaksi serta kecepatan klik atau mengetik."
+    },
+    "click-speed-test": {
+      "title": "Klik Kecepatan Tes | woori.today",
+      "description": "Klik Kecepatan Tes: Ukur langsung waktu reaksi serta kecepatan klik atau mengetik."
+    },
+    "typing-speed-test": {
+      "title": "Mengetik Kecepatan Tes | woori.today",
+      "description": "Mengetik Kecepatan Tes: Ukur langsung waktu reaksi serta kecepatan klik atau mengetik."
+    },
+    "color-reaction-test": {
+      "title": "Warna Reaksi Tes | woori.today",
+      "description": "Warna Reaksi Tes: Ukur langsung waktu reaksi serta kecepatan klik atau mengetik."
+    },
+    "general-knowledge": {
+      "title": "Umum Pengetahuan | woori.today",
+      "description": "Umum Pengetahuan: Uji fakta sehari-hari dari berbagai bidang pengetahuan."
+    },
+    "easy-general-knowledge": {
+      "title": "Mudah Umum Pengetahuan | woori.today",
+      "description": "Mudah Umum Pengetahuan: Uji fakta sehari-hari dari berbagai bidang pengetahuan."
+    },
+    "hard-general-knowledge": {
+      "title": "Sulit Umum Pengetahuan | woori.today",
+      "description": "Sulit Umum Pengetahuan: Uji fakta sehari-hari dari berbagai bidang pengetahuan."
+    },
+    "random-general-knowledge": {
+      "title": "Acak Umum Pengetahuan | woori.today",
+      "description": "Acak Umum Pengetahuan: Uji fakta sehari-hari dari berbagai bidang pengetahuan."
+    },
+    "adult-general-knowledge": {
+      "title": "Dewasa Umum Pengetahuan | woori.today",
+      "description": "Dewasa Umum Pengetahuan: Uji fakta sehari-hari dari berbagai bidang pengetahuan."
+    },
+    "daily-life-quiz": {
+      "title": "Harian Kehidupan Kuis | woori.today",
+      "description": "Harian Kehidupan Kuis: Uji fakta sehari-hari dari berbagai bidang pengetahuan."
+    },
+    "nonsense": {
+      "title": "Teka-teki lucu | woori.today",
+      "description": "Teka-teki lucu: Pecahkan teka-teki singkat dengan mencari permainan kata."
+    },
+    "easy-nonsense-quiz": {
+      "title": "Mudah Teka-teki lucu Kuis | woori.today",
+      "description": "Mudah Teka-teki lucu Kuis: Pecahkan teka-teki singkat dengan mencari permainan kata."
+    },
+    "riddle-quiz": {
+      "title": "Teka-teki Kuis | woori.today",
+      "description": "Teka-teki Kuis: Pecahkan teka-teki singkat dengan mencari permainan kata."
+    },
+    "brain-teaser": {
+      "title": "Asah Otak dengan Teka-teki | woori.today",
+      "description": "Asah otak dengan teka-teki gratis tentang logika, pola, angka, ingatan, dan penalaran."
+    },
+    "easy-brain-teaser": {
+      "title": "Mudah Otak Tantangan | woori.today",
+      "description": "Mudah Otak Tantangan: Gunakan petunjuk dan pola angka untuk menarik kesimpulan."
+    },
+    "hard-brain-teaser": {
+      "title": "Sulit Otak Tantangan | woori.today",
+      "description": "Sulit Otak Tantangan: Gunakan petunjuk dan pola angka untuk menarik kesimpulan."
+    },
+    "number-pattern-quiz": {
+      "title": "Angka Pola Kuis | woori.today",
+      "description": "Angka Pola Kuis: Gunakan petunjuk dan pola angka untuk menarik kesimpulan."
+    },
+    "logic-reasoning-quiz": {
+      "title": "Logika Penalaran Kuis | woori.today",
+      "description": "Logika Penalaran Kuis: Gunakan petunjuk dan pola angka untuk menarik kesimpulan."
+    },
+    "random-brain-teaser": {
+      "title": "Acak Otak Tantangan | woori.today",
+      "description": "Acak Otak Tantangan: Gunakan petunjuk dan pola angka untuk menarik kesimpulan."
+    },
+    "math-basic": {
+      "title": "Matematika Dasar | woori.today",
+      "description": "Matematika Dasar: Latih hitungan dan penalaran, dari aritmetika hingga pola dan peluang."
+    },
+    "math-advanced": {
+      "title": "Matematika Lanjutan | woori.today",
+      "description": "Matematika Lanjutan: Latih hitungan dan penalaran, dari aritmetika hingga pola dan peluang."
+    },
+    "mental-arithmetic-test": {
+      "title": "Mental Aritmetika Tes | woori.today",
+      "description": "Mental Aritmetika Tes: Latih hitungan dan penalaran, dari aritmetika hingga pola dan peluang."
+    },
+    "sequence-math-quiz": {
+      "title": "Urutan Matematika Kuis | woori.today",
+      "description": "Urutan Matematika Kuis: Latih hitungan dan penalaran, dari aritmetika hingga pola dan peluang."
+    },
+    "probability-quiz": {
+      "title": "Probabilitas Kuis | woori.today",
+      "description": "Probabilitas Kuis: Latih hitungan dan penalaran, dari aritmetika hingga pola dan peluang."
+    },
+    "history-knowledge-quiz": {
+      "title": "Sejarah Pengetahuan Kuis | woori.today",
+      "description": "Sejarah Pengetahuan Kuis: Telusuri peristiwa dan tokoh sejarah berdasarkan fakta."
+    },
+    "ancient-civilizations-quiz": {
+      "title": "Kuno Peradaban Kuis | woori.today",
+      "description": "Kuno Peradaban Kuis: Telusuri peristiwa dan tokoh sejarah berdasarkan fakta."
+    },
+    "modern-history-knowledge": {
+      "title": "Modern Sejarah Pengetahuan | woori.today",
+      "description": "Modern Sejarah Pengetahuan: Telusuri peristiwa dan tokoh sejarah berdasarkan fakta."
+    },
+    "science-knowledge-quiz": {
+      "title": "Sains Pengetahuan Kuis | woori.today",
+      "description": "Sains Pengetahuan Kuis: Tinjau dasar biologi, kimia, fisika, dan antariksa."
+    },
+    "space-quiz": {
+      "title": "Antariksa Kuis | woori.today",
+      "description": "Antariksa Kuis: Tinjau dasar biologi, kimia, fisika, dan antariksa."
+    },
+    "biology-knowledge-quiz": {
+      "title": "Biologi Pengetahuan Kuis | woori.today",
+      "description": "Biologi Pengetahuan Kuis: Tinjau dasar biologi, kimia, fisika, dan antariksa."
+    },
+    "world-geography": {
+      "title": "Dunia Geografi | woori.today",
+      "description": "Dunia Geografi: Ingat letak benua, negara, ibu kota, dan bentang alam."
+    },
+    "capital-cities-quiz": {
+      "title": "Ibu kota Kota Kuis | woori.today",
+      "description": "Ibu kota Kota Kuis: Ingat letak benua, negara, ibu kota, dan bentang alam."
+    },
+    "country-knowledge-quiz": {
+      "title": "Negara Pengetahuan Kuis | woori.today",
+      "description": "Negara Pengetahuan Kuis: Ingat letak benua, negara, ibu kota, dan bentang alam."
+    },
+    "language-knowledge-quiz": {
+      "title": "Bahasa Pengetahuan Kuis | woori.today",
+      "description": "Bahasa Pengetahuan Kuis: Jelajahi kosakata, tata bahasa, dan sistem tulisan."
+    },
+    "english-vocabulary": {
+      "title": "Inggris Kosakata | woori.today",
+      "description": "Inggris Kosakata: Jelajahi kosakata, tata bahasa, dan sistem tulisan."
+    },
+    "it-development-quiz": {
+      "title": "IT Pengembangan Kuis | woori.today",
+      "description": "IT Pengembangan Kuis: Tinjau dasar web, pemrograman, basis data, dan jaringan."
+    },
+    "programming-knowledge-quiz": {
+      "title": "Pemrograman Pengetahuan Kuis | woori.today",
+      "description": "Pemrograman Pengetahuan Kuis: Tinjau dasar web, pemrograman, basis data, dan jaringan."
+    },
+    "random-quiz": {
+      "title": "Acak Kuis | woori.today",
+      "description": "Acak Kuis: Mainkan campuran soal baru dari beberapa bidang."
+    },
+    "random-math-10": {
+      "title": "Acak Matematika 10 | woori.today",
+      "description": "Acak Matematika 10: Mainkan campuran soal baru dari beberapa bidang."
+    },
+    "random-nonsense-10": {
+      "title": "Acak Teka-teki lucu 10 | woori.today",
+      "description": "Acak Teka-teki lucu 10: Mainkan campuran soal baru dari beberapa bidang."
+    },
+    "challenge-10": {
+      "title": "Tantangan 10 | woori.today",
+      "description": "Tantangan 10: Selesaikan sejumlah soal secara berurutan dengan tetap fokus."
+    },
+    "challenge-20": {
+      "title": "Tantangan 20 | woori.today",
+      "description": "Tantangan 20: Selesaikan sejumlah soal secara berurutan dengan tetap fokus."
+    }
+  },
+  "titleTermCount": 70,
+  "translatedQuizSlugs": [
+    "general-knowledge-quiz",
+    "everyday-knowledge-quiz",
+    "difficult-general-knowledge-quiz",
+    "world-capitals-quiz",
+    "country-flags-quiz",
+    "country-currency-quiz",
+    "country-location-quiz",
+    "asia-capitals-quiz",
+    "europe-capitals-quiz",
+    "world-geography-quiz",
+    "basic-science-quiz",
+    "physics-quiz",
+    "chemistry-quiz",
+    "biology-quiz",
+    "astronomy-quiz",
+    "difficult-science-quiz",
+    "world-history-quiz",
+    "korean-history-quiz",
+    "ancient-history-quiz",
+    "modern-history-quiz",
+    "addition-quiz",
+    "subtraction-quiz",
+    "multiplication-quiz",
+    "division-quiz",
+    "multiplication-table-quiz",
+    "mental-math-quiz",
+    "fraction-quiz",
+    "percentage-quiz",
+    "equation-quiz",
+    "arithmetic-challenge",
+    "english-vocabulary-quiz",
+    "english-spelling-quiz",
+    "english-grammar-quiz",
+    "hiragana-quiz",
+    "katakana-quiz",
+    "japanese-vocabulary-quiz",
+    "chinese-character-quiz",
+    "korean-vocabulary-quiz",
+    "computer-basics-quiz",
+    "programming-basics-quiz",
+    "web-development-quiz",
+    "database-quiz",
+    "network-basics-quiz",
+    "difficult-it-quiz",
+    "number-memory-test",
+    "word-memory-test",
+    "sequence-memory-test",
+    "visual-memory-test",
+    "pattern-recognition-test",
+    "concentration-test",
+    "reaction-time-test",
+    "click-speed-test",
+    "typing-speed-test",
+    "color-reaction-test",
+    "random-trivia-challenge",
+    "true-false-challenge",
+    "impossible-quiz",
+    "mixed-hard-quiz",
+    "general-knowledge",
+    "easy-general-knowledge",
+    "hard-general-knowledge",
+    "random-general-knowledge",
+    "adult-general-knowledge",
+    "daily-life-quiz",
+    "nonsense",
+    "easy-nonsense-quiz",
+    "riddle-quiz",
+    "brain-teaser",
+    "easy-brain-teaser",
+    "hard-brain-teaser",
+    "number-pattern-quiz",
+    "logic-reasoning-quiz",
+    "random-brain-teaser",
+    "math-basic",
+    "math-advanced",
+    "mental-arithmetic-test",
+    "sequence-math-quiz",
+    "probability-quiz",
+    "history-knowledge-quiz",
+    "ancient-civilizations-quiz",
+    "modern-history-knowledge",
+    "science-knowledge-quiz",
+    "space-quiz",
+    "biology-knowledge-quiz",
+    "world-geography",
+    "capital-cities-quiz",
+    "country-knowledge-quiz",
+    "language-knowledge-quiz",
+    "english-vocabulary",
+    "it-development-quiz",
+    "programming-knowledge-quiz",
+    "random-quiz",
+    "random-math-10",
+    "random-nonsense-10",
+    "challenge-10",
+    "challenge-20"
+  ],
+  "mathPrompts": {
+    "whatIsX": "Tentukan nilai x.",
+    "findX": "Find x.",
+    "decimal": "desimal",
+    "percentage": "Berapa PERCENT_SLOT% dari WHOLE_SLOT?",
+    "fraction": "FIRST_FRACTION_SLOT + SECOND_FRACTION_SLOT = ? (desimal)"
+  },
+  "interactiveTest": {
+    "passage": "Rasa ingin tahu kecil dapat membawa penemuan baru. Bacalah dengan tenang dan ketik dengan cermat.",
+    "copy": {
+      "start": "Mulai",
+      "tap": "Klik saat kartu berubah hijau",
+      "go": "KLIK SEKARANG",
+      "tooSoon": "Terlalu cepat. Coba lagi.",
+      "done": "Selesai",
+      "submit": "Periksa",
+      "remember": "Ingat yang kamu lihat",
+      "type": "Ketik di sini",
+      "accuracy": "Akurasi",
+      "errors": "Kesalahan",
+      "wpm": "KPM",
+      "time": "Waktu",
+      "clicks": "Klik",
+      "matched": "Pasangan ditemukan",
+      "tryAgain": "Coba lagi"
+    },
+    "memoryWords": "laut apel bintang awan",
+    "extraCopy": {
+      "moves": "Langkah",
+      "tapFast": "Ketuk secepat mungkin",
+      "cell": "Kotak"
+    }
+  }
+}

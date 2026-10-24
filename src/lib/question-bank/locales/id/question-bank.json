@@ -1,0 +1,2312 @@
+{
+  "general-001": {
+    "question": "Planet manakah yang disebut Planet Merah?",
+    "options": [
+      "Venus",
+      "Mars",
+      "Jupiter",
+      "Air raksa"
+    ],
+    "explanation": "Debu yang kaya akan zat besi membuat Mars tampak kemerahan."
+  },
+  "general-002": {
+    "question": "Berapa banyak sisi yang dimiliki segi enam?",
+    "options": [
+      "Lima",
+      "Enam",
+      "Tujuh",
+      "Delapan"
+    ],
+    "explanation": "Segi enam memiliki enam sisi."
+  },
+  "general-003": {
+    "question": "Instrumen apa yang mengukur tekanan udara?",
+    "options": [
+      "Termometer",
+      "Barometer",
+      "Higrometer",
+      "Kompas"
+    ],
+    "explanation": "Barometer mengukur tekanan atmosfer."
+  },
+  "general-004": {
+    "question": "Mineral apa yang terbentuk secara alami paling keras pada skala Mohs?",
+    "options": [
+      "Kuarsa",
+      "Batu topas",
+      "Berlian",
+      "Korundum"
+    ],
+    "explanation": "Berlian diberi peringkat 10 pada skala kekerasan Mohs."
+  },
+  "general-005": {
+    "question": "Berapa menit dalam dua jam?",
+    "options": [
+      "100",
+      "110",
+      "120",
+      "130"
+    ],
+    "explanation": "Dua jam berisi 120 menit."
+  },
+  "general-006": {
+    "question": "Gas manakah yang menyusun sebagian besar atmosfer bumi?",
+    "options": [
+      "Oksigen",
+      "Nitrogen",
+      "Karbon dioksida",
+      "Argon"
+    ],
+    "explanation": "Nitrogen membentuk sekitar 78% udara kering."
+  },
+  "general-007": {
+    "question": "Laut manakah yang terluas?",
+    "options": [
+      "Atlantik",
+      "India",
+      "Arktik",
+      "Pasifik"
+    ],
+    "explanation": "Pasifik adalah samudra terluas berdasarkan wilayah."
+  },
+  "general-008": {
+    "question": "Berapa titik beku air pada tekanan standar?",
+    "options": [
+      "0 °C",
+      "10 °C",
+      "32 °C",
+      "100 °C"
+    ],
+    "explanation": "Air murni membeku pada 0 °C (32 °F) pada tekanan standar."
+  },
+  "general-009": {
+    "question": "Bentuk manakah yang memiliki tiga sisi?",
+    "options": [
+      "Persegi",
+      "Segi tiga",
+      "Segi lima",
+      "Lingkaran"
+    ],
+    "explanation": "Sebuah segitiga mempunyai tiga sisi."
+  },
+  "general-010": {
+    "question": "Logam manakah yang berbentuk cair pada suhu kamar biasa?",
+    "options": [
+      "Besi",
+      "Tembaga",
+      "Air raksa",
+      "Aluminium"
+    ],
+    "explanation": "Merkuri berbentuk cair pada suhu kamar biasa."
+  },
+  "science-011": {
+    "question": "Apa lambang kimia air?",
+    "options": [
+      "CO₂",
+      "H₂O",
+      "O₂",
+      "NaCl"
+    ],
+    "explanation": "Molekul air mengandung dua atom hidrogen dan satu atom oksigen."
+  },
+  "science-012": {
+    "question": "Bagian tumbuhan manakah yang biasanya menyerap air dari tanah?",
+    "options": [
+      "Bunga",
+      "Daun",
+      "Akar",
+      "Buah"
+    ],
+    "explanation": "Akar menyerap air dan mineral dari tanah."
+  },
+  "science-013": {
+    "question": "Gaya apa yang membuat planet-planet tetap mengorbit mengelilingi Matahari?",
+    "options": [
+      "Gesekan",
+      "Gaya berat",
+      "Daya tarik",
+      "Kemampuan mengapung"
+    ],
+    "explanation": "Gravitasi memberikan percepatan sentripetal untuk orbit planet."
+  },
+  "science-014": {
+    "question": "Partikel manakah yang bermuatan listrik negatif?",
+    "options": [
+      "Proton",
+      "neutron",
+      "Elektron",
+      "Foton"
+    ],
+    "explanation": "Elektron membawa muatan dasar negatif."
+  },
+  "science-015": {
+    "question": "Di permukaan laut, air mendidih pada suhu berapa?",
+    "options": [
+      "50 °C",
+      "75 °C",
+      "100 °C",
+      "150 °C"
+    ],
+    "explanation": "Pada tekanan atmosfer standar, air mendidih pada suhu 100 °C."
+  },
+  "science-016": {
+    "question": "Organel manakah yang diketahui menghasilkan ATP seluler paling banyak?",
+    "options": [
+      "Inti",
+      "Mitokondria",
+      "Ribosom",
+      "Aparat Golgi"
+    ],
+    "explanation": "Mitokondria menghasilkan banyak ATP sel eukariotik melalui respirasi sel."
+  },
+  "science-017": {
+    "question": "Gas apa yang diambil tumbuhan untuk fotosintesis?",
+    "options": [
+      "Oksigen",
+      "Karbon dioksida",
+      "Helium",
+      "Hidrogen"
+    ],
+    "explanation": "Tumbuhan menggunakan karbon dioksida dan air untuk membangun gula selama fotosintesis."
+  },
+  "science-018": {
+    "question": "Berapa perkiraan kecepatan cahaya dalam ruang hampa?",
+    "options": [
+      "30,000 km/s",
+      "150,000 km/s",
+      "300,000 km/s",
+      "3,000,000 km/s"
+    ],
+    "explanation": "Cahaya bergerak dengan kecepatan sekitar 300.000 kilometer per detik dalam ruang hampa."
+  },
+  "science-019": {
+    "question": "Sel darah manakah yang terutama membawa oksigen?",
+    "options": [
+      "Sel darah merah",
+      "Trombosit",
+      "Sel darah putih",
+      "Sel induk"
+    ],
+    "explanation": "Hemoglobin dalam sel darah merah mengikat dan mengangkut oksigen."
+  },
+  "science-020": {
+    "question": "Pusat atom disebut?",
+    "options": [
+      "Orbit",
+      "Inti",
+      "Kerang",
+      "Menjalin kedekatan"
+    ],
+    "explanation": "Inti atom mengandung proton dan neutron."
+  },
+  "geography-021": {
+    "question": "Apa ibu kota Jepang?",
+    "options": [
+      "Osaka",
+      "Kyoto",
+      "Tokyo",
+      "Sapporo"
+    ],
+    "explanation": "Tokyo adalah ibu kota Jepang."
+  },
+  "geography-022": {
+    "question": "Negara manakah yang menampung kota Kairo?",
+    "options": [
+      "Maroko",
+      "Mesir",
+      "Yordania",
+      "Sudan"
+    ],
+    "explanation": "Kairo adalah ibu kota Mesir."
+  },
+  "geography-023": {
+    "question": "Benua manakah yang terluas berdasarkan luasnya?",
+    "options": [
+      "Afrika",
+      "Asia",
+      "Eropa",
+      "Amerika Utara"
+    ],
+    "explanation": "Asia adalah benua terbesar berdasarkan luas daratan."
+  },
+  "geography-024": {
+    "question": "Pegunungan Andes terletak di benua manakah?",
+    "options": [
+      "Afrika",
+      "Asia",
+      "Amerika Selatan",
+      "Eropa"
+    ],
+    "explanation": "Pegunungan Andes membentang di sepanjang sisi barat Amerika Selatan."
+  },
+  "geography-025": {
+    "question": "Negara manakah yang memiliki daun maple pada bendera nasionalnya?",
+    "options": [
+      "Kanada",
+      "Austria",
+      "Denmark",
+      "Peru"
+    ],
+    "explanation": "Daun maple adalah lambang utama bendera Kanada."
+  },
+  "geography-026": {
+    "question": "Sungai manakah yang mengalir melalui Paris?",
+    "options": [
+      "Rhein",
+      "Pukat",
+      "Danube",
+      "Sungai Thames"
+    ],
+    "explanation": "Sungai Seine mengalir melalui Paris."
+  },
+  "geography-027": {
+    "question": "Benua manakah yang terkecil berdasarkan luasnya?",
+    "options": [
+      "Eropa",
+      "Antartika",
+      "Australia",
+      "Amerika Selatan"
+    ],
+    "explanation": "Australia adalah benua terkecil berdasarkan luasnya."
+  },
+  "geography-028": {
+    "question": "Gunung Kilimanjaro berada di negara manakah?",
+    "options": [
+      "Kenya",
+      "Tanzania",
+      "Uganda",
+      "Etiopia"
+    ],
+    "explanation": "Kilimanjaro berada di timur laut Tanzania."
+  },
+  "geography-029": {
+    "question": "Laut manakah yang terletak di sebelah timur Afrika?",
+    "options": [
+      "Pasifik",
+      "Atlantik",
+      "India",
+      "Arktik"
+    ],
+    "explanation": "Samudera Hindia berbatasan dengan Afrika di sebelah timur."
+  },
+  "geography-030": {
+    "question": "Apa ibu kota Italia?",
+    "options": [
+      "Milan",
+      "Venesia",
+      "Roma",
+      "Napoli"
+    ],
+    "explanation": "Roma adalah ibu kota Italia."
+  },
+  "history-031": {
+    "question": "Pertandingan olimpiade kuno dimulai di wilayah manakah?",
+    "options": [
+      "Yunani",
+      "Mesir",
+      "Persia",
+      "Roma"
+    ],
+    "explanation": "Pertandingan Olimpiade kuno diadakan di Olympia di Yunani."
+  },
+  "history-032": {
+    "question": "Tembok manakah yang runtuh pada tahun 1989 dan menjadi simbol reunifikasi Jerman?",
+    "options": [
+      "Tembok Hadrian",
+      "Tembok Berlin",
+      "Tembok Besar",
+      "Tembok Barat"
+    ],
+    "explanation": "Tembok Berlin dibuka pada November 1989."
+  },
+  "history-033": {
+    "question": "Mesin cetak yang berhubungan dengan jenis logam bergerak di Eropa terkait dengan siapa?",
+    "options": [
+      "Galileo",
+      "Johannes Gutenberg",
+      "Isaac Newton",
+      "Marcopolo"
+    ],
+    "explanation": "Pers Gutenberg membantu menyebarkan percetakan di Eropa pada abad ke-15."
+  },
+  "history-034": {
+    "question": "Peradaban manakah yang membangun piramida di Giza?",
+    "options": [
+      "Roma",
+      "Orang Mesir Kuno",
+      "suku Aztec",
+      "orang Minoa"
+    ],
+    "explanation": "Piramida Giza dibangun di Mesir kuno."
+  },
+  "history-035": {
+    "question": "Pada tahun berapa Revolusi Perancis dimulai?",
+    "options": [
+      "1492",
+      "1776",
+      "1789",
+      "1815"
+    ],
+    "explanation": "Revolusi Perancis dimulai pada tahun 1789."
+  },
+  "history-036": {
+    "question": "Renaisans dimulai di negara manakah saat ini?",
+    "options": [
+      "Italia",
+      "Jerman",
+      "Spanyol",
+      "Inggris"
+    ],
+    "explanation": "Renaisans dimulai di negara-negara kota Italia sebelum menyebar ke seluruh Eropa."
+  },
+  "history-037": {
+    "question": "Siapa orang pertama yang berjalan di Bulan?",
+    "options": [
+      "Buzz Aldrin",
+      "Yuri Gagarin",
+      "Neil Amstrong",
+      "John Glenn"
+    ],
+    "explanation": "Neil Armstrong melangkah ke Bulan pada tahun 1969 selama Apollo 11."
+  },
+  "history-038": {
+    "question": "Kerajaan manakah yang membangun jaringan jalan raya luas yang berpusat di Roma?",
+    "options": [
+      "Kekaisaran Mongol",
+      "Rum",
+      "Kekaisaran Mali",
+      "Kekaisaran Inca"
+    ],
+    "explanation": "Jalan Romawi menghubungkan wilayah-wilayah di seluruh Kekaisaran Romawi."
+  },
+  "history-039": {
+    "question": "Magna Carta disahkan pada tahun berapa?",
+    "options": [
+      "1066",
+      "1215",
+      "1492",
+      "1607"
+    ],
+    "explanation": "Raja John menyegel Magna Carta pada tahun 1215."
+  },
+  "history-040": {
+    "question": "Kapal manakah yang membawa para peziarah ke Amerika Utara pada tahun 1620?",
+    "options": [
+      "Santa Maria",
+      "bunga mayflower",
+      "Berusaha keras",
+      "Anjing pemburu"
+    ],
+    "explanation": "Mayflower membawa Separatis Inggris pada tahun 1620."
+  },
+  "math-041": {
+    "question": "Apa itu 8×7?",
+    "options": [
+      "54",
+      "56",
+      "58",
+      "64"
+    ],
+    "explanation": "Delapan kelompok yang terdiri dari tujuh sama dengan 56."
+  },
+  "math-042": {
+    "question": "Berapakah 144 12?",
+    "options": [
+      "10",
+      "11",
+      "12",
+      "14"
+    ],
+    "explanation": "144 dibagi 12 hasilnya 12."
+  },
+  "math-043": {
+    "question": "Selesaikan: 3x + 5 = 20.",
+    "options": [
+      "3",
+      "5",
+      "7",
+      "15"
+    ],
+    "explanation": "Kurangi 5 sehingga didapat 3x = 15, lalu bagi dengan 3: x = 5."
+  },
+  "math-044": {
+    "question": "Berapakah 25% dari 80?",
+    "options": [
+      "10",
+      "15",
+      "20",
+      "25"
+    ],
+    "explanation": "25% adalah seperempat; 80 dibagi 4 hasilnya 20."
+  },
+  "math-045": {
+    "question": "Berapa 3/4 yang ditulis dalam desimal?",
+    "options": [
+      "0.25",
+      "0.5",
+      "0.75",
+      "1.25"
+    ],
+    "explanation": "Tiga dibagi empat sama dengan 0,75."
+  },
+  "math-046": {
+    "question": "Nomor berapa yang berikutnya: 2, 6, 12, 20, 30,…?",
+    "options": [
+      "36",
+      "40",
+      "42",
+      "44"
+    ],
+    "explanation": "Selisihnya adalah 4, 6, 8, 10, lalu 12; suku berikutnya adalah 42."
+  },
+  "math-047": {
+    "question": "Sebuah dadu bersisi enam dilempar. Berapa peluang terambilnya bilangan genap?",
+    "options": [
+      "1/6",
+      "1/3",
+      "1/2",
+      "2/3"
+    ],
+    "explanation": "Tiga dari enam hasil (2, 4, 6) genap, jadi peluangnya adalah 1/2."
+  },
+  "math-048": {
+    "question": "Sebuah persegi panjang memiliki keliling 30 dan panjang 9. Berapa lebarnya?",
+    "options": [
+      "5",
+      "6",
+      "7",
+      "12"
+    ],
+    "explanation": "2(9 + w) = 30, jadi w = 6."
+  },
+  "math-049": {
+    "question": "Berapakah kelipatan persekutuan terkecil dari 6 dan 8?",
+    "options": [
+      "12",
+      "18",
+      "24",
+      "48"
+    ],
+    "explanation": "24 adalah bilangan positif terkecil yang habis dibagi 6 dan 8."
+  },
+  "math-050": {
+    "question": "Jika 5 orang pekerja menyelesaikan suatu pekerjaan dalam waktu 12 hari dengan kecepatan yang sama, berapa hari kerja pekerjaan tersebut?",
+    "options": [
+      "17",
+      "30",
+      "60",
+      "72"
+    ],
+    "explanation": "5 pekerja × 12 hari = 60 hari pekerja."
+  },
+  "language-051": {
+    "question": "Kata manakah yang merupakan sinonim dari \"singkat\"?",
+    "options": [
+      "Short",
+      "Distant",
+      "Heavy",
+      "Quiet"
+    ],
+    "explanation": "Singkat artinya singkat durasi atau panjangnya."
+  },
+  "language-052": {
+    "question": "Tanda baca manakah yang mengakhiri pertanyaan langsung?",
+    "options": [
+      "Comma",
+      "Colon",
+      "Question mark",
+      "Semicolon"
+    ],
+    "explanation": "Pertanyaan langsung diakhiri dengan tanda tanya."
+  },
+  "language-053": {
+    "question": "Apa bentuk jamak dari “anak”?",
+    "options": [
+      "Childs",
+      "Children",
+      "Childes",
+      "Childrens"
+    ],
+    "explanation": "Anak-anak adalah bentuk jamak konvensional dari anak."
+  },
+  "language-054": {
+    "question": "Kalimat manakah yang menggunakan kata “mereka” dengan benar?",
+    "options": [
+      "Their going home.",
+      "The team left their bags here.",
+      "Put it over their.",
+      "Their is a book."
+    ],
+    "explanation": "Mereka adalah penentu posesif; itu menunjukkan tas itu milik tim."
+  },
+  "language-055": {
+    "question": "Kata mana yang dieja dengan benar?",
+    "options": [
+      "Separate",
+      "Seperate",
+      "Seperete",
+      "Sepparate"
+    ],
+    "explanation": "Pisahkan dieja dengan “par” di tengahnya."
+  },
+  "language-056": {
+    "question": "Apa lawan kata dari “kuno”?",
+    "options": [
+      "Old",
+      "Historic",
+      "Modern",
+      "Early"
+    ],
+    "explanation": "Modern merupakan antonim dari kuno."
+  },
+  "language-057": {
+    "question": "Dalam “Dia bernyanyi dengan indah,” kata keterangan yang mana?",
+    "options": [
+      "She",
+      "sang",
+      "beautifully",
+      "none"
+    ],
+    "explanation": "Memodifikasi kata kerja bernyanyi dengan indah dan merupakan kata keterangan."
+  },
+  "language-058": {
+    "question": "Manakah yang merupakan kalimat lengkap?",
+    "options": [
+      "Because it was raining.",
+      "The bright red umbrella.",
+      "They walked home.",
+      "After the long trip."
+    ],
+    "explanation": "“Mereka berjalan pulang” mempunyai subjek dan predikat yang lengkap."
+  },
+  "language-059": {
+    "question": "Kata manakah yang berarti “melihat dengan cepat”?",
+    "options": [
+      "Glance",
+      "Stare",
+      "Watch",
+      "Observe"
+    ],
+    "explanation": "Pandangan sekilas adalah pandangan singkat atau cepat."
+  },
+  "language-060": {
+    "question": "Pasangan manakah yang homofon dalam pengucapan bahasa Inggris yang umum?",
+    "options": [
+      "Flower / flour",
+      "Book / boot",
+      "Cat / cut",
+      "Seat / set"
+    ],
+    "explanation": "Bunga dan tepung diucapkan sama dalam bahasa Inggris umum."
+  },
+  "technology-061": {
+    "question": "Apa kepanjangan dari CPU?",
+    "options": [
+      "Unit Pengolahan Pusat",
+      "Utilitas Daya Komputer",
+      "Unggah Program Inti",
+      "Unit Cetak Pusat"
+    ],
+    "explanation": "CPU adalah singkatan dari Central Processing Unit."
+  },
+  "technology-062": {
+    "question": "Bahasa apa yang berjalan secara asli di browser web?",
+    "options": [
+      "Java",
+      "C",
+      "JavaScript",
+      "Swift"
+    ],
+    "explanation": "Browser mengimplementasikan mesin JavaScript untuk menjalankan JavaScript."
+  },
+  "technology-063": {
+    "question": "Apa arti umum dari kode status HTTP 404?",
+    "options": [
+      "Kesuksesan",
+      "Tidak ditemukan",
+      "Tidak sah",
+      "Server tidak tersedia"
+    ],
+    "explanation": "HTTP 404 menunjukkan bahwa sumber daya yang diminta tidak ditemukan."
+  },
+  "technology-064": {
+    "question": "Perangkat mana yang meneruskan paket antar jaringan yang berbeda?",
+    "options": [
+      "Perute",
+      "papan ketik",
+      "Memantau",
+      "Pencetak"
+    ],
+    "explanation": "Router meneruskan paket antar jaringan."
+  },
+  "technology-065": {
+    "question": "Di Git, apa yang diwakili oleh komit?",
+    "options": [
+      "Cuplikan perubahan proyek yang disimpan",
+      "Kabel jaringan",
+      "Sebuah bahasa pemrograman",
+      "Format kompresi file"
+    ],
+    "explanation": "Komit Git mencatat snapshot dan metadatanya dalam riwayat repositori."
+  },
+  "technology-066": {
+    "question": "Yang manakah yang merupakan bahasa kueri basis data relasional?",
+    "options": [
+      "SQL",
+      "HTML",
+      "CSS",
+      "PNG"
+    ],
+    "explanation": "SQL digunakan untuk menanyakan dan mengelola database relasional."
+  },
+  "technology-067": {
+    "question": "Apa kepanjangan dari URL?",
+    "options": [
+      "Pencari Sumber Daya Seragam",
+      "Tautan Perutean Universal",
+      "Daftar Rekaman Terpadu",
+      "Bahasa Referensi Pengguna"
+    ],
+    "explanation": "URL adalah singkatan dari Uniform Resource Locator."
+  },
+  "technology-068": {
+    "question": "Sistem bilangan manakah yang hanya menggunakan 0 dan 1?",
+    "options": [
+      "Desimal",
+      "Biner",
+      "Oktal",
+      "Roma"
+    ],
+    "explanation": "Biner adalah basis 2 dan menggunakan angka 0 dan 1."
+  },
+  "technology-069": {
+    "question": "Apa peran utama DNS?",
+    "options": [
+      "Terjemahkan nama domain ke catatan jaringan seperti alamat IP",
+      "Enkripsi setiap file",
+      "Simpan kata sandi di browser",
+      "Kompilasi kode sumber"
+    ],
+    "explanation": "DNS menyelesaikan nama domain menjadi catatan yang digunakan untuk menemukan layanan internet."
+  },
+  "technology-070": {
+    "question": "Ekstensi file mana yang biasa digunakan untuk gambar PNG?",
+    "options": [
+      ".png",
+      ".mp3",
+      ".csv",
+      ".exe"
+    ],
+    "explanation": "File gambar PNG biasanya menggunakan ekstensi .png."
+  },
+  "brain-071": {
+    "question": "Apa yang terjadi selanjutnya pada barisan 1, 4, 9, 16,…?",
+    "options": [
+      "20",
+      "24",
+      "25",
+      "36"
+    ],
+    "explanation": "Ini adalah bilangan kuadrat berurutan: 1², 2², 3², 4²; berikutnya adalah 5² = 25."
+  },
+  "brain-072": {
+    "question": "Jam menunjukkan pukul 03.15. Berapa sudut yang lebih kecil antara kedua tangannya?",
+    "options": [
+      "0°",
+      "7.5°",
+      "15°",
+      "30°"
+    ],
+    "explanation": "Pada menit 3:15 jarum menit berada pada 90° dan jarum jam pada 97,5°, dengan selisih 7,5°."
+  },
+  "brain-073": {
+    "question": "Jika semua Bloops adalah Razzies dan semua Razzies adalah Lazzies, apakah semua Bloops Lazzies?",
+    "options": [
+      "Ya",
+      "TIDAK",
+      "Tidak dapat ditentukan",
+      "Hanya beberapa"
+    ],
+    "explanation": "Secara transitivitas, setiap Bloop termasuk dalam kumpulan Razzies dan karenanya Lazzies."
+  },
+  "brain-074": {
+    "question": "Sebuah pola berulang: lingkaran, persegi, segitiga, lingkaran, persegi,… Apa yang terjadi selanjutnya?",
+    "options": [
+      "Lingkaran",
+      "Persegi",
+      "Segi tiga",
+      "Segi lima"
+    ],
+    "explanation": "Urutan tiga bentuk berulang, sehingga segitiga berikutnya."
+  },
+  "brain-075": {
+    "question": "Anda menyalip pelari di tempat kedua. Kamu berada di tempat apa?",
+    "options": [
+      "Pertama",
+      "Kedua",
+      "Ketiga",
+      "Keempat"
+    ],
+    "explanation": "Melewati pelari posisi kedua menempatkan Anda di posisi kedua."
+  },
+  "brain-076": {
+    "question": "Nomor mana yang tidak termasuk: 2, 3, 5, 9, 11?",
+    "options": [
+      "2",
+      "3",
+      "9",
+      "11"
+    ],
+    "explanation": "9 adalah komposit; yang lainnya adalah bilangan prima."
+  },
+  "brain-077": {
+    "question": "Seorang peternak mempunyai 17 ekor domba. Semua kecuali 9 pergi. Berapa banyak yang tersisa?",
+    "options": [
+      "8",
+      "9",
+      "17",
+      "26"
+    ],
+    "explanation": "“Semua kecuali 9” berarti tersisa 9 ekor domba."
+  },
+  "brain-078": {
+    "question": "Jika kemarin hari senin, lusanya hari apa?",
+    "options": [
+      "Selasa",
+      "Rabu",
+      "Kamis",
+      "Jumat"
+    ],
+    "explanation": "Kemarin Senin berarti hari ini Selasa; besok Rabu dan lusa Kamis."
+  },
+  "brain-079": {
+    "question": "Dua ayah dan dua anak laki-laki berbagi tiga buah apel secara merata, masing-masing satu buah apel. Bagaimana mungkin?",
+    "options": [
+      "Mereka memotong setiap apel",
+      "Ada tiga orang: kakek, ayah, anak laki-laki",
+      "Satu orang tidak mendapat apa-apa",
+      "Ada empat orang"
+    ],
+    "explanation": "Orang tengahnya adalah seorang anak laki-laki dan seorang ayah, sehingga kelompok tersebut terdiri dari tiga orang."
+  },
+  "brain-080": {
+    "question": "Apa huruf selanjutnya: A, C, F, J, O, …?",
+    "options": [
+      "S",
+      "T",
+      "U",
+      "V"
+    ],
+    "explanation": "Posisi surat bertambah 2, 3, 4, 5; selanjutnya tambahkan 6 ke O (15) untuk mendapatkan U (21)."
+  },
+  "nonsense-081": {
+    "question": "Apa yang punya banyak gigi tapi tidak bisa menggigit?",
+    "options": [
+      "Sisir",
+      "Seekor hiu",
+      "Sebuah ritsleting",
+      "Gergaji"
+    ],
+    "explanation": "Sisir mempunyai gigi, tetapi tidak digunakan untuk menggigit."
+  },
+  "nonsense-082": {
+    "question": "Apa yang menjadi basah saat mengering?",
+    "options": [
+      "Handuk",
+      "Awan",
+      "Spons",
+      "Sebuah sungai"
+    ],
+    "explanation": "Handuk menyerap air saat mengeringkan benda lain."
+  },
+  "nonsense-083": {
+    "question": "Apa yang punya leher tapi tidak punya kepala?",
+    "options": [
+      "Sebuah botol",
+      "Seseorang",
+      "Jerapah",
+      "Sebuah kemeja"
+    ],
+    "explanation": "Botol mempunyai leher tetapi tidak mempunyai kepala."
+  },
+  "nonsense-084": {
+    "question": "Apa yang punya tangan tapi tidak bisa bertepuk tangan?",
+    "options": [
+      "Sebuah jam",
+      "Seorang pianis",
+      "Sebuah sarung tangan",
+      "Sebuah patung"
+    ],
+    "explanation": "Sebuah jam mempunyai jarum penunjuk jam dan menit."
+  },
+  "nonsense-085": {
+    "question": "Apa yang bisa berkeliling dunia sambil tinggal di satu sudut?",
+    "options": [
+      "Sebuah perangko",
+      "Sebuah kompas",
+      "Awan",
+      "Sebuah koper"
+    ],
+    "explanation": "Prangko tetap berada di sudut amplop selama perjalanan."
+  },
+  "nonsense-086": {
+    "question": "Apa yang mempunyai satu mata tetapi tidak dapat melihat?",
+    "options": [
+      "Sebuah jarum",
+      "Sebuah kamera",
+      "Badai",
+      "Sebuah kentang"
+    ],
+    "explanation": "Lubang jarum adalah lubang benang."
+  },
+  "nonsense-087": {
+    "question": "Apa yang punya kunci tapi tidak bisa membuka gemboknya?",
+    "options": [
+      "Sebuah piano",
+      "Seorang tukang kunci",
+      "Sebuah peta",
+      "Sebuah pintu"
+    ],
+    "explanation": "Piano memiliki tuts musik, bukan tuts pengunci."
+  },
+  "nonsense-088": {
+    "question": "Benda apa yang mempunyai muka dan dua tangan tetapi tidak mempunyai lengan dan kaki?",
+    "options": [
+      "Sebuah jam",
+      "Sebuah boneka",
+      "Sebuah lukisan",
+      "Sebuah sarung tangan"
+    ],
+    "explanation": "Muka dan jarum jam diberi nama dengan analogi dengan seseorang."
+  },
+  "nonsense-089": {
+    "question": "Apa yang naik tapi tidak pernah turun?",
+    "options": [
+      "umur kamu",
+      "Sebuah balon",
+      "Merokok",
+      "Sebuah lift"
+    ],
+    "explanation": "Usia Anda bertambah seiring berjalannya waktu."
+  },
+  "nonsense-090": {
+    "question": "Apa yang berkaki empat tapi tidak bisa berjalan?",
+    "options": [
+      "Sebuah meja",
+      "Seekor anjing",
+      "Seekor kuda",
+      "Seekor laba-laba"
+    ],
+    "explanation": "Sebuah meja mempunyai kaki tetapi tidak dapat bergerak sendiri."
+  },
+  "general-x-1": {
+    "question": "Bintang manakah yang paling dekat dengan Bumi setelah Matahari?",
+    "options": [
+      "Proxima Centauri",
+      "Empat",
+      "Higrometer",
+      "Kalsit"
+    ],
+    "explanation": "Proxima Centauri merupakan bintang terdekat dengan Matahari setelah Matahari itu sendiri."
+  },
+  "general-x-2": {
+    "question": "Berapa banyak senar yang dimiliki biola standar?",
+    "options": [
+      "Empat",
+      "Besi",
+      "Vitamin C",
+      "buncis"
+    ],
+    "explanation": "Biola standar memiliki empat senar."
+  },
+  "general-x-3": {
+    "question": "Instrumen apa yang mengukur kelembapan atmosfer?",
+    "options": [
+      "Higrometer",
+      "Prem",
+      "Kedelai yang difermentasi",
+      "Badam"
+    ],
+    "explanation": "Higrometer mengukur kelembapan di udara."
+  },
+  "general-x-4": {
+    "question": "Mineral manakah yang merupakan penyusun utama batu kapur?",
+    "options": [
+      "Kalsit",
+      "Satu bungkus",
+      "Bunglon",
+      "Burung beo"
+    ],
+    "explanation": "Batu kapur terutama terdiri dari mineral kalsit."
+  },
+  "general-x-5": {
+    "question": "Berapa detik dalam satu menit?",
+    "options": [
+      "60",
+      "Piano",
+      "Michelangelo",
+      "string"
+    ],
+    "explanation": "Satu menit berisi 60 detik."
+  },
+  "general-x-6": {
+    "question": "Apa unsur pertama pada tabel periodik?",
+    "options": [
+      "Hidrogen",
+      "Origami",
+      "Plester basah",
+      "Prasasti"
+    ],
+    "explanation": "Hidrogen memiliki nomor atom 1 dan merupakan unsur pertama dalam tabel periodik."
+  },
+  "general-x-7": {
+    "question": "Laut manakah yang terletak di antara Afrika bagian timur dan Australia bagian barat?",
+    "options": [
+      "Samudra India",
+      "Enam",
+      "Ragbi",
+      "Delapan belas"
+    ],
+    "explanation": "Samudera Hindia terletak di antara Afrika, Asia, dan Australia."
+  },
+  "general-x-8": {
+    "question": "Pada tekanan standar, pada suhu Celsius berapa air murni mendidih?",
+    "options": [
+      "100 °C",
+      "Biaya pinjaman",
+      "Menyimpan pendapatan untuk digunakan di masa depan",
+      "Sebuah sistem dimana pembeli dan penjual saling bertukar"
+    ],
+    "explanation": "Air mendidih pada suhu 100 °C pada tekanan satu atmosfer."
+  },
+  "general-x-9": {
+    "question": "Berapa banyak wajah yang dimiliki tetrahedron?",
+    "options": [
+      "Empat",
+      "Sebuah alamat",
+      "Kompas",
+      "366"
+    ],
+    "explanation": "Tetrahedron memiliki empat sisi segitiga."
+  },
+  "general-x-10": {
+    "question": "Logam manakah yang memiliki simbol kimia Fe?",
+    "options": [
+      "Besi",
+      "Menyeberang jalan dengan aman",
+      "112",
+      "Merokok"
+    ],
+    "explanation": "Fe adalah simbol kimia untuk besi."
+  },
+  "general-x-11": {
+    "question": "Vitamin apa yang banyak terdapat pada buah jeruk?",
+    "options": [
+      "Vitamin C",
+      "Chuseok",
+      "Ondol",
+      "Buchaechum"
+    ],
+    "explanation": "Buah jeruk merupakan sumber vitamin C yang terkenal."
+  },
+  "general-x-12": {
+    "question": "Apa bahan utama hummus tradisional?",
+    "options": [
+      "buncis",
+      "Kedua",
+      "90",
+      "Omnivora"
+    ],
+    "explanation": "Hummus tradisional dibuat terutama dari buncis."
+  },
+  "general-x-13": {
+    "question": "Biji-bijian apa yang digunakan untuk membuat risotto?",
+    "options": [
+      "Nasi Arborio",
+      "Empat",
+      "Higrometer",
+      "Kalsit"
+    ],
+    "explanation": "Risotto biasanya menggunakan varietas berbiji pendek seperti Arborio."
+  },
+  "general-x-14": {
+    "question": "Tahu terbuat dari apa?",
+    "options": [
+      "Kedelai",
+      "Besi",
+      "Vitamin C",
+      "buncis"
+    ],
+    "explanation": "Tahu dibuat dengan mengentalkan susu kedelai."
+  },
+  "general-x-15": {
+    "question": "Bumbu apa yang memberi warna kuning pada banyak kari?",
+    "options": [
+      "Kunyit",
+      "Kedelai yang difermentasi",
+      "Badam",
+      "Krim"
+    ],
+    "explanation": "Kurkumin dalam kunyit memberikan warna kuning yang kuat."
+  },
+  "general-x-16": {
+    "question": "Apa bahan utama guacamole?",
+    "options": [
+      "Alpukat",
+      "Bunglon",
+      "Burung beo",
+      "Hiu paus"
+    ],
+    "explanation": "Guacamole berbahan dasar alpukat tumbuk."
+  },
+  "general-x-17": {
+    "question": "Buah apa yang dikeringkan untuk dijadikan plum?",
+    "options": [
+      "Prem",
+      "Michelangelo",
+      "string",
+      "Menari"
+    ],
+    "explanation": "Prune adalah buah plum kering."
+  },
+  "general-x-18": {
+    "question": "Apa bahan utama miso?",
+    "options": [
+      "Kedelai yang difermentasi",
+      "Plester basah",
+      "Prasasti",
+      "Lima"
+    ],
+    "explanation": "Miso adalah pasta fermentasi yang biasanya dibuat dari kacang kedelai."
+  },
+  "general-x-19": {
+    "question": "Kacang apa yang digunakan untuk membuat marzipan?",
+    "options": [
+      "Badam",
+      "Ragbi",
+      "Delapan belas",
+      "Catur"
+    ],
+    "explanation": "Marzipan terutama terbuat dari kacang almond dan gula."
+  },
+  "general-x-20": {
+    "question": "Produk susu apa yang diaduk untuk membuat mentega?",
+    "options": [
+      "Krim",
+      "Menyimpan pendapatan untuk digunakan di masa depan",
+      "Sebuah sistem dimana pembeli dan penjual saling bertukar",
+      "Kenaikan harga secara umum"
+    ],
+    "explanation": "Krim pengaduk memisahkan lemak mentega dari susu mentega."
+  },
+  "general-x-21": {
+    "question": "Apa hewan darat terbesar yang masih hidup?",
+    "options": [
+      "Gajah Afrika",
+      "Kompas",
+      "366",
+      "Tujuh"
+    ],
+    "explanation": "Gajah Afrika adalah hewan darat terbesar yang masih hidup."
+  },
+  "general-x-22": {
+    "question": "Hewan darat apa yang tercepat dalam jarak pendek?",
+    "options": [
+      "Citah",
+      "112",
+      "Merokok",
+      "seoul"
+    ],
+    "explanation": "Cheetah dapat mencapai kecepatan lari hewan darat tertinggi."
+  },
+  "general-x-23": {
+    "question": "Mamalia manakah yang bertelur dan paruhnya mirip bebek?",
+    "options": [
+      "platipus",
+      "Ondol",
+      "Buchaechum",
+      "Hanok"
+    ],
+    "explanation": "Platipus adalah mamalia bertelur yang mempunyai paruh."
+  },
+  "general-x-24": {
+    "question": "Sekelompok serigala biasa disebut?",
+    "options": [
+      "Satu bungkus",
+      "90",
+      "Omnivora",
+      "Pengendapan"
+    ],
+    "explanation": "Sekelompok serigala biasa disebut kawanan."
+  },
+  "general-x-25": {
+    "question": "Hewan apa yang diketahui bisa berubah warna menggunakan sel kulit khusus?",
+    "options": [
+      "Bunglon",
+      "Higrometer",
+      "Kalsit",
+      "60"
+    ],
+    "explanation": "Bunglon dapat berubah warna menggunakan sel kulit khusus."
+  },
+  "general-x-26": {
+    "question": "Burung apa yang terkenal meniru ucapan manusia?",
+    "options": [
+      "Burung beo",
+      "Vitamin C",
+      "buncis",
+      "Nasi Arborio"
+    ],
+    "explanation": "Banyak spesies burung beo yang bisa meniru suara, termasuk ucapan manusia."
+  },
+  "general-x-27": {
+    "question": "Apa spesies hiu terbesar?",
+    "options": [
+      "Hiu paus",
+      "Kedelai yang difermentasi",
+      "Badam",
+      "Krim"
+    ],
+    "explanation": "Hiu paus adalah spesies ikan terbesar yang masih hidup."
+  },
+  "general-x-28": {
+    "question": "Serangga apa yang menghasilkan madu?",
+    "options": [
+      "Lebah madu",
+      "Bunglon",
+      "Burung beo",
+      "Hiu paus"
+    ],
+    "explanation": "Lebah madu menghasilkan madu dari nektar yang dikumpulkan."
+  },
+  "general-x-29": {
+    "question": "Apa nama katak muda?",
+    "options": [
+      "Kecebong",
+      "string",
+      "Menari",
+      "Kaca berwarna"
+    ],
+    "explanation": "Tahap larva akuatik katak disebut kecebong."
+  },
+  "general-x-30": {
+    "question": "Mamalia manakah yang menggunakan ekolokasi untuk bernavigasi?",
+    "options": [
+      "Kelelawar",
+      "Prasasti",
+      "Lima",
+      "Cinta"
+    ],
+    "explanation": "Banyak kelelawar menggunakan ekolokasi untuk mencari mangsa dan bernavigasi."
+  },
+  "general-x-31": {
+    "question": "Instrumen manakah yang memiliki 88 tuts dalam bentuk standar modernnya?",
+    "options": [
+      "Piano",
+      "Delapan belas",
+      "Catur",
+      "Yen"
+    ],
+    "explanation": "Piano modern standar memiliki 88 tuts."
+  },
+  "general-x-32": {
+    "question": "Seniman manakah yang melukis langit-langit Kapel Sistina?",
+    "options": [
+      "Michelangelo",
+      "Sebuah sistem dimana pembeli dan penjual saling bertukar",
+      "Kenaikan harga secara umum",
+      "Pembayaran yang diperlukan kepada pemerintah"
+    ],
+    "explanation": "Michelangelo melukis langit-langit Kapel Sistina."
+  },
+  "general-x-33": {
+    "question": "Kelompok instrumen manakah yang termasuk biola?",
+    "options": [
+      "string",
+      "366",
+      "Tujuh",
+      "Sarapan"
+    ],
+    "explanation": "Biola adalah alat musik gesek yang ditekuk."
+  },
+  "general-x-34": {
+    "question": "Bentuk seni apa yang menggunakan gerakan dan koreografi dalam musik?",
+    "options": [
+      "Menari",
+      "Merokok",
+      "seoul",
+      "Won"
+    ],
+    "explanation": "Tari mengekspresikan ide dan bentuk melalui gerakan."
+  },
+  "general-x-35": {
+    "question": "Bahan apa yang secara tradisional digunakan untuk membuat kaca patri?",
+    "options": [
+      "Kaca berwarna",
+      "Buchaechum",
+      "Hanok",
+      "Gayageum"
+    ],
+    "explanation": "Karya seni kaca patri dirangkai dari potongan kaca berwarna."
+  },
+  "general-x-36": {
+    "question": "Komposer mana yang menulis Four Seasons?",
+    "options": [
+      "Antonio Vivaldi",
+      "Omnivora",
+      "Pengendapan",
+      "Penggaris"
+    ],
+    "explanation": "Vivaldi menggubah kumpulan konser biola yang dikenal sebagai The Four Seasons."
+  },
+  "general-x-37": {
+    "question": "Alat musik manakah yang dimainkan dengan busur dan lebih besar dari biola?",
+    "options": [
+      "Selo",
+      "Kalsit",
+      "60",
+      "Hidrogen"
+    ],
+    "explanation": "Cello adalah alat musik gesek yang ukurannya lebih besar dari biola."
+  },
+  "general-x-38": {
+    "question": "Apa nama seni melipat kertas di jepang?",
+    "options": [
+      "Origami",
+      "buncis",
+      "Nasi Arborio",
+      "Kedelai"
+    ],
+    "explanation": "Origami adalah seni melipat kertas menjadi bentuk."
+  },
+  "general-x-39": {
+    "question": "Media apa yang digunakan untuk membuat lukisan dinding?",
+    "options": [
+      "Plester basah",
+      "Badam",
+      "Krim",
+      "Gajah Afrika"
+    ],
+    "explanation": "Sebuah lukisan dinding dilukis di atas plester basah yang baru dipasang."
+  },
+  "general-x-40": {
+    "question": "Artefak museum manakah yang menggunakan tulisan di atas batu, logam, atau kayu?",
+    "options": [
+      "Prasasti",
+      "Burung beo",
+      "Hiu paus",
+      "Lebah madu"
+    ],
+    "explanation": "Prasasti adalah teks yang diukir atau ditulis pada permukaan yang tahan lama."
+  },
+  "general-x-41": {
+    "question": "Berapa banyak pemain dari satu tim bola basket yang berada di lapangan dalam satu waktu?",
+    "options": [
+      "Lima",
+      "string",
+      "Menari",
+      "Kaca berwarna"
+    ],
+    "explanation": "Setiap tim bola basket menurunkan lima pemain di lapangan."
+  },
+  "general-x-42": {
+    "question": "Dalam tenis, skor nol disebut?",
+    "options": [
+      "Cinta",
+      "Prasasti",
+      "Lima",
+      "Bulutangkis"
+    ],
+    "explanation": "Tenis menggunakan istilah cinta untuk skor nol."
+  },
+  "general-x-43": {
+    "question": "Berapa banyak cincin yang muncul di bendera Olimpiade?",
+    "options": [
+      "Lima",
+      "Catur",
+      "Yen",
+      "Pendapatan dan pengeluaran yang direncanakan"
+    ],
+    "explanation": "Simbol Olimpiade memiliki lima cincin yang saling bertautan."
+  },
+  "general-x-44": {
+    "question": "Olahraga apa yang menggunakan shuttlecock?",
+    "options": [
+      "Bulutangkis",
+      "Kenaikan harga secara umum",
+      "Pembayaran yang diperlukan kepada pemerintah",
+      "Pendapatan dikurangi biaya"
+    ],
+    "explanation": "Bulutangkis dimainkan dengan shuttlecock."
+  },
+  "general-x-45": {
+    "question": "Berapa banyak basa pada berlian bisbol?",
+    "options": [
+      "Empat",
+      "Tujuh",
+      "Sarapan",
+      "Daftar bahan"
+    ],
+    "explanation": "Berlian bisbol memiliki empat alas, termasuk home plate."
+  },
+  "general-x-46": {
+    "question": "Olahraga apa yang dimainkan di Wimbledon?",
+    "options": [
+      "Tenis",
+      "seoul",
+      "Won",
+      "Hangul"
+    ],
+    "explanation": "Wimbledon adalah turnamen tenis besar."
+  },
+  "general-x-47": {
+    "question": "Berapa banyak poin yang bernilai sebuah touchdown sebelum konversi apa pun?",
+    "options": [
+      "Enam",
+      "Hanok",
+      "Gayageum",
+      "sireum"
+    ],
+    "explanation": "Sebuah touchdown bernilai enam poin dalam sepak bola Amerika."
+  },
+  "general-x-48": {
+    "question": "Olahraga apa yang menggunakan scrum?",
+    "options": [
+      "Ragbi",
+      "Pengendapan",
+      "Penggaris",
+      "Api"
+    ],
+    "explanation": "Scrum adalah metode memulai kembali permainan di rugby."
+  },
+  "general-x-49": {
+    "question": "Berapa banyak lubang dalam putaran golf standar?",
+    "options": [
+      "Delapan belas",
+      "60",
+      "Hidrogen",
+      "Samudra India"
+    ],
+    "explanation": "Putaran golf standar dimainkan dalam 18 lubang."
+  },
+  "general-x-50": {
+    "question": "Olahraga apa yang menggunakan istilah check dan skakmat?",
+    "options": [
+      "Catur",
+      "Nasi Arborio",
+      "Kedelai",
+      "Kunyit"
+    ],
+    "explanation": "Check dan skakmat adalah istilah dalam catur."
+  },
+  "general-x-51": {
+    "question": "Apa satuan mata uang yang digunakan di Jepang?",
+    "options": [
+      "Yen",
+      "Krim",
+      "Gajah Afrika",
+      "Citah"
+    ],
+    "explanation": "Yen adalah mata uang Jepang."
+  },
+  "general-x-52": {
+    "question": "Apa yang dibandingkan dengan anggaran?",
+    "options": [
+      "Pendapatan dan pengeluaran yang direncanakan",
+      "Hiu paus",
+      "Lebah madu",
+      "Kecebong"
+    ],
+    "explanation": "Anggaran mengatur pendapatan dan pengeluaran yang diharapkan."
+  },
+  "general-x-53": {
+    "question": "Apa itu barter?",
+    "options": [
+      "Pertukaran barang tanpa uang",
+      "Menari",
+      "Kaca berwarna",
+      "Antonio Vivaldi"
+    ],
+    "explanation": "Barter adalah pertukaran langsung tanpa menggunakan uang sebagai pembayaran."
+  },
+  "general-x-54": {
+    "question": "Apa bunga pinjaman?",
+    "options": [
+      "Biaya pinjaman",
+      "Lima",
+      "Cinta",
+      "Bulutangkis"
+    ],
+    "explanation": "Bunga adalah harga yang dibayarkan untuk meminjam uang."
+  },
+  "general-x-55": {
+    "question": "Apa yang dimaksud dengan menabung?",
+    "options": [
+      "Menyimpan pendapatan untuk digunakan di masa depan",
+      "Catur",
+      "Yen",
+      "Pendapatan dan pengeluaran yang direncanakan"
+    ],
+    "explanation": "Menabung berarti menyimpan sumber daya daripada membelanjakannya sekarang."
+  },
+  "general-x-56": {
+    "question": "Apa yang dimaksud dengan pasar dalam ilmu ekonomi?",
+    "options": [
+      "Sebuah sistem dimana pembeli dan penjual saling bertukar",
+      "Pembayaran yang diperlukan kepada pemerintah",
+      "Pendapatan dikurangi biaya",
+      "Berapa banyak penjual menawarkan untuk dijual"
+    ],
+    "explanation": "Pasar menghubungkan pembeli dan penjual untuk pertukaran."
+  },
+  "general-x-57": {
+    "question": "Apa itu inflasi?",
+    "options": [
+      "Kenaikan harga secara umum",
+      "Sarapan",
+      "Daftar bahan",
+      "Memprosesnya untuk digunakan kembali"
+    ],
+    "explanation": "Inflasi adalah peningkatan berkelanjutan pada tingkat harga secara keseluruhan."
+  },
+  "general-x-58": {
+    "question": "Apa itu pajak?",
+    "options": [
+      "Pembayaran yang diperlukan kepada pemerintah",
+      "Won",
+      "Hangul",
+      "Kimchi"
+    ],
+    "explanation": "Pajak mendanai layanan publik dan dikenakan oleh pemerintah."
+  },
+  "general-x-59": {
+    "question": "Apa itu keuntungan?",
+    "options": [
+      "Pendapatan dikurangi biaya",
+      "Gayageum",
+      "sireum",
+      "Meter"
+    ],
+    "explanation": "Keuntungan adalah apa yang tersisa ketika biaya dikurangkan dari pendapatan."
+  },
+  "general-x-60": {
+    "question": "Apa yang dijelaskan oleh pasokan?",
+    "options": [
+      "Berapa banyak penjual menawarkan untuk dijual",
+      "Penggaris",
+      "Api",
+      "Selatan"
+    ],
+    "explanation": "Penawaran adalah kuantitas yang bersedia dijual produsen pada harga berbeda."
+  },
+  "general-x-61": {
+    "question": "Apa nama kumpulan petunjuk arah menuju suatu tempat secara tertulis?",
+    "options": [
+      "Sebuah alamat",
+      "Hidrogen",
+      "Samudra India",
+      "100 °C"
+    ],
+    "explanation": "Alamat mengidentifikasi lokasi pengiriman atau navigasi."
+  },
+  "general-x-62": {
+    "question": "Alat apa yang biasa digunakan untuk mencari arah dengan jarum magnet?",
+    "options": [
+      "Kompas",
+      "Kedelai",
+      "Kunyit",
+      "Alpukat"
+    ],
+    "explanation": "Jarum kompas kira-kira sejajar dengan medan magnet bumi."
+  },
+  "general-x-63": {
+    "question": "Berapa hari dalam satu tahun kabisat?",
+    "options": [
+      "366",
+      "Gajah Afrika",
+      "Citah",
+      "platipus"
+    ],
+    "explanation": "Tahun kabisat mempunyai satu hari ekstra di bulan Februari, sehingga totalnya ada 366 hari."
+  },
+  "general-x-64": {
+    "question": "Berapa bulan yang memiliki 31 hari?",
+    "options": [
+      "Tujuh",
+      "Lebah madu",
+      "Kecebong",
+      "Kelelawar"
+    ],
+    "explanation": "Tujuh bulan memiliki 31 hari."
+  },
+  "general-x-65": {
+    "question": "Makan pertama hari itu biasa disebut apa?",
+    "options": [
+      "Sarapan",
+      "Kaca berwarna",
+      "Antonio Vivaldi",
+      "Selo"
+    ],
+    "explanation": "Sarapan biasanya merupakan waktu makan pertama setelah bangun tidur."
+  },
+  "general-x-66": {
+    "question": "Dokumen manakah yang mencantumkan bahan-bahan dalam makanan kemasan?",
+    "options": [
+      "Daftar bahan",
+      "Cinta",
+      "Bulutangkis",
+      "Tenis"
+    ],
+    "explanation": "Label makanan mencantumkan bahan-bahan, umumnya dalam urutan menurun berdasarkan beratnya."
+  },
+  "general-x-67": {
+    "question": "Apa pengaruh daur ulang terhadap bahan yang dapat digunakan?",
+    "options": [
+      "Memprosesnya untuk digunakan kembali",
+      "Yen",
+      "Pendapatan dan pengeluaran yang direncanakan",
+      "Pertukaran barang tanpa uang"
+    ],
+    "explanation": "Daur ulang mengolah bahan limbah agar dapat digunakan kembali."
+  },
+  "general-x-68": {
+    "question": "Apa manfaat penyeberangan pejalan kaki bagi orang-orang?",
+    "options": [
+      "Menyeberang jalan dengan aman",
+      "Pembayaran yang diperlukan kepada pemerintah",
+      "Pendapatan dikurangi biaya",
+      "Berapa banyak penjual menawarkan untuk dijual"
+    ],
+    "explanation": "Perlintasan bertanda menunjukkan tempat bagi pejalan kaki untuk menyeberang."
+  },
+  "general-x-69": {
+    "question": "Nomor darurat mana yang digunakan di seluruh Uni Eropa?",
+    "options": [
+      "112",
+      "Sarapan",
+      "Daftar bahan",
+      "Memprosesnya untuk digunakan kembali"
+    ],
+    "explanation": "112 adalah nomor darurat umum di seluruh UE."
+  },
+  "general-x-70": {
+    "question": "Apa yang dirasakan oleh detektor asap?",
+    "options": [
+      "Merokok",
+      "Hangul",
+      "Kimchi",
+      "Chuseok"
+    ],
+    "explanation": "Detektor asap memperingatkan penghuni ketika asap terdeteksi."
+  },
+  "general-x-71": {
+    "question": "Apa ibu kota Korea Selatan?",
+    "options": [
+      "seoul",
+      "sireum",
+      "Meter",
+      "Kedua"
+    ],
+    "explanation": "Seoul adalah ibu kota Korea Selatan."
+  },
+  "general-x-72": {
+    "question": "Apa mata uang nasional Korea Selatan?",
+    "options": [
+      "Won",
+      "Api",
+      "Selatan",
+      "Kerak"
+    ],
+    "explanation": "Won adalah mata uang Korea Selatan."
+  },
+  "general-x-73": {
+    "question": "Alfabet Korea manakah yang diumumkan secara resmi oleh Raja Sejong?",
+    "options": [
+      "Hangul",
+      "Samudra India",
+      "100 °C",
+      "Besi"
+    ],
+    "explanation": "Raja Sejong mengumumkan Hunminjeongeum, yang sekarang disebut Hangul, pada tahun 1446."
+  },
+  "general-x-74": {
+    "question": "Apa nama hidangan kubis fermentasi tradisional Korea?",
+    "options": [
+      "Kimchi",
+      "Kunyit",
+      "Alpukat",
+      "Prem"
+    ],
+    "explanation": "Kimchi adalah hidangan sayuran fermentasi tradisional, sering kali dibuat dengan kubis."
+  },
+  "general-x-75": {
+    "question": "Hari libur Korea manakah yang dikaitkan dengan perayaan panen?",
+    "options": [
+      "Chuseok",
+      "Citah",
+      "platipus",
+      "Satu bungkus"
+    ],
+    "explanation": "Chuseok adalah hari libur panen musim gugur yang besar di Korea."
+  },
+  "general-x-76": {
+    "question": "Apa nama sistem pemanas lantai tradisional Korea?",
+    "options": [
+      "Ondol",
+      "Kecebong",
+      "Kelelawar",
+      "Piano"
+    ],
+    "explanation": "Ondol adalah sistem pemanas bawah lantai tradisional Korea."
+  },
+  "general-x-77": {
+    "question": "Bentuk kesenian Korea manakah yang menggunakan kipas lipat dalam pertunjukan tarinya?",
+    "options": [
+      "Buchaechum",
+      "Antonio Vivaldi",
+      "Selo",
+      "Origami"
+    ],
+    "explanation": "Buchaechum adalah tarian kipas Korea."
+  },
+  "general-x-78": {
+    "question": "Apa bahasa Korea untuk rumah adat?",
+    "options": [
+      "Hanok",
+      "Bulutangkis",
+      "Tenis",
+      "Enam"
+    ],
+    "explanation": "Hanok mengacu pada arsitektur dan rumah tradisional Korea."
+  },
+  "general-x-79": {
+    "question": "Alat musik Korea manakah yang lehernya panjang dan biasanya memiliki 12 senar?",
+    "options": [
+      "Gayageum",
+      "Pendapatan dan pengeluaran yang direncanakan",
+      "Pertukaran barang tanpa uang",
+      "Biaya pinjaman"
+    ],
+    "explanation": "Gayageum adalah sitar tradisional Korea, umumnya dengan 12 senar."
+  },
+  "general-x-80": {
+    "question": "Apa nama olahraga gulat tradisional korea?",
+    "options": [
+      "sireum",
+      "Pendapatan dikurangi biaya",
+      "Berapa banyak penjual menawarkan untuk dijual",
+      "Sebuah alamat"
+    ],
+    "explanation": "Ssireum adalah bentuk gulat tradisional Korea."
+  },
+  "general-x-81": {
+    "question": "Apa satuan SI untuk panjang?",
+    "options": [
+      "Meter",
+      "Daftar bahan",
+      "Memprosesnya untuk digunakan kembali",
+      "Menyeberang jalan dengan aman"
+    ],
+    "explanation": "Meter adalah satuan dasar SI untuk panjang."
+  },
+  "general-x-82": {
+    "question": "Apa satuan SI untuk waktu?",
+    "options": [
+      "Kedua",
+      "Hangul",
+      "Kimchi",
+      "Chuseok"
+    ],
+    "explanation": "Yang kedua adalah satuan waktu dasar SI."
+  },
+  "general-x-83": {
+    "question": "Berapa derajat sudut siku-siku?",
+    "options": [
+      "90",
+      "sireum",
+      "Meter",
+      "Kedua"
+    ],
+    "explanation": "Sudut siku-siku berukuran 90 derajat."
+  },
+  "general-x-84": {
+    "question": "Apa nama hewan yang memakan tumbuhan dan hewan?",
+    "options": [
+      "Omnivora",
+      "Proxima Centauri",
+      "Empat",
+      "Higrometer"
+    ],
+    "explanation": "Omnivora memakan tumbuhan dan hewan."
+  },
+  "general-x-85": {
+    "question": "Apa sebutan air yang jatuh dari awan sebagai hujan, salju, atau hujan es?",
+    "options": [
+      "Pengendapan",
+      "100 °C",
+      "Besi",
+      "Vitamin C"
+    ],
+    "explanation": "Curah hujan meliputi hujan, salju, hujan es, dan hujan es."
+  },
+  "general-x-86": {
+    "question": "Alat rumah tangga manakah yang dirancang untuk mengukur panjang?",
+    "options": [
+      "Penggaris",
+      "Alpukat",
+      "Prem",
+      "Kedelai yang difermentasi"
+    ],
+    "explanation": "Penggaris ditandai dengan satuan untuk mengukur panjang."
+  },
+  "general-x-87": {
+    "question": "Apa yang bisa dikendalikan oleh alat pemadam kebakaran?",
+    "options": [
+      "Api",
+      "platipus",
+      "Satu bungkus",
+      "Bunglon"
+    ],
+    "explanation": "Alat pemadam api digunakan untuk memadamkan api kecil."
+  },
+  "general-x-88": {
+    "question": "Berapa banyak warna yang secara tradisional diberi nama dalam pelangi?",
+    "options": [
+      "Tujuh",
+      "Kelelawar",
+      "Piano",
+      "Michelangelo"
+    ],
+    "explanation": "Daftar konvensional menyebutkan tujuh warna pelangi."
+  },
+  "general-x-89": {
+    "question": "Arah manakah yang berlawanan dengan utara pada kompas?",
+    "options": [
+      "Selatan",
+      "Selo",
+      "Origami",
+      "Plester basah"
+    ],
+    "explanation": "Selatan berlawanan dengan utara pada kompas."
+  },
+  "general-x-90": {
+    "question": "Lapisan luar yang padat pada sepotong roti disebut?",
+    "options": [
+      "Kerak",
+      "Tenis",
+      "Enam",
+      "Ragbi"
+    ],
+    "explanation": "Kerak adalah lapisan luar roti yang berwarna kecokelatan."
+  },
+  "nonsense-x-1": {
+    "question": "Apa yang punya kota tapi tidak ada rumah, sungai tapi tidak ada air, dan jalan tapi tidak ada mobil?",
+    "options": [
+      "Sebuah peta",
+      "Sebuah telur",
+      "Sebuah telepon",
+      "Sebuah buku"
+    ],
+    "explanation": "Peta mewakili fitur-fitur ini tanpa memuatnya secara fisik."
+  },
+  "nonsense-x-2": {
+    "question": "Apa yang harus dipecah sebelum dapat digunakan?",
+    "options": [
+      "Sebuah telur",
+      "Lampu",
+      "Sebuah sungai",
+      "Sebuah sarung tangan"
+    ],
+    "explanation": "Telur harus dipecahkan terlebih dahulu sebelum isinya dapat digunakan."
+  },
+  "nonsense-x-3": {
+    "question": "Apa yang punya cincin tapi tidak ada jari?",
+    "options": [
+      "Sebuah telepon",
+      "Sebuah bank",
+      "Sebuah koin",
+      "Pilek"
+    ],
+    "explanation": "Telepon dapat berdering tanpa jari."
+  },
+  "nonsense-x-4": {
+    "question": "Apa yang mempunyai kata-kata tetapi tidak pernah berbicara?",
+    "options": [
+      "Sebuah buku",
+      "Namamu",
+      "Sebuah kalender",
+      "Sebuah pohon"
+    ],
+    "explanation": "Sebuah buku berisi kata-kata tertulis tetapi tidak berbicara dengan sendirinya."
+  },
+  "nonsense-x-5": {
+    "question": "Apa yang bisa memenuhi ruangan tetapi tidak memakan tempat?",
+    "options": [
+      "Lampu",
+      "Satu-satunya",
+      "Sebuah jamur",
+      "Nafasmu"
+    ],
+    "explanation": "Cahaya dapat menerangi suatu ruangan tanpa menempatinya seperti benda padat."
+  },
+  "nonsense-x-6": {
+    "question": "Apa yang berlari tetapi tidak pernah berjalan, mempunyai tempat tidur tetapi tidak pernah tidur?",
+    "options": [
+      "Sebuah sungai",
+      "Sebuah amplop",
+      "Sebuah sepatu",
+      "Sebuah botol"
+    ],
+    "explanation": "Sebuah sungai mengalir di saluran yang disebut dasar sungai."
+  },
+  "nonsense-x-7": {
+    "question": "Apa yang mempunyai ibu jari dan empat jari tetapi tidak hidup?",
+    "options": [
+      "Sebuah sarung tangan",
+      "Sebuah lelucon",
+      "Artichoke",
+      "Sebuah tempat tidur"
+    ],
+    "explanation": "Sarung tangan memiliki ruang yang dibentuk untuk jari tangan dan ibu jari."
+  },
+  "nonsense-x-8": {
+    "question": "Apa yang mempunyai cabang tetapi tidak mempunyai buah, batang dan daun?",
+    "options": [
+      "Sebuah bank",
+      "Sebuah gua",
+      "Sebuah bulu",
+      "Sebuah baterai"
+    ],
+    "explanation": "Sebuah bank dapat memiliki cabang sebagai lokasinya."
+  },
+  "nonsense-x-9": {
+    "question": "Benda apa yang mempunyai kepala dan ekor tetapi tidak mempunyai badan?",
+    "options": [
+      "Sebuah koin",
+      "Huruf M",
+      "Sebuah teko",
+      "Sebuah perahu"
+    ],
+    "explanation": "Sebuah koin memiliki dua sisi yang biasa disebut kepala dan ekor."
+  },
+  "nonsense-x-10": {
+    "question": "Apa yang bisa kamu tangkap tapi tidak bisa kamu lempar?",
+    "options": [
+      "Pilek",
+      "Sikat gigi",
+      "Sebuah gesper",
+      "Jam alarm"
+    ],
+    "explanation": "Anda bisa masuk angin, tapi Anda tidak bisa membuangnya."
+  },
+  "nonsense-x-11": {
+    "question": "Apa yang menjadi milik Anda tetapi orang lain lebih sering menggunakannya dibandingkan Anda?",
+    "options": [
+      "Namamu",
+      "Sebuah panci",
+      "Sebuah ketel",
+      "Gunting"
+    ],
+    "explanation": "Orang lain sering menyebut nama Anda saat menyapa Anda."
+  },
+  "nonsense-x-12": {
+    "question": "Apa yang memiliki banyak halaman tetapi bukan sebuah buku dan membantu Anda merencanakan kencan?",
+    "options": [
+      "Sebuah kalender",
+      "Sebuah halaman web",
+      "Seekor siput",
+      "Sebuah pensil"
+    ],
+    "explanation": "Kalender menampilkan hari dan tanggal di seluruh halaman atau panel."
+  },
+  "nonsense-x-13": {
+    "question": "Apa yang menggonggong tetapi tidak menggigit?",
+    "options": [
+      "Sebuah pohon",
+      "Sebuah pisau",
+      "Sebuah kamera",
+      "Sebuah kereta api"
+    ],
+    "explanation": "Kulit kayu adalah lapisan luar pelindung pohon."
+  },
+  "nonsense-x-14": {
+    "question": "Bagian bawah sepatu disebut apa?",
+    "options": [
+      "Satu-satunya",
+      "Sebuah komputer",
+      "Sebuah jam dinding",
+      "Sapu"
+    ],
+    "explanation": "Sol adalah permukaan bawah sepatu."
+  },
+  "nonsense-x-15": {
+    "question": "Ruangan seperti apa yang tidak memiliki pintu atau jendela?",
+    "options": [
+      "Sebuah jamur",
+      "Sebuah telepon",
+      "Sebuah buku",
+      "Lampu"
+    ],
+    "explanation": "Kata jamur mengandung kata ruangan, tapi itu bukan ruangan."
+  },
+  "nonsense-x-16": {
+    "question": "Apa yang bisa kamu pegang tanpa menyentuhnya?",
+    "options": [
+      "Nafasmu",
+      "Sebuah sungai",
+      "Sebuah sarung tangan",
+      "Sebuah bank"
+    ],
+    "explanation": "Anda dapat menahan napas tanpa memegang benda fisik."
+  },
+  "nonsense-x-17": {
+    "question": "Apa yang dimulai dan diakhiri dengan E dan berisi satu huruf?",
+    "options": [
+      "Sebuah amplop",
+      "Sebuah koin",
+      "Pilek",
+      "Namamu"
+    ],
+    "explanation": "Sebuah amplop dimulai dan diakhiri dengan huruf E dan dapat berisi satu huruf di dalamnya."
+  },
+  "nonsense-x-18": {
+    "question": "Apa yang mempunyai tulang belakang tetapi tidak mempunyai tulang?",
+    "options": [
+      "Sebuah buku",
+      "Sebuah pohon",
+      "Satu-satunya",
+      "Sebuah jamur"
+    ],
+    "explanation": "Punggung buku adalah bagian tepinya, bukan kerangka."
+  },
+  "nonsense-x-19": {
+    "question": "Apa yang punya lidah tapi tidak bisa merasakan?",
+    "options": [
+      "Sebuah sepatu",
+      "Sebuah jamur",
+      "Nafasmu",
+      "Sebuah amplop"
+    ],
+    "explanation": "Lidah sepatu adalah penutup di bawah talinya."
+  },
+  "nonsense-x-20": {
+    "question": "Apa yang punya topi tapi tidak punya kepala?",
+    "options": [
+      "Sebuah botol",
+      "Sebuah sepatu",
+      "Sebuah lelucon",
+      "Artichoke"
+    ],
+    "explanation": "Tutup botol menutupi bukaan botol."
+  },
+  "nonsense-x-21": {
+    "question": "Apa yang bisa dipecahkan, dibuat, diceritakan, dan dimainkan?",
+    "options": [
+      "Sebuah lelucon",
+      "Sebuah tempat tidur",
+      "Sebuah gua",
+      "Sebuah bulu"
+    ],
+    "explanation": "Orang-orang melontarkan, membuat, bercerita, atau bercanda."
+  },
+  "nonsense-x-22": {
+    "question": "Apa yang hatinya tidak berdetak?",
+    "options": [
+      "Artichoke",
+      "Sebuah baterai",
+      "Huruf M",
+      "Sebuah teko"
+    ],
+    "explanation": "Bagian tengah artichoke yang dapat dimakan disebut jantungnya."
+  },
+  "nonsense-x-23": {
+    "question": "Apa yang mempunyai kepala dan kaki tetapi tidak mempunyai badan?",
+    "options": [
+      "Sebuah tempat tidur",
+      "Sebuah perahu",
+      "Sikat gigi",
+      "Sebuah gesper"
+    ],
+    "explanation": "Tempat tidur memiliki sandaran kepala dan alas kaki."
+  },
+  "nonsense-x-24": {
+    "question": "Apa yang punya mulut tapi tidak pernah makan?",
+    "options": [
+      "Sebuah gua",
+      "Jam alarm",
+      "Sebuah panci",
+      "Sebuah ketel"
+    ],
+    "explanation": "Pintu masuk gua kadang-kadang disebut mulutnya."
+  },
+  "nonsense-x-25": {
+    "question": "Apa yang menggonggong dan tumbuh tetapi bukan anjing?",
+    "options": [
+      "Sebuah pohon",
+      "Gunting",
+      "Sebuah halaman web",
+      "Seekor siput"
+    ],
+    "explanation": "Sebuah pohon tumbuh dan memiliki kulit kayu sebagai penutup luarnya."
+  },
+  "nonsense-x-26": {
+    "question": "Benda ringan apa yang dapat melayang di udara dan tumbuh pada seekor burung?",
+    "options": [
+      "Sebuah bulu",
+      "Sebuah pensil",
+      "Sebuah pisau",
+      "Sebuah kamera"
+    ],
+    "explanation": "Bulu itu ringan dan tumbuh sebagai bagian dari bulu burung."
+  },
+  "nonsense-x-27": {
+    "question": "Apa yang tidak memiliki kehidupan tetapi bisa mati?",
+    "options": [
+      "Sebuah baterai",
+      "Sebuah kereta api",
+      "Sebuah komputer",
+      "Sebuah jam dinding"
+    ],
+    "explanation": "Baterai dikatakan mati jika tidak dapat lagi memberikan daya yang berguna."
+  },
+  "nonsense-x-28": {
+    "question": "Apa yang bisa dilihat sekali dalam satu menit, dua kali dalam sekejap, dan tidak pernah terlihat dalam seribu tahun?",
+    "options": [
+      "Huruf M",
+      "Sebuah telur",
+      "Sebuah telepon",
+      "Sebuah buku"
+    ],
+    "explanation": "Huruf M muncul satu kali dalam satu menit, dua kali dalam satu momen, dan bukan dalam seribu tahun."
+  },
+  "nonsense-x-29": {
+    "question": "Apa yang dimulai dengan T, diakhiri dengan T, dan ada T di dalamnya?",
+    "options": [
+      "Sebuah teko",
+      "Lampu",
+      "Sebuah sungai",
+      "Sebuah sarung tangan"
+    ],
+    "explanation": "Teko dimulai dan diakhiri dengan T dan dapat menampung teh di dalamnya."
+  },
+  "nonsense-x-30": {
+    "question": "Bagian mana dari perahu yang ujung depannya?",
+    "options": [
+      "Sebuah perahu",
+      "Sebuah bank",
+      "Sebuah koin",
+      "Pilek"
+    ],
+    "explanation": "Haluan adalah ujung depan perahu."
+  },
+  "nonsense-x-31": {
+    "question": "Bagian kapal manakah yang mengarah ke depan ketika bergerak?",
+    "options": [
+      "Sebuah perahu",
+      "Namamu",
+      "Sebuah kalender",
+      "Sebuah pohon"
+    ],
+    "explanation": "Sebuah perahu memiliki busur di depannya dan dapat membawa orang."
+  },
+  "nonsense-x-32": {
+    "question": "Apa yang mempunyai gagang dan bulu tetapi bukan kuas?",
+    "options": [
+      "Sikat gigi",
+      "Satu-satunya",
+      "Sebuah jamur",
+      "Nafasmu"
+    ],
+    "explanation": "Sikat gigi memiliki pegangan dan bulu untuk membersihkan gigi."
+  },
+  "nonsense-x-33": {
+    "question": "Benda apa yang berlubang di tengahnya dan menyatukan sabuk?",
+    "options": [
+      "Sebuah gesper",
+      "Sebuah amplop",
+      "Sebuah sepatu",
+      "Sebuah botol"
+    ],
+    "explanation": "Gesper sabuk memiliki lubang untuk mengencangkan sabuk."
+  },
+  "nonsense-x-34": {
+    "question": "Apa yang memiliki tombol dan memberi tahu Anda kapan harus bangun?",
+    "options": [
+      "Jam alarm",
+      "Sebuah lelucon",
+      "Artichoke",
+      "Sebuah tempat tidur"
+    ],
+    "explanation": "Jam alarm menggunakan pengaturan waktu dan alarm untuk membangunkan seseorang."
+  },
+  "nonsense-x-35": {
+    "question": "Apa yang memiliki penutup dan menjaga sup tetap hangat?",
+    "options": [
+      "Sebuah panci",
+      "Sebuah gua",
+      "Sebuah bulu",
+      "Sebuah baterai"
+    ],
+    "explanation": "Panci masak bisa memiliki penutup dan menampung sup hangat."
+  },
+  "nonsense-x-36": {
+    "question": "Apa yang mempunyai pegangan dan mengalirkan air tetapi bukan sungai?",
+    "options": [
+      "Sebuah ketel",
+      "Huruf M",
+      "Sebuah teko",
+      "Sebuah perahu"
+    ],
+    "explanation": "Ketel memiliki cerat dan pegangan untuk menuangkan air panas."
+  },
+  "nonsense-x-37": {
+    "question": "Apa yang mempunyai pisau tetapi digunakan untuk memotong kertas dengan tangan?",
+    "options": [
+      "Gunting",
+      "Sikat gigi",
+      "Sebuah gesper",
+      "Jam alarm"
+    ],
+    "explanation": "Gunting memiliki dua bilah yang memotong bahan ketika gagangnya diremas."
+  },
+  "nonsense-x-38": {
+    "question": "Apa yang mempunyai sol dan tali tetapi bukan ikan?",
+    "options": [
+      "Sebuah sepatu",
+      "Sebuah ketel",
+      "Gunting",
+      "Sebuah halaman web"
+    ],
+    "explanation": "Sepatu bisa memiliki sol dan tali."
+  },
+  "nonsense-x-39": {
+    "question": "Apa yang memiliki halaman tetapi bukan buku dan dimuat di browser?",
+    "options": [
+      "Sebuah halaman web",
+      "Seekor siput",
+      "Sebuah pensil",
+      "Sebuah pisau"
+    ],
+    "explanation": "Halaman web adalah dokumen yang ditampilkan di browser."
+  },
+  "nonsense-x-40": {
+    "question": "Benda apa yang mempunyai cangkang dan dapat membawa rumahnya di punggungnya?",
+    "options": [
+      "Seekor siput",
+      "Sebuah kamera",
+      "Sebuah kereta api",
+      "Sebuah komputer"
+    ],
+    "explanation": "Seekor siput membawa cangkang saat bergerak."
+  },
+  "nonsense-x-41": {
+    "question": "Apa yang ada benarnya tetapi tidak bisa berargumen dan menulis di atas kertas?",
+    "options": [
+      "Sebuah pensil",
+      "Sebuah peta",
+      "Sebuah telur",
+      "Sebuah telepon"
+    ],
+    "explanation": "Ujung pensil meninggalkan bekas di kertas."
+  },
+  "nonsense-x-42": {
+    "question": "Apa yang mempunyai sampul, halaman, dan judul tetapi bukan rumah?",
+    "options": [
+      "Sebuah buku",
+      "Lampu",
+      "Sebuah sungai",
+      "Sebuah sarung tangan"
+    ],
+    "explanation": "Sebuah buku memiliki sampul dan halaman, dan judulnya mengidentifikasinya."
+  },
+  "nonsense-x-43": {
+    "question": "Apa yang mempunyai pegangan dan pisau dan digunakan saat makan malam?",
+    "options": [
+      "Sebuah pisau",
+      "Sebuah sarung tangan",
+      "Sebuah bank",
+      "Sebuah koin"
+    ],
+    "explanation": "Pisau meja memiliki gagang dan mata pisau untuk memotong makanan."
+  },
+  "nonsense-x-44": {
+    "question": "Apa yang memiliki lensa dan mengambil gambar?",
+    "options": [
+      "Sebuah kamera",
+      "Pilek",
+      "Namamu",
+      "Sebuah kalender"
+    ],
+    "explanation": "Kamera menggunakan lensa untuk membentuk gambar untuk foto."
+  },
+  "nonsense-x-45": {
+    "question": "Apa yang dimaksud dengan dial dan berdering ketika seseorang menelepon?",
+    "options": [
+      "Sebuah telepon",
+      "Satu-satunya",
+      "Sebuah jamur",
+      "Nafasmu"
+    ],
+    "explanation": "Telepon tradisional dapat berdering untuk menandakan panggilan masuk."
+  },
+  "nonsense-x-46": {
+    "question": "Apa yang memiliki roda dan membawa penumpang di sepanjang rel?",
+    "options": [
+      "Sebuah kereta api",
+      "Nafasmu",
+      "Sebuah amplop",
+      "Sebuah sepatu"
+    ],
+    "explanation": "Kereta api berjalan di atas rel dan mengangkut penumpang atau barang."
+  },
+  "nonsense-x-47": {
+    "question": "Apa yang mempunyai keyboard dan menampilkan huruf tetapi bukan mesin tik?",
+    "options": [
+      "Sebuah komputer",
+      "Sebuah botol",
+      "Sebuah lelucon",
+      "Artichoke"
+    ],
+    "explanation": "Papan ketik komputer memasukkan teks dan layarnya menampilkan informasi."
+  },
+  "nonsense-x-48": {
+    "question": "Apa yang memiliki pegangan, halaman, dan membantu membersihkan gigi?",
+    "options": [
+      "Sikat gigi",
+      "Sebuah tempat tidur",
+      "Sebuah gua",
+      "Sebuah bulu"
+    ],
+    "explanation": "Sikat gigi memiliki pegangan dan bulu untuk membersihkan gigi."
+  },
+  "nonsense-x-49": {
+    "question": "Apa yang memiliki cerat dan menuangkan teh ke dalam cangkir?",
+    "options": [
+      "Sebuah teko",
+      "Sebuah baterai",
+      "Huruf M",
+      "Sebuah perahu"
+    ],
+    "explanation": "Sebuah teko memegang dan menuangkan teh melalui ceratnya."
+  },
+  "nonsense-x-50": {
+    "question": "Apa yang memiliki pelat jam, jarum jam, dan membantu Anda mengetahui waktu di dinding?",
+    "options": [
+      "Sebuah jam dinding",
+      "Sebuah perahu",
+      "Sikat gigi",
+      "Sebuah gesper"
+    ],
+    "explanation": "Jam dinding menampilkan waktu dengan jarum jam."
+  },
+  "nonsense-x-51": {
+    "question": "Apa yang mempunyai kepala berbulu dan membantu menyapu lantai?",
+    "options": [
+      "Sapu",
+      "Jam alarm",
+      "Sebuah panci",
+      "Sebuah ketel"
+    ],
+    "explanation": "Sapu menggunakan bulu untuk menyapu debu dan kotoran dari lantai."
+  }
+}

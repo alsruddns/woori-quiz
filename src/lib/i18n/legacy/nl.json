@@ -1,0 +1,687 @@
+{
+  "localeName": "Nederlands",
+  "messages": {
+    "title": "Quiz",
+    "subtitle": "Prikkel elke dag je nieuwsgierigheid.",
+    "search": "Quiz zoeken",
+    "today": "Quiz van de dag",
+    "categories": "Categorieën",
+    "popular": "Populaire quizzen",
+    "play": "Quiz starten",
+    "question": "Vraag",
+    "next": "Volgende",
+    "submit": "Controleren",
+    "result": "Resultaat",
+    "retry": "Opnieuw",
+    "home": "Home",
+    "related": "Gerelateerde quizzen",
+    "score": "Score",
+    "footer": "Privacy · Hulp · Contact"
+  },
+  "ui": {
+    "familySites": "Verwante diensten",
+    "portal": "Portaal",
+    "calculator": "Rekenmachine",
+    "tools": "Online hulpmiddelen",
+    "moneyBook": "Gratis gedeeld huishoudboekje",
+    "docs": "Documenten en formulieren",
+    "quiz": "Quizzen en tests",
+    "language": "Taal kiezen",
+    "openMenu": "Servicemenu openen",
+    "closeMenu": "Servicemenu sluiten",
+    "allQuizzes": "Alle quizzen",
+    "freeToPlay": "Gratis spelen",
+    "noAccount": "Geen account nodig",
+    "heroEyebrow": "Een moment vol nieuwsgierigheid",
+    "heroTitle": "Prikkel je nieuwsgierigheid met een quiz",
+    "heroDescription": "Probeer een korte uitdaging en ontdek iets nieuws.",
+    "nextChallenge": "Kies je volgende uitdaging",
+    "searchEmpty": "Geen quizzen gevonden.",
+    "questionSetReview": "Vragen worden nagekeken",
+    "difficulty": "Moeilijkheid",
+    "startHeading": "Begin wanneer je klaar bent",
+    "startDescription": "Neem de tijd en geniet van de uitdaging.",
+    "correct": "Goed!",
+    "incorrect": "Net niet.",
+    "accuracy": "Nauwkeurigheid",
+    "finishedIn": "Voltooid in",
+    "seconds": "seconden",
+    "bestScore": "Je beste score wordt op dit apparaat opgeslagen.",
+    "reviewHeading": "Vragen worden nagekeken",
+    "reviewDescription": "We controleren de vertaalde vragen. Daarna is deze quiz beschikbaar.",
+    "howToPlay": "Speluitleg",
+    "howToDescription": "Kies een antwoord bij elke vraag. Je voortgang blijft in deze browser; een account of persoonsgegevens zijn niet nodig.",
+    "aboutQuiz": "Over deze quiz",
+    "faq": "Veelgestelde vragen",
+    "scoreUploadedQuestion": "Wordt mijn score geüpload?",
+    "scoreUploadedAnswer": "Nee. Je score wordt alleen in deze browser opgeslagen.",
+    "interactiveTest": "Interactieve test",
+    "localeCount": "26 talen",
+    "dynamicGeneration": "Elke ronde nieuwe vragen",
+    "back": "Quizoverzicht",
+    "footerTagline": "Voor nieuwsgierige mensen, overal.",
+    "privacy": "Privacy",
+    "guidelines": "Gebruiksaanwijzing",
+    "contact": "Contact",
+    "copyright": "© 2026 woori.today",
+    "searchLabel": "Quizzen zoeken",
+    "quizCount": "COUNT_SLOT",
+    "questionCount": "COUNT_SLOT",
+    "quizSummary": "Test je kennis op een leuke manier met TITLE_SLOT.",
+    "category": {
+      "general": "Algemene kennis",
+      "geography": "Wereld en aardrijkskunde",
+      "science": "Wetenschap",
+      "history": "Geschiedenis",
+      "math": "Wiskunde",
+      "language": "Taal",
+      "technology": "IT",
+      "memory": "Geheugen en brein",
+      "speed": "Snelheid en reactie",
+      "fun": "Leuke uitdagingen"
+    },
+    "difficultyLabels": {
+      "easy": "Makkelijk",
+      "medium": "Gemiddeld",
+      "hard": "Moeilijk",
+      "expert": "Expert"
+    }
+  },
+  "uiCountForms": {
+    "quizCount": {
+      "other": "COUNT_SLOT quizzen",
+      "one": "COUNT_SLOT quizzen"
+    },
+    "questionCount": {
+      "other": "COUNT_SLOT vragen",
+      "one": "COUNT_SLOT vragen"
+    }
+  },
+  "uiSummary": "Test je kennis op een leuke manier met TITLE_SLOT.",
+  "discovery": {
+    "intro": "Ontdek quizzen over algemene kennis, wiskunde en denkpuzzels.",
+    "quickStart": "Snel beginnen",
+    "searchResults": "Zoekresultaten",
+    "browseCategories": "Kies een categorie",
+    "clearSearch": "Zoekopdracht wissen",
+    "resultsForForms": {
+      "other": "COUNT_SLOT quizzen voor ‘QUERY_SLOT’",
+      "one": "COUNT_SLOT quizzen voor ‘QUERY_SLOT’"
+    }
+  },
+  "detail": {
+    "correctCount": "Goed",
+    "incorrectCount": "Fout",
+    "newSet": "Nieuwe vragen proberen",
+    "otherQuizzes": "Andere quizzen bekijken"
+  },
+  "categoryLabels": {
+    "general": "Algemene kennis",
+    "nonsense": "Gekke raadsels",
+    "math": "Wiskunde",
+    "brain": "Breinbrekers",
+    "history": "Geschiedenis",
+    "science": "Wetenschap",
+    "geography": "Wereld en aardrijkskunde",
+    "language": "Taal",
+    "technology": "IT",
+    "memory": "Geheugen en brein",
+    "random": "Willekeurige quiz",
+    "challenge": "Uitdaging",
+    "speed": "Snelheid en reactie",
+    "fun": "Leuke uitdagingen"
+  },
+  "categoryDescriptions": {
+    "general": "Test alledaagse feiten uit uiteenlopende onderwerpen.",
+    "nonsense": "Los korte raadsels op door de woordspeling te ontdekken.",
+    "math": "Oefen rekenen en redeneren, van basisbewerkingen tot reeksen en kansberekening.",
+    "brain": "Gebruik aanwijzingen en getalpatronen om logisch tot een antwoord te komen.",
+    "history": "Bekijk vaststaande gebeurtenissen en personen uit de oude en moderne geschiedenis.",
+    "science": "Herhaal basiskennis van biologie, scheikunde, natuurkunde en ruimte.",
+    "geography": "Herken de ligging van continenten, landen, hoofdsteden en natuurgebieden.",
+    "language": "Onderzoek woordenschat, grammatica en schriftsystemen.",
+    "technology": "Herhaal de basis van het web, programmeren, databases en netwerken.",
+    "memory": "Onthoud cijfers, woorden en volgordes of merk visuele veranderingen op.",
+    "random": "Speel telkens een nieuwe mix van vragen uit verschillende vakgebieden.",
+    "challenge": "Maak een vast aantal vragen achter elkaar en blijf geconcentreerd.",
+    "speed": "Meet rechtstreeks je reactiesnelheid en klik- of typsnelheid.",
+    "fun": "Neem een korte pauze met lichte weetjes en leuke uitdagingen."
+  },
+  "serviceGuide": {
+    "categories": "Ontdek per onderwerp",
+    "how": "Zo werken de quizzen",
+    "account": "Kies een quiz en beantwoord elke vraag. Een account is niet nodig; resultaten blijven in deze browser.",
+    "score": "Wat betekent mijn score?",
+    "scoreLow": "Dit onderwerp kun je nog oefenen. Lees de uitleg en probeer het opnieuw.",
+    "scoreMid": "De basis ken je al. Bekijk de uitleg bij gemiste vragen.",
+    "scoreHigh": "Deze reeks ging goed. Probeer een ander onderwerp of nieuwe vragen.",
+    "scoreNote": "Je score is het percentage goede antwoorden in deze reeks, geen oordeel over gezondheid of vermogen.",
+    "focus": "Wat deze quiz behandelt"
+  },
+  "advertisement": "Advertentie",
+  "difficulty": "Alle moeilijkheidsgraden",
+  "quizTitles": {
+    "general-knowledge-quiz": "Algemene Kennis Quiz",
+    "everyday-knowledge-quiz": "Dagelijkse Kennis Quiz",
+    "difficult-general-knowledge-quiz": "Moeilijke Algemene Kennis Quiz",
+    "world-capitals-quiz": "Wereld Hoofdsteden Quiz",
+    "country-flags-quiz": "Land Vlaggen Quiz",
+    "country-currency-quiz": "Land Valuta Quiz",
+    "country-location-quiz": "Land Locatie Quiz",
+    "asia-capitals-quiz": "Azië Hoofdsteden Quiz",
+    "europe-capitals-quiz": "Europa Hoofdsteden Quiz",
+    "world-geography-quiz": "Wereld Aardrijkskunde Quiz",
+    "basic-science-quiz": "Basis Wetenschap Quiz",
+    "physics-quiz": "Natuurkunde Quiz",
+    "chemistry-quiz": "Scheikunde Quiz",
+    "biology-quiz": "Biologie Quiz",
+    "astronomy-quiz": "Astronomie Quiz",
+    "difficult-science-quiz": "Moeilijke Wetenschap Quiz",
+    "world-history-quiz": "Wereld Geschiedenis Quiz",
+    "korean-history-quiz": "Koreaanse Geschiedenis Quiz",
+    "ancient-history-quiz": "Oude Geschiedenis Quiz",
+    "modern-history-quiz": "Moderne Geschiedenis Quiz",
+    "addition-quiz": "Optellen Quiz",
+    "subtraction-quiz": "Aftrekken Quiz",
+    "multiplication-quiz": "Vermenigvuldigen Quiz",
+    "division-quiz": "Delen Quiz",
+    "multiplication-table-quiz": "Vermenigvuldigen Tafel Quiz",
+    "mental-math-quiz": "Hoofdrekenen Wiskunde Quiz",
+    "fraction-quiz": "Breuken Quiz",
+    "percentage-quiz": "Percentages Quiz",
+    "equation-quiz": "Vergelijkingen Quiz",
+    "arithmetic-challenge": "Rekenen Uitdaging",
+    "english-vocabulary-quiz": "Engels Woordenschat Quiz",
+    "english-spelling-quiz": "Engels Spelling Quiz",
+    "english-grammar-quiz": "Engels Grammatica Quiz",
+    "hiragana-quiz": "Hiragana Quiz",
+    "katakana-quiz": "Katakana Quiz",
+    "japanese-vocabulary-quiz": "Japans Woordenschat Quiz",
+    "chinese-character-quiz": "Chinees Tekens Quiz",
+    "korean-vocabulary-quiz": "Koreaanse Woordenschat Quiz",
+    "computer-basics-quiz": "Computer Basis Quiz",
+    "programming-basics-quiz": "Programmeren Basis Quiz",
+    "web-development-quiz": "Web Ontwikkeling Quiz",
+    "database-quiz": "Database Quiz",
+    "network-basics-quiz": "Netwerk Basis Quiz",
+    "difficult-it-quiz": "Moeilijke IT Quiz",
+    "number-memory-test": "Getallen Geheugen Test",
+    "word-memory-test": "Woorden Geheugen Test",
+    "sequence-memory-test": "Reeks Geheugen Test",
+    "visual-memory-test": "Visueel Geheugen Test",
+    "pattern-recognition-test": "Patroon Herkenning Test",
+    "concentration-test": "Concentratie Test",
+    "reaction-time-test": "Reactie Tijd Test",
+    "click-speed-test": "Klik Snelheid Test",
+    "typing-speed-test": "Typen Snelheid Test",
+    "color-reaction-test": "Kleur Reactie Test",
+    "random-trivia-challenge": "Willekeurig Trivia Uitdaging",
+    "true-false-challenge": "Waar Onwaar Uitdaging",
+    "impossible-quiz": "Onmogelijk Quiz",
+    "mixed-hard-quiz": "Gemengd Moeilijk Quiz",
+    "general-knowledge": "Algemene Kennis",
+    "easy-general-knowledge": "Makkelijke Algemene Kennis",
+    "hard-general-knowledge": "Moeilijk Algemene Kennis",
+    "random-general-knowledge": "Willekeurig Algemene Kennis",
+    "adult-general-knowledge": "Volwassenen Algemene Kennis",
+    "daily-life-quiz": "Dagelijkse Levens Quiz",
+    "nonsense": "Gekke",
+    "easy-nonsense-quiz": "Makkelijke Gekke Quiz",
+    "riddle-quiz": "Raadsels Quiz",
+    "brain-teaser": "Prikkel je brein – Breinbrekers",
+    "easy-brain-teaser": "Makkelijke Brein Puzzel",
+    "hard-brain-teaser": "Moeilijk Brein Puzzel",
+    "number-pattern-quiz": "Getallen Patroon Quiz",
+    "logic-reasoning-quiz": "Logica Redeneren Quiz",
+    "random-brain-teaser": "Willekeurig Brein Puzzel",
+    "math-basic": "Wiskunde Basis",
+    "math-advanced": "Wiskunde Gevorderde",
+    "mental-arithmetic-test": "Hoofdrekenen Rekenen Test",
+    "sequence-math-quiz": "Reeks Wiskunde Quiz",
+    "probability-quiz": "Kansberekening Quiz",
+    "history-knowledge-quiz": "Geschiedenis Kennis Quiz",
+    "ancient-civilizations-quiz": "Oude Beschavingen Quiz",
+    "modern-history-knowledge": "Moderne Geschiedenis Kennis",
+    "science-knowledge-quiz": "Wetenschap Kennis Quiz",
+    "space-quiz": "Ruimte Quiz",
+    "biology-knowledge-quiz": "Biologie Kennis Quiz",
+    "world-geography": "Wereld Aardrijkskunde",
+    "capital-cities-quiz": "Hoofdsteden Steden Quiz",
+    "country-knowledge-quiz": "Land Kennis Quiz",
+    "language-knowledge-quiz": "Taal Kennis Quiz",
+    "english-vocabulary": "Engels Woordenschat",
+    "it-development-quiz": "IT Ontwikkeling Quiz",
+    "programming-knowledge-quiz": "Programmeren Kennis Quiz",
+    "random-quiz": "Willekeurig Quiz",
+    "random-math-10": "Willekeurig Wiskunde 10",
+    "random-nonsense-10": "Willekeurig Gekke 10",
+    "challenge-10": "Uitdaging 10",
+    "challenge-20": "Uitdaging 20"
+  },
+  "quizDescriptions": {
+    "addition-quiz": "Optellen Quiz: Oefen rekenen en redeneren, van basisbewerkingen tot reeksen en kansberekening.",
+    "subtraction-quiz": "Aftrekken Quiz: Oefen rekenen en redeneren, van basisbewerkingen tot reeksen en kansberekening.",
+    "multiplication-quiz": "Vermenigvuldigen Quiz: Oefen rekenen en redeneren, van basisbewerkingen tot reeksen en kansberekening.",
+    "division-quiz": "Delen Quiz: Oefen rekenen en redeneren, van basisbewerkingen tot reeksen en kansberekening.",
+    "multiplication-table-quiz": "Vermenigvuldigen Tafel Quiz: Oefen rekenen en redeneren, van basisbewerkingen tot reeksen en kansberekening.",
+    "mental-math-quiz": "Hoofdrekenen Wiskunde Quiz: Oefen rekenen en redeneren, van basisbewerkingen tot reeksen en kansberekening.",
+    "fraction-quiz": "Breuken Quiz: Oefen rekenen en redeneren, van basisbewerkingen tot reeksen en kansberekening.",
+    "percentage-quiz": "Percentages Quiz: Oefen rekenen en redeneren, van basisbewerkingen tot reeksen en kansberekening.",
+    "equation-quiz": "Vergelijkingen Quiz: Oefen rekenen en redeneren, van basisbewerkingen tot reeksen en kansberekening.",
+    "arithmetic-challenge": "Rekenen Uitdaging: Oefen rekenen en redeneren, van basisbewerkingen tot reeksen en kansberekening.",
+    "number-memory-test": "Getallen Geheugen Test: Onthoud cijfers, woorden en volgordes of merk visuele veranderingen op.",
+    "word-memory-test": "Woorden Geheugen Test: Onthoud cijfers, woorden en volgordes of merk visuele veranderingen op.",
+    "sequence-memory-test": "Reeks Geheugen Test: Onthoud cijfers, woorden en volgordes of merk visuele veranderingen op.",
+    "visual-memory-test": "Visueel Geheugen Test: Onthoud cijfers, woorden en volgordes of merk visuele veranderingen op.",
+    "pattern-recognition-test": "Patroon Herkenning Test: Onthoud cijfers, woorden en volgordes of merk visuele veranderingen op.",
+    "concentration-test": "Concentratie Test: Onthoud cijfers, woorden en volgordes of merk visuele veranderingen op.",
+    "reaction-time-test": "Reactie Tijd Test: Meet rechtstreeks je reactiesnelheid en klik- of typsnelheid.",
+    "click-speed-test": "Klik Snelheid Test: Meet rechtstreeks je reactiesnelheid en klik- of typsnelheid.",
+    "typing-speed-test": "Typen Snelheid Test: Meet rechtstreeks je reactiesnelheid en klik- of typsnelheid.",
+    "color-reaction-test": "Kleur Reactie Test: Meet rechtstreeks je reactiesnelheid en klik- of typsnelheid.",
+    "general-knowledge": "Algemene Kennis: Test alledaagse feiten uit uiteenlopende onderwerpen.",
+    "easy-general-knowledge": "Makkelijke Algemene Kennis: Test alledaagse feiten uit uiteenlopende onderwerpen.",
+    "hard-general-knowledge": "Moeilijk Algemene Kennis: Test alledaagse feiten uit uiteenlopende onderwerpen.",
+    "random-general-knowledge": "Willekeurig Algemene Kennis: Test alledaagse feiten uit uiteenlopende onderwerpen.",
+    "adult-general-knowledge": "Volwassenen Algemene Kennis: Test alledaagse feiten uit uiteenlopende onderwerpen.",
+    "daily-life-quiz": "Dagelijkse Levens Quiz: Test alledaagse feiten uit uiteenlopende onderwerpen.",
+    "nonsense": "Gekke: Los korte raadsels op door de woordspeling te ontdekken.",
+    "easy-nonsense-quiz": "Makkelijke Gekke Quiz: Los korte raadsels op door de woordspeling te ontdekken.",
+    "riddle-quiz": "Raadsels Quiz: Los korte raadsels op door de woordspeling te ontdekken.",
+    "brain-teaser": "Prikkel je brein – Breinbrekers: Gebruik aanwijzingen en getalpatronen om logisch tot een antwoord te komen.",
+    "easy-brain-teaser": "Makkelijke Brein Puzzel: Gebruik aanwijzingen en getalpatronen om logisch tot een antwoord te komen.",
+    "hard-brain-teaser": "Moeilijk Brein Puzzel: Gebruik aanwijzingen en getalpatronen om logisch tot een antwoord te komen.",
+    "number-pattern-quiz": "Getallen Patroon Quiz: Gebruik aanwijzingen en getalpatronen om logisch tot een antwoord te komen.",
+    "logic-reasoning-quiz": "Logica Redeneren Quiz: Gebruik aanwijzingen en getalpatronen om logisch tot een antwoord te komen.",
+    "random-brain-teaser": "Willekeurig Brein Puzzel: Gebruik aanwijzingen en getalpatronen om logisch tot een antwoord te komen.",
+    "math-basic": "Wiskunde Basis: Oefen rekenen en redeneren, van basisbewerkingen tot reeksen en kansberekening.",
+    "math-advanced": "Wiskunde Gevorderde: Oefen rekenen en redeneren, van basisbewerkingen tot reeksen en kansberekening.",
+    "mental-arithmetic-test": "Hoofdrekenen Rekenen Test: Oefen rekenen en redeneren, van basisbewerkingen tot reeksen en kansberekening.",
+    "sequence-math-quiz": "Reeks Wiskunde Quiz: Oefen rekenen en redeneren, van basisbewerkingen tot reeksen en kansberekening.",
+    "probability-quiz": "Kansberekening Quiz: Oefen rekenen en redeneren, van basisbewerkingen tot reeksen en kansberekening.",
+    "history-knowledge-quiz": "Geschiedenis Kennis Quiz: Bekijk vaststaande gebeurtenissen en personen uit de oude en moderne geschiedenis.",
+    "ancient-civilizations-quiz": "Oude Beschavingen Quiz: Bekijk vaststaande gebeurtenissen en personen uit de oude en moderne geschiedenis.",
+    "modern-history-knowledge": "Moderne Geschiedenis Kennis: Bekijk vaststaande gebeurtenissen en personen uit de oude en moderne geschiedenis.",
+    "science-knowledge-quiz": "Wetenschap Kennis Quiz: Herhaal basiskennis van biologie, scheikunde, natuurkunde en ruimte.",
+    "space-quiz": "Ruimte Quiz: Herhaal basiskennis van biologie, scheikunde, natuurkunde en ruimte.",
+    "biology-knowledge-quiz": "Biologie Kennis Quiz: Herhaal basiskennis van biologie, scheikunde, natuurkunde en ruimte.",
+    "world-geography": "Wereld Aardrijkskunde: Herken de ligging van continenten, landen, hoofdsteden en natuurgebieden.",
+    "capital-cities-quiz": "Hoofdsteden Steden Quiz: Herken de ligging van continenten, landen, hoofdsteden en natuurgebieden.",
+    "country-knowledge-quiz": "Land Kennis Quiz: Herken de ligging van continenten, landen, hoofdsteden en natuurgebieden.",
+    "language-knowledge-quiz": "Taal Kennis Quiz: Onderzoek woordenschat, grammatica en schriftsystemen.",
+    "english-vocabulary": "Engels Woordenschat: Onderzoek woordenschat, grammatica en schriftsystemen.",
+    "it-development-quiz": "IT Ontwikkeling Quiz: Herhaal de basis van het web, programmeren, databases en netwerken.",
+    "programming-knowledge-quiz": "Programmeren Kennis Quiz: Herhaal de basis van het web, programmeren, databases en netwerken.",
+    "random-quiz": "Willekeurig Quiz: Speel telkens een nieuwe mix van vragen uit verschillende vakgebieden.",
+    "random-math-10": "Willekeurig Wiskunde 10: Speel telkens een nieuwe mix van vragen uit verschillende vakgebieden.",
+    "random-nonsense-10": "Willekeurig Gekke 10: Speel telkens een nieuwe mix van vragen uit verschillende vakgebieden.",
+    "challenge-10": "Uitdaging 10: Maak een vast aantal vragen achter elkaar en blijf geconcentreerd.",
+    "challenge-20": "Uitdaging 20: Maak een vast aantal vragen achter elkaar en blijf geconcentreerd."
+  },
+  "quizSeo": {
+    "addition-quiz": {
+      "title": "Optellen Quiz | woori.today",
+      "description": "Optellen Quiz: Oefen rekenen en redeneren, van basisbewerkingen tot reeksen en kansberekening."
+    },
+    "subtraction-quiz": {
+      "title": "Aftrekken Quiz | woori.today",
+      "description": "Aftrekken Quiz: Oefen rekenen en redeneren, van basisbewerkingen tot reeksen en kansberekening."
+    },
+    "multiplication-quiz": {
+      "title": "Vermenigvuldigen Quiz | woori.today",
+      "description": "Vermenigvuldigen Quiz: Oefen rekenen en redeneren, van basisbewerkingen tot reeksen en kansberekening."
+    },
+    "division-quiz": {
+      "title": "Delen Quiz | woori.today",
+      "description": "Delen Quiz: Oefen rekenen en redeneren, van basisbewerkingen tot reeksen en kansberekening."
+    },
+    "multiplication-table-quiz": {
+      "title": "Vermenigvuldigen Tafel Quiz | woori.today",
+      "description": "Vermenigvuldigen Tafel Quiz: Oefen rekenen en redeneren, van basisbewerkingen tot reeksen en kansberekening."
+    },
+    "mental-math-quiz": {
+      "title": "Hoofdrekenen Wiskunde Quiz | woori.today",
+      "description": "Hoofdrekenen Wiskunde Quiz: Oefen rekenen en redeneren, van basisbewerkingen tot reeksen en kansberekening."
+    },
+    "fraction-quiz": {
+      "title": "Breuken Quiz | woori.today",
+      "description": "Breuken Quiz: Oefen rekenen en redeneren, van basisbewerkingen tot reeksen en kansberekening."
+    },
+    "percentage-quiz": {
+      "title": "Percentages Quiz | woori.today",
+      "description": "Percentages Quiz: Oefen rekenen en redeneren, van basisbewerkingen tot reeksen en kansberekening."
+    },
+    "equation-quiz": {
+      "title": "Vergelijkingen Quiz | woori.today",
+      "description": "Vergelijkingen Quiz: Oefen rekenen en redeneren, van basisbewerkingen tot reeksen en kansberekening."
+    },
+    "arithmetic-challenge": {
+      "title": "Rekenen Uitdaging | woori.today",
+      "description": "Rekenen Uitdaging: Oefen rekenen en redeneren, van basisbewerkingen tot reeksen en kansberekening."
+    },
+    "number-memory-test": {
+      "title": "Getallen Geheugen Test | woori.today",
+      "description": "Getallen Geheugen Test: Onthoud cijfers, woorden en volgordes of merk visuele veranderingen op."
+    },
+    "word-memory-test": {
+      "title": "Woorden Geheugen Test | woori.today",
+      "description": "Woorden Geheugen Test: Onthoud cijfers, woorden en volgordes of merk visuele veranderingen op."
+    },
+    "sequence-memory-test": {
+      "title": "Reeks Geheugen Test | woori.today",
+      "description": "Reeks Geheugen Test: Onthoud cijfers, woorden en volgordes of merk visuele veranderingen op."
+    },
+    "visual-memory-test": {
+      "title": "Visueel Geheugen Test | woori.today",
+      "description": "Visueel Geheugen Test: Onthoud cijfers, woorden en volgordes of merk visuele veranderingen op."
+    },
+    "pattern-recognition-test": {
+      "title": "Patroon Herkenning Test | woori.today",
+      "description": "Patroon Herkenning Test: Onthoud cijfers, woorden en volgordes of merk visuele veranderingen op."
+    },
+    "concentration-test": {
+      "title": "Concentratie Test | woori.today",
+      "description": "Concentratie Test: Onthoud cijfers, woorden en volgordes of merk visuele veranderingen op."
+    },
+    "reaction-time-test": {
+      "title": "Reactie Tijd Test | woori.today",
+      "description": "Reactie Tijd Test: Meet rechtstreeks je reactiesnelheid en klik- of typsnelheid."
+    },
+    "click-speed-test": {
+      "title": "Klik Snelheid Test | woori.today",
+      "description": "Klik Snelheid Test: Meet rechtstreeks je reactiesnelheid en klik- of typsnelheid."
+    },
+    "typing-speed-test": {
+      "title": "Typen Snelheid Test | woori.today",
+      "description": "Typen Snelheid Test: Meet rechtstreeks je reactiesnelheid en klik- of typsnelheid."
+    },
+    "color-reaction-test": {
+      "title": "Kleur Reactie Test | woori.today",
+      "description": "Kleur Reactie Test: Meet rechtstreeks je reactiesnelheid en klik- of typsnelheid."
+    },
+    "general-knowledge": {
+      "title": "Algemene Kennis | woori.today",
+      "description": "Algemene Kennis: Test alledaagse feiten uit uiteenlopende onderwerpen."
+    },
+    "easy-general-knowledge": {
+      "title": "Makkelijke Algemene Kennis | woori.today",
+      "description": "Makkelijke Algemene Kennis: Test alledaagse feiten uit uiteenlopende onderwerpen."
+    },
+    "hard-general-knowledge": {
+      "title": "Moeilijk Algemene Kennis | woori.today",
+      "description": "Moeilijk Algemene Kennis: Test alledaagse feiten uit uiteenlopende onderwerpen."
+    },
+    "random-general-knowledge": {
+      "title": "Willekeurig Algemene Kennis | woori.today",
+      "description": "Willekeurig Algemene Kennis: Test alledaagse feiten uit uiteenlopende onderwerpen."
+    },
+    "adult-general-knowledge": {
+      "title": "Volwassenen Algemene Kennis | woori.today",
+      "description": "Volwassenen Algemene Kennis: Test alledaagse feiten uit uiteenlopende onderwerpen."
+    },
+    "daily-life-quiz": {
+      "title": "Dagelijkse Levens Quiz | woori.today",
+      "description": "Dagelijkse Levens Quiz: Test alledaagse feiten uit uiteenlopende onderwerpen."
+    },
+    "nonsense": {
+      "title": "Gekke | woori.today",
+      "description": "Gekke: Los korte raadsels op door de woordspeling te ontdekken."
+    },
+    "easy-nonsense-quiz": {
+      "title": "Makkelijke Gekke Quiz | woori.today",
+      "description": "Makkelijke Gekke Quiz: Los korte raadsels op door de woordspeling te ontdekken."
+    },
+    "riddle-quiz": {
+      "title": "Raadsels Quiz | woori.today",
+      "description": "Raadsels Quiz: Los korte raadsels op door de woordspeling te ontdekken."
+    },
+    "brain-teaser": {
+      "title": "Prikkel je brein – Breinbrekers | woori.today",
+      "description": "Prikkel je brein met gratis puzzels over logica, patronen, getallen, geheugen en redeneren."
+    },
+    "easy-brain-teaser": {
+      "title": "Makkelijke Brein Puzzel | woori.today",
+      "description": "Makkelijke Brein Puzzel: Gebruik aanwijzingen en getalpatronen om logisch tot een antwoord te komen."
+    },
+    "hard-brain-teaser": {
+      "title": "Moeilijk Brein Puzzel | woori.today",
+      "description": "Moeilijk Brein Puzzel: Gebruik aanwijzingen en getalpatronen om logisch tot een antwoord te komen."
+    },
+    "number-pattern-quiz": {
+      "title": "Getallen Patroon Quiz | woori.today",
+      "description": "Getallen Patroon Quiz: Gebruik aanwijzingen en getalpatronen om logisch tot een antwoord te komen."
+    },
+    "logic-reasoning-quiz": {
+      "title": "Logica Redeneren Quiz | woori.today",
+      "description": "Logica Redeneren Quiz: Gebruik aanwijzingen en getalpatronen om logisch tot een antwoord te komen."
+    },
+    "random-brain-teaser": {
+      "title": "Willekeurig Brein Puzzel | woori.today",
+      "description": "Willekeurig Brein Puzzel: Gebruik aanwijzingen en getalpatronen om logisch tot een antwoord te komen."
+    },
+    "math-basic": {
+      "title": "Wiskunde Basis | woori.today",
+      "description": "Wiskunde Basis: Oefen rekenen en redeneren, van basisbewerkingen tot reeksen en kansberekening."
+    },
+    "math-advanced": {
+      "title": "Wiskunde Gevorderde | woori.today",
+      "description": "Wiskunde Gevorderde: Oefen rekenen en redeneren, van basisbewerkingen tot reeksen en kansberekening."
+    },
+    "mental-arithmetic-test": {
+      "title": "Hoofdrekenen Rekenen Test | woori.today",
+      "description": "Hoofdrekenen Rekenen Test: Oefen rekenen en redeneren, van basisbewerkingen tot reeksen en kansberekening."
+    },
+    "sequence-math-quiz": {
+      "title": "Reeks Wiskunde Quiz | woori.today",
+      "description": "Reeks Wiskunde Quiz: Oefen rekenen en redeneren, van basisbewerkingen tot reeksen en kansberekening."
+    },
+    "probability-quiz": {
+      "title": "Kansberekening Quiz | woori.today",
+      "description": "Kansberekening Quiz: Oefen rekenen en redeneren, van basisbewerkingen tot reeksen en kansberekening."
+    },
+    "history-knowledge-quiz": {
+      "title": "Geschiedenis Kennis Quiz | woori.today",
+      "description": "Geschiedenis Kennis Quiz: Bekijk vaststaande gebeurtenissen en personen uit de oude en moderne geschiedenis."
+    },
+    "ancient-civilizations-quiz": {
+      "title": "Oude Beschavingen Quiz | woori.today",
+      "description": "Oude Beschavingen Quiz: Bekijk vaststaande gebeurtenissen en personen uit de oude en moderne geschiedenis."
+    },
+    "modern-history-knowledge": {
+      "title": "Moderne Geschiedenis Kennis | woori.today",
+      "description": "Moderne Geschiedenis Kennis: Bekijk vaststaande gebeurtenissen en personen uit de oude en moderne geschiedenis."
+    },
+    "science-knowledge-quiz": {
+      "title": "Wetenschap Kennis Quiz | woori.today",
+      "description": "Wetenschap Kennis Quiz: Herhaal basiskennis van biologie, scheikunde, natuurkunde en ruimte."
+    },
+    "space-quiz": {
+      "title": "Ruimte Quiz | woori.today",
+      "description": "Ruimte Quiz: Herhaal basiskennis van biologie, scheikunde, natuurkunde en ruimte."
+    },
+    "biology-knowledge-quiz": {
+      "title": "Biologie Kennis Quiz | woori.today",
+      "description": "Biologie Kennis Quiz: Herhaal basiskennis van biologie, scheikunde, natuurkunde en ruimte."
+    },
+    "world-geography": {
+      "title": "Wereld Aardrijkskunde | woori.today",
+      "description": "Wereld Aardrijkskunde: Herken de ligging van continenten, landen, hoofdsteden en natuurgebieden."
+    },
+    "capital-cities-quiz": {
+      "title": "Hoofdsteden Steden Quiz | woori.today",
+      "description": "Hoofdsteden Steden Quiz: Herken de ligging van continenten, landen, hoofdsteden en natuurgebieden."
+    },
+    "country-knowledge-quiz": {
+      "title": "Land Kennis Quiz | woori.today",
+      "description": "Land Kennis Quiz: Herken de ligging van continenten, landen, hoofdsteden en natuurgebieden."
+    },
+    "language-knowledge-quiz": {
+      "title": "Taal Kennis Quiz | woori.today",
+      "description": "Taal Kennis Quiz: Onderzoek woordenschat, grammatica en schriftsystemen."
+    },
+    "english-vocabulary": {
+      "title": "Engels Woordenschat | woori.today",
+      "description": "Engels Woordenschat: Onderzoek woordenschat, grammatica en schriftsystemen."
+    },
+    "it-development-quiz": {
+      "title": "IT Ontwikkeling Quiz | woori.today",
+      "description": "IT Ontwikkeling Quiz: Herhaal de basis van het web, programmeren, databases en netwerken."
+    },
+    "programming-knowledge-quiz": {
+      "title": "Programmeren Kennis Quiz | woori.today",
+      "description": "Programmeren Kennis Quiz: Herhaal de basis van het web, programmeren, databases en netwerken."
+    },
+    "random-quiz": {
+      "title": "Willekeurig Quiz | woori.today",
+      "description": "Willekeurig Quiz: Speel telkens een nieuwe mix van vragen uit verschillende vakgebieden."
+    },
+    "random-math-10": {
+      "title": "Willekeurig Wiskunde 10 | woori.today",
+      "description": "Willekeurig Wiskunde 10: Speel telkens een nieuwe mix van vragen uit verschillende vakgebieden."
+    },
+    "random-nonsense-10": {
+      "title": "Willekeurig Gekke 10 | woori.today",
+      "description": "Willekeurig Gekke 10: Speel telkens een nieuwe mix van vragen uit verschillende vakgebieden."
+    },
+    "challenge-10": {
+      "title": "Uitdaging 10 | woori.today",
+      "description": "Uitdaging 10: Maak een vast aantal vragen achter elkaar en blijf geconcentreerd."
+    },
+    "challenge-20": {
+      "title": "Uitdaging 20 | woori.today",
+      "description": "Uitdaging 20: Maak een vast aantal vragen achter elkaar en blijf geconcentreerd."
+    }
+  },
+  "titleTermCount": 70,
+  "translatedQuizSlugs": [
+    "general-knowledge-quiz",
+    "everyday-knowledge-quiz",
+    "difficult-general-knowledge-quiz",
+    "world-capitals-quiz",
+    "country-flags-quiz",
+    "country-currency-quiz",
+    "country-location-quiz",
+    "asia-capitals-quiz",
+    "europe-capitals-quiz",
+    "world-geography-quiz",
+    "basic-science-quiz",
+    "physics-quiz",
+    "chemistry-quiz",
+    "biology-quiz",
+    "astronomy-quiz",
+    "difficult-science-quiz",
+    "world-history-quiz",
+    "korean-history-quiz",
+    "ancient-history-quiz",
+    "modern-history-quiz",
+    "addition-quiz",
+    "subtraction-quiz",
+    "multiplication-quiz",
+    "division-quiz",
+    "multiplication-table-quiz",
+    "mental-math-quiz",
+    "fraction-quiz",
+    "percentage-quiz",
+    "equation-quiz",
+    "arithmetic-challenge",
+    "english-vocabulary-quiz",
+    "english-spelling-quiz",
+    "english-grammar-quiz",
+    "hiragana-quiz",
+    "katakana-quiz",
+    "japanese-vocabulary-quiz",
+    "chinese-character-quiz",
+    "korean-vocabulary-quiz",
+    "computer-basics-quiz",
+    "programming-basics-quiz",
+    "web-development-quiz",
+    "database-quiz",
+    "network-basics-quiz",
+    "difficult-it-quiz",
+    "number-memory-test",
+    "word-memory-test",
+    "sequence-memory-test",
+    "visual-memory-test",
+    "pattern-recognition-test",
+    "concentration-test",
+    "reaction-time-test",
+    "click-speed-test",
+    "typing-speed-test",
+    "color-reaction-test",
+    "random-trivia-challenge",
+    "true-false-challenge",
+    "impossible-quiz",
+    "mixed-hard-quiz",
+    "general-knowledge",
+    "easy-general-knowledge",
+    "hard-general-knowledge",
+    "random-general-knowledge",
+    "adult-general-knowledge",
+    "daily-life-quiz",
+    "nonsense",
+    "easy-nonsense-quiz",
+    "riddle-quiz",
+    "brain-teaser",
+    "easy-brain-teaser",
+    "hard-brain-teaser",
+    "number-pattern-quiz",
+    "logic-reasoning-quiz",
+    "random-brain-teaser",
+    "math-basic",
+    "math-advanced",
+    "mental-arithmetic-test",
+    "sequence-math-quiz",
+    "probability-quiz",
+    "history-knowledge-quiz",
+    "ancient-civilizations-quiz",
+    "modern-history-knowledge",
+    "science-knowledge-quiz",
+    "space-quiz",
+    "biology-knowledge-quiz",
+    "world-geography",
+    "capital-cities-quiz",
+    "country-knowledge-quiz",
+    "language-knowledge-quiz",
+    "english-vocabulary",
+    "it-development-quiz",
+    "programming-knowledge-quiz",
+    "random-quiz",
+    "random-math-10",
+    "random-nonsense-10",
+    "challenge-10",
+    "challenge-20"
+  ],
+  "mathPrompts": {
+    "whatIsX": "Wat is de waarde van x?",
+    "findX": "Find x.",
+    "decimal": "decimaal",
+    "percentage": "Hoeveel is PERCENT_SLOT% van WHOLE_SLOT?",
+    "fraction": "FIRST_FRACTION_SLOT + SECOND_FRACTION_SLOT = ? (decimaal)"
+  },
+  "interactiveTest": {
+    "passage": "Een beetje nieuwsgierigheid kan tot een mooie ontdekking leiden. Lees rustig en typ nauwkeurig.",
+    "copy": {
+      "start": "Start",
+      "tap": "Klik als het vlak groen wordt",
+      "go": "KLIK NU",
+      "tooSoon": "Te vroeg. Probeer opnieuw.",
+      "done": "Klaar",
+      "submit": "Controleren",
+      "remember": "Onthoud wat je ziet",
+      "type": "Typ hier",
+      "accuracy": "Nauwkeurigheid",
+      "errors": "Fouten",
+      "wpm": "WPM",
+      "time": "Tijd",
+      "clicks": "Klikken",
+      "matched": "Gevonden paren",
+      "tryAgain": "Opnieuw"
+    },
+    "memoryWords": "zee appel ster wolk",
+    "extraCopy": {
+      "moves": "Zetten",
+      "tapFast": "Tik zo snel als je kunt",
+      "cell": "Vak"
+    }
+  }
+}

@@ -1,14 +1,14 @@
 import { NextResponse } from "next/server";
-import { locales } from "../../lib/i18n";
+import { publishedLocales } from "../../lib/i18n";
 import { quizzes } from "../../lib/registry";
 import { quizUrl } from "../../lib/urls";
 import { getIndexableListLocales, getQuizLocalizationQuality } from "../../lib/localization-quality";
 
 export async function GET() {
   const publicQuizzes = quizzes.filter((quiz) => quiz.isPublic);
-  const indexableLists = getIndexableListLocales();
+  const indexableLists = await getIndexableListLocales();
   const localizedDetails = await Promise.all(publicQuizzes.flatMap((quiz) =>
-    locales.map(async (locale) => ({ quiz, locale, indexable: (await getQuizLocalizationQuality(locale, quiz)).indexable })),
+    publishedLocales.map(async (locale) => ({ quiz, locale, indexable: (await getQuizLocalizationQuality(locale, quiz)).indexable })),
   ));
   const urls = [
     ...indexableLists.map((locale) => quizUrl(locale)),

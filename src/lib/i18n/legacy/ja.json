@@ -1,0 +1,684 @@
+{
+  "localeName": "日本語",
+  "messages": {
+    "title": "クイズテスト",
+    "subtitle": "今日の好奇心を刺激するクイズ",
+    "search": "クイズを検索",
+    "today": "今日のクイズ",
+    "categories": "カテゴリー",
+    "popular": "人気のクイズ",
+    "play": "スタート",
+    "question": "問題",
+    "next": "次の問題",
+    "submit": "回答を確認",
+    "result": "結果",
+    "retry": "もう一度",
+    "home": "ホーム",
+    "related": "関連クイズ",
+    "score": "スコア",
+    "footer": "プライバシー · ご利用案内 · お問い合わせ"
+  },
+  "ui": {
+    "familySites": "関連サービス",
+    "portal": "ポータル",
+    "calculator": "計算機",
+    "tools": "オンラインツール",
+    "moneyBook": "無料共有家計簿",
+    "docs": "文書・書式",
+    "quiz": "クイズ・テスト",
+    "language": "言語を選択",
+    "openMenu": "サービスメニューを開く",
+    "closeMenu": "サービスメニューを閉じる",
+    "allQuizzes": "すべてのクイズ",
+    "freeToPlay": "無料で利用",
+    "noAccount": "会員登録不要",
+    "heroEyebrow": "好奇心が動き出す瞬間",
+    "heroTitle": "今日の好奇心を刺激するクイズ",
+    "heroDescription": "気軽に挑戦して、新しい発見を楽しみましょう。",
+    "nextChallenge": "次のチャレンジを選ぶ",
+    "searchEmpty": "クイズが見つかりません。",
+    "questionSetReview": "問題を確認中",
+    "difficulty": "難易度",
+    "startHeading": "準備ができたら始めましょう",
+    "startDescription": "焦らず考えながら、クイズを楽しんでください。",
+    "correct": "正解です！",
+    "incorrect": "残念、正解ではありません。",
+    "accuracy": "正答率",
+    "finishedIn": "所要時間",
+    "seconds": "秒",
+    "bestScore": "最高スコアはこの端末に保存されます。",
+    "reviewHeading": "問題を確認しています",
+    "reviewDescription": "各言語の問題を確認中です。確認が完了するとプレイできるようになります。",
+    "howToPlay": "遊び方",
+    "howToDescription": "答えを選んでクイズに挑戦しましょう。進行状況はこのブラウザーだけに保存され、アカウントや個人情報は不要です。",
+    "aboutQuiz": "クイズについて",
+    "faq": "よくある質問",
+    "scoreUploadedQuestion": "スコアは送信されますか？",
+    "scoreUploadedAnswer": "いいえ。スコアはこのブラウザー内だけに保存されます。",
+    "interactiveTest": "インタラクティブテスト",
+    "localeCount": "26言語",
+    "dynamicGeneration": "問題を自動生成",
+    "back": "クイズ一覧",
+    "footerTagline": "好奇心を楽しむすべての人へ",
+    "privacy": "プライバシー",
+    "guidelines": "利用案内",
+    "contact": "お問い合わせ",
+    "copyright": "© 2026 woori.today",
+    "searchLabel": "クイズを検索",
+    "quizCount": "COUNT_SLOT",
+    "questionCount": "COUNT_SLOT",
+    "quizSummary": "TITLE_SLOTに挑戦して、楽しく知識を確かめましょう。",
+    "category": {
+      "general": "一般常識",
+      "geography": "世界・地理",
+      "science": "科学",
+      "history": "歴史",
+      "math": "数学",
+      "language": "言語",
+      "technology": "IT",
+      "memory": "記憶力・脳トレ",
+      "speed": "速度・反応",
+      "fun": "お楽しみテスト"
+    },
+    "difficultyLabels": {
+      "easy": "かんたん",
+      "medium": "ふつう",
+      "hard": "難しい",
+      "expert": "エキスパート"
+    }
+  },
+  "uiCountForms": {
+    "quizCount": {
+      "other": "クイズ COUNT_SLOT件"
+    },
+    "questionCount": {
+      "other": "COUNT_SLOT問"
+    }
+  },
+  "uiSummary": "TITLE_SLOTに挑戦して、楽しく知識を確かめましょう。",
+  "discovery": {
+    "intro": "一般常識から数学、脳トレまで、好きなクイズに挑戦しましょう。",
+    "quickStart": "すぐに始める",
+    "searchResults": "検索結果",
+    "browseCategories": "カテゴリーを選ぶ",
+    "clearSearch": "検索語を消去",
+    "resultsForForms": {
+      "other": "「QUERY_SLOT」の検索結果：COUNT_SLOT件"
+    }
+  },
+  "detail": {
+    "correctCount": "正解",
+    "incorrectCount": "不正解",
+    "newSet": "新しい問題で挑戦",
+    "otherQuizzes": "ほかのクイズを見る"
+  },
+  "categoryLabels": {
+    "general": "一般常識",
+    "nonsense": "ナンセンス・なぞなぞ",
+    "math": "数学",
+    "brain": "脳トレ",
+    "history": "歴史",
+    "science": "科学",
+    "geography": "世界・地理",
+    "language": "言語",
+    "technology": "IT",
+    "memory": "記憶力・脳トレ",
+    "random": "ランダムクイズ",
+    "challenge": "チャレンジ",
+    "speed": "速度・反応",
+    "fun": "お楽しみテスト"
+  },
+  "categoryDescriptions": {
+    "general": "身近な事実から幅広い分野の知識を確かめます。",
+    "nonsense": "言葉のひねりに気づいて短いなぞなぞを解きます。",
+    "math": "四則演算から数列・確率まで計算と推理を練習します。",
+    "brain": "手がかりや数字の規則を使って論理的に答えを導きます。",
+    "history": "古代から近現代までの出来事と人物を事実に沿って振り返ります。",
+    "science": "生物・化学・物理・宇宙の基本的な仕組みを確認します。",
+    "geography": "大陸、国、首都、自然地形の位置を思い出します。",
+    "language": "語彙、文法、さまざまな文字の仕組みを確かめます。",
+    "technology": "ウェブ、プログラミング、データベース、ネットワークの基礎を扱います。",
+    "memory": "数字や言葉、順番を覚え、視覚的な変化を見つけます。",
+    "random": "複数分野から選ばれた問題を毎回新しい順番で解きます。",
+    "challenge": "決まった数の問題を続けて解き、集中力を試します。",
+    "speed": "反応時間やクリック・入力の速さを直接測ります。",
+    "fun": "軽い雑学や楽しい問題でひと息つけます。"
+  },
+  "serviceGuide": {
+    "categories": "分野から探す",
+    "how": "クイズの遊び方",
+    "account": "クイズを選び、各問題に答えてください。登録は不要で、結果はこのブラウザーに保存されます。",
+    "score": "スコアの見方",
+    "scoreLow": "この分野はもう少し練習できます。解説を読んで再挑戦しましょう。",
+    "scoreMid": "基本を理解できています。間違えた問題の解説を確認しましょう。",
+    "scoreHigh": "今回の問題をよく解けました。別の分野や新しい問題にも挑戦しましょう。",
+    "scoreNote": "スコアは今回の正答率であり、能力や健康状態の診断ではありません。",
+    "focus": "このクイズで扱う内容"
+  },
+  "advertisement": "広告",
+  "difficulty": "すべての難易度",
+  "quizTitles": {
+    "general-knowledge-quiz": "一般知識クイズ",
+    "everyday-knowledge-quiz": "日常知識クイズ",
+    "difficult-general-knowledge-quiz": "難問一般知識クイズ",
+    "world-capitals-quiz": "世界首都クイズ",
+    "country-flags-quiz": "国国旗クイズ",
+    "country-currency-quiz": "国通貨クイズ",
+    "country-location-quiz": "国位置クイズ",
+    "asia-capitals-quiz": "アジア首都クイズ",
+    "europe-capitals-quiz": "ヨーロッパ首都クイズ",
+    "world-geography-quiz": "世界地理クイズ",
+    "basic-science-quiz": "基礎科学クイズ",
+    "physics-quiz": "物理クイズ",
+    "chemistry-quiz": "化学クイズ",
+    "biology-quiz": "生物クイズ",
+    "astronomy-quiz": "天文学クイズ",
+    "difficult-science-quiz": "難問科学クイズ",
+    "world-history-quiz": "世界歴史クイズ",
+    "korean-history-quiz": "韓国歴史クイズ",
+    "ancient-history-quiz": "古代歴史クイズ",
+    "modern-history-quiz": "近現代歴史クイズ",
+    "addition-quiz": "足し算クイズ",
+    "subtraction-quiz": "引き算クイズ",
+    "multiplication-quiz": "掛け算クイズ",
+    "division-quiz": "割り算クイズ",
+    "multiplication-table-quiz": "掛け算九九クイズ",
+    "mental-math-quiz": "暗算数学クイズ",
+    "fraction-quiz": "分数クイズ",
+    "percentage-quiz": "割合クイズ",
+    "equation-quiz": "方程式クイズ",
+    "arithmetic-challenge": "計算チャレンジ",
+    "english-vocabulary-quiz": "英語語彙クイズ",
+    "english-spelling-quiz": "英語綴りクイズ",
+    "english-grammar-quiz": "英語文法クイズ",
+    "hiragana-quiz": "ひらがなクイズ",
+    "katakana-quiz": "カタカナクイズ",
+    "japanese-vocabulary-quiz": "日本語語彙クイズ",
+    "chinese-character-quiz": "中国語文字クイズ",
+    "korean-vocabulary-quiz": "韓国語彙クイズ",
+    "computer-basics-quiz": "コンピューター基礎クイズ",
+    "programming-basics-quiz": "プログラミング基礎クイズ",
+    "web-development-quiz": "ウェブ開発クイズ",
+    "database-quiz": "データベースクイズ",
+    "network-basics-quiz": "ネットワーク基礎クイズ",
+    "difficult-it-quiz": "難問ITクイズ",
+    "number-memory-test": "数字記憶テスト",
+    "word-memory-test": "単語記憶テスト",
+    "sequence-memory-test": "順序記憶テスト",
+    "visual-memory-test": "視覚記憶テスト",
+    "pattern-recognition-test": "パターン認識テスト",
+    "concentration-test": "集中力テスト",
+    "reaction-time-test": "反応時間テスト",
+    "click-speed-test": "クリック速度テスト",
+    "typing-speed-test": "タイピング速度テスト",
+    "color-reaction-test": "色反応テスト",
+    "random-trivia-challenge": "ランダムトリビアチャレンジ",
+    "true-false-challenge": "正誤誤りチャレンジ",
+    "impossible-quiz": "難問クイズ",
+    "mixed-hard-quiz": "総合上級クイズ",
+    "general-knowledge": "一般知識",
+    "easy-general-knowledge": "やさしい一般知識",
+    "hard-general-knowledge": "上級一般知識",
+    "random-general-knowledge": "ランダム一般知識",
+    "adult-general-knowledge": "大人一般知識",
+    "daily-life-quiz": "日常生活クイズ",
+    "nonsense": "ナンセンス",
+    "easy-nonsense-quiz": "やさしいナンセンスクイズ",
+    "riddle-quiz": "なぞなぞクイズ",
+    "brain-teaser": "脳を目覚めさせるクイズ - ブレインティーザー",
+    "easy-brain-teaser": "やさしい脳パズル",
+    "hard-brain-teaser": "上級脳パズル",
+    "number-pattern-quiz": "数字パターンクイズ",
+    "logic-reasoning-quiz": "論理推理クイズ",
+    "random-brain-teaser": "ランダム脳パズル",
+    "math-basic": "数学基礎",
+    "math-advanced": "数学上級",
+    "mental-arithmetic-test": "暗算計算テスト",
+    "sequence-math-quiz": "順序数学クイズ",
+    "probability-quiz": "確率クイズ",
+    "history-knowledge-quiz": "歴史知識クイズ",
+    "ancient-civilizations-quiz": "古代文明クイズ",
+    "modern-history-knowledge": "近現代歴史知識",
+    "science-knowledge-quiz": "科学知識クイズ",
+    "space-quiz": "宇宙クイズ",
+    "biology-knowledge-quiz": "生物知識クイズ",
+    "world-geography": "世界地理",
+    "capital-cities-quiz": "首都都市クイズ",
+    "country-knowledge-quiz": "国知識クイズ",
+    "language-knowledge-quiz": "言語知識クイズ",
+    "english-vocabulary": "英語語彙",
+    "it-development-quiz": "IT開発クイズ",
+    "programming-knowledge-quiz": "プログラミング知識クイズ",
+    "random-quiz": "ランダムクイズ",
+    "random-math-10": "ランダム数学10",
+    "random-nonsense-10": "ランダムナンセンス10",
+    "challenge-10": "チャレンジ10",
+    "challenge-20": "チャレンジ20"
+  },
+  "quizDescriptions": {
+    "addition-quiz": "足し算クイズ: 四則演算から数列・確率まで計算と推理を練習します。",
+    "subtraction-quiz": "引き算クイズ: 四則演算から数列・確率まで計算と推理を練習します。",
+    "multiplication-quiz": "掛け算クイズ: 四則演算から数列・確率まで計算と推理を練習します。",
+    "division-quiz": "割り算クイズ: 四則演算から数列・確率まで計算と推理を練習します。",
+    "multiplication-table-quiz": "掛け算九九クイズ: 四則演算から数列・確率まで計算と推理を練習します。",
+    "mental-math-quiz": "暗算数学クイズ: 四則演算から数列・確率まで計算と推理を練習します。",
+    "fraction-quiz": "分数クイズ: 四則演算から数列・確率まで計算と推理を練習します。",
+    "percentage-quiz": "割合クイズ: 四則演算から数列・確率まで計算と推理を練習します。",
+    "equation-quiz": "方程式クイズ: 四則演算から数列・確率まで計算と推理を練習します。",
+    "arithmetic-challenge": "計算チャレンジ: 四則演算から数列・確率まで計算と推理を練習します。",
+    "number-memory-test": "数字記憶テスト: 数字や言葉、順番を覚え、視覚的な変化を見つけます。",
+    "word-memory-test": "単語記憶テスト: 数字や言葉、順番を覚え、視覚的な変化を見つけます。",
+    "sequence-memory-test": "順序記憶テスト: 数字や言葉、順番を覚え、視覚的な変化を見つけます。",
+    "visual-memory-test": "視覚記憶テスト: 数字や言葉、順番を覚え、視覚的な変化を見つけます。",
+    "pattern-recognition-test": "パターン認識テスト: 数字や言葉、順番を覚え、視覚的な変化を見つけます。",
+    "concentration-test": "集中力テスト: 数字や言葉、順番を覚え、視覚的な変化を見つけます。",
+    "reaction-time-test": "反応時間テスト: 反応時間やクリック・入力の速さを直接測ります。",
+    "click-speed-test": "クリック速度テスト: 反応時間やクリック・入力の速さを直接測ります。",
+    "typing-speed-test": "タイピング速度テスト: 反応時間やクリック・入力の速さを直接測ります。",
+    "color-reaction-test": "色反応テスト: 反応時間やクリック・入力の速さを直接測ります。",
+    "general-knowledge": "一般知識: 身近な事実から幅広い分野の知識を確かめます。",
+    "easy-general-knowledge": "やさしい一般知識: 身近な事実から幅広い分野の知識を確かめます。",
+    "hard-general-knowledge": "上級一般知識: 身近な事実から幅広い分野の知識を確かめます。",
+    "random-general-knowledge": "ランダム一般知識: 身近な事実から幅広い分野の知識を確かめます。",
+    "adult-general-knowledge": "大人一般知識: 身近な事実から幅広い分野の知識を確かめます。",
+    "daily-life-quiz": "日常生活クイズ: 身近な事実から幅広い分野の知識を確かめます。",
+    "nonsense": "ナンセンス: 言葉のひねりに気づいて短いなぞなぞを解きます。",
+    "easy-nonsense-quiz": "やさしいナンセンスクイズ: 言葉のひねりに気づいて短いなぞなぞを解きます。",
+    "riddle-quiz": "なぞなぞクイズ: 言葉のひねりに気づいて短いなぞなぞを解きます。",
+    "brain-teaser": "脳を目覚めさせるクイズ - ブレインティーザー: 手がかりや数字の規則を使って論理的に答えを導きます。",
+    "easy-brain-teaser": "やさしい脳パズル: 手がかりや数字の規則を使って論理的に答えを導きます。",
+    "hard-brain-teaser": "上級脳パズル: 手がかりや数字の規則を使って論理的に答えを導きます。",
+    "number-pattern-quiz": "数字パターンクイズ: 手がかりや数字の規則を使って論理的に答えを導きます。",
+    "logic-reasoning-quiz": "論理推理クイズ: 手がかりや数字の規則を使って論理的に答えを導きます。",
+    "random-brain-teaser": "ランダム脳パズル: 手がかりや数字の規則を使って論理的に答えを導きます。",
+    "math-basic": "数学基礎: 四則演算から数列・確率まで計算と推理を練習します。",
+    "math-advanced": "数学上級: 四則演算から数列・確率まで計算と推理を練習します。",
+    "mental-arithmetic-test": "暗算計算テスト: 四則演算から数列・確率まで計算と推理を練習します。",
+    "sequence-math-quiz": "順序数学クイズ: 四則演算から数列・確率まで計算と推理を練習します。",
+    "probability-quiz": "確率クイズ: 四則演算から数列・確率まで計算と推理を練習します。",
+    "history-knowledge-quiz": "歴史知識クイズ: 古代から近現代までの出来事と人物を事実に沿って振り返ります。",
+    "ancient-civilizations-quiz": "古代文明クイズ: 古代から近現代までの出来事と人物を事実に沿って振り返ります。",
+    "modern-history-knowledge": "近現代歴史知識: 古代から近現代までの出来事と人物を事実に沿って振り返ります。",
+    "science-knowledge-quiz": "科学知識クイズ: 生物・化学・物理・宇宙の基本的な仕組みを確認します。",
+    "space-quiz": "宇宙クイズ: 生物・化学・物理・宇宙の基本的な仕組みを確認します。",
+    "biology-knowledge-quiz": "生物知識クイズ: 生物・化学・物理・宇宙の基本的な仕組みを確認します。",
+    "world-geography": "世界地理: 大陸、国、首都、自然地形の位置を思い出します。",
+    "capital-cities-quiz": "首都都市クイズ: 大陸、国、首都、自然地形の位置を思い出します。",
+    "country-knowledge-quiz": "国知識クイズ: 大陸、国、首都、自然地形の位置を思い出します。",
+    "language-knowledge-quiz": "言語知識クイズ: 語彙、文法、さまざまな文字の仕組みを確かめます。",
+    "english-vocabulary": "英語語彙: 語彙、文法、さまざまな文字の仕組みを確かめます。",
+    "it-development-quiz": "IT開発クイズ: ウェブ、プログラミング、データベース、ネットワークの基礎を扱います。",
+    "programming-knowledge-quiz": "プログラミング知識クイズ: ウェブ、プログラミング、データベース、ネットワークの基礎を扱います。",
+    "random-quiz": "ランダムクイズ: 複数分野から選ばれた問題を毎回新しい順番で解きます。",
+    "random-math-10": "ランダム数学10: 複数分野から選ばれた問題を毎回新しい順番で解きます。",
+    "random-nonsense-10": "ランダムナンセンス10: 複数分野から選ばれた問題を毎回新しい順番で解きます。",
+    "challenge-10": "チャレンジ10: 決まった数の問題を続けて解き、集中力を試します。",
+    "challenge-20": "チャレンジ20: 決まった数の問題を続けて解き、集中力を試します。"
+  },
+  "quizSeo": {
+    "addition-quiz": {
+      "title": "足し算クイズ | woori.today",
+      "description": "足し算クイズ: 四則演算から数列・確率まで計算と推理を練習します。"
+    },
+    "subtraction-quiz": {
+      "title": "引き算クイズ | woori.today",
+      "description": "引き算クイズ: 四則演算から数列・確率まで計算と推理を練習します。"
+    },
+    "multiplication-quiz": {
+      "title": "掛け算クイズ | woori.today",
+      "description": "掛け算クイズ: 四則演算から数列・確率まで計算と推理を練習します。"
+    },
+    "division-quiz": {
+      "title": "割り算クイズ | woori.today",
+      "description": "割り算クイズ: 四則演算から数列・確率まで計算と推理を練習します。"
+    },
+    "multiplication-table-quiz": {
+      "title": "掛け算九九クイズ | woori.today",
+      "description": "掛け算九九クイズ: 四則演算から数列・確率まで計算と推理を練習します。"
+    },
+    "mental-math-quiz": {
+      "title": "暗算数学クイズ | woori.today",
+      "description": "暗算数学クイズ: 四則演算から数列・確率まで計算と推理を練習します。"
+    },
+    "fraction-quiz": {
+      "title": "分数クイズ | woori.today",
+      "description": "分数クイズ: 四則演算から数列・確率まで計算と推理を練習します。"
+    },
+    "percentage-quiz": {
+      "title": "割合クイズ | woori.today",
+      "description": "割合クイズ: 四則演算から数列・確率まで計算と推理を練習します。"
+    },
+    "equation-quiz": {
+      "title": "方程式クイズ | woori.today",
+      "description": "方程式クイズ: 四則演算から数列・確率まで計算と推理を練習します。"
+    },
+    "arithmetic-challenge": {
+      "title": "計算チャレンジ | woori.today",
+      "description": "計算チャレンジ: 四則演算から数列・確率まで計算と推理を練習します。"
+    },
+    "number-memory-test": {
+      "title": "数字記憶テスト | woori.today",
+      "description": "数字記憶テスト: 数字や言葉、順番を覚え、視覚的な変化を見つけます。"
+    },
+    "word-memory-test": {
+      "title": "単語記憶テスト | woori.today",
+      "description": "単語記憶テスト: 数字や言葉、順番を覚え、視覚的な変化を見つけます。"
+    },
+    "sequence-memory-test": {
+      "title": "順序記憶テスト | woori.today",
+      "description": "順序記憶テスト: 数字や言葉、順番を覚え、視覚的な変化を見つけます。"
+    },
+    "visual-memory-test": {
+      "title": "視覚記憶テスト | woori.today",
+      "description": "視覚記憶テスト: 数字や言葉、順番を覚え、視覚的な変化を見つけます。"
+    },
+    "pattern-recognition-test": {
+      "title": "パターン認識テスト | woori.today",
+      "description": "パターン認識テスト: 数字や言葉、順番を覚え、視覚的な変化を見つけます。"
+    },
+    "concentration-test": {
+      "title": "集中力テスト | woori.today",
+      "description": "集中力テスト: 数字や言葉、順番を覚え、視覚的な変化を見つけます。"
+    },
+    "reaction-time-test": {
+      "title": "反応時間テスト | woori.today",
+      "description": "反応時間テスト: 反応時間やクリック・入力の速さを直接測ります。"
+    },
+    "click-speed-test": {
+      "title": "クリック速度テスト | woori.today",
+      "description": "クリック速度テスト: 反応時間やクリック・入力の速さを直接測ります。"
+    },
+    "typing-speed-test": {
+      "title": "タイピング速度テスト | woori.today",
+      "description": "タイピング速度テスト: 反応時間やクリック・入力の速さを直接測ります。"
+    },
+    "color-reaction-test": {
+      "title": "色反応テスト | woori.today",
+      "description": "色反応テスト: 反応時間やクリック・入力の速さを直接測ります。"
+    },
+    "general-knowledge": {
+      "title": "一般知識 | woori.today",
+      "description": "一般知識: 身近な事実から幅広い分野の知識を確かめます。"
+    },
+    "easy-general-knowledge": {
+      "title": "やさしい一般知識 | woori.today",
+      "description": "やさしい一般知識: 身近な事実から幅広い分野の知識を確かめます。"
+    },
+    "hard-general-knowledge": {
+      "title": "上級一般知識 | woori.today",
+      "description": "上級一般知識: 身近な事実から幅広い分野の知識を確かめます。"
+    },
+    "random-general-knowledge": {
+      "title": "ランダム一般知識 | woori.today",
+      "description": "ランダム一般知識: 身近な事実から幅広い分野の知識を確かめます。"
+    },
+    "adult-general-knowledge": {
+      "title": "大人一般知識 | woori.today",
+      "description": "大人一般知識: 身近な事実から幅広い分野の知識を確かめます。"
+    },
+    "daily-life-quiz": {
+      "title": "日常生活クイズ | woori.today",
+      "description": "日常生活クイズ: 身近な事実から幅広い分野の知識を確かめます。"
+    },
+    "nonsense": {
+      "title": "ナンセンス | woori.today",
+      "description": "ナンセンス: 言葉のひねりに気づいて短いなぞなぞを解きます。"
+    },
+    "easy-nonsense-quiz": {
+      "title": "やさしいナンセンスクイズ | woori.today",
+      "description": "やさしいナンセンスクイズ: 言葉のひねりに気づいて短いなぞなぞを解きます。"
+    },
+    "riddle-quiz": {
+      "title": "なぞなぞクイズ | woori.today",
+      "description": "なぞなぞクイズ: 言葉のひねりに気づいて短いなぞなぞを解きます。"
+    },
+    "brain-teaser": {
+      "title": "脳を目覚めさせるクイズ - ブレインティーザー | woori.today",
+      "description": "論理、パターン、数字、記憶、推理の問題に挑戦して、気軽に頭をリフレッシュしましょう。"
+    },
+    "easy-brain-teaser": {
+      "title": "やさしい脳パズル | woori.today",
+      "description": "やさしい脳パズル: 手がかりや数字の規則を使って論理的に答えを導きます。"
+    },
+    "hard-brain-teaser": {
+      "title": "上級脳パズル | woori.today",
+      "description": "上級脳パズル: 手がかりや数字の規則を使って論理的に答えを導きます。"
+    },
+    "number-pattern-quiz": {
+      "title": "数字パターンクイズ | woori.today",
+      "description": "数字パターンクイズ: 手がかりや数字の規則を使って論理的に答えを導きます。"
+    },
+    "logic-reasoning-quiz": {
+      "title": "論理推理クイズ | woori.today",
+      "description": "論理推理クイズ: 手がかりや数字の規則を使って論理的に答えを導きます。"
+    },
+    "random-brain-teaser": {
+      "title": "ランダム脳パズル | woori.today",
+      "description": "ランダム脳パズル: 手がかりや数字の規則を使って論理的に答えを導きます。"
+    },
+    "math-basic": {
+      "title": "数学基礎 | woori.today",
+      "description": "数学基礎: 四則演算から数列・確率まで計算と推理を練習します。"
+    },
+    "math-advanced": {
+      "title": "数学上級 | woori.today",
+      "description": "数学上級: 四則演算から数列・確率まで計算と推理を練習します。"
+    },
+    "mental-arithmetic-test": {
+      "title": "暗算計算テスト | woori.today",
+      "description": "暗算計算テスト: 四則演算から数列・確率まで計算と推理を練習します。"
+    },
+    "sequence-math-quiz": {
+      "title": "順序数学クイズ | woori.today",
+      "description": "順序数学クイズ: 四則演算から数列・確率まで計算と推理を練習します。"
+    },
+    "probability-quiz": {
+      "title": "確率クイズ | woori.today",
+      "description": "確率クイズ: 四則演算から数列・確率まで計算と推理を練習します。"
+    },
+    "history-knowledge-quiz": {
+      "title": "歴史知識クイズ | woori.today",
+      "description": "歴史知識クイズ: 古代から近現代までの出来事と人物を事実に沿って振り返ります。"
+    },
+    "ancient-civilizations-quiz": {
+      "title": "古代文明クイズ | woori.today",
+      "description": "古代文明クイズ: 古代から近現代までの出来事と人物を事実に沿って振り返ります。"
+    },
+    "modern-history-knowledge": {
+      "title": "近現代歴史知識 | woori.today",
+      "description": "近現代歴史知識: 古代から近現代までの出来事と人物を事実に沿って振り返ります。"
+    },
+    "science-knowledge-quiz": {
+      "title": "科学知識クイズ | woori.today",
+      "description": "科学知識クイズ: 生物・化学・物理・宇宙の基本的な仕組みを確認します。"
+    },
+    "space-quiz": {
+      "title": "宇宙クイズ | woori.today",
+      "description": "宇宙クイズ: 生物・化学・物理・宇宙の基本的な仕組みを確認します。"
+    },
+    "biology-knowledge-quiz": {
+      "title": "生物知識クイズ | woori.today",
+      "description": "生物知識クイズ: 生物・化学・物理・宇宙の基本的な仕組みを確認します。"
+    },
+    "world-geography": {
+      "title": "世界地理 | woori.today",
+      "description": "世界地理: 大陸、国、首都、自然地形の位置を思い出します。"
+    },
+    "capital-cities-quiz": {
+      "title": "首都都市クイズ | woori.today",
+      "description": "首都都市クイズ: 大陸、国、首都、自然地形の位置を思い出します。"
+    },
+    "country-knowledge-quiz": {
+      "title": "国知識クイズ | woori.today",
+      "description": "国知識クイズ: 大陸、国、首都、自然地形の位置を思い出します。"
+    },
+    "language-knowledge-quiz": {
+      "title": "言語知識クイズ | woori.today",
+      "description": "言語知識クイズ: 語彙、文法、さまざまな文字の仕組みを確かめます。"
+    },
+    "english-vocabulary": {
+      "title": "英語語彙 | woori.today",
+      "description": "英語語彙: 語彙、文法、さまざまな文字の仕組みを確かめます。"
+    },
+    "it-development-quiz": {
+      "title": "IT開発クイズ | woori.today",
+      "description": "IT開発クイズ: ウェブ、プログラミング、データベース、ネットワークの基礎を扱います。"
+    },
+    "programming-knowledge-quiz": {
+      "title": "プログラミング知識クイズ | woori.today",
+      "description": "プログラミング知識クイズ: ウェブ、プログラミング、データベース、ネットワークの基礎を扱います。"
+    },
+    "random-quiz": {
+      "title": "ランダムクイズ | woori.today",
+      "description": "ランダムクイズ: 複数分野から選ばれた問題を毎回新しい順番で解きます。"
+    },
+    "random-math-10": {
+      "title": "ランダム数学10 | woori.today",
+      "description": "ランダム数学10: 複数分野から選ばれた問題を毎回新しい順番で解きます。"
+    },
+    "random-nonsense-10": {
+      "title": "ランダムナンセンス10 | woori.today",
+      "description": "ランダムナンセンス10: 複数分野から選ばれた問題を毎回新しい順番で解きます。"
+    },
+    "challenge-10": {
+      "title": "チャレンジ10 | woori.today",
+      "description": "チャレンジ10: 決まった数の問題を続けて解き、集中力を試します。"
+    },
+    "challenge-20": {
+      "title": "チャレンジ20 | woori.today",
+      "description": "チャレンジ20: 決まった数の問題を続けて解き、集中力を試します。"
+    }
+  },
+  "titleTermCount": 70,
+  "translatedQuizSlugs": [
+    "general-knowledge-quiz",
+    "everyday-knowledge-quiz",
+    "difficult-general-knowledge-quiz",
+    "world-capitals-quiz",
+    "country-flags-quiz",
+    "country-currency-quiz",
+    "country-location-quiz",
+    "asia-capitals-quiz",
+    "europe-capitals-quiz",
+    "world-geography-quiz",
+    "basic-science-quiz",
+    "physics-quiz",
+    "chemistry-quiz",
+    "biology-quiz",
+    "astronomy-quiz",
+    "difficult-science-quiz",
+    "world-history-quiz",
+    "korean-history-quiz",
+    "ancient-history-quiz",
+    "modern-history-quiz",
+    "addition-quiz",
+    "subtraction-quiz",
+    "multiplication-quiz",
+    "division-quiz",
+    "multiplication-table-quiz",
+    "mental-math-quiz",
+    "fraction-quiz",
+    "percentage-quiz",
+    "equation-quiz",
+    "arithmetic-challenge",
+    "english-vocabulary-quiz",
+    "english-spelling-quiz",
+    "english-grammar-quiz",
+    "hiragana-quiz",
+    "katakana-quiz",
+    "japanese-vocabulary-quiz",
+    "chinese-character-quiz",
+    "korean-vocabulary-quiz",
+    "computer-basics-quiz",
+    "programming-basics-quiz",
+    "web-development-quiz",
+    "database-quiz",
+    "network-basics-quiz",
+    "difficult-it-quiz",
+    "number-memory-test",
+    "word-memory-test",
+    "sequence-memory-test",
+    "visual-memory-test",
+    "pattern-recognition-test",
+    "concentration-test",
+    "reaction-time-test",
+    "click-speed-test",
+    "typing-speed-test",
+    "color-reaction-test",
+    "random-trivia-challenge",
+    "true-false-challenge",
+    "impossible-quiz",
+    "mixed-hard-quiz",
+    "general-knowledge",
+    "easy-general-knowledge",
+    "hard-general-knowledge",
+    "random-general-knowledge",
+    "adult-general-knowledge",
+    "daily-life-quiz",
+    "nonsense",
+    "easy-nonsense-quiz",
+    "riddle-quiz",
+    "brain-teaser",
+    "easy-brain-teaser",
+    "hard-brain-teaser",
+    "number-pattern-quiz",
+    "logic-reasoning-quiz",
+    "random-brain-teaser",
+    "math-basic",
+    "math-advanced",
+    "mental-arithmetic-test",
+    "sequence-math-quiz",
+    "probability-quiz",
+    "history-knowledge-quiz",
+    "ancient-civilizations-quiz",
+    "modern-history-knowledge",
+    "science-knowledge-quiz",
+    "space-quiz",
+    "biology-knowledge-quiz",
+    "world-geography",
+    "capital-cities-quiz",
+    "country-knowledge-quiz",
+    "language-knowledge-quiz",
+    "english-vocabulary",
+    "it-development-quiz",
+    "programming-knowledge-quiz",
+    "random-quiz",
+    "random-math-10",
+    "random-nonsense-10",
+    "challenge-10",
+    "challenge-20"
+  ],
+  "mathPrompts": {
+    "whatIsX": "x の値を求めてください。",
+    "findX": "Find x.",
+    "decimal": "小数",
+    "percentage": "WHOLE_SLOT の PERCENT_SLOT% はいくつですか？",
+    "fraction": "FIRST_FRACTION_SLOT + SECOND_FRACTION_SLOT = ? (小数)"
+  },
+  "interactiveTest": {
+    "passage": "小さな好奇心が新しい発見につながります。落ち着いて正確に入力しましょう。",
+    "copy": {
+      "start": "スタート",
+      "tap": "緑色になったらクリック",
+      "go": "今すぐクリック",
+      "tooSoon": "早すぎます。もう一度。",
+      "done": "完了",
+      "submit": "確認",
+      "remember": "表示された内容を覚えてください",
+      "type": "ここに入力",
+      "accuracy": "正確さ",
+      "errors": "誤り",
+      "wpm": "1分あたりの単語数",
+      "time": "記録",
+      "clicks": "クリック",
+      "matched": "見つけたペア",
+      "tryAgain": "もう一度"
+    },
+    "memoryWords": "海 りんご 星 雲",
+    "extraCopy": {
+      "moves": "手数",
+      "tapFast": "できるだけ速くタップ",
+      "cell": "マス"
+    }
+  }
+}

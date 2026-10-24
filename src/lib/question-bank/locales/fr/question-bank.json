@@ -1,0 +1,2312 @@
+{
+  "general-001": {
+    "question": "Quelle planète est connue sous le nom de planète rouge ?",
+    "options": [
+      "Vénus",
+      "Mars",
+      "Jupiter",
+      "Mercure"
+    ],
+    "explanation": "La poussière riche en fer donne à Mars son aspect rougeâtre."
+  },
+  "general-002": {
+    "question": "Combien de côtés a un hexagone ?",
+    "options": [
+      "Cinq",
+      "Six",
+      "Sept",
+      "Huit"
+    ],
+    "explanation": "Un hexagone a six côtés."
+  },
+  "general-003": {
+    "question": "Quel instrument mesure la pression atmosphérique ?",
+    "options": [
+      "Thermomètre",
+      "Baromètre",
+      "Hygromètre",
+      "Boussole"
+    ],
+    "explanation": "Un baromètre mesure la pression atmosphérique."
+  },
+  "general-004": {
+    "question": "Quel est le minéral naturel le plus dur sur l’échelle de Mohs ?",
+    "options": [
+      "Quartz",
+      "Topaze",
+      "Diamant",
+      "Corindon"
+    ],
+    "explanation": "Le diamant est classé 10 sur l’échelle de dureté Mohs."
+  },
+  "general-005": {
+    "question": "Combien de minutes y a-t-il dans deux heures ?",
+    "options": [
+      "100",
+      "110",
+      "120",
+      "130"
+    ],
+    "explanation": "Deux heures contiennent 120 minutes."
+  },
+  "general-006": {
+    "question": "Quel gaz constitue la majeure partie de l’atmosphère terrestre ?",
+    "options": [
+      "Oxygène",
+      "Azote",
+      "Dioxyde de carbone",
+      "Argon"
+    ],
+    "explanation": "L'azote représente environ 78 % de l'air sec."
+  },
+  "general-007": {
+    "question": "Quel océan est le plus grand ?",
+    "options": [
+      "atlantique",
+      "indien",
+      "Arctique",
+      "Pacifique"
+    ],
+    "explanation": "Le Pacifique est le plus grand océan en termes de superficie."
+  },
+  "general-008": {
+    "question": "Quel est le point de congélation de l’eau à pression standard ?",
+    "options": [
+      "0 °C",
+      "10 °C",
+      "32 °C",
+      "100 °C"
+    ],
+    "explanation": "L'eau pure gèle à 0 °C (32 °F) à pression standard."
+  },
+  "general-009": {
+    "question": "Quelle forme a trois côtés ?",
+    "options": [
+      "Carré",
+      "Triangle",
+      "Pentagone",
+      "Cercle"
+    ],
+    "explanation": "Un triangle a trois côtés."
+  },
+  "general-010": {
+    "question": "Quel métal est liquide à température ambiante ordinaire ?",
+    "options": [
+      "Fer",
+      "Cuivre",
+      "Mercure",
+      "Aluminium"
+    ],
+    "explanation": "Le mercure est liquide à température ambiante typique."
+  },
+  "science-011": {
+    "question": "Quel est le symbole chimique de l'eau ?",
+    "options": [
+      "CO₂",
+      "H₂O",
+      "O₂",
+      "NaCl"
+    ],
+    "explanation": "Une molécule d'eau contient deux atomes d'hydrogène et un atome d'oxygène."
+  },
+  "science-012": {
+    "question": "Quelle partie d’une plante absorbe habituellement l’eau du sol ?",
+    "options": [
+      "Fleur",
+      "Feuille",
+      "Racine",
+      "Fruit"
+    ],
+    "explanation": "Les racines absorbent l'eau et les minéraux du sol."
+  },
+  "science-013": {
+    "question": "Quelle force maintient les planètes en orbite autour du Soleil ?",
+    "options": [
+      "Friction",
+      "Pesanteur",
+      "Magnétisme",
+      "Flottabilité"
+    ],
+    "explanation": "La gravité fournit l'accélération centripète des orbites planétaires."
+  },
+  "science-014": {
+    "question": "Quelle particule a une charge électrique négative ?",
+    "options": [
+      "Proton",
+      "Neutron",
+      "Électron",
+      "Photon"
+    ],
+    "explanation": "Les électrons portent une charge élémentaire négative."
+  },
+  "science-015": {
+    "question": "Au niveau de la mer, l'eau bout approximativement à quelle température ?",
+    "options": [
+      "50 °C",
+      "75 °C",
+      "100 °C",
+      "150 °C"
+    ],
+    "explanation": "À pression atmosphérique standard, l’eau bout à 100 °C."
+  },
+  "science-016": {
+    "question": "Quel organite est connu pour produire la plupart de l’ATP cellulaire ?",
+    "options": [
+      "Noyau",
+      "Mitochondrie",
+      "Ribosome",
+      "Appareil de Golgi"
+    ],
+    "explanation": "Les mitochondries produisent une grande partie de l'ATP des cellules eucaryotes par la respiration cellulaire."
+  },
+  "science-017": {
+    "question": "Quels gaz les plantes absorbent-elles pour la photosynthèse ?",
+    "options": [
+      "Oxygène",
+      "Dioxyde de carbone",
+      "Hélium",
+      "Hydrogène"
+    ],
+    "explanation": "Les plantes utilisent du dioxyde de carbone et de l’eau pour produire des sucres pendant la photosynthèse."
+  },
+  "science-018": {
+    "question": "Quelle est la vitesse approximative de la lumière dans le vide ?",
+    "options": [
+      "30,000 km/s",
+      "150,000 km/s",
+      "300,000 km/s",
+      "3,000,000 km/s"
+    ],
+    "explanation": "La lumière se déplace à environ 300 000 kilomètres par seconde dans le vide."
+  },
+  "science-019": {
+    "question": "Quelles cellules sanguines transportent principalement l’oxygène ?",
+    "options": [
+      "Globules rouges",
+      "Plaquettes",
+      "Globules blancs",
+      "Cellules souches"
+    ],
+    "explanation": "L'hémoglobine des globules rouges se lie et transporte l'oxygène."
+  },
+  "science-020": {
+    "question": "Comment s’appelle le centre d’un atome ?",
+    "options": [
+      "Orbite",
+      "Noyau",
+      "Coquille",
+      "Lier"
+    ],
+    "explanation": "Le noyau d'un atome contient des protons et des neutrons."
+  },
+  "geography-021": {
+    "question": "Quelle est la capitale du Japon ?",
+    "options": [
+      "Ōsaka",
+      "Kyoto",
+      "Tokyo",
+      "Sapporo"
+    ],
+    "explanation": "Tokyo est la capitale du Japon."
+  },
+  "geography-022": {
+    "question": "Dans quel pays se trouve la ville du Caire ?",
+    "options": [
+      "Maroc",
+      "Egypte",
+      "Jordanie",
+      "Soudan"
+    ],
+    "explanation": "Le Caire est la capitale de l'Égypte."
+  },
+  "geography-023": {
+    "question": "Quel est le plus grand continent en superficie ?",
+    "options": [
+      "Afrique",
+      "Asie",
+      "Europe",
+      "Amérique du Nord"
+    ],
+    "explanation": "L'Asie est le plus grand continent en termes de superficie."
+  },
+  "geography-024": {
+    "question": "Sur quel continent se trouvent principalement les Andes ?",
+    "options": [
+      "Afrique",
+      "Asie",
+      "Amérique du Sud",
+      "Europe"
+    ],
+    "explanation": "Les Andes s'étendent le long de la côte ouest de l'Amérique du Sud."
+  },
+  "geography-025": {
+    "question": "Quel pays a la feuille d'érable sur son drapeau national ?",
+    "options": [
+      "Canada",
+      "Autriche",
+      "Danemark",
+      "Pérou"
+    ],
+    "explanation": "La feuille d'érable est l'emblème central du drapeau du Canada."
+  },
+  "geography-026": {
+    "question": "Quelle rivière traverse Paris ?",
+    "options": [
+      "Rhin",
+      "Seine",
+      "Danube",
+      "Tamise"
+    ],
+    "explanation": "La Seine traverse Paris."
+  },
+  "geography-027": {
+    "question": "Quel est le plus petit continent en termes de superficie ?",
+    "options": [
+      "Europe",
+      "Antarctique",
+      "Australie",
+      "Amérique du Sud"
+    ],
+    "explanation": "L'Australie est le plus petit continent en termes de superficie."
+  },
+  "geography-028": {
+    "question": "Dans quel pays se trouve le mont Kilimandjaro ?",
+    "options": [
+      "Kenya",
+      "Tanzanie",
+      "Ouganda",
+      "Ethiopie"
+    ],
+    "explanation": "Le Kilimandjaro se trouve au nord-est de la Tanzanie."
+  },
+  "geography-029": {
+    "question": "Quel océan se trouve à l’est de l’Afrique ?",
+    "options": [
+      "Pacifique",
+      "atlantique",
+      "indien",
+      "Arctique"
+    ],
+    "explanation": "L'océan Indien borde l'Afrique à l'est."
+  },
+  "geography-030": {
+    "question": "Quelle est la capitale de l'Italie ?",
+    "options": [
+      "Milan",
+      "Venise",
+      "Rome",
+      "Naples"
+    ],
+    "explanation": "Rome est la capitale de l'Italie."
+  },
+  "history-031": {
+    "question": "Dans quelle région les Jeux Olympiques antiques ont-ils commencé ?",
+    "options": [
+      "Grèce",
+      "Egypte",
+      "Perse",
+      "Rome"
+    ],
+    "explanation": "Les Jeux Olympiques antiques avaient lieu à Olympie en Grèce."
+  },
+  "history-032": {
+    "question": "Quel mur est tombé en 1989, devenant ainsi le symbole de la réunification allemande ?",
+    "options": [
+      "Le mur d'Hadrien",
+      "Mur de Berlin",
+      "Grande Muraille",
+      "Mur Occidental"
+    ],
+    "explanation": "Le mur de Berlin s'est inauguré en novembre 1989."
+  },
+  "history-033": {
+    "question": "L'imprimerie associée aux caractères mobiles métalliques en Europe est liée à qui ?",
+    "options": [
+      "Galilée",
+      "Johannes Gutenberg",
+      "Isaac Newton",
+      "Marco Polo"
+    ],
+    "explanation": "La presse de Gutenberg a contribué à diffuser l’imprimerie en Europe au XVe siècle."
+  },
+  "history-034": {
+    "question": "Quelle civilisation a construit les pyramides de Gizeh ?",
+    "options": [
+      "Romains",
+      "Égyptiens anciens",
+      "Aztèques",
+      "Minoens"
+    ],
+    "explanation": "Les pyramides de Gizeh ont été construites dans l'Egypte ancienne."
+  },
+  "history-035": {
+    "question": "En quelle année commence la Révolution française ?",
+    "options": [
+      "1492",
+      "1776",
+      "1789",
+      "1815"
+    ],
+    "explanation": "La Révolution française commence en 1789."
+  },
+  "history-036": {
+    "question": "Dans quel pays actuel a commencé la Renaissance ?",
+    "options": [
+      "Italie",
+      "Allemagne",
+      "Espagne",
+      "Angleterre"
+    ],
+    "explanation": "La Renaissance a commencé dans les cités-États italiennes avant de s’étendre à toute l’Europe."
+  },
+  "history-037": {
+    "question": "Qui a été la première personne à marcher sur la Lune ?",
+    "options": [
+      "Buzz Aldrin",
+      "Youri Gagarine",
+      "Neil Armstrong",
+      "John Glenn"
+    ],
+    "explanation": "Neil Armstrong a marché sur la Lune en 1969 lors de la mission Apollo 11."
+  },
+  "history-038": {
+    "question": "Quel empire a construit le vaste réseau routier centré sur Rome ?",
+    "options": [
+      "Empire mongol",
+      "Empire romain",
+      "Empire du Mali",
+      "Empire Inca"
+    ],
+    "explanation": "Les voies romaines reliaient les territoires de l’Empire romain."
+  },
+  "history-039": {
+    "question": "En quelle année la Magna Carta a-t-elle été scellée ?",
+    "options": [
+      "1066",
+      "1215",
+      "1492",
+      "1607"
+    ],
+    "explanation": "Le roi Jean a scellé la Magna Carta en 1215."
+  },
+  "history-040": {
+    "question": "Quel navire transportait les pèlerins vers l'Amérique du Nord en 1620 ?",
+    "options": [
+      "Sainte Marie",
+      "Fleur de mai",
+      "Effort",
+      "Beagle"
+    ],
+    "explanation": "Le Mayflower transporta les séparatistes anglais en 1620."
+  },
+  "math-041": {
+    "question": "Qu'est-ce que 8 × 7 ?",
+    "options": [
+      "54",
+      "56",
+      "58",
+      "64"
+    ],
+    "explanation": "Huit groupes de sept égalent 56."
+  },
+  "math-042": {
+    "question": "Combien vaut 144 ÷ 12 ?",
+    "options": [
+      "10",
+      "11",
+      "12",
+      "14"
+    ],
+    "explanation": "144 divisé par 12 fait 12."
+  },
+  "math-043": {
+    "question": "Résoudre : 3x + 5 = 20.",
+    "options": [
+      "3",
+      "5",
+      "7",
+      "15"
+    ],
+    "explanation": "Soustrayez 5 pour obtenir 3x = 15, puis divisez par 3 : x = 5."
+  },
+  "math-044": {
+    "question": "Combien font 25 % de 80 ?",
+    "options": [
+      "10",
+      "15",
+      "20",
+      "25"
+    ],
+    "explanation": "25 % équivaut à un quart ; 80 divisé par 4 fait 20."
+  },
+  "math-045": {
+    "question": "Qu'est-ce que 3/4 s'écrit sous forme décimale ?",
+    "options": [
+      "0.25",
+      "0.5",
+      "0.75",
+      "1.25"
+    ],
+    "explanation": "Trois divisé par quatre égale 0,75."
+  },
+  "math-046": {
+    "question": "Quel nombre vient ensuite : 2, 6, 12, 20, 30, … ?",
+    "options": [
+      "36",
+      "40",
+      "42",
+      "44"
+    ],
+    "explanation": "Les différences sont 4, 6, 8, 10, puis 12 ; le prochain terme est 42."
+  },
+  "math-047": {
+    "question": "Un dé équitable à six faces est lancé. Quelle est la probabilité d’obtenir un nombre pair ?",
+    "options": [
+      "1/6",
+      "1/3",
+      "1/2",
+      "2/3"
+    ],
+    "explanation": "Trois des six résultats (2, 4, 6) sont pairs, donc la probabilité est de 1/2."
+  },
+  "math-048": {
+    "question": "Un rectangle a un périmètre de 30 et une longueur de 9. Quelle est sa largeur ?",
+    "options": [
+      "5",
+      "6",
+      "7",
+      "12"
+    ],
+    "explanation": "2(9 + w) = 30, donc w = 6."
+  },
+  "math-049": {
+    "question": "Quel est le plus petit commun multiple de 6 et 8 ?",
+    "options": [
+      "12",
+      "18",
+      "24",
+      "48"
+    ],
+    "explanation": "24 est le plus petit nombre positif divisible par 6 et 8."
+  },
+  "math-050": {
+    "question": "Si 5 travailleurs terminent un travail en 12 jours au même rythme, combien de jours-travailleurs représentent le travail ?",
+    "options": [
+      "17",
+      "30",
+      "60",
+      "72"
+    ],
+    "explanation": "5 travailleurs × 12 jours = 60 jours-travailleurs."
+  },
+  "language-051": {
+    "question": "Quel mot est synonyme de « bref » ?",
+    "options": [
+      "Short",
+      "Distant",
+      "Heavy",
+      "Quiet"
+    ],
+    "explanation": "Bref signifie court en durée ou en longueur."
+  },
+  "language-052": {
+    "question": "Quel signe de ponctuation termine une question directe ?",
+    "options": [
+      "Comma",
+      "Colon",
+      "Question mark",
+      "Semicolon"
+    ],
+    "explanation": "Une question directe se termine par un point d'interrogation."
+  },
+  "language-053": {
+    "question": "Quel est le pluriel de « enfant » ?",
+    "options": [
+      "Childs",
+      "Children",
+      "Childes",
+      "Childrens"
+    ],
+    "explanation": "Enfants est la forme plurielle conventionnelle d’enfant."
+  },
+  "language-054": {
+    "question": "Quelle phrase utilise correctement « leur » ?",
+    "options": [
+      "Their going home.",
+      "The team left their bags here.",
+      "Put it over their.",
+      "Their is a book."
+    ],
+    "explanation": "Leur est un déterminant possessif ; cela montre que les sacs appartiennent à l'équipe."
+  },
+  "language-055": {
+    "question": "Quel mot est correctement orthographié ?",
+    "options": [
+      "Separate",
+      "Seperate",
+      "Seperete",
+      "Sepparate"
+    ],
+    "explanation": "Separate s’écrit avec « par » au milieu."
+  },
+  "language-056": {
+    "question": "Quel est le contraire de « ancien » ?",
+    "options": [
+      "Old",
+      "Historic",
+      "Modern",
+      "Early"
+    ],
+    "explanation": "Moderne est un antonyme d’ancien."
+  },
+  "language-057": {
+    "question": "Dans « Elle chantait magnifiquement », quel mot est l'adverbe ?",
+    "options": [
+      "She",
+      "sang",
+      "beautifully",
+      "none"
+    ],
+    "explanation": "Modifie magnifiquement le verbe chanté et est un adverbe."
+  },
+  "language-058": {
+    "question": "Quelle est une phrase complète ?",
+    "options": [
+      "Because it was raining.",
+      "The bright red umbrella.",
+      "They walked home.",
+      "After the long trip."
+    ],
+    "explanation": "« Ils sont rentrés chez eux à pied » a un sujet et un prédicat complet."
+  },
+  "language-059": {
+    "question": "Quel mot signifie « regarder vite » ?",
+    "options": [
+      "Glance",
+      "Stare",
+      "Watch",
+      "Observe"
+    ],
+    "explanation": "Un coup d’œil est un regard bref ou rapide."
+  },
+  "language-060": {
+    "question": "Quelle paire sont les homophones dans la prononciation anglaise courante ?",
+    "options": [
+      "Flower / flour",
+      "Book / boot",
+      "Cat / cut",
+      "Seat / set"
+    ],
+    "explanation": "Fleur et farine se prononcent de la même manière en anglais courant."
+  },
+  "technology-061": {
+    "question": "Que signifie CPU ?",
+    "options": [
+      "Unité centrale de traitement",
+      "Utilitaire d'alimentation informatique",
+      "Téléchargement du programme de base",
+      "Unité d'impression centrale"
+    ],
+    "explanation": "CPU signifie Unité centrale de traitement."
+  },
+  "technology-062": {
+    "question": "Quelle langue fonctionne nativement dans les navigateurs Web ?",
+    "options": [
+      "Java",
+      "C",
+      "JavaScript",
+      "Swift"
+    ],
+    "explanation": "Les navigateurs implémentent des moteurs JavaScript pour exécuter JavaScript."
+  },
+  "technology-063": {
+    "question": "Que signifie généralement le code d'état HTTP 404 ?",
+    "options": [
+      "Succès",
+      "Pas trouvé",
+      "Non autorisé",
+      "Serveur indisponible"
+    ],
+    "explanation": "HTTP 404 indique que la ressource demandée n'a pas été trouvée."
+  },
+  "technology-064": {
+    "question": "Quel appareil transfère les paquets entre différents réseaux ?",
+    "options": [
+      "Routeur",
+      "Clavier",
+      "Moniteur",
+      "Imprimante"
+    ],
+    "explanation": "Un routeur transmet les paquets entre les réseaux."
+  },
+  "technology-065": {
+    "question": "Dans Git, que représente un commit ?",
+    "options": [
+      "Un instantané enregistré des modifications du projet",
+      "Un câble réseau",
+      "Un langage de programmation",
+      "Un format de compression de fichiers"
+    ],
+    "explanation": "Un commit Git enregistre un instantané et ses métadonnées dans l'historique du référentiel."
+  },
+  "technology-066": {
+    "question": "Qu'est-ce qu'un langage de requête de base de données relationnelle ?",
+    "options": [
+      "SQL",
+      "HTML",
+      "CSS",
+      "PNG"
+    ],
+    "explanation": "SQL est utilisé pour interroger et gérer des bases de données relationnelles."
+  },
+  "technology-067": {
+    "question": "Que signifie URL ?",
+    "options": [
+      "Localisateur de ressources uniformes",
+      "Lien de routage universel",
+      "Liste d'enregistrement unifiée",
+      "Langage de référence utilisateur"
+    ],
+    "explanation": "URL signifie Uniform Resource Locator."
+  },
+  "technology-068": {
+    "question": "Quel système numérique utilise uniquement 0 et 1 ?",
+    "options": [
+      "Décimal",
+      "Binaire",
+      "Octal",
+      "romain"
+    ],
+    "explanation": "Le binaire est en base 2 et utilise les chiffres 0 et 1."
+  },
+  "technology-069": {
+    "question": "Quel est le rôle principal du DNS ?",
+    "options": [
+      "Traduire les noms de domaine en enregistrements réseau tels que les adresses IP",
+      "Chiffrez chaque fichier",
+      "Stocker les mots de passe dans un navigateur",
+      "Compiler le code source"
+    ],
+    "explanation": "DNS résout les noms de domaine en enregistrements utilisés pour localiser les services Internet."
+  },
+  "technology-070": {
+    "question": "Quelle extension de fichier est couramment utilisée pour une image PNG ?",
+    "options": [
+      ".png",
+      ".mp3",
+      ".csv",
+      ".exe"
+    ],
+    "explanation": "Les fichiers image PNG utilisent généralement l’extension .png."
+  },
+  "brain-071": {
+    "question": "Que vient ensuite la séquence 1, 4, 9, 16,… ?",
+    "options": [
+      "20",
+      "24",
+      "25",
+      "36"
+    ],
+    "explanation": "Ce sont des nombres carrés consécutifs : 1², 2², 3², 4² ; vient ensuite 5² = 25."
+  },
+  "brain-072": {
+    "question": "Une horloge indique 3h15. Quel est le plus petit angle entre ses mains ?",
+    "options": [
+      "0°",
+      "7.5°",
+      "15°",
+      "30°"
+    ],
+    "explanation": "A 3h15, l'aiguille des minutes est à 90° et celle des heures à 97,5°, soit un écart de 7,5°."
+  },
+  "brain-073": {
+    "question": "Si tous les Bloops sont des Razzies et que tous les Razzies sont des Lazzies, tous les Bloops sont-ils des Lazzies ?",
+    "options": [
+      "Oui",
+      "Non",
+      "Ne peut être déterminé",
+      "Seulement certains"
+    ],
+    "explanation": "Par transitivité, chaque Bloop appartient à l'ensemble des Razzies et donc des Lazzies."
+  },
+  "brain-074": {
+    "question": "Un motif se répète : cercle, carré, triangle, cercle, carré,… Que se passe-t-il ensuite ?",
+    "options": [
+      "Cercle",
+      "Carré",
+      "Triangle",
+      "Pentagone"
+    ],
+    "explanation": "La séquence de trois formes se répète, donc le triangle vient ensuite."
+  },
+  "brain-075": {
+    "question": "Vous dépassez le coureur en deuxième position. Dans quel endroit es-tu ?",
+    "options": [
+      "D'abord",
+      "Deuxième",
+      "Troisième",
+      "Quatrième"
+    ],
+    "explanation": "Dépasser le coureur deuxième vous place à la deuxième place."
+  },
+  "brain-076": {
+    "question": "Quel nombre n'appartient pas : 2, 3, 5, 9, 11 ?",
+    "options": [
+      "2",
+      "3",
+      "9",
+      "11"
+    ],
+    "explanation": "9 est composite ; les autres sont des nombres premiers."
+  },
+  "brain-077": {
+    "question": "Un agriculteur possède 17 moutons. Tous sauf 9 partent. Combien en reste-t-il ?",
+    "options": [
+      "8",
+      "9",
+      "17",
+      "26"
+    ],
+    "explanation": "« Tous sauf 9 » signifie qu'il reste 9 moutons."
+  },
+  "brain-078": {
+    "question": "Si hier c'était lundi, quel jour est après-demain ?",
+    "options": [
+      "Mardi",
+      "Mercredi",
+      "Jeudi",
+      "Vendredi"
+    ],
+    "explanation": "Hier lundi signifie aujourd'hui mardi ; demain mercredi et après-demain jeudi."
+  },
+  "brain-079": {
+    "question": "Deux pères et deux fils se partagent trois pommes à parts égales, une chacun. Comment est-ce possible ?",
+    "options": [
+      "Ils ont coupé chaque pomme",
+      "Il y a trois personnes : grand-père, père, fils",
+      "Une personne n'en obtient rien",
+      "Il y a quatre personnes"
+    ],
+    "explanation": "La personne intermédiaire est à la fois un fils et un père, le groupe est donc composé de trois personnes."
+  },
+  "brain-080": {
+    "question": "Quelle est la lettre suivante : A, C, F, J, O, … ?",
+    "options": [
+      "S",
+      "T",
+      "U",
+      "V"
+    ],
+    "explanation": "Les positions des lettres augmentent de 2, 3, 4, 5 ; ajoutez ensuite 6 à O (15) pour obtenir U (21)."
+  },
+  "nonsense-081": {
+    "question": "Qu'est-ce qui a beaucoup de dents mais ne peut pas mordre ?",
+    "options": [
+      "Un peigne",
+      "Un requin",
+      "Une fermeture éclair",
+      "Une scie"
+    ],
+    "explanation": "Un peigne a des dents, mais elles ne servent pas à mordre."
+  },
+  "nonsense-082": {
+    "question": "Qu’est-ce qui devient plus humide en séchant ?",
+    "options": [
+      "Une serviette",
+      "Un nuage",
+      "Une éponge",
+      "Une rivière"
+    ],
+    "explanation": "Une serviette absorbe l’eau tout en séchant autre chose."
+  },
+  "nonsense-083": {
+    "question": "Qu'est-ce qui a un cou mais pas de tête ?",
+    "options": [
+      "Une bouteille",
+      "Une personne",
+      "Une girafe",
+      "Une chemise"
+    ],
+    "explanation": "Une bouteille a un goulot mais pas de tête."
+  },
+  "nonsense-084": {
+    "question": "Qu'est-ce qui a des mains mais ne peut pas applaudir ?",
+    "options": [
+      "Une horloge",
+      "Un pianiste",
+      "Un gant",
+      "Une statue"
+    ],
+    "explanation": "Une horloge a des aiguilles des heures et des minutes."
+  },
+  "nonsense-085": {
+    "question": "Qu'est-ce qui peut faire le tour du monde en restant dans un coin ?",
+    "options": [
+      "Un timbre",
+      "Une boussole",
+      "Un nuage",
+      "Une valise"
+    ],
+    "explanation": "Un timbre-poste reste dans le coin d’une enveloppe pendant son voyage."
+  },
+  "nonsense-086": {
+    "question": "Qu'est-ce qui a un œil mais ne peut pas voir ?",
+    "options": [
+      "Une aiguille",
+      "Une caméra",
+      "Une tempête",
+      "Une pomme de terre"
+    ],
+    "explanation": "Le chas d’une aiguille est le trou pour le fil."
+  },
+  "nonsense-087": {
+    "question": "Qu'est-ce qui a des clés mais ne peut pas ouvrir une serrure ?",
+    "options": [
+      "Un piano",
+      "Un serrurier",
+      "Une carte",
+      "Une porte"
+    ],
+    "explanation": "Un piano a des touches musicales, pas des touches de verrouillage."
+  },
+  "nonsense-088": {
+    "question": "Qu'est-ce qui a un visage et deux mains mais pas de bras ni de jambes ?",
+    "options": [
+      "Une horloge",
+      "Une poupée",
+      "Une peinture",
+      "Un gant"
+    ],
+    "explanation": "Un cadran et des aiguilles d'horloge sont nommés par analogie avec une personne."
+  },
+  "nonsense-089": {
+    "question": "Qu'est-ce qui monte mais ne redescend jamais ?",
+    "options": [
+      "Votre âge",
+      "Un ballon",
+      "Fumée",
+      "Un ascenseur"
+    ],
+    "explanation": "Votre âge augmente avec le temps."
+  },
+  "nonsense-090": {
+    "question": "Qu'est-ce qui a quatre pattes mais ne peut pas marcher ?",
+    "options": [
+      "Un tableau",
+      "Un chien",
+      "Un cheval",
+      "Une araignée"
+    ],
+    "explanation": "Une table a des pieds mais ne peut pas bouger toute seule."
+  },
+  "general-x-1": {
+    "question": "Quelle étoile est la plus proche de la Terre après le Soleil ?",
+    "options": [
+      "Proxima du Centaure",
+      "Quatre",
+      "Hygromètre",
+      "calcite"
+    ],
+    "explanation": "Proxima Centauri est l'étoile la plus proche du Soleil après le Soleil lui-même."
+  },
+  "general-x-2": {
+    "question": "Combien de cordes possède un violon standard ?",
+    "options": [
+      "Quatre",
+      "Fer",
+      "Vitamine C",
+      "Pois chiches"
+    ],
+    "explanation": "Un violon standard possède quatre cordes."
+  },
+  "general-x-3": {
+    "question": "Quel instrument mesure l’humidité atmosphérique ?",
+    "options": [
+      "Hygromètre",
+      "Prune",
+      "Soja fermenté",
+      "Amande"
+    ],
+    "explanation": "Un hygromètre mesure l'humidité de l'air."
+  },
+  "general-x-4": {
+    "question": "Quel minéral est le composant principal du calcaire ?",
+    "options": [
+      "calcite",
+      "Un paquet",
+      "Caméléon",
+      "Perroquet"
+    ],
+    "explanation": "Le calcaire est composé principalement de calcite minérale."
+  },
+  "general-x-5": {
+    "question": "Combien de secondes compte une minute ?",
+    "options": [
+      "60",
+      "Piano",
+      "Michel-Ange",
+      "Cordes"
+    ],
+    "explanation": "Une minute contient 60 secondes."
+  },
+  "general-x-6": {
+    "question": "Quel est le premier élément du tableau périodique ?",
+    "options": [
+      "Hydrogène",
+      "Origami",
+      "Plâtre humide",
+      "Inscription"
+    ],
+    "explanation": "L'hydrogène a le numéro atomique 1 et est le premier élément du tableau périodique."
+  },
+  "general-x-7": {
+    "question": "Quel océan se situe entre l’Afrique de l’Est et l’Australie occidentale ?",
+    "options": [
+      "Océan Indien",
+      "Six",
+      "Rugby",
+      "Dix-huit"
+    ],
+    "explanation": "L'océan Indien se situe entre l'Afrique, l'Asie et l'Australie."
+  },
+  "general-x-8": {
+    "question": "À pression standard, à quelle température Celsius l’eau pure bout-elle ?",
+    "options": [
+      "100 °C",
+      "Le coût de l'emprunt",
+      "Conserver les revenus pour une utilisation future",
+      "Un système où acheteurs et vendeurs échangent"
+    ],
+    "explanation": "L'eau bout à 100 °C à une atmosphère de pression."
+  },
+  "general-x-9": {
+    "question": "Combien de faces a un tétraèdre ?",
+    "options": [
+      "Quatre",
+      "Une adresse",
+      "Boussole",
+      "366"
+    ],
+    "explanation": "Un tétraèdre possède quatre faces triangulaires."
+  },
+  "general-x-10": {
+    "question": "Quel métal a le symbole chimique Fe ?",
+    "options": [
+      "Fer",
+      "Traverser une route en toute sécurité",
+      "112",
+      "Fumée"
+    ],
+    "explanation": "Fe est le symbole chimique du fer."
+  },
+  "general-x-11": {
+    "question": "Quelle vitamine est abondante dans les agrumes ?",
+    "options": [
+      "Vitamine C",
+      "Chuseok",
+      "Ondol",
+      "Buchaechum"
+    ],
+    "explanation": "Les agrumes sont des sources bien connues de vitamine C."
+  },
+  "general-x-12": {
+    "question": "Quel est l’ingrédient principal du houmous traditionnel ?",
+    "options": [
+      "Pois chiches",
+      "Deuxième",
+      "90",
+      "Omnivore"
+    ],
+    "explanation": "Le houmous traditionnel est fabriqué principalement à partir de pois chiches."
+  },
+  "general-x-13": {
+    "question": "Quelle céréale est utilisée pour faire le risotto ?",
+    "options": [
+      "Riz arborio",
+      "Quatre",
+      "Hygromètre",
+      "calcite"
+    ],
+    "explanation": "Le risotto utilise généralement des variétés à grains courts telles que l'Arborio."
+  },
+  "general-x-14": {
+    "question": "De quoi est fabriqué principalement le tofu ?",
+    "options": [
+      "Soja",
+      "Fer",
+      "Vitamine C",
+      "Pois chiches"
+    ],
+    "explanation": "Le tofu est obtenu en faisant coaguler du lait de soja."
+  },
+  "general-x-15": {
+    "question": "Quelle épice donne une couleur jaune à de nombreux currys ?",
+    "options": [
+      "Curcuma",
+      "Soja fermenté",
+      "Amande",
+      "Crème"
+    ],
+    "explanation": "La curcumine présente dans le curcuma lui donne une couleur jaune vif."
+  },
+  "general-x-16": {
+    "question": "Quel est l’ingrédient principal du guacamole ?",
+    "options": [
+      "Avocat",
+      "Caméléon",
+      "Perroquet",
+      "Requin baleine"
+    ],
+    "explanation": "Le guacamole est à base de purée d'avocat."
+  },
+  "general-x-17": {
+    "question": "Quel fruit est séché pour faire un pruneau ?",
+    "options": [
+      "Prune",
+      "Michel-Ange",
+      "Cordes",
+      "Danse"
+    ],
+    "explanation": "Un pruneau est une prune séchée."
+  },
+  "general-x-18": {
+    "question": "Quel est l’ingrédient principal du miso ?",
+    "options": [
+      "Soja fermenté",
+      "Plâtre humide",
+      "Inscription",
+      "Cinq"
+    ],
+    "explanation": "Le miso est une pâte fermentée généralement à base de soja."
+  },
+  "general-x-19": {
+    "question": "Quelle noix est utilisée pour faire du massepain ?",
+    "options": [
+      "Amande",
+      "Rugby",
+      "Dix-huit",
+      "Échecs"
+    ],
+    "explanation": "Le massepain est principalement fabriqué à partir d'amandes moulues et de sucre."
+  },
+  "general-x-20": {
+    "question": "Quel produit laitier est baratté pour faire du beurre ?",
+    "options": [
+      "Crème",
+      "Conserver les revenus pour une utilisation future",
+      "Un système où acheteurs et vendeurs échangent",
+      "Une hausse générale des prix"
+    ],
+    "explanation": "La crème de barattage sépare la matière grasse du babeurre."
+  },
+  "general-x-21": {
+    "question": "Quel est le plus gros animal terrestre vivant ?",
+    "options": [
+      "Éléphant d'Afrique",
+      "Boussole",
+      "366",
+      "Sept"
+    ],
+    "explanation": "L'éléphant d'Afrique est le plus grand animal terrestre vivant."
+  },
+  "general-x-22": {
+    "question": "Quel est l'animal terrestre le plus rapide sur de courtes distances ?",
+    "options": [
+      "Guépard",
+      "112",
+      "Fumée",
+      "Séoul"
+    ],
+    "explanation": "Les guépards peuvent atteindre les vitesses de sprint les plus élevées des animaux terrestres."
+  },
+  "general-x-23": {
+    "question": "Quel mammifère pond des œufs et a un bec semblable à celui d'un canard ?",
+    "options": [
+      "Ornithorynque",
+      "Ondol",
+      "Buchaechum",
+      "Hanok"
+    ],
+    "explanation": "L'ornithorynque est un mammifère pondeur doté d'un bec."
+  },
+  "general-x-24": {
+    "question": "Comment appelle-t-on communément un groupe de loups ?",
+    "options": [
+      "Un paquet",
+      "90",
+      "Omnivore",
+      "Précipitation"
+    ],
+    "explanation": "Un groupe de loups est communément appelé une meute."
+  },
+  "general-x-25": {
+    "question": "Quel animal est connu pour changer de couleur à l’aide de cellules cutanées spécialisées ?",
+    "options": [
+      "Caméléon",
+      "Hygromètre",
+      "calcite",
+      "60"
+    ],
+    "explanation": "Les caméléons peuvent changer de couleur grâce à des cellules cutanées spécialisées."
+  },
+  "general-x-26": {
+    "question": "Quel oiseau est célèbre pour imiter la parole humaine ?",
+    "options": [
+      "Perroquet",
+      "Vitamine C",
+      "Pois chiches",
+      "Riz arborio"
+    ],
+    "explanation": "De nombreuses espèces de perroquets peuvent imiter des sons, notamment la parole humaine."
+  },
+  "general-x-27": {
+    "question": "Quelle est la plus grande espèce de requin ?",
+    "options": [
+      "Requin baleine",
+      "Soja fermenté",
+      "Amande",
+      "Crème"
+    ],
+    "explanation": "Le requin baleine est la plus grande espèce de poisson vivant."
+  },
+  "general-x-28": {
+    "question": "Quel insecte produit du miel ?",
+    "options": [
+      "Abeille",
+      "Caméléon",
+      "Perroquet",
+      "Requin baleine"
+    ],
+    "explanation": "Les abeilles produisent du miel à partir du nectar récolté."
+  },
+  "general-x-29": {
+    "question": "Comment s’appelle une jeune grenouille ?",
+    "options": [
+      "Têtard",
+      "Cordes",
+      "Danse",
+      "Verre coloré"
+    ],
+    "explanation": "Le stade larvaire aquatique d’une grenouille est appelé têtard."
+  },
+  "general-x-30": {
+    "question": "Quel mammifère utilise l'écholocation pour naviguer ?",
+    "options": [
+      "Batte",
+      "Inscription",
+      "Cinq",
+      "Amour"
+    ],
+    "explanation": "De nombreuses chauves-souris utilisent l'écholocation pour localiser leurs proies et se déplacer."
+  },
+  "general-x-31": {
+    "question": "Quel instrument possède 88 touches dans sa forme moderne standard ?",
+    "options": [
+      "Piano",
+      "Dix-huit",
+      "Échecs",
+      "Yen"
+    ],
+    "explanation": "Un piano moderne standard possède 88 touches."
+  },
+  "general-x-32": {
+    "question": "Quel artiste a peint le plafond de la Chapelle Sixtine ?",
+    "options": [
+      "Michel-Ange",
+      "Un système où acheteurs et vendeurs échangent",
+      "Une hausse générale des prix",
+      "Un paiement obligatoire au gouvernement"
+    ],
+    "explanation": "Michel-Ange a peint le plafond de la chapelle Sixtine."
+  },
+  "general-x-33": {
+    "question": "Quelle famille d’instruments comprend le violon ?",
+    "options": [
+      "Cordes",
+      "366",
+      "Sept",
+      "Petit-déjeuner"
+    ],
+    "explanation": "Le violon est un instrument à cordes frottées."
+  },
+  "general-x-34": {
+    "question": "Quelle forme d’art utilise le mouvement et la chorégraphie en musique ?",
+    "options": [
+      "Danse",
+      "Fumée",
+      "Séoul",
+      "Gagné"
+    ],
+    "explanation": "La danse exprime des idées et des formes à travers le mouvement."
+  },
+  "general-x-35": {
+    "question": "Quel matériau est traditionnellement utilisé pour fabriquer des vitraux ?",
+    "options": [
+      "Verre coloré",
+      "Buchaechum",
+      "Hanok",
+      "Gayageum"
+    ],
+    "explanation": "Les œuvres d'art en vitrail sont assemblées à partir de pièces de verre colorées."
+  },
+  "general-x-36": {
+    "question": "Quel compositeur a écrit les Quatre Saisons ?",
+    "options": [
+      "Antonio Vivaldi",
+      "Omnivore",
+      "Précipitation",
+      "Règle"
+    ],
+    "explanation": "Vivaldi a composé l'ensemble de concertos pour violon connu sous le nom de Les Quatre Saisons."
+  },
+  "general-x-37": {
+    "question": "Quel instrument se joue avec un archet et est plus gros qu’un violon ?",
+    "options": [
+      "Violoncelle",
+      "calcite",
+      "60",
+      "Hydrogène"
+    ],
+    "explanation": "Le violoncelle est un instrument à cordes frottées plus gros que le violon."
+  },
+  "general-x-38": {
+    "question": "Comment s’appelle l’art japonais du pliage du papier ?",
+    "options": [
+      "Origami",
+      "Pois chiches",
+      "Riz arborio",
+      "Soja"
+    ],
+    "explanation": "L'origami est l'art de plier du papier pour obtenir des formes."
+  },
+  "general-x-39": {
+    "question": "Quel support est utilisé pour créer une fresque ?",
+    "options": [
+      "Plâtre humide",
+      "Amande",
+      "Crème",
+      "Éléphant d'Afrique"
+    ],
+    "explanation": "Une fresque est peinte sur du plâtre humide fraîchement posé."
+  },
+  "general-x-40": {
+    "question": "Quel artefact de musée utilise l'écriture sur la pierre, le métal ou le bois ?",
+    "options": [
+      "Inscription",
+      "Perroquet",
+      "Requin baleine",
+      "Abeille"
+    ],
+    "explanation": "Une inscription est un texte gravé ou écrit sur une surface durable."
+  },
+  "general-x-41": {
+    "question": "Combien de joueurs d’une équipe de basket sont sur le terrain à la fois ?",
+    "options": [
+      "Cinq",
+      "Cordes",
+      "Danse",
+      "Verre coloré"
+    ],
+    "explanation": "Chaque équipe de basket-ball dispose de cinq joueurs sur le terrain."
+  },
+  "general-x-42": {
+    "question": "Au tennis, comment s’appelle un score de zéro ?",
+    "options": [
+      "Amour",
+      "Inscription",
+      "Cinq",
+      "Badminton"
+    ],
+    "explanation": "Le tennis utilise le terme amour pour un score de zéro."
+  },
+  "general-x-43": {
+    "question": "Combien d’anneaux figurent sur le drapeau olympique ?",
+    "options": [
+      "Cinq",
+      "Échecs",
+      "Yen",
+      "Revenus et dépenses prévus"
+    ],
+    "explanation": "Le symbole olympique comporte cinq anneaux entrelacés."
+  },
+  "general-x-44": {
+    "question": "Quel sport utilise un volant ?",
+    "options": [
+      "Badminton",
+      "Une hausse générale des prix",
+      "Un paiement obligatoire au gouvernement",
+      "Revenus moins coûts"
+    ],
+    "explanation": "Le badminton se joue avec un volant."
+  },
+  "general-x-45": {
+    "question": "Combien y a-t-il de buts sur un terrain de baseball ?",
+    "options": [
+      "Quatre",
+      "Sept",
+      "Petit-déjeuner",
+      "Liste des ingrédients"
+    ],
+    "explanation": "Un terrain de baseball a quatre buts, y compris le marbre."
+  },
+  "general-x-46": {
+    "question": "Quel sport est pratiqué à Wimbledon ?",
+    "options": [
+      "Tennis",
+      "Séoul",
+      "Gagné",
+      "Hangûl"
+    ],
+    "explanation": "Wimbledon est un tournoi majeur de tennis."
+  },
+  "general-x-47": {
+    "question": "Combien de points vaut un touchdown avant toute conversion ?",
+    "options": [
+      "Six",
+      "Hanok",
+      "Gayageum",
+      "Ssireum"
+    ],
+    "explanation": "Un touchdown vaut six points dans le football américain."
+  },
+  "general-x-48": {
+    "question": "Quel sport utilise une mêlée ?",
+    "options": [
+      "Rugby",
+      "Précipitation",
+      "Règle",
+      "Un incendie"
+    ],
+    "explanation": "Une mêlée est une méthode de reprise du jeu au rugby."
+  },
+  "general-x-49": {
+    "question": "Combien de trous y a-t-il dans une partie de golf standard ?",
+    "options": [
+      "Dix-huit",
+      "60",
+      "Hydrogène",
+      "Océan Indien"
+    ],
+    "explanation": "Une partie de golf standard se joue sur 18 trous."
+  },
+  "general-x-50": {
+    "question": "Quel sport utilise les termes échec et échec et mat ?",
+    "options": [
+      "Échecs",
+      "Riz arborio",
+      "Soja",
+      "Curcuma"
+    ],
+    "explanation": "Check et Checkmate sont des termes aux échecs."
+  },
+  "general-x-51": {
+    "question": "Quelle est l’unité monétaire utilisée au Japon ?",
+    "options": [
+      "Yen",
+      "Crème",
+      "Éléphant d'Afrique",
+      "Guépard"
+    ],
+    "explanation": "Le yen est la monnaie du Japon."
+  },
+  "general-x-52": {
+    "question": "À quoi se compare un budget ?",
+    "options": [
+      "Revenus et dépenses prévus",
+      "Requin baleine",
+      "Abeille",
+      "Têtard"
+    ],
+    "explanation": "Un budget organise les revenus et dépenses attendus."
+  },
+  "general-x-53": {
+    "question": "Qu’est-ce que le troc ?",
+    "options": [
+      "Échange de marchandises sans argent",
+      "Danse",
+      "Verre coloré",
+      "Antonio Vivaldi"
+    ],
+    "explanation": "Le troc est un échange direct sans utiliser d’argent comme moyen de paiement."
+  },
+  "general-x-54": {
+    "question": "Qu'est-ce que les intérêts d'un prêt ?",
+    "options": [
+      "Le coût de l'emprunt",
+      "Cinq",
+      "Amour",
+      "Badminton"
+    ],
+    "explanation": "L’intérêt est le prix payé pour emprunter de l’argent."
+  },
+  "general-x-55": {
+    "question": "Que signifie épargner ?",
+    "options": [
+      "Conserver les revenus pour une utilisation future",
+      "Échecs",
+      "Yen",
+      "Revenus et dépenses prévus"
+    ],
+    "explanation": "Économiser signifie réserver des ressources plutôt que de les dépenser maintenant."
+  },
+  "general-x-56": {
+    "question": "Qu’est-ce qu’un marché en économie ?",
+    "options": [
+      "Un système où acheteurs et vendeurs échangent",
+      "Un paiement obligatoire au gouvernement",
+      "Revenus moins coûts",
+      "Combien les vendeurs proposent à la vente"
+    ],
+    "explanation": "Un marché met en relation acheteurs et vendeurs pour les échanges."
+  },
+  "general-x-57": {
+    "question": "Qu’est-ce que l’inflation ?",
+    "options": [
+      "Une hausse générale des prix",
+      "Petit-déjeuner",
+      "Liste des ingrédients",
+      "Le traite pour le réutiliser"
+    ],
+    "explanation": "L'inflation est une augmentation soutenue du niveau global des prix."
+  },
+  "general-x-58": {
+    "question": "Qu'est-ce qu'une taxe ?",
+    "options": [
+      "Un paiement obligatoire au gouvernement",
+      "Gagné",
+      "Hangûl",
+      "Kimchi"
+    ],
+    "explanation": "Les impôts financent les services publics et sont imposés par les gouvernements."
+  },
+  "general-x-59": {
+    "question": "Qu'est-ce que le profit ?",
+    "options": [
+      "Revenus moins coûts",
+      "Gayageum",
+      "Ssireum",
+      "Mètre"
+    ],
+    "explanation": "Le profit est ce qui reste lorsque les coûts sont soustraits des revenus."
+  },
+  "general-x-60": {
+    "question": "Que décrit l’offre ?",
+    "options": [
+      "Combien les vendeurs proposent à la vente",
+      "Règle",
+      "Un incendie",
+      "Sud"
+    ],
+    "explanation": "L’offre est la quantité que les producteurs sont prêts à vendre à des prix différents."
+  },
+  "general-x-61": {
+    "question": "Quel est le nom d’un ensemble écrit d’itinéraires vers un lieu ?",
+    "options": [
+      "Une adresse",
+      "Hydrogène",
+      "Océan Indien",
+      "100 °C"
+    ],
+    "explanation": "Une adresse identifie un emplacement de livraison ou de navigation."
+  },
+  "general-x-62": {
+    "question": "Quel appareil est couramment utilisé pour trouver une direction avec une aiguille magnétique ?",
+    "options": [
+      "Boussole",
+      "Soja",
+      "Curcuma",
+      "Avocat"
+    ],
+    "explanation": "L'aiguille d'une boussole s'aligne approximativement avec le champ magnétique terrestre."
+  },
+  "general-x-63": {
+    "question": "Combien de jours y a-t-il dans une année bissextile ?",
+    "options": [
+      "366",
+      "Éléphant d'Afrique",
+      "Guépard",
+      "Ornithorynque"
+    ],
+    "explanation": "Une année bissextile comporte un jour supplémentaire en février, soit 366 au total."
+  },
+  "general-x-64": {
+    "question": "Combien de mois ont 31 jours ?",
+    "options": [
+      "Sept",
+      "Abeille",
+      "Têtard",
+      "Batte"
+    ],
+    "explanation": "Sept mois ont 31 jours."
+  },
+  "general-x-65": {
+    "question": "Comment s’appelle communément le premier repas de la journée ?",
+    "options": [
+      "Petit-déjeuner",
+      "Verre coloré",
+      "Antonio Vivaldi",
+      "Violoncelle"
+    ],
+    "explanation": "Le petit-déjeuner est généralement le premier repas après le réveil."
+  },
+  "general-x-66": {
+    "question": "Quel document répertorie les ingrédients des aliments emballés ?",
+    "options": [
+      "Liste des ingrédients",
+      "Amour",
+      "Badminton",
+      "Tennis"
+    ],
+    "explanation": "Les étiquettes des aliments répertorient les ingrédients, généralement par ordre décroissant de poids."
+  },
+  "general-x-67": {
+    "question": "Quel effet le recyclage a-t-il sur les matériaux utilisables ?",
+    "options": [
+      "Le traite pour le réutiliser",
+      "Yen",
+      "Revenus et dépenses prévus",
+      "Échange de marchandises sans argent"
+    ],
+    "explanation": "Le recyclage traite les déchets afin qu’ils puissent être réutilisés."
+  },
+  "general-x-68": {
+    "question": "Qu’est-ce qu’un passage pour piétons aide les gens à faire ?",
+    "options": [
+      "Traverser une route en toute sécurité",
+      "Un paiement obligatoire au gouvernement",
+      "Revenus moins coûts",
+      "Combien les vendeurs proposent à la vente"
+    ],
+    "explanation": "Les passages à niveau balisés désignent les endroits où les piétons peuvent traverser."
+  },
+  "general-x-69": {
+    "question": "Quel numéro d’urgence est utilisé dans toute l’Union européenne ?",
+    "options": [
+      "112",
+      "Petit-déjeuner",
+      "Liste des ingrédients",
+      "Le traite pour le réutiliser"
+    ],
+    "explanation": "Le 112 est le numéro d’urgence commun dans toute l’UE."
+  },
+  "general-x-70": {
+    "question": "Que détecte un détecteur de fumée ?",
+    "options": [
+      "Fumée",
+      "Hangûl",
+      "Kimchi",
+      "Chuseok"
+    ],
+    "explanation": "Les détecteurs de fumée avertissent les occupants lorsque de la fumée est détectée."
+  },
+  "general-x-71": {
+    "question": "Quelle est la capitale de la Corée du Sud ?",
+    "options": [
+      "Séoul",
+      "Ssireum",
+      "Mètre",
+      "Deuxième"
+    ],
+    "explanation": "Séoul est la capitale de la Corée du Sud."
+  },
+  "general-x-72": {
+    "question": "Quelle est la monnaie nationale de la Corée du Sud ?",
+    "options": [
+      "Gagné",
+      "Un incendie",
+      "Sud",
+      "Croûte"
+    ],
+    "explanation": "Le won est la monnaie de la Corée du Sud."
+  },
+  "general-x-73": {
+    "question": "Quel alphabet coréen a été promulgué par le roi Sejong ?",
+    "options": [
+      "Hangûl",
+      "Océan Indien",
+      "100 °C",
+      "Fer"
+    ],
+    "explanation": "Le roi Sejong promulgua le Hunminjeongeum, aujourd'hui appelé Hangul, en 1446."
+  },
+  "general-x-74": {
+    "question": "Comment s’appelle le plat traditionnel coréen de chou fermenté ?",
+    "options": [
+      "Kimchi",
+      "Curcuma",
+      "Avocat",
+      "Prune"
+    ],
+    "explanation": "Le kimchi est un plat traditionnel de légumes fermentés, souvent à base de chou."
+  },
+  "general-x-75": {
+    "question": "Quelle fête coréenne est associée à une fête des récoltes ?",
+    "options": [
+      "Chuseok",
+      "Guépard",
+      "Ornithorynque",
+      "Un paquet"
+    ],
+    "explanation": "Chuseok est une grande fête des récoltes d'automne en Corée."
+  },
+  "general-x-76": {
+    "question": "Comment s’appelle le système traditionnel coréen de chauffage par le sol ?",
+    "options": [
+      "Ondol",
+      "Têtard",
+      "Batte",
+      "Piano"
+    ],
+    "explanation": "Ondol est un système de chauffage par le sol coréen traditionnel."
+  },
+  "general-x-77": {
+    "question": "Quelle forme d'art coréen utilise des éventails pliants dans un spectacle de danse ?",
+    "options": [
+      "Buchaechum",
+      "Antonio Vivaldi",
+      "Violoncelle",
+      "Origami"
+    ],
+    "explanation": "Buchaechum est une danse des éventails coréenne."
+  },
+  "general-x-78": {
+    "question": "Quel est le mot coréen pour une maison traditionnelle ?",
+    "options": [
+      "Hanok",
+      "Badminton",
+      "Tennis",
+      "Six"
+    ],
+    "explanation": "Hanok fait référence à l'architecture et aux maisons traditionnelles coréennes."
+  },
+  "general-x-79": {
+    "question": "Quel instrument coréen a un long manche et généralement 12 cordes ?",
+    "options": [
+      "Gayageum",
+      "Revenus et dépenses prévus",
+      "Échange de marchandises sans argent",
+      "Le coût de l'emprunt"
+    ],
+    "explanation": "Le gayageum est une cithare coréenne traditionnelle, généralement à 12 cordes."
+  },
+  "general-x-80": {
+    "question": "Comment s’appelle le sport de lutte traditionnel coréen ?",
+    "options": [
+      "Ssireum",
+      "Revenus moins coûts",
+      "Combien les vendeurs proposent à la vente",
+      "Une adresse"
+    ],
+    "explanation": "Le Ssireum est une forme traditionnelle de lutte coréenne."
+  },
+  "general-x-81": {
+    "question": "Quelle est l’unité SI de longueur ?",
+    "options": [
+      "Mètre",
+      "Liste des ingrédients",
+      "Le traite pour le réutiliser",
+      "Traverser une route en toute sécurité"
+    ],
+    "explanation": "Le mètre est l’unité de base SI de longueur."
+  },
+  "general-x-82": {
+    "question": "Quelle est l’unité SI de temps ?",
+    "options": [
+      "Deuxième",
+      "Hangûl",
+      "Kimchi",
+      "Chuseok"
+    ],
+    "explanation": "La seconde est l’unité de temps de base SI."
+  },
+  "general-x-83": {
+    "question": "Combien de degrés y a-t-il dans un angle droit ?",
+    "options": [
+      "90",
+      "Ssireum",
+      "Mètre",
+      "Deuxième"
+    ],
+    "explanation": "Un angle droit mesure 90 degrés."
+  },
+  "general-x-84": {
+    "question": "Quel est le nom d'un animal qui mange à la fois des plantes et des animaux ?",
+    "options": [
+      "Omnivore",
+      "Proxima du Centaure",
+      "Quatre",
+      "Hygromètre"
+    ],
+    "explanation": "Les omnivores mangent à la fois des matières végétales et animales."
+  },
+  "general-x-85": {
+    "question": "Quel est le terme désignant l’eau tombant des nuages ​​sous forme de pluie, de neige ou de grêle ?",
+    "options": [
+      "Précipitation",
+      "100 °C",
+      "Fer",
+      "Vitamine C"
+    ],
+    "explanation": "Les précipitations comprennent la pluie, la neige, le grésil et la grêle."
+  },
+  "general-x-86": {
+    "question": "Quel outil ménager est conçu pour mesurer la longueur ?",
+    "options": [
+      "Règle",
+      "Avocat",
+      "Prune",
+      "Soja fermenté"
+    ],
+    "explanation": "Une règle est marquée d'unités pour mesurer la longueur."
+  },
+  "general-x-87": {
+    "question": "Qu'est-ce qu'un extincteur aide à contrôler ?",
+    "options": [
+      "Un incendie",
+      "Ornithorynque",
+      "Un paquet",
+      "Caméléon"
+    ],
+    "explanation": "Un extincteur est utilisé pour éteindre les petits incendies."
+  },
+  "general-x-88": {
+    "question": "Combien de couleurs sont traditionnellement nommées dans un arc-en-ciel ?",
+    "options": [
+      "Sept",
+      "Batte",
+      "Piano",
+      "Michel-Ange"
+    ],
+    "explanation": "La liste conventionnelle nomme sept couleurs de l'arc-en-ciel."
+  },
+  "general-x-89": {
+    "question": "Quelle direction est opposée au nord sur une boussole ?",
+    "options": [
+      "Sud",
+      "Violoncelle",
+      "Origami",
+      "Plâtre humide"
+    ],
+    "explanation": "Le sud est opposé au nord sur une boussole."
+  },
+  "general-x-90": {
+    "question": "Comment s’appelle la couche externe solide d’une miche de pain ?",
+    "options": [
+      "Croûte",
+      "Tennis",
+      "Six",
+      "Rugby"
+    ],
+    "explanation": "La croûte est la couche extérieure dorée du pain."
+  },
+  "nonsense-x-1": {
+    "question": "Qu’est-ce qui a des villes mais pas de maisons, des rivières mais pas d’eau, et des routes mais pas de voitures ?",
+    "options": [
+      "Une carte",
+      "Un œuf",
+      "Un téléphone",
+      "Un livre"
+    ],
+    "explanation": "Une carte représente ces entités sans les contenir physiquement."
+  },
+  "nonsense-x-2": {
+    "question": "Que faut-il casser avant de pouvoir l'utiliser ?",
+    "options": [
+      "Un œuf",
+      "Lumière",
+      "Une rivière",
+      "Un gant"
+    ],
+    "explanation": "Un œuf doit être cassé avant que son contenu puisse être utilisé."
+  },
+  "nonsense-x-3": {
+    "question": "Qu'est-ce qui a une bague mais pas de doigt ?",
+    "options": [
+      "Un téléphone",
+      "Une banque",
+      "Une pièce de monnaie",
+      "Un rhume"
+    ],
+    "explanation": "Un téléphone peut sonner sans avoir les doigts."
+  },
+  "nonsense-x-4": {
+    "question": "Qu'est-ce qui a des mots mais ne parle jamais ?",
+    "options": [
+      "Un livre",
+      "Votre nom",
+      "Un calendrier",
+      "Un arbre"
+    ],
+    "explanation": "Un livre contient des mots écrits mais ne parle pas tout seul."
+  },
+  "nonsense-x-5": {
+    "question": "Qu'est-ce qui peut remplir une pièce mais ne prend pas de place ?",
+    "options": [
+      "Lumière",
+      "La semelle",
+      "Un champignon",
+      "Ton souffle"
+    ],
+    "explanation": "La lumière peut éclairer une pièce sans l’occuper comme un objet solide."
+  },
+  "nonsense-x-6": {
+    "question": "Qu'est-ce qui court mais ne marche jamais, qui a un lit mais ne dort jamais ?",
+    "options": [
+      "Une rivière",
+      "Une enveloppe",
+      "Une chaussure",
+      "Une bouteille"
+    ],
+    "explanation": "Une rivière coule dans un canal appelé son lit."
+  },
+  "nonsense-x-7": {
+    "question": "Qu'est-ce qui a un pouce et quatre doigts mais qui n'est pas vivant ?",
+    "options": [
+      "Un gant",
+      "Une blague",
+      "Un artichaut",
+      "Un lit"
+    ],
+    "explanation": "Un gant comporte des espaces en forme de doigts et d'un pouce."
+  },
+  "nonsense-x-8": {
+    "question": "Qu'est-ce qui a des branches mais pas de fruits, de tronc ou de feuilles ?",
+    "options": [
+      "Une banque",
+      "Une grotte",
+      "Une plume",
+      "Une batterie"
+    ],
+    "explanation": "Une banque peut avoir des succursales comme emplacements."
+  },
+  "nonsense-x-9": {
+    "question": "Qu'est-ce qui a une tête et une queue mais pas de corps ?",
+    "options": [
+      "Une pièce de monnaie",
+      "La lettre M",
+      "Une théière",
+      "Un bateau"
+    ],
+    "explanation": "Une pièce de monnaie a deux faces communément appelées pile et face."
+  },
+  "nonsense-x-10": {
+    "question": "Que peut-on attraper mais pas lancer ?",
+    "options": [
+      "Un rhume",
+      "Une brosse à dents",
+      "Une boucle",
+      "Un réveil"
+    ],
+    "explanation": "Vous pouvez attraper un rhume, mais vous ne pouvez pas en jeter un."
+  },
+  "nonsense-x-11": {
+    "question": "Qu'est-ce qui vous appartient mais que d'autres personnes l'utilisent plus que vous ?",
+    "options": [
+      "Votre nom",
+      "Un pot",
+      "Une bouilloire",
+      "Ciseaux"
+    ],
+    "explanation": "D’autres personnes prononcent souvent votre nom lorsqu’elles s’adressent à vous."
+  },
+  "nonsense-x-12": {
+    "question": "Qu'est-ce qui a de nombreuses pages mais qui n'est pas un livre et qui vous aide à planifier des rendez-vous ?",
+    "options": [
+      "Un calendrier",
+      "Une page Internet",
+      "Un escargot",
+      "Un crayon"
+    ],
+    "explanation": "Un calendrier affiche les jours et les dates sur des pages ou des panneaux."
+  },
+  "nonsense-x-13": {
+    "question": "Qu'est-ce qui aboie mais ne mord pas ?",
+    "options": [
+      "Un arbre",
+      "Un couteau",
+      "Une caméra",
+      "Un train"
+    ],
+    "explanation": "L'écorce est la couche externe protectrice d'un arbre."
+  },
+  "nonsense-x-14": {
+    "question": "Comment s’appelle la partie inférieure d’une chaussure ?",
+    "options": [
+      "La semelle",
+      "Un ordinateur",
+      "Une horloge murale",
+      "Un balai"
+    ],
+    "explanation": "La semelle est la surface inférieure d'une chaussure."
+  },
+  "nonsense-x-15": {
+    "question": "Quel genre de pièce n’a ni portes ni fenêtres ?",
+    "options": [
+      "Un champignon",
+      "Un téléphone",
+      "Un livre",
+      "Lumière"
+    ],
+    "explanation": "Le mot champignon contient le mot pièce, mais ce n’est pas une pièce."
+  },
+  "nonsense-x-16": {
+    "question": "Que peut-on tenir sans le toucher ?",
+    "options": [
+      "Ton souffle",
+      "Une rivière",
+      "Un gant",
+      "Une banque"
+    ],
+    "explanation": "Vous pouvez retenir votre souffle sans tenir un objet physique."
+  },
+  "nonsense-x-17": {
+    "question": "Qu'est-ce qui commence et se termine par E et contient une lettre ?",
+    "options": [
+      "Une enveloppe",
+      "Une pièce de monnaie",
+      "Un rhume",
+      "Votre nom"
+    ],
+    "explanation": "Une enveloppe commence et se termine par la lettre E et peut contenir une lettre à l'intérieur."
+  },
+  "nonsense-x-18": {
+    "question": "Qu'est-ce qui a une colonne vertébrale mais pas d'os ?",
+    "options": [
+      "Un livre",
+      "Un arbre",
+      "La semelle",
+      "Un champignon"
+    ],
+    "explanation": "Le dos d'un livre est le bord relié, pas un squelette."
+  },
+  "nonsense-x-19": {
+    "question": "Qu'est-ce qui a une langue mais ne peut pas goûter ?",
+    "options": [
+      "Une chaussure",
+      "Un champignon",
+      "Ton souffle",
+      "Une enveloppe"
+    ],
+    "explanation": "La languette d'une chaussure est le rabat situé sous ses lacets."
+  },
+  "nonsense-x-20": {
+    "question": "Qu'est-ce qui a une casquette mais pas de tête ?",
+    "options": [
+      "Une bouteille",
+      "Une chaussure",
+      "Une blague",
+      "Un artichaut"
+    ],
+    "explanation": "Un bouchon de bouteille recouvre l'ouverture de la bouteille."
+  },
+  "nonsense-x-21": {
+    "question": "Que peut-on cracker, créer, raconter et jouer ?",
+    "options": [
+      "Une blague",
+      "Un lit",
+      "Une grotte",
+      "Une plume"
+    ],
+    "explanation": "Les gens craquent, font, racontent ou font des blagues."
+  },
+  "nonsense-x-22": {
+    "question": "Qu'est-ce qui a un cœur qui ne bat pas ?",
+    "options": [
+      "Un artichaut",
+      "Une batterie",
+      "La lettre M",
+      "Une théière"
+    ],
+    "explanation": "La partie centrale comestible d’un artichaut s’appelle son cœur."
+  },
+  "nonsense-x-23": {
+    "question": "Qu'est-ce qui a une tête et un pied mais pas de corps ?",
+    "options": [
+      "Un lit",
+      "Un bateau",
+      "Une brosse à dents",
+      "Une boucle"
+    ],
+    "explanation": "Un lit a une tête de lit et un pied de lit."
+  },
+  "nonsense-x-24": {
+    "question": "Qu'est-ce qui a une bouche mais ne mange jamais ?",
+    "options": [
+      "Une grotte",
+      "Un réveil",
+      "Un pot",
+      "Une bouilloire"
+    ],
+    "explanation": "L'entrée d'une grotte est parfois appelée sa bouche."
+  },
+  "nonsense-x-25": {
+    "question": "Qu'est-ce qui aboie et grandit mais n'est pas un chien ?",
+    "options": [
+      "Un arbre",
+      "Ciseaux",
+      "Une page Internet",
+      "Un escargot"
+    ],
+    "explanation": "Un arbre pousse et a l’écorce comme enveloppe extérieure."
+  },
+  "nonsense-x-26": {
+    "question": "Quel objet léger peut flotter dans l’air et pousser sur un oiseau ?",
+    "options": [
+      "Une plume",
+      "Un crayon",
+      "Un couteau",
+      "Une caméra"
+    ],
+    "explanation": "Une plume est légère et fait partie du plumage d’un oiseau."
+  },
+  "nonsense-x-27": {
+    "question": "Qu'est-ce qui n'a pas de vie mais peut mourir ?",
+    "options": [
+      "Une batterie",
+      "Un train",
+      "Un ordinateur",
+      "Une horloge murale"
+    ],
+    "explanation": "Une batterie est dite morte lorsqu’elle ne peut plus fournir d’énergie utile."
+  },
+  "nonsense-x-28": {
+    "question": "Que peut-on voir une fois par minute, deux fois par instant et jamais en mille ans ?",
+    "options": [
+      "La lettre M",
+      "Un œuf",
+      "Un téléphone",
+      "Un livre"
+    ],
+    "explanation": "La lettre M apparaît une fois en minute, deux fois en instant et non en mille ans."
+  },
+  "nonsense-x-29": {
+    "question": "Qu'est-ce qui commence par T, se termine par T et contient T à l'intérieur ?",
+    "options": [
+      "Une théière",
+      "Lumière",
+      "Une rivière",
+      "Un gant"
+    ],
+    "explanation": "Une théière commence et se termine par un T et peut contenir du thé à l'intérieur."
+  },
+  "nonsense-x-30": {
+    "question": "Quelle partie d'un bateau est sa partie avant ?",
+    "options": [
+      "Un bateau",
+      "Une banque",
+      "Une pièce de monnaie",
+      "Un rhume"
+    ],
+    "explanation": "La proue est l'extrémité avant d'un bateau."
+  },
+  "nonsense-x-31": {
+    "question": "Quelle partie d'un navire pointe vers l'avant lorsqu'il se déplace ?",
+    "options": [
+      "Un bateau",
+      "Votre nom",
+      "Un calendrier",
+      "Un arbre"
+    ],
+    "explanation": "Un bateau a une proue à l’avant et peut transporter des personnes."
+  },
+  "nonsense-x-32": {
+    "question": "Qu'est-ce qui a un manche et des poils mais n'est pas un pinceau ?",
+    "options": [
+      "Une brosse à dents",
+      "La semelle",
+      "Un champignon",
+      "Ton souffle"
+    ],
+    "explanation": "Une brosse à dents a un manche et des poils pour nettoyer les dents."
+  },
+  "nonsense-x-33": {
+    "question": "Qu'est-ce qui a un trou en son milieu et maintient une ceinture ensemble ?",
+    "options": [
+      "Une boucle",
+      "Une enveloppe",
+      "Une chaussure",
+      "Une bouteille"
+    ],
+    "explanation": "Une boucle de ceinture comporte une ouverture à travers laquelle la ceinture est attachée."
+  },
+  "nonsense-x-34": {
+    "question": "Qu'est-ce qui a un cadran et vous indique quand vous réveiller ?",
+    "options": [
+      "Un réveil",
+      "Une blague",
+      "Un artichaut",
+      "Un lit"
+    ],
+    "explanation": "Un réveil utilise un réglage de l'heure et une alarme pour réveiller quelqu'un."
+  },
+  "nonsense-x-35": {
+    "question": "Qu'est-ce qui a un couvercle et garde la soupe au chaud ?",
+    "options": [
+      "Un pot",
+      "Une grotte",
+      "Une plume",
+      "Une batterie"
+    ],
+    "explanation": "Une marmite peut avoir un couvercle et contenir de la soupe chaude."
+  },
+  "nonsense-x-36": {
+    "question": "Qu'est-ce qui a une anse et verse de l'eau mais n'est pas une rivière ?",
+    "options": [
+      "Une bouilloire",
+      "La lettre M",
+      "Une théière",
+      "Un bateau"
+    ],
+    "explanation": "Une bouilloire a un bec verseur et une poignée pour verser de l'eau chauffée."
+  },
+  "nonsense-x-37": {
+    "question": "Qu'est-ce qui a une lame mais qui est utilisé pour couper le papier à la main ?",
+    "options": [
+      "Ciseaux",
+      "Une brosse à dents",
+      "Une boucle",
+      "Un réveil"
+    ],
+    "explanation": "Les ciseaux ont deux lames qui coupent le matériau lorsque leurs poignées sont pressées."
+  },
+  "nonsense-x-38": {
+    "question": "Qu'est-ce qui a une semelle et des lacets mais n'est pas un poisson ?",
+    "options": [
+      "Une chaussure",
+      "Une bouilloire",
+      "Ciseaux",
+      "Une page Internet"
+    ],
+    "explanation": "Les chaussures peuvent avoir une semelle et des lacets."
+  },
+  "nonsense-x-39": {
+    "question": "Qu'est-ce qui a une page mais n'est pas un livre et se charge sur un navigateur ?",
+    "options": [
+      "Une page Internet",
+      "Un escargot",
+      "Un crayon",
+      "Un couteau"
+    ],
+    "explanation": "Une page Web est un document affiché dans un navigateur."
+  },
+  "nonsense-x-40": {
+    "question": "Qu'est-ce qui a une coquille et peut porter sa maison sur son dos ?",
+    "options": [
+      "Un escargot",
+      "Une caméra",
+      "Un train",
+      "Un ordinateur"
+    ],
+    "explanation": "Un escargot porte une coquille lorsqu'il se déplace."
+  },
+  "nonsense-x-41": {
+    "question": "Qu'est-ce qui a du sens mais ne peut pas argumenter et écrit sur papier ?",
+    "options": [
+      "Un crayon",
+      "Une carte",
+      "Un œuf",
+      "Un téléphone"
+    ],
+    "explanation": "La pointe d'un crayon laisse des traces sur le papier."
+  },
+  "nonsense-x-42": {
+    "question": "Qu'est-ce qui a une couverture, des pages et un titre mais n'est pas une maison ?",
+    "options": [
+      "Un livre",
+      "Lumière",
+      "Une rivière",
+      "Un gant"
+    ],
+    "explanation": "Un livre a une couverture et des pages, et son titre l'identifie."
+  },
+  "nonsense-x-43": {
+    "question": "Qu'est-ce qui a un manche et une lame et est utilisé au dîner ?",
+    "options": [
+      "Un couteau",
+      "Un gant",
+      "Une banque",
+      "Une pièce de monnaie"
+    ],
+    "explanation": "Un couteau de table possède un manche et une lame pour couper les aliments."
+  },
+  "nonsense-x-44": {
+    "question": "Qu'est-ce qui a un objectif et prend des photos ?",
+    "options": [
+      "Une caméra",
+      "Un rhume",
+      "Votre nom",
+      "Un calendrier"
+    ],
+    "explanation": "Un appareil photo utilise un objectif pour former des images pour les photographies."
+  },
+  "nonsense-x-45": {
+    "question": "Qu'est-ce qui a un cadran et sonne lorsque quelqu'un appelle ?",
+    "options": [
+      "Un téléphone",
+      "La semelle",
+      "Un champignon",
+      "Ton souffle"
+    ],
+    "explanation": "Un téléphone traditionnel peut sonner pour signaler un appel entrant."
+  },
+  "nonsense-x-46": {
+    "question": "Qu'est-ce qui a des roues et transporte les passagers sur les rails ?",
+    "options": [
+      "Un train",
+      "Ton souffle",
+      "Une enveloppe",
+      "Une chaussure"
+    ],
+    "explanation": "Un train circule sur des rails et transporte des passagers ou du fret."
+  },
+  "nonsense-x-47": {
+    "question": "Qu'est-ce qui a un clavier et affiche des lettres mais n'est pas une machine à écrire ?",
+    "options": [
+      "Un ordinateur",
+      "Une bouteille",
+      "Une blague",
+      "Un artichaut"
+    ],
+    "explanation": "Un clavier d'ordinateur saisit du texte et son écran affiche des informations."
+  },
+  "nonsense-x-48": {
+    "question": "Qu'est-ce qui a une poignée, des pages et aide à nettoyer les dents ?",
+    "options": [
+      "Une brosse à dents",
+      "Un lit",
+      "Une grotte",
+      "Une plume"
+    ],
+    "explanation": "Une brosse à dents a un manche et des poils pour nettoyer les dents."
+  },
+  "nonsense-x-49": {
+    "question": "Qu'est-ce qui a un bec verseur et verse du thé dans une tasse ?",
+    "options": [
+      "Une théière",
+      "Une batterie",
+      "La lettre M",
+      "Un bateau"
+    ],
+    "explanation": "Une théière contient et verse du thé par son bec."
+  },
+  "nonsense-x-50": {
+    "question": "Qu'est-ce qui a un cadran, des aiguilles et vous aide à indiquer l'heure sur un mur ?",
+    "options": [
+      "Une horloge murale",
+      "Un bateau",
+      "Une brosse à dents",
+      "Une boucle"
+    ],
+    "explanation": "Une horloge murale affiche l'heure avec des aiguilles sur un cadran."
+  },
+  "nonsense-x-51": {
+    "question": "Qu'est-ce qui a une tête de poils et aide à balayer un sol ?",
+    "options": [
+      "Un balai",
+      "Un réveil",
+      "Un pot",
+      "Une bouilloire"
+    ],
+    "explanation": "Un balai utilise des poils pour balayer la poussière et les débris d'un sol."
+  }
+}

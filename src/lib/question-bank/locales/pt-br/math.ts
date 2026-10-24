@@ -1,8 +1,16 @@
 import type { MathPhrases } from "../math-patterns";
+
 export const phrases: MathPhrases = {
-  sum: (a,b) => `Quanto é ${a} + ${b}?`, product: (a,b) => `Quanto é ${a} × ${b}?`,
-  equation: (a,b,c) => `Resolva ${a}x + ${b} = ${c} para encontrar x.`, equationWhy: (a,b,x) => `Subtraia ${b} e divida por ${a}: x = ${x}.`,
-  percent: (p,n) => `Quanto é ${p}% de ${n}?`, percentWhy: (n,p,x) => `${n} × ${p} ÷ 100 = ${x}.`,
-  sequence: (s) => `Qual é o próximo termo da sequência ${s}, __?`, sequenceWhy: (n,x) => `São quadrados consecutivos multiplicados por ${n}. O próximo é 5² × ${n} = ${x}.`,
-  combination: (n) => `De quantas maneiras é possível escolher dois objetos entre ${n} diferentes?`, combinationWhy: (n,x) => `O total de combinações é C(${n}, 2) = ${n} × ${n-1} ÷ 2 = ${x}.`,
+  sum: (a, b) => `Quanto é ${a} + ${b}?`,
+  sumWhy: (a, b, answer) => `A soma é ${a} + ${b} = ${answer}.`,
+  product: (a, b) => `Quanto é ${a} × ${b}?`,
+  productWhy: (a, b, answer) => `O produto é ${a} × ${b} = ${answer}.`,
+  equation: (a, b, c) => `Resolva ${a}x + ${b} = ${c} para encontrar x.`,
+  equationWhy: (a, b, x) => `Subtraia ${b} e divida por ${a}: x = ${x}.`,
+  percent: (percent, amount) => `Quanto é ${percent}% de ${amount}?`,
+  percentWhy: (amount, percent, answer) => `${amount} × ${percent} ÷ 100 = ${answer}.`,
+  sequence: (terms) => `Qual é o próximo termo da sequência ${terms}, __?`,
+  sequenceWhy: (factor, answer) => `São quadrados consecutivos multiplicados por ${factor}. O próximo é 25 × ${factor} = ${answer}.`,
+  combination: (count) => `De quantas maneiras é possível escolher dois objetos entre ${count}?`,
+  combinationWhy: (count, answer) => `O total de combinações é C(${count}, 2) = ${count} × (${count} - 1) ÷ 2 = ${answer}.`,
 };

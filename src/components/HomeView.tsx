@@ -10,6 +10,7 @@ import { discoveryQuizzes, discoveryState } from "@/lib/discovery";
 import { quizCategoryName, quizTitle } from "@/lib/quiz-copy";
 import { quizPath } from "@/lib/urls";
 import { categoryDescription, quizDescription, serviceGuide } from "@/lib/content-copy";
+import { useLocaleCatalog } from "@/lib/use-locale-catalog";
 
 const urlEvent = "quiz-discovery-url";
 const subscribe = (notify: () => void) => {
@@ -37,6 +38,7 @@ const featuredSlugs = ["general-knowledge", "brain-teaser", "math-basic", "world
 
 export function HomeView({ locale: rawLocale }: { locale: string }) {
   const locale = isLocale(rawLocale) ? rawLocale : "en";
+  useLocaleCatalog(locale);
   const t = uiMessages[locale];
   const copy = discoveryCopy[locale];
   const base = messages[locale];
@@ -80,7 +82,7 @@ export function HomeView({ locale: rawLocale }: { locale: string }) {
 
   const heading = mode === "search" ? copy.searchResults : mode === "category" && category ? quizCategoryName(locale, category) : t.allQuizzes;
 
-  return <QuizShell ref={mainRef} locale={locale} logoHref={`/${locale}`} mode={mode} activeCategory={category} query={query} onSelectCategory={selectCategory} onSearchChange={setQuery}>
+  return <QuizShell ref={mainRef} locale={locale} logoHref={quizPath(locale)} mode={mode} activeCategory={category} query={query} onSelectCategory={selectCategory} onSearchChange={setQuery}>
         {mode === "home" ? <>
           <section className="discovery-intro">
             <div><span className="discovery-kicker">woori.today</span><h1>{t.quiz}</h1><p>{copy.intro}</p></div>

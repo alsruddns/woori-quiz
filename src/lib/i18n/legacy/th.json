@@ -1,0 +1,684 @@
+{
+  "localeName": "ไทย",
+  "messages": {
+    "title": "แบบทดสอบ",
+    "subtitle": "ปลุกความอยากรู้อยากเห็นทุกวัน",
+    "search": "ค้นหาแบบทดสอบ",
+    "today": "แบบทดสอบวันนี้",
+    "categories": "หมวดหมู่",
+    "popular": "แบบทดสอบยอดนิยม",
+    "play": "เริ่ม",
+    "question": "คำถาม",
+    "next": "ถัดไป",
+    "submit": "ตรวจคำตอบ",
+    "result": "ผลลัพธ์",
+    "retry": "ลองอีกครั้ง",
+    "home": "หน้าแรก",
+    "related": "แบบทดสอบที่เกี่ยวข้อง",
+    "score": "คะแนน",
+    "footer": "ความเป็นส่วนตัว · คู่มือ · ติดต่อ"
+  },
+  "ui": {
+    "familySites": "บริการที่เกี่ยวข้อง",
+    "portal": "พอร์ทัล",
+    "calculator": "เครื่องคิดเลข",
+    "tools": "เครื่องมือออนไลน์",
+    "moneyBook": "สมุดบัญชีใช้ร่วมกันฟรี",
+    "docs": "เอกสารและแบบฟอร์ม",
+    "quiz": "แบบทดสอบและเกมทายปัญหา",
+    "language": "เลือกภาษา",
+    "openMenu": "เปิดเมนูบริการ",
+    "closeMenu": "ปิดเมนูบริการ",
+    "allQuizzes": "แบบทดสอบทั้งหมด",
+    "freeToPlay": "เล่นฟรี",
+    "noAccount": "ไม่ต้องสมัครสมาชิก",
+    "heroEyebrow": "ช่วงเวลาแห่งความอยากรู้",
+    "heroTitle": "ปลุกความอยากรู้ด้วยแบบทดสอบ",
+    "heroDescription": "ลองทำโจทย์สั้น ๆ แล้วสนุกกับการค้นพบสิ่งใหม่",
+    "nextChallenge": "เลือกความท้าทายถัดไป",
+    "searchEmpty": "ไม่พบแบบทดสอบ",
+    "questionSetReview": "กำลังตรวจสอบชุดคำถาม",
+    "difficulty": "ระดับความยาก",
+    "startHeading": "เริ่มได้เมื่อพร้อม",
+    "startDescription": "ค่อย ๆ คิดและสนุกไปกับความท้าทาย",
+    "correct": "ถูกต้อง!",
+    "incorrect": "ยังไม่ถูก ลองอีกครั้งนะ",
+    "accuracy": "ความแม่นยำ",
+    "finishedIn": "ใช้เวลา",
+    "seconds": "วินาที",
+    "bestScore": "คะแนนสูงสุดจะบันทึกไว้ในอุปกรณ์นี้",
+    "reviewHeading": "กำลังตรวจสอบชุดคำถาม",
+    "reviewDescription": "เรากำลังตรวจสอบคำถามฉบับแปล แบบทดสอบจะเล่นได้เมื่อการตรวจสอบเสร็จสิ้น",
+    "howToPlay": "วิธีเล่น",
+    "howToDescription": "เลือกคำตอบในแต่ละข้อ ความคืบหน้าจะเก็บไว้ในเบราว์เซอร์นี้เท่านั้น ไม่ต้องใช้บัญชีหรือข้อมูลส่วนตัว",
+    "aboutQuiz": "เกี่ยวกับแบบทดสอบ",
+    "faq": "คำถามที่พบบ่อย",
+    "scoreUploadedQuestion": "คะแนนของฉันถูกอัปโหลดหรือไม่",
+    "scoreUploadedAnswer": "ไม่ คะแนนจะเก็บไว้ในเบราว์เซอร์นี้เท่านั้น",
+    "interactiveTest": "แบบทดสอบโต้ตอบ",
+    "localeCount": "26 ภาษา",
+    "dynamicGeneration": "สุ่มสร้างคำถามในแต่ละรอบ",
+    "back": "รายการแบบทดสอบ",
+    "footerTagline": "สำหรับทุกคนที่ชอบค้นพบสิ่งใหม่",
+    "privacy": "ความเป็นส่วนตัว",
+    "guidelines": "คำแนะนำการใช้งาน",
+    "contact": "ติดต่อ",
+    "copyright": "© 2026 woori.today",
+    "searchLabel": "ค้นหาแบบทดสอบ",
+    "quizCount": "COUNT_SLOT",
+    "questionCount": "COUNT_SLOT",
+    "quizSummary": "ลองทำTITLE_SLOT เพื่อทบทวนความรู้แบบสนุก ๆ",
+    "category": {
+      "general": "ความรู้ทั่วไป",
+      "geography": "โลกและภูมิศาสตร์",
+      "science": "วิทยาศาสตร์",
+      "history": "ประวัติศาสตร์",
+      "math": "คณิตศาสตร์",
+      "language": "ภาษา",
+      "technology": "ไอที",
+      "memory": "ความจำและสมอง",
+      "speed": "ความเร็วและปฏิกิริยา",
+      "fun": "เกมท้าทายสนุก ๆ"
+    },
+    "difficultyLabels": {
+      "easy": "ง่าย",
+      "medium": "ปานกลาง",
+      "hard": "ยาก",
+      "expert": "ผู้เชี่ยวชาญ"
+    }
+  },
+  "uiCountForms": {
+    "quizCount": {
+      "other": "COUNT_SLOT แบบทดสอบ"
+    },
+    "questionCount": {
+      "other": "COUNT_SLOT ข้อ"
+    }
+  },
+  "uiSummary": "ลองทำTITLE_SLOT เพื่อทบทวนความรู้แบบสนุก ๆ",
+  "discovery": {
+    "intro": "เลือกทำแบบทดสอบความรู้ คณิตศาสตร์ และปริศนาฝึกสมอง",
+    "quickStart": "เริ่มได้ทันที",
+    "searchResults": "ผลการค้นหา",
+    "browseCategories": "เลือกหมวดหมู่",
+    "clearSearch": "ล้างคำค้นหา",
+    "resultsForForms": {
+      "other": "พบ COUNT_SLOT แบบทดสอบสำหรับ “QUERY_SLOT”"
+    }
+  },
+  "detail": {
+    "correctCount": "ถูก",
+    "incorrectCount": "ผิด",
+    "newSet": "ลองคำถามชุดใหม่",
+    "otherQuizzes": "ดูแบบทดสอบอื่น"
+  },
+  "categoryLabels": {
+    "general": "ความรู้ทั่วไป",
+    "nonsense": "ปริศนาชวนสนุก",
+    "math": "คณิตศาสตร์",
+    "brain": "ท้าทายสมอง",
+    "history": "ประวัติศาสตร์",
+    "science": "วิทยาศาสตร์",
+    "geography": "โลกและภูมิศาสตร์",
+    "language": "ภาษา",
+    "technology": "ไอที",
+    "memory": "ความจำและสมอง",
+    "random": "ควิซสุ่ม",
+    "challenge": "ชาเลนจ์",
+    "speed": "ความเร็วและปฏิกิริยา",
+    "fun": "เกมท้าทายสนุก ๆ"
+  },
+  "categoryDescriptions": {
+    "general": "ทบทวนความรู้รอบตัวจากเรื่องใกล้ตัวและหลากหลายสาขา",
+    "nonsense": "แก้ปริศนาสั้น ๆ ด้วยการสังเกตคำและความหมายที่พลิกแพลง",
+    "math": "ฝึกคำนวณและเหตุผล ตั้งแต่เลขพื้นฐานถึงลำดับและความน่าจะเป็น",
+    "brain": "ใช้คำใบ้และรูปแบบตัวเลขเพื่อหาคำตอบอย่างมีเหตุผล",
+    "history": "ทบทวนเหตุการณ์และบุคคลสำคัญตามข้อเท็จจริงทางประวัติศาสตร์",
+    "science": "ทบทวนหลักพื้นฐานของชีววิทยา เคมี ฟิสิกส์ และอวกาศ",
+    "geography": "นึกถึงที่ตั้งของทวีป ประเทศ เมืองหลวง และภูมิประเทศ",
+    "language": "สำรวจคำศัพท์ ไวยากรณ์ และระบบตัวเขียนต่าง ๆ",
+    "technology": "ทบทวนพื้นฐานเว็บ การเขียนโปรแกรม ฐานข้อมูล และเครือข่าย",
+    "memory": "จดจำตัวเลข คำ และลำดับ หรือสังเกตภาพที่เปลี่ยนไป",
+    "random": "เล่นคำถามชุดใหม่ที่สุ่มจากหลายหัวข้อ",
+    "challenge": "ทำคำถามจำนวนที่กำหนดต่อเนื่องโดยรักษาสมาธิ",
+    "speed": "วัดเวลาตอบสนอง ความเร็วในการคลิกหรือพิมพ์โดยตรง",
+    "fun": "พักสั้น ๆ กับเกร็ดความรู้และโจทย์สนุก ๆ"
+  },
+  "serviceGuide": {
+    "categories": "เลือกตามหัวข้อ",
+    "how": "วิธีทำแบบทดสอบ",
+    "account": "เลือกแบบทดสอบแล้วตอบทีละข้อ ไม่ต้องสมัครสมาชิก ผลลัพธ์เก็บไว้ในเบราว์เซอร์นี้",
+    "score": "คะแนนหมายถึงอะไร",
+    "scoreLow": "หัวข้อนี้ยังฝึกได้อีก อ่านคำอธิบายแล้วลองใหม่",
+    "scoreMid": "คุณเข้าใจพื้นฐานแล้ว ลองทบทวนคำอธิบายของข้อที่ผิด",
+    "scoreHigh": "คุณทำชุดนี้ได้ดี ลองหัวข้ออื่นหรือคำถามชุดใหม่",
+    "scoreNote": "คะแนนแสดงสัดส่วนคำตอบที่ถูกของชุดนี้ ไม่ใช่การวินิจฉัยความสามารถหรือสุขภาพ",
+    "focus": "เนื้อหาของแบบทดสอบนี้"
+  },
+  "advertisement": "โฆษณา",
+  "difficulty": "ทุกระดับความยาก",
+  "quizTitles": {
+    "general-knowledge-quiz": "ความรู้ ทั่วไป แบบทดสอบ",
+    "everyday-knowledge-quiz": "ประจำวัน ทั่วไป แบบทดสอบ",
+    "difficult-general-knowledge-quiz": "ยาก ความรู้ ทั่วไป แบบทดสอบ",
+    "world-capitals-quiz": "โลก เมืองหลวง แบบทดสอบ",
+    "country-flags-quiz": "ประเทศ ธงชาติ แบบทดสอบ",
+    "country-currency-quiz": "ประเทศ สกุลเงิน แบบทดสอบ",
+    "country-location-quiz": "ประเทศ ตำแหน่ง แบบทดสอบ",
+    "asia-capitals-quiz": "เอเชีย เมืองหลวง แบบทดสอบ",
+    "europe-capitals-quiz": "ยุโรป เมืองหลวง แบบทดสอบ",
+    "world-geography-quiz": "โลก ภูมิศาสตร์ แบบทดสอบ",
+    "basic-science-quiz": "พื้นฐาน วิทยาศาสตร์ แบบทดสอบ",
+    "physics-quiz": "ฟิสิกส์ แบบทดสอบ",
+    "chemistry-quiz": "เคมี แบบทดสอบ",
+    "biology-quiz": "ชีววิทยา แบบทดสอบ",
+    "astronomy-quiz": "ดาราศาสตร์ แบบทดสอบ",
+    "difficult-science-quiz": "ยาก วิทยาศาสตร์ แบบทดสอบ",
+    "world-history-quiz": "โลก ประวัติศาสตร์ แบบทดสอบ",
+    "korean-history-quiz": "เกาหลี ประวัติศาสตร์ แบบทดสอบ",
+    "ancient-history-quiz": "โบราณ ประวัติศาสตร์ แบบทดสอบ",
+    "modern-history-quiz": "สมัยใหม่ ประวัติศาสตร์ แบบทดสอบ",
+    "addition-quiz": "บวก แบบทดสอบ",
+    "subtraction-quiz": "ลบ แบบทดสอบ",
+    "multiplication-quiz": "คูณ แบบทดสอบ",
+    "division-quiz": "หาร แบบทดสอบ",
+    "multiplication-table-quiz": "คูณ สูตรคูณ แบบทดสอบ",
+    "mental-math-quiz": "คิดเลขในใจ คณิตศาสตร์ แบบทดสอบ",
+    "fraction-quiz": "เศษส่วน แบบทดสอบ",
+    "percentage-quiz": "ร้อยละ แบบทดสอบ",
+    "equation-quiz": "สมการ แบบทดสอบ",
+    "arithmetic-challenge": "เลขคณิต ท้าทาย",
+    "english-vocabulary-quiz": "อังกฤษ คำศัพท์ แบบทดสอบ",
+    "english-spelling-quiz": "อังกฤษ การสะกด แบบทดสอบ",
+    "english-grammar-quiz": "อังกฤษ ไวยากรณ์ แบบทดสอบ",
+    "hiragana-quiz": "ฮิรางานะ แบบทดสอบ",
+    "katakana-quiz": "คาตากานะ แบบทดสอบ",
+    "japanese-vocabulary-quiz": "ญี่ปุ่น คำศัพท์ แบบทดสอบ",
+    "chinese-character-quiz": "จีน ตัวอักษร แบบทดสอบ",
+    "korean-vocabulary-quiz": "เกาหลี คำศัพท์ แบบทดสอบ",
+    "computer-basics-quiz": "คอมพิวเตอร์ พื้นฐาน แบบทดสอบ",
+    "programming-basics-quiz": "เขียนโปรแกรม พื้นฐาน แบบทดสอบ",
+    "web-development-quiz": "เว็บ พัฒนา แบบทดสอบ",
+    "database-quiz": "ฐานข้อมูล แบบทดสอบ",
+    "network-basics-quiz": "เครือข่าย พื้นฐาน แบบทดสอบ",
+    "difficult-it-quiz": "ยาก ไอที แบบทดสอบ",
+    "number-memory-test": "ตัวเลข ความจำ ทดสอบ",
+    "word-memory-test": "คำ ความจำ ทดสอบ",
+    "sequence-memory-test": "ลำดับ ความจำ ทดสอบ",
+    "visual-memory-test": "ภาพ ความจำ ทดสอบ",
+    "pattern-recognition-test": "รูปแบบ จดจำ ทดสอบ",
+    "concentration-test": "สมาธิ ทดสอบ",
+    "reaction-time-test": "ปฏิกิริยา เวลา ทดสอบ",
+    "click-speed-test": "คลิก ความเร็ว ทดสอบ",
+    "typing-speed-test": "พิมพ์ ความเร็ว ทดสอบ",
+    "color-reaction-test": "สี ปฏิกิริยา ทดสอบ",
+    "random-trivia-challenge": "สุ่ม ความรู้รอบตัว ท้าทาย",
+    "true-false-challenge": "ถูก ผิด ท้าทาย",
+    "impossible-quiz": "เป็นไปไม่ได้ แบบทดสอบ",
+    "mixed-hard-quiz": "ผสม ยาก แบบทดสอบ",
+    "general-knowledge": "ความรู้ ทั่วไป",
+    "easy-general-knowledge": "ง่าย ความรู้ ทั่วไป",
+    "hard-general-knowledge": "ยาก ความรู้ ทั่วไป",
+    "random-general-knowledge": "สุ่ม ความรู้ ทั่วไป",
+    "adult-general-knowledge": "ผู้ใหญ่ ความรู้ ทั่วไป",
+    "daily-life-quiz": "ประจำวัน ชีวิต แบบทดสอบ",
+    "nonsense": "ปริศนาชวนขำ",
+    "easy-nonsense-quiz": "ง่าย ปริศนาชวนขำ แบบทดสอบ",
+    "riddle-quiz": "ปริศนา แบบทดสอบ",
+    "brain-teaser": "ปลุกสมองด้วยเกมปริศนา",
+    "easy-brain-teaser": "ง่าย สมอง ท้าทาย",
+    "hard-brain-teaser": "ยาก สมอง ท้าทาย",
+    "number-pattern-quiz": "ตัวเลข รูปแบบ แบบทดสอบ",
+    "logic-reasoning-quiz": "ตรรกะ การคิด แบบทดสอบ",
+    "random-brain-teaser": "สุ่ม สมอง ท้าทาย",
+    "math-basic": "คณิตศาสตร์ พื้นฐาน",
+    "math-advanced": "คณิตศาสตร์ ขั้นสูง",
+    "mental-arithmetic-test": "คิดเลขในใจ เลขคณิต ทดสอบ",
+    "sequence-math-quiz": "ลำดับ คณิตศาสตร์ แบบทดสอบ",
+    "probability-quiz": "ความน่าจะเป็น แบบทดสอบ",
+    "history-knowledge-quiz": "ประวัติศาสตร์ ทั่วไป แบบทดสอบ",
+    "ancient-civilizations-quiz": "โบราณ อารยธรรม แบบทดสอบ",
+    "modern-history-knowledge": "สมัยใหม่ ประวัติศาสตร์ ทั่วไป",
+    "science-knowledge-quiz": "วิทยาศาสตร์ ทั่วไป แบบทดสอบ",
+    "space-quiz": "อวกาศ แบบทดสอบ",
+    "biology-knowledge-quiz": "ชีววิทยา ทั่วไป แบบทดสอบ",
+    "world-geography": "โลก ภูมิศาสตร์",
+    "capital-cities-quiz": "เมืองหลวง เมือง แบบทดสอบ",
+    "country-knowledge-quiz": "ประเทศ ทั่วไป แบบทดสอบ",
+    "language-knowledge-quiz": "ภาษา ทั่วไป แบบทดสอบ",
+    "english-vocabulary": "อังกฤษ คำศัพท์",
+    "it-development-quiz": "ไอที พัฒนา แบบทดสอบ",
+    "programming-knowledge-quiz": "เขียนโปรแกรม ทั่วไป แบบทดสอบ",
+    "random-quiz": "สุ่ม แบบทดสอบ",
+    "random-math-10": "สุ่ม คณิตศาสตร์ 10",
+    "random-nonsense-10": "สุ่ม ปริศนาชวนขำ 10",
+    "challenge-10": "ท้าทาย 10",
+    "challenge-20": "ท้าทาย 20"
+  },
+  "quizDescriptions": {
+    "addition-quiz": "บวก แบบทดสอบ: ฝึกคำนวณและเหตุผล ตั้งแต่เลขพื้นฐานถึงลำดับและความน่าจะเป็น",
+    "subtraction-quiz": "ลบ แบบทดสอบ: ฝึกคำนวณและเหตุผล ตั้งแต่เลขพื้นฐานถึงลำดับและความน่าจะเป็น",
+    "multiplication-quiz": "คูณ แบบทดสอบ: ฝึกคำนวณและเหตุผล ตั้งแต่เลขพื้นฐานถึงลำดับและความน่าจะเป็น",
+    "division-quiz": "หาร แบบทดสอบ: ฝึกคำนวณและเหตุผล ตั้งแต่เลขพื้นฐานถึงลำดับและความน่าจะเป็น",
+    "multiplication-table-quiz": "คูณ สูตรคูณ แบบทดสอบ: ฝึกคำนวณและเหตุผล ตั้งแต่เลขพื้นฐานถึงลำดับและความน่าจะเป็น",
+    "mental-math-quiz": "คิดเลขในใจ คณิตศาสตร์ แบบทดสอบ: ฝึกคำนวณและเหตุผล ตั้งแต่เลขพื้นฐานถึงลำดับและความน่าจะเป็น",
+    "fraction-quiz": "เศษส่วน แบบทดสอบ: ฝึกคำนวณและเหตุผล ตั้งแต่เลขพื้นฐานถึงลำดับและความน่าจะเป็น",
+    "percentage-quiz": "ร้อยละ แบบทดสอบ: ฝึกคำนวณและเหตุผล ตั้งแต่เลขพื้นฐานถึงลำดับและความน่าจะเป็น",
+    "equation-quiz": "สมการ แบบทดสอบ: ฝึกคำนวณและเหตุผล ตั้งแต่เลขพื้นฐานถึงลำดับและความน่าจะเป็น",
+    "arithmetic-challenge": "เลขคณิต ท้าทาย: ฝึกคำนวณและเหตุผล ตั้งแต่เลขพื้นฐานถึงลำดับและความน่าจะเป็น",
+    "number-memory-test": "ตัวเลข ความจำ ทดสอบ: จดจำตัวเลข คำ และลำดับ หรือสังเกตภาพที่เปลี่ยนไป",
+    "word-memory-test": "คำ ความจำ ทดสอบ: จดจำตัวเลข คำ และลำดับ หรือสังเกตภาพที่เปลี่ยนไป",
+    "sequence-memory-test": "ลำดับ ความจำ ทดสอบ: จดจำตัวเลข คำ และลำดับ หรือสังเกตภาพที่เปลี่ยนไป",
+    "visual-memory-test": "ภาพ ความจำ ทดสอบ: จดจำตัวเลข คำ และลำดับ หรือสังเกตภาพที่เปลี่ยนไป",
+    "pattern-recognition-test": "รูปแบบ จดจำ ทดสอบ: จดจำตัวเลข คำ และลำดับ หรือสังเกตภาพที่เปลี่ยนไป",
+    "concentration-test": "สมาธิ ทดสอบ: จดจำตัวเลข คำ และลำดับ หรือสังเกตภาพที่เปลี่ยนไป",
+    "reaction-time-test": "ปฏิกิริยา เวลา ทดสอบ: วัดเวลาตอบสนอง ความเร็วในการคลิกหรือพิมพ์โดยตรง",
+    "click-speed-test": "คลิก ความเร็ว ทดสอบ: วัดเวลาตอบสนอง ความเร็วในการคลิกหรือพิมพ์โดยตรง",
+    "typing-speed-test": "พิมพ์ ความเร็ว ทดสอบ: วัดเวลาตอบสนอง ความเร็วในการคลิกหรือพิมพ์โดยตรง",
+    "color-reaction-test": "สี ปฏิกิริยา ทดสอบ: วัดเวลาตอบสนอง ความเร็วในการคลิกหรือพิมพ์โดยตรง",
+    "general-knowledge": "ความรู้ ทั่วไป: ทบทวนความรู้รอบตัวจากเรื่องใกล้ตัวและหลากหลายสาขา",
+    "easy-general-knowledge": "ง่าย ความรู้ ทั่วไป: ทบทวนความรู้รอบตัวจากเรื่องใกล้ตัวและหลากหลายสาขา",
+    "hard-general-knowledge": "ยาก ความรู้ ทั่วไป: ทบทวนความรู้รอบตัวจากเรื่องใกล้ตัวและหลากหลายสาขา",
+    "random-general-knowledge": "สุ่ม ความรู้ ทั่วไป: ทบทวนความรู้รอบตัวจากเรื่องใกล้ตัวและหลากหลายสาขา",
+    "adult-general-knowledge": "ผู้ใหญ่ ความรู้ ทั่วไป: ทบทวนความรู้รอบตัวจากเรื่องใกล้ตัวและหลากหลายสาขา",
+    "daily-life-quiz": "ประจำวัน ชีวิต แบบทดสอบ: ทบทวนความรู้รอบตัวจากเรื่องใกล้ตัวและหลากหลายสาขา",
+    "nonsense": "ปริศนาชวนขำ: แก้ปริศนาสั้น ๆ ด้วยการสังเกตคำและความหมายที่พลิกแพลง",
+    "easy-nonsense-quiz": "ง่าย ปริศนาชวนขำ แบบทดสอบ: แก้ปริศนาสั้น ๆ ด้วยการสังเกตคำและความหมายที่พลิกแพลง",
+    "riddle-quiz": "ปริศนา แบบทดสอบ: แก้ปริศนาสั้น ๆ ด้วยการสังเกตคำและความหมายที่พลิกแพลง",
+    "brain-teaser": "ปลุกสมองด้วยเกมปริศนา: ใช้คำใบ้และรูปแบบตัวเลขเพื่อหาคำตอบอย่างมีเหตุผล",
+    "easy-brain-teaser": "ง่าย สมอง ท้าทาย: ใช้คำใบ้และรูปแบบตัวเลขเพื่อหาคำตอบอย่างมีเหตุผล",
+    "hard-brain-teaser": "ยาก สมอง ท้าทาย: ใช้คำใบ้และรูปแบบตัวเลขเพื่อหาคำตอบอย่างมีเหตุผล",
+    "number-pattern-quiz": "ตัวเลข รูปแบบ แบบทดสอบ: ใช้คำใบ้และรูปแบบตัวเลขเพื่อหาคำตอบอย่างมีเหตุผล",
+    "logic-reasoning-quiz": "ตรรกะ การคิด แบบทดสอบ: ใช้คำใบ้และรูปแบบตัวเลขเพื่อหาคำตอบอย่างมีเหตุผล",
+    "random-brain-teaser": "สุ่ม สมอง ท้าทาย: ใช้คำใบ้และรูปแบบตัวเลขเพื่อหาคำตอบอย่างมีเหตุผล",
+    "math-basic": "คณิตศาสตร์ พื้นฐาน: ฝึกคำนวณและเหตุผล ตั้งแต่เลขพื้นฐานถึงลำดับและความน่าจะเป็น",
+    "math-advanced": "คณิตศาสตร์ ขั้นสูง: ฝึกคำนวณและเหตุผล ตั้งแต่เลขพื้นฐานถึงลำดับและความน่าจะเป็น",
+    "mental-arithmetic-test": "คิดเลขในใจ เลขคณิต ทดสอบ: ฝึกคำนวณและเหตุผล ตั้งแต่เลขพื้นฐานถึงลำดับและความน่าจะเป็น",
+    "sequence-math-quiz": "ลำดับ คณิตศาสตร์ แบบทดสอบ: ฝึกคำนวณและเหตุผล ตั้งแต่เลขพื้นฐานถึงลำดับและความน่าจะเป็น",
+    "probability-quiz": "ความน่าจะเป็น แบบทดสอบ: ฝึกคำนวณและเหตุผล ตั้งแต่เลขพื้นฐานถึงลำดับและความน่าจะเป็น",
+    "history-knowledge-quiz": "ประวัติศาสตร์ ทั่วไป แบบทดสอบ: ทบทวนเหตุการณ์และบุคคลสำคัญตามข้อเท็จจริงทางประวัติศาสตร์",
+    "ancient-civilizations-quiz": "โบราณ อารยธรรม แบบทดสอบ: ทบทวนเหตุการณ์และบุคคลสำคัญตามข้อเท็จจริงทางประวัติศาสตร์",
+    "modern-history-knowledge": "สมัยใหม่ ประวัติศาสตร์ ทั่วไป: ทบทวนเหตุการณ์และบุคคลสำคัญตามข้อเท็จจริงทางประวัติศาสตร์",
+    "science-knowledge-quiz": "วิทยาศาสตร์ ทั่วไป แบบทดสอบ: ทบทวนหลักพื้นฐานของชีววิทยา เคมี ฟิสิกส์ และอวกาศ",
+    "space-quiz": "อวกาศ แบบทดสอบ: ทบทวนหลักพื้นฐานของชีววิทยา เคมี ฟิสิกส์ และอวกาศ",
+    "biology-knowledge-quiz": "ชีววิทยา ทั่วไป แบบทดสอบ: ทบทวนหลักพื้นฐานของชีววิทยา เคมี ฟิสิกส์ และอวกาศ",
+    "world-geography": "โลก ภูมิศาสตร์: นึกถึงที่ตั้งของทวีป ประเทศ เมืองหลวง และภูมิประเทศ",
+    "capital-cities-quiz": "เมืองหลวง เมือง แบบทดสอบ: นึกถึงที่ตั้งของทวีป ประเทศ เมืองหลวง และภูมิประเทศ",
+    "country-knowledge-quiz": "ประเทศ ทั่วไป แบบทดสอบ: นึกถึงที่ตั้งของทวีป ประเทศ เมืองหลวง และภูมิประเทศ",
+    "language-knowledge-quiz": "ภาษา ทั่วไป แบบทดสอบ: สำรวจคำศัพท์ ไวยากรณ์ และระบบตัวเขียนต่าง ๆ",
+    "english-vocabulary": "อังกฤษ คำศัพท์: สำรวจคำศัพท์ ไวยากรณ์ และระบบตัวเขียนต่าง ๆ",
+    "it-development-quiz": "ไอที พัฒนา แบบทดสอบ: ทบทวนพื้นฐานเว็บ การเขียนโปรแกรม ฐานข้อมูล และเครือข่าย",
+    "programming-knowledge-quiz": "เขียนโปรแกรม ทั่วไป แบบทดสอบ: ทบทวนพื้นฐานเว็บ การเขียนโปรแกรม ฐานข้อมูล และเครือข่าย",
+    "random-quiz": "สุ่ม แบบทดสอบ: เล่นคำถามชุดใหม่ที่สุ่มจากหลายหัวข้อ",
+    "random-math-10": "สุ่ม คณิตศาสตร์ 10: เล่นคำถามชุดใหม่ที่สุ่มจากหลายหัวข้อ",
+    "random-nonsense-10": "สุ่ม ปริศนาชวนขำ 10: เล่นคำถามชุดใหม่ที่สุ่มจากหลายหัวข้อ",
+    "challenge-10": "ท้าทาย 10: ทำคำถามจำนวนที่กำหนดต่อเนื่องโดยรักษาสมาธิ",
+    "challenge-20": "ท้าทาย 20: ทำคำถามจำนวนที่กำหนดต่อเนื่องโดยรักษาสมาธิ"
+  },
+  "quizSeo": {
+    "addition-quiz": {
+      "title": "บวก แบบทดสอบ | woori.today",
+      "description": "บวก แบบทดสอบ: ฝึกคำนวณและเหตุผล ตั้งแต่เลขพื้นฐานถึงลำดับและความน่าจะเป็น"
+    },
+    "subtraction-quiz": {
+      "title": "ลบ แบบทดสอบ | woori.today",
+      "description": "ลบ แบบทดสอบ: ฝึกคำนวณและเหตุผล ตั้งแต่เลขพื้นฐานถึงลำดับและความน่าจะเป็น"
+    },
+    "multiplication-quiz": {
+      "title": "คูณ แบบทดสอบ | woori.today",
+      "description": "คูณ แบบทดสอบ: ฝึกคำนวณและเหตุผล ตั้งแต่เลขพื้นฐานถึงลำดับและความน่าจะเป็น"
+    },
+    "division-quiz": {
+      "title": "หาร แบบทดสอบ | woori.today",
+      "description": "หาร แบบทดสอบ: ฝึกคำนวณและเหตุผล ตั้งแต่เลขพื้นฐานถึงลำดับและความน่าจะเป็น"
+    },
+    "multiplication-table-quiz": {
+      "title": "คูณ สูตรคูณ แบบทดสอบ | woori.today",
+      "description": "คูณ สูตรคูณ แบบทดสอบ: ฝึกคำนวณและเหตุผล ตั้งแต่เลขพื้นฐานถึงลำดับและความน่าจะเป็น"
+    },
+    "mental-math-quiz": {
+      "title": "คิดเลขในใจ คณิตศาสตร์ แบบทดสอบ | woori.today",
+      "description": "คิดเลขในใจ คณิตศาสตร์ แบบทดสอบ: ฝึกคำนวณและเหตุผล ตั้งแต่เลขพื้นฐานถึงลำดับและความน่าจะเป็น"
+    },
+    "fraction-quiz": {
+      "title": "เศษส่วน แบบทดสอบ | woori.today",
+      "description": "เศษส่วน แบบทดสอบ: ฝึกคำนวณและเหตุผล ตั้งแต่เลขพื้นฐานถึงลำดับและความน่าจะเป็น"
+    },
+    "percentage-quiz": {
+      "title": "ร้อยละ แบบทดสอบ | woori.today",
+      "description": "ร้อยละ แบบทดสอบ: ฝึกคำนวณและเหตุผล ตั้งแต่เลขพื้นฐานถึงลำดับและความน่าจะเป็น"
+    },
+    "equation-quiz": {
+      "title": "สมการ แบบทดสอบ | woori.today",
+      "description": "สมการ แบบทดสอบ: ฝึกคำนวณและเหตุผล ตั้งแต่เลขพื้นฐานถึงลำดับและความน่าจะเป็น"
+    },
+    "arithmetic-challenge": {
+      "title": "เลขคณิต ท้าทาย | woori.today",
+      "description": "เลขคณิต ท้าทาย: ฝึกคำนวณและเหตุผล ตั้งแต่เลขพื้นฐานถึงลำดับและความน่าจะเป็น"
+    },
+    "number-memory-test": {
+      "title": "ตัวเลข ความจำ ทดสอบ | woori.today",
+      "description": "ตัวเลข ความจำ ทดสอบ: จดจำตัวเลข คำ และลำดับ หรือสังเกตภาพที่เปลี่ยนไป"
+    },
+    "word-memory-test": {
+      "title": "คำ ความจำ ทดสอบ | woori.today",
+      "description": "คำ ความจำ ทดสอบ: จดจำตัวเลข คำ และลำดับ หรือสังเกตภาพที่เปลี่ยนไป"
+    },
+    "sequence-memory-test": {
+      "title": "ลำดับ ความจำ ทดสอบ | woori.today",
+      "description": "ลำดับ ความจำ ทดสอบ: จดจำตัวเลข คำ และลำดับ หรือสังเกตภาพที่เปลี่ยนไป"
+    },
+    "visual-memory-test": {
+      "title": "ภาพ ความจำ ทดสอบ | woori.today",
+      "description": "ภาพ ความจำ ทดสอบ: จดจำตัวเลข คำ และลำดับ หรือสังเกตภาพที่เปลี่ยนไป"
+    },
+    "pattern-recognition-test": {
+      "title": "รูปแบบ จดจำ ทดสอบ | woori.today",
+      "description": "รูปแบบ จดจำ ทดสอบ: จดจำตัวเลข คำ และลำดับ หรือสังเกตภาพที่เปลี่ยนไป"
+    },
+    "concentration-test": {
+      "title": "สมาธิ ทดสอบ | woori.today",
+      "description": "สมาธิ ทดสอบ: จดจำตัวเลข คำ และลำดับ หรือสังเกตภาพที่เปลี่ยนไป"
+    },
+    "reaction-time-test": {
+      "title": "ปฏิกิริยา เวลา ทดสอบ | woori.today",
+      "description": "ปฏิกิริยา เวลา ทดสอบ: วัดเวลาตอบสนอง ความเร็วในการคลิกหรือพิมพ์โดยตรง"
+    },
+    "click-speed-test": {
+      "title": "คลิก ความเร็ว ทดสอบ | woori.today",
+      "description": "คลิก ความเร็ว ทดสอบ: วัดเวลาตอบสนอง ความเร็วในการคลิกหรือพิมพ์โดยตรง"
+    },
+    "typing-speed-test": {
+      "title": "พิมพ์ ความเร็ว ทดสอบ | woori.today",
+      "description": "พิมพ์ ความเร็ว ทดสอบ: วัดเวลาตอบสนอง ความเร็วในการคลิกหรือพิมพ์โดยตรง"
+    },
+    "color-reaction-test": {
+      "title": "สี ปฏิกิริยา ทดสอบ | woori.today",
+      "description": "สี ปฏิกิริยา ทดสอบ: วัดเวลาตอบสนอง ความเร็วในการคลิกหรือพิมพ์โดยตรง"
+    },
+    "general-knowledge": {
+      "title": "ความรู้ ทั่วไป | woori.today",
+      "description": "ความรู้ ทั่วไป: ทบทวนความรู้รอบตัวจากเรื่องใกล้ตัวและหลากหลายสาขา"
+    },
+    "easy-general-knowledge": {
+      "title": "ง่าย ความรู้ ทั่วไป | woori.today",
+      "description": "ง่าย ความรู้ ทั่วไป: ทบทวนความรู้รอบตัวจากเรื่องใกล้ตัวและหลากหลายสาขา"
+    },
+    "hard-general-knowledge": {
+      "title": "ยาก ความรู้ ทั่วไป | woori.today",
+      "description": "ยาก ความรู้ ทั่วไป: ทบทวนความรู้รอบตัวจากเรื่องใกล้ตัวและหลากหลายสาขา"
+    },
+    "random-general-knowledge": {
+      "title": "สุ่ม ความรู้ ทั่วไป | woori.today",
+      "description": "สุ่ม ความรู้ ทั่วไป: ทบทวนความรู้รอบตัวจากเรื่องใกล้ตัวและหลากหลายสาขา"
+    },
+    "adult-general-knowledge": {
+      "title": "ผู้ใหญ่ ความรู้ ทั่วไป | woori.today",
+      "description": "ผู้ใหญ่ ความรู้ ทั่วไป: ทบทวนความรู้รอบตัวจากเรื่องใกล้ตัวและหลากหลายสาขา"
+    },
+    "daily-life-quiz": {
+      "title": "ประจำวัน ชีวิต แบบทดสอบ | woori.today",
+      "description": "ประจำวัน ชีวิต แบบทดสอบ: ทบทวนความรู้รอบตัวจากเรื่องใกล้ตัวและหลากหลายสาขา"
+    },
+    "nonsense": {
+      "title": "ปริศนาชวนขำ | woori.today",
+      "description": "ปริศนาชวนขำ: แก้ปริศนาสั้น ๆ ด้วยการสังเกตคำและความหมายที่พลิกแพลง"
+    },
+    "easy-nonsense-quiz": {
+      "title": "ง่าย ปริศนาชวนขำ แบบทดสอบ | woori.today",
+      "description": "ง่าย ปริศนาชวนขำ แบบทดสอบ: แก้ปริศนาสั้น ๆ ด้วยการสังเกตคำและความหมายที่พลิกแพลง"
+    },
+    "riddle-quiz": {
+      "title": "ปริศนา แบบทดสอบ | woori.today",
+      "description": "ปริศนา แบบทดสอบ: แก้ปริศนาสั้น ๆ ด้วยการสังเกตคำและความหมายที่พลิกแพลง"
+    },
+    "brain-teaser": {
+      "title": "ปลุกสมองด้วยเกมปริศนา | woori.today",
+      "description": "ปลุกสมองด้วยปริศนาฟรีเกี่ยวกับตรรกะ รูปแบบ ตัวเลข ความจำ และการใช้เหตุผล"
+    },
+    "easy-brain-teaser": {
+      "title": "ง่าย สมอง ท้าทาย | woori.today",
+      "description": "ง่าย สมอง ท้าทาย: ใช้คำใบ้และรูปแบบตัวเลขเพื่อหาคำตอบอย่างมีเหตุผล"
+    },
+    "hard-brain-teaser": {
+      "title": "ยาก สมอง ท้าทาย | woori.today",
+      "description": "ยาก สมอง ท้าทาย: ใช้คำใบ้และรูปแบบตัวเลขเพื่อหาคำตอบอย่างมีเหตุผล"
+    },
+    "number-pattern-quiz": {
+      "title": "ตัวเลข รูปแบบ แบบทดสอบ | woori.today",
+      "description": "ตัวเลข รูปแบบ แบบทดสอบ: ใช้คำใบ้และรูปแบบตัวเลขเพื่อหาคำตอบอย่างมีเหตุผล"
+    },
+    "logic-reasoning-quiz": {
+      "title": "ตรรกะ การคิด แบบทดสอบ | woori.today",
+      "description": "ตรรกะ การคิด แบบทดสอบ: ใช้คำใบ้และรูปแบบตัวเลขเพื่อหาคำตอบอย่างมีเหตุผล"
+    },
+    "random-brain-teaser": {
+      "title": "สุ่ม สมอง ท้าทาย | woori.today",
+      "description": "สุ่ม สมอง ท้าทาย: ใช้คำใบ้และรูปแบบตัวเลขเพื่อหาคำตอบอย่างมีเหตุผล"
+    },
+    "math-basic": {
+      "title": "คณิตศาสตร์ พื้นฐาน | woori.today",
+      "description": "คณิตศาสตร์ พื้นฐาน: ฝึกคำนวณและเหตุผล ตั้งแต่เลขพื้นฐานถึงลำดับและความน่าจะเป็น"
+    },
+    "math-advanced": {
+      "title": "คณิตศาสตร์ ขั้นสูง | woori.today",
+      "description": "คณิตศาสตร์ ขั้นสูง: ฝึกคำนวณและเหตุผล ตั้งแต่เลขพื้นฐานถึงลำดับและความน่าจะเป็น"
+    },
+    "mental-arithmetic-test": {
+      "title": "คิดเลขในใจ เลขคณิต ทดสอบ | woori.today",
+      "description": "คิดเลขในใจ เลขคณิต ทดสอบ: ฝึกคำนวณและเหตุผล ตั้งแต่เลขพื้นฐานถึงลำดับและความน่าจะเป็น"
+    },
+    "sequence-math-quiz": {
+      "title": "ลำดับ คณิตศาสตร์ แบบทดสอบ | woori.today",
+      "description": "ลำดับ คณิตศาสตร์ แบบทดสอบ: ฝึกคำนวณและเหตุผล ตั้งแต่เลขพื้นฐานถึงลำดับและความน่าจะเป็น"
+    },
+    "probability-quiz": {
+      "title": "ความน่าจะเป็น แบบทดสอบ | woori.today",
+      "description": "ความน่าจะเป็น แบบทดสอบ: ฝึกคำนวณและเหตุผล ตั้งแต่เลขพื้นฐานถึงลำดับและความน่าจะเป็น"
+    },
+    "history-knowledge-quiz": {
+      "title": "ประวัติศาสตร์ ทั่วไป แบบทดสอบ | woori.today",
+      "description": "ประวัติศาสตร์ ทั่วไป แบบทดสอบ: ทบทวนเหตุการณ์และบุคคลสำคัญตามข้อเท็จจริงทางประวัติศาสตร์"
+    },
+    "ancient-civilizations-quiz": {
+      "title": "โบราณ อารยธรรม แบบทดสอบ | woori.today",
+      "description": "โบราณ อารยธรรม แบบทดสอบ: ทบทวนเหตุการณ์และบุคคลสำคัญตามข้อเท็จจริงทางประวัติศาสตร์"
+    },
+    "modern-history-knowledge": {
+      "title": "สมัยใหม่ ประวัติศาสตร์ ทั่วไป | woori.today",
+      "description": "สมัยใหม่ ประวัติศาสตร์ ทั่วไป: ทบทวนเหตุการณ์และบุคคลสำคัญตามข้อเท็จจริงทางประวัติศาสตร์"
+    },
+    "science-knowledge-quiz": {
+      "title": "วิทยาศาสตร์ ทั่วไป แบบทดสอบ | woori.today",
+      "description": "วิทยาศาสตร์ ทั่วไป แบบทดสอบ: ทบทวนหลักพื้นฐานของชีววิทยา เคมี ฟิสิกส์ และอวกาศ"
+    },
+    "space-quiz": {
+      "title": "อวกาศ แบบทดสอบ | woori.today",
+      "description": "อวกาศ แบบทดสอบ: ทบทวนหลักพื้นฐานของชีววิทยา เคมี ฟิสิกส์ และอวกาศ"
+    },
+    "biology-knowledge-quiz": {
+      "title": "ชีววิทยา ทั่วไป แบบทดสอบ | woori.today",
+      "description": "ชีววิทยา ทั่วไป แบบทดสอบ: ทบทวนหลักพื้นฐานของชีววิทยา เคมี ฟิสิกส์ และอวกาศ"
+    },
+    "world-geography": {
+      "title": "โลก ภูมิศาสตร์ | woori.today",
+      "description": "โลก ภูมิศาสตร์: นึกถึงที่ตั้งของทวีป ประเทศ เมืองหลวง และภูมิประเทศ"
+    },
+    "capital-cities-quiz": {
+      "title": "เมืองหลวง เมือง แบบทดสอบ | woori.today",
+      "description": "เมืองหลวง เมือง แบบทดสอบ: นึกถึงที่ตั้งของทวีป ประเทศ เมืองหลวง และภูมิประเทศ"
+    },
+    "country-knowledge-quiz": {
+      "title": "ประเทศ ทั่วไป แบบทดสอบ | woori.today",
+      "description": "ประเทศ ทั่วไป แบบทดสอบ: นึกถึงที่ตั้งของทวีป ประเทศ เมืองหลวง และภูมิประเทศ"
+    },
+    "language-knowledge-quiz": {
+      "title": "ภาษา ทั่วไป แบบทดสอบ | woori.today",
+      "description": "ภาษา ทั่วไป แบบทดสอบ: สำรวจคำศัพท์ ไวยากรณ์ และระบบตัวเขียนต่าง ๆ"
+    },
+    "english-vocabulary": {
+      "title": "อังกฤษ คำศัพท์ | woori.today",
+      "description": "อังกฤษ คำศัพท์: สำรวจคำศัพท์ ไวยากรณ์ และระบบตัวเขียนต่าง ๆ"
+    },
+    "it-development-quiz": {
+      "title": "ไอที พัฒนา แบบทดสอบ | woori.today",
+      "description": "ไอที พัฒนา แบบทดสอบ: ทบทวนพื้นฐานเว็บ การเขียนโปรแกรม ฐานข้อมูล และเครือข่าย"
+    },
+    "programming-knowledge-quiz": {
+      "title": "เขียนโปรแกรม ทั่วไป แบบทดสอบ | woori.today",
+      "description": "เขียนโปรแกรม ทั่วไป แบบทดสอบ: ทบทวนพื้นฐานเว็บ การเขียนโปรแกรม ฐานข้อมูล และเครือข่าย"
+    },
+    "random-quiz": {
+      "title": "สุ่ม แบบทดสอบ | woori.today",
+      "description": "สุ่ม แบบทดสอบ: เล่นคำถามชุดใหม่ที่สุ่มจากหลายหัวข้อ"
+    },
+    "random-math-10": {
+      "title": "สุ่ม คณิตศาสตร์ 10 | woori.today",
+      "description": "สุ่ม คณิตศาสตร์ 10: เล่นคำถามชุดใหม่ที่สุ่มจากหลายหัวข้อ"
+    },
+    "random-nonsense-10": {
+      "title": "สุ่ม ปริศนาชวนขำ 10 | woori.today",
+      "description": "สุ่ม ปริศนาชวนขำ 10: เล่นคำถามชุดใหม่ที่สุ่มจากหลายหัวข้อ"
+    },
+    "challenge-10": {
+      "title": "ท้าทาย 10 | woori.today",
+      "description": "ท้าทาย 10: ทำคำถามจำนวนที่กำหนดต่อเนื่องโดยรักษาสมาธิ"
+    },
+    "challenge-20": {
+      "title": "ท้าทาย 20 | woori.today",
+      "description": "ท้าทาย 20: ทำคำถามจำนวนที่กำหนดต่อเนื่องโดยรักษาสมาธิ"
+    }
+  },
+  "titleTermCount": 70,
+  "translatedQuizSlugs": [
+    "general-knowledge-quiz",
+    "everyday-knowledge-quiz",
+    "difficult-general-knowledge-quiz",
+    "world-capitals-quiz",
+    "country-flags-quiz",
+    "country-currency-quiz",
+    "country-location-quiz",
+    "asia-capitals-quiz",
+    "europe-capitals-quiz",
+    "world-geography-quiz",
+    "basic-science-quiz",
+    "physics-quiz",
+    "chemistry-quiz",
+    "biology-quiz",
+    "astronomy-quiz",
+    "difficult-science-quiz",
+    "world-history-quiz",
+    "korean-history-quiz",
+    "ancient-history-quiz",
+    "modern-history-quiz",
+    "addition-quiz",
+    "subtraction-quiz",
+    "multiplication-quiz",
+    "division-quiz",
+    "multiplication-table-quiz",
+    "mental-math-quiz",
+    "fraction-quiz",
+    "percentage-quiz",
+    "equation-quiz",
+    "arithmetic-challenge",
+    "english-vocabulary-quiz",
+    "english-spelling-quiz",
+    "english-grammar-quiz",
+    "hiragana-quiz",
+    "katakana-quiz",
+    "japanese-vocabulary-quiz",
+    "chinese-character-quiz",
+    "korean-vocabulary-quiz",
+    "computer-basics-quiz",
+    "programming-basics-quiz",
+    "web-development-quiz",
+    "database-quiz",
+    "network-basics-quiz",
+    "difficult-it-quiz",
+    "number-memory-test",
+    "word-memory-test",
+    "sequence-memory-test",
+    "visual-memory-test",
+    "pattern-recognition-test",
+    "concentration-test",
+    "reaction-time-test",
+    "click-speed-test",
+    "typing-speed-test",
+    "color-reaction-test",
+    "random-trivia-challenge",
+    "true-false-challenge",
+    "impossible-quiz",
+    "mixed-hard-quiz",
+    "general-knowledge",
+    "easy-general-knowledge",
+    "hard-general-knowledge",
+    "random-general-knowledge",
+    "adult-general-knowledge",
+    "daily-life-quiz",
+    "nonsense",
+    "easy-nonsense-quiz",
+    "riddle-quiz",
+    "brain-teaser",
+    "easy-brain-teaser",
+    "hard-brain-teaser",
+    "number-pattern-quiz",
+    "logic-reasoning-quiz",
+    "random-brain-teaser",
+    "math-basic",
+    "math-advanced",
+    "mental-arithmetic-test",
+    "sequence-math-quiz",
+    "probability-quiz",
+    "history-knowledge-quiz",
+    "ancient-civilizations-quiz",
+    "modern-history-knowledge",
+    "science-knowledge-quiz",
+    "space-quiz",
+    "biology-knowledge-quiz",
+    "world-geography",
+    "capital-cities-quiz",
+    "country-knowledge-quiz",
+    "language-knowledge-quiz",
+    "english-vocabulary",
+    "it-development-quiz",
+    "programming-knowledge-quiz",
+    "random-quiz",
+    "random-math-10",
+    "random-nonsense-10",
+    "challenge-10",
+    "challenge-20"
+  ],
+  "mathPrompts": {
+    "whatIsX": "จงหาค่าของ x",
+    "findX": "Find x.",
+    "decimal": "ทศนิยม",
+    "percentage": "WHOLE_SLOT มีค่า PERCENT_SLOT% เท่ากับเท่าไร?",
+    "fraction": "FIRST_FRACTION_SLOT + SECOND_FRACTION_SLOT = ? (ทศนิยม)"
+  },
+  "interactiveTest": {
+    "passage": "ความอยากรู้อยากเห็นเล็กๆ อาจนำไปสู่การค้นพบใหม่ อ่านช้าๆ แล้วพิมพ์ให้ถูกต้อง",
+    "copy": {
+      "start": "เริ่ม",
+      "tap": "คลิกเมื่อช่องเปลี่ยนเป็นสีเขียว",
+      "go": "คลิกเลย",
+      "tooSoon": "เร็วเกินไป ลองอีกครั้ง",
+      "done": "เสร็จแล้ว",
+      "submit": "ตรวจสอบ",
+      "remember": "จำสิ่งที่เห็น",
+      "type": "พิมพ์ที่นี่",
+      "accuracy": "ความแม่นยำ",
+      "errors": "ข้อผิดพลาด",
+      "wpm": "คำต่อนาที",
+      "time": "เวลา",
+      "clicks": "จำนวนคลิก",
+      "matched": "คู่ที่พบ",
+      "tryAgain": "ลองอีกครั้ง"
+    },
+    "memoryWords": "ทะเล แอปเปิล ดาว เมฆ",
+    "extraCopy": {
+      "moves": "จำนวนครั้ง",
+      "tapFast": "แตะให้เร็วที่สุด",
+      "cell": "ช่อง"
+    }
+  }
+}

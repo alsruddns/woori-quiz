@@ -1,0 +1,687 @@
+{
+  "localeName": "English",
+  "messages": {
+    "title": "Quiz",
+    "subtitle": "A little curiosity goes a long way.",
+    "search": "Search quizzes",
+    "today": "Quiz of the day",
+    "categories": "Categories",
+    "popular": "Popular quizzes",
+    "play": "Start quiz",
+    "question": "Question",
+    "next": "Next question",
+    "submit": "Check answer",
+    "result": "Your result",
+    "retry": "Try again",
+    "home": "Home",
+    "related": "Related quizzes",
+    "score": "Score",
+    "footer": "Privacy · Terms · Contact"
+  },
+  "ui": {
+    "familySites": "Family sites",
+    "portal": "Portal",
+    "calculator": "Calculator",
+    "tools": "Online tools",
+    "moneyBook": "Free shared money book",
+    "docs": "Documents & forms",
+    "quiz": "Quiz & tests",
+    "language": "Choose language",
+    "openMenu": "Open services menu",
+    "closeMenu": "Close services menu",
+    "allQuizzes": "All quizzes",
+    "freeToPlay": "Free to play",
+    "noAccount": "No account needed",
+    "heroEyebrow": "A moment of curiosity",
+    "heroTitle": "Wake up your curiosity today",
+    "heroDescription": "Take a quick challenge and enjoy a new discovery.",
+    "nextChallenge": "Pick your next challenge",
+    "searchEmpty": "No quizzes found.",
+    "questionSetReview": "Question set under review",
+    "difficulty": "Difficulty",
+    "startHeading": "Ready when you are",
+    "startDescription": "Take your time, trust what you know, and enjoy the challenge.",
+    "correct": "Correct!",
+    "incorrect": "Not quite.",
+    "accuracy": "Accuracy",
+    "finishedIn": "Finished in",
+    "seconds": "seconds",
+    "bestScore": "Your best score is saved on this device.",
+    "reviewHeading": "Question set under review",
+    "reviewDescription": "We are reviewing the localized questions. This quiz will be playable when the review is complete.",
+    "howToPlay": "How to play",
+    "howToDescription": "Choose an answer for each question. Your progress stays in this browser; no account or personal information is needed.",
+    "aboutQuiz": "About this quiz",
+    "faq": "FAQ",
+    "scoreUploadedQuestion": "Is my score uploaded?",
+    "scoreUploadedAnswer": "No. Your score is stored only in this browser.",
+    "interactiveTest": "Interactive test",
+    "localeCount": "26 languages",
+    "dynamicGeneration": "Questions generated for each round",
+    "back": "Quiz list",
+    "footerTagline": "Made for curious minds, everywhere.",
+    "privacy": "Privacy",
+    "guidelines": "Guidelines",
+    "contact": "Contact",
+    "copyright": "© 2026 woori.today",
+    "searchLabel": "Search quizzes",
+    "quizCount": "COUNT_SLOT",
+    "questionCount": "COUNT_SLOT",
+    "quizSummary": "Try TITLE_SLOT and enjoy a quick way to test what you know.",
+    "category": {
+      "general": "General knowledge",
+      "geography": "World geography",
+      "science": "Science",
+      "history": "History",
+      "math": "Math",
+      "language": "Language",
+      "technology": "IT",
+      "memory": "Memory & brain",
+      "speed": "Speed & reaction",
+      "fun": "Just for fun"
+    },
+    "difficultyLabels": {
+      "easy": "Easy",
+      "medium": "Medium",
+      "hard": "Hard",
+      "expert": "Expert"
+    }
+  },
+  "uiCountForms": {
+    "quizCount": {
+      "other": "COUNT_SLOT quizzes",
+      "one": "COUNT_SLOT quizzes"
+    },
+    "questionCount": {
+      "other": "COUNT_SLOT questions",
+      "one": "COUNT_SLOT questions"
+    }
+  },
+  "uiSummary": "Try TITLE_SLOT and enjoy a quick way to test what you know.",
+  "discovery": {
+    "intro": "Explore quizzes from general knowledge and math to brain teasers.",
+    "quickStart": "Quick start",
+    "searchResults": "Search results",
+    "browseCategories": "Choose a category",
+    "clearSearch": "Clear search",
+    "resultsForForms": {
+      "other": "COUNT_SLOT quizzes for “QUERY_SLOT”",
+      "one": "COUNT_SLOT quizzes for “QUERY_SLOT”"
+    }
+  },
+  "detail": {
+    "correctCount": "Correct",
+    "incorrectCount": "Incorrect",
+    "newSet": "Try new questions",
+    "otherQuizzes": "Browse other quizzes"
+  },
+  "categoryLabels": {
+    "general": "General knowledge",
+    "nonsense": "Nonsense & Riddles",
+    "math": "Math",
+    "brain": "Brain Teasers",
+    "history": "History",
+    "science": "Science",
+    "geography": "World geography",
+    "language": "Language",
+    "technology": "IT",
+    "memory": "Memory & brain",
+    "random": "Random Quiz",
+    "challenge": "Challenge",
+    "speed": "Speed & reaction",
+    "fun": "Just for fun"
+  },
+  "categoryDescriptions": {
+    "general": "Check everyday facts across a broad mix of subjects.",
+    "nonsense": "Solve short riddles by looking for a playful twist in the wording.",
+    "math": "Practice calculation and reasoning, from arithmetic to sequences and probability.",
+    "brain": "Use clues, number patterns, and logical steps to find an answer.",
+    "history": "Explore factual milestones, people, and events from ancient to modern history.",
+    "science": "Review basic ideas in biology, chemistry, physics, and space.",
+    "geography": "Recall where continents, countries, capitals, and natural features are found.",
+    "language": "Explore vocabulary, grammar, and writing systems across languages.",
+    "technology": "Review foundations of the web, programming, databases, and networks.",
+    "memory": "Remember numbers, words, and sequences or spot visual changes.",
+    "random": "Play a fresh mix of questions drawn from several subjects.",
+    "challenge": "Stay focused through a fixed set of consecutive questions.",
+    "speed": "Measure reaction time, clicking, or typing speed directly.",
+    "fun": "Take a short break with light trivia and playful challenges."
+  },
+  "serviceGuide": {
+    "categories": "Explore by subject",
+    "how": "How quizzes work",
+    "account": "Choose a quiz and select an answer for each question. No account is needed; results stay in this browser.",
+    "score": "How should I read my score?",
+    "scoreLow": "This topic is worth more practice. Read the explanations and try again.",
+    "scoreMid": "You know the basics. Review the explanations for questions you missed.",
+    "scoreHigh": "You did well on this set. Try another subject or a fresh set of questions.",
+    "scoreNote": "Your score is the accuracy for this set, not a diagnosis of ability or health.",
+    "focus": "What this quiz covers"
+  },
+  "advertisement": "Advertisement",
+  "difficulty": "All difficulties",
+  "quizTitles": {
+    "general-knowledge-quiz": "General Knowledge Quiz",
+    "everyday-knowledge-quiz": "Everyday Knowledge Quiz",
+    "difficult-general-knowledge-quiz": "Difficult General Knowledge Quiz",
+    "world-capitals-quiz": "World Capitals Quiz",
+    "country-flags-quiz": "Country Flags Quiz",
+    "country-currency-quiz": "Country Currency Quiz",
+    "country-location-quiz": "Country Location Quiz",
+    "asia-capitals-quiz": "Asian Capitals Quiz",
+    "europe-capitals-quiz": "European Capitals Quiz",
+    "world-geography-quiz": "World Geography Quiz",
+    "basic-science-quiz": "Basic Science Quiz",
+    "physics-quiz": "Physics Quiz",
+    "chemistry-quiz": "Chemistry Quiz",
+    "biology-quiz": "Biology Quiz",
+    "astronomy-quiz": "Astronomy Quiz",
+    "difficult-science-quiz": "Difficult Science Quiz",
+    "world-history-quiz": "World History Quiz",
+    "korean-history-quiz": "Korean History Quiz",
+    "ancient-history-quiz": "Ancient History Quiz",
+    "modern-history-quiz": "Modern History Quiz",
+    "addition-quiz": "Addition Quiz",
+    "subtraction-quiz": "Subtraction Quiz",
+    "multiplication-quiz": "Multiplication Quiz",
+    "division-quiz": "Division Quiz",
+    "multiplication-table-quiz": "Multiplication Table Quiz",
+    "mental-math-quiz": "Mental Math Quiz",
+    "fraction-quiz": "Fraction Quiz",
+    "percentage-quiz": "Percentage Quiz",
+    "equation-quiz": "Equation Quiz",
+    "arithmetic-challenge": "Arithmetic Challenge",
+    "english-vocabulary-quiz": "English Vocabulary Quiz",
+    "english-spelling-quiz": "English Spelling Quiz",
+    "english-grammar-quiz": "English Grammar Quiz",
+    "hiragana-quiz": "Hiragana Quiz",
+    "katakana-quiz": "Katakana Quiz",
+    "japanese-vocabulary-quiz": "Japanese Vocabulary Quiz",
+    "chinese-character-quiz": "Chinese Character Quiz",
+    "korean-vocabulary-quiz": "Korean Vocabulary Quiz",
+    "computer-basics-quiz": "Computer Basics Quiz",
+    "programming-basics-quiz": "Programming Basics Quiz",
+    "web-development-quiz": "Web Development Quiz",
+    "database-quiz": "Database Quiz",
+    "network-basics-quiz": "Network Basics Quiz",
+    "difficult-it-quiz": "Difficult IT Quiz",
+    "number-memory-test": "Number Memory Test",
+    "word-memory-test": "Word Memory Test",
+    "sequence-memory-test": "Sequence Memory Test",
+    "visual-memory-test": "Visual Memory Test",
+    "pattern-recognition-test": "Pattern Recognition Test",
+    "concentration-test": "Concentration Test",
+    "reaction-time-test": "Reaction Time Test",
+    "click-speed-test": "Click Speed Test",
+    "typing-speed-test": "Typing Speed Test",
+    "color-reaction-test": "Color Reaction Test",
+    "random-trivia-challenge": "Random Trivia Challenge",
+    "true-false-challenge": "True or False Challenge",
+    "impossible-quiz": "Impossible Quiz",
+    "mixed-hard-quiz": "Mixed Hard Quiz",
+    "general-knowledge": "General Knowledge Quiz",
+    "easy-general-knowledge": "Easy General Knowledge Quiz",
+    "hard-general-knowledge": "Hard General Knowledge Quiz",
+    "random-general-knowledge": "Random General Knowledge Quiz",
+    "adult-general-knowledge": "Adult General Knowledge Quiz",
+    "daily-life-quiz": "Everyday Life Quiz",
+    "nonsense": "Nonsense Riddles",
+    "easy-nonsense-quiz": "Easy Nonsense Quiz",
+    "riddle-quiz": "Riddle Quiz",
+    "brain-teaser": "Brain Teaser - Wake Up Your Brain",
+    "easy-brain-teaser": "Easy Brain Teaser",
+    "hard-brain-teaser": "Hard Brain Teaser",
+    "number-pattern-quiz": "Number Pattern Quiz",
+    "logic-reasoning-quiz": "Logic and Reasoning Quiz",
+    "random-brain-teaser": "Random Brain Teaser",
+    "math-basic": "Basic Math Quiz",
+    "math-advanced": "Advanced Math Quiz",
+    "mental-arithmetic-test": "Mental Arithmetic Test",
+    "sequence-math-quiz": "Math Sequence Quiz",
+    "probability-quiz": "Probability Quiz",
+    "history-knowledge-quiz": "History Knowledge Quiz",
+    "ancient-civilizations-quiz": "Ancient Civilizations Quiz",
+    "modern-history-knowledge": "Modern History Knowledge Quiz",
+    "science-knowledge-quiz": "Science Knowledge Quiz",
+    "space-quiz": "Space and Astronomy Quiz",
+    "biology-knowledge-quiz": "Biology Knowledge Quiz",
+    "world-geography": "World Geography Quiz",
+    "capital-cities-quiz": "Capital Cities Quiz",
+    "country-knowledge-quiz": "Country Knowledge Quiz",
+    "language-knowledge-quiz": "Language Quiz",
+    "english-vocabulary": "English Vocabulary Quiz",
+    "it-development-quiz": "IT and Development Quiz",
+    "programming-knowledge-quiz": "Programming Knowledge Quiz",
+    "random-quiz": "Fully Random Quiz",
+    "random-math-10": "Random Math 10 Questions",
+    "random-nonsense-10": "Random Nonsense 10 Questions",
+    "challenge-10": "10 Question Challenge",
+    "challenge-20": "20 Question Challenge"
+  },
+  "quizDescriptions": {
+    "addition-quiz": "A easy-to-medium addition quiz for curious minds.",
+    "subtraction-quiz": "A easy-to-medium subtraction quiz for curious minds.",
+    "multiplication-quiz": "A easy-to-medium multiplication quiz for curious minds.",
+    "division-quiz": "A easy-to-medium division quiz for curious minds.",
+    "multiplication-table-quiz": "A easy-to-medium multiplication table quiz for curious minds.",
+    "mental-math-quiz": "A medium-to-hard mental math quiz for curious minds.",
+    "fraction-quiz": "A medium-to-hard fraction quiz for curious minds.",
+    "percentage-quiz": "A medium-to-hard percentage quiz for curious minds.",
+    "equation-quiz": "A hard-to-expert equation quiz for curious minds.",
+    "arithmetic-challenge": "A medium-to-expert arithmetic challenge for curious minds.",
+    "number-memory-test": "A medium-to-medium number memory test for curious minds.",
+    "word-memory-test": "A medium-to-medium word memory test for curious minds.",
+    "sequence-memory-test": "A medium-to-medium sequence memory test for curious minds.",
+    "visual-memory-test": "A medium-to-medium visual memory test for curious minds.",
+    "pattern-recognition-test": "A medium-to-hard pattern recognition test for curious minds.",
+    "concentration-test": "A medium-to-medium concentration test for curious minds.",
+    "reaction-time-test": "A medium-to-medium reaction time test for curious minds.",
+    "click-speed-test": "A medium-to-medium click speed test for curious minds.",
+    "typing-speed-test": "A medium-to-medium typing speed test for curious minds.",
+    "color-reaction-test": "A medium-to-medium color reaction test for curious minds.",
+    "general-knowledge": "A broad set of timeless everyday facts, science basics, and world knowledge questions.",
+    "easy-general-knowledge": "A welcoming general knowledge round with clear, beginner-friendly questions.",
+    "hard-general-knowledge": "A challenging general knowledge set for players who want a tougher round.",
+    "random-general-knowledge": "A fresh random selection of general knowledge questions on every attempt.",
+    "adult-general-knowledge": "A mixed general knowledge quiz for adult players, focused on evergreen facts.",
+    "daily-life-quiz": "Test practical knowledge about measurements, objects, and everyday facts.",
+    "nonsense": "Short, playful riddles with one clear answer. Take a moment to spot the twist.",
+    "easy-nonsense-quiz": "A light set of familiar, accessible riddles for a quick break.",
+    "riddle-quiz": "Solve concise riddles using careful reading and lateral thinking.",
+    "brain-teaser": "Try logic, patterns, numbers, and deduction puzzles to give your brain a gentle workout.",
+    "easy-brain-teaser": "Warm up with approachable logic and sequence puzzles.",
+    "hard-brain-teaser": "A tougher collection of logic, sequence, and lateral-thinking questions.",
+    "number-pattern-quiz": "Find the rule behind number sequences and predict what comes next.",
+    "logic-reasoning-quiz": "Use clues, implications, and careful reasoning to solve each question.",
+    "random-brain-teaser": "A new randomized mix of brain teasers on each round.",
+    "math-basic": "Practice arithmetic, fractions, percentages, equations, and number patterns.",
+    "math-advanced": "Challenge yourself with equations, probability, sequences, and multi-step math.",
+    "mental-arithmetic-test": "Solve arithmetic questions in your head with a fresh randomized set.",
+    "sequence-math-quiz": "Use arithmetic patterns and number sequences to find the missing term.",
+    "probability-quiz": "Check your understanding of simple probability and fair outcomes.",
+    "history-knowledge-quiz": "Explore enduring milestones and people from world history.",
+    "ancient-civilizations-quiz": "Review facts about ancient Egypt, Greece, Rome, and other civilizations.",
+    "modern-history-knowledge": "Test knowledge of major events from the modern era.",
+    "science-knowledge-quiz": "A broad science round covering physics, biology, chemistry, and space.",
+    "space-quiz": "Explore planets, stars, and basic facts about the universe.",
+    "biology-knowledge-quiz": "Review cells, living things, and core biology concepts.",
+    "world-geography": "Explore continents, oceans, countries, rivers, and world landmarks.",
+    "capital-cities-quiz": "Test your knowledge of capital cities around the world.",
+    "country-knowledge-quiz": "Identify countries through their geography, flags, and notable places.",
+    "language-knowledge-quiz": "Practice vocabulary, spelling, grammar, and language concepts.",
+    "english-vocabulary": "Build English vocabulary with meanings, synonyms, and usage questions.",
+    "it-development-quiz": "Test foundational knowledge of programming, databases, networks, and the web.",
+    "programming-knowledge-quiz": "Review core concepts shared by programming languages and tools.",
+    "random-quiz": "A mixed random set drawn from all available question categories.",
+    "random-math-10": "Ten randomly selected math questions in a quick practice round.",
+    "random-nonsense-10": "Ten playful riddles selected at random for a light challenge.",
+    "challenge-10": "Take on a ten-question mixed challenge and check your final score.",
+    "challenge-20": "Take on a longer twenty-question mixed challenge."
+  },
+  "quizSeo": {
+    "addition-quiz": {
+      "title": "Addition Quiz | woori.today",
+      "description": "A easy-to-medium addition quiz for curious minds."
+    },
+    "subtraction-quiz": {
+      "title": "Subtraction Quiz | woori.today",
+      "description": "A easy-to-medium subtraction quiz for curious minds."
+    },
+    "multiplication-quiz": {
+      "title": "Multiplication Quiz | woori.today",
+      "description": "A easy-to-medium multiplication quiz for curious minds."
+    },
+    "division-quiz": {
+      "title": "Division Quiz | woori.today",
+      "description": "A easy-to-medium division quiz for curious minds."
+    },
+    "multiplication-table-quiz": {
+      "title": "Multiplication Table Quiz | woori.today",
+      "description": "A easy-to-medium multiplication table quiz for curious minds."
+    },
+    "mental-math-quiz": {
+      "title": "Mental Math Quiz | woori.today",
+      "description": "A medium-to-hard mental math quiz for curious minds."
+    },
+    "fraction-quiz": {
+      "title": "Fraction Quiz | woori.today",
+      "description": "A medium-to-hard fraction quiz for curious minds."
+    },
+    "percentage-quiz": {
+      "title": "Percentage Quiz | woori.today",
+      "description": "A medium-to-hard percentage quiz for curious minds."
+    },
+    "equation-quiz": {
+      "title": "Equation Quiz | woori.today",
+      "description": "A hard-to-expert equation quiz for curious minds."
+    },
+    "arithmetic-challenge": {
+      "title": "Arithmetic Challenge | woori.today",
+      "description": "A medium-to-expert arithmetic challenge for curious minds."
+    },
+    "number-memory-test": {
+      "title": "Number Memory Test | woori.today",
+      "description": "A medium-to-medium number memory test for curious minds."
+    },
+    "word-memory-test": {
+      "title": "Word Memory Test | woori.today",
+      "description": "A medium-to-medium word memory test for curious minds."
+    },
+    "sequence-memory-test": {
+      "title": "Sequence Memory Test | woori.today",
+      "description": "A medium-to-medium sequence memory test for curious minds."
+    },
+    "visual-memory-test": {
+      "title": "Visual Memory Test | woori.today",
+      "description": "A medium-to-medium visual memory test for curious minds."
+    },
+    "pattern-recognition-test": {
+      "title": "Pattern Recognition Test | woori.today",
+      "description": "A medium-to-hard pattern recognition test for curious minds."
+    },
+    "concentration-test": {
+      "title": "Concentration Test | woori.today",
+      "description": "A medium-to-medium concentration test for curious minds."
+    },
+    "reaction-time-test": {
+      "title": "Reaction Time Test | woori.today",
+      "description": "A medium-to-medium reaction time test for curious minds."
+    },
+    "click-speed-test": {
+      "title": "Click Speed Test | woori.today",
+      "description": "A medium-to-medium click speed test for curious minds."
+    },
+    "typing-speed-test": {
+      "title": "Typing Speed Test | woori.today",
+      "description": "A medium-to-medium typing speed test for curious minds."
+    },
+    "color-reaction-test": {
+      "title": "Color Reaction Test | woori.today",
+      "description": "A medium-to-medium color reaction test for curious minds."
+    },
+    "general-knowledge": {
+      "title": "General Knowledge Quiz | woori.today",
+      "description": "A broad set of timeless everyday facts, science basics, and world knowledge questions."
+    },
+    "easy-general-knowledge": {
+      "title": "Easy General Knowledge Quiz | woori.today",
+      "description": "A welcoming general knowledge round with clear, beginner-friendly questions."
+    },
+    "hard-general-knowledge": {
+      "title": "Hard General Knowledge Quiz | woori.today",
+      "description": "A challenging general knowledge set for players who want a tougher round."
+    },
+    "random-general-knowledge": {
+      "title": "Random General Knowledge Quiz | woori.today",
+      "description": "A fresh random selection of general knowledge questions on every attempt."
+    },
+    "adult-general-knowledge": {
+      "title": "Adult General Knowledge Quiz | woori.today",
+      "description": "A mixed general knowledge quiz for adult players, focused on evergreen facts."
+    },
+    "daily-life-quiz": {
+      "title": "Everyday Life Quiz | woori.today",
+      "description": "Test practical knowledge about measurements, objects, and everyday facts."
+    },
+    "nonsense": {
+      "title": "Nonsense Riddles | woori.today",
+      "description": "Short, playful riddles with one clear answer. Take a moment to spot the twist."
+    },
+    "easy-nonsense-quiz": {
+      "title": "Easy Nonsense Quiz | woori.today",
+      "description": "A light set of familiar, accessible riddles for a quick break."
+    },
+    "riddle-quiz": {
+      "title": "Riddle Quiz | woori.today",
+      "description": "Solve concise riddles using careful reading and lateral thinking."
+    },
+    "brain-teaser": {
+      "title": "Brain Teaser - Wake Up Your Brain | woori.today",
+      "description": "Wake up your brain with free logic, pattern, number, memory, and deduction puzzles in this brain teaser quiz."
+    },
+    "easy-brain-teaser": {
+      "title": "Easy Brain Teaser | woori.today",
+      "description": "Warm up with approachable logic and sequence puzzles."
+    },
+    "hard-brain-teaser": {
+      "title": "Hard Brain Teaser | woori.today",
+      "description": "A tougher collection of logic, sequence, and lateral-thinking questions."
+    },
+    "number-pattern-quiz": {
+      "title": "Number Pattern Quiz | woori.today",
+      "description": "Find the rule behind number sequences and predict what comes next."
+    },
+    "logic-reasoning-quiz": {
+      "title": "Logic and Reasoning Quiz | woori.today",
+      "description": "Use clues, implications, and careful reasoning to solve each question."
+    },
+    "random-brain-teaser": {
+      "title": "Random Brain Teaser | woori.today",
+      "description": "A new randomized mix of brain teasers on each round."
+    },
+    "math-basic": {
+      "title": "Basic Math Quiz | woori.today",
+      "description": "Practice arithmetic, fractions, percentages, equations, and number patterns."
+    },
+    "math-advanced": {
+      "title": "Advanced Math Quiz | woori.today",
+      "description": "Challenge yourself with equations, probability, sequences, and multi-step math."
+    },
+    "mental-arithmetic-test": {
+      "title": "Mental Arithmetic Test | woori.today",
+      "description": "Solve arithmetic questions in your head with a fresh randomized set."
+    },
+    "sequence-math-quiz": {
+      "title": "Math Sequence Quiz | woori.today",
+      "description": "Use arithmetic patterns and number sequences to find the missing term."
+    },
+    "probability-quiz": {
+      "title": "Probability Quiz | woori.today",
+      "description": "Check your understanding of simple probability and fair outcomes."
+    },
+    "history-knowledge-quiz": {
+      "title": "History Knowledge Quiz | woori.today",
+      "description": "Explore enduring milestones and people from world history."
+    },
+    "ancient-civilizations-quiz": {
+      "title": "Ancient Civilizations Quiz | woori.today",
+      "description": "Review facts about ancient Egypt, Greece, Rome, and other civilizations."
+    },
+    "modern-history-knowledge": {
+      "title": "Modern History Knowledge Quiz | woori.today",
+      "description": "Test knowledge of major events from the modern era."
+    },
+    "science-knowledge-quiz": {
+      "title": "Science Knowledge Quiz | woori.today",
+      "description": "A broad science round covering physics, biology, chemistry, and space."
+    },
+    "space-quiz": {
+      "title": "Space and Astronomy Quiz | woori.today",
+      "description": "Explore planets, stars, and basic facts about the universe."
+    },
+    "biology-knowledge-quiz": {
+      "title": "Biology Knowledge Quiz | woori.today",
+      "description": "Review cells, living things, and core biology concepts."
+    },
+    "world-geography": {
+      "title": "World Geography Quiz | woori.today",
+      "description": "Explore continents, oceans, countries, rivers, and world landmarks."
+    },
+    "capital-cities-quiz": {
+      "title": "Capital Cities Quiz | woori.today",
+      "description": "Test your knowledge of capital cities around the world."
+    },
+    "country-knowledge-quiz": {
+      "title": "Country Knowledge Quiz | woori.today",
+      "description": "Identify countries through their geography, flags, and notable places."
+    },
+    "language-knowledge-quiz": {
+      "title": "Language Quiz | woori.today",
+      "description": "Practice vocabulary, spelling, grammar, and language concepts."
+    },
+    "english-vocabulary": {
+      "title": "English Vocabulary Quiz | woori.today",
+      "description": "Build English vocabulary with meanings, synonyms, and usage questions."
+    },
+    "it-development-quiz": {
+      "title": "IT and Development Quiz | woori.today",
+      "description": "Test foundational knowledge of programming, databases, networks, and the web."
+    },
+    "programming-knowledge-quiz": {
+      "title": "Programming Knowledge Quiz | woori.today",
+      "description": "Review core concepts shared by programming languages and tools."
+    },
+    "random-quiz": {
+      "title": "Fully Random Quiz | woori.today",
+      "description": "A mixed random set drawn from all available question categories."
+    },
+    "random-math-10": {
+      "title": "Random Math 10 Questions | woori.today",
+      "description": "Ten randomly selected math questions in a quick practice round."
+    },
+    "random-nonsense-10": {
+      "title": "Random Nonsense 10 Questions | woori.today",
+      "description": "Ten playful riddles selected at random for a light challenge."
+    },
+    "challenge-10": {
+      "title": "10 Question Challenge | woori.today",
+      "description": "Take on a ten-question mixed challenge and check your final score."
+    },
+    "challenge-20": {
+      "title": "20 Question Challenge | woori.today",
+      "description": "Take on a longer twenty-question mixed challenge."
+    }
+  },
+  "titleTermCount": 70,
+  "translatedQuizSlugs": [
+    "general-knowledge-quiz",
+    "everyday-knowledge-quiz",
+    "difficult-general-knowledge-quiz",
+    "world-capitals-quiz",
+    "country-flags-quiz",
+    "country-currency-quiz",
+    "country-location-quiz",
+    "asia-capitals-quiz",
+    "europe-capitals-quiz",
+    "world-geography-quiz",
+    "basic-science-quiz",
+    "physics-quiz",
+    "chemistry-quiz",
+    "biology-quiz",
+    "astronomy-quiz",
+    "difficult-science-quiz",
+    "world-history-quiz",
+    "korean-history-quiz",
+    "ancient-history-quiz",
+    "modern-history-quiz",
+    "addition-quiz",
+    "subtraction-quiz",
+    "multiplication-quiz",
+    "division-quiz",
+    "multiplication-table-quiz",
+    "mental-math-quiz",
+    "fraction-quiz",
+    "percentage-quiz",
+    "equation-quiz",
+    "arithmetic-challenge",
+    "english-vocabulary-quiz",
+    "english-spelling-quiz",
+    "english-grammar-quiz",
+    "hiragana-quiz",
+    "katakana-quiz",
+    "japanese-vocabulary-quiz",
+    "chinese-character-quiz",
+    "korean-vocabulary-quiz",
+    "computer-basics-quiz",
+    "programming-basics-quiz",
+    "web-development-quiz",
+    "database-quiz",
+    "network-basics-quiz",
+    "difficult-it-quiz",
+    "number-memory-test",
+    "word-memory-test",
+    "sequence-memory-test",
+    "visual-memory-test",
+    "pattern-recognition-test",
+    "concentration-test",
+    "reaction-time-test",
+    "click-speed-test",
+    "typing-speed-test",
+    "color-reaction-test",
+    "random-trivia-challenge",
+    "true-false-challenge",
+    "impossible-quiz",
+    "mixed-hard-quiz",
+    "general-knowledge",
+    "easy-general-knowledge",
+    "hard-general-knowledge",
+    "random-general-knowledge",
+    "adult-general-knowledge",
+    "daily-life-quiz",
+    "nonsense",
+    "easy-nonsense-quiz",
+    "riddle-quiz",
+    "brain-teaser",
+    "easy-brain-teaser",
+    "hard-brain-teaser",
+    "number-pattern-quiz",
+    "logic-reasoning-quiz",
+    "random-brain-teaser",
+    "math-basic",
+    "math-advanced",
+    "mental-arithmetic-test",
+    "sequence-math-quiz",
+    "probability-quiz",
+    "history-knowledge-quiz",
+    "ancient-civilizations-quiz",
+    "modern-history-knowledge",
+    "science-knowledge-quiz",
+    "space-quiz",
+    "biology-knowledge-quiz",
+    "world-geography",
+    "capital-cities-quiz",
+    "country-knowledge-quiz",
+    "language-knowledge-quiz",
+    "english-vocabulary",
+    "it-development-quiz",
+    "programming-knowledge-quiz",
+    "random-quiz",
+    "random-math-10",
+    "random-nonsense-10",
+    "challenge-10",
+    "challenge-20"
+  ],
+  "mathPrompts": {
+    "whatIsX": "Find x.",
+    "findX": "Find x.",
+    "decimal": "decimal",
+    "percentage": "PERCENT_SLOT% of WHOLE_SLOT = ?",
+    "fraction": "FIRST_FRACTION_SLOT + SECOND_FRACTION_SLOT = ? (decimal)"
+  },
+  "interactiveTest": {
+    "passage": "A small curiosity can lead to a wonderful discovery. Take your time and type each word clearly.",
+    "copy": {
+      "start": "Start",
+      "tap": "Click when the card turns green",
+      "go": "CLICK NOW",
+      "tooSoon": "Too soon! Try again.",
+      "done": "Finished",
+      "submit": "Check",
+      "remember": "Remember what you see",
+      "type": "Type here",
+      "accuracy": "Accuracy",
+      "errors": "Errors",
+      "wpm": "WPM",
+      "time": "Time",
+      "clicks": "Clicks",
+      "matched": "Pairs found",
+      "tryAgain": "Try again"
+    },
+    "memoryWords": "ocean apple star cloud",
+    "extraCopy": {
+      "moves": "Moves",
+      "tapFast": "Tap as fast as you can",
+      "cell": "Cell"
+    }
+  }
+}

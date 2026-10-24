@@ -1,0 +1,690 @@
+{
+  "localeName": "Français",
+  "messages": {
+    "title": "Quiz",
+    "subtitle": "Éveillez votre curiosité chaque jour.",
+    "search": "Rechercher",
+    "today": "Quiz du jour",
+    "categories": "Catégories",
+    "popular": "Quiz populaires",
+    "play": "Commencer",
+    "question": "Question",
+    "next": "Suivant",
+    "submit": "Vérifier",
+    "result": "Résultat",
+    "retry": "Recommencer",
+    "home": "Accueil",
+    "related": "Quiz similaires",
+    "score": "Score",
+    "footer": "Confidentialité · Aide · Contact"
+  },
+  "ui": {
+    "familySites": "Services associés",
+    "portal": "Portail",
+    "calculator": "Calculatrice",
+    "tools": "Outils en ligne",
+    "moneyBook": "Carnet de comptes partagé gratuit",
+    "docs": "Documents et formulaires",
+    "quiz": "Quiz et tests",
+    "language": "Choisir la langue",
+    "openMenu": "Ouvrir le menu des services",
+    "closeMenu": "Fermer le menu des services",
+    "allQuizzes": "Tous les quiz",
+    "freeToPlay": "Gratuit",
+    "noAccount": "Sans inscription",
+    "heroEyebrow": "Un instant de curiosité",
+    "heroTitle": "Éveillez votre curiosité avec un quiz",
+    "heroDescription": "Relevez un défi rapide et faites une nouvelle découverte.",
+    "nextChallenge": "Choisissez votre prochain défi",
+    "searchEmpty": "Aucun quiz trouvé.",
+    "questionSetReview": "Questions en cours de vérification",
+    "difficulty": "Difficulté",
+    "startHeading": "Commencez quand vous le souhaitez",
+    "startDescription": "Prenez votre temps et profitez du défi.",
+    "correct": "Bonne réponse !",
+    "incorrect": "Ce n’est pas tout à fait ça.",
+    "accuracy": "Précision",
+    "finishedIn": "Terminé en",
+    "seconds": "secondes",
+    "bestScore": "Votre meilleur score est enregistré sur cet appareil.",
+    "reviewHeading": "Questions en cours de vérification",
+    "reviewDescription": "Nous vérifions les questions traduites. Ce quiz sera disponible une fois cette vérification terminée.",
+    "howToPlay": "Comment jouer",
+    "howToDescription": "Choisissez une réponse à chaque question. Votre progression reste dans ce navigateur ; aucun compte ni renseignement personnel n’est nécessaire.",
+    "aboutQuiz": "À propos de ce quiz",
+    "faq": "Questions fréquentes",
+    "scoreUploadedQuestion": "Mon score est-il envoyé ?",
+    "scoreUploadedAnswer": "Non. Votre score est enregistré uniquement dans ce navigateur.",
+    "interactiveTest": "Test interactif",
+    "localeCount": "26 langues",
+    "dynamicGeneration": "Questions générées à chaque partie",
+    "back": "Liste des quiz",
+    "footerTagline": "Pour les esprits curieux, partout.",
+    "privacy": "Confidentialité",
+    "guidelines": "Guide d’utilisation",
+    "contact": "Contact",
+    "copyright": "© 2026 woori.today",
+    "searchLabel": "Rechercher des quiz",
+    "quizCount": "COUNT_SLOT",
+    "questionCount": "COUNT_SLOT",
+    "quizSummary": "Testez vos connaissances avec TITLE_SLOT tout en vous amusant.",
+    "category": {
+      "general": "Culture générale",
+      "geography": "Monde et géographie",
+      "science": "Sciences",
+      "history": "Histoire",
+      "math": "Mathématiques",
+      "language": "Langues",
+      "technology": "Informatique",
+      "memory": "Mémoire et cerveau",
+      "speed": "Vitesse et réflexes",
+      "fun": "Défis amusants"
+    },
+    "difficultyLabels": {
+      "easy": "Facile",
+      "medium": "Moyen",
+      "hard": "Difficile",
+      "expert": "Expert"
+    }
+  },
+  "uiCountForms": {
+    "quizCount": {
+      "one": "COUNT_SLOT quiz",
+      "other": "COUNT_SLOT quiz",
+      "many": "COUNT_SLOT quiz"
+    },
+    "questionCount": {
+      "one": "COUNT_SLOT questions",
+      "other": "COUNT_SLOT questions",
+      "many": "COUNT_SLOT questions"
+    }
+  },
+  "uiSummary": "Testez vos connaissances avec TITLE_SLOT tout en vous amusant.",
+  "discovery": {
+    "intro": "Explorez des quiz de culture générale, de maths et de logique.",
+    "quickStart": "Commencer vite",
+    "searchResults": "Résultats de recherche",
+    "browseCategories": "Choisir une catégorie",
+    "clearSearch": "Effacer la recherche",
+    "resultsForForms": {
+      "one": "COUNT_SLOT quiz pour « QUERY_SLOT »",
+      "other": "COUNT_SLOT quiz pour « QUERY_SLOT »",
+      "many": "COUNT_SLOT quiz pour « QUERY_SLOT »"
+    }
+  },
+  "detail": {
+    "correctCount": "Bonnes réponses",
+    "incorrectCount": "Erreurs",
+    "newSet": "Essayer de nouvelles questions",
+    "otherQuizzes": "Voir d’autres quiz"
+  },
+  "categoryLabels": {
+    "general": "Culture générale",
+    "nonsense": "Devinettes et énigmes",
+    "math": "Mathématiques",
+    "brain": "Défis cérébraux",
+    "history": "Histoire",
+    "science": "Sciences",
+    "geography": "Monde et géographie",
+    "language": "Langues",
+    "technology": "Informatique",
+    "memory": "Mémoire et cerveau",
+    "random": "Quiz aléatoire",
+    "challenge": "Défi",
+    "speed": "Vitesse et réflexes",
+    "fun": "Défis amusants"
+  },
+  "categoryDescriptions": {
+    "general": "Vérifiez vos connaissances du quotidien sur des sujets variés.",
+    "nonsense": "Résolvez de courtes énigmes en repérant les jeux de mots.",
+    "math": "Exercez calcul et raisonnement, de l'arithmétique aux suites et probabilités.",
+    "brain": "Utilisez indices et motifs numériques pour déduire une réponse.",
+    "history": "Revoyez les faits, personnages et événements de l'Antiquité à l'époque moderne.",
+    "science": "Reprenez les bases de la biologie, de la chimie, de la physique et de l'espace.",
+    "geography": "Situez continents, pays, capitales et reliefs naturels.",
+    "language": "Explorez le vocabulaire, la grammaire et les systèmes d'écriture.",
+    "technology": "Revoyez les bases du Web, de la programmation, des bases de données et des réseaux.",
+    "memory": "Mémorisez nombres, mots et suites ou repérez des changements visuels.",
+    "random": "Jouez une nouvelle sélection de questions issues de plusieurs domaines.",
+    "challenge": "Enchaînez un nombre défini de questions en restant concentré.",
+    "speed": "Mesurez directement votre temps de réaction ou votre vitesse de clic et de frappe.",
+    "fun": "Faites une courte pause avec des anecdotes et des défis amusants."
+  },
+  "serviceGuide": {
+    "categories": "Explorer par thème",
+    "how": "Comment jouer",
+    "account": "Choisissez un quiz et répondez aux questions. Aucun compte requis ; les résultats restent dans ce navigateur.",
+    "score": "Comment lire mon score ?",
+    "scoreLow": "Ce thème mérite encore un peu d'entraînement. Lisez les explications puis réessayez.",
+    "scoreMid": "Vous maîtrisez les bases. Relisez les explications des erreurs.",
+    "scoreHigh": "Belle réussite sur cette série. Essayez un autre thème ou de nouvelles questions.",
+    "scoreNote": "Le score indique les bonnes réponses de cette série, sans évaluer votre santé ni vos aptitudes.",
+    "focus": "Ce que couvre ce quiz"
+  },
+  "advertisement": "Publicité",
+  "difficulty": "Toutes les difficultés",
+  "quizTitles": {
+    "general-knowledge-quiz": "Culture Générale Quiz",
+    "everyday-knowledge-quiz": "Quotidien Générale Quiz",
+    "difficult-general-knowledge-quiz": "Difficile Culture Générale Quiz",
+    "world-capitals-quiz": "Monde Capitales Quiz",
+    "country-flags-quiz": "Pays Drapeaux Quiz",
+    "country-currency-quiz": "Pays Monnaie Quiz",
+    "country-location-quiz": "Pays Localisation Quiz",
+    "asia-capitals-quiz": "Asie Capitales Quiz",
+    "europe-capitals-quiz": "Europe Capitales Quiz",
+    "world-geography-quiz": "Monde Géographie Quiz",
+    "basic-science-quiz": "Bases Sciences Quiz",
+    "physics-quiz": "Physique Quiz",
+    "chemistry-quiz": "Chimie Quiz",
+    "biology-quiz": "Biologie Quiz",
+    "astronomy-quiz": "Astronomie Quiz",
+    "difficult-science-quiz": "Difficile Sciences Quiz",
+    "world-history-quiz": "Monde Histoire Quiz",
+    "korean-history-quiz": "Coréenne Histoire Quiz",
+    "ancient-history-quiz": "Ancienne Histoire Quiz",
+    "modern-history-quiz": "Moderne Histoire Quiz",
+    "addition-quiz": "Addition Quiz",
+    "subtraction-quiz": "Soustraction Quiz",
+    "multiplication-quiz": "Multiplication Quiz",
+    "division-quiz": "Division Quiz",
+    "multiplication-table-quiz": "Multiplication Tables Quiz",
+    "mental-math-quiz": "Mental Mathématiques Quiz",
+    "fraction-quiz": "Fractions Quiz",
+    "percentage-quiz": "Pourcentages Quiz",
+    "equation-quiz": "Équations Quiz",
+    "arithmetic-challenge": "Calcul Défi",
+    "english-vocabulary-quiz": "Anglais Vocabulaire Quiz",
+    "english-spelling-quiz": "Anglais Orthographe Quiz",
+    "english-grammar-quiz": "Anglais Grammaire Quiz",
+    "hiragana-quiz": "Hiragana Quiz",
+    "katakana-quiz": "Katakana Quiz",
+    "japanese-vocabulary-quiz": "Japonais Vocabulaire Quiz",
+    "chinese-character-quiz": "Chinois Caractères Quiz",
+    "korean-vocabulary-quiz": "Coréenne Vocabulaire Quiz",
+    "computer-basics-quiz": "Informatique Bases Quiz",
+    "programming-basics-quiz": "Programmation Bases Quiz",
+    "web-development-quiz": "Web Développement Quiz",
+    "database-quiz": "Base de données Quiz",
+    "network-basics-quiz": "Réseau Bases Quiz",
+    "difficult-it-quiz": "Difficile Informatique Quiz",
+    "number-memory-test": "Nombres Mémoire Test",
+    "word-memory-test": "Mots Mémoire Test",
+    "sequence-memory-test": "Séquence Mémoire Test",
+    "visual-memory-test": "Visuel Mémoire Test",
+    "pattern-recognition-test": "Motifs Reconnaissance Test",
+    "concentration-test": "Concentration Test",
+    "reaction-time-test": "Réaction Temps Test",
+    "click-speed-test": "Clic Vitesse Test",
+    "typing-speed-test": "Saisie Vitesse Test",
+    "color-reaction-test": "Couleur Réaction Test",
+    "random-trivia-challenge": "Aléatoire Culture Défi",
+    "true-false-challenge": "Vrai Faux Défi",
+    "impossible-quiz": "Impossible Quiz",
+    "mixed-hard-quiz": "Mixte Difficile Quiz",
+    "general-knowledge": "Culture Générale",
+    "easy-general-knowledge": "Facile Culture Générale",
+    "hard-general-knowledge": "Difficile Culture Générale",
+    "random-general-knowledge": "Aléatoire Culture Générale",
+    "adult-general-knowledge": "Adulte Culture Générale",
+    "daily-life-quiz": "Quotidien Vie Quiz",
+    "nonsense": "Loufoque",
+    "easy-nonsense-quiz": "Facile Loufoque Quiz",
+    "riddle-quiz": "Devinettes Quiz",
+    "brain-teaser": "Réveillez votre esprit – Casse-tête",
+    "easy-brain-teaser": "Facile Cerveau Défi",
+    "hard-brain-teaser": "Difficile Cerveau Défi",
+    "number-pattern-quiz": "Nombres Motifs Quiz",
+    "logic-reasoning-quiz": "Logique Raisonnement Quiz",
+    "random-brain-teaser": "Aléatoire Cerveau Défi",
+    "math-basic": "Mathématiques Bases",
+    "math-advanced": "Mathématiques Avancé",
+    "mental-arithmetic-test": "Mental Calcul Test",
+    "sequence-math-quiz": "Séquence Mathématiques Quiz",
+    "probability-quiz": "Probabilité Quiz",
+    "history-knowledge-quiz": "Histoire Générale Quiz",
+    "ancient-civilizations-quiz": "Ancienne Civilisations Quiz",
+    "modern-history-knowledge": "Moderne Histoire Générale",
+    "science-knowledge-quiz": "Sciences Générale Quiz",
+    "space-quiz": "Espace Quiz",
+    "biology-knowledge-quiz": "Biologie Générale Quiz",
+    "world-geography": "Monde Géographie",
+    "capital-cities-quiz": "Capitales Villes Quiz",
+    "country-knowledge-quiz": "Pays Générale Quiz",
+    "language-knowledge-quiz": "Langue Générale Quiz",
+    "english-vocabulary": "Anglais Vocabulaire",
+    "it-development-quiz": "Informatique Développement Quiz",
+    "programming-knowledge-quiz": "Programmation Générale Quiz",
+    "random-quiz": "Aléatoire Quiz",
+    "random-math-10": "Aléatoire Mathématiques 10",
+    "random-nonsense-10": "Aléatoire Loufoque 10",
+    "challenge-10": "Défi 10",
+    "challenge-20": "Défi 20"
+  },
+  "quizDescriptions": {
+    "addition-quiz": "Addition Quiz: Exercez calcul et raisonnement, de l'arithmétique aux suites et probabilités.",
+    "subtraction-quiz": "Soustraction Quiz: Exercez calcul et raisonnement, de l'arithmétique aux suites et probabilités.",
+    "multiplication-quiz": "Multiplication Quiz: Exercez calcul et raisonnement, de l'arithmétique aux suites et probabilités.",
+    "division-quiz": "Division Quiz: Exercez calcul et raisonnement, de l'arithmétique aux suites et probabilités.",
+    "multiplication-table-quiz": "Multiplication Tables Quiz: Exercez calcul et raisonnement, de l'arithmétique aux suites et probabilités.",
+    "mental-math-quiz": "Mental Mathématiques Quiz: Exercez calcul et raisonnement, de l'arithmétique aux suites et probabilités.",
+    "fraction-quiz": "Fractions Quiz: Exercez calcul et raisonnement, de l'arithmétique aux suites et probabilités.",
+    "percentage-quiz": "Pourcentages Quiz: Exercez calcul et raisonnement, de l'arithmétique aux suites et probabilités.",
+    "equation-quiz": "Équations Quiz: Exercez calcul et raisonnement, de l'arithmétique aux suites et probabilités.",
+    "arithmetic-challenge": "Calcul Défi: Exercez calcul et raisonnement, de l'arithmétique aux suites et probabilités.",
+    "number-memory-test": "Nombres Mémoire Test: Mémorisez nombres, mots et suites ou repérez des changements visuels.",
+    "word-memory-test": "Mots Mémoire Test: Mémorisez nombres, mots et suites ou repérez des changements visuels.",
+    "sequence-memory-test": "Séquence Mémoire Test: Mémorisez nombres, mots et suites ou repérez des changements visuels.",
+    "visual-memory-test": "Visuel Mémoire Test: Mémorisez nombres, mots et suites ou repérez des changements visuels.",
+    "pattern-recognition-test": "Motifs Reconnaissance Test: Mémorisez nombres, mots et suites ou repérez des changements visuels.",
+    "concentration-test": "Concentration Test: Mémorisez nombres, mots et suites ou repérez des changements visuels.",
+    "reaction-time-test": "Réaction Temps Test: Mesurez directement votre temps de réaction ou votre vitesse de clic et de frappe.",
+    "click-speed-test": "Clic Vitesse Test: Mesurez directement votre temps de réaction ou votre vitesse de clic et de frappe.",
+    "typing-speed-test": "Saisie Vitesse Test: Mesurez directement votre temps de réaction ou votre vitesse de clic et de frappe.",
+    "color-reaction-test": "Couleur Réaction Test: Mesurez directement votre temps de réaction ou votre vitesse de clic et de frappe.",
+    "general-knowledge": "Culture Générale: Vérifiez vos connaissances du quotidien sur des sujets variés.",
+    "easy-general-knowledge": "Facile Culture Générale: Vérifiez vos connaissances du quotidien sur des sujets variés.",
+    "hard-general-knowledge": "Difficile Culture Générale: Vérifiez vos connaissances du quotidien sur des sujets variés.",
+    "random-general-knowledge": "Aléatoire Culture Générale: Vérifiez vos connaissances du quotidien sur des sujets variés.",
+    "adult-general-knowledge": "Adulte Culture Générale: Vérifiez vos connaissances du quotidien sur des sujets variés.",
+    "daily-life-quiz": "Quotidien Vie Quiz: Vérifiez vos connaissances du quotidien sur des sujets variés.",
+    "nonsense": "Loufoque: Résolvez de courtes énigmes en repérant les jeux de mots.",
+    "easy-nonsense-quiz": "Facile Loufoque Quiz: Résolvez de courtes énigmes en repérant les jeux de mots.",
+    "riddle-quiz": "Devinettes Quiz: Résolvez de courtes énigmes en repérant les jeux de mots.",
+    "brain-teaser": "Réveillez votre esprit – Casse-tête: Utilisez indices et motifs numériques pour déduire une réponse.",
+    "easy-brain-teaser": "Facile Cerveau Défi: Utilisez indices et motifs numériques pour déduire une réponse.",
+    "hard-brain-teaser": "Difficile Cerveau Défi: Utilisez indices et motifs numériques pour déduire une réponse.",
+    "number-pattern-quiz": "Nombres Motifs Quiz: Utilisez indices et motifs numériques pour déduire une réponse.",
+    "logic-reasoning-quiz": "Logique Raisonnement Quiz: Utilisez indices et motifs numériques pour déduire une réponse.",
+    "random-brain-teaser": "Aléatoire Cerveau Défi: Utilisez indices et motifs numériques pour déduire une réponse.",
+    "math-basic": "Mathématiques Bases: Exercez calcul et raisonnement, de l'arithmétique aux suites et probabilités.",
+    "math-advanced": "Mathématiques Avancé: Exercez calcul et raisonnement, de l'arithmétique aux suites et probabilités.",
+    "mental-arithmetic-test": "Mental Calcul Test: Exercez calcul et raisonnement, de l'arithmétique aux suites et probabilités.",
+    "sequence-math-quiz": "Séquence Mathématiques Quiz: Exercez calcul et raisonnement, de l'arithmétique aux suites et probabilités.",
+    "probability-quiz": "Probabilité Quiz: Exercez calcul et raisonnement, de l'arithmétique aux suites et probabilités.",
+    "history-knowledge-quiz": "Histoire Générale Quiz: Revoyez les faits, personnages et événements de l'Antiquité à l'époque moderne.",
+    "ancient-civilizations-quiz": "Ancienne Civilisations Quiz: Revoyez les faits, personnages et événements de l'Antiquité à l'époque moderne.",
+    "modern-history-knowledge": "Moderne Histoire Générale: Revoyez les faits, personnages et événements de l'Antiquité à l'époque moderne.",
+    "science-knowledge-quiz": "Sciences Générale Quiz: Reprenez les bases de la biologie, de la chimie, de la physique et de l'espace.",
+    "space-quiz": "Espace Quiz: Reprenez les bases de la biologie, de la chimie, de la physique et de l'espace.",
+    "biology-knowledge-quiz": "Biologie Générale Quiz: Reprenez les bases de la biologie, de la chimie, de la physique et de l'espace.",
+    "world-geography": "Monde Géographie: Situez continents, pays, capitales et reliefs naturels.",
+    "capital-cities-quiz": "Capitales Villes Quiz: Situez continents, pays, capitales et reliefs naturels.",
+    "country-knowledge-quiz": "Pays Générale Quiz: Situez continents, pays, capitales et reliefs naturels.",
+    "language-knowledge-quiz": "Langue Générale Quiz: Explorez le vocabulaire, la grammaire et les systèmes d'écriture.",
+    "english-vocabulary": "Anglais Vocabulaire: Explorez le vocabulaire, la grammaire et les systèmes d'écriture.",
+    "it-development-quiz": "Informatique Développement Quiz: Revoyez les bases du Web, de la programmation, des bases de données et des réseaux.",
+    "programming-knowledge-quiz": "Programmation Générale Quiz: Revoyez les bases du Web, de la programmation, des bases de données et des réseaux.",
+    "random-quiz": "Aléatoire Quiz: Jouez une nouvelle sélection de questions issues de plusieurs domaines.",
+    "random-math-10": "Aléatoire Mathématiques 10: Jouez une nouvelle sélection de questions issues de plusieurs domaines.",
+    "random-nonsense-10": "Aléatoire Loufoque 10: Jouez une nouvelle sélection de questions issues de plusieurs domaines.",
+    "challenge-10": "Défi 10: Enchaînez un nombre défini de questions en restant concentré.",
+    "challenge-20": "Défi 20: Enchaînez un nombre défini de questions en restant concentré."
+  },
+  "quizSeo": {
+    "addition-quiz": {
+      "title": "Addition Quiz | woori.today",
+      "description": "Addition Quiz: Exercez calcul et raisonnement, de l'arithmétique aux suites et probabilités."
+    },
+    "subtraction-quiz": {
+      "title": "Soustraction Quiz | woori.today",
+      "description": "Soustraction Quiz: Exercez calcul et raisonnement, de l'arithmétique aux suites et probabilités."
+    },
+    "multiplication-quiz": {
+      "title": "Multiplication Quiz | woori.today",
+      "description": "Multiplication Quiz: Exercez calcul et raisonnement, de l'arithmétique aux suites et probabilités."
+    },
+    "division-quiz": {
+      "title": "Division Quiz | woori.today",
+      "description": "Division Quiz: Exercez calcul et raisonnement, de l'arithmétique aux suites et probabilités."
+    },
+    "multiplication-table-quiz": {
+      "title": "Multiplication Tables Quiz | woori.today",
+      "description": "Multiplication Tables Quiz: Exercez calcul et raisonnement, de l'arithmétique aux suites et probabilités."
+    },
+    "mental-math-quiz": {
+      "title": "Mental Mathématiques Quiz | woori.today",
+      "description": "Mental Mathématiques Quiz: Exercez calcul et raisonnement, de l'arithmétique aux suites et probabilités."
+    },
+    "fraction-quiz": {
+      "title": "Fractions Quiz | woori.today",
+      "description": "Fractions Quiz: Exercez calcul et raisonnement, de l'arithmétique aux suites et probabilités."
+    },
+    "percentage-quiz": {
+      "title": "Pourcentages Quiz | woori.today",
+      "description": "Pourcentages Quiz: Exercez calcul et raisonnement, de l'arithmétique aux suites et probabilités."
+    },
+    "equation-quiz": {
+      "title": "Équations Quiz | woori.today",
+      "description": "Équations Quiz: Exercez calcul et raisonnement, de l'arithmétique aux suites et probabilités."
+    },
+    "arithmetic-challenge": {
+      "title": "Calcul Défi | woori.today",
+      "description": "Calcul Défi: Exercez calcul et raisonnement, de l'arithmétique aux suites et probabilités."
+    },
+    "number-memory-test": {
+      "title": "Nombres Mémoire Test | woori.today",
+      "description": "Nombres Mémoire Test: Mémorisez nombres, mots et suites ou repérez des changements visuels."
+    },
+    "word-memory-test": {
+      "title": "Mots Mémoire Test | woori.today",
+      "description": "Mots Mémoire Test: Mémorisez nombres, mots et suites ou repérez des changements visuels."
+    },
+    "sequence-memory-test": {
+      "title": "Séquence Mémoire Test | woori.today",
+      "description": "Séquence Mémoire Test: Mémorisez nombres, mots et suites ou repérez des changements visuels."
+    },
+    "visual-memory-test": {
+      "title": "Visuel Mémoire Test | woori.today",
+      "description": "Visuel Mémoire Test: Mémorisez nombres, mots et suites ou repérez des changements visuels."
+    },
+    "pattern-recognition-test": {
+      "title": "Motifs Reconnaissance Test | woori.today",
+      "description": "Motifs Reconnaissance Test: Mémorisez nombres, mots et suites ou repérez des changements visuels."
+    },
+    "concentration-test": {
+      "title": "Concentration Test | woori.today",
+      "description": "Concentration Test: Mémorisez nombres, mots et suites ou repérez des changements visuels."
+    },
+    "reaction-time-test": {
+      "title": "Réaction Temps Test | woori.today",
+      "description": "Réaction Temps Test: Mesurez directement votre temps de réaction ou votre vitesse de clic et de frappe."
+    },
+    "click-speed-test": {
+      "title": "Clic Vitesse Test | woori.today",
+      "description": "Clic Vitesse Test: Mesurez directement votre temps de réaction ou votre vitesse de clic et de frappe."
+    },
+    "typing-speed-test": {
+      "title": "Saisie Vitesse Test | woori.today",
+      "description": "Saisie Vitesse Test: Mesurez directement votre temps de réaction ou votre vitesse de clic et de frappe."
+    },
+    "color-reaction-test": {
+      "title": "Couleur Réaction Test | woori.today",
+      "description": "Couleur Réaction Test: Mesurez directement votre temps de réaction ou votre vitesse de clic et de frappe."
+    },
+    "general-knowledge": {
+      "title": "Culture Générale | woori.today",
+      "description": "Culture Générale: Vérifiez vos connaissances du quotidien sur des sujets variés."
+    },
+    "easy-general-knowledge": {
+      "title": "Facile Culture Générale | woori.today",
+      "description": "Facile Culture Générale: Vérifiez vos connaissances du quotidien sur des sujets variés."
+    },
+    "hard-general-knowledge": {
+      "title": "Difficile Culture Générale | woori.today",
+      "description": "Difficile Culture Générale: Vérifiez vos connaissances du quotidien sur des sujets variés."
+    },
+    "random-general-knowledge": {
+      "title": "Aléatoire Culture Générale | woori.today",
+      "description": "Aléatoire Culture Générale: Vérifiez vos connaissances du quotidien sur des sujets variés."
+    },
+    "adult-general-knowledge": {
+      "title": "Adulte Culture Générale | woori.today",
+      "description": "Adulte Culture Générale: Vérifiez vos connaissances du quotidien sur des sujets variés."
+    },
+    "daily-life-quiz": {
+      "title": "Quotidien Vie Quiz | woori.today",
+      "description": "Quotidien Vie Quiz: Vérifiez vos connaissances du quotidien sur des sujets variés."
+    },
+    "nonsense": {
+      "title": "Loufoque | woori.today",
+      "description": "Loufoque: Résolvez de courtes énigmes en repérant les jeux de mots."
+    },
+    "easy-nonsense-quiz": {
+      "title": "Facile Loufoque Quiz | woori.today",
+      "description": "Facile Loufoque Quiz: Résolvez de courtes énigmes en repérant les jeux de mots."
+    },
+    "riddle-quiz": {
+      "title": "Devinettes Quiz | woori.today",
+      "description": "Devinettes Quiz: Résolvez de courtes énigmes en repérant les jeux de mots."
+    },
+    "brain-teaser": {
+      "title": "Réveillez votre esprit – Casse-tête | woori.today",
+      "description": "Réveillez votre esprit avec des énigmes gratuites de logique, de suites, de nombres, de mémoire et de déduction."
+    },
+    "easy-brain-teaser": {
+      "title": "Facile Cerveau Défi | woori.today",
+      "description": "Facile Cerveau Défi: Utilisez indices et motifs numériques pour déduire une réponse."
+    },
+    "hard-brain-teaser": {
+      "title": "Difficile Cerveau Défi | woori.today",
+      "description": "Difficile Cerveau Défi: Utilisez indices et motifs numériques pour déduire une réponse."
+    },
+    "number-pattern-quiz": {
+      "title": "Nombres Motifs Quiz | woori.today",
+      "description": "Nombres Motifs Quiz: Utilisez indices et motifs numériques pour déduire une réponse."
+    },
+    "logic-reasoning-quiz": {
+      "title": "Logique Raisonnement Quiz | woori.today",
+      "description": "Logique Raisonnement Quiz: Utilisez indices et motifs numériques pour déduire une réponse."
+    },
+    "random-brain-teaser": {
+      "title": "Aléatoire Cerveau Défi | woori.today",
+      "description": "Aléatoire Cerveau Défi: Utilisez indices et motifs numériques pour déduire une réponse."
+    },
+    "math-basic": {
+      "title": "Mathématiques Bases | woori.today",
+      "description": "Mathématiques Bases: Exercez calcul et raisonnement, de l'arithmétique aux suites et probabilités."
+    },
+    "math-advanced": {
+      "title": "Mathématiques Avancé | woori.today",
+      "description": "Mathématiques Avancé: Exercez calcul et raisonnement, de l'arithmétique aux suites et probabilités."
+    },
+    "mental-arithmetic-test": {
+      "title": "Mental Calcul Test | woori.today",
+      "description": "Mental Calcul Test: Exercez calcul et raisonnement, de l'arithmétique aux suites et probabilités."
+    },
+    "sequence-math-quiz": {
+      "title": "Séquence Mathématiques Quiz | woori.today",
+      "description": "Séquence Mathématiques Quiz: Exercez calcul et raisonnement, de l'arithmétique aux suites et probabilités."
+    },
+    "probability-quiz": {
+      "title": "Probabilité Quiz | woori.today",
+      "description": "Probabilité Quiz: Exercez calcul et raisonnement, de l'arithmétique aux suites et probabilités."
+    },
+    "history-knowledge-quiz": {
+      "title": "Histoire Générale Quiz | woori.today",
+      "description": "Histoire Générale Quiz: Revoyez les faits, personnages et événements de l'Antiquité à l'époque moderne."
+    },
+    "ancient-civilizations-quiz": {
+      "title": "Ancienne Civilisations Quiz | woori.today",
+      "description": "Ancienne Civilisations Quiz: Revoyez les faits, personnages et événements de l'Antiquité à l'époque moderne."
+    },
+    "modern-history-knowledge": {
+      "title": "Moderne Histoire Générale | woori.today",
+      "description": "Moderne Histoire Générale: Revoyez les faits, personnages et événements de l'Antiquité à l'époque moderne."
+    },
+    "science-knowledge-quiz": {
+      "title": "Sciences Générale Quiz | woori.today",
+      "description": "Sciences Générale Quiz: Reprenez les bases de la biologie, de la chimie, de la physique et de l'espace."
+    },
+    "space-quiz": {
+      "title": "Espace Quiz | woori.today",
+      "description": "Espace Quiz: Reprenez les bases de la biologie, de la chimie, de la physique et de l'espace."
+    },
+    "biology-knowledge-quiz": {
+      "title": "Biologie Générale Quiz | woori.today",
+      "description": "Biologie Générale Quiz: Reprenez les bases de la biologie, de la chimie, de la physique et de l'espace."
+    },
+    "world-geography": {
+      "title": "Monde Géographie | woori.today",
+      "description": "Monde Géographie: Situez continents, pays, capitales et reliefs naturels."
+    },
+    "capital-cities-quiz": {
+      "title": "Capitales Villes Quiz | woori.today",
+      "description": "Capitales Villes Quiz: Situez continents, pays, capitales et reliefs naturels."
+    },
+    "country-knowledge-quiz": {
+      "title": "Pays Générale Quiz | woori.today",
+      "description": "Pays Générale Quiz: Situez continents, pays, capitales et reliefs naturels."
+    },
+    "language-knowledge-quiz": {
+      "title": "Langue Générale Quiz | woori.today",
+      "description": "Langue Générale Quiz: Explorez le vocabulaire, la grammaire et les systèmes d'écriture."
+    },
+    "english-vocabulary": {
+      "title": "Anglais Vocabulaire | woori.today",
+      "description": "Anglais Vocabulaire: Explorez le vocabulaire, la grammaire et les systèmes d'écriture."
+    },
+    "it-development-quiz": {
+      "title": "Informatique Développement Quiz | woori.today",
+      "description": "Informatique Développement Quiz: Revoyez les bases du Web, de la programmation, des bases de données et des réseaux."
+    },
+    "programming-knowledge-quiz": {
+      "title": "Programmation Générale Quiz | woori.today",
+      "description": "Programmation Générale Quiz: Revoyez les bases du Web, de la programmation, des bases de données et des réseaux."
+    },
+    "random-quiz": {
+      "title": "Aléatoire Quiz | woori.today",
+      "description": "Aléatoire Quiz: Jouez une nouvelle sélection de questions issues de plusieurs domaines."
+    },
+    "random-math-10": {
+      "title": "Aléatoire Mathématiques 10 | woori.today",
+      "description": "Aléatoire Mathématiques 10: Jouez une nouvelle sélection de questions issues de plusieurs domaines."
+    },
+    "random-nonsense-10": {
+      "title": "Aléatoire Loufoque 10 | woori.today",
+      "description": "Aléatoire Loufoque 10: Jouez une nouvelle sélection de questions issues de plusieurs domaines."
+    },
+    "challenge-10": {
+      "title": "Défi 10 | woori.today",
+      "description": "Défi 10: Enchaînez un nombre défini de questions en restant concentré."
+    },
+    "challenge-20": {
+      "title": "Défi 20 | woori.today",
+      "description": "Défi 20: Enchaînez un nombre défini de questions en restant concentré."
+    }
+  },
+  "titleTermCount": 70,
+  "translatedQuizSlugs": [
+    "general-knowledge-quiz",
+    "everyday-knowledge-quiz",
+    "difficult-general-knowledge-quiz",
+    "world-capitals-quiz",
+    "country-flags-quiz",
+    "country-currency-quiz",
+    "country-location-quiz",
+    "asia-capitals-quiz",
+    "europe-capitals-quiz",
+    "world-geography-quiz",
+    "basic-science-quiz",
+    "physics-quiz",
+    "chemistry-quiz",
+    "biology-quiz",
+    "astronomy-quiz",
+    "difficult-science-quiz",
+    "world-history-quiz",
+    "korean-history-quiz",
+    "ancient-history-quiz",
+    "modern-history-quiz",
+    "addition-quiz",
+    "subtraction-quiz",
+    "multiplication-quiz",
+    "division-quiz",
+    "multiplication-table-quiz",
+    "mental-math-quiz",
+    "fraction-quiz",
+    "percentage-quiz",
+    "equation-quiz",
+    "arithmetic-challenge",
+    "english-vocabulary-quiz",
+    "english-spelling-quiz",
+    "english-grammar-quiz",
+    "hiragana-quiz",
+    "katakana-quiz",
+    "japanese-vocabulary-quiz",
+    "chinese-character-quiz",
+    "korean-vocabulary-quiz",
+    "computer-basics-quiz",
+    "programming-basics-quiz",
+    "web-development-quiz",
+    "database-quiz",
+    "network-basics-quiz",
+    "difficult-it-quiz",
+    "number-memory-test",
+    "word-memory-test",
+    "sequence-memory-test",
+    "visual-memory-test",
+    "pattern-recognition-test",
+    "concentration-test",
+    "reaction-time-test",
+    "click-speed-test",
+    "typing-speed-test",
+    "color-reaction-test",
+    "random-trivia-challenge",
+    "true-false-challenge",
+    "impossible-quiz",
+    "mixed-hard-quiz",
+    "general-knowledge",
+    "easy-general-knowledge",
+    "hard-general-knowledge",
+    "random-general-knowledge",
+    "adult-general-knowledge",
+    "daily-life-quiz",
+    "nonsense",
+    "easy-nonsense-quiz",
+    "riddle-quiz",
+    "brain-teaser",
+    "easy-brain-teaser",
+    "hard-brain-teaser",
+    "number-pattern-quiz",
+    "logic-reasoning-quiz",
+    "random-brain-teaser",
+    "math-basic",
+    "math-advanced",
+    "mental-arithmetic-test",
+    "sequence-math-quiz",
+    "probability-quiz",
+    "history-knowledge-quiz",
+    "ancient-civilizations-quiz",
+    "modern-history-knowledge",
+    "science-knowledge-quiz",
+    "space-quiz",
+    "biology-knowledge-quiz",
+    "world-geography",
+    "capital-cities-quiz",
+    "country-knowledge-quiz",
+    "language-knowledge-quiz",
+    "english-vocabulary",
+    "it-development-quiz",
+    "programming-knowledge-quiz",
+    "random-quiz",
+    "random-math-10",
+    "random-nonsense-10",
+    "challenge-10",
+    "challenge-20"
+  ],
+  "mathPrompts": {
+    "whatIsX": "Calculez la valeur de x.",
+    "findX": "Find x.",
+    "decimal": "décimal",
+    "percentage": "Combien font PERCENT_SLOT % de WHOLE_SLOT ?",
+    "fraction": "FIRST_FRACTION_SLOT + SECOND_FRACTION_SLOT = ? (décimal)"
+  },
+  "interactiveTest": {
+    "passage": "Une petite curiosité peut mener à une belle découverte. Lisez calmement et saisissez avec soin.",
+    "copy": {
+      "start": "Commencer",
+      "tap": "Cliquez quand la carte devient verte",
+      "go": "CLIQUEZ",
+      "tooSoon": "Trop tôt. Réessayez.",
+      "done": "Terminé",
+      "submit": "Vérifier",
+      "remember": "Mémorisez ce que vous voyez",
+      "type": "Saisissez ici",
+      "accuracy": "Précision",
+      "errors": "Erreurs",
+      "wpm": "MPM",
+      "time": "Temps",
+      "clicks": "Clics",
+      "matched": "Paires trouvées",
+      "tryAgain": "Réessayer"
+    },
+    "memoryWords": "mer pomme étoile nuage",
+    "extraCopy": {
+      "moves": "Coups",
+      "tapFast": "Appuyez aussi vite que possible",
+      "cell": "Case"
+    }
+  }
+}

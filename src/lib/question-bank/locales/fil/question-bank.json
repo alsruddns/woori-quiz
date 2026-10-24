@@ -1,0 +1,6212 @@
+{
+  "general-001": {
+    "question": "Aling planeta ang kilala bilang Pulang Planeta?",
+    "options": [
+      "Venus",
+      "Mars",
+      "Jupiter",
+      "Merkuryo"
+    ],
+    "explanation": "Ang alikabok na iron-rich ay nagbibigay sa Mars ng mamula-mulang anyo nito."
+  },
+  "general-002": {
+    "question": "Ilan ang mga gilid ng isang hexagon?",
+    "options": [
+      "Limang",
+      "Anim na",
+      "Pitong",
+      "Walo"
+    ],
+    "explanation": "Ang isang hexagon ay may anim na gilid."
+  },
+  "general-003": {
+    "question": "Aling instrumento ang sumusukat sa presyon ng hangin?",
+    "options": [
+      "Termometro",
+      "Barometro",
+      "Higrometro",
+      "Kompas"
+    ],
+    "explanation": "Sinusukat ng isang barometro ang presyon ng atmospera."
+  },
+  "general-004": {
+    "question": "Ano ang likas na pinakamatigas na mineral sa Mohs scale?",
+    "options": [
+      "Quartz",
+      "Topaz",
+      "Diyamante",
+      "Korundum"
+    ],
+    "explanation": "Ang brilyante ay tinatayang 10 sa sukat ng Mohs hardness."
+  },
+  "general-005": {
+    "question": "Gaano karaming minuto sa loob ng dalawang oras?",
+    "options": [
+      "100",
+      "110",
+      "120",
+      "130"
+    ],
+    "explanation": "Ang dalawang oras ay naglalaman ng 120 minuto."
+  },
+  "general-006": {
+    "question": "Aling gas ang bumubuo sa kalakhang bahagi ng atmospera ng Lupa?",
+    "options": [
+      "Oksiheno",
+      "Nitroheno",
+      "Diyoksido ng karbon",
+      "Argon"
+    ],
+    "explanation": "Ang Nitrogen ay bumubuo ng halos 78% ng tuyong hangin."
+  },
+  "general-007": {
+    "question": "Aling karagatan ang pinakamalaki?",
+    "options": [
+      "Atlantiko",
+      "Indian",
+      "Arktiko",
+      "Pacific"
+    ],
+    "explanation": "Ang Pasipiko ang pinakamalaking karagatan sa pamamagitan ng lawak."
+  },
+  "general-008": {
+    "question": "Ano ang temperatura ng nagyeyelong tubig sa katamtamang presyon?",
+    "options": [
+      "0 °C",
+      "10 °C",
+      "32 °C",
+      "100 °C"
+    ],
+    "explanation": "Ang purong tubig ay nagyeyelo sa 0 °C (32 °F) sa pamantayang presyon."
+  },
+  "general-009": {
+    "question": "Aling hugis ang may tatlong panig?",
+    "options": [
+      "Parisukat",
+      "Tatsulok",
+      "Pentagon",
+      "Bilog"
+    ],
+    "explanation": "May tatlong gilid ang isang tatsulok."
+  },
+  "general-010": {
+    "question": "Aling metal ang likido sa ordinaryong temperatura sa silid?",
+    "options": [
+      "Bakal",
+      "Tanso",
+      "Merkuryo",
+      "Aluminium"
+    ],
+    "explanation": "Ang Mercury ay likido sa karaniwang temperatura ng silid."
+  },
+  "science-011": {
+    "question": "Ano ang kemikal na sagisag para sa tubig?",
+    "options": [
+      "CO2",
+      "H2O",
+      "O2",
+      "NaCl"
+    ],
+    "explanation": "Ang isang molekula ng tubig ay naglalaman ng dalawang atomo ng hidroheno at isang atomo ng oksiheno."
+  },
+  "science-012": {
+    "question": "Aling bahagi ng halaman ang karaniwang sumisipsip ng tubig mula sa lupa?",
+    "options": [
+      "Bulaklak",
+      "Dahon",
+      "Ugat",
+      "Fruit Fruit"
+    ],
+    "explanation": "Ang mga ugat ay sumisipsip ng tubig at mineral mula sa lupa."
+  },
+  "science-013": {
+    "question": "Anong puwersa ang nagpapanatili sa mga planeta na umiikot sa palibot ng Araw?",
+    "options": [
+      "Alitan",
+      "Grabidad",
+      "Magnetismo",
+      "Puwersa ng paglutang"
+    ],
+    "explanation": "Ang grabidad ay nagbibigay ng centripetal na bilis ng pag - ikot ng mga planeta."
+  },
+  "science-014": {
+    "question": "Aling particle ang may negatibong karga ng kuryente?",
+    "options": [
+      "Proton",
+      "Neutron",
+      "Elektron",
+      "Poton"
+    ],
+    "explanation": "Ang mga elektron ay nagdadala ng negatibong elementaryang singil."
+  },
+  "science-015": {
+    "question": "Sa kapantayan ng dagat, ang tubig ay kumukulo sa humigit - kumulang anong temperatura?",
+    "options": [
+      "50 °C",
+      "75 °C",
+      "100 °C",
+      "150 °C"
+    ],
+    "explanation": "Sa pamantayang atmosperikong presyon, ang tubig ay kumukulo sa 100 °C."
+  },
+  "science-016": {
+    "question": "Aling organelle ang kilala sa paggawa ng karamihan ng cellular ATP?",
+    "options": [
+      "Nuclearus",
+      "Mitokondriyon",
+      "Ribosome",
+      "Golgi device"
+    ],
+    "explanation": "Ang Mitochondria ay gumagawa ng maraming ATP ng isang selulang eukaryotiko sa pamamagitan ng cellular respiration."
+  },
+  "science-017": {
+    "question": "Anong gas ang kinukuha ng mga halaman para sa potosintesis?",
+    "options": [
+      "A: Ahensiya",
+      "Diyoksido ng karbon",
+      "Heliyo",
+      "Hidroheno"
+    ],
+    "explanation": "Ginagamit ng mga halaman ang carbon dioxide at tubig upang gumawa ng asukal sa panahon ng potosintesis."
+  },
+  "science-018": {
+    "question": "Ano ang tinatayang bilis ng liwanag sa isang vacuum?",
+    "options": [
+      "30,000 km/s",
+      "150,000 km/s",
+      "300,000 km/s",
+      "3,000,000 km/s"
+    ],
+    "explanation": "Ang liwanag ay naglalakbay ng halos 300,000 kilometro sa bawat segundo sa vacuum."
+  },
+  "science-019": {
+    "question": "Aling mga selula ng dugo ang pangunahin nang nagdadala ng oksiheno?",
+    "options": [
+      "Mga pulang selula ng dugo",
+      "Platelet",
+      "Mga puting selula ng dugo",
+      "Mga selula ng Stem"
+    ],
+    "explanation": "Ang hemoglobin sa pulang mga selula ng dugo ay nagbibigkis at naghahatid ng oksiheno."
+  },
+  "science-020": {
+    "question": "Ano ang tawag sa sentro ng isang atomo?",
+    "options": [
+      "Orbit",
+      "Nuclearus",
+      "Balat ng elektron",
+      "Ugnayang kemikal"
+    ],
+    "explanation": "Ang nucleus ng isang atomo ay naglalaman ng mga proton at neutron."
+  },
+  "geography-021": {
+    "question": "Ano ang kabisera ng Hapon?",
+    "options": [
+      "Osaka",
+      "Kyoto",
+      "Tokyo",
+      "Sapporo"
+    ],
+    "explanation": "Ang Tokyo ay ang kabisera ng Hapon."
+  },
+  "geography-022": {
+    "question": "Aling bansa ang kinaroroonan ng lunsod ng Cairo?",
+    "options": [
+      "Morocco",
+      "Ehipto",
+      "Jordan",
+      "Sudan"
+    ],
+    "explanation": "Ang Cairo ay ang kabisera ng Ehipto."
+  },
+  "geography-023": {
+    "question": "Alin ang pinakamalaking kontinente sa pamamagitan ng lawak?",
+    "options": [
+      "Aprika",
+      "Asya",
+      "Europa",
+      "Hilagang Amerika"
+    ],
+    "explanation": "Ang Asya ang pinakamalaking kontinente sa pamamagitan ng sukat ng lupa."
+  },
+  "geography-024": {
+    "question": "Ang Kabundukan ng Andes ay pangunahin nang sa aling kontinente?",
+    "options": [
+      "Aprika",
+      "Asya",
+      "Timog Amerika",
+      "Europa"
+    ],
+    "explanation": "Umaabot ang Andes sa kanlurang bahagi ng Timog Amerika."
+  },
+  "geography-025": {
+    "question": "Aling bansa ang may dahon ng maple sa pambansang bandila nito?",
+    "options": [
+      "Canada",
+      "Austria",
+      "Denmark",
+      "Peru"
+    ],
+    "explanation": "Ang dahon ng maple ang pinaka - sentrong emblema sa watawat ng Canada."
+  },
+  "geography-026": {
+    "question": "Aling ilog ang umaagos sa Paris?",
+    "options": [
+      "Rhine",
+      "Seine",
+      "Danube",
+      "Thames"
+    ],
+    "explanation": "Dumadaloy ang Seine sa Paris."
+  },
+  "geography-027": {
+    "question": "Alin ang pinakamaliit na kontinente?",
+    "options": [
+      "Europa",
+      "Antartika",
+      "Australia",
+      "Timog Amerika"
+    ],
+    "explanation": "Ang Australia ang pinakamaliit na kontinente ayon sa lawak."
+  },
+  "geography-028": {
+    "question": "Ang Bundok Kilimanjaro ay nasa aling bansa?",
+    "options": [
+      "Kenya",
+      "Tanzania",
+      "Uganda",
+      "Etiopia"
+    ],
+    "explanation": "Ang Kilimanjaro ay nasa hilagang - silangan ng Tanzania."
+  },
+  "geography-029": {
+    "question": "Aling karagatan ang nasa silangan ng Aprika?",
+    "options": [
+      "Pacific",
+      "Atlantiko",
+      "Indian",
+      "Arktiko"
+    ],
+    "explanation": "Hinahangganan ng Karagatang Indiyano ang Aprika sa silangan."
+  },
+  "geography-030": {
+    "question": "Ano ang kabisera ng Italya?",
+    "options": [
+      "Milan",
+      "Venice",
+      "Roma",
+      "Naples"
+    ],
+    "explanation": "Roma ang kabisera ng Italya."
+  },
+  "history-031": {
+    "question": "Ang sinaunang Palarong Olimpiko ay nagsimula sa aling rehiyon?",
+    "options": [
+      "Gresya",
+      "Ehipto",
+      "Persia",
+      "Roma"
+    ],
+    "explanation": "Ang sinaunang Palarong Olimpiko ay ginanap sa Olympia sa Gresya."
+  },
+  "history-032": {
+    "question": "Aling pader ang bumagsak noong 1989, anupat naging sagisag ng muling pagkakaisa ng Alemanya?",
+    "options": [
+      "Pader ni Hadrian",
+      "Pader ng Berlin",
+      "Dakilang Pader ng Tsina",
+      "Kanlurang Pader"
+    ],
+    "explanation": "Ang Pader ng Berlin ay nagbukas noong Nobyembre 1989."
+  },
+  "history-033": {
+    "question": "Kanino nauugnay ang palimbagang may kaugnayan sa nakikilos na tipo ng metal sa Europa?",
+    "options": [
+      "Galileo",
+      "Johannes Gutenberg",
+      "Isaac Newton",
+      "Marco Polo"
+    ],
+    "explanation": "Ang palimbagan ni Gutenberg ay nakatulong sa pagpapalaganap ng paglilimbag sa Europa noong ika - 15 siglo."
+  },
+  "history-034": {
+    "question": "Aling sibilisasyon ang nagtayo ng mga piramide sa Giza?",
+    "options": [
+      "Roma",
+      "Sinaunang mga Ehipsiyo",
+      "Aztec",
+      "Mga Minoano"
+    ],
+    "explanation": "Ang mga piramide ng Giza ay itinayo sa sinaunang Ehipto."
+  },
+  "history-035": {
+    "question": "Sa anong taon nagsimula ang Rebolusyong Pranses?",
+    "options": [
+      "1492",
+      "1776",
+      "1789",
+      "1815"
+    ],
+    "explanation": "Nagsimula ang Rebolusyong Pranses noong 1789."
+  },
+  "history-036": {
+    "question": "Ang Renaissance ay nagsimula kung saang kasalukuyang-araw na bansa?",
+    "options": [
+      "Italya",
+      "Alemanya",
+      "Espanya",
+      "Inglatera"
+    ],
+    "explanation": "Nagsimula ang Renaissance sa mga lungsod-state ng Italya bago lumaganap sa Europa."
+  },
+  "history-037": {
+    "question": "Sino ang unang taong lumakad sa Buwan?",
+    "options": [
+      "Buzz Aldrin",
+      "Yuri Gagarin",
+      "Neil Armstrong",
+      "John Glenn"
+    ],
+    "explanation": "Si Neil Armstrong ay tumapak sa Buwan noong 1969 sa panahon ng Apollo 11."
+  },
+  "history-038": {
+    "question": "Aling imperyo ang nagtayo ng malawak na sistema ng mga daan na nakasentro sa Roma?",
+    "options": [
+      "Imperyong Mongol",
+      "Imperyong Romano",
+      "Imperyong Mali",
+      "Imperyong Inca"
+    ],
+    "explanation": "Pinag - ugnay - ugnay ng mga lansangang Romano ang mga teritoryo sa ibayo ng Imperyong Romano."
+  },
+  "history-039": {
+    "question": "Ang Magna Carta ay tinatakan ng anong taon?",
+    "options": [
+      "1066",
+      "1215",
+      "1492",
+      "1607"
+    ],
+    "explanation": "Tinatakan ni Haring Juan ang Magna Carta noong 1215."
+  },
+  "history-040": {
+    "question": "Aling barko ang nagdala sa mga Peregrino sa Hilagang Amerika noong 1620?",
+    "options": [
+      "Santa Maria",
+      "Mayflower",
+      "Endeavour",
+      "Beagle"
+    ],
+    "explanation": "Dinala ng Mayflower ang mga Separatistang Ingles noong 1620."
+  },
+  "math-041": {
+    "question": "Ano ang 8 × 7?",
+    "options": [
+      "54",
+      "56",
+      "58",
+      "64"
+    ],
+    "explanation": "Walong grupo ng pitong grupo na may katumbas na 56."
+  },
+  "math-042": {
+    "question": "Ano ba ang 144  12?",
+    "options": [
+      "10",
+      "11",
+      "12",
+      "14"
+    ],
+    "explanation": "144 na hinati ng 12 ay 12."
+  },
+  "math-043": {
+    "question": "Solusyon: 3x + 5 = 20.",
+    "options": [
+      "3",
+      "5",
+      "7",
+      "15"
+    ],
+    "explanation": "Ilubog 5 upang makakuha ng 3x = 15, pagkatapos ay hatiin ng 3: x = 5."
+  },
+  "math-044": {
+    "question": "Ano ang 25% ng 80?",
+    "options": [
+      "10",
+      "15",
+      "20",
+      "25"
+    ],
+    "explanation": "25% ay isang-kapat; 80 na hinati ng 4 ay 20."
+  },
+  "math-045": {
+    "question": "Ano ba ang 3/4 na nakasulat bilang analogo?",
+    "options": [
+      "0.25",
+      "0.5",
+      "0.75",
+      "1.25"
+    ],
+    "explanation": "Tatlo na hinati ng apat ay katumbas 0.75."
+  },
+  "math-046": {
+    "question": "Ano ang susunod na bilang: 2, 6, 12, 20, 30, ...?",
+    "options": [
+      "36",
+      "40",
+      "42",
+      "44"
+    ],
+    "explanation": "Ang mga pagkakaiba ay 4, 6, 8, 10, pagkatapos 12; ang susunod na termino ay 42."
+  },
+  "math-047": {
+    "question": "Ang isang patas na anime-side die ay nakarolyo. ano ang probabilidad ng paggulong ng kahit isang numero?",
+    "options": [
+      "1/6",
+      "1/3",
+      "1/2",
+      "2/3"
+    ],
+    "explanation": "Tatlo sa anim na kinalabasan (2, 4, 6) ay kahit na, kaya ang probabilidad ay 1/2."
+  },
+  "math-048": {
+    "question": "Ang isang parihaba ay may perimetrong 30 at haba na 9. Ano ang lapad nito?",
+    "options": [
+      "5",
+      "6",
+      "7",
+      "12"
+    ],
+    "explanation": "2(9 + w) = 30, kaya w = 6."
+  },
+  "math-049": {
+    "question": "Ano ang hindi karaniwang multiple ng 6 at 8?",
+    "options": [
+      "12",
+      "18",
+      "24",
+      "48"
+    ],
+    "explanation": "24 ang pinakamaliit na positibong bilang na divisible ng parehong 6 at 8."
+  },
+  "math-050": {
+    "question": "Kung 5 manggagawa ang natatapos sa isang trabaho sa loob ng 12 araw sa parehong rate, ilang manggagawa-araw ang trabaho?",
+    "options": [
+      "17",
+      "30",
+      "60",
+      "72"
+    ],
+    "explanation": "5 manggagawa × 12 araw = 60 manggagawa-araw."
+  },
+  "language-051": {
+    "question": "Aling salita ang singkahulugan ng brief?",
+    "options": [
+      "Short",
+      "Distant",
+      "Heavy",
+      "Quiet"
+    ],
+    "explanation": "Ang maikli ay nangangahulugan ng maikli ang tagal o haba."
+  },
+  "language-052": {
+    "question": "Aling bantas ang nagwawakas sa isang tuwirang tanong?",
+    "options": [
+      "Comma",
+      "Colon",
+      "Question mark",
+      "Semicolon"
+    ],
+    "explanation": "Ang tuwirang tanong ay nagtatapos sa isang tanda ng tanong."
+  },
+  "language-053": {
+    "question": "Ano ba ang pangmaramihan ng ?",
+    "options": [
+      "Childs",
+      "Children",
+      "Childes",
+      "Childrens"
+    ],
+    "explanation": "Ang mga bata ang karaniwang anyong pangmaramihan ng bata."
+  },
+  "language-054": {
+    "question": "Aling pangungusap ang tama ang paggamit ng ?",
+    "options": [
+      "Their going home.",
+      "The team left their bags here.",
+      "Put it over their.",
+      "Their is a book."
+    ],
+    "explanation": "Sila'y mapagmamay - ari; ipinakikita nito na ang mga bag ay pag - aari ng pangkat."
+  },
+  "language-055": {
+    "question": "Aling salita ang tama ang binabaybay?",
+    "options": [
+      "Separate",
+      "Seperate",
+      "Seperete",
+      "Sepparate"
+    ],
+    "explanation": "Ang paghihiwalay ay binabaybay sa pamamagitan ng par sa gitna."
+  },
+  "language-056": {
+    "question": "Ano ba ang kabaligtaran ng EXTURE?",
+    "options": [
+      "Old",
+      "Historic",
+      "Modern",
+      "Early"
+    ],
+    "explanation": "Ang makabago ay isang antonym ng sinaunang panahon."
+  },
+  "language-057": {
+    "question": "Sa  Umawit siya ng maganda,  anong salita ang adverb?",
+    "options": [
+      "She",
+      "sang",
+      "beautifully",
+      "none"
+    ],
+    "explanation": "Magandang modifies Ang pandiwa ay inaawit at isang adverb."
+  },
+  "language-058": {
+    "question": "Alin ang kumpletong pangungusap?",
+    "options": [
+      "Because it was raining.",
+      "The bright red umbrella.",
+      "They walked home.",
+      "After the long trip."
+    ],
+    "explanation": "Sila'y naglakad pauwi ng bahay, may paksa sila at may ganap na pangamba."
+  },
+  "language-059": {
+    "question": "Aling salita ang nangangahulugang to ay mabilis na mukhang ?",
+    "options": [
+      "Glance",
+      "Stare",
+      "Watch",
+      "Observe"
+    ],
+    "explanation": "Ang pagsulyap ay isang maikli o mabilisang pagtingin."
+  },
+  "language-060": {
+    "question": "Aling pares ang mga homophone sa karaniwang bigkas sa Ingles?",
+    "options": [
+      "Flower / flour",
+      "Book / boot",
+      "Cat / cut",
+      "Seat / set"
+    ],
+    "explanation": "Ang bulaklak at harina ay parehong binibigkas sa karaniwang Ingles."
+  },
+  "technology-061": {
+    "question": "Ano ang ibig sabihin ng CPU?",
+    "options": [
+      "Sentral na Yunit ng Pagproseso",
+      "Pangkalahatang Gamit ng Kuryente sa Computer",
+      "Pag-upload ng Pangunahing Programa",
+      "Central printing Unit"
+    ],
+    "explanation": "Ang CPU ay kumakatawan sa Central Procesing Unit."
+  },
+  "technology-062": {
+    "question": "Aling wika ang katutubo sa mga web browser?",
+    "options": [
+      "Java",
+      "C",
+      "JavaScript",
+      "Swift"
+    ],
+    "explanation": "Ang mga Browser ay nagpapatupad ng mga makinang JavaScript upang patakbuhin ang JavaScript."
+  },
+  "technology-063": {
+    "question": "Ano ang karaniwang kahulugan ng HTTP status code 404?",
+    "options": [
+      "Tagumpay",
+      "Hindi natagpuan ang",
+      "Di - awtorisadong",
+      "Tagapagsilbing Walang pahintulot"
+    ],
+    "explanation": "Ang HTTP 404 ay nagpapahiwatig na ang hiniling na yaman ay hindi natagpuan."
+  },
+  "technology-064": {
+    "question": "Aling aparato ang nagpapadala ng mga pakete sa pagitan ng iba't ibang network?",
+    "options": [
+      "Router",
+      "Teklado",
+      "Monitor",
+      "Palimbagan"
+    ],
+    "explanation": "Isang barko ang nagpapadala ng mga pakete sa pagitan ng mga network."
+  },
+  "technology-065": {
+    "question": "Sa Git, ano ang kinakatawan ng isang kasunduan?",
+    "options": [
+      "Isang naligtas na larawan ng mga pagbabago sa proyekto",
+      "Isang kable ng network",
+      "Isang programming language",
+      "Isang file compression format"
+    ],
+    "explanation": "Isang Git ang nakagawa ng isang litrato at ang metadata nito sa kasaysayan ng paglalagay nito."
+  },
+  "technology-066": {
+    "question": "Alin ang kaugnay na database query language?",
+    "options": [
+      "SQL",
+      "HTML",
+      "CSS",
+      "PNG"
+    ],
+    "explanation": "Ang SQL ay ginagamit upang mag-query at pangasiwaan ang mga connectional database."
+  },
+  "technology-067": {
+    "question": "Ano ang ibig sabihin ng URL?",
+    "options": [
+      "Uniform Resource Loctor",
+      "Pangkalahatang Link ng Routing",
+      "Pinag-isang Listahan ng mga Rekord",
+      "Wika ng Sanggunian ng User"
+    ],
+    "explanation": "Ang URL ay kumakatawan sa Uniform Resource Locator."
+  },
+  "technology-068": {
+    "question": "Aling sistema ng numero ang gumagamit lamang ng 0 at 1?",
+    "options": [
+      "Desimal",
+      "Binay",
+      "Octal",
+      "Roman"
+    ],
+    "explanation": "Ang Binaryo ay base 2 at gumagamit ng mga digit 0 at 1."
+  },
+  "technology-069": {
+    "question": "Ano ang pangunahing papel ng DNS?",
+    "options": [
+      "Mga pangalan ng translate domain sa mga network record gaya ng IP addresss",
+      "Encrypt bawat file",
+      "Mag-imbak ng mga password sa browser",
+      "I-compile ang source code"
+    ],
+    "explanation": "Nilulutas ng DNS ang mga pangalan ng domain sa mga plaka na ginagamit upang hanapin ang mga serbisyo sa internet."
+  },
+  "technology-070": {
+    "question": "Aling extension ng talaksan ang karaniwang ginagamit para sa isang imahe ng PNG?",
+    "options": [
+      ".png",
+      ".mp3",
+      ".csv",
+      ".exe"
+    ],
+    "explanation": "Karaniwang ginagamit ng mga file ng imahe ng PNG ang ekstensiyong .png."
+  },
+  "brain-071": {
+    "question": "Ano ang susunod sa pagkakasunud - sunod na 1, 4, 9, 16, ...?",
+    "options": [
+      "20",
+      "24",
+      "25",
+      "36"
+    ],
+    "explanation": "Ang mga ito ay sunud - sunod na mga numerong parisukat: 12, 22, 32, 42; ang susunod ay 52 = 25."
+  },
+  "brain-072": {
+    "question": "Ayon sa isang orasan, ano ang mas maliit na anggulo sa pagitan ng mga kamay nito?",
+    "options": [
+      "0°",
+      "7.5°",
+      "15°",
+      "30°"
+    ],
+    "explanation": "Sa ganap na 3:15 ang minuto ay nasa 90° at ang oras ay nasa 97.5°, isang 7.5° na agwat."
+  },
+  "brain-073": {
+    "question": "Kung ang lahat ng mga Bloop ay mga Razzy at ang lahat ng mga Razzy ay mga Lazzy, lahat ba ng mga Bloops Lazzy?",
+    "options": [
+      "Oo",
+      "Walang",
+      "Hindi matiyak",
+      "Ilan lamang ang mga Bloops Lazzy?"
+    ],
+    "explanation": "Sa pamamagitan ng transitivity, ang bawat Bloop ay nauukol sa set ng mga Razzy at samakatuwid Lazzies."
+  },
+  "brain-074": {
+    "question": "Ang isang pattern ay umuulit: bilog, parisukat, tatsulok, bilog, parisukat, ...Ano ang susunod na mangyayari?",
+    "options": [
+      "Bilog",
+      "Parisukat",
+      "Tatsulok",
+      "Pentagon"
+    ],
+    "explanation": "Ang tatlong-shape sequence ay umuulit, kaya ang susunod ay tatsulok."
+  },
+  "brain-075": {
+    "question": "Naabutan mo ang mananakbo sa ikalawang puwesto.",
+    "options": [
+      "Unang",
+      "Ikalawang",
+      "Ikatlong",
+      "Ikaapat"
+    ],
+    "explanation": "Ang pagdaan sa ikalawang-pook na mananakbo ay naglalagay sa iyo sa pangalawang puwesto."
+  },
+  "brain-076": {
+    "question": "Aling bilang ang hindi kabilang: 2, 3, 5, 9, 11?",
+    "options": [
+      "2",
+      "3",
+      "9",
+      "11"
+    ],
+    "explanation": "9 ang kabuuang bilang; ang iba naman ay mga pangunahing bilang."
+  },
+  "brain-077": {
+    "question": "May 17 tupa ang isang magsasaka pero 9 na lang ang natitira.",
+    "options": [
+      "8",
+      "9",
+      "17",
+      "26"
+    ],
+    "explanation": "Ang All ngunit 9 ay nangangahulugang 9 na tupa ang natitira."
+  },
+  "brain-078": {
+    "question": "Kung kahapon ay Lunes, anong araw ang kasunod ng bukas?",
+    "options": [
+      "Martes",
+      "Miyerkules",
+      "Huwebes",
+      "Biyernes"
+    ],
+    "explanation": "Ang Sabado ng Lunes ay nangangahulugan ngayon ng Martes; bukas ng Miyerkules at ng araw pagkatapos ng bukas ng Huwebes."
+  },
+  "brain-079": {
+    "question": "Ang dalawang ama at dalawang anak na lalaki ay pantay na nagbabahagi ng tatlong mansanas, isa lamang.",
+    "options": [
+      "Ang bawat mansanas",
+      "May tatlong tao: lolo, ama, anak na lalaki",
+      "Walang makukuhang",
+      "May apat na tao"
+    ],
+    "explanation": "Ang panggitnang tao ay parehong isang anak na lalaki at isang ama, kaya ang grupo ay may tatlong tao."
+  },
+  "brain-080": {
+    "question": "Ano ang susunod na liham: A, C, F, J, O, ...?",
+    "options": [
+      "S",
+      "T",
+      "U",
+      "V"
+    ],
+    "explanation": "Ang mga posisyon ng sulat ay tumataas ng 2, 3, 4, 5; sumunod ay magdagdag ng 6 sa O (15) upang makuha ang U (21)."
+  },
+  "nonsense-081": {
+    "question": "Ano ang maraming ngipin ngunit hindi nakakagat?",
+    "options": [
+      "Isang suklay",
+      "Isang pating",
+      "Isang zipper",
+      "Isang lagari"
+    ],
+    "explanation": "May ngipin ang suklay ngunit hindi ito ginagamit sa pagkagat."
+  },
+  "nonsense-082": {
+    "question": "Ano ang nagiging witter habang ito'y natutuyo?",
+    "options": [
+      "Isang tuwalya",
+      "Isang ulap",
+      "Isang espongha",
+      "Isang ilog"
+    ],
+    "explanation": "Isang tuwalya ang sumisipsip ng tubig samantalang pinatutuyo ang ibang bagay."
+  },
+  "nonsense-083": {
+    "question": "Ano ang may leeg ngunit walang ulo?",
+    "options": [
+      "Isang bote",
+      "Isang taong",
+      "Isang giraffe",
+      "Isang kamisadentro"
+    ],
+    "explanation": "Ang isang bote ay may leeg ngunit walang ulo."
+  },
+  "nonsense-084": {
+    "question": "Ano ang mayroon ang mga kamay ngunit hindi makapalakpak?",
+    "options": [
+      "Isang orasan",
+      "Isang piyanistang",
+      "Aglove",
+      "Isang estatuwa"
+    ],
+    "explanation": "Ang orasan ay may oras at minutong mga kamay."
+  },
+  "nonsense-085": {
+    "question": "Ano ang maaaring maglakbay sa buong daigdig samantalang nananatili sa isang sulok?",
+    "options": [
+      "Isang selyo",
+      "Isang kompas",
+      "Isang ulap",
+      "Isang maleta"
+    ],
+    "explanation": "Isang selyo ng koreo ang nananatili sa sulok ng isang sobre habang ito'y naglalakbay."
+  },
+  "nonsense-086": {
+    "question": "Ano ang mayroon ang isang mata ngunit hindi makakita?",
+    "options": [
+      "Isang karayom",
+      "Isang kamera",
+      "Isang bagyo",
+      "Isang patatas"
+    ],
+    "explanation": "Ang butas ng karayom ay ang butas para sa sinulid."
+  },
+  "nonsense-087": {
+    "question": "Ano ang may susi ngunit hindi makapagbubukas ng kandado?",
+    "options": [
+      "Isang piyano",
+      "Isang panday - kandado",
+      "Isang mapa",
+      "Isang pinto"
+    ],
+    "explanation": "Ang piyano ay may musikal na mga susi, hindi nakakandadong mga susi."
+  },
+  "nonsense-088": {
+    "question": "Ano ang mukha at dalawang kamay subalit walang mga braso o mga binti?",
+    "options": [
+      "Isang orasan",
+      "Isang manika",
+      "Isang ipinintang larawan",
+      "Isang glove"
+    ],
+    "explanation": "Ang isang mukha at mga kamay ng orasan ay tinutukoy sa pamamagitan ng paghahambing sa isang tao."
+  },
+  "nonsense-089": {
+    "question": "Ano ba ang bumabangon ngunit hindi bumababa?",
+    "options": [
+      "Ang edad mo",
+      "Isang lobong",
+      "Usok",
+      "Isang elebeytor"
+    ],
+    "explanation": "Ang iyong edad ay lumalaki habang lumilipas ang panahon."
+  },
+  "nonsense-090": {
+    "question": "Ano ang may apat na paa ngunit hindi makalakad?",
+    "options": [
+      "Isang mesa",
+      "Isang aso",
+      "Isang kabayo",
+      "Isang gagamba"
+    ],
+    "explanation": "Ang isang mesa ay may mga binti subalit hindi makakilos sa ganang sarili."
+  },
+  "general-x-1": {
+    "question": "Aling bituin ang pinakamalapit sa Lupa pagkatapos ng Araw?",
+    "options": [
+      "Proxima Centauri",
+      "Apat",
+      "Higrometro",
+      "Kalsita"
+    ],
+    "explanation": "Ang Proxima Centauri ang pinakamalapit na bituin sa Araw pagkatapos ng Araw mismo."
+  },
+  "general-x-2": {
+    "question": "Gaano karaming kuwerdas ang mayroon ang isang karaniwang biyolin?",
+    "options": [
+      "Apat na",
+      "Bakal",
+      "Bitamina C",
+      "Garbanzo"
+    ],
+    "explanation": "Ang isang karaniwang biyolin ay may apat na kuwerdas."
+  },
+  "general-x-3": {
+    "question": "Aling instrumento ang sumusukat sa halumigmig ng atmospera?",
+    "options": [
+      "Higrometro",
+      "Plum",
+      "Binurong soybeans",
+      "Almendras"
+    ],
+    "explanation": "Sinusukat ng isang hygrometer ang halumigmig sa hangin."
+  },
+  "general-x-4": {
+    "question": "Aling mineral ang pangunahing sangkap ng batong - apog?",
+    "options": [
+      "Kalsita",
+      "Isang kaha",
+      "Kamaleon",
+      "Loro"
+    ],
+    "explanation": "Ang batong - apog ay pangunahin nang binubuo ng mineral na calcite."
+  },
+  "general-x-5": {
+    "question": "Gaano karaming segundo ang nasa loob ng isang minuto?",
+    "options": [
+      "60",
+      "Piano",
+      "Michelangelo",
+      "Mga string"
+    ],
+    "explanation": "Ang isang minuto ay naglalaman ng 60 segundo."
+  },
+  "general-x-6": {
+    "question": "Ano ang unang elemento sa periodic table?",
+    "options": [
+      "Hidroheno",
+      "Origami",
+      "Wet plast",
+      "Ukit"
+    ],
+    "explanation": "Ang Hydrogen ay may atomikong bilang na 1 at ito ang unang elemento sa periodic table."
+  },
+  "general-x-7": {
+    "question": "Aling karagatan ang nasa pagitan ng silangang Aprika at kanlurang Australia?",
+    "options": [
+      "Karagatang Indian",
+      "Anim",
+      "Rugby",
+      "Labingwalong taon"
+    ],
+    "explanation": "Ang Karagatang Indian ay nasa pagitan ng Aprika, Asia, at Australia."
+  },
+  "general-x-8": {
+    "question": "Sa katamtamang presyon, sa anong temperaturang Celsius kumukulo ang dalisay na tubig?",
+    "options": [
+      "100 °C",
+      "Ang halaga ng panghihiram ng",
+      "Ang pagpapanatili ng kita para sa hinaharap na paggamit ng",
+      "Isang sistema kung saan ang mga mamimili at mga nagtitinda ay nagpapalitan ng pera"
+    ],
+    "explanation": "Pinakukulo ng tubig ang 100 °C sa isang kapaligiran ng presyon."
+  },
+  "general-x-9": {
+    "question": "Ilan ang mukha ng isang tetrahedron?",
+    "options": [
+      "Apat",
+      "Isang adres na",
+      "Kompas",
+      "366"
+    ],
+    "explanation": "Ang isang tetrahedron ay may apat na tatsulok na mukha."
+  },
+  "general-x-10": {
+    "question": "Aling metal ang may kemikal na sagisag na Fe?",
+    "options": [
+      "Bakal",
+      "Krus na isang daang ligtas",
+      "112",
+      "Paninigarilyo"
+    ],
+    "explanation": "Fe ang kemikal na simbolo para sa iron."
+  },
+  "general-x-11": {
+    "question": "Aling bitamina ang sagana sa prutas na sitrus?",
+    "options": [
+      "Bitamina C",
+      "Chuuseok",
+      "Ondol",
+      "Buchaechum"
+    ],
+    "explanation": "Ang mga prutas na Citrus ay mga kilalang-kilalang pinagkukunan ng bitamina C."
+  },
+  "general-x-12": {
+    "question": "Ano ang pangunahing sangkap ng tradisyonal na hummus?",
+    "options": [
+      "Garbanzo",
+      "Ikalawang",
+      "90",
+      "Omnivoro"
+    ],
+    "explanation": "Ang tradisyonal na hummus ay pangunahin nang gawa mula sa mga sisiwpea."
+  },
+  "general-x-13": {
+    "question": "Aling butil ang ginagamit sa paggawa ng risotto?",
+    "options": [
+      "Arborio bigas",
+      "Apat",
+      "Higrometro",
+      "Kalsita"
+    ],
+    "explanation": "Karaniwang ginagamit ng Risotto ang mga maiikling-grain na uri tulad ng Arborio."
+  },
+  "general-x-14": {
+    "question": "Ano ba ang tokwa na pangunahin nang gawa sa?",
+    "options": [
+      "Soya",
+      "Bakal",
+      "Bitamina C",
+      "Garbanzo"
+    ],
+    "explanation": "Ang tokwa ay ginagawa sa pamamagitan ng pag - aayos ng gatas ng balatong."
+  },
+  "general-x-15": {
+    "question": "Aling pampalasa ang nagbibigay sa maraming curry ng dilaw na kulay?",
+    "options": [
+      "Luyang dilaw",
+      "Binurong soybeans",
+      "Almendras",
+      "Krema"
+    ],
+    "explanation": "Ang curcumin sa turmeric ay nagbibigay dito ng malakas na dilaw na kulay."
+  },
+  "general-x-16": {
+    "question": "Ano ang pangunahing sangkap sa guacamole?",
+    "options": [
+      "Abokado",
+      "Kamaleon",
+      "Loro",
+      "Pating-balyena"
+    ],
+    "explanation": "Ang guacamole ay batay sa minasadong abokado."
+  },
+  "general-x-17": {
+    "question": "Aling bunga ang pinatutuyo upang gawing prunes?",
+    "options": [
+      "Plum",
+      "Michelangelo",
+      "Mga string",
+      "Sayaw"
+    ],
+    "explanation": "Ang prunes ay isang pinatuyong plum."
+  },
+  "general-x-18": {
+    "question": "Ano ang pangunahing sangkap sa miso?",
+    "options": [
+      "Binurong soybeans",
+      "Wet plast",
+      "Ukit",
+      "Lima"
+    ],
+    "explanation": "Ang miso ay isang pinakasim na paste na karaniwang gawa sa balatong."
+  },
+  "general-x-19": {
+    "question": "Aling nuwes ang ginagamit sa paggawa ng marzipan?",
+    "options": [
+      "Almendras",
+      "Rugby",
+      "Labingwalong",
+      "Ahedres"
+    ],
+    "explanation": "Ang Marzipan ay pangunahin nang gawa sa giniling na almendras at asukal."
+  },
+  "general-x-20": {
+    "question": "Aling produkto ng gatas ang ginagawang mantikilya?",
+    "options": [
+      "Krema",
+      "Pag - iingat ng kita para sa hinaharap na paggamit ng",
+      "Isang sistema kung saan ang mga mamimili at nagbebenta ay nagpapalitan ng",
+      "Isang pangkalahatang pagtaas ng presyo"
+    ],
+    "explanation": "Pinaghihiwalay ng kremang krem ang butterfat mula sa buttermilk."
+  },
+  "general-x-21": {
+    "question": "Ano ang pinakamalaking nabubuhay na hayop sa lupa?",
+    "options": [
+      "Aprikanong elepante",
+      "Kompas",
+      "366",
+      "Pito"
+    ],
+    "explanation": "Ang elepante sa Aprika ang pinakamalaking nabubuhay na hayop sa lupa."
+  },
+  "general-x-22": {
+    "question": "Ano ang pinakamabilis na hayop sa lupa sa maiikling distansiya?",
+    "options": [
+      "Gepardo",
+      "112",
+      "Usok",
+      "Seoul"
+    ],
+    "explanation": "Ang mga cheetah ay maaaring umabot sa pinakamataas na land-scaper running speed."
+  },
+  "general-x-23": {
+    "question": "Aling mamalya ang nangingitlog at may tukang parang bibi?",
+    "options": [
+      "Platipus",
+      "Ondol",
+      "Buchaechum",
+      "Hanok"
+    ],
+    "explanation": "Ang platypus ay isang itlog-laying mamalya na may tuka."
+  },
+  "general-x-24": {
+    "question": "Ano ang karaniwang tawag sa isang grupo ng mga lobo?",
+    "options": [
+      "Isang kaha",
+      "90",
+      "Omnivoro",
+      "Pag-ulan"
+    ],
+    "explanation": "Ang isang pangkat ng mga lobo ay karaniwang tinatawag na isang kaha."
+  },
+  "general-x-25": {
+    "question": "Aling hayop ang kilala sa pagbabago ng kulay gamit ang pantanging mga selula ng balat?",
+    "options": [
+      "Kamaleon",
+      "Higrometro",
+      "Kalsita",
+      "60"
+    ],
+    "explanation": "Maaaring baguhin ng mga chameleon ang kulay gamit ang mga espesyalisadong selula ng balat."
+  },
+  "general-x-26": {
+    "question": "Aling ibon ang kilala sa pagtulad sa pagsasalita ng tao?",
+    "options": [
+      "Loro",
+      "Vitamin C C",
+      "Garbanzo",
+      "Arborio bigas"
+    ],
+    "explanation": "Maaaring gayahin ng maraming uri ng loro ang mga tunog, pati na ang pagsasalita ng tao."
+  },
+  "general-x-27": {
+    "question": "Ano ang pinakamalaking uri ng pating?",
+    "options": [
+      "Pating-balyena",
+      "Binurong soybeans",
+      "Almendras",
+      "Krema"
+    ],
+    "explanation": "Ang whale shark ang pinakamalaking nabubuhay na uri ng isda."
+  },
+  "general-x-28": {
+    "question": "Aling insekto ang gumagawa ng pulot - pukyutan?",
+    "options": [
+      "Pukyutan",
+      "Kamaleon",
+      "Loro",
+      "Pating-balyena"
+    ],
+    "explanation": "Gumagawa ng pulot-pukyutan ang mga honeybee mula sa nakolektang nektar."
+  },
+  "general-x-29": {
+    "question": "Ano ang tawag sa isang batang palaka?",
+    "options": [
+      "Butete",
+      "Mga string",
+      "Sayaw",
+      "Salaming may kulay"
+    ],
+    "explanation": "Ang yugto ng uod sa tubig ng palaka ay tinatawag na tadpole."
+  },
+  "general-x-30": {
+    "question": "Aling mamal ang gumagamit ng echolocation upang maglayag?",
+    "options": [
+      "Paniki",
+      "Ukit",
+      "Lima",
+      "Pag-ibig"
+    ],
+    "explanation": "Maraming paniki ang gumagamit ng echolocation upang hanapin ang biktima at nabigasyon."
+  },
+  "general-x-31": {
+    "question": "Aling instrumento ang may 88 susi sa pamantayan nito sa modernong anyo?",
+    "options": [
+      "Piano",
+      "Labingwalong",
+      "Ahedres",
+      "Yen"
+    ],
+    "explanation": "Ang isang pamantayang makabagong piyano ay may 88 tipaan."
+  },
+  "general-x-32": {
+    "question": "Aling pintor ang nagpinta ng kisame ng Sistine Chapel?",
+    "options": [
+      "Michelangelo",
+      "Isang sistema kung saan ang mga mamimili at nagbebenta ay nagpapalitan ng",
+      "Isang pangkalahatang pagtaas ng presyo",
+      "Isang hinihiling na kabayaran sa pamahalaan"
+    ],
+    "explanation": "Ipininta ni Michelangelo ang kisame ng Sistine Chapel."
+  },
+  "general-x-33": {
+    "question": "Aling pamilya ng mga instrumento ang kasali sa biyolin?",
+    "options": [
+      "Mga string",
+      "366",
+      "Pito",
+      "Almusal"
+    ],
+    "explanation": "Ang biyolin ay isang bumaluktot na instrumentong de kuwerdas."
+  },
+  "general-x-34": {
+    "question": "Aling anyo ng sining ang gumagamit ng galaw at choreography sa musika?",
+    "options": [
+      "Sayaw",
+      "Usok",
+      "Seoul",
+      "Won"
+    ],
+    "explanation": "Ang Dance ay nagpapahayag ng mga ideya at porma sa pamamagitan ng paggalaw."
+  },
+  "general-x-35": {
+    "question": "Aling materyal ang tradisyonal na ginagamit sa paggawa ng kinulayang salamin?",
+    "options": [
+      "Kulay na salamin",
+      "Buchaechum",
+      "Hanok",
+      "Gayageum"
+    ],
+    "explanation": "Ang mga gawang - sining na gawa sa salamin na gawa sa may - kulay na mga piraso ng salamin ay pinagsasama - sama."
+  },
+  "general-x-36": {
+    "question": "Aling kompositor ang sumulat ng Four Seasons?",
+    "options": [
+      "Antonio Vivaldi",
+      "Omnivoro",
+      "Presipitasyon",
+      "Tagapamahala"
+    ],
+    "explanation": "Binuo ni Vivaldi ang set ng mga konsyerto ng biyolin na kilala bilang The Four Seasons."
+  },
+  "general-x-37": {
+    "question": "Aling instrumento ang tinutugtog sa pamamagitan ng isang busog at mas malaki kaysa sa isang biyolin?",
+    "options": [
+      "Cello",
+      "Kalsita",
+      "60",
+      "Hidroheno"
+    ],
+    "explanation": "Ang cello ay isang bumaluktot na instrumentong de kuwerdas na mas malaki kaysa biyolin."
+  },
+  "general-x-38": {
+    "question": "Ano ang tawag sa sining ng Hapones na pagtiklop ng papel?",
+    "options": [
+      "Origami",
+      "Garbanzo",
+      "Arborio bigas",
+      "Soya"
+    ],
+    "explanation": "Ang origami ay ang sining ng pagtiklop ng papel sa mga anyo."
+  },
+  "general-x-39": {
+    "question": "Aling medium ang ginagamit upang lumikha ng fresco?",
+    "options": [
+      "Basang palitada",
+      "Almendras",
+      "Krema",
+      "elepanteng Aprikano: elepanteng Aprikano"
+    ],
+    "explanation": "Isang fresco ang ipininta sa kalalatag lamang na basang plaster."
+  },
+  "general-x-40": {
+    "question": "Aling sinaunang bagay sa museo ang gumagamit ng pagsulat sa bato, metal, o kahoy?",
+    "options": [
+      "Ukit",
+      "Loro",
+      "Pating-balyena",
+      "Pukyutan"
+    ],
+    "explanation": "Ang isang inskripsiyon ay ang tekstong inukit o nakasulat sa isang matibay na ibabaw."
+  },
+  "general-x-41": {
+    "question": "Gaano karaming manlalaro mula sa isang koponan ng basketbol ang nasa korte sa isang panahon?",
+    "options": [
+      "Limang",
+      "Mga string",
+      "Sayaw",
+      "Salaming may kulay"
+    ],
+    "explanation": "Ang bawat koponan ng basketbol ay nagpapatakbo ng limang manlalaro sa korte."
+  },
+  "general-x-42": {
+    "question": "Sa tenis, ano ang isang iskor ng sero na tinatawag?",
+    "options": [
+      "Pag-ibig",
+      "Ukit",
+      "Lima",
+      "Badminton"
+    ],
+    "explanation": "Ginagamit ni Tennis ang katagang pag-ibig para sa iskor na sero."
+  },
+  "general-x-43": {
+    "question": "Ilang singsing ang lumilitaw sa Olimpikong watawat?",
+    "options": [
+      "Limang",
+      "Ahedres",
+      "Yen",
+      "Planned na kita at paggasta"
+    ],
+    "explanation": "Ang Olimpikong sagisag ay may limang magkasanib na mga singsing."
+  },
+  "general-x-44": {
+    "question": "Aling isport ang gumagamit ng shuttlecock?",
+    "options": [
+      "Badminton",
+      "Isang pangkalahatang pagtaas ng presyo",
+      "Isang hinihiling na kabayaran sa pamahalaan",
+      "Revenue minus gastos"
+    ],
+    "explanation": "Ang Badminton ay nilalaro sa pamamagitan ng isang shuttlecock."
+  },
+  "general-x-45": {
+    "question": "Gaano karaming base ang nasa isang brilyante sa baseball?",
+    "options": [
+      "Apat",
+      "Pito",
+      "Almusal",
+      "Indienteng listahan"
+    ],
+    "explanation": "Ang isang brilyante sa baseball ay may apat na mga base, pati na ang home plate."
+  },
+  "general-x-46": {
+    "question": "Aling isport ang nilalaro sa Wimbledon?",
+    "options": [
+      "Tennis",
+      "Seoul",
+      "Won",
+      "Hangul"
+    ],
+    "explanation": "Ang Wimbledon ay isang pangunahing torneo ng tenis."
+  },
+  "general-x-47": {
+    "question": "Gaano karaming punto ang mahalaga bago ang anumang pagkakumberte?",
+    "options": [
+      "Anim na",
+      "Hanok",
+      "Gayageum",
+      "Ssireum"
+    ],
+    "explanation": "Ang isang touchdown ay nagkakahalaga ng anim na puntos sa American football."
+  },
+  "general-x-48": {
+    "question": "Aling isport ang gumagamit ng scrum?",
+    "options": [
+      "Rugby",
+      "Presipitasyon",
+      "Panukat",
+      "Isang apoy"
+    ],
+    "explanation": "Ang scrum ay isang paraan ng muling pag-arte ng dula sa rugby."
+  },
+  "general-x-49": {
+    "question": "Gaano karaming butas ang nasa isang pamantayang golf round?",
+    "options": [
+      "Labingwalong",
+      "60",
+      "Hidroheno",
+      "Karagatang Indian"
+    ],
+    "explanation": "Ang isang pamantayang golf round ay nilalaro sa mahigit na 18 butas."
+  },
+  "general-x-50": {
+    "question": "Aling isport ang gumagamit ng mga katagang check at checkmate?",
+    "options": [
+      "Ahedres",
+      "Arborio bigas",
+      "Soya",
+      "Luyang dilaw"
+    ],
+    "explanation": "Ang check and checkmate ay mga termino sa chess."
+  },
+  "general-x-51": {
+    "question": "Ano ba ang yunit ng salapi na ginagamit sa Hapón?",
+    "options": [
+      "Yen",
+      "Krema",
+      "Elepanteng Aprikano",
+      "Gepardo"
+    ],
+    "explanation": "Ang yen ay ang pera ng Hapon."
+  },
+  "general-x-52": {
+    "question": "Ano ba ang pagkakaiba ng isang badyet?",
+    "options": [
+      "Isinaplanong kita at gastusin",
+      "Pating-balyena",
+      "Pukyutan",
+      "Butete"
+    ],
+    "explanation": "Isang badyet ang nag - oorganisa ng inaasahang kita at mga gastusin."
+  },
+  "general-x-53": {
+    "question": "Ano ba ang pagpapalitan?",
+    "options": [
+      "Exchange of good",
+      "Sayaw",
+      "Salaming may kulay",
+      "Antonio Vivaldi"
+    ],
+    "explanation": "Ang bater ay isang direktang palitan nang hindi ginagamit ang pera bilang kabayaran."
+  },
+  "general-x-54": {
+    "question": "Ano ba ang interes sa isang utang?",
+    "options": [
+      "Ang halaga ng panghihiram",
+      "Limang",
+      "Pag-ibig",
+      "Badminton"
+    ],
+    "explanation": "Ang interes ay ang halagang ibinabayad sa panghihiram ng salapi."
+  },
+  "general-x-55": {
+    "question": "Ano ang ibig sabihin ng pagliligtas?",
+    "options": [
+      "Patuloy na kumita para sa hinaharap —",
+      "Ahedres",
+      "Yen",
+      "Planned income at paggastos"
+    ],
+    "explanation": "Ang pagliligtas ay nangangahulugan ng pagrereserba ng mga kayamanan sa halip na gastusin ang mga ito ngayon."
+  },
+  "general-x-56": {
+    "question": "Ano ba ang isang pamilihan sa ekonomiks?",
+    "options": [
+      "Isang sistema kung saan ang mga mamimili at mga nagbebenta ay nagpapalitan ng pera",
+      "Isang kahilingan na kabayaran sa pamahalaan",
+      "Revenue minus gastos",
+      "Gaano karaming benta ang iniaalok para ipagbili"
+    ],
+    "explanation": "Pinag-uugnay ng isang pamilihan ang mga mamimili at mga nagtitinda para sa mga palitan."
+  },
+  "general-x-57": {
+    "question": "Ano ba ang implasyon?",
+    "options": [
+      "Ang pangkalahatang pagtaas ng presyo",
+      "Almusal",
+      "Indienteng listahan",
+      "Proseso ito para sa muling paggamit"
+    ],
+    "explanation": "Ang implasyon ay isang patuloy na pagtaas sa kabuuang antas ng presyo."
+  },
+  "general-x-58": {
+    "question": "Ano ba ang isang buwis?",
+    "options": [
+      "Isang hinihiling na kabayaran sa gobyerno",
+      "Won",
+      "Hangul",
+      "Kimchi"
+    ],
+    "explanation": "Ang mga buwis ay nagtutustos ng mga serbisyong pampubliko at ipinatutupad ng mga pamahalaan."
+  },
+  "general-x-59": {
+    "question": "Ano ba ang pakinabang?",
+    "options": [
+      "Revenue minus Mga gastos",
+      "Gayageum",
+      "Ssireum",
+      "Metro"
+    ],
+    "explanation": "Ang pakinabang ang nananatili kapag binabawasan ang halaga mula sa kita."
+  },
+  "general-x-60": {
+    "question": "Ano ang inilalarawan ng suplay?",
+    "options": [
+      "Gaano karaming nagbebenta ang iniaalok para ipagbili",
+      "Tagapamahala",
+      "Isang sunog",
+      "Timog"
+    ],
+    "explanation": "Ang suplay ay ang mga gumagawa ng kantidad ay handang magbenta sa iba't ibang presyo."
+  },
+  "general-x-61": {
+    "question": "Ano ang pangalan ng nasusulat na set ng mga tagubilin sa isang lugar?",
+    "options": [
+      "Isang direksiyong",
+      "Hidroheno",
+      "Karagatang Indian",
+      "100 °C"
+    ],
+    "explanation": "Ipinakikilala ng isang direksiyon ang isang lugar para sa paghahatid o paglalayag."
+  },
+  "general-x-62": {
+    "question": "Aling aparato ang karaniwang ginagamit upang hanapin ang direksiyon sa pamamagitan ng magnetikong karayom?",
+    "options": [
+      "Kompas",
+      "Soya",
+      "Luyang dilaw",
+      "Abokado"
+    ],
+    "explanation": "Ang karayom na kompas ay katugma ng magnetic field ng Lupa."
+  },
+  "general-x-63": {
+    "question": "Ilang araw ang lumilipas sa isang leap year?",
+    "options": [
+      "366",
+      "Aprikanong elepante",
+      "Gepardo",
+      "Platipus"
+    ],
+    "explanation": "Ang isang leap year ay may isang ekstrang araw sa Pebrero, para sa 366 kabuuang."
+  },
+  "general-x-64": {
+    "question": "Gaano karaming buwan ang nagkaroon ng 31 araw?",
+    "options": [
+      "Pitong",
+      "Pukyutan",
+      "Butete",
+      "Paniki"
+    ],
+    "explanation": "Ang pitong buwan ay may 31 araw."
+  },
+  "general-x-65": {
+    "question": "Ano ang unang pagkain sa araw na iyon na karaniwang tinatawag?",
+    "options": [
+      "Almusal",
+      "Salaming may kulay",
+      "Antonio Vivaldi",
+      "Cello"
+    ],
+    "explanation": "Ang breakfast ay karaniwang ang unang pagkain pagkatapos magising."
+  },
+  "general-x-66": {
+    "question": "Aling dokumento ang nagtatala ng mga sangkap sa paketeng pagkain?",
+    "options": [
+      "Inggresibong listahan",
+      "Pag - ibig",
+      "Badminton",
+      "Tennis"
+    ],
+    "explanation": "Nakatala sa mga etiketa ng pagkain ang mga sangkap, karaniwan nang bumababa ayon sa pagkakasunud - sunod ng timbang."
+  },
+  "general-x-67": {
+    "question": "Ano ang nagagawa ng pagreresiklo sa madaling gamiting materyal?",
+    "options": [
+      "Iproseso ito para muling magamit ang",
+      "Yen",
+      "Planned income at paggastos",
+      "Exchange of goods nang walang pera"
+    ],
+    "explanation": "Ang mga proseso ng pagreresiklo ay nag - aaksaya ng materyal upang magamit itong muli."
+  },
+  "general-x-68": {
+    "question": "Ano ang naitutulong ng pagtawid ng isang taong naglalakad upang magawa ng mga tao?",
+    "options": [
+      "Tumawid sa isang kalsada para tulungan ang mga tao na gawin ang ano? A: Tumawid nang ligtas sa isang kalsada",
+      "Isang kahilingan na kabayaran sa pamahalaan",
+      "Revenue minus gastos",
+      "Gaano karaming nagbebenta ang iniaalok para ipagbili"
+    ],
+    "explanation": "Ang may - markang mga tawiran ay tumutukoy sa mga lugar na dapat tawirin ng mga taong naglalakad."
+  },
+  "general-x-69": {
+    "question": "Aling emergency number ang ginagamit sa buong European Union?",
+    "options": [
+      "112",
+      "Almusal",
+      "Inggredient list",
+      "Proseso ito para sa muling paggamit"
+    ],
+    "explanation": "112 ang karaniwang emergency number sa ibayo ng EU."
+  },
+  "general-x-70": {
+    "question": "Ano ang nadarama ng isang detektor ng usok?",
+    "options": [
+      "Usok",
+      "Hangul",
+      "Kimchi",
+      "Chuuseok"
+    ],
+    "explanation": "Ang mga smoke detector ay nagbababala sa mga nakatira kapag ang usok ay natunton."
+  },
+  "general-x-71": {
+    "question": "Ano ang kabisera ng Timog Korea?",
+    "options": [
+      "Seoul",
+      "Ssireum",
+      "Metro",
+      "Ikalawang Bahagi"
+    ],
+    "explanation": "Ang Seoul ay ang kabisera ng Timog Korea."
+  },
+  "general-x-72": {
+    "question": "Ano ba ang pambansang salapi ng Timog Korea?",
+    "options": [
+      "Won",
+      "Isang sunog",
+      "Timog",
+      "Balat ng daigdig"
+    ],
+    "explanation": "Ang napanalunan ay ang salapi ng Timog Korea."
+  },
+  "general-x-73": {
+    "question": "Aling alpabetong Koreano ang ipinahayag ni Haring Sejong?",
+    "options": [
+      "Hangul",
+      "Karagatang Indian",
+      "100 °C",
+      "Bakal"
+    ],
+    "explanation": "Ipinahayag ni Haring Sejong ang Hunminjeongeum, na ngayo'y tinatawag na Hangul, noong 1446."
+  },
+  "general-x-74": {
+    "question": "Ano ang tawag sa tradisyonal na pinakasim na pagkaing repolyo ng Korea?",
+    "options": [
+      "Kimchi",
+      "Luyang dilaw",
+      "Abokado",
+      "Plum"
+    ],
+    "explanation": "Ang Kimchi ay isang tradisyonal at pinakasim na putaheng gulay, na kadalasang gawa sa repolyo."
+  },
+  "general-x-75": {
+    "question": "Aling kapistahan sa Korea ang nauugnay sa isang pagdiriwang ng pag - aani?",
+    "options": [
+      "Chuuseok",
+      "Gepardo",
+      "Platipus",
+      "Isang kaha"
+    ],
+    "explanation": "Ang Chuseok ay isang pangunahing pista ng pag-aani sa taglagas sa Korea."
+  },
+  "general-x-76": {
+    "question": "Ano ang tawag sa tradisyonal na sistema ng pag-init ng sahig ng Korea?",
+    "options": [
+      "Ondol",
+      "Butete",
+      "Paniki",
+      "Piano"
+    ],
+    "explanation": "Ang Ondol ay isang tradisyunal na Koreanong underfloor heating system."
+  },
+  "general-x-77": {
+    "question": "Aling uri ng sining sa Korea ang gumagamit ng nakatiklop na mga tagahanga sa isang pagtatanghal ng sayaw?",
+    "options": [
+      "Buchaechum",
+      "Antonio Vivaldi",
+      "Cello",
+      "Origami"
+    ],
+    "explanation": "Ang Buchaechum ay isang Koreanong fan dance."
+  },
+  "general-x-78": {
+    "question": "Ano ang salitang Koreano para sa isang tradisyunal na bahay?",
+    "options": [
+      "Hanok",
+      "Badminton",
+      "Tennis",
+      "Anime"
+    ],
+    "explanation": "Ang Hanok ay tumutukoy sa tradisyunal na arkitektura at bahay ng Korea."
+  },
+  "general-x-79": {
+    "question": "Aling instrumentong Koreano ang may mahabang leeg at karaniwan nang 12 kuwerdas?",
+    "options": [
+      "Gayageum",
+      "Planned income at paggastos",
+      "Exchange of goods na walang pera",
+      "Ang halaga ng panghihiram ng utang"
+    ],
+    "explanation": "Ang baklageum ay isang tradisyunal na Koreanong zither, karaniwang may 12 kuwerdas."
+  },
+  "general-x-80": {
+    "question": "Ano ang tawag sa tradisyonal na isport na wrestling sa Korea?",
+    "options": [
+      "Ssireum",
+      "Revenue minus ay nagkakahalaga ng",
+      "Gaano karaming benta ang iniaalok para ipagbili ang",
+      "Tirahan"
+    ],
+    "explanation": "Ang Ssireum ay isang tradisyunal na uri ng wrestling sa Korea."
+  },
+  "general-x-81": {
+    "question": "Ano ang SI yunit ng haba?",
+    "options": [
+      "Metro",
+      "Inggresibong listahan",
+      "Proseso ito para magamit muli ang",
+      "Krus isang daang ligtas"
+    ],
+    "explanation": "Ang metro ay ang base yunit ng haba ng SI."
+  },
+  "general-x-82": {
+    "question": "Ano ba ang SI yunit ng panahon?",
+    "options": [
+      "Ikalawang",
+      "Hangul",
+      "Kimchi",
+      "Chuuseok"
+    ],
+    "explanation": "Ang ikalawa ay ang base unit ng oras ng SI."
+  },
+  "general-x-83": {
+    "question": "Gaano karaming antas ang nasa tamang anggulo?",
+    "options": [
+      "90",
+      "Ssireum",
+      "Metro",
+      "Ikalawang Bahagi"
+    ],
+    "explanation": "Ang tamang anggulo ay may sukat na 90 digri."
+  },
+  "general-x-84": {
+    "question": "Ano ang pangalan ng isang hayop na kumakain kapuwa ng mga halaman at mga hayop?",
+    "options": [
+      "Omnivoro",
+      "Proxima Centauri",
+      "Apat",
+      "Higrometro"
+    ],
+    "explanation": "Kinakain ng mga omnivore kapuwa ang mga bagay na halaman at hayop."
+  },
+  "general-x-85": {
+    "question": "Ano ang tawag sa tubig na bumabagsak mula sa mga ulap bilang ulan, niyebe, o graniso?",
+    "options": [
+      "Presipitasyon",
+      "100 °C",
+      "Bakal",
+      "Bitamina C"
+    ],
+    "explanation": "Kabilang sa presipitasyon ang ulan, niyebe, sleet, at hail."
+  },
+  "general-x-86": {
+    "question": "Aling kasangkapan sa bahay ang dinisenyo upang sukatin ang haba?",
+    "options": [
+      "Tagapamahala",
+      "Abokado",
+      "Plum",
+      "Binurong soybeans"
+    ],
+    "explanation": "Ang isang pinuno ay nilalagyan ng mga yunit para sa pagsukat ng haba."
+  },
+  "general-x-87": {
+    "question": "Ano ang tumutulong upang makontrol ang isang pamatay - apoy?",
+    "options": [
+      "Isang sunog",
+      "Platipus",
+      "Isang kaha",
+      "Kamaleon"
+    ],
+    "explanation": "Isang pamatay - apoy ang ginagamit upang sugpuin ang maliliit na apoy."
+  },
+  "general-x-88": {
+    "question": "Ilang kulay ang karaniwang binabanggit sa isang bahaghari?",
+    "options": [
+      "Pitong",
+      "Paniki",
+      "Piano",
+      "Michelangelo"
+    ],
+    "explanation": "Ang karaniwang talaan ay bumabanggit ng pitong kulay ng bahaghari."
+  },
+  "general-x-89": {
+    "question": "Aling direksiyon ang nasa tapat ng hilaga sa isang kompas?",
+    "options": [
+      "Timog",
+      "Cello",
+      "Origami",
+      "wet plaster"
+    ],
+    "explanation": "Ang Timog ay nasa tapat ng hilaga sa isang kompas."
+  },
+  "general-x-90": {
+    "question": "Ano ang tinatawag na solidong panlabas na suson ng tinapay?",
+    "options": [
+      "Balat ng daigdig",
+      "Tennis",
+      "Anim na",
+      "Rugby"
+    ],
+    "explanation": "Ang crust ay ang kayumanggi sa labas ng sapin ng tinapay."
+  },
+  "nonsense-x-1": {
+    "question": "Ano ang mayroon sa mga lunsod ngunit walang mga bahay, ilog ngunit walang tubig, at mga daan ngunit walang mga kotse?",
+    "options": [
+      "Isang mapa",
+      "Isang itlog",
+      "Isang aklat sa telepono na",
+      "Isang aklat"
+    ],
+    "explanation": "Ang mapa ay kumakatawan sa mga katangiang ito nang hindi naglalaman ng mga ito sa pisikal na paraan."
+  },
+  "nonsense-x-2": {
+    "question": "Ano ang kailangang baliin bago mo magamit ito?",
+    "options": [
+      "Isang itlog",
+      "Liwanag",
+      "Isang ilog",
+      "Isang glove"
+    ],
+    "explanation": "Kailangang basagin ang isang itlog bago magamit ang mga laman nito."
+  },
+  "nonsense-x-3": {
+    "question": "Ano ang may singsing ngunit walang daliri?",
+    "options": [
+      "Isang telepono",
+      "Isang bangko",
+      "Isang baryang",
+      "Isang lamig"
+    ],
+    "explanation": "Ang isang telepono ay maaaring humilig nang walang mga daliri."
+  },
+  "nonsense-x-4": {
+    "question": "Ano ba ang mga salita ngunit hindi kailanman nagsasalita?",
+    "options": [
+      "Isang aklat na",
+      "Ang pangalan mong",
+      "Kalendaryo",
+      "Isang puno"
+    ],
+    "explanation": "Ang isang aklat ay naglalaman ng nasusulat na mga salita ngunit hindi nagsasalita sa ganang sarili."
+  },
+  "nonsense-x-5": {
+    "question": "Ano ang maaaring pumuno sa isang silid subalit wala namang lugar?",
+    "options": [
+      "Liwanag",
+      "Ang solo",
+      "Isang kabute",
+      "Ang iyong hininga"
+    ],
+    "explanation": "Ang liwanag ay maaaring magbigay - liwanag sa isang silid nang hindi ito sinasakop na parang isang solidong bagay."
+  },
+  "nonsense-x-6": {
+    "question": "Ano ang umaagos ngunit hindi naglalakad at may pampang ngunit hindi natutulog?",
+    "options": [
+      "Ilog",
+      "Sobre",
+      "Sapatos",
+      "Bote"
+    ],
+    "explanation": "Umaagos ang ilog at maaaring may pampang o ilogbed ito, ngunit hindi ito natutulog."
+  },
+  "nonsense-x-7": {
+    "question": "Ano ang may hinlalaki at apat na daliri ngunit hindi naman buháy?",
+    "options": [
+      "Guwantes",
+      "Isang biro",
+      "An arichoke",
+      "Isang kama"
+    ],
+    "explanation": "Ang glove ay may mga puwang na hugis daliri at hinlalaki."
+  },
+  "nonsense-x-8": {
+    "question": "Ano ang may mga sanga ngunit walang bunga, katawan, o mga dahon?",
+    "options": [
+      "Isang bangko",
+      "Isang kuweba",
+      "Isang balahibo",
+      "Isang batirya"
+    ],
+    "explanation": "Ang isang bangko ay maaaring magkaroon ng mga sangay bilang mga lokasyon."
+  },
+  "nonsense-x-9": {
+    "question": "Ano ang may ulo at buntot ngunit walang katawan?",
+    "options": [
+      "Isang barya",
+      "Ang titik M",
+      "Isang teapot",
+      "Isang bangka"
+    ],
+    "explanation": "Ang isang barya ay may dalawang gilid na karaniwang tinatawag na ulo at buntot."
+  },
+  "nonsense-x-10": {
+    "question": "Ano ang maaari mong mahuli ngunit hindi mo itatapon?",
+    "options": [
+      "Isang malamig na",
+      "Isang sipilyo",
+      "Isang hibilya",
+      "Isang alarm clock"
+    ],
+    "explanation": "Maaari kang makaranas ng sipon, subalit hindi mo maaaring ihagis ang isa nito."
+  },
+  "nonsense-x-11": {
+    "question": "Ano ang sa iyo ngunit mas ginagamit ng ibang tao kaysa sa iyo?",
+    "options": [
+      "Pangalan mo",
+      "Palayok",
+      "Takure",
+      "Gunting"
+    ],
+    "explanation": "Sa iyo ang pangalan mo, ngunit mas madalas itong ginagamit ng ibang tao kapag tinatawag ka nila."
+  },
+  "nonsense-x-12": {
+    "question": "Ano ang maraming pahina subalit hindi ba isang aklat at tumutulong sa iyo na magplano ng mga petsa?",
+    "options": [
+      "Isang kalendaryo",
+      "Isang web page",
+      "Isang susô",
+      "Isang lapis"
+    ],
+    "explanation": "Ipinakikita ng isang kalendaryo ang mga araw at mga petsa sa mga pahina o panel."
+  },
+  "nonsense-x-13": {
+    "question": "Ano ang may balat ngunit walang kagat?",
+    "options": [
+      "Isang puno",
+      "Isang kutsilyo",
+      "Isang kamera",
+      "Isang tren"
+    ],
+    "explanation": "Bark ang pananggalang na panlabas na suson ng isang punungkahoy."
+  },
+  "nonsense-x-14": {
+    "question": "Ano ang tawag sa ibabang bahagi ng sapatos?",
+    "options": [
+      "Ang solong",
+      "Isang computer",
+      "Isang orasan sa dingding",
+      "Isang walis"
+    ],
+    "explanation": "Ang talampakan ay ang pang-ilalim na ibabaw ng isang sapatos."
+  },
+  "nonsense-x-15": {
+    "question": "Anong uri ng silid ang walang mga pintuan o bintana?",
+    "options": [
+      "Isang kabute",
+      "Isang teleponong",
+      "Isang aklat na",
+      "Liwanag"
+    ],
+    "explanation": "Ang salitang kabute ay naglalaman ng salitang silid, ngunit hindi ito isang silid."
+  },
+  "nonsense-x-16": {
+    "question": "Ano ang maaari mong hawakan nang hindi ito hinihipo?",
+    "options": [
+      "Ang iyong hininga",
+      "Isang ilog",
+      "Isang glove",
+      "Isang bangko"
+    ],
+    "explanation": "Maaari mong pigilin ang iyong hininga nang hindi nakahawak ng isang pisikal na bagay."
+  },
+  "nonsense-x-17": {
+    "question": "Ano ang nagsisimula at nagtatapos sa E at naglalaman ng isang liham?",
+    "options": [
+      "Isang sobre",
+      "Isang barya",
+      "Isang malamig na",
+      "Ang pangalan mo"
+    ],
+    "explanation": "Ang sobre ay nagsisimula at nagtatapos sa titik na E at maaaring maglaman ng isang titik sa loob."
+  },
+  "nonsense-x-18": {
+    "question": "Ano ang may gulugod ngunit walang mga buto?",
+    "options": [
+      "Isang aklat na",
+      "Puno",
+      "Ang solong",
+      "Isang kabute"
+    ],
+    "explanation": "Ang gulugod ng isang aklat ay ang nakabigkis na gilid, hindi isang kalansay."
+  },
+  "nonsense-x-19": {
+    "question": "Ano ang may dila ngunit hindi nakakatikim?",
+    "options": [
+      "Sapatos",
+      "Kabute",
+      "Hininga mo",
+      "Sobre"
+    ],
+    "explanation": "May bahagi ng sapatos na tinatawag na dila, ngunit hindi ito nakakatikim."
+  },
+  "nonsense-x-20": {
+    "question": "Ano ang may takip ngunit walang ulo?",
+    "options": [
+      "Isang bote",
+      "Isang sapatos",
+      "Isang biro",
+      "Isang arichoke"
+    ],
+    "explanation": "Isang takip ng bote ang tumatakip sa bote."
+  },
+  "nonsense-x-21": {
+    "question": "Ano ang maaaring basagin, gawin, sabihin, at patugtugin?",
+    "options": [
+      "Isang biro",
+      "Isang kama",
+      "Isang kuweba",
+      "Isang balahibo"
+    ],
+    "explanation": "Ang mga tao ay nagbibitak - bitak, gumagawa, nagbibiruan, o naglalaro ng mga biro."
+  },
+  "nonsense-x-22": {
+    "question": "Ano ang may puso na hindi tumibok?",
+    "options": [
+      "An arichoke",
+      "Isang batirya",
+      "Ang letrang M",
+      "Isang teapot"
+    ],
+    "explanation": "Tinatawag na puso nito ang nakakaing gitnang bahagi ng isang arichoke."
+  },
+  "nonsense-x-23": {
+    "question": "Ano ang may ulo at paa ngunit walang katawan?",
+    "options": [
+      "Isang kama",
+      "Isang bangka",
+      "Isang sipilyo",
+      "Isang hibilya"
+    ],
+    "explanation": "Ang isang kama ay may headboard at footboard."
+  },
+  "nonsense-x-24": {
+    "question": "Ano ba ang bibig ngunit hindi kailanman kumakain?",
+    "options": [
+      "Isang kuweba",
+      "Isang alarm clock",
+      "Isang kalderong",
+      "Isang kaldero"
+    ],
+    "explanation": "Ang isang pasukan ng kuweba ay tinatawag kung minsan na bibig nito."
+  },
+  "nonsense-x-25": {
+    "question": "Ano ang may balat at tumutubo ngunit hindi isang aso?",
+    "options": [
+      "Puno",
+      "Scisors",
+      "Pahina sa web",
+      "Isang susô"
+    ],
+    "explanation": "Ang isang puno ay lumalaki at may balat ng kahoy bilang panlabas na takip nito."
+  },
+  "nonsense-x-26": {
+    "question": "Anong magaan na bagay ang maaaring lumutang sa hangin at lumaki sa isang ibon?",
+    "options": [
+      "Isang balahibo",
+      "Isang lapis",
+      "Isang kutsilyo",
+      "isang kamera"
+    ],
+    "explanation": "Ang isang balahibo ay magaan at tumutubo bilang bahagi ng isang ibon?"
+  },
+  "nonsense-x-27": {
+    "question": "Ano ang walang buhay kundi ang maaaring mamatay?",
+    "options": [
+      "Isang batirya",
+      "Isang tren",
+      "Isang computer",
+      "Isang orasan sa dingding"
+    ],
+    "explanation": "Ang isang batirya ay sinasabing patay na kapag ito ay hindi na makapagbigay ng kapaki - pakinabang na lakas."
+  },
+  "nonsense-x-28": {
+    "question": "Ano ang maaaring makita minsan sa isang minuto, dalawang beses sa isang saglit, at hindi kailanman sa loob ng isang libong taon?",
+    "options": [
+      "Ang titik na M",
+      "Isang itlog",
+      "Isang teleponong",
+      "Isang aklat na aklat"
+    ],
+    "explanation": "Ang titik na M ay lumilitaw minsan sa minuto, dalawang beses sa isang saglit, at hindi sa loob ng isang libong taon."
+  },
+  "nonsense-x-29": {
+    "question": "Ano ang nagsisimula sa T, nagtatapos sa T, at may T sa loob?",
+    "options": [
+      "Isang teapot",
+      "Liwanag",
+      "Isang ilog",
+      "Isang glove"
+    ],
+    "explanation": "Ang isang teapot ay nagsisimula at nagtatapos sa T at maaaring humawak ng tsa sa loob."
+  },
+  "nonsense-x-30": {
+    "question": "Aling bahagi ng bangka ang pangharap na dulo nito?",
+    "options": [
+      "Isang bangka",
+      "Isang bangko",
+      "Isang baryang",
+      "Isang lamig"
+    ],
+    "explanation": "Ang pana ay ang pasulong na dulo ng isang bangka."
+  },
+  "nonsense-x-31": {
+    "question": "Anong bahagi ng barko ang nakaturo sa unahan habang ito'y kumikilos?",
+    "options": [
+      "Isang bangka",
+      "Ang pangalan mong",
+      "Kalendaryo",
+      "Isang puno"
+    ],
+    "explanation": "Ang isang bangka ay may pana sa harap nito at nakapagdadala ng mga tao."
+  },
+  "nonsense-x-32": {
+    "question": "Ano ang may hawakan at mga balahibo sa buhok subalit hindi isang pinsel?",
+    "options": [
+      "Isang sipilyo",
+      "Ang tanging",
+      "Isang kabute",
+      "Ang iyong hininga"
+    ],
+    "explanation": "Ang sipilyo ay may hawakan at mga balahibo para sa paglilinis ng ngipin."
+  },
+  "nonsense-x-33": {
+    "question": "Ano ang may butas sa gitna at ginagamit upang pagdugtungin ang sinturon?",
+    "options": [
+      "Buckle",
+      "Sobre",
+      "Sapatos",
+      "Bote"
+    ],
+    "explanation": "May butas sa gitna ang buckle, at ipinapasok dito ang sinturon upang magkadugtong."
+  },
+  "nonsense-x-34": {
+    "question": "Ano ang sinasabi sa iyo ng isang dial at kung kailan ka gigising?",
+    "options": [
+      "Isang alarm clock",
+      "Isang biro",
+      "Isang arichoke",
+      "Isang kama"
+    ],
+    "explanation": "Ang isang alarm clock ay gumagamit ng isang time setting at alarma upang gisingin ang isang tao."
+  },
+  "nonsense-x-35": {
+    "question": "Ano ang may takip at pinananatiling mainit ang sabaw?",
+    "options": [
+      "Isang kaldero",
+      "Isang kuweba",
+      "Isang balahibo",
+      "Isang batirya"
+    ],
+    "explanation": "Ang isang kaldero ay maaaring magkaroon ng takip at hawakan ang mainit na sabaw."
+  },
+  "nonsense-x-36": {
+    "question": "Ano ang may hawakan at bumubuhos na tubig ngunit hindi ito isang ilog?",
+    "options": [
+      "Isang kaldero",
+      "Ang titik na M",
+      "Isang teapot",
+      "Isang bangka"
+    ],
+    "explanation": "Ang isang kaldero ay may labasan at hawakan para sa pagbubuhos ng mainit na tubig."
+  },
+  "nonsense-x-37": {
+    "question": "Ano ang may talim ngunit ginagamit sa manu - manong pagputol ng papel?",
+    "options": [
+      "Scisors",
+      "Isang sipilyo",
+      "Isang hibilya",
+      "Isang alarm clock"
+    ],
+    "explanation": "Ang mga scissor ay may dalawang talim na nagpuputol ng materyal kapag pinisil ang kanilang mga hawakan."
+  },
+  "nonsense-x-38": {
+    "question": "Ano ang may solo at sintas ngunit hindi isang isda?",
+    "options": [
+      "Isang sapatos",
+      "Isang kaldero",
+      "Scisors",
+      "Isang web page"
+    ],
+    "explanation": "Ang mga sapatos ay maaaring magkaroon ng solo at laces."
+  },
+  "nonsense-x-39": {
+    "question": "Ano ang isang pahina ngunit hindi ba isang aklat at mga pasan sa isang browser?",
+    "options": [
+      "Isang web page",
+      "Isang susô",
+      "Isang lapis",
+      "Isang kutsilyo"
+    ],
+    "explanation": "Ang isang web page ay isang dokumento na nakadispley sa isang browser."
+  },
+  "nonsense-x-40": {
+    "question": "Ano ang may kabibi at maaaring dalhin ang tahanan nito sa likod nito?",
+    "options": [
+      "Suso",
+      "Kamera",
+      "Isang tren",
+      "Isang computer"
+    ],
+    "explanation": "Ang isang susô ay nagdadala ng isang kabibi habang ito'y kumikilos."
+  },
+  "nonsense-x-41": {
+    "question": "Ano ang isang punto ngunit hindi makagawa ng argumento at sumulat sa papel?",
+    "options": [
+      "Isang lapis",
+      "Isang mapa",
+      "Isang itlog",
+      "Isang telepono"
+    ],
+    "explanation": "Ang punto ng lapis ay nag - iiwan ng marka sa papel."
+  },
+  "nonsense-x-42": {
+    "question": "Ano ang may pabalat, pahina, at titulo subalit hindi ito isang bahay?",
+    "options": [
+      "Isang aklat na",
+      "Liwanag",
+      "Isang ilog",
+      "Guwantes"
+    ],
+    "explanation": "Ang isang aklat ay may pabalat at mga pahina, at ipinakikilala ito ng pamagat nito."
+  },
+  "nonsense-x-43": {
+    "question": "Ano ang hawakan at talim at ginagamit sa hapunan?",
+    "options": [
+      "Isang kutsilyo",
+      "Aglove",
+      "Isang bangko",
+      "Isang barya"
+    ],
+    "explanation": "Ang isang kutsilyo sa mesa ay may hawakan at talim para sa paghiwa ng pagkain."
+  },
+  "nonsense-x-44": {
+    "question": "Ano ang may lente at kumukuha ng mga larawan?",
+    "options": [
+      "Isang kamera",
+      "Isang malamig na",
+      "Ang pangalan mong",
+      "Isang kalendaryo"
+    ],
+    "explanation": "Gumagamit ang kamera ng lente upang makabuo ng mga larawan para sa mga larawan."
+  },
+  "nonsense-x-45": {
+    "question": "Ano ang sinasabi ng isang tao tungkol sa pag - aalalsa at pagtunog kapag may tumatawag sa kaniya?",
+    "options": [
+      "Isang telepono",
+      "Ang solo",
+      "Isang kabute",
+      "Ang iyong hininga"
+    ],
+    "explanation": "Ang isang tradisyonal na telepono ay maaaring tumunog upang magbigay ng hudyat sa isang dumarating na tawag."
+  },
+  "nonsense-x-46": {
+    "question": "Ano ang dala ng mga gulong at mga pasahero sa kahabaan ng mga riles?",
+    "options": [
+      "Isang tren",
+      "Ang iyong hininga",
+      "Isang sobre",
+      "Isang sapatos"
+    ],
+    "explanation": "Tumatakbo ang tren sa mga riles at nagdadala ng mga pasahero o kargamento."
+  },
+  "nonsense-x-47": {
+    "question": "Ano ang may keyboard at nagtatanghal ng mga liham ngunit hindi isang makinilya?",
+    "options": [
+      "Isang computer",
+      "Isang boteng",
+      "Isang birong",
+      "Isang arichoke"
+    ],
+    "explanation": "Makikita sa keyboard ng computer ang impormasyon."
+  },
+  "nonsense-x-48": {
+    "question": "Ano ang may hawakan, pahina, at tumutulong upang malinis ang ngipin?",
+    "options": [
+      "Isang sipilyo",
+      "Isang kama",
+      "Isang kuweba",
+      "Isang balahibo"
+    ],
+    "explanation": "Ang sipilyo ay may hawakan at mga balahibo para sa paglilinis ng ngipin."
+  },
+  "nonsense-x-49": {
+    "question": "Ano ang may nguso at nagbubuhos ng tsaa sa tasa?",
+    "options": [
+      "Teapot",
+      "Baterya",
+      "Titik M",
+      "Bangka"
+    ],
+    "explanation": "May nguso ang teapot na dinadaluyan ng tsaa papunta sa tasa."
+  },
+  "nonsense-x-50": {
+    "question": "Ano ang iyong sinasabi tungkol sa isang dial, mga kamay, at ang iyong oras sa dingding?",
+    "options": [
+      "Isang orasan sa pader",
+      "Isang bangkang",
+      "Isang sipilyo",
+      "Isang hibilya"
+    ],
+    "explanation": "Ang isang orasan sa dingding ay nagtatanghal ng oras na may mga kamay sa isang dial."
+  },
+  "nonsense-x-51": {
+    "question": "Ano ba ang ulo ng buhok at tumutulong sa pagpalis ng sahig?",
+    "options": [
+      "Isang walis",
+      "Isang alarm clock",
+      "Isang kalderong",
+      "Isang kaldero"
+    ],
+    "explanation": "Ang walis ay gumagamit ng mga balahibo upang tangayin ang alikabok at mga basura mula sa sahig."
+  },
+  "math-x-sum-1": {
+    "question": "Ano ba ang 14 + 8?",
+    "options": [
+      "22",
+      "21",
+      "23",
+      "32"
+    ],
+    "explanation": "Pagdaragdag: 14 + 8 = 22."
+  },
+  "math-x-product-1": {
+    "question": "Ano ang 7 × 5?",
+    "options": [
+      "35",
+      "30",
+      "28",
+      "40"
+    ],
+    "explanation": "Multiplikasyon: 7 × 5 = 35."
+  },
+  "math-x-equation-1": {
+    "question": "Solve para sa x: 3x + 1 = 13.",
+    "options": [
+      "4",
+      "3",
+      "5",
+      "6"
+    ],
+    "explanation": "Subtract 1, pagkatapos ay hatiin ng 3: x = 4."
+  },
+  "math-x-percent-1": {
+    "question": "Ano ang 15% ng 60?",
+    "options": [
+      "9",
+      "6",
+      "12",
+      "60"
+    ],
+    "explanation": "Porsiyento: 60 × 15 ÷ 100 = 9."
+  },
+  "math-x-sum-2": {
+    "question": "Ano ang 17 + 9?",
+    "options": [
+      "26",
+      "25",
+      "27",
+      "36"
+    ],
+    "explanation": "Pagdaragdag: 17 + 9 = 26."
+  },
+  "math-x-product-2": {
+    "question": "Ano ang 8 × 6?",
+    "options": [
+      "48",
+      "42",
+      "40",
+      "54"
+    ],
+    "explanation": "Multiplikasyon: 8 × 6 = 48."
+  },
+  "math-x-equation-2": {
+    "question": "Paglutas sa x: 4x + 2 = 22.",
+    "options": [
+      "5",
+      "4",
+      "6",
+      "7"
+    ],
+    "explanation": "Subtract 2, pagkatapos ay hinahati ng 4: x = 5."
+  },
+  "math-x-percent-2": {
+    "question": "Ano ang 20% ng 80?",
+    "options": [
+      "16",
+      "12",
+      "20",
+      "80"
+    ],
+    "explanation": "Porsiyento: 80 × 20 ÷ 100 = 16."
+  },
+  "math-x-sum-3": {
+    "question": "Ano ang 20 + 10?",
+    "options": [
+      "30",
+      "29",
+      "31",
+      "40"
+    ],
+    "explanation": "Pagdaragdag: 20 + 10 = 30."
+  },
+  "math-x-product-3": {
+    "question": "Ano ang 9 × 7?",
+    "options": [
+      "63",
+      "56",
+      "54",
+      "70"
+    ],
+    "explanation": "Multiplikasyon: 9 × 7 = 63."
+  },
+  "math-x-equation-3": {
+    "question": "Paglutas sa x: 5x + 3 = 33.",
+    "options": [
+      "6",
+      "5",
+      "7",
+      "8"
+    ],
+    "explanation": "Subtract 3, pagkatapos ay hatiin ng 5: x = 6."
+  },
+  "math-x-percent-3": {
+    "question": "Ano ang 25% ng 100?",
+    "options": [
+      "25",
+      "20",
+      "30",
+      "100"
+    ],
+    "explanation": "Porsiyento: 100 × 25 ÷ 100 = 25."
+  },
+  "math-x-sum-4": {
+    "question": "Ano ang 23 + 11?",
+    "options": [
+      "34",
+      "33",
+      "35",
+      "44"
+    ],
+    "explanation": "Pagdaragdag: 23 + 11 = 34."
+  },
+  "math-x-product-4": {
+    "question": "Ano ang 10 × 8?",
+    "options": [
+      "80",
+      "72",
+      "70",
+      "88"
+    ],
+    "explanation": "Multiplikasyon: 10 × 8 = 80."
+  },
+  "math-x-equation-4": {
+    "question": "Paglutas sa x: 6x + 4 = 46.",
+    "options": [
+      "7",
+      "6",
+      "8",
+      "9"
+    ],
+    "explanation": "Subtract 4, pagkatapos ay hatiin ng 6: x = 7."
+  },
+  "math-x-percent-4": {
+    "question": "Ano ang 30% ng 120?",
+    "options": [
+      "36",
+      "30",
+      "42",
+      "120"
+    ],
+    "explanation": "Porsiyento: 120 × 30 ÷ 100 = 36."
+  },
+  "math-x-sum-5": {
+    "question": "Ano ang 26 + 12?",
+    "options": [
+      "38",
+      "37",
+      "39",
+      "48"
+    ],
+    "explanation": "Pagdaragdag: 26 + 12 = 38."
+  },
+  "math-x-product-5": {
+    "question": "Ano ang 11 × 9?",
+    "options": [
+      "99",
+      "90",
+      "88",
+      "108"
+    ],
+    "explanation": "Multiplikasyon: 11 × 9 = 99."
+  },
+  "math-x-equation-5": {
+    "question": "Solve para sa x: 7x + 5 = 61.",
+    "options": [
+      "8",
+      "7",
+      "9",
+      "10"
+    ],
+    "explanation": "Subtract 5, pagkatapos ay hatiin ng 7: x = 8."
+  },
+  "math-x-percent-5": {
+    "question": "Ano ang 35% ng 140?",
+    "options": [
+      "49",
+      "42",
+      "56",
+      "140"
+    ],
+    "explanation": "Porsiyento: 140 × 35 ÷ 100 = 49."
+  },
+  "math-x-sum-6": {
+    "question": "Ano ang 29 + 13?",
+    "options": [
+      "42",
+      "41",
+      "43",
+      "52"
+    ],
+    "explanation": "Pagdaragdag: 29 + 13 = 42."
+  },
+  "math-x-product-6": {
+    "question": "Ano ba ang 12 × 10?",
+    "options": [
+      "120",
+      "110",
+      "108",
+      "130"
+    ],
+    "explanation": "Multiplikasyon: 12 × 10 = 120."
+  },
+  "math-x-equation-6": {
+    "question": "Solve para sa x: 8x + 6 = 78.",
+    "options": [
+      "9",
+      "8",
+      "10",
+      "11"
+    ],
+    "explanation": "Subtract 6, pagkatapos ay hatiin ng 8: x = 9."
+  },
+  "math-x-percent-6": {
+    "question": "Ano ang 40% ng 160?",
+    "options": [
+      "64",
+      "56",
+      "72",
+      "160"
+    ],
+    "explanation": "Porsiyento: 160 × 40 ÷ 100 = 64."
+  },
+  "math-x-sum-7": {
+    "question": "Ano ba ang 32 + 14?",
+    "options": [
+      "46",
+      "45",
+      "47",
+      "56"
+    ],
+    "explanation": "Pagdaragdag: 32 + 14 = 46."
+  },
+  "math-x-product-7": {
+    "question": "Ano ang 13 × 11?",
+    "options": [
+      "143",
+      "132",
+      "130",
+      "154"
+    ],
+    "explanation": "Multiplikasyon: 13 × 11 = 143."
+  },
+  "math-x-equation-7": {
+    "question": "Solve para sa x: 9x + 7 = 97.",
+    "options": [
+      "10",
+      "9",
+      "11",
+      "12"
+    ],
+    "explanation": "Subtract 7, pagkatapos ay hatiin ng 9: x = 10."
+  },
+  "math-x-percent-7": {
+    "question": "Ano ang 45% ng 180?",
+    "options": [
+      "81",
+      "72",
+      "90",
+      "180"
+    ],
+    "explanation": "Porsiyento: 180 × 45 ÷ 100 = 81."
+  },
+  "math-x-sum-8": {
+    "question": "Ano ang 35 + 15?",
+    "options": [
+      "50",
+      "49",
+      "51",
+      "60"
+    ],
+    "explanation": "Pagdaragdag: 35 + 15 = 50."
+  },
+  "math-x-product-8": {
+    "question": "Ano ba ang 14 × 12?",
+    "options": [
+      "168",
+      "156",
+      "154",
+      "180"
+    ],
+    "explanation": "Multiplikasyon: 14 × 12 = 168."
+  },
+  "math-x-equation-8": {
+    "question": "Solve para sa x: 10x + 8 = 118.",
+    "options": [
+      "11",
+      "10",
+      "12",
+      "13"
+    ],
+    "explanation": "Subtract 8, pagkatapos ay hatiin ng 10: x = 11."
+  },
+  "math-x-percent-8": {
+    "question": "Ano ang 50% ng 200?",
+    "options": [
+      "100",
+      "90",
+      "110",
+      "200"
+    ],
+    "explanation": "Porsiyento: 200 × 50 ÷ 100 = 100."
+  },
+  "math-x-sum-9": {
+    "question": "Ano ang 38 + 16?",
+    "options": [
+      "54",
+      "53",
+      "55",
+      "64"
+    ],
+    "explanation": "Pagdaragdag: 38 + 16 = 54."
+  },
+  "math-x-product-9": {
+    "question": "Ano ba ang 15 × 13?",
+    "options": [
+      "195",
+      "182",
+      "180",
+      "208"
+    ],
+    "explanation": "Multiplikasyon: 15 × 13 = 195."
+  },
+  "math-x-equation-9": {
+    "question": "Solve para sa x: 11x + 9 = 141.",
+    "options": [
+      "12",
+      "11",
+      "13",
+      "14"
+    ],
+    "explanation": "Subtract 9, pagkatapos ay hatiin ng 11: x = 12."
+  },
+  "math-x-percent-9": {
+    "question": "Ano ang 55% ng 220?",
+    "options": [
+      "121",
+      "110",
+      "132",
+      "220"
+    ],
+    "explanation": "Porsiyento: 220 × 55 ÷ 100 = 121."
+  },
+  "math-x-sum-10": {
+    "question": "Ano ang 41 + 17?",
+    "options": [
+      "58",
+      "57",
+      "59",
+      "68"
+    ],
+    "explanation": "Pagdaragdag: 41 + 17 = 58."
+  },
+  "math-x-product-10": {
+    "question": "Ano ba ang 16 × 14?",
+    "options": [
+      "224",
+      "210",
+      "208",
+      "238"
+    ],
+    "explanation": "Multiplikasyon: 16 × 14 = 224."
+  },
+  "math-x-equation-10": {
+    "question": "Solve para sa x: 12x + 10 = 166.",
+    "options": [
+      "13",
+      "12",
+      "14",
+      "15"
+    ],
+    "explanation": "Subtract 10, pagkatapos ay hatiin ng 12: x = 13."
+  },
+  "math-x-percent-10": {
+    "question": "Ano ang 60% ng 240?",
+    "options": [
+      "144",
+      "132",
+      "156",
+      "240"
+    ],
+    "explanation": "Porsiyento: 240 × 60 ÷ 100 = 144."
+  },
+  "math-x-sum-11": {
+    "question": "Ano ang 44 + 18?",
+    "options": [
+      "62",
+      "61",
+      "63",
+      "72"
+    ],
+    "explanation": "Pagdaragdag: 44 + 18 = 62."
+  },
+  "math-x-product-11": {
+    "question": "Ano ba ang 17 × 15?",
+    "options": [
+      "255",
+      "240",
+      "238",
+      "270"
+    ],
+    "explanation": "Multiplikasyon: 17 × 15 = 255."
+  },
+  "math-x-equation-11": {
+    "question": "Solve para sa x: 13x + 11 = 193.",
+    "options": [
+      "14",
+      "13",
+      "15",
+      "16"
+    ],
+    "explanation": "Itapon ang 11, pagkatapos ay hatiin ng 13: x = 14."
+  },
+  "math-x-percent-11": {
+    "question": "Ano ang 65% ng 260?",
+    "options": [
+      "169",
+      "156",
+      "182",
+      "260"
+    ],
+    "explanation": "Porsiyento: 260 × 65 ÷ 100 = 169."
+  },
+  "math-x-sum-12": {
+    "question": "Ano ang 47 + 19?",
+    "options": [
+      "66",
+      "65",
+      "67",
+      "76"
+    ],
+    "explanation": "Pagdaragdag: 47 + 19 = 66."
+  },
+  "math-x-product-12": {
+    "question": "Ano ang 18 × 16?",
+    "options": [
+      "288",
+      "272",
+      "270",
+      "304"
+    ],
+    "explanation": "Multiplikasyon: 18 × 16 = 288."
+  },
+  "math-x-equation-12": {
+    "question": "Solve para sa x: 14x + 12 = 222.",
+    "options": [
+      "15",
+      "14",
+      "16",
+      "17"
+    ],
+    "explanation": "Pagkatapos ay hatiin ang subtract 12, pagkatapos ay hatiin ng 14: x = 15."
+  },
+  "math-x-percent-12": {
+    "question": "Ano ang 70% ng 280?",
+    "options": [
+      "196",
+      "182",
+      "210",
+      "280"
+    ],
+    "explanation": "Porsiyento: 280 × 70 ÷ 100 = 196."
+  },
+  "math-x-sum-13": {
+    "question": "Ano ang 50 + 20?",
+    "options": [
+      "70",
+      "69",
+      "71",
+      "80"
+    ],
+    "explanation": "Pagdaragdag: 50 + 20 = 70."
+  },
+  "math-x-product-13": {
+    "question": "Ano ang 19 × 17?",
+    "options": [
+      "323",
+      "306",
+      "304",
+      "340"
+    ],
+    "explanation": "Multiplikasyon: 19 × 17 = 323."
+  },
+  "math-x-equation-13": {
+    "question": "Solve para sa x: 15x + 13 = 253.",
+    "options": [
+      "16",
+      "15",
+      "17",
+      "18"
+    ],
+    "explanation": "Subtract 13, pagkatapos ay nahahati ng 15: x = 16."
+  },
+  "math-x-percent-13": {
+    "question": "Ano ang 75% ng 300?",
+    "options": [
+      "225",
+      "210",
+      "240",
+      "300"
+    ],
+    "explanation": "Porsiyento: 300 × 75 ÷ 100 = 225."
+  },
+  "math-x-sum-14": {
+    "question": "Ano ang 53 + 21?",
+    "options": [
+      "74",
+      "73",
+      "75",
+      "84"
+    ],
+    "explanation": "Pagdaragdag: 53 + 21 = 74."
+  },
+  "math-x-product-14": {
+    "question": "Ano ang 20 × 18?",
+    "options": [
+      "360",
+      "342",
+      "340",
+      "378"
+    ],
+    "explanation": "Multiplikasyon: 20 × 18 = 360."
+  },
+  "math-x-equation-14": {
+    "question": "Solve para sa x: 16x + 14 = 286.",
+    "options": [
+      "17",
+      "16",
+      "18",
+      "19"
+    ],
+    "explanation": "Pagkatapos ay hatiin ang subtract 14, sa pamamagitan ng 16: x = 17."
+  },
+  "math-x-percent-14": {
+    "question": "Ano ang 80% ng 320?",
+    "options": [
+      "256",
+      "240",
+      "272",
+      "320"
+    ],
+    "explanation": "Porsiyento: 320 × 80 ÷ 100 = 256."
+  },
+  "math-x-sum-15": {
+    "question": "Ano ang 56 + 22?",
+    "options": [
+      "78",
+      "77",
+      "79",
+      "88"
+    ],
+    "explanation": "Pagdaragdag: 56 + 22 = 78."
+  },
+  "math-x-product-15": {
+    "question": "Ano ang 21 × 19?",
+    "options": [
+      "399",
+      "380",
+      "378",
+      "418"
+    ],
+    "explanation": "Multiplikasyon: 21 × 19 = 399."
+  },
+  "math-x-equation-15": {
+    "question": "Solve para sa x: 17x + 15 = 321.",
+    "options": [
+      "18",
+      "17",
+      "19",
+      "20"
+    ],
+    "explanation": "Subtract 15, pagkatapos ay hatiin ng 17: x = 18."
+  },
+  "math-x-percent-15": {
+    "question": "Ano ang 85% ng 340?",
+    "options": [
+      "289",
+      "272",
+      "306",
+      "340"
+    ],
+    "explanation": "Porsiyento: 340 × 85 ÷ 100 = 289."
+  },
+  "math-x-sum-16": {
+    "question": "Ano ang 59 + 23?",
+    "options": [
+      "82",
+      "81",
+      "83",
+      "92"
+    ],
+    "explanation": "Pagdaragdag: 59 + 23 = 82."
+  },
+  "math-x-product-16": {
+    "question": "Ano ba ang 22 × 20?",
+    "options": [
+      "440",
+      "420",
+      "418",
+      "460"
+    ],
+    "explanation": "Multiplikasyon: 22 × 20 = 440."
+  },
+  "math-x-equation-16": {
+    "question": "Solve para sa x: 18x + 16 = 358.",
+    "options": [
+      "19",
+      "18",
+      "20",
+      "21"
+    ],
+    "explanation": "Subtract 16, pagkatapos ay hatiin ng 18: x = 19."
+  },
+  "math-x-percent-16": {
+    "question": "Ano ang 90% ng 360?",
+    "options": [
+      "324",
+      "306",
+      "342",
+      "360"
+    ],
+    "explanation": "Porsiyento: 360 × 90 ÷ 100 = 324."
+  },
+  "math-x-sum-17": {
+    "question": "Ano ang 62 + 24?",
+    "options": [
+      "86",
+      "85",
+      "87",
+      "96"
+    ],
+    "explanation": "Pagdaragdag: 62 + 24 = 86."
+  },
+  "math-x-product-17": {
+    "question": "Ano ang 23 × 21?",
+    "options": [
+      "483",
+      "462",
+      "460",
+      "504"
+    ],
+    "explanation": "Multiplikasyon: 23 × 21 = 483."
+  },
+  "math-x-equation-17": {
+    "question": "Solve para sa x: 19x + 17 = 397.",
+    "options": [
+      "20",
+      "19",
+      "21",
+      "22"
+    ],
+    "explanation": "Pagkatapos, ang subtract 17, ay nahahati ng 19: x = 20."
+  },
+  "math-x-percent-17": {
+    "question": "Ano ang 95% ng 380?",
+    "options": [
+      "361",
+      "342",
+      "380",
+      "722"
+    ],
+    "explanation": "Porsiyento: 380 × 95 ÷ 100 = 361."
+  },
+  "math-x-sum-18": {
+    "question": "Ano ang 65 + 25?",
+    "options": [
+      "90",
+      "89",
+      "91",
+      "100"
+    ],
+    "explanation": "Pagdaragdag: 65 + 25 = 90."
+  },
+  "math-x-product-18": {
+    "question": "Ano ang 24 × 22?",
+    "options": [
+      "528",
+      "506",
+      "504",
+      "550"
+    ],
+    "explanation": "Multiplikasyon: 24 × 22 = 528."
+  },
+  "math-x-equation-18": {
+    "question": "Solve para sa x: 20x + 18 = 438.",
+    "options": [
+      "21",
+      "20",
+      "22",
+      "23"
+    ],
+    "explanation": "Subtract 18, pagkatapos ay hatiin sa 20: x = 21."
+  },
+  "math-x-percent-18": {
+    "question": "Ano ang 100% ng 400?",
+    "options": [
+      "400",
+      "380",
+      "420",
+      "800"
+    ],
+    "explanation": "Porsiyento: 400 × 100 ÷ 100 = 400."
+  },
+  "math-x-sum-19": {
+    "question": "Ano ang 68 + 26?",
+    "options": [
+      "94",
+      "93",
+      "95",
+      "104"
+    ],
+    "explanation": "Pagdaragdag: 68 + 26 = 94."
+  },
+  "math-x-product-19": {
+    "question": "Ano ang 25 × 23?",
+    "options": [
+      "575",
+      "552",
+      "550",
+      "598"
+    ],
+    "explanation": "Multiplikasyon: 25 × 23 = 575."
+  },
+  "math-x-equation-19": {
+    "question": "Solve para sa x: 21x + 19 = 481.",
+    "options": [
+      "22",
+      "21",
+      "23",
+      "24"
+    ],
+    "explanation": "Subtract 19, pagkatapos ay hatiin ng 21: x = 22."
+  },
+  "math-x-percent-19": {
+    "question": "Ano ang 105% ng 420?",
+    "options": [
+      "441",
+      "420",
+      "462",
+      "882"
+    ],
+    "explanation": "Porsiyento: 420 × 105 ÷ 100 = 441."
+  },
+  "math-x-sum-20": {
+    "question": "Ano ang 71 + 27?",
+    "options": [
+      "98",
+      "97",
+      "99",
+      "108"
+    ],
+    "explanation": "Pagdaragdag: 71 + 27 = 98."
+  },
+  "math-x-product-20": {
+    "question": "Ano ba ang 26 × 24?",
+    "options": [
+      "624",
+      "600",
+      "598",
+      "648"
+    ],
+    "explanation": "Multiplikasyon: 26 × 24 = 624."
+  },
+  "math-x-equation-20": {
+    "question": "Solve para sa x: 22x + 20 = 526.",
+    "options": [
+      "23",
+      "22",
+      "24",
+      "25"
+    ],
+    "explanation": "Subtract 20, pagkatapos ay hatiin ng 22: x = 23."
+  },
+  "math-x-percent-20": {
+    "question": "Ano ang 110% ng 440?",
+    "options": [
+      "484",
+      "462",
+      "506",
+      "440"
+    ],
+    "explanation": "Porsiyento: 440 × 110 ÷ 100 = 484."
+  },
+  "math-x-sum-21": {
+    "question": "Ano ang 74 + 28?",
+    "options": [
+      "102",
+      "101",
+      "103",
+      "112"
+    ],
+    "explanation": "Pagdaragdag: 74 + 28 = 102."
+  },
+  "math-x-product-21": {
+    "question": "Ano ang 27 × 25?",
+    "options": [
+      "675",
+      "650",
+      "648",
+      "700"
+    ],
+    "explanation": "Multiplikasyon: 27 × 25 = 675."
+  },
+  "math-x-equation-21": {
+    "question": "Solve para sa x: 23x + 21 = 573.",
+    "options": [
+      "24",
+      "23",
+      "25",
+      "26"
+    ],
+    "explanation": "Subtract 21, pagkatapos ay hatiin ng 23: x = 24."
+  },
+  "math-x-percent-21": {
+    "question": "Ano ang 115% ng 460?",
+    "options": [
+      "529",
+      "506",
+      "552",
+      "460"
+    ],
+    "explanation": "Porsiyento: 460 × 115 ÷ 100 = 529."
+  },
+  "math-x-sum-22": {
+    "question": "Ano ang 77 + 29?",
+    "options": [
+      "106",
+      "105",
+      "107",
+      "116"
+    ],
+    "explanation": "Pagdaragdag: 77 + 29 = 106."
+  },
+  "math-x-product-22": {
+    "question": "Ano ang 28 × 26?",
+    "options": [
+      "728",
+      "702",
+      "700",
+      "754"
+    ],
+    "explanation": "Multiplikasyon: 28 × 26 = 728."
+  },
+  "math-x-equation-22": {
+    "question": "Solve para sa x: 24x + 22 = 622.",
+    "options": [
+      "25",
+      "24",
+      "26",
+      "27"
+    ],
+    "explanation": "Subtract 22, pagkatapos ay hatiin ng 24: x = 25."
+  },
+  "math-x-percent-22": {
+    "question": "Ano ang 120% ng 480?",
+    "options": [
+      "576",
+      "552",
+      "600",
+      "480"
+    ],
+    "explanation": "Porsiyento: 480 × 120 ÷ 100 = 576."
+  },
+  "math-x-sum-23": {
+    "question": "Ano ang 80 + 30?",
+    "options": [
+      "110",
+      "109",
+      "111",
+      "120"
+    ],
+    "explanation": "Pagdaragdag: 80 + 30 = 110."
+  },
+  "math-x-product-23": {
+    "question": "Ano ang 29 × 27?",
+    "options": [
+      "783",
+      "756",
+      "754",
+      "810"
+    ],
+    "explanation": "Multiplikasyon: 29 × 27 = 783."
+  },
+  "math-x-equation-23": {
+    "question": "Solve para sa x: 25x + 23 = 673.",
+    "options": [
+      "26",
+      "25",
+      "27",
+      "28"
+    ],
+    "explanation": "Subtract 23, pagkatapos ay hatiin ng 25: x = 26."
+  },
+  "math-x-percent-23": {
+    "question": "Ano ang 125% ng 500?",
+    "options": [
+      "625",
+      "600",
+      "650",
+      "500"
+    ],
+    "explanation": "Porsiyento: 500 × 125 ÷ 100 = 625."
+  },
+  "math-x-sum-24": {
+    "question": "Ano ang 83 + 31?",
+    "options": [
+      "114",
+      "113",
+      "115",
+      "124"
+    ],
+    "explanation": "Pagdaragdag: 83 + 31 = 114."
+  },
+  "math-x-product-24": {
+    "question": "Ano ang 30 × 28?",
+    "options": [
+      "840",
+      "812",
+      "810",
+      "868"
+    ],
+    "explanation": "Multiplikasyon: 30 × 28 = 840."
+  },
+  "math-x-equation-24": {
+    "question": "Solve para sa x: 26x + 24 = 726.",
+    "options": [
+      "27",
+      "26",
+      "28",
+      "29"
+    ],
+    "explanation": "Subtract 24, pagkatapos ay hatiin ng 26: x = 27."
+  },
+  "math-x-percent-24": {
+    "question": "Ano ang 130% ng 520?",
+    "options": [
+      "676",
+      "650",
+      "702",
+      "520"
+    ],
+    "explanation": "Porsiyento: 520 × 130 ÷ 100 = 676."
+  },
+  "math-x-sequence-square-1": {
+    "question": "Ano ang susunod na termino: 4, 16, 36, 64, __?",
+    "options": [
+      "100",
+      "96",
+      "104",
+      "144"
+    ],
+    "explanation": "Ito ay 4 na ulit na sunud - sunod na liwasan; ang susunod ay 52 × 4 = 100."
+  },
+  "math-x-combination-1": {
+    "question": "Ilang iba't ibang pares ang maaaring piliin mula sa 4 na iba't ibang bagay?",
+    "options": [
+      "6",
+      "5",
+      "7",
+      "8"
+    ],
+    "explanation": "Ang bilang ay C(4, 2) = 4 × 3  2 = 6."
+  },
+  "math-x-sequence-square-2": {
+    "question": "Ano ang susunod na termino: 5, 20, 45, 80, __?",
+    "options": [
+      "125",
+      "120",
+      "130",
+      "180"
+    ],
+    "explanation": "Ito ay 5 ulit na sunud - sunod na parisukat; ang susunod ay 52 × 5 = 125."
+  },
+  "math-x-combination-2": {
+    "question": "Ilang iba't ibang pares ang maaaring piliin mula sa 5 iba't ibang bagay?",
+    "options": [
+      "10",
+      "9",
+      "11",
+      "20"
+    ],
+    "explanation": "Ang bilang ay C(5, 2) = 5 × 4  2 = 10."
+  },
+  "math-x-sequence-square-3": {
+    "question": "Ano ang susunod na termino: 6, 24, 54, 96, __?",
+    "options": [
+      "150",
+      "144",
+      "156",
+      "216"
+    ],
+    "explanation": "Ang mga ito ay 6 na ulit na sunud - sunod na mga liwasan; ang susunod ay 52 × 6 = 150."
+  },
+  "math-x-combination-3": {
+    "question": "Ilang iba't ibang pares ang maaaring piliin mula sa 6 na iba't ibang bagay?",
+    "options": [
+      "15",
+      "14",
+      "16",
+      "12"
+    ],
+    "explanation": "Ang bilang ay C(6, 2) = 6 × 5  2 = 15."
+  },
+  "math-x-sequence-square-4": {
+    "question": "Ano ang susunod na termino: 7, 28, 63, 112, __?",
+    "options": [
+      "175",
+      "168",
+      "182",
+      "252"
+    ],
+    "explanation": "Ang mga ito ay 7 ulit na sunud - sunod na mga liwasan; ang susunod ay 52 × 7 = 175."
+  },
+  "math-x-combination-4": {
+    "question": "Ilang iba't ibang pares ang maaaring piliin mula sa 7 magkakaibang bagay?",
+    "options": [
+      "21",
+      "20",
+      "22",
+      "14"
+    ],
+    "explanation": "Ang bilang ay C(7, 2) = 7 × 6  2 = 21."
+  },
+  "math-x-sequence-square-5": {
+    "question": "Ano ang susunod na termino: 8, 32, 72, 128, __?",
+    "options": [
+      "200",
+      "192",
+      "208",
+      "288"
+    ],
+    "explanation": "Ang mga ito ay 8 ulit na sunud - sunod na mga liwasan; ang susunod ay 52 × 8 = 200."
+  },
+  "math-x-combination-5": {
+    "question": "Ilang iba't ibang pares ang maaaring piliin mula sa 8 iba't ibang bagay?",
+    "options": [
+      "28",
+      "27",
+      "29",
+      "16"
+    ],
+    "explanation": "Ang bilang ay C(8, 2) = 8 × 7  2 = 28."
+  },
+  "math-x-sequence-square-6": {
+    "question": "Ano ang susunod na termino: 9, 36, 81, 144, __?",
+    "options": [
+      "225",
+      "216",
+      "234",
+      "324"
+    ],
+    "explanation": "Ang mga ito ay 9 na ulit na sunud - sunod na mga liwasan; ang susunod ay 52 × 9 = 225."
+  },
+  "math-x-combination-6": {
+    "question": "Ilang iba't ibang pares ang maaaring piliin mula sa 9 na iba't ibang bagay?",
+    "options": [
+      "36",
+      "35",
+      "37",
+      "18"
+    ],
+    "explanation": "Ang bilang ay C(9, 2) = 9 × 8  2 = 36."
+  },
+  "math-x-sequence-square-7": {
+    "question": "Ano ang susunod na termino: 10, 40, 90, 160, __?",
+    "options": [
+      "250",
+      "240",
+      "260",
+      "360"
+    ],
+    "explanation": "Ang mga ito ay 10 ulit na sunud - sunod na mga liwasan; ang susunod ay 52 × 10 = 250."
+  },
+  "math-x-combination-7": {
+    "question": "Ilang iba't ibang pares ang maaaring piliin mula sa 10 magkakaibang bagay?",
+    "options": [
+      "45",
+      "44",
+      "46",
+      "20"
+    ],
+    "explanation": "Ang bilang ay C(10, 2) = 10 × 9  2 = 45."
+  },
+  "math-x-sequence-square-8": {
+    "question": "Ano ang susunod na termino: 11, 44, 99, 176, __?",
+    "options": [
+      "275",
+      "264",
+      "286",
+      "396"
+    ],
+    "explanation": "Ito ay 11 ulit na sunud - sunod na liwasan; ang susunod ay 52 × 11 = 275."
+  },
+  "math-x-combination-8": {
+    "question": "Ilang iba't ibang pares ang maaaring piliin mula sa 11 magkakaibang bagay?",
+    "options": [
+      "55",
+      "54",
+      "56",
+      "22"
+    ],
+    "explanation": "Ang bilang ay C(11, 2) = 11 × 10  2 = 55."
+  },
+  "math-x-sequence-square-9": {
+    "question": "Ano ang susunod na termino: 12, 48, 108, 192, __?",
+    "options": [
+      "300",
+      "288",
+      "312",
+      "432"
+    ],
+    "explanation": "Ang mga ito ay 12 ulit na sunud - sunod na mga liwasan; ang susunod ay 52 × 12 = 300."
+  },
+  "math-x-combination-9": {
+    "question": "Ilang iba't ibang pares ang maaaring piliin mula sa 12 magkakaibang bagay?",
+    "options": [
+      "66",
+      "65",
+      "67",
+      "24"
+    ],
+    "explanation": "Ang bilang ay C(12, 2) = 12 × 11  2 = 66."
+  },
+  "math-x-sequence-square-10": {
+    "question": "Ano ang susunod na termino: 13, 52, 117, 208, __?",
+    "options": [
+      "325",
+      "312",
+      "338",
+      "468"
+    ],
+    "explanation": "Ang mga ito ay 13 ulit na sunud - sunod na mga liwasan; ang susunod ay 52 × 13 = 325."
+  },
+  "math-x-combination-10": {
+    "question": "Ilang iba't ibang pares ang maaaring piliin mula sa 13 magkakaibang bagay?",
+    "options": [
+      "78",
+      "77",
+      "79",
+      "26"
+    ],
+    "explanation": "Ang bilang ay C(13, 2) = 13 × 12  2 = 78."
+  },
+  "math-x-sequence-square-11": {
+    "question": "Ano ang susunod na termino: 14, 56, 126, 224, __?",
+    "options": [
+      "350",
+      "336",
+      "364",
+      "504"
+    ],
+    "explanation": "Ito ay 14 na ulit na sunud - sunod na kuwadrado; ang susunod ay 52 × 14 = 350."
+  },
+  "math-x-combination-11": {
+    "question": "Ilang iba't ibang pares ang maaaring piliin mula sa 14 na iba't ibang bagay?",
+    "options": [
+      "91",
+      "90",
+      "92",
+      "28"
+    ],
+    "explanation": "Ang bilang ay C(14, 2) = 14 × 13  2 = 91."
+  },
+  "math-x-sequence-square-12": {
+    "question": "Ano ang susunod na termino: 15, 60, 135, 240, __?",
+    "options": [
+      "375",
+      "360",
+      "390",
+      "540"
+    ],
+    "explanation": "Ito ay 15 ulit na sunud - sunod na mga liwasan; ang susunod ay 52 × 15 = 375."
+  },
+  "math-x-combination-12": {
+    "question": "Ilang iba't ibang pares ang maaaring piliin mula sa 15 iba't ibang bagay?",
+    "options": [
+      "105",
+      "104",
+      "106",
+      "30"
+    ],
+    "explanation": "Ang bilang ay C(15, 2) = 15 × 14  2 = 105."
+  },
+  "brain-x-pattern-1": {
+    "question": "Ano ang susunod na bilang: 1, 4, 7, 10, __?",
+    "options": [
+      "13",
+      "11",
+      "12",
+      "14"
+    ],
+    "explanation": "Ang bawat termino ay tumataas ng 3."
+  },
+  "brain-x-pattern-2": {
+    "question": "Ano ang susunod na bilang: 2, 5, 8, 11, __?",
+    "options": [
+      "14",
+      "12",
+      "13",
+      "15"
+    ],
+    "explanation": "Ang bawat termino ay tumataas ng 3."
+  },
+  "brain-x-pattern-3": {
+    "question": "Ano ang susunod na bilang: 3, 6, 9, 12, __?",
+    "options": [
+      "15",
+      "13",
+      "14",
+      "16"
+    ],
+    "explanation": "Ang bawat termino ay tumataas ng 3."
+  },
+  "brain-x-pattern-4": {
+    "question": "Ano ang susunod na bilang: 4, 7, 10, 13, __?",
+    "options": [
+      "16",
+      "14",
+      "15",
+      "17"
+    ],
+    "explanation": "Ang bawat termino ay tumataas ng 3."
+  },
+  "brain-x-pattern-5": {
+    "question": "Ano ang susunod na bilang: 5, 8, 11, 14, __?",
+    "options": [
+      "17",
+      "15",
+      "16",
+      "18"
+    ],
+    "explanation": "Ang bawat termino ay tumataas ng 3."
+  },
+  "brain-x-pattern-6": {
+    "question": "Ano ang susunod na bilang: 6, 9, 12, 15, __?",
+    "options": [
+      "18",
+      "16",
+      "17",
+      "19"
+    ],
+    "explanation": "Ang bawat termino ay tumataas ng 3."
+  },
+  "brain-x-pattern-7": {
+    "question": "Ano ang susunod na bilang: 7, 10, 13, 16, __?",
+    "options": [
+      "19",
+      "17",
+      "18",
+      "20"
+    ],
+    "explanation": "Ang bawat termino ay tumataas ng 3."
+  },
+  "brain-x-pattern-8": {
+    "question": "Ano ang susunod na bilang: 8, 11, 14, 17, __?",
+    "options": [
+      "20",
+      "18",
+      "19",
+      "21"
+    ],
+    "explanation": "Ang bawat termino ay tumataas ng 3."
+  },
+  "brain-x-pattern-9": {
+    "question": "Ano ang susunod na bilang: 9, 12, 15, 18, __?",
+    "options": [
+      "21",
+      "19",
+      "20",
+      "22"
+    ],
+    "explanation": "Ang bawat termino ay tumataas ng 3."
+  },
+  "brain-x-pattern-10": {
+    "question": "Ano ang susunod na bilang: 10, 13, 16, 19, __?",
+    "options": [
+      "22",
+      "20",
+      "21",
+      "23"
+    ],
+    "explanation": "Ang bawat termino ay tumataas ng 3."
+  },
+  "brain-x-pattern-11": {
+    "question": "Ano ang susunod na bilang: 11, 14, 17, 20, __?",
+    "options": [
+      "23",
+      "21",
+      "22",
+      "24"
+    ],
+    "explanation": "Ang bawat termino ay tumataas ng 3."
+  },
+  "brain-x-pattern-12": {
+    "question": "Ano ang susunod na bilang: 12, 15, 18, 21, __?",
+    "options": [
+      "24",
+      "22",
+      "23",
+      "25"
+    ],
+    "explanation": "Ang bawat termino ay tumataas ng 3."
+  },
+  "brain-x-pattern-13": {
+    "question": "Ano ang susunod na bilang: 2, 4, 8, 16, __?",
+    "options": [
+      "32",
+      "30",
+      "31",
+      "33"
+    ],
+    "explanation": "Ang bawat termino ay nagdodoble sa nakaraang termino."
+  },
+  "brain-x-pattern-14": {
+    "question": "Ano ang susunod na bilang: 3, 6, 12, 24, __?",
+    "options": [
+      "48",
+      "46",
+      "47",
+      "49"
+    ],
+    "explanation": "Ang bawat termino ay nagdodoble sa nakaraang termino."
+  },
+  "brain-x-pattern-15": {
+    "question": "Ano ang susunod na bilang: 4, 8, 16, 32, __?",
+    "options": [
+      "64",
+      "62",
+      "63",
+      "65"
+    ],
+    "explanation": "Ang bawat termino ay nagdodoble sa nakaraang termino."
+  },
+  "brain-x-pattern-16": {
+    "question": "Ano ang susunod na bilang: 5, 10, 20, 40, __?",
+    "options": [
+      "80",
+      "78",
+      "79",
+      "81"
+    ],
+    "explanation": "Ang bawat termino ay nagdodoble sa nakaraang termino."
+  },
+  "brain-x-pattern-17": {
+    "question": "Ano ang susunod na bilang: 6, 12, 24, 48, __?",
+    "options": [
+      "96",
+      "94",
+      "95",
+      "97"
+    ],
+    "explanation": "Ang bawat termino ay nagdodoble sa nakaraang termino."
+  },
+  "brain-x-pattern-18": {
+    "question": "Ano ang susunod na bilang: 7, 14, 28, 56, __?",
+    "options": [
+      "112",
+      "110",
+      "111",
+      "113"
+    ],
+    "explanation": "Ang bawat termino ay nagdodoble sa nakaraang termino."
+  },
+  "brain-x-pattern-19": {
+    "question": "Ano ang susunod na bilang: 8, 16, 32, 64, __?",
+    "options": [
+      "128",
+      "126",
+      "127",
+      "129"
+    ],
+    "explanation": "Ang bawat termino ay nagdodoble sa nakaraang termino."
+  },
+  "brain-x-pattern-20": {
+    "question": "Ano ang susunod na bilang: 9, 18, 36, 72, __?",
+    "options": [
+      "144",
+      "142",
+      "143",
+      "145"
+    ],
+    "explanation": "Ang bawat termino ay nagdodoble sa nakaraang termino."
+  },
+  "brain-x-pattern-21": {
+    "question": "Ano ang susunod na bilang: 10, 20, 40, 80, __?",
+    "options": [
+      "160",
+      "158",
+      "159",
+      "161"
+    ],
+    "explanation": "Ang bawat termino ay nagdodoble sa nakaraang termino."
+  },
+  "brain-x-pattern-22": {
+    "question": "Ano ang susunod na bilang: 11, 22, 44, 88, __?",
+    "options": [
+      "176",
+      "174",
+      "175",
+      "177"
+    ],
+    "explanation": "Ang bawat termino ay nagdodoble sa nakaraang termino."
+  },
+  "brain-x-pattern-23": {
+    "question": "Ano ang susunod na bilang: 12, 24, 48, 96, __?",
+    "options": [
+      "192",
+      "190",
+      "191",
+      "193"
+    ],
+    "explanation": "Ang bawat termino ay nagdodoble sa nakaraang termino."
+  },
+  "brain-x-pattern-24": {
+    "question": "Ano ang susunod na bilang: 13, 26, 52, 104, __?",
+    "options": [
+      "208",
+      "206",
+      "207",
+      "209"
+    ],
+    "explanation": "Ang bawat termino ay nagdodoble sa nakaraang termino."
+  },
+  "brain-x-pattern-25": {
+    "question": "Ano ang susunod na bilang: 1, 4, 9, 16, __?",
+    "options": [
+      "25",
+      "23",
+      "24",
+      "26"
+    ],
+    "explanation": "Ang pagkakasunud-sunod ay naglalaman ng sunod-sunod na mga numerong parisukat."
+  },
+  "brain-x-pattern-26": {
+    "question": "Ano ang susunod na bilang: 4, 9, 16, 25, __?",
+    "options": [
+      "36",
+      "34",
+      "35",
+      "37"
+    ],
+    "explanation": "Ang pagkakasunud-sunod ay naglalaman ng sunod-sunod na mga numerong parisukat."
+  },
+  "brain-x-pattern-27": {
+    "question": "Ano ang susunod na bilang: 9, 16, 25, 36, __?",
+    "options": [
+      "49",
+      "47",
+      "48",
+      "50"
+    ],
+    "explanation": "Ang pagkakasunud-sunod ay naglalaman ng sunod-sunod na mga numerong parisukat."
+  },
+  "brain-x-pattern-28": {
+    "question": "Ano ang susunod na bilang: 16, 25, 36, 49, __?",
+    "options": [
+      "64",
+      "62",
+      "63",
+      "65"
+    ],
+    "explanation": "Ang pagkakasunud-sunod ay naglalaman ng sunod-sunod na mga numerong parisukat."
+  },
+  "brain-x-pattern-29": {
+    "question": "Ano ang susunod na bilang: 25, 36, 49, 64, __?",
+    "options": [
+      "81",
+      "79",
+      "80",
+      "82"
+    ],
+    "explanation": "Ang pagkakasunud-sunod ay naglalaman ng sunod-sunod na mga numerong parisukat."
+  },
+  "brain-x-pattern-30": {
+    "question": "Ano ang susunod na bilang: 36, 49, 64, 81, __?",
+    "options": [
+      "100",
+      "98",
+      "99",
+      "101"
+    ],
+    "explanation": "Ang pagkakasunud-sunod ay naglalaman ng sunod-sunod na mga numerong parisukat."
+  },
+  "brain-x-pattern-31": {
+    "question": "Ano ang susunod na bilang: 49, 64, 81, 100, __?",
+    "options": [
+      "121",
+      "119",
+      "120",
+      "122"
+    ],
+    "explanation": "Ang pagkakasunud-sunod ay naglalaman ng sunod-sunod na mga numerong parisukat."
+  },
+  "brain-x-pattern-32": {
+    "question": "Ano ang susunod na bilang: 64, 81, 100, 121, __?",
+    "options": [
+      "144",
+      "142",
+      "143",
+      "145"
+    ],
+    "explanation": "Ang pagkakasunud-sunod ay naglalaman ng sunod-sunod na mga numerong parisukat."
+  },
+  "brain-x-pattern-33": {
+    "question": "Ano ang susunod na bilang: 81, 100, 121, 144, __?",
+    "options": [
+      "169",
+      "167",
+      "168",
+      "170"
+    ],
+    "explanation": "Ang pagkakasunud-sunod ay naglalaman ng sunod-sunod na mga numerong parisukat."
+  },
+  "brain-x-pattern-34": {
+    "question": "Ano ang susunod na bilang: 100, 121, 144, 169, __?",
+    "options": [
+      "196",
+      "194",
+      "195",
+      "197"
+    ],
+    "explanation": "Ang pagkakasunud-sunod ay naglalaman ng sunod-sunod na mga numerong parisukat."
+  },
+  "brain-x-pattern-35": {
+    "question": "Ano ang susunod na bilang: 121, 144, 169, 196, __?",
+    "options": [
+      "225",
+      "223",
+      "224",
+      "226"
+    ],
+    "explanation": "Ang pagkakasunud-sunod ay naglalaman ng sunod-sunod na mga numerong parisukat."
+  },
+  "brain-x-pattern-36": {
+    "question": "Ano ang susunod na bilang: 144, 169, 196, 225, __?",
+    "options": [
+      "256",
+      "254",
+      "255",
+      "257"
+    ],
+    "explanation": "Ang pagkakasunud-sunod ay naglalaman ng sunod-sunod na mga numerong parisukat."
+  },
+  "brain-x-pattern-37": {
+    "question": "Ano ang susunod na bilang: 1, 3, 7, 13, __?",
+    "options": [
+      "21",
+      "19",
+      "20",
+      "22"
+    ],
+    "explanation": "Ang mga inkreasyon ay magkasunod na mga numero pa nga: +2, +4, +6, pagkatapos ay +8."
+  },
+  "brain-x-pattern-38": {
+    "question": "Ano ang susunod na bilang: 2, 4, 8, 14, __?",
+    "options": [
+      "22",
+      "20",
+      "21",
+      "23"
+    ],
+    "explanation": "Ang mga inkreasyon ay magkasunod na mga numero pa nga: +2, +4, +6, pagkatapos ay +8."
+  },
+  "brain-x-pattern-39": {
+    "question": "Ano ang susunod na bilang: 3, 5, 9, 15, __?",
+    "options": [
+      "23",
+      "21",
+      "22",
+      "24"
+    ],
+    "explanation": "Ang mga inkreasyon ay magkasunod na mga numero pa nga: +2, +4, +6, pagkatapos ay +8."
+  },
+  "brain-x-pattern-40": {
+    "question": "Ano ang susunod na bilang: 4, 6, 10, 16, __?",
+    "options": [
+      "24",
+      "22",
+      "23",
+      "25"
+    ],
+    "explanation": "Ang mga inkreasyon ay magkasunod na mga numero pa nga: +2, +4, +6, pagkatapos ay +8."
+  },
+  "brain-x-pattern-41": {
+    "question": "Ano ang susunod na bilang: 5, 7, 11, 17, __?",
+    "options": [
+      "25",
+      "23",
+      "24",
+      "26"
+    ],
+    "explanation": "Ang mga inkreasyon ay magkasunod na mga numero pa nga: +2, +4, +6, pagkatapos ay +8."
+  },
+  "brain-x-pattern-42": {
+    "question": "Ano ang susunod na bilang: 6, 8, 12, 18, __?",
+    "options": [
+      "26",
+      "24",
+      "25",
+      "27"
+    ],
+    "explanation": "Ang mga inkreasyon ay magkasunod na mga numero pa nga: +2, +4, +6, pagkatapos ay +8."
+  },
+  "brain-x-pattern-43": {
+    "question": "Ano ang susunod na bilang: 7, 9, 13, 19, __?",
+    "options": [
+      "27",
+      "25",
+      "26",
+      "28"
+    ],
+    "explanation": "Ang mga inkreasyon ay magkasunod na mga numero pa nga: +2, +4, +6, pagkatapos ay +8."
+  },
+  "brain-x-pattern-44": {
+    "question": "Ano ang susunod na bilang: 8, 10, 14, 20, __?",
+    "options": [
+      "28",
+      "26",
+      "27",
+      "29"
+    ],
+    "explanation": "Ang mga inkreasyon ay magkasunod na mga numero pa nga: +2, +4, +6, pagkatapos ay +8."
+  },
+  "brain-x-pattern-45": {
+    "question": "Ano ang susunod na bilang: 9, 11, 15, 21, __?",
+    "options": [
+      "29",
+      "27",
+      "28",
+      "30"
+    ],
+    "explanation": "Ang mga inkreasyon ay magkasunod na mga numero pa nga: +2, +4, +6, pagkatapos ay +8."
+  },
+  "brain-x-pattern-46": {
+    "question": "Ano ang susunod na bilang: 10, 12, 16, 22, __?",
+    "options": [
+      "30",
+      "28",
+      "29",
+      "31"
+    ],
+    "explanation": "Ang mga inkreasyon ay magkasunod na mga numero pa nga: +2, +4, +6, pagkatapos ay +8."
+  },
+  "brain-x-pattern-47": {
+    "question": "Ano ang susunod na bilang: 11, 13, 17, 23, __?",
+    "options": [
+      "31",
+      "29",
+      "30",
+      "32"
+    ],
+    "explanation": "Ang mga inkreasyon ay magkasunod na mga numero pa nga: +2, +4, +6, pagkatapos ay +8."
+  },
+  "brain-x-pattern-48": {
+    "question": "Ano ang susunod na bilang: 12, 14, 18, 24, __?",
+    "options": [
+      "32",
+      "30",
+      "31",
+      "33"
+    ],
+    "explanation": "Ang mga inkreasyon ay magkasunod na mga numero pa nga: +2, +4, +6, pagkatapos ay +8."
+  },
+  "brain-x-pattern-49": {
+    "question": "Ano ang susunod na bilang: 1, 3, 6, 13, __?",
+    "options": [
+      "26",
+      "24",
+      "25",
+      "27"
+    ],
+    "explanation": "Ang bawat termino ay nagdodoble sa nakaraang termino at nagdaragdag ng 1, pagkatapos ay 0 salit."
+  },
+  "brain-x-pattern-50": {
+    "question": "Ano ang susunod na bilang: 2, 5, 10, 21, __?",
+    "options": [
+      "42",
+      "40",
+      "41",
+      "43"
+    ],
+    "explanation": "Ang bawat termino ay nagdodoble sa nakaraang termino at nagdaragdag ng 1, pagkatapos ay 0 salit."
+  },
+  "brain-x-pattern-51": {
+    "question": "Ano ang susunod na bilang: 3, 7, 14, 29, __?",
+    "options": [
+      "58",
+      "56",
+      "57",
+      "59"
+    ],
+    "explanation": "Ang bawat termino ay nagdodoble sa nakaraang termino at nagdaragdag ng 1, pagkatapos ay 0 salit."
+  },
+  "brain-x-pattern-52": {
+    "question": "Ano ang susunod na bilang: 4, 9, 18, 37, __?",
+    "options": [
+      "74",
+      "72",
+      "73",
+      "75"
+    ],
+    "explanation": "Ang bawat termino ay nagdodoble sa nakaraang termino at nagdaragdag ng 1, pagkatapos ay 0 salit."
+  },
+  "brain-x-pattern-53": {
+    "question": "Ano ang susunod na bilang: 5, 11, 22, 45, __?",
+    "options": [
+      "90",
+      "88",
+      "89",
+      "91"
+    ],
+    "explanation": "Ang bawat termino ay nagdodoble sa nakaraang termino at nagdaragdag ng 1, pagkatapos ay 0 salit."
+  },
+  "brain-x-pattern-54": {
+    "question": "Ano ang susunod na bilang: 6, 13, 26, 53, __?",
+    "options": [
+      "106",
+      "104",
+      "105",
+      "107"
+    ],
+    "explanation": "Ang bawat termino ay nagdodoble sa nakaraang termino at nagdaragdag ng 1, pagkatapos ay 0 salit."
+  },
+  "brain-x-pattern-55": {
+    "question": "Ano ang susunod na bilang: 7, 15, 30, 61, __?",
+    "options": [
+      "122",
+      "120",
+      "121",
+      "123"
+    ],
+    "explanation": "Ang bawat termino ay nagdodoble sa nakaraang termino at nagdaragdag ng 1, pagkatapos ay 0 salit."
+  },
+  "brain-x-pattern-56": {
+    "question": "Ano ang susunod na bilang: 8, 17, 34, 69, __?",
+    "options": [
+      "138",
+      "136",
+      "137",
+      "139"
+    ],
+    "explanation": "Ang bawat termino ay nagdodoble sa nakaraang termino at nagdaragdag ng 1, pagkatapos ay 0 salit."
+  },
+  "brain-x-pattern-57": {
+    "question": "Ano ang susunod na bilang: 9, 19, 38, 77, __?",
+    "options": [
+      "154",
+      "152",
+      "153",
+      "155"
+    ],
+    "explanation": "Ang bawat termino ay nagdodoble sa nakaraang termino at nagdaragdag ng 1, pagkatapos ay 0 salit."
+  },
+  "brain-x-pattern-58": {
+    "question": "Ano ang susunod na bilang: 10, 21, 42, 85, __?",
+    "options": [
+      "170",
+      "168",
+      "169",
+      "171"
+    ],
+    "explanation": "Ang bawat termino ay nagdodoble sa nakaraang termino at nagdaragdag ng 1, pagkatapos ay 0 salit."
+  },
+  "brain-x-pattern-59": {
+    "question": "Ano ang susunod na bilang: 11, 23, 46, 93, __?",
+    "options": [
+      "186",
+      "184",
+      "185",
+      "187"
+    ],
+    "explanation": "Ang bawat termino ay nagdodoble sa nakaraang termino at nagdaragdag ng 1, pagkatapos ay 0 salit."
+  },
+  "brain-x-pattern-60": {
+    "question": "Ano ang susunod na bilang: 12, 25, 50, 101, __?",
+    "options": [
+      "202",
+      "200",
+      "201",
+      "203"
+    ],
+    "explanation": "Ang bawat termino ay nagdodoble sa nakaraang termino at nagdaragdag ng 1, pagkatapos ay 0 salit."
+  },
+  "history-x-1": {
+    "question": "Aling detalye ang kumumpleto sa makasaysayang katotohanang ito: Ang Digmaan ng Marathon ay ipinaglaban?",
+    "options": [
+      "490 BCE",
+      "1776",
+      "221 BCE",
+      "1494"
+    ],
+    "explanation": "Ang Labanan sa Marathon ay ipinaglaban noong 490 BCE."
+  },
+  "history-x-2": {
+    "question": "Aling detalye ang kumumpleto sa makasaysayang katotohanang ito: Ang Deklarasyon ng Kasarinlan ng Estados Unidos ay pinagtibay?",
+    "options": [
+      "1776",
+      "221 BCE",
+      "1494",
+      "1977"
+    ],
+    "explanation": "Pinagtibay ang Deklarasyon noong Hulyo 4, 1776."
+  },
+  "history-x-3": {
+    "question": "Aling detalye ang kumumpleto sa makasaysayang katotohanang ito: Ang unang imperyal na dinastiya ng Tsina ay nagbuklod sa Tsina?",
+    "options": [
+      "221 BCE",
+      "1494",
+      "1977",
+      "476"
+    ],
+    "explanation": "Pinag-isa ng estadong Qin ang Tsina noong 221 BCE."
+  },
+  "history-x-4": {
+    "question": "Aling detalye ang kumumpleto sa makasaysayang katotohanang ito: Ang Kasunduan ng Tordesillas ay nilagdaan?",
+    "options": [
+      "1494",
+      "1977",
+      "476",
+      "1066"
+    ],
+    "explanation": "Nilagdaan ng Espanya at Portugal ang Kasunduan ng Tordesillas noong 1494."
+  },
+  "history-x-5": {
+    "question": "Aling detalye ang kumumpleto sa makasaysayang katotohanang ito: Inilunsad ng Voyager 1?",
+    "options": [
+      "1977",
+      "476",
+      "1066",
+      "1666"
+    ],
+    "explanation": "Inilunsad ng NASA ang Voyager 1 noong 1977."
+  },
+  "history-x-6": {
+    "question": "Aling detalye ang kumumpleto sa makasaysayang katotohanang ito: Ang Kanlurang Imperyong Romano ay bumagsak?",
+    "options": [
+      "476",
+      "1066",
+      "1666",
+      "1825"
+    ],
+    "explanation": "Ang karaniwang petsa ng pagbagsak ng Kanlurang Imperyo Romano ay 476 CE."
+  },
+  "history-x-7": {
+    "question": "Aling detalye ang kumumpleto sa makasaysayang katotohanang ito: Ang pananakop ng Norman sa Inglatera ay naganap?",
+    "options": [
+      "1066",
+      "1666",
+      "1825",
+      "1896"
+    ],
+    "explanation": "Nanalo si William ng Normandy sa Labanan ng Hastings noong 1066."
+  },
+  "history-x-8": {
+    "question": "Aling detalye ang kumumpleto sa makasaysayang katotohanang ito: Ang Malaking Apoy ng London ay nagsimula?",
+    "options": [
+      "1666",
+      "1825",
+      "1896",
+      "1446"
+    ],
+    "explanation": "Ang Malaking Apoy ng London ay nagsimula noong Setyembre 1666."
+  },
+  "history-x-9": {
+    "question": "Aling detalye ang kumumpleto sa makasaysayang katotohanang ito: Ang Stockton at Darlington Railway ay nagbukas?",
+    "options": [
+      "1825",
+      "490 BCE",
+      "1776",
+      "221 BCE"
+    ],
+    "explanation": "Sinimulan ng Stockton at Darlington Railway ang pampublikong operasyon noong 1825."
+  },
+  "history-x-10": {
+    "question": "Aling detalye ang kumumpleto sa makasaysayang katotohanang ito: Ang unang modernong Palarong Olimpiko ay ginanap sa Atenas?",
+    "options": [
+      "1896",
+      "1776",
+      "221 BCE",
+      "1494"
+    ],
+    "explanation": "Ang Atenas ang naging punong-abala ng unang makabagong Palarong Olimpiko noong 1896."
+  },
+  "history-x-11": {
+    "question": "Aling detalye ang bumubuo sa makasaysayang katotohanang ito: Ang alpabetong Koreano na Hangul ay ipinahayag?",
+    "options": [
+      "1446",
+      "221 BCE",
+      "1494",
+      "1977"
+    ],
+    "explanation": "Ipinahayag ni Haring Sejong ang Hunminjeongeum noong 1446."
+  },
+  "history-x-12": {
+    "question": "Aling detalye ang kumumpleto sa makasaysayang katotohanang ito: Ang dinastiyang Joseon ay itinatag?",
+    "options": [
+      "1392",
+      "1494",
+      "1977",
+      "476"
+    ],
+    "explanation": "Itinatag ni Yi Seong-gye ang dinastiyang Joseon noong 1392."
+  },
+  "history-x-13": {
+    "question": "Aling detalye ang kumumpleto sa makasaysayang katotohanang ito: Ang dinastiyang Goryeo ay itinatag?",
+    "options": [
+      "918",
+      "1977",
+      "476",
+      "1066"
+    ],
+    "explanation": "Itinatag ni Wang Geon ang Goryeo noong 918."
+  },
+  "history-x-14": {
+    "question": "Aling detalye ang kumumpleto sa makasaysayang katotohanang ito: Ang Digmaang Imjin ay nagsimula?",
+    "options": [
+      "1592",
+      "476",
+      "1066",
+      "1666"
+    ],
+    "explanation": "Nilusob ng mga puwersang Hapones ang Korea noong 1592, simula ng Digmaang Imjin."
+  },
+  "history-x-15": {
+    "question": "Aling detalye ang tumatapos sa makasaysayang katotohanang ito: Ang armistice ng Digmaang Koreano ay nilagdaan?",
+    "options": [
+      "1953",
+      "1066",
+      "1666",
+      "1825"
+    ],
+    "explanation": "Ang Korean Armistice Agreement ay nilagdaan noong 1953."
+  },
+  "history-x-16": {
+    "question": "Aling detalye ang kumumpleto sa makasaysayang katotohanang ito: Ang Rosetta Stone ay natuklasan?",
+    "options": [
+      "1799",
+      "1666",
+      "1825",
+      "1896"
+    ],
+    "explanation": "Ang Rosetta Stone ay natuklasan ng mga sundalong Pranses noong 1799."
+  },
+  "history-x-17": {
+    "question": "Aling detalye ang kumumpleto sa makasaysayang katotohanang ito: Ang unang paglalayag ni Columbus sa Atlantiko ay nagsimula?",
+    "options": [
+      "1492",
+      "490 BCE",
+      "1776",
+      "221 BCE"
+    ],
+    "explanation": "Sinimulan ni Columbus ang kaniyang unang paglalayag sa Atlantiko noong 1492."
+  },
+  "history-x-18": {
+    "question": "Aling detalye ang kumumpleto sa makasaysayang katotohanang ito: Ang Unang Republikang Pranses ay inihayag?",
+    "options": [
+      "1792",
+      "1776",
+      "221 BCE",
+      "1494"
+    ],
+    "explanation": "Ipinahayag ang Republikang Pranses noong Setyembre 1792."
+  },
+  "history-x-19": {
+    "question": "Aling detalye ang kumumpleto sa makasaysayang katotohanang ito: Ang Suez Canal ay nagbukas?",
+    "options": [
+      "1869",
+      "221 BCE",
+      "1494",
+      "1977"
+    ],
+    "explanation": "Ang Suez Canal ay nagbukas sa paglalayag noong 1869."
+  },
+  "history-x-20": {
+    "question": "Aling detalye ang kumumpleto sa makasaysayang katotohanang ito: Ang unang transcontinental railway sa Estados Unidos ay natapos?",
+    "options": [
+      "1869",
+      "1494",
+      "1977",
+      "476"
+    ],
+    "explanation": "Ang unang transcontinental railway ng Estados Unidos ay natapos noong 1869."
+  },
+  "history-x-21": {
+    "question": "Aling detalye ang kumumpleto sa makasaysayang katotohanang ito: Itinatag ng Mexica ang Tenochtitlan sa paligid?",
+    "options": [
+      "1325 CE",
+      "1977",
+      "476",
+      "1066"
+    ],
+    "explanation": "Ang Tenochtitlan ay itinatag sa isang isla sa Lawa ng Texcoco noong bandang 1325 CE."
+  },
+  "history-x-22": {
+    "question": "Aling detalye ang bumubuo sa makasaysayang katotohanang ito: Ang Parthenon ay itinayo?",
+    "options": [
+      "Sinaunang Gresya",
+      "476",
+      "1066",
+      "1666"
+    ],
+    "explanation": "Ang Parthenon ay itinayo sa Atenas noong ikalimang siglo BCE."
+  },
+  "history-x-23": {
+    "question": "Aling detalye ang kumumpleto sa makasaysayang katotohanang ito: Ang Colosseum ay itinayo?",
+    "options": [
+      "Sinaunang Roma",
+      "1066",
+      "1666",
+      "1825"
+    ],
+    "explanation": "Ang Colosseum ay itinayo sa Roma sa ilalim ng mga emperador ng Flavi."
+  },
+  "history-x-24": {
+    "question": "Aling detalye ang kumumpleto sa makasaysayang katotohanang ito: Ang lungsod ng Machu Picchu ay itinayo ng?",
+    "options": [
+      "The Inca",
+      "1666",
+      "1825",
+      "1896"
+    ],
+    "explanation": "Ang Machu Picchu ay itinayo ng Inca sa Andes."
+  },
+  "history-x-25": {
+    "question": "Aling detalye ang bumubuo sa makasaysayang katotohanang ito: Ang Great Wall ay itinayo sa loob ng mga dantaon?",
+    "options": [
+      "China",
+      "490 BCE",
+      "1776",
+      "221 BCE"
+    ],
+    "explanation": "Ang mga estado at dinastiyang Tsino ay nagtayo at nagtayong muli ng mga pader sa loob ng maraming siglo."
+  },
+  "history-x-26": {
+    "question": "Aling detalye ang kumumpleto sa makasaysayang katotohanang ito: Ang unang matagumpay na paglipad ng mga kapatid na Wright sakay ng eroplano ay nangyari?",
+    "options": [
+      "1903",
+      "1776",
+      "221 BCE",
+      "1494"
+    ],
+    "explanation": "Ang magkapatid na Wright ay lumipad sa Kitty Hawk noong 1903."
+  },
+  "history-x-27": {
+    "question": "Aling detalye ang bumubuo sa makasaysayang katotohanang ito: Ang United Nations ay itinatag?",
+    "options": [
+      "1945",
+      "221 BCE",
+      "1494",
+      "1977"
+    ],
+    "explanation": "Ang Nagkakaisang mga Bansa ay umiral noong 1945."
+  },
+  "history-x-28": {
+    "question": "Aling detalye ang kumumpleto sa makasaysayang katotohanang ito: Ang Pansansinukob na Deklarasyon ng mga Karapatang Pantao ay pinagtibay?",
+    "options": [
+      "1948",
+      "1494",
+      "1977",
+      "476"
+    ],
+    "explanation": "Pinagtibay ng UN General Assembly ang deklarasyon noong 1948."
+  },
+  "history-x-29": {
+    "question": "Aling detalye ang kumumpleto sa makasaysayang katotohanang ito: Inilunsad ng unang artipisyal na satelayt, ang Sputnik 1,?",
+    "options": [
+      "1957",
+      "1977",
+      "476",
+      "1066"
+    ],
+    "explanation": "Inilunsad ng Unyong Sobyet ang Sputnik 1 noong 1957."
+  },
+  "history-x-30": {
+    "question": "Aling detalye ang kumumpleto sa makasaysayang katotohanang ito: Ang unang tripulanteng spaceflight ni Yuri Gagarin ay nangyari?",
+    "options": [
+      "1961",
+      "476",
+      "1066",
+      "1666"
+    ],
+    "explanation": "Ang Lupa ay inikot ni Yuri Gagarin noong 1961."
+  },
+  "history-x-31": {
+    "question": "Aling detalye ang kumumpleto sa makasaysayang katotohanang ito: Nagsimula ang pagsasauli sa Meiji?",
+    "options": [
+      "1868",
+      "1066",
+      "1666",
+      "1825"
+    ],
+    "explanation": "Ang pagbabagong pampolitika ng Meiji ay nagsimula noong 1868."
+  },
+  "history-x-32": {
+    "question": "Aling detalye ang bumubuo sa makasaysayang katotohanang ito: Nagsimula ang Rebolusyon sa Haiti?",
+    "options": [
+      "1791",
+      "1666",
+      "1825",
+      "1896"
+    ],
+    "explanation": "Nagsimula ang Rebolusyon sa Haiti noong 1791."
+  },
+  "history-x-33": {
+    "question": "Aling detalye ang kumumpleto sa makasaysayang katotohanang ito: Nakamit ng kilusan ng kasarinlan ng India ang kasarinlan?",
+    "options": [
+      "1947",
+      "490 BCE",
+      "1776",
+      "221 BCE"
+    ],
+    "explanation": "Naging malaya ang India mula sa pamamahala ng Britanya noong 1947."
+  },
+  "history-x-34": {
+    "question": "Aling detalye ang kumumpleto sa makasaysayang katotohanang ito: Ang pananakop ng mga Ottoman sa Constantinople ay nangyari?",
+    "options": [
+      "1453",
+      "1776",
+      "221 BCE",
+      "1494"
+    ],
+    "explanation": "Sinakop ng mga puwersang Ottoman ang Constantinople noong 1453."
+  },
+  "history-x-35": {
+    "question": "Aling detalye ang kumumpleto sa makasaysayang katotohanang ito: Ang Labanan sa Waterloo ay pinaglabanan?",
+    "options": [
+      "1815",
+      "221 BCE",
+      "1494",
+      "1977"
+    ],
+    "explanation": "Naganap ang Labanan sa Waterloo noong 1815."
+  },
+  "history-x-36": {
+    "question": "Aling detalye ang bumubuo sa makasaysayang katotohanang ito: Nagsimula ang Digmaang Pandaigdig I?",
+    "options": [
+      "1914",
+      "1494",
+      "1977",
+      "476"
+    ],
+    "explanation": "Ang Digmaang Pandaigdig I ay nagsimula noong 1914 pagkatapos ng Krisis sa Hulyo."
+  },
+  "history-x-37": {
+    "question": "Aling detalye ang kumumpleto sa makasaysayang katotohanang ito: Ang unang permanenteng paninirahan ng mga Ingles sa Jamestown ay itinatag?",
+    "options": [
+      "1607",
+      "1977",
+      "476",
+      "1066"
+    ],
+    "explanation": "Ang Jamestown ay itinatag sa Virginia noong 1607."
+  },
+  "history-x-38": {
+    "question": "Aling detalye ang kumumpleto sa makasaysayang katotohanang ito: Ang Kasunduan ng Versailles ay nilagdaan?",
+    "options": [
+      "1919",
+      "476",
+      "1066",
+      "1666"
+    ],
+    "explanation": "Ang Kasunduan ng Versailles ay nilagdaan noong 1919."
+  },
+  "history-x-39": {
+    "question": "Aling detalye ang kumumpleto sa makasaysayang katotohanang ito: Ang armistice na nagtatapos sa labanan sa Western Front noong Digmaang Pandaigdig I ay nagkaroon ng epekto?",
+    "options": [
+      "1918",
+      "1066",
+      "1666",
+      "1825"
+    ],
+    "explanation": "Ang armistice ay nagkaroon ng epekto noong Nobyembre 11, 1918."
+  },
+  "history-x-40": {
+    "question": "Aling detalye ang kumumpleto sa katotohanang ito sa kasaysayan: Ang unang gawang-taong bagay na nakarating sa Buwan ay ang Luna 2 in?",
+    "options": [
+      "1959",
+      "1666",
+      "1825",
+      "1896"
+    ],
+    "explanation": "Ang sasakyang pangkalawakang Soviet Luna 2 ay nakarating sa Buwan noong 1959."
+  },
+  "science-x-1": {
+    "question": "Ano ang kemikal na sagisag para sa oksiheno?",
+    "options": [
+      "O",
+      "Au",
+      "Na",
+      "Fe"
+    ],
+    "explanation": "O ang kemikal na sagisag para sa oksiheno."
+  },
+  "science-x-2": {
+    "question": "Ano ang kemikal na sagisag para sa ginto?",
+    "options": [
+      "Au",
+      "C",
+      "Glukosa",
+      "Ozone"
+    ],
+    "explanation": "Ang Au ay nagmula sa pangalang Latin na aurum."
+  },
+  "science-x-3": {
+    "question": "Ano ang kemikal na simbolo para sa sodium?",
+    "options": [
+      "Na",
+      "Nuclearus",
+      "DNA",
+      "Mga platelet"
+    ],
+    "explanation": "Ang Na ay mula sa pangalang Latin na natrium."
+  },
+  "science-x-4": {
+    "question": "Ano ang kemikal na sagisag para sa iron?",
+    "options": [
+      "Fe",
+      "7",
+      "Newton",
+      "Ampere"
+    ],
+    "explanation": "Ang Fe ay mula sa pangalang Latin na ferrum."
+  },
+  "science-x-5": {
+    "question": "Ano ang kemikal na simbolo para sa karbon?",
+    "options": [
+      "C",
+      "Joule",
+      "Alitan",
+      "Saturn"
+    ],
+    "explanation": "Ang C ang simbolong kimikal para sa karbon."
+  },
+  "science-x-6": {
+    "question": "Aling asukal ang ginagawa ng mga halaman sa panahon ng photosynthesis?",
+    "options": [
+      "Glukosa",
+      "Merkuryo",
+      "Buwan",
+      "Isang pangunahing bituing-sequence"
+    ],
+    "explanation": "Ang potosintesis ay nag - iimbak ng enerhiya sa mga asukal na gaya ng glucose."
+  },
+  "science-x-7": {
+    "question": "Aling gas ang inilalabas ng mga halaman sa panahon ng photosynthesis?",
+    "options": [
+      "A: Ahensiya",
+      "Daang Gatas",
+      "Watt",
+      "Pagsingaw"
+    ],
+    "explanation": "Ang oksiheno ay inilalabas bilang isang by-product ng photosynthesis."
+  },
+  "science-x-8": {
+    "question": "Aling organelle ang naglalaman ng karamihan sa DNA ng isang selulang eukaryotiko?",
+    "options": [
+      "Nuclearus",
+      "Magma",
+      "Lava",
+      "Mantle ng daigdig"
+    ],
+    "explanation": "Ang karamihan ng eukaryotikong DNA ay nasa nucleus ng selula."
+  },
+  "science-x-9": {
+    "question": "Aling molekula ang nagdadala ng henetikong mga instruksiyon?",
+    "options": [
+      "DNA",
+      "The student",
+      "Vitamin",
+      "Ang balat"
+    ],
+    "explanation": "Ang DNA ay nag - iimbak ng namamanang impormasyon sa mga selula."
+  },
+  "science-x-10": {
+    "question": "Aling sangkap ng dugo ang tumutulong sa pamumuo ng dugo?",
+    "options": [
+      "Mga platelet",
+      "Mga bato",
+      "The Rochester",
+      "Pascal"
+    ],
+    "explanation": "Ang mga platelet ay tumutulong sa pamumuo ng dugo sa napinsalang mga daluyan ng dugo."
+  },
+  "science-x-11": {
+    "question": "Ano ang tinatayang pH ng neutral na dalisay na tubig sa temperatura ng silid?",
+    "options": [
+      "7",
+      "Isang atomo",
+      "Positibong",
+      "Neutral"
+    ],
+    "explanation": "Ang neutral na mga solusyon ay may pH na halos 7 sa temperatura ng silid."
+  },
+  "science-x-12": {
+    "question": "Ano ba ang yunit ng lakas ng SI?",
+    "options": [
+      "Newton",
+      "Paleontolohiya",
+      "Mohs scale",
+      "Sublimasyon"
+    ],
+    "explanation": "Ang newton ay ang SI hinangong yunit ng lakas."
+  },
+  "science-x-13": {
+    "question": "Ano ba ang yunit ng SI ng kuryente?",
+    "options": [
+      "Ampere",
+      "Stratospera",
+      "Elastic potensiyal na enerhiya",
+      "Dalas"
+    ],
+    "explanation": "Ang ampere ay ang base yunit ng SI para sa kuryente."
+  },
+  "science-x-14": {
+    "question": "Ano ang SI yunit ng enerhiya?",
+    "options": [
+      "Joule",
+      "Na",
+      "Fe",
+      "C"
+    ],
+    "explanation": "Ang joule ay ang SI yunit ng enerhiya."
+  },
+  "science-x-15": {
+    "question": "Anong puwersa ang sumasalungat sa kilos ng mga ibabaw sa pakikipag - ugnayan?",
+    "options": [
+      "Alitan",
+      "Glukosa",
+      "Oksiheno",
+      "Nuclearus"
+    ],
+    "explanation": "Ang friction ay kumikilos sa pagitan ng mga ibabaw at laban sa relatibong mosyon."
+  },
+  "science-x-16": {
+    "question": "Aling planeta ang may pinakaprominenteng sistema ng singsing?",
+    "options": [
+      "Saturn",
+      "DNA",
+      "Mga platelet",
+      "7"
+    ],
+    "explanation": "Ang malawak na mga singsing ng Saturno ay nakikita kahit na sa pamamagitan ng isang maliit na teleskopyo."
+  },
+  "science-x-17": {
+    "question": "Aling planeta ang pinakamalapit sa Araw?",
+    "options": [
+      "Merkuryo",
+      "Newton",
+      "Ampere",
+      "Joule"
+    ],
+    "explanation": "Ang Mercury ay ang planetang kaloob-looban sa Sistemang Solar."
+  },
+  "science-x-18": {
+    "question": "Ano ba ang likas na satelayt ng Lupa?",
+    "options": [
+      "Buwan",
+      "Alitan",
+      "Saturn",
+      "Merkuryo"
+    ],
+    "explanation": "Ang Buwan ang likas na satelayt ng Lupa."
+  },
+  "science-x-19": {
+    "question": "Anong uri ng bituin ang Araw?",
+    "options": [
+      "Isang pangunahing-sequence star",
+      "Buwan",
+      "Daang Gatas",
+      "Watt"
+    ],
+    "explanation": "Ang Araw ay isang artista ng G-type main-sequence."
+  },
+  "science-x-20": {
+    "question": "Aling galaksi ang nagtataglay ng ating Sistema Solar?",
+    "options": [
+      "Ang Milky Way",
+      "Pagsingaw",
+      "Magma",
+      "Lava"
+    ],
+    "explanation": "Ang ating Sistemang Solar ay nasa galaksiyang Milky Way."
+  },
+  "science-x-21": {
+    "question": "Ano ang SI yunit ng kapangyarihan?",
+    "options": [
+      "Watt",
+      "Mantle ng daigdig",
+      "The student",
+      "Bitamina D"
+    ],
+    "explanation": "Ang watt ay ang SI hinangong yunit ng kuryente."
+  },
+  "science-x-22": {
+    "question": "Ano ang proseso kung saan ang likido ay nagiging gas sa ibabaw nito?",
+    "options": [
+      "Pagsingaw",
+      "Balat",
+      "Mga bato",
+      "Trachea"
+    ],
+    "explanation": "Binabago ng evaporation ang ibabaw ng likidong mga molekula tungo sa singaw."
+  },
+  "science-x-23": {
+    "question": "Ano ang tawag sa binubong bato sa ilalim ng ibabaw ng Lupa?",
+    "options": [
+      "Magma",
+      "Pascal",
+      "Isang atomo",
+      "Positibo"
+    ],
+    "explanation": "Ang molten rock sa ilalim ng lupa ay tinatawag na magma."
+  },
+  "science-x-24": {
+    "question": "Ano ba ang binubong bato na umaabot sa ibabaw ng Lupa?",
+    "options": [
+      "Lava",
+      "neutral",
+      "Paleontolohiya",
+      "Mohs scale"
+    ],
+    "explanation": "Mama na sumasabog sa ibabaw ay tinatawag na lava."
+  },
+  "science-x-25": {
+    "question": "Aling suson ng Lupa ang pinakamakapal?",
+    "options": [
+      "Ang mantle",
+      "Sublimasyon",
+      "Stratospera",
+      "Elastic potensiyal na enerhiya"
+    ],
+    "explanation": "Ang mantle ay mas makapal kaysa sa crust o alin sa core layer."
+  },
+  "science-x-26": {
+    "question": "Aling bahagi ng mata ang nagbabago ng laki upang kontrolin ang dumarating na liwanag?",
+    "options": [
+      "Ang mag - aaral",
+      "Au",
+      "Na",
+      "Fe"
+    ],
+    "explanation": "Binabago ng iris ang laki ng balintataw upang makontrol ang pumapasok na liwanag."
+  },
+  "science-x-27": {
+    "question": "Aling bitamina ang magagawa ng balat ng tao na may liwanag ng araw?",
+    "options": [
+      "Bitamina D",
+      "C",
+      "Glukosa",
+      "Ozone"
+    ],
+    "explanation": "Ang pagkalantad sa UVB ay nagpapangyari sa balat na gumawa ng sintetikong bitamina D."
+  },
+  "science-x-28": {
+    "question": "Ano ang pinakamalaking sangkap ng katawan ng tao?",
+    "options": [
+      "Ang balat",
+      "Nuclearus",
+      "DNA",
+      "Mga platelet"
+    ],
+    "explanation": "Ang balat ang pinakamalaking organo ng katawan sa pamamagitan ng pang-ibabaw na bahagi at masa."
+  },
+  "science-x-29": {
+    "question": "Aling mga sangkap ng katawan ang sasala sa dugo upang gumawa ng ihi?",
+    "options": [
+      "Mga bato",
+      "7",
+      "Newton",
+      "Ampere"
+    ],
+    "explanation": "Sinasala ng mga bato ang dugo at kinokontrol ang tubig at balanseng elektrolyte."
+  },
+  "science-x-30": {
+    "question": "Aling kayarian ang nagdadala ng hangin mula sa lalamunan tungo sa mga bagà?",
+    "options": [
+      "Trachea",
+      "Joule",
+      "Alitan",
+      "Saturno"
+    ],
+    "explanation": "Ang trachea ay nagdadala ng hangin sa bronchi at mga bagà."
+  },
+  "science-x-31": {
+    "question": "Ano ba ang SI yunit ng presyon?",
+    "options": [
+      "Pascal",
+      "Merkuryo",
+      "Buwan",
+      "Isang pangunahing-sequence star"
+    ],
+    "explanation": "Ang pascal ay ang SI hinangong yunit ng presyon."
+  },
+  "science-x-32": {
+    "question": "Ano ang pinakamaliit na yunit ng isang elemento na nagpapanatili ng kemikal na pagkakakilanlan nito?",
+    "options": [
+      "Isang atomo",
+      "Ang Milky Way",
+      "Watt",
+      "Pagsingaw"
+    ],
+    "explanation": "Ang isang atomo ang pinakamaliit na yunit na nagpapanatili ng mga katangiang kimikal ng isang elemento."
+  },
+  "science-x-33": {
+    "question": "Ano ang karga ng isang proton?",
+    "options": [
+      "Positibo",
+      "Magma",
+      "Lava",
+      "Ang mantle"
+    ],
+    "explanation": "Ang mga proton ay nagdadala ng positibong elementaryang singil."
+  },
+  "science-x-34": {
+    "question": "Ano ang karga ng isang neutron?",
+    "options": [
+      "Neutral",
+      "The student",
+      "Vitamin",
+      "Ang balat"
+    ],
+    "explanation": "Ang mga neuron ay walang net electric charge."
+  },
+  "science-x-35": {
+    "question": "Ano ang tawag sa pag - aaral ng mga fossil?",
+    "options": [
+      "Paleontolohiya",
+      "Mga bato",
+      "The Rochea",
+      "Pascal"
+    ],
+    "explanation": "Ang paleontolohiya ay nag-aaral ng sinaunang buhay sa pamamagitan ng mga fossil."
+  },
+  "science-x-36": {
+    "question": "Aling sukatan ang karaniwang ginagamit upang sukatin ang katigasan ng mineral?",
+    "options": [
+      "Mohs scale",
+      "Isang atomo",
+      "Positibong",
+      "Neutral"
+    ],
+    "explanation": "Inihahambing ng Mohs scale ang resistansiya ng mineral sa pagkamot."
+  },
+  "science-x-37": {
+    "question": "Ano ang pagbabago mula sa solido nang tuwiran tungo sa tinatawag na gas?",
+    "options": [
+      "Sublimasyon",
+      "Paleontolohiya",
+      "Mohs scale",
+      "Stratospera"
+    ],
+    "explanation": "Ang sublimasyon ay isang pagbabago ng phase mula sa solido tungo sa gas na walang likidong phase."
+  },
+  "science-x-38": {
+    "question": "Saang suson ng atmospera masusumpungan ang karamihan ng ozone layer?",
+    "options": [
+      "Stratospera",
+      "O",
+      "Au",
+      "Na"
+    ],
+    "explanation": "Karamihan ng ozone sa atmospera ay naiipon sa stratosphere."
+  },
+  "science-x-39": {
+    "question": "Anong uri ng enerhiya ang iniimbak sa isang mahabang bukal?",
+    "options": [
+      "Elastic potensiyal na enerhiya",
+      "Fe",
+      "C",
+      "Glukosa"
+    ],
+    "explanation": "Ang dispormadong mga tindahan ng tagsibol ay nag - iimbak ng elastikong potensiyal na enerhiya."
+  },
+  "science-x-40": {
+    "question": "Aling wave property ang sinusukat sa hertz?",
+    "options": [
+      "Dalas",
+      "Ahensiya",
+      "Nuclearus",
+      "DNA"
+    ],
+    "explanation": "Ang hertz ay sumusukat ng mga siklo sa bawat segundo, o dalas."
+  },
+  "geography-x-capital-1": {
+    "question": "Ano ang kabisera ng Belgium?",
+    "options": [
+      "Brussels",
+      "Cairo",
+      "Ottawa",
+      "Canberra"
+    ],
+    "explanation": "Ang Brussels ay ang kabiserang lungsod ng Belgium."
+  },
+  "geography-x-capital-2": {
+    "question": "Ano ang kabisera ng Ehipto?",
+    "options": [
+      "Cairo",
+      "Ottawa",
+      "Canberra",
+      "Brasília"
+    ],
+    "explanation": "Ang Cairo ay ang kabiserang lungsod ng Ehipto."
+  },
+  "geography-x-capital-3": {
+    "question": "Ano ba ang kabisera ng Canada?",
+    "options": [
+      "Ottawa",
+      "Canberra",
+      "Brasília",
+      "Buenos Aires"
+    ],
+    "explanation": "Ang Ottawa ay ang kabiserang lungsod ng Canada."
+  },
+  "geography-x-capital-4": {
+    "question": "Ano ba ang kabisera ng Australia?",
+    "options": [
+      "Canberra",
+      "Brasília",
+      "Buenos Aires",
+      "Santiago"
+    ],
+    "explanation": "Ang Canberra ay ang kabiserang lungsod ng Australia."
+  },
+  "geography-x-capital-5": {
+    "question": "Ano ba ang kabisera ng Brazil?",
+    "options": [
+      "Brasília",
+      "Buenos Aires",
+      "Santiago",
+      "Lima"
+    ],
+    "explanation": "Ang Brasília ay ang kabiserang lunsod ng Brazil."
+  },
+  "geography-x-capital-6": {
+    "question": "Ano ba ang kabisera ng Argentina?",
+    "options": [
+      "Buenos Aires",
+      "Santiago",
+      "Lima",
+      "Mexico City"
+    ],
+    "explanation": "Ang Buenos Aires ay ang kabiserang lungsod ng Argentina."
+  },
+  "geography-x-capital-7": {
+    "question": "Ano ba ang kabisera ng Chile?",
+    "options": [
+      "Santiago",
+      "Lima",
+      "Mexico City",
+      "Havana"
+    ],
+    "explanation": "Ang Santiago ay ang kabiserang lungsod ng Chile."
+  },
+  "geography-x-capital-8": {
+    "question": "Ano ba ang kabisera ng Peru?",
+    "options": [
+      "Lima",
+      "Mexico City",
+      "Havana",
+      "Paris"
+    ],
+    "explanation": "Ang Lima ay ang kabiserang lungsod ng Peru."
+  },
+  "geography-x-capital-9": {
+    "question": "Ano ba ang kabisera ng Mexico?",
+    "options": [
+      "Mexico City",
+      "Havana",
+      "Paris",
+      "Berlin"
+    ],
+    "explanation": "Ang Lungsod ng Mexico ay ang kabiserang lungsod ng Mexico."
+  },
+  "geography-x-capital-10": {
+    "question": "Ano ang kabisera ng Cuba?",
+    "options": [
+      "Havana",
+      "Paris",
+      "Berlin",
+      "Copenhagen"
+    ],
+    "explanation": "Ang Havana ay ang kabiserang lungsod ng Cuba."
+  },
+  "geography-x-capital-11": {
+    "question": "Ano ba ang kabisera ng Pransiya?",
+    "options": [
+      "Paris",
+      "Berlin",
+      "Copenhagen",
+      "Madrid"
+    ],
+    "explanation": "Ang Paris ay ang kabiserang lungsod ng Pransiya."
+  },
+  "geography-x-capital-12": {
+    "question": "Ano ba ang kabisera ng Alemanya?",
+    "options": [
+      "Berlin",
+      "Copenhagen",
+      "Madrid",
+      "Lisbon"
+    ],
+    "explanation": "Ang Berlin ay ang kabiserang lungsod ng Alemanya."
+  },
+  "geography-x-capital-13": {
+    "question": "Ano ba ang kabisera ng Denmark?",
+    "options": [
+      "Copenhagen",
+      "Madrid",
+      "Lisbon",
+      "Oslo"
+    ],
+    "explanation": "Ang Copenhagen ay ang kabiserang lungsod ng Denmark."
+  },
+  "geography-x-capital-14": {
+    "question": "Ano ba ang kabisera ng Espanya?",
+    "options": [
+      "Madrid",
+      "Lisbon",
+      "Oslo",
+      "Stockholm"
+    ],
+    "explanation": "Ang Madrid ay ang kabiserang lungsod ng Espanya."
+  },
+  "geography-x-capital-15": {
+    "question": "Ano ang kabisera ng Portugal?",
+    "options": [
+      "Lisbon",
+      "Oslo",
+      "Stockholm",
+      "Helsinki"
+    ],
+    "explanation": "Ang Lisbon ay ang kabiserang lungsod ng Portugal."
+  },
+  "geography-x-capital-16": {
+    "question": "Ano ba ang kabisera ng Norway?",
+    "options": [
+      "Oslo",
+      "Stockholm",
+      "Helsinki",
+      "Warsaw"
+    ],
+    "explanation": "Ang Oslo ay ang kabiserang lungsod ng Norway."
+  },
+  "geography-x-capital-17": {
+    "question": "Ano ba ang kabisera ng Sweden?",
+    "options": [
+      "Stockholm",
+      "Helsinki",
+      "Warsaw",
+      "Athens"
+    ],
+    "explanation": "Ang Stockholm ay ang kabiserang lungsod ng Sweden."
+  },
+  "geography-x-capital-18": {
+    "question": "Ano ang kabisera ng Finland?",
+    "options": [
+      "Helsinki",
+      "Warsaw",
+      "Athens",
+      "Nairobi"
+    ],
+    "explanation": "Ang Helsinki ay ang kabiserang lungsod ng Pinlandiya."
+  },
+  "geography-x-capital-19": {
+    "question": "Ano ang kabisera ng Poland?",
+    "options": [
+      "Warsaw",
+      "Athens",
+      "Nairobi",
+      "Addis Ababa"
+    ],
+    "explanation": "Ang Warsaw ay ang kabiserang lungsod ng Poland."
+  },
+  "geography-x-capital-20": {
+    "question": "Ano ang kabisera ng Gresya?",
+    "options": [
+      "Athens",
+      "Nairobi",
+      "Addis Ababa",
+      "Accra"
+    ],
+    "explanation": "Ang Atenas ay ang kabiserang lungsod ng Gresya."
+  },
+  "geography-x-capital-21": {
+    "question": "Ano ba ang kabisera ng Kenya?",
+    "options": [
+      "Nairobi",
+      "Addis Ababa",
+      "Accra",
+      "Rabat"
+    ],
+    "explanation": "Ang Nairobi ay ang kabiserang lungsod ng Kenya."
+  },
+  "geography-x-capital-22": {
+    "question": "Ano ba ang kabisera ng Ethiopia?",
+    "options": [
+      "Addis Ababa",
+      "Accra",
+      "Rabat",
+      "Abuja"
+    ],
+    "explanation": "Ang Addis Ababa ay ang kabiserang lungsod ng Ethiopia."
+  },
+  "geography-x-capital-23": {
+    "question": "Ano ba ang kabisera ng Ghana?",
+    "options": [
+      "Accra",
+      "Rabat",
+      "Abuja",
+      "Bangkok"
+    ],
+    "explanation": "Ang Accra ay ang kabiserang lungsod ng Ghana."
+  },
+  "geography-x-capital-24": {
+    "question": "Ano ba ang kabisera ng Morocco?",
+    "options": [
+      "Rabat",
+      "Abuja",
+      "Bangkok",
+      "Hanoi"
+    ],
+    "explanation": "Ang Rabat ay ang kabiserang lungsod ng Morocco."
+  },
+  "geography-x-capital-25": {
+    "question": "Ano ba ang kabisera ng Nigeria?",
+    "options": [
+      "Abuja",
+      "Bangkok",
+      "Hanoi",
+      "Jakarta"
+    ],
+    "explanation": "Ang Abuja ay ang kabiserang lungsod ng Nigeria."
+  },
+  "geography-x-capital-26": {
+    "question": "Ano ang kabisera ng Thailand?",
+    "options": [
+      "Bangkok",
+      "Hanoi",
+      "Jakarta",
+      "Kathmandu"
+    ],
+    "explanation": "Ang Bangkok ay ang kabiserang lungsod ng Thailand."
+  },
+  "geography-x-capital-27": {
+    "question": "Ano ang kabisera ng Vietnam?",
+    "options": [
+      "Hanoi",
+      "Jakarta",
+      "Kathmandu",
+      "Ulaanbaatar"
+    ],
+    "explanation": "Ang Hanoi ay ang kabiserang lungsod ng Vietnam."
+  },
+  "geography-x-capital-28": {
+    "question": "Ano ang kabisera ng Indonesia?",
+    "options": [
+      "Jakarta",
+      "Kathmandu",
+      "Ulaanbaatar",
+      "Wellington"
+    ],
+    "explanation": "Ang Jakarta ay ang kabiserang lungsod ng Indonesia."
+  },
+  "geography-x-capital-29": {
+    "question": "Ano ba ang kabisera ng Nepal?",
+    "options": [
+      "Kathmandu",
+      "Ulaanbaatar",
+      "Wellington",
+      "Dublin"
+    ],
+    "explanation": "Ang Kathmandu ay ang kabiserang lungsod ng Nepal."
+  },
+  "geography-x-capital-30": {
+    "question": "Ano ang kabisera ng Mongolia?",
+    "options": [
+      "Ulaanbaatar",
+      "Wellington",
+      "Dublin",
+      "Vienna"
+    ],
+    "explanation": "Ang Ulaanbaatar ay ang kabiserang lungsod ng Mongolia."
+  },
+  "geography-x-capital-31": {
+    "question": "Ano ang kabisera ng New Zealand?",
+    "options": [
+      "Wellington",
+      "Dublin",
+      "Vienna",
+      "Prague"
+    ],
+    "explanation": "Ang Wellington ay ang kabiserang lungsod ng New Zealand."
+  },
+  "geography-x-capital-32": {
+    "question": "Ano ang kabisera ng Ireland?",
+    "options": [
+      "Dublin",
+      "Vienna",
+      "Prague",
+      "Budapest"
+    ],
+    "explanation": "Ang Dublin ay ang kabiserang lungsod ng Irlanda."
+  },
+  "geography-x-capital-33": {
+    "question": "Ano ang kabisera ng Austria?",
+    "options": [
+      "Vienna",
+      "Prague",
+      "Budapest",
+      "Bucharest"
+    ],
+    "explanation": "Ang Vienna ay ang kabiserang lungsod ng Austria."
+  },
+  "geography-x-capital-34": {
+    "question": "Ano ba ang kabisera ng Czechia?",
+    "options": [
+      "Prague",
+      "Budapest",
+      "Bucharest",
+      "Reykjavík"
+    ],
+    "explanation": "Ang Prague ay ang kabiserang lungsod ng Czechia."
+  },
+  "geography-x-capital-35": {
+    "question": "Ano ba ang kabisera ng Hungary?",
+    "options": [
+      "Budapest",
+      "Bucharest",
+      "Reykjavík",
+      "Ankara"
+    ],
+    "explanation": "Ang Budapest ay ang kabiserang lungsod ng Hungary."
+  },
+  "geography-x-capital-36": {
+    "question": "Ano ba ang kabisera ng Romania?",
+    "options": [
+      "Bucharest",
+      "Reykjavík",
+      "Ankara",
+      "Islamabad"
+    ],
+    "explanation": "Ang Bucharest ay ang kabiserang lunsod ng Romania."
+  },
+  "geography-x-capital-37": {
+    "question": "Ano ang kabisera ng Iceland?",
+    "options": [
+      "Reykjavík",
+      "Ankara",
+      "Islamabad",
+      "Dhaka"
+    ],
+    "explanation": "Ang Reykjavík ay ang kabiserang lungsod ng Iceland."
+  },
+  "geography-x-capital-38": {
+    "question": "Ano ang kabisera ng Turkey?",
+    "options": [
+      "Ankara",
+      "Brussels",
+      "Cairo",
+      "Ottawa"
+    ],
+    "explanation": "Ang Ankara ay ang kabiserang lungsod ng Turkey."
+  },
+  "geography-x-capital-39": {
+    "question": "Ano ang kabisera ng Pakistan?",
+    "options": [
+      "Islamabad",
+      "Cairo",
+      "Ottawa",
+      "Canberra"
+    ],
+    "explanation": "Ang Islamabad ay ang kabiserang lungsod ng Pakistan."
+  },
+  "geography-x-capital-40": {
+    "question": "Ano ba ang kabisera ng Bangladesh?",
+    "options": [
+      "Dhaka",
+      "Ottawa",
+      "Canberra",
+      "Brasília"
+    ],
+    "explanation": "Ang Dhaka ay ang kabiserang lungsod ng Bangladesh."
+  },
+  "geography-x-feature-1": {
+    "question": "Saang kontinente pangunahing matatagpuan ang Disyerto ng Sahara?",
+    "options": [
+      "Aprika",
+      "Asya",
+      "Europa",
+      "Hilagang Amerika"
+    ],
+    "explanation": "Ito ay isang malawak na mainit na disyerto sa hilagang Aprika."
+  },
+  "geography-x-feature-2": {
+    "question": "Sa aling kontinente pangunahing matatagpuan ang The Andes?",
+    "options": [
+      "Timog Amerika",
+      "Asya",
+      "Europa",
+      "Hilagang Amerika"
+    ],
+    "explanation": "Tumatakbo ang Andes sa kanlurang gilid ng Timog Amerika."
+  },
+  "geography-x-feature-3": {
+    "question": "Sa aling kontinente pangunahing matatagpuan ang The Alps?",
+    "options": [
+      "Europa",
+      "Hilagang Amerika",
+      "Timog Amerika",
+      "Australia"
+    ],
+    "explanation": "Ang Alps ay isang pangunahing hanay ng mga bundok sa gitnang Europa."
+  },
+  "geography-x-feature-4": {
+    "question": "Saang kontinente pangunahing matatagpuan ang The Great Barrier Reef?",
+    "options": [
+      "Australia",
+      "Aprika",
+      "Asya",
+      "Europa"
+    ],
+    "explanation": "Ang bahura ay nasa hilagang - silangang baybayin ng Australia."
+  },
+  "geography-x-feature-5": {
+    "question": "Saang kontinente pangunahing matatagpuan ang Ilog Amazon?",
+    "options": [
+      "Timog Amerika",
+      "Asya",
+      "Europa",
+      "Hilagang Amerika"
+    ],
+    "explanation": "Dumadaloy ang Amazon sa hilagang Timog Amerika."
+  },
+  "geography-x-feature-6": {
+    "question": "Saang kontinente pangunahing matatagpuan ang Ilog Danube?",
+    "options": [
+      "Europa",
+      "Hilagang Amerika",
+      "Timog Amerika",
+      "Australia"
+    ],
+    "explanation": "Ang Danube ay dumadaloy sa sentral at timog - silangang Europa."
+  },
+  "geography-x-feature-7": {
+    "question": "Saang kontinente pangunahing matatagpuan ang Ilog Nilo?",
+    "options": [
+      "Aprika",
+      "Asya",
+      "Europa",
+      "Hilagang Amerika"
+    ],
+    "explanation": "Dumadaloy ang Nilo pahilaga sa hilagang-silangang Aprika."
+  },
+  "geography-x-feature-8": {
+    "question": "Saang kontinente pangunahing matatagpuan ang Disyerto ng Gobi?",
+    "options": [
+      "Asya",
+      "Europa",
+      "Hilagang Amerika",
+      "Timog Amerika"
+    ],
+    "explanation": "Ang Gobi spans mga bahagi ng Mongolia at hilagang Tsina."
+  },
+  "geography-x-feature-9": {
+    "question": "Saang kontinente pangunahing matatagpuan ang Lawa ng Baikal?",
+    "options": [
+      "Asya",
+      "Hilagang Amerika",
+      "Timog Amerika",
+      "Australia"
+    ],
+    "explanation": "Ang Lawa ng Baikal ay nasa Siberia, Russia."
+  },
+  "geography-x-feature-10": {
+    "question": "Sa aling kontinente pangunahing matatagpuan ang The Rocky Mountains?",
+    "options": [
+      "Hilagang Amerika",
+      "Aprika",
+      "Asya",
+      "Europa"
+    ],
+    "explanation": "Umaabot ang Rockies sa kanlurang Hilagang Amerika."
+  },
+  "language-x-vocab-1": {
+    "question": "Ano ba ang ibig sabihin ng  ?",
+    "options": [
+      "Existing in large quantities",
+      "Very old",
+      "Short in duration or length",
+      "Careful to avoid danger"
+    ],
+    "explanation": "Ang kasaganaan ay nangangahulugan ng napakarami o napakarami."
+  },
+  "language-x-vocab-2": {
+    "question": "Ano ang ibig sabihin ng  ?",
+    "options": [
+      "Very old",
+      "Easily broken or damaged",
+      "Willing to give or share",
+      "To pause before acting"
+    ],
+    "explanation": "Inilalarawan noon ang isang bagay na pag - aari ng sinaunang panahon."
+  },
+  "language-x-vocab-3": {
+    "question": "Ano ang ibig sabihin ng brief?",
+    "options": [
+      "Short in duration or length",
+      "Having a sharp edge or strong interest",
+      "Faithful to a person or cause",
+      "To change something partly"
+    ],
+    "explanation": "Ang maikling salita ay nangangahulugan ng pagtagal ng maikling panahon o paggamit ng ilang salita."
+  },
+  "language-x-vocab-4": {
+    "question": "Ano ba ang ibig sabihin ng  ?",
+    "options": [
+      "Careful to avoid danger",
+      "Exact and accurate",
+      "Able to be trusted",
+      "Limited in amount"
+    ],
+    "explanation": "Ang pag - iingat ay nangangahulugan ng pag - iingat upang maiwasan ang panganib o mga pagkakamali."
+  },
+  "language-x-vocab-5": {
+    "question": "Ano ang ibig sabihin ng diminish?",
+    "options": [
+      "To make or become smaller",
+      "Empty or unoccupied",
+      "Very tired",
+      "To produce or give way"
+    ],
+    "explanation": "Ang ibig sabihin ng diminish ay bawasan o bawasan."
+  },
+  "language-x-vocab-6": {
+    "question": "Ano ang ibig sabihin ng eager?",
+    "options": [
+      "Very interested and excited",
+      "To join things together",
+      "To discover or notice",
+      "Completely necessary"
+    ],
+    "explanation": "May pananabik na inilalarawan ang matinding interes o matinding pananabik."
+  },
+  "language-x-vocab-7": {
+    "question": "Ano ang ibig sabihin ng fi?",
+    "options": [
+      "Easily broken or damaged",
+      "To point out or show",
+      "To keep in good condition",
+      "To happen"
+    ],
+    "explanation": "Ang pagiging matigas ay nangangahulugan ng maselan at malamang na mabasag."
+  },
+  "language-x-vocab-8": {
+    "question": "Ano ang ibig sabihin ng generous?",
+    "options": [
+      "Willing to give or share",
+      "Almost the same",
+      "To move from one place to another",
+      "Able to be seen"
+    ],
+    "explanation": "Bukas - palad na inilalarawan ang pagbibigay nang malaya o sagana."
+  },
+  "language-x-vocab-9": {
+    "question": "Ano ang ibig sabihin ng hesitate?",
+    "options": [
+      "To pause before acting",
+      "Careful to avoid danger",
+      "To make or become smaller",
+      "Very interested and excited"
+    ],
+    "explanation": "Ang hesitate ay nangangahulugang huminto ng sandali dahil sa kawalang katiyakan."
+  },
+  "language-x-vocab-10": {
+    "question": "Ano ba ang ibig sabihin ng imi?",
+    "options": [
+      "To copy the actions or style of",
+      "To pause before acting",
+      "An act of traveling from one place to another",
+      "Having a sharp edge or strong interest"
+    ],
+    "explanation": "Ang pagtulad ay nangangahulugan ng pagkakaroon ng paraan o paggawi ng iba."
+  },
+  "language-x-vocab-11": {
+    "question": "Ano ang ibig sabihin ng journey?",
+    "options": [
+      "An act of traveling from one place to another",
+      "Many",
+      "Something that blocks progress",
+      "Exact and accurate"
+    ],
+    "explanation": "Isang paglalakbay ang naglalakbay mula sa isang pasimula tungo sa isang patutunguhan."
+  },
+  "language-x-vocab-12": {
+    "question": "Ano ang ibig sabihin ng keen?",
+    "options": [
+      "Having a sharp edge or strong interest",
+      "Lasting for a limited time",
+      "Unlike anything else",
+      "Empty or unoccupied"
+    ],
+    "explanation": "Ang Keen ay maaaring mangahulugan ng matalas o lubhang interesado, depende sa konteksto."
+  },
+  "language-x-vocab-13": {
+    "question": "Ano ba ang ibig sabihin ng , ?",
+    "options": [
+      "Faithful to a person or cause",
+      "Correct in all details",
+      "An advantage or helpful result",
+      "To join things together"
+    ],
+    "explanation": "Ang pagkamatapat ay nangangahulugan ng pagpapakita ng matatag na pagsuporta."
+  },
+  "language-x-vocab-14": {
+    "question": "Ano ang ibig sabihin ng modify?",
+    "options": [
+      "To change something partly",
+      "Happening often",
+      "Happening in small steps",
+      "To point out or show"
+    ],
+    "explanation": "Ang lakas ay nangangahulugan ng paggawa ng isang limitadong pagbabago."
+  },
+  "language-x-vocab-15": {
+    "question": "Ano ba ang ibig sabihin ng umes?",
+    "options": [
+      "Many",
+      "To allow",
+      "To need or demand",
+      "Almost the same"
+    ],
+    "explanation": "Marami ang nangangahulugang umiiral na sa malalaking bilang."
+  },
+  "language-x-vocab-16": {
+    "question": "Ano ang ibig sabihin ng obstacleić?",
+    "options": [
+      "Something that blocks progress",
+      "Very old",
+      "Short in duration or length",
+      "Careful to avoid danger"
+    ],
+    "explanation": "Ang hadlang ay isang hadlang o kahirapan."
+  },
+  "language-x-vocab-17": {
+    "question": "Ano ang ibig sabihin ng precise?",
+    "options": [
+      "Exact and accurate",
+      "Easily broken or damaged",
+      "Willing to give or share",
+      "To pause before acting"
+    ],
+    "explanation": "Ang eksaktong kahulugan ay maingat na eksakto."
+  },
+  "language-x-vocab-18": {
+    "question": "Ano ba ang ibig sabihin ng reliable?",
+    "options": [
+      "Able to be trusted",
+      "Having a sharp edge or strong interest",
+      "Faithful to a person or cause",
+      "To change something partly"
+    ],
+    "explanation": "Ang maaasahan ay naglalarawan ng isang bagay na maaasahan."
+  },
+  "language-x-vocab-19": {
+    "question": "Ano ang ibig sabihin ng scarce?",
+    "options": [
+      "Limited in amount",
+      "Exact and accurate",
+      "Able to be trusted",
+      "Lasting for a limited time"
+    ],
+    "explanation": "Ang ibig sabihin ng scarce ay hindi marami o mahirap hanapin."
+  },
+  "language-x-vocab-20": {
+    "question": "Ano ba ang ibig sabihin ng  Changeić?",
+    "options": [
+      "Lasting for a limited time",
+      "Very tired",
+      "To produce or give way",
+      "Correct in all details"
+    ],
+    "explanation": "Ang pansamantalang kahulugan ay hindi permanente."
+  },
+  "language-x-vocab-21": {
+    "question": "Ano ang ibig sabihin ng unique?",
+    "options": [
+      "Unlike anything else",
+      "To discover or notice",
+      "Completely necessary",
+      "Happening often"
+    ],
+    "explanation": "Ang pambihira ay nangangahulugan ng pagiging ang tanging uri nito."
+  },
+  "language-x-vocab-22": {
+    "question": "Ano ang ibig sabihin ng vacant?",
+    "options": [
+      "Empty or unoccupied",
+      "To keep in good condition",
+      "To happen",
+      "To allow"
+    ],
+    "explanation": "Vacant ang isang espasyo na walang tao o wala nito."
+  },
+  "language-x-vocab-23": {
+    "question": "Ano ang ibig sabihin ng , ?",
+    "options": [
+      "Very tired",
+      "To move from one place to another",
+      "Able to be seen",
+      "To resist or endure"
+    ],
+    "explanation": "Ang weary ay nangangahulugan ng pakiramdam o pagpapakita ng pagkapagod."
+  },
+  "language-x-vocab-24": {
+    "question": "Ano ang ibig sabihin ng  ?",
+    "options": [
+      "To produce or give way",
+      "To make or become smaller",
+      "Very interested and excited",
+      "Easily broken or damaged"
+    ],
+    "explanation": "Ang pagiging huli ay maaaring mangahulugan ng pagkakaroon ng resulta o pagbibigay - daan."
+  },
+  "language-x-vocab-25": {
+    "question": "Ano ba ang ibig sabihin ng ii?",
+    "options": [
+      "Correct in all details",
+      "To copy the actions or style of",
+      "An act of traveling from one place to another",
+      "Having a sharp edge or strong interest"
+    ],
+    "explanation": "Ang tumpak na paraan ay walang pagkakamali."
+  },
+  "language-x-vocab-26": {
+    "question": "Ano ang ibig sabihin ng benefit?",
+    "options": [
+      "An advantage or helpful result",
+      "Many",
+      "Something that blocks progress",
+      "Exact and accurate"
+    ],
+    "explanation": "Ang isang pakinabang ay isang bagay na nagpapabuti sa isang kalagayan."
+  },
+  "language-x-vocab-27": {
+    "question": "Ano ang ibig sabihin ng combine?",
+    "options": [
+      "To join things together",
+      "Lasting for a limited time",
+      "Unlike anything else",
+      "Empty or unoccupied"
+    ],
+    "explanation": "Ang pinagsama ay nangangahulugan ng pagsasama-sama ng magkakahiwalay na mga bahagi."
+  },
+  "language-x-vocab-28": {
+    "question": "Ano ang ibig sabihin ng detect?",
+    "options": [
+      "To discover or notice",
+      "Correct in all details",
+      "An advantage or helpful result",
+      "To join things together"
+    ],
+    "explanation": "Ang ibig sabihin ng pagsusuri ay hanapin o makilala ang isang bagay na hindi agad mahahalata."
+  },
+  "language-x-vocab-29": {
+    "question": "Ano ba ang ibig sabihin ng ipersensiyalista?",
+    "options": [
+      "Completely necessary",
+      "Happening in small steps",
+      "To point out or show",
+      "To keep in good condition"
+    ],
+    "explanation": "Ang mahalaga ay nangangahulugang mahalaga o kinakailangan."
+  },
+  "language-x-vocab-30": {
+    "question": "Ano ang ibig sabihin ng  ?",
+    "options": [
+      "Happening often",
+      "To need or demand",
+      "Almost the same",
+      "To move from one place to another"
+    ],
+    "explanation": "Ang madalas ay nangangahulugang nangyayari sa maiikling pagitan o maraming ulit."
+  },
+  "language-x-vocab-31": {
+    "question": "Ano ang ibig sabihin ng gradual?",
+    "options": [
+      "Happening in small steps",
+      "Short in duration or length",
+      "Careful to avoid danger",
+      "To make or become smaller"
+    ],
+    "explanation": "Inilalarawan ng gradual ang pagbabago na unti-unting nangyayari sa paglipas ng panahon."
+  },
+  "language-x-vocab-32": {
+    "question": "Ano ang ibig sabihin ng indicate?",
+    "options": [
+      "To point out or show",
+      "Willing to give or share",
+      "To pause before acting",
+      "To copy the actions or style of"
+    ],
+    "explanation": "Ang indicate ay nangangahulugan ng pagpapabatid ng isang bagay o punto patungo rito."
+  },
+  "language-x-vocab-33": {
+    "question": "Ano ang ibig sabihin ng maintain?",
+    "options": [
+      "To keep in good condition",
+      "Faithful to a person or cause",
+      "To change something partly",
+      "Many"
+    ],
+    "explanation": "Ang pagpapanatili ay nangangahulugan ng pagpapanatili o pagpapatuloy ng isang bagay."
+  },
+  "language-x-vocab-34": {
+    "question": "Ano ang ibig sabihin ng cur?",
+    "options": [
+      "To happen",
+      "Able to be trusted",
+      "Limited in amount",
+      "Lasting for a limited time"
+    ],
+    "explanation": "Ang pangyayari ay nangangahulugan ng pagsasakatuparan."
+  },
+  "language-x-vocab-35": {
+    "question": "Ano ang ibig sabihin ng permit?",
+    "options": [
+      "To allow",
+      "Very tired",
+      "To produce or give way",
+      "Correct in all details"
+    ],
+    "explanation": "Ang pagbibigay ng pahintulot ay nangangahulugan ng pagbibigay ng pahintulot."
+  },
+  "language-x-vocab-36": {
+    "question": "Ano ang ibig sabihin ng re?",
+    "options": [
+      "To need or demand",
+      "To discover or notice",
+      "Completely necessary",
+      "Happening often"
+    ],
+    "explanation": "Ang pangangailangan ay nangangahulugan ng paggawa ng kinakailangan o paggigiit."
+  },
+  "language-x-vocab-37": {
+    "question": "Ano ang ibig sabihin ng similar?",
+    "options": [
+      "Almost the same",
+      "To keep in good condition",
+      "To happen",
+      "To allow"
+    ],
+    "explanation": "Pareho sa ilang paraan."
+  },
+  "language-x-vocab-38": {
+    "question": "Ano ang ibig sabihin ng transferić?",
+    "options": [
+      "To move from one place to another",
+      "Existing in large quantities",
+      "Very old",
+      "Short in duration or length"
+    ],
+    "explanation": "Ang paglipat ay nangangahulugan ng paglipat o paghahatid ng isang bagay."
+  },
+  "language-x-vocab-39": {
+    "question": "Ano ba ang ibig sabihin ng ixivisible Becky?",
+    "options": [
+      "Able to be seen",
+      "Very interested and excited",
+      "Easily broken or damaged",
+      "Willing to give or share"
+    ],
+    "explanation": "Ang nakikitang paraan ay makikita sa pamamagitan ng paningin."
+  },
+  "language-x-vocab-40": {
+    "question": "Ano ba ang ibig sabihin ng othstand?",
+    "options": [
+      "To resist or endure",
+      "An act of traveling from one place to another",
+      "Having a sharp edge or strong interest",
+      "Faithful to a person or cause"
+    ],
+    "explanation": "Ang matatag na paraan ay ang manatiling hindi naaapektuhan ng lakas o panggigipit."
+  },
+  "it-x-concept-1": {
+    "question": "Ano ang pangunahing layunin o kahulugan ng CPU?",
+    "options": [
+      "Nagpapatupad ng mga tagubilin at nag-uugnay sa operasyon ng computer",
+      "Pansamantalang memorya",
+      "Di-pabagu-bagong imbakan gamit ang solid-state memory",
+      "Namamahala sa hardware at nagbibigay ng mga serbisyo sa mga application"
+    ],
+    "explanation": "Ang CPU ay nagpoproseso ng mga instruksiyon at kumokontrol sa maraming operasyon ng kompyuter."
+  },
+  "it-x-concept-2": {
+    "question": "Ano ang pangunahing layunin o kahulugan ng RAM?",
+    "options": [
+      "Pansamantalang gumaganang memory",
+      "Isang numerong address na ginagamit upang makilala ang isang network interface",
+      "Forwards pickets sa pagitan ng mga network",
+      "Isang wikang markup para sa pag - aayos ng nilalamang web"
+    ],
+    "explanation": "Ang RAM ay nagtataglay ng mga impormasyon na aktibong ginagamit ng mga programa; ito'y madaling sumingaw."
+  },
+  "it-x-concept-3": {
+    "question": "Ano ang pangunahing layunin o kahulugan ng SSD?",
+    "options": [
+      "Nonvolatile storage gamit ang solid-state memory",
+      "Isang ipinamamahaging sistema ng pagkontrol sa bersyon",
+      "Isang naitalang grap sa bersyon-kontrol history",
+      "Isang naglilipat na linya ng pag-unlad"
+    ],
+    "explanation": "Ang isang SSD ay nag-iimbak ng datos nang hindi gumagalaw ng mga bahaging mekanikal."
+  },
+  "it-x-concept-4": {
+    "question": "Ano ang pangunahing layunin o kahulugan ng operating system?",
+    "options": [
+      "Namamahala sa hardware at nagbibigay ng mga serbisyo sa mga application",
+      "Estruktura na nagpapabilis sa paghahanap ng datos",
+      "Pansamantalang imbakan para sa muling gagamiting datos",
+      "Pagbabago ng datos upang hindi ito mabasa nang walang tamang susi"
+    ],
+    "explanation": "Ang isang operating system ay nagtutugma ng mga mapagkukunan at nag-aalok ng mga karaniwang serbisyo sa software."
+  },
+  "it-x-concept-5": {
+    "question": "Ano ang pangunahing layunin o kahulugan ni Kernel?",
+    "options": [
+      "Ang pangunahing bahagi ng operating system",
+      "Isang espesipikong interface para sa mga bahagi ng software upang makipagtalastasan ng",
+      "Isang format ng teksto para sa organisadong data",
+      "Ang hinihiling na mapagkukunan ng impormasyon ay hindi natagpuan"
+    ],
+    "explanation": "Ang kernel ay nagpapatakbo ng mga mababang-level na mapagkukunan tulad ng memorya at mga proseso."
+  },
+  "it-x-concept-6": {
+    "question": "Ano ang pangunahing layunin o kahulugan ng HTTP?",
+    "options": [
+      "Isang protocol para sa paglilipat ng mga yaman ng web",
+      "Isang programa na nagpapatupad o nagsusuri ng code",
+      "Software na ang source code ay makukuha sa ilalim ng lisensiya",
+      "Isang maliit na piraso ng datos na isang tindahan ng website sa isang browser"
+    ],
+    "explanation": "Binibigyang kahulugan ng HTTP ang kahilingan at pagtugon ng komunikasyon para sa mga mapagkukunang web."
+  },
+  "it-x-concept-7": {
+    "question": "Ano ang pangunahing layunin o kahulugan ng HTTPS?",
+    "options": [
+      "HTTP pinangangalagaan ng TLS",
+      "Isang protocol para sa paglilipat ng mga web force",
+      "Isang sistema na nagreresulta sa mga pangalan ng nasasakupan upang irekord ang",
+      "Isang numerong address na ginagamit upang makilala ang isang network interface"
+    ],
+    "explanation": "Ang HTTPS ay gumagamit ng TLS upang maprotektahan ang HTTP communication sa transit."
+  },
+  "it-x-concept-8": {
+    "question": "Ano ang pangunahing layunin o kahulugan ng DNS?",
+    "options": [
+      "Isang sistema na nagpapasiya sa mga pangalang domain na itala ang",
+      "JavaScript na may static type system na",
+      "Isang wika para sa paggawa sa mga kaugnay na databases",
+      "Isang ipinamamahaging sistema ng pagkontrol sa bersyon"
+    ],
+    "explanation": "Ang DNS ay nagmapa ng mga pangalan tulad ng domain na pangalan sa mga record kabilang ang IP adress."
+  },
+  "it-x-concept-9": {
+    "question": "Ano ang pangunahing layunin o kahulugan ng IP address?",
+    "options": [
+      "Isang numerong adres na ginagamit para matukoy ang isang network interface",
+      "Isang kolum o set ng mga kolum na may natatanging pagkakakilanlan ng isang hanay",
+      "Isang field na tumutukoy sa isang key sa isa pang mesa",
+      "Isang istraktura na magpapabilis sa data peesup"
+    ],
+    "explanation": "Ipinakikilala ng IP addresss ang mga interface para sa paglupig ng mga pakete sa mga IP network."
+  },
+  "it-x-concept-10": {
+    "question": "Ano ang pangunahing layunin o kahulugan ng Router?",
+    "options": [
+      "Forwards packets sa pagitan ng mga network",
+      "Isang mapanlinlang na pagsisikap na makakuha ng sensitibong impormasyon",
+      "Isang sistema na sumasala sa trapiko ng network sa pamamagitan ng mga tuntuning",
+      "Isang malinaw na interface para sa mga bahagi ng software upang makipagtalastasan"
+    ],
+    "explanation": "Ang mga Routers ay naglilipat ng mga pakete sa pagitan ng iba't ibang mga network."
+  },
+  "it-x-concept-11": {
+    "question": "Ano ang pangunahing layunin o kahulugan ng HTML?",
+    "options": [
+      "Isang wikang may marka para sa pag - iistruktura ng nilalamang web",
+      "Isang pangalan na tumutukoy sa isang halagang",
+      "Isang programa na nagsasalin ng source code",
+      "Isang programa na sumisira o sumusuri sa kodigo"
+    ],
+    "explanation": "Inilarawan ng HTML ang kayarian at kahulugan ng mga dokumentong web."
+  },
+  "it-x-concept-12": {
+    "question": "Ano ang pangunahing layunin o kahulugan ng CSS?",
+    "options": [
+      "Isang istilong wika para sa paghaharap ng mga dokumentong web",
+      "Paghawak ng hardware at nagbibigay ng mga serbisyo sa mga aplikasyon",
+      "Ang pangunahing bahagi ng isang operating system",
+      "Isang protocol para sa paglilipat ng mga mapagkukunang web"
+    ],
+    "explanation": "Kinokontrol ng CSS ang presentasyon gaya ng pagkakaayos, kulay, at typography."
+  },
+  "it-x-concept-13": {
+    "question": "Ano ang pangunahing layunin o kahulugan ng JavaScript?",
+    "options": [
+      "Isang wikang pamprograma na sinusuportahan ng mga web browser",
+      "Isang wikang markup para sa pag-istruktura ng nilalamang web",
+      "Isang estilong wika para sa representasyon ng mga dokumentong web",
+      "JavaScript na may sistemang static type"
+    ],
+    "explanation": "Ang JavaScript ay malawakang ginagamit upang magdagdag ng pag-uugali sa mga web page."
+  },
+  "it-x-concept-14": {
+    "question": "Ano ang pangunahing layunin o kahulugan ng TypeScript?",
+    "options": [
+      "JavaScript na may static type system",
+      "Pinagsamang mga pagbabago mula sa iba't ibang linya ng pag-unlad",
+      "Isang tindahan ng datos na naglalaman ng mga file ng proyekto at kasaysayan",
+      "Isang kolum o set ng mga kolumna na natatanging nagpapakilala ng isang hanay"
+    ],
+    "explanation": "Ang typeScript ay nagdaragdag ng type couple at mga koleksyon sa JavaScript."
+  },
+  "it-x-concept-15": {
+    "question": "Ano ang pangunahing layunin o kahulugan ng SQL?",
+    "options": [
+      "Isang wika para sa paggawa ng mga kaugnay na database",
+      "Isang tungkulin na nagreresulta sa mga input data sa isang nakatakdang-habang pagtunaw na",
+      "Paggamit ng dalawang magkaibang uri ng factor upang matiyak ang pagkakakilanlan",
+      "Isang mapanlinlang na pagtatangkang makakuha ng sensitibong impormasyon"
+    ],
+    "explanation": "Ang SQL ay ginagamit upang magquery at pangasiwaan ang mga impormasyong kaugnay ng database."
+  },
+  "it-x-concept-16": {
+    "question": "Ano ang pangunahing layunin o kahulugan ng Git?",
+    "options": [
+      "Isang ipinamamahaging sistema ng pagkontrol sa bersyon",
+      "Ang kahilingan ay humalili kay",
+      "Isang kayarian ng kontrol na umuulit sa mga tagubilin",
+      "Isang pangalang tumutukoy sa isang halaga"
+    ],
+    "explanation": "Ang mga track ng Git ay nagbabago tungo sa mga file gamit ang isang distributed reposition model."
+  },
+  "it-x-concept-17": {
+    "question": "Ano ang pangunahing layunin o kahulugan ng pagkakapit?",
+    "options": [
+      "Isang inirekord na larawan sa version-control history",
+      "Pansamantalang gumaganang memorya",
+      "Nonvolatile storage na ginagamit ang solidong-state memory",
+      "Paghawak ng hardware at nagbibigay ng mga serbisyo sa mga aplikasyon"
+    ],
+    "explanation": "Isang Git ang gumagawa ng mga record project state at mga kaugnay na metadata."
+  },
+  "it-x-concept-18": {
+    "question": "Ano ang pangunahing layunin o kahulugan ng Sangay?",
+    "options": [
+      "Isang kumikilos na linya ng pag - unlad",
+      "Isang numerong ginagamit upang makilala ang isang network na interface",
+      "Forwards pickets sa pagitan ng mga network",
+      "Isang wikang markup para sa pag - aayos ng nilalamang web"
+    ],
+    "explanation": "Hinahayaan ng isang sangay na sumulong ang gawain nang mag - isa bago mapag - ugnay ang mga pagbabago."
+  },
+  "it-x-concept-19": {
+    "question": "Ano ang pangunahing layunin o kahulugan ng Merge?",
+    "options": [
+      "Pinagsama - samang mga pagbabago mula sa iba't ibang development line",
+      "Isang ipinamamahaging sistema ng pagkontrol sa bersyon",
+      "Isang inirekord na larawan sa version-control history",
+      "Isang kumikilos na linya ng pag - unlad"
+    ],
+    "explanation": "Isang pagsasanib ang nag - uugnay sa mga kasaysayan o mga pagbabago mula sa mga sangay."
+  },
+  "it-x-concept-20": {
+    "question": "Ano ang pangunahing layunin o kahulugan ng Repositoryo?",
+    "options": [
+      "Isang tindahan ng datos na naglalaman ng mga file ng proyekto at kasaysayan",
+      "Isang pansamantalang tindahan para sa reusable data",
+      "Transforming data kaya ito ay hindi mabasa nang walang tamang key",
+      "Isang tungkulin na nagreresulta sa input data sa isang nakapirmeng-habang pagtunaw"
+    ],
+    "explanation": "Isang bersyon-kontrol na restoran ang nag-iimbak ng nilalamang proyekto at kasaysayan nito."
+  },
+  "it-x-concept-21": {
+    "question": "Ano ang pangunahing layunin o kahulugan ng pangunahing susi?",
+    "options": [
+      "Isang kolum o kalipunan ng mga tudling na pantanging nagpapakilala sa isang hanay",
+      "Isang format ng teksto para sa organisadong impormasyon",
+      "Ang hiniling na yaman ay hindi nasumpungang",
+      "Ang kahilingan ay nagtagumpay"
+    ],
+    "explanation": "Isang pangunahing susi ang natatanging nagpapakilala sa bawat hanay sa isang mesang may kaugnayan."
+  },
+  "it-x-concept-22": {
+    "question": "Ano ang pangunahing layunin o kahulugan ng banyagang susi?",
+    "options": [
+      "Isang larangan na tumutukoy sa isang susi sa isa pang mesa",
+      "Software na ang source code ay makukuha sa ilalim ng isang lisensiya",
+      "Isang maliit na piraso ng datos na tindahan ng isang website sa isang browser",
+      "Ang kapasidad ng isang link ng komunikasyon na magdala ng datos"
+    ],
+    "explanation": "Ang banyagang susi ay kumakatawan sa ugnayan sa pagitan ng mga talahanayan ng database."
+  },
+  "it-x-concept-23": {
+    "question": "Ano ang pangunahing layunin o kahulugan ng Index?",
+    "options": [
+      "Isang istraktura na magpapabilis sa pag - iimbak ng impormasyon",
+      "HTTP na protektado ng TLS",
+      "Isang sistema na nagtatakda sa mga pangalan ng nasasakupan upang itala ang",
+      "Isang numerong direksiyon na ginagamit upang makilala ang isang network na interface"
+    ],
+    "explanation": "Maaaring pabilisin ng isang index ng database ang pagbabasa, na may mga gastusin sa pag - iimbak at pagsulat."
+  },
+  "it-x-concept-24": {
+    "question": "Ano ang pangunahing layunin o kahulugan ng Cach?",
+    "options": [
+      "Isang pansamantalang tindahan para sa madaling - makuhang impormasyon",
+      "JavaScript na may static type system",
+      "Isang wika para sa paggawa ng mga kaugnay na database",
+      "Sistema ng pagkontrol sa pamamahagi ng bersyon"
+    ],
+    "explanation": "Ang isang cache ay nag - iingat ng mga kopya ng impormasyon upang bawasan ang paulit - ulit na trabaho o ang pagiging huli."
+  },
+  "it-x-concept-25": {
+    "question": "Ano ang pangunahing layunin o kahulugan ng Pag - iyak?",
+    "options": [
+      "Transforming data Para hindi mabasa nang walang tamang key",
+      "Isang kolum o kalipunan ng mga kolum na may natatanging pagkakakilanlan ng isang hanay",
+      "Isang field na tumutukoy sa isang susi sa isa pang table",
+      "Isang istraktura na magpapabilis sa data seeup"
+    ],
+    "explanation": "Iniingatan ng encryption ang paglilihim sa pamamagitan ng paghiling ng isang susi upang mabawi ang kapatagan."
+  },
+  "it-x-concept-26": {
+    "question": "Ano ang pangunahing layunin o kahulugan ng gawain ng Hash?",
+    "options": [
+      "Isang gawain na nagre - print ng input data sa isang di - nagbabagong paraan ng pagtunaw",
+      "Isang sistema na sumasala sa trapiko ng network sa pamamagitan ng mga tuntuning",
+      "Isang espesipikong interface para sa mga bahagi ng software upang makipagtalastasan ng",
+      "Isang format ng teksto para sa organisadong data"
+    ],
+    "explanation": "Ang isang cryptographic hash ay lumilikha ng isang nakapirmeng-size na output mula sa hindi makatuwirang input."
+  },
+  "it-x-concept-27": {
+    "question": "Ano ang pangunahing layunin o kahulugan ng Two-factor realation?",
+    "options": [
+      "Paggamit ng dalawang magkaibang uri ng salik upang patunayan ang pagkakakilanlan",
+      "Programang nagsasalin ng source code",
+      "Programang nagpapatakbo o sumusuri ng code",
+      "Software na inilalathala kasama ang source code nito sa ilalim ng lisensiya"
+    ],
+    "explanation": "Ang dalawang-factor realityation ay nagsasama ng mga magkakaibang proof type, tulad ng password at device code."
+  },
+  "it-x-concept-28": {
+    "question": "Ano ang pangunahing layunin o kahulugan ng Pishing?",
+    "options": [
+      "Isang mapanlinlang na pagtatangkang makakuha ng sensitibong impormasyon",
+      "Ang pangunahing bahagi ng isang operating system",
+      "Isang protocol para sa paglilipat ng mga yaman ng web",
+      "HTTP na protektado ng TLS"
+    ],
+    "explanation": "Nililinlang ng panlilinlang ang mga tao sa pagsisiwalat ng mga kredensiyal o iba pang impormasyon."
+  },
+  "it-x-concept-29": {
+    "question": "Ano ang pangunahing layunin o kahulugan ng Firewall?",
+    "options": [
+      "Isang sistema na sumasala sa trapiko ng network sa pamamagitan ng mga tuntunin",
+      "Isang estilong wika para sa paghaharap ng mga dokumento ng web",
+      "Isang wikang pamprograma na sinusuportahan ng mga web browser",
+      "JavaScript na may static type system"
+    ],
+    "explanation": "Ang isang firewall ay nagpapahintulot o humaharang sa trapiko ayon sa nakaayos na mga patakaran."
+  },
+  "it-x-concept-30": {
+    "question": "Ano ang pangunahing layunin o kahulugan ng API?",
+    "options": [
+      "Itinakdang interface na nagbibigay-daan sa mga bahagi ng software na mag-usap",
+      "Pagsasama ng mga pagbabago mula sa magkakaibang sangay ng development",
+      "Imbakan ng datos na naglalaman ng mga file at kasaysayan ng proyekto",
+      "Kolum o hanay ng mga kolum na natatanging tumutukoy sa isang row"
+    ],
+    "explanation": "Binabanggit ng API kung paanong ang mga bahagi ng software ay maaaring humiling ng mga serbisyo o magpalitan ng impormasyon."
+  },
+  "it-x-concept-31": {
+    "question": "Ano ang pangunahing layunin o kahulugan ng JSON?",
+    "options": [
+      "Isang format ng teksto para sa organisadong datos",
+      "Isang gawain na nag - iiwan ng input data sa isang itinakdang-habang pagtunaw",
+      "Ginagamit ang dalawang magkaibang salik na uri upang matiyak ang pagkakakilanlan",
+      "Isang mapanlinlang na pagsisikap na makakuha ng sensitibong impormasyon"
+    ],
+    "explanation": "Ang JSON ay kumakatawan sa organisadong datos na gumagamit ng mga bagay, hanay, at primitibong mga halaga."
+  },
+  "it-x-concept-32": {
+    "question": "Ano ang pangunahing layunin o kahulugan ng HTTP 404?",
+    "options": [
+      "Hindi natagpuan ang hiniling na yaman",
+      "Isang kayariang pangkontrol na umuulit sa mga instruksiyong",
+      "Isang katawagang tumutukoy sa isang halagang",
+      "Isang programang nagsasalin ng source code"
+    ],
+    "explanation": "Ang HTTP status 404 ay nagpapahiwatig na ang target na yaman ay hindi natagpuan."
+  },
+  "it-x-concept-33": {
+    "question": "Ano ang pangunahing layunin o kahulugan ng HTTP 200?",
+    "options": [
+      "Matagumpay ang kahilingan",
+      "Di-pabagu-bagong imbakan gamit ang solid-state memory",
+      "Namamahala sa hardware at nagbibigay ng mga serbisyo sa mga application",
+      "Pangunahing bahagi ng operating system"
+    ],
+    "explanation": "Ang HTTP status 200 ay nagpapahiwatig ng matagumpay na kahilingan."
+  },
+  "it-x-concept-34": {
+    "question": "Ano ang pangunahing layunin o kahulugan ng Loop?",
+    "options": [
+      "Isang control structure na umuulit ng mga instruksiyon",
+      "Forwards packets sa pagitan ng mga network",
+      "Isang wikang markup para sa pag-uuri ng nilalamang web",
+      "Isang estilong wika para sa representasyon ng mga dokumentong web"
+    ],
+    "explanation": "Ang isang prepusyo ay umuulit ng isang bloke ng kodigo samantalang ang isang kondisyon o tuntuning imperensiya ay pumapayag."
+  },
+  "it-x-concept-35": {
+    "question": "Ano ang pangunahing layunin o kahulugan ng Variable?",
+    "options": [
+      "Isang ipinangalang pagtukoy sa isang halaga",
+      "Isang inirekord na larawan sa kasaysayan ng bersyon-kontrol",
+      "Isang kumikilos na linya ng pag-unlad",
+      "Pinagsamang mga pagbabago mula sa iba't ibang mga linya ng pag-unlad"
+    ],
+    "explanation": "Ang isang variable ay nagbibigay ng pangalan sa isang programa na sa pamamagitan nito ay makakakuha ito ng halaga."
+  },
+  "it-x-concept-36": {
+    "question": "Ano ang pangunahing layunin o kahulugan ng Compiler?",
+    "options": [
+      "Isang programa na nagsasalin ng source code",
+      "Isang pansamantalang tindahan para sa maaaring baguhing impormasyon",
+      "transpormasyon ng datos kaya't hindi ito mabasa kung walang tamang key",
+      "Isang tungkulin na nagreresulta sa input data sa isang nakapirmeng-habang pagtunaw"
+    ],
+    "explanation": "Ang isang tagatipon ay nagsasalin ng source code sa ibang anyo, kadalasan ay kodigo ng makina o bytecode."
+  },
+  "it-x-concept-37": {
+    "question": "Ano ang pangunahing layunin o kahulugan ng Interpreter?",
+    "options": [
+      "Isang programa na nag - aalis o nagsusuri sa code",
+      "Isang format ng teksto para sa organisadong data",
+      "Ang hinihiling na yaman ay hindi nasumpungang",
+      "Ang kahilingan ay nagtagumpay"
+    ],
+    "explanation": "Sinusuri ng isang interpreter ang mga instruksiyon sa programa, karaniwan na habang nagpapatuloy ang programa."
+  },
+  "it-x-concept-38": {
+    "question": "Ano ang pangunahing layunin o kahulugan ng Open-source software?",
+    "options": [
+      "Software na inilalathala kasama ang source code nito sa ilalim ng lisensiya",
+      "Nagpapatupad ng mga tagubilin at nag-uugnay sa operasyon ng computer",
+      "Pansamantalang memorya",
+      "Di-pabagu-bagong imbakan gamit ang solid-state memory"
+    ],
+    "explanation": "Ang mga lisensiya ng open-source ay nagkakaloob ng mga karapatang gamitin, siyasatin, at kadalasang baguhin at ibahagi ang source code."
+  },
+  "it-x-concept-39": {
+    "question": "Ano ang pangunahing layunin o kahulugan ng Cookie?",
+    "options": [
+      "Isang maliit na piraso ng datos na pag - iimbak ng website sa isang browser",
+      "Isang sistema na tumitiyak sa mga pangalan ng nasasakupan na magtala ng",
+      "Isang numerong adres na ginagamit para matukoy ang isang network na interface",
+      "Forwards packets sa pagitan ng mga network"
+    ],
+    "explanation": "Ang Cookies ay nagpapahintulot sa isang website na mapanatili ang datos na nauugnay sa isang browser."
+  },
+  "it-x-concept-40": {
+    "question": "Ano ang pangunahing layunin o kahulugan ng Bandwidth?",
+    "options": [
+      "Ang kapasidad ng isang link ng komunikasyon na magdala ng datos",
+      "Isang wika para sa paggawa ng mga kaugnay na database",
+      "Isang ipinamamahaging sistema ng pagkontrol sa bersyon",
+      "Isang naitalang speciation sa version-control history"
+    ],
+    "explanation": "Bandwidth ang kapasidad ng data-pagdadala ng link sa paglipas ng panahon."
+  }
+}

@@ -1,0 +1,2312 @@
+{
+  "general-001": {
+    "question": "Hành tinh nào được mệnh danh là Hành tinh Đỏ?",
+    "options": [
+      "sao Kim",
+      "Sao Hỏa",
+      "Sao Mộc",
+      "Thủy ngân"
+    ],
+    "explanation": "Bụi giàu sắt khiến sao Hỏa có màu đỏ."
+  },
+  "general-002": {
+    "question": "Hình lục giác có bao nhiêu cạnh?",
+    "options": [
+      "Năm",
+      "Sáu",
+      "bảy",
+      "Tám"
+    ],
+    "explanation": "Một hình lục giác có sáu cạnh."
+  },
+  "general-003": {
+    "question": "Dụng cụ nào đo áp suất không khí?",
+    "options": [
+      "Nhiệt kế",
+      "phong vũ biểu",
+      "máy đo độ ẩm",
+      "La bàn"
+    ],
+    "explanation": "Một phong vũ biểu đo áp suất khí quyển."
+  },
+  "general-004": {
+    "question": "Khoáng chất tự nhiên cứng nhất trên thang Mohs là gì?",
+    "options": [
+      "Thạch anh",
+      "topaz",
+      "Kim cương",
+      "Corundum"
+    ],
+    "explanation": "Kim cương được xếp hạng 10 trên thang độ cứng Mohs."
+  },
+  "general-005": {
+    "question": "Hai giờ bằng bao nhiêu phút?",
+    "options": [
+      "100",
+      "110",
+      "120",
+      "130"
+    ],
+    "explanation": "Hai giờ có 120 phút."
+  },
+  "general-006": {
+    "question": "Khí nào chiếm phần lớn bầu khí quyển Trái đất?",
+    "options": [
+      "Ôxy",
+      "Nitơ",
+      "Khí cacbonic",
+      "Argon"
+    ],
+    "explanation": "Nitơ chiếm khoảng 78% không khí khô."
+  },
+  "general-007": {
+    "question": "Đại dương nào lớn nhất?",
+    "options": [
+      "Đại Tây Dương",
+      "người Ấn Độ",
+      "Bắc Cực",
+      "Thái Bình Dương"
+    ],
+    "explanation": "Thái Bình Dương là đại dương lớn nhất theo diện tích."
+  },
+  "general-008": {
+    "question": "Điểm đóng băng của nước ở áp suất tiêu chuẩn là gì?",
+    "options": [
+      "0 °C",
+      "10 °C",
+      "32 °C",
+      "100 °C"
+    ],
+    "explanation": "Nước tinh khiết đóng băng ở 0°C (32°F) ở áp suất tiêu chuẩn."
+  },
+  "general-009": {
+    "question": "Hình nào có ba cạnh?",
+    "options": [
+      "Quảng trường",
+      "Tam giác",
+      "Lầu Năm Góc",
+      "Vòng tròn"
+    ],
+    "explanation": "Một hình tam giác có ba cạnh."
+  },
+  "general-010": {
+    "question": "Kim loại nào ở thể lỏng ở nhiệt độ thường?",
+    "options": [
+      "Sắt",
+      "đồng",
+      "Thủy ngân",
+      "Nhôm"
+    ],
+    "explanation": "Thủy ngân là chất lỏng ở nhiệt độ phòng điển hình."
+  },
+  "science-011": {
+    "question": "Ký hiệu hóa học của nước là gì?",
+    "options": [
+      "CO₂",
+      "H₂O",
+      "O₂",
+      "NaCl"
+    ],
+    "explanation": "Một phân tử nước chứa hai nguyên tử hydro và một nguyên tử oxy."
+  },
+  "science-012": {
+    "question": "Bộ phận nào của cây thường hút nước từ đất?",
+    "options": [
+      "Hoa",
+      "Lá cây",
+      "Gốc",
+      "Hoa quả"
+    ],
+    "explanation": "Rễ hấp thụ nước và khoáng chất từ ​​​​đất."
+  },
+  "science-013": {
+    "question": "Lực nào giữ cho các hành tinh chuyển động trên quỹ đạo quanh Mặt trời?",
+    "options": [
+      "Ma sát",
+      "Trọng lực",
+      "từ tính",
+      "Độ nổi"
+    ],
+    "explanation": "Trọng lực cung cấp gia tốc hướng tâm cho quỹ đạo hành tinh."
+  },
+  "science-014": {
+    "question": "Hạt nào mang điện tích âm?",
+    "options": [
+      "proton",
+      "neutron",
+      "điện tử",
+      "Photon"
+    ],
+    "explanation": "Các electron mang điện tích cơ bản âm."
+  },
+  "science-015": {
+    "question": "Ở mực nước biển, nước sôi ở nhiệt độ xấp xỉ bao nhiêu?",
+    "options": [
+      "50 °C",
+      "75 °C",
+      "100 °C",
+      "150 °C"
+    ],
+    "explanation": "Ở áp suất khí quyển tiêu chuẩn, nước sôi ở 100°C."
+  },
+  "science-016": {
+    "question": "Cơ quan nào được biết đến là cơ quan sản xuất nhiều ATP nhất cho tế bào?",
+    "options": [
+      "hạt nhân",
+      "ti thể",
+      "riboxom",
+      "bộ máy Golgi"
+    ],
+    "explanation": "Ty thể sản xuất phần lớn ATP của tế bào nhân chuẩn thông qua quá trình hô hấp tế bào."
+  },
+  "science-017": {
+    "question": "Cây lấy khí gì để quang hợp?",
+    "options": [
+      "Ôxy",
+      "Khí cacbonic",
+      "Heli",
+      "Hydro"
+    ],
+    "explanation": "Thực vật sử dụng carbon dioxide và nước để tạo ra đường trong quá trình quang hợp."
+  },
+  "science-018": {
+    "question": "Tốc độ gần đúng của ánh sáng trong chân không là bao nhiêu?",
+    "options": [
+      "30,000 km/s",
+      "150,000 km/s",
+      "300,000 km/s",
+      "3,000,000 km/s"
+    ],
+    "explanation": "Ánh sáng truyền đi với tốc độ khoảng 300.000 km mỗi giây trong chân không."
+  },
+  "science-019": {
+    "question": "Những tế bào máu nào chủ yếu vận chuyển oxy?",
+    "options": [
+      "Tế bào hồng cầu",
+      "tiểu cầu",
+      "Tế bào bạch cầu",
+      "Tế bào gốc"
+    ],
+    "explanation": "Hemoglobin trong hồng cầu liên kết và vận chuyển oxy."
+  },
+  "science-020": {
+    "question": "Tâm của nguyên tử được gọi là gì?",
+    "options": [
+      "Quỹ đạo",
+      "hạt nhân",
+      "Vỏ bọc",
+      "trái phiếu"
+    ],
+    "explanation": "Hạt nhân nguyên tử chứa proton và neutron."
+  },
+  "geography-021": {
+    "question": "Thủ đô của Nhật Bản là gì?",
+    "options": [
+      "Osaka",
+      "Kyoto",
+      "Tokyo",
+      "Sapporo"
+    ],
+    "explanation": "Tokyo là thủ đô của Nhật Bản."
+  },
+  "geography-022": {
+    "question": "Quốc gia nào có thành phố Cairo?",
+    "options": [
+      "Ma-rốc",
+      "Ai Cập",
+      "Jordan",
+      "Sudan"
+    ],
+    "explanation": "Cairo là thủ đô của Ai Cập."
+  },
+  "geography-023": {
+    "question": "Châu lục nào có diện tích lớn nhất?",
+    "options": [
+      "Châu phi",
+      "Châu Á",
+      "Châu Âu",
+      "Bắc Mỹ"
+    ],
+    "explanation": "Châu Á là lục địa có diện tích đất liền lớn nhất."
+  },
+  "geography-024": {
+    "question": "Dãy núi Andes chủ yếu ở châu lục nào?",
+    "options": [
+      "Châu phi",
+      "Châu Á",
+      "Nam Mỹ",
+      "Châu Âu"
+    ],
+    "explanation": "Dãy Andes trải dài dọc theo phía tây của Nam Mỹ."
+  },
+  "geography-025": {
+    "question": "Quốc kỳ nào có hình lá phong trên quốc kỳ?",
+    "options": [
+      "Canada",
+      "Áo",
+      "Đan Mạch",
+      "Peru"
+    ],
+    "explanation": "Lá phong là biểu tượng trung tâm trên lá cờ của Canada."
+  },
+  "geography-026": {
+    "question": "Con sông nào chảy qua Paris?",
+    "options": [
+      "sông Rhine",
+      "sông Seine",
+      "sông Danube",
+      "sông Thames"
+    ],
+    "explanation": "Sông Seine chảy qua Paris."
+  },
+  "geography-027": {
+    "question": "Châu lục nào có diện tích nhỏ nhất?",
+    "options": [
+      "Châu Âu",
+      "Nam Cực",
+      "Úc",
+      "Nam Mỹ"
+    ],
+    "explanation": "Úc là lục địa nhỏ nhất theo diện tích."
+  },
+  "geography-028": {
+    "question": "Núi Kilimanjaro ở nước nào?",
+    "options": [
+      "Kenya",
+      "Tanzania",
+      "Uganda",
+      "Ethiopia"
+    ],
+    "explanation": "Kilimanjaro nằm ở phía đông bắc Tanzania."
+  },
+  "geography-029": {
+    "question": "Đại dương nào nằm ở phía đông châu Phi?",
+    "options": [
+      "Thái Bình Dương",
+      "Đại Tây Dương",
+      "người Ấn Độ",
+      "Bắc Cực"
+    ],
+    "explanation": "Ấn Độ Dương giáp châu Phi ở phía đông."
+  },
+  "geography-030": {
+    "question": "Thủ đô của Ý là gì?",
+    "options": [
+      "Milano",
+      "Venice",
+      "Roma",
+      "Napoli"
+    ],
+    "explanation": "Rome là thủ đô của Ý."
+  },
+  "history-031": {
+    "question": "Thế vận hội Olympic cổ đại bắt đầu ở khu vực nào?",
+    "options": [
+      "Hy Lạp",
+      "Ai Cập",
+      "Ba Tư",
+      "Roma"
+    ],
+    "explanation": "Thế vận hội Olympic cổ đại được tổ chức tại Olympia ở Hy Lạp."
+  },
+  "history-032": {
+    "question": "Bức tường nào sụp đổ năm 1989, trở thành biểu tượng thống nhất nước Đức?",
+    "options": [
+      "Bức tường Hadrian",
+      "Bức tường Berlin",
+      "Vạn Lý Trường Thành",
+      "Bức tường phía Tây"
+    ],
+    "explanation": "Bức tường Berlin mở cửa vào tháng 11 năm 1989."
+  },
+  "history-033": {
+    "question": "Máy in gắn với kim loại di động ở Châu Âu được liên kết với ai?",
+    "options": [
+      "Galileo",
+      "Johannes Gutenberg",
+      "Isaac Newton",
+      "Marco Polo"
+    ],
+    "explanation": "Báo chí của Gutenberg đã giúp truyền bá nghề in ấn ở châu Âu vào thế kỷ 15."
+  },
+  "history-034": {
+    "question": "Nền văn minh nào đã xây dựng kim tự tháp ở Giza?",
+    "options": [
+      "người La Mã",
+      "Người Ai Cập cổ đại",
+      "người Aztec",
+      "Người Minoan"
+    ],
+    "explanation": "Kim tự tháp Giza được xây dựng ở Ai Cập cổ đại."
+  },
+  "history-035": {
+    "question": "Cách mạng Pháp bắt đầu vào năm nào?",
+    "options": [
+      "1492",
+      "1776",
+      "1789",
+      "1815"
+    ],
+    "explanation": "Cách mạng Pháp bắt đầu vào năm 1789."
+  },
+  "history-036": {
+    "question": "Thời kỳ Phục hưng bắt đầu ở đất nước nào ngày nay?",
+    "options": [
+      "Ý",
+      "nước Đức",
+      "Tây ban nha",
+      "nước Anh"
+    ],
+    "explanation": "Thời kỳ Phục hưng bắt đầu ở các thành bang của Ý trước khi lan rộng khắp châu Âu."
+  },
+  "history-037": {
+    "question": "Ai là người đầu tiên đi bộ trên Mặt Trăng?",
+    "options": [
+      "Buzz Aldrin",
+      "yuri gagarin",
+      "Neil Armstrong",
+      "John Glenn"
+    ],
+    "explanation": "Neil Armstrong bước lên Mặt trăng vào năm 1969 trong chuyến Apollo 11."
+  },
+  "history-038": {
+    "question": "Đế chế nào đã xây dựng mạng lưới đường bộ rộng khắp tập trung ở Rome?",
+    "options": [
+      "Đế quốc Mông Cổ",
+      "Đế chế La Mã",
+      "Đế quốc Mali",
+      "Đế chế Inca"
+    ],
+    "explanation": "Những con đường La Mã kết nối các vùng lãnh thổ trên khắp Đế chế La Mã."
+  },
+  "history-039": {
+    "question": "Magna Carta được ký kết vào năm nào?",
+    "options": [
+      "1066",
+      "1215",
+      "1492",
+      "1607"
+    ],
+    "explanation": "Vua John đã niêm phong Magna Carta vào năm 1215."
+  },
+  "history-040": {
+    "question": "Con tàu nào chở những người hành hương đến Bắc Mỹ vào năm 1620?",
+    "options": [
+      "Santa Maria",
+      "Hoa tháng năm",
+      "nỗ lực",
+      "chó săn beagle"
+    ],
+    "explanation": "Tàu Mayflower đã chở quân ly khai người Anh vào năm 1620."
+  },
+  "math-041": {
+    "question": "8 × 7 là gì?",
+    "options": [
+      "54",
+      "56",
+      "58",
+      "64"
+    ],
+    "explanation": "Tám nhóm bảy bằng 56."
+  },
+  "math-042": {
+    "question": "144 12 là bao nhiêu?",
+    "options": [
+      "10",
+      "11",
+      "12",
+      "14"
+    ],
+    "explanation": "144 chia cho 12 là 12."
+  },
+  "math-043": {
+    "question": "Giải: 3x + 5 = 20.",
+    "options": [
+      "3",
+      "5",
+      "7",
+      "15"
+    ],
+    "explanation": "Trừ 5 được 3x = 15 rồi chia cho 3: x = 5."
+  },
+  "math-044": {
+    "question": "25% của 80 là bao nhiêu?",
+    "options": [
+      "10",
+      "15",
+      "20",
+      "25"
+    ],
+    "explanation": "25% là một quý; 80 chia cho 4 là 20."
+  },
+  "math-045": {
+    "question": "3/4 được viết dưới dạng số thập phân là gì?",
+    "options": [
+      "0.25",
+      "0.5",
+      "0.75",
+      "1.25"
+    ],
+    "explanation": "Ba chia cho bốn bằng 0,75."
+  },
+  "math-046": {
+    "question": "Tiếp theo là số nào: 2, 6, 12, 20, 30, …?",
+    "options": [
+      "36",
+      "40",
+      "42",
+      "44"
+    ],
+    "explanation": "Sự khác biệt là 4, 6, 8, 10, rồi 12; số hạng tiếp theo là 42."
+  },
+  "math-047": {
+    "question": "Một con súc sắc sáu mặt công bằng được tung ra. Xác suất để lăn được một số chẵn là bao nhiêu?",
+    "options": [
+      "1/6",
+      "1/3",
+      "1/2",
+      "2/3"
+    ],
+    "explanation": "Ba trong số sáu kết quả (2, 4, 6) là số chẵn nên xác suất là 1/2."
+  },
+  "math-048": {
+    "question": "Một hình chữ nhật có chu vi là 30 và chiều dài là 9. Chiều rộng của nó là bao nhiêu?",
+    "options": [
+      "5",
+      "6",
+      "7",
+      "12"
+    ],
+    "explanation": "2(9 + w) = 30, nên w = 6."
+  },
+  "math-049": {
+    "question": "bội số chung nhỏ nhất của 6 và 8 là gì?",
+    "options": [
+      "12",
+      "18",
+      "24",
+      "48"
+    ],
+    "explanation": "24 là số dương nhỏ nhất chia hết cho cả 6 và 8."
+  },
+  "math-050": {
+    "question": "Nếu 5 công nhân hoàn thành một công việc trong 12 ngày với tốc độ như nhau thì công việc đó là bao nhiêu ngày công?",
+    "options": [
+      "17",
+      "30",
+      "60",
+      "72"
+    ],
+    "explanation": "5 công nhân × 12 ngày = 60 ngày công."
+  },
+  "language-051": {
+    "question": "Từ nào đồng nghĩa với từ “ngắn gọn”?",
+    "options": [
+      "Short",
+      "Distant",
+      "Heavy",
+      "Quiet"
+    ],
+    "explanation": "Ngắn gọn có nghĩa là thời lượng hoặc độ dài ngắn."
+  },
+  "language-052": {
+    "question": "Dấu chấm câu nào kết thúc câu hỏi trực tiếp?",
+    "options": [
+      "Comma",
+      "Colon",
+      "Question mark",
+      "Semicolon"
+    ],
+    "explanation": "Câu hỏi trực tiếp kết thúc bằng dấu chấm hỏi."
+  },
+  "language-053": {
+    "question": "Số nhiều của \"con\" là gì?",
+    "options": [
+      "Childs",
+      "Children",
+      "Childes",
+      "Childrens"
+    ],
+    "explanation": "Trẻ em là dạng số nhiều quy ước của trẻ em."
+  },
+  "language-054": {
+    "question": "Câu nào sử dụng “their” đúng?",
+    "options": [
+      "Their going home.",
+      "The team left their bags here.",
+      "Put it over their.",
+      "Their is a book."
+    ],
+    "explanation": "Của họ là một yếu tố quyết định sở hữu; nó cho thấy những chiếc túi thuộc về đội."
+  },
+  "language-055": {
+    "question": "Từ nào viết đúng chính tả?",
+    "options": [
+      "Separate",
+      "Seperate",
+      "Seperete",
+      "Sepparate"
+    ],
+    "explanation": "Tách biệt được đánh vần bằng “par” ở giữa."
+  },
+  "language-056": {
+    "question": "Từ trái nghĩa với \"cổ xưa\" là gì?",
+    "options": [
+      "Old",
+      "Historic",
+      "Modern",
+      "Early"
+    ],
+    "explanation": "Hiện đại là từ trái nghĩa của cổ xưa."
+  },
+  "language-057": {
+    "question": "Trong câu “Cô hát hay quá”, từ nào là trạng từ?",
+    "options": [
+      "She",
+      "sang",
+      "beautifully",
+      "none"
+    ],
+    "explanation": "Đẹp sửa đổi động từ sang và là một trạng từ."
+  },
+  "language-058": {
+    "question": "Câu nào là câu hoàn chỉnh?",
+    "options": [
+      "Because it was raining.",
+      "The bright red umbrella.",
+      "They walked home.",
+      "After the long trip."
+    ],
+    "explanation": "“Họ đi bộ về nhà” có chủ ngữ và vị ngữ đầy đủ."
+  },
+  "language-059": {
+    "question": "Từ nào có nghĩa là “nhìn nhanh”?",
+    "options": [
+      "Glance",
+      "Stare",
+      "Watch",
+      "Observe"
+    ],
+    "explanation": "Nhìn thoáng qua là một cái nhìn ngắn gọn hoặc nhanh chóng."
+  },
+  "language-060": {
+    "question": "Cặp từ đồng âm nào trong cách phát âm tiếng Anh thông dụng?",
+    "options": [
+      "Flower / flour",
+      "Book / boot",
+      "Cat / cut",
+      "Seat / set"
+    ],
+    "explanation": "Hoa và bột mì được phát âm giống nhau trong tiếng Anh thông dụng."
+  },
+  "technology-061": {
+    "question": "CPU có nghĩa là gì?",
+    "options": [
+      "Bộ xử lý trung tâm",
+      "Tiện ích nguồn máy tính",
+      "Tải lên chương trình cốt lõi",
+      "Đơn vị in trung tâm"
+    ],
+    "explanation": "CPU là viết tắt của Đơn vị xử lý trung tâm."
+  },
+  "technology-062": {
+    "question": "Ngôn ngữ nào chạy tự nhiên trong trình duyệt web?",
+    "options": [
+      "Java",
+      "C",
+      "JavaScript",
+      "Swift"
+    ],
+    "explanation": "Các trình duyệt triển khai các công cụ JavaScript để chạy JavaScript."
+  },
+  "technology-063": {
+    "question": "Mã trạng thái HTTP 404 thường có nghĩa là gì?",
+    "options": [
+      "Thành công",
+      "Không tìm thấy",
+      "trái phép",
+      "Máy chủ không có sẵn"
+    ],
+    "explanation": "HTTP 404 cho biết không tìm thấy tài nguyên được yêu cầu."
+  },
+  "technology-064": {
+    "question": "Thiết bị nào chuyển tiếp gói giữa các mạng khác nhau?",
+    "options": [
+      "Bộ định tuyến",
+      "Bàn phím",
+      "Màn hình",
+      "Máy in"
+    ],
+    "explanation": "Một bộ định tuyến chuyển tiếp các gói giữa các mạng."
+  },
+  "technology-065": {
+    "question": "Trong Git, một cam kết thể hiện điều gì?",
+    "options": [
+      "Ảnh chụp nhanh đã lưu về các thay đổi của dự án",
+      "Một cáp mạng",
+      "Một ngôn ngữ lập trình",
+      "Một định dạng nén tập tin"
+    ],
+    "explanation": "Cam kết Git ghi lại ảnh chụp nhanh và siêu dữ liệu của nó trong lịch sử kho lưu trữ."
+  },
+  "technology-066": {
+    "question": "Ngôn ngữ truy vấn cơ sở dữ liệu quan hệ là gì?",
+    "options": [
+      "SQL",
+      "HTML",
+      "CSS",
+      "PNG"
+    ],
+    "explanation": "SQL được sử dụng để truy vấn và quản lý cơ sở dữ liệu quan hệ."
+  },
+  "technology-067": {
+    "question": "URL có nghĩa là gì?",
+    "options": [
+      "Bộ định vị tài nguyên thống nhất",
+      "Liên kết định tuyến toàn cầu",
+      "Danh sách bản ghi thống nhất",
+      "Ngôn ngữ tham chiếu của người dùng"
+    ],
+    "explanation": "URL là viết tắt của Bộ định vị tài nguyên thống nhất."
+  },
+  "technology-068": {
+    "question": "Hệ thống số nào chỉ sử dụng 0 và 1?",
+    "options": [
+      "Số thập phân",
+      "nhị phân",
+      "bát phân",
+      "La Mã"
+    ],
+    "explanation": "Hệ nhị phân có cơ số 2 và sử dụng các chữ số 0 và 1."
+  },
+  "technology-069": {
+    "question": "Vai trò chính của DNS là gì?",
+    "options": [
+      "Dịch tên miền sang bản ghi mạng như địa chỉ IP",
+      "Mã hóa mọi tập tin",
+      "Lưu trữ mật khẩu trong trình duyệt",
+      "Biên dịch mã nguồn"
+    ],
+    "explanation": "DNS phân giải tên miền thành các bản ghi được sử dụng để định vị các dịch vụ internet."
+  },
+  "technology-070": {
+    "question": "Phần mở rộng tệp nào thường được sử dụng cho hình ảnh PNG?",
+    "options": [
+      ".png",
+      ".mp3",
+      ".csv",
+      ".exe"
+    ],
+    "explanation": "Các tệp hình ảnh PNG thường sử dụng phần mở rộng .png."
+  },
+  "brain-071": {
+    "question": "Điều gì xảy ra tiếp theo trong chuỗi 1, 4, 9, 16, …?",
+    "options": [
+      "20",
+      "24",
+      "25",
+      "36"
+    ],
+    "explanation": "Đây là các số chính phương liên tiếp: 12, 22, 32, 42; tiếp theo là 5² = 25."
+  },
+  "brain-072": {
+    "question": "Đồng hồ hiển thị 3:15. Góc nhỏ hơn giữa hai bàn tay của nó là gì?",
+    "options": [
+      "0°",
+      "7.5°",
+      "15°",
+      "30°"
+    ],
+    "explanation": "Vào lúc 3:15, kim phút ở góc 90° và kim giờ ở góc 97,5°, khoảng cách 7,5°."
+  },
+  "brain-073": {
+    "question": "Nếu tất cả Bloops đều là Razzies và tất cả Razzies đều là Lazzies thì tất cả Bloops đều là Lazzies phải không?",
+    "options": [
+      "Đúng",
+      "KHÔNG",
+      "Không thể xác định được",
+      "Chỉ một số"
+    ],
+    "explanation": "Theo tính bắc cầu, mọi Bloop đều thuộc về tập hợp Razzies và do đó là Lazzies."
+  },
+  "brain-074": {
+    "question": "Một mẫu lặp lại: hình tròn, hình vuông, hình tam giác, hình tròn, hình vuông,… Tiếp theo là gì?",
+    "options": [
+      "Vòng tròn",
+      "Quảng trường",
+      "Tam giác",
+      "Lầu Năm Góc"
+    ],
+    "explanation": "Trình tự ba hình lặp lại, tiếp theo là hình tam giác."
+  },
+  "brain-075": {
+    "question": "Bạn đã vượt qua người chạy ở vị trí thứ hai. Bạn đang ở nơi nào?",
+    "options": [
+      "Đầu tiên",
+      "Thứ hai",
+      "thứ ba",
+      "thứ tư"
+    ],
+    "explanation": "Vượt qua người chạy thứ hai sẽ đưa bạn lên vị trí thứ hai."
+  },
+  "brain-076": {
+    "question": "Số nào không thuộc số: 2, 3, 5, 9, 11?",
+    "options": [
+      "2",
+      "3",
+      "9",
+      "11"
+    ],
+    "explanation": "9 là hợp số; những số còn lại là số nguyên tố."
+  },
+  "brain-077": {
+    "question": "Một người nông dân có 17 con cừu. Tất cả trừ 9 người đều rời đi. Còn lại bao nhiêu?",
+    "options": [
+      "8",
+      "9",
+      "17",
+      "26"
+    ],
+    "explanation": "“Tất cả trừ 9” có nghĩa là còn lại 9 con cừu."
+  },
+  "brain-078": {
+    "question": "Nếu hôm qua là thứ Hai thì ngày kia là thứ mấy?",
+    "options": [
+      "Thứ ba",
+      "Thứ Tư",
+      "Thứ năm",
+      "Thứ sáu"
+    ],
+    "explanation": "Thứ Hai hôm qua có nghĩa là hôm nay Thứ Ba; Thứ Tư ngày mai và thứ Năm ngày kia."
+  },
+  "brain-079": {
+    "question": "Hai người cha và hai người con trai chia nhau ba quả táo, mỗi người một quả. Làm sao điều đó có thể được?",
+    "options": [
+      "Họ cắt từng quả táo",
+      "Có ba người: ông, bố, con",
+      "Một người không được gì",
+      "Có bốn người"
+    ],
+    "explanation": "Người ở giữa vừa là con vừa là cha nên nhóm có ba người."
+  },
+  "brain-080": {
+    "question": "Chữ cái tiếp theo là gì: A, C, F, J, O, …?",
+    "options": [
+      "S",
+      "T",
+      "U",
+      "V"
+    ],
+    "explanation": "Vị trí chữ tăng 2, 3, 4, 5; tiếp theo cộng 6 với O (15) để được U (21)."
+  },
+  "nonsense-081": {
+    "question": "Con gì có nhiều răng nhưng không cắn được?",
+    "options": [
+      "một chiếc lược",
+      "một con cá mập",
+      "một dây kéo",
+      "Một cái cưa"
+    ],
+    "explanation": "Chiếc lược có răng nhưng chúng không dùng để cắn."
+  },
+  "nonsense-082": {
+    "question": "Cái gì trở nên ướt hơn khi nó khô đi?",
+    "options": [
+      "Một chiếc khăn",
+      "một đám mây",
+      "Một miếng bọt biển",
+      "Một dòng sông"
+    ],
+    "explanation": "Một chiếc khăn hút nước trong khi làm khô những thứ khác."
+  },
+  "nonsense-083": {
+    "question": "Con gì có cổ nhưng không có đầu?",
+    "options": [
+      "Một cái chai",
+      "Một người",
+      "một con hươu cao cổ",
+      "Một chiếc áo sơ mi"
+    ],
+    "explanation": "Cái chai có cổ nhưng không có đầu."
+  },
+  "nonsense-084": {
+    "question": "Cái gì có tay mà không vỗ tay được?",
+    "options": [
+      "Một chiếc đồng hồ",
+      "Một nghệ sĩ piano",
+      "Một chiếc găng tay",
+      "Một bức tượng"
+    ],
+    "explanation": "Một chiếc đồng hồ có kim giờ và kim phút."
+  },
+  "nonsense-085": {
+    "question": "Điều gì có thể đi vòng quanh thế giới khi ở một góc?",
+    "options": [
+      "một con tem",
+      "Một chiếc la bàn",
+      "một đám mây",
+      "Một chiếc vali"
+    ],
+    "explanation": "Tem bưu chính nằm ở góc phong bì khi nó được vận chuyển."
+  },
+  "nonsense-086": {
+    "question": "Con gì có một mắt nhưng không thể nhìn thấy?",
+    "options": [
+      "Một cây kim",
+      "Một chiếc máy ảnh",
+      "Một cơn bão",
+      "Một củ khoai tây"
+    ],
+    "explanation": "Lỗ kim là lỗ để luồn chỉ."
+  },
+  "nonsense-087": {
+    "question": "Cái gì có chìa khóa nhưng không mở được ổ khóa?",
+    "options": [
+      "Một cây đàn piano",
+      "Thợ khóa",
+      "Một bản đồ",
+      "một cánh cửa"
+    ],
+    "explanation": "Đàn piano có phím nhạc chứ không phải phím khóa."
+  },
+  "nonsense-088": {
+    "question": "Cái gì có mặt và hai tay nhưng không có tay hoặc chân?",
+    "options": [
+      "Một chiếc đồng hồ",
+      "một con búp bê",
+      "Một bức tranh",
+      "Một chiếc găng tay"
+    ],
+    "explanation": "Mặt và kim đồng hồ được đặt tên tương tự với một người."
+  },
+  "nonsense-089": {
+    "question": "Cái gì đi lên nhưng không bao giờ đi xuống?",
+    "options": [
+      "Tuổi của bạn",
+      "Một quả bóng bay",
+      "Khói",
+      "Một thang máy"
+    ],
+    "explanation": "Tuổi của bạn tăng lên theo thời gian."
+  },
+  "nonsense-090": {
+    "question": "Con gì có bốn chân nhưng không thể đi được?",
+    "options": [
+      "Một cái bàn",
+      "một con chó",
+      "một con ngựa",
+      "Một con nhện"
+    ],
+    "explanation": "Bàn có chân nhưng không thể tự di chuyển được."
+  },
+  "general-x-1": {
+    "question": "Ngôi sao nào gần Trái đất nhất sau Mặt trời?",
+    "options": [
+      "Proxima Centauri",
+      "bốn",
+      "máy đo độ ẩm",
+      "canxit"
+    ],
+    "explanation": "Proxima Centauri là ngôi sao gần Mặt trời nhất sau Mặt trời."
+  },
+  "general-x-2": {
+    "question": "Đàn violin tiêu chuẩn có bao nhiêu dây?",
+    "options": [
+      "bốn",
+      "Sắt",
+      "Vitamin C",
+      "đậu xanh"
+    ],
+    "explanation": "Một cây vĩ cầm tiêu chuẩn có bốn dây."
+  },
+  "general-x-3": {
+    "question": "Dụng cụ nào đo độ ẩm không khí?",
+    "options": [
+      "máy đo độ ẩm",
+      "mận",
+      "Đậu nành lên men",
+      "hạnh nhân"
+    ],
+    "explanation": "Máy đo độ ẩm đo độ ẩm trong không khí."
+  },
+  "general-x-4": {
+    "question": "Thành phần chính của đá vôi là khoáng chất nào?",
+    "options": [
+      "canxit",
+      "Một gói",
+      "tắc kè hoa",
+      "Con vẹt"
+    ],
+    "explanation": "Đá vôi có thành phần chủ yếu là khoáng vật canxit."
+  },
+  "general-x-5": {
+    "question": "Có bao nhiêu giây trong một phút?",
+    "options": [
+      "60",
+      "Đàn piano",
+      "Michelangelo",
+      "Dây"
+    ],
+    "explanation": "Một phút có 60 giây."
+  },
+  "general-x-6": {
+    "question": "Nguyên tố đầu tiên trong bảng tuần hoàn là gì?",
+    "options": [
+      "Hydro",
+      "Origami",
+      "Thạch cao ướt",
+      "Dòng chữ"
+    ],
+    "explanation": "Hydro có số nguyên tử 1 và là nguyên tố đầu tiên trong bảng tuần hoàn."
+  },
+  "general-x-7": {
+    "question": "Đại dương nào nằm giữa miền đông châu Phi và miền tây Australia?",
+    "options": [
+      "Ấn Độ Dương",
+      "Sáu",
+      "Bóng bầu dục",
+      "mười tám"
+    ],
+    "explanation": "Ấn Độ Dương nằm giữa Châu Phi, Châu Á và Úc."
+  },
+  "general-x-8": {
+    "question": "Ở áp suất tiêu chuẩn, nước nguyên chất sôi ở nhiệt độ bao nhiêu độ C?",
+    "options": [
+      "100 °C",
+      "Chi phí đi vay",
+      "Giữ thu nhập để sử dụng trong tương lai",
+      "Hệ thống nơi người mua và người bán trao đổi"
+    ],
+    "explanation": "Nước sôi ở 100°C ở một áp suất khí quyển."
+  },
+  "general-x-9": {
+    "question": "Một tứ diện có bao nhiêu mặt?",
+    "options": [
+      "bốn",
+      "Một địa chỉ",
+      "La bàn",
+      "366"
+    ],
+    "explanation": "Một tứ diện có bốn mặt là hình tam giác."
+  },
+  "general-x-10": {
+    "question": "Kim loại nào có ký hiệu hóa học là Fe?",
+    "options": [
+      "Sắt",
+      "Băng qua đường một cách an toàn",
+      "112",
+      "Khói"
+    ],
+    "explanation": "Fe là ký hiệu hóa học của sắt."
+  },
+  "general-x-11": {
+    "question": "Vitamin nào có nhiều trong trái cây họ cam quýt?",
+    "options": [
+      "Vitamin C",
+      "Chuseok",
+      "ondol",
+      "Buchaechum"
+    ],
+    "explanation": "Trái cây họ cam quýt là nguồn cung cấp vitamin C nổi tiếng."
+  },
+  "general-x-12": {
+    "question": "Thành phần chính trong món hummus truyền thống là gì?",
+    "options": [
+      "đậu xanh",
+      "Thứ hai",
+      "90",
+      "ăn tạp"
+    ],
+    "explanation": "Món hummus truyền thống được làm chủ yếu từ đậu xanh."
+  },
+  "general-x-13": {
+    "question": "Loại ngũ cốc nào được sử dụng để làm món risotto?",
+    "options": [
+      "Gạo Arborio",
+      "bốn",
+      "máy đo độ ẩm",
+      "canxit"
+    ],
+    "explanation": "Risotto thường sử dụng các loại hạt ngắn như Arborio."
+  },
+  "general-x-14": {
+    "question": "Đậu phụ chủ yếu được làm từ gì?",
+    "options": [
+      "Đậu nành",
+      "Sắt",
+      "Vitamin C",
+      "đậu xanh"
+    ],
+    "explanation": "Đậu phụ được làm bằng cách đông tụ sữa đậu nành."
+  },
+  "general-x-15": {
+    "question": "Loại gia vị nào làm cho nhiều món cà ri có màu vàng?",
+    "options": [
+      "nghệ",
+      "Đậu nành lên men",
+      "hạnh nhân",
+      "Kem"
+    ],
+    "explanation": "Curcumin trong củ nghệ mang lại cho nó màu vàng đậm."
+  },
+  "general-x-16": {
+    "question": "Thành phần chính trong guacamole là gì?",
+    "options": [
+      "quả bơ",
+      "tắc kè hoa",
+      "Con vẹt",
+      "cá mập voi"
+    ],
+    "explanation": "Guacamole được làm từ bơ nghiền."
+  },
+  "general-x-17": {
+    "question": "Quả nào được sấy khô để làm mận?",
+    "options": [
+      "mận",
+      "Michelangelo",
+      "Dây",
+      "Nhảy"
+    ],
+    "explanation": "Mận khô là mận khô."
+  },
+  "general-x-18": {
+    "question": "Thành phần chính trong miso là gì?",
+    "options": [
+      "Đậu nành lên men",
+      "Thạch cao ướt",
+      "Dòng chữ",
+      "Năm"
+    ],
+    "explanation": "Miso là một loại bột nhão lên men thường được làm từ đậu nành."
+  },
+  "general-x-19": {
+    "question": "Loại hạt nào được sử dụng để làm bánh hạnh nhân?",
+    "options": [
+      "hạnh nhân",
+      "Bóng bầu dục",
+      "mười tám",
+      "Cờ vua"
+    ],
+    "explanation": "Bánh hạnh nhân chủ yếu được làm từ hạnh nhân xay và đường."
+  },
+  "general-x-20": {
+    "question": "Sản phẩm sữa nào được khuấy để làm bơ?",
+    "options": [
+      "Kem",
+      "Giữ thu nhập để sử dụng trong tương lai",
+      "Hệ thống nơi người mua và người bán trao đổi",
+      "Sự tăng giá chung"
+    ],
+    "explanation": "Kem khuấy tách chất béo từ bơ sữa."
+  },
+  "general-x-21": {
+    "question": "Động vật sống trên cạn lớn nhất là gì?",
+    "options": [
+      "voi châu phi",
+      "La bàn",
+      "366",
+      "bảy"
+    ],
+    "explanation": "Voi châu Phi là động vật sống trên cạn lớn nhất."
+  },
+  "general-x-22": {
+    "question": "Động vật trên cạn nhanh nhất trong khoảng cách ngắn là gì?",
+    "options": [
+      "báo gêpa",
+      "112",
+      "Khói",
+      "Seoul"
+    ],
+    "explanation": "Báo gêpa có thể đạt tốc độ chạy nước rút cao nhất của động vật trên cạn."
+  },
+  "general-x-23": {
+    "question": "Động vật có vú nào đẻ trứng và có mỏ giống vịt?",
+    "options": [
+      "thú mỏ vịt",
+      "ondol",
+      "Buchaechum",
+      "Hanok"
+    ],
+    "explanation": "Thú mỏ vịt là loài động vật có vú đẻ trứng có mỏ."
+  },
+  "general-x-24": {
+    "question": "Một nhóm sói thường được gọi là gì?",
+    "options": [
+      "Một gói",
+      "90",
+      "ăn tạp",
+      "Sự kết tủa"
+    ],
+    "explanation": "Một nhóm sói thường được gọi là một bầy."
+  },
+  "general-x-25": {
+    "question": "Loài động vật nào được biết đến với khả năng thay đổi màu sắc bằng tế bào da chuyên biệt?",
+    "options": [
+      "tắc kè hoa",
+      "máy đo độ ẩm",
+      "canxit",
+      "60"
+    ],
+    "explanation": "Tắc kè hoa có thể đổi màu nhờ các tế bào da chuyên biệt."
+  },
+  "general-x-26": {
+    "question": "Loài chim nào nổi tiếng với khả năng bắt chước giọng nói của con người?",
+    "options": [
+      "Con vẹt",
+      "Vitamin C",
+      "đậu xanh",
+      "Gạo Arborio"
+    ],
+    "explanation": "Nhiều loài vẹt có thể bắt chước âm thanh, bao gồm cả lời nói của con người."
+  },
+  "general-x-27": {
+    "question": "Loài cá mập lớn nhất là gì?",
+    "options": [
+      "cá mập voi",
+      "Đậu nành lên men",
+      "hạnh nhân",
+      "Kem"
+    ],
+    "explanation": "Cá mập voi là loài cá sống lớn nhất."
+  },
+  "general-x-28": {
+    "question": "Loài côn trùng nào tạo ra mật ong?",
+    "options": [
+      "ong mật",
+      "tắc kè hoa",
+      "Con vẹt",
+      "cá mập voi"
+    ],
+    "explanation": "Ong mật sản xuất mật ong từ mật hoa thu thập được."
+  },
+  "general-x-29": {
+    "question": "Ếch non được gọi là gì?",
+    "options": [
+      "con nòng nọc",
+      "Dây",
+      "Nhảy",
+      "Kính màu"
+    ],
+    "explanation": "Giai đoạn ấu trùng sống dưới nước của ếch được gọi là nòng nọc."
+  },
+  "general-x-30": {
+    "question": "Động vật có vú nào sử dụng khả năng định vị bằng tiếng vang để định hướng?",
+    "options": [
+      "dơi",
+      "Dòng chữ",
+      "Năm",
+      "Yêu"
+    ],
+    "explanation": "Nhiều con dơi sử dụng khả năng định vị bằng tiếng vang để xác định vị trí con mồi và định hướng."
+  },
+  "general-x-31": {
+    "question": "Nhạc cụ nào có 88 phím ở dạng tiêu chuẩn hiện đại?",
+    "options": [
+      "Đàn piano",
+      "mười tám",
+      "Cờ vua",
+      "Yên"
+    ],
+    "explanation": "Một cây đàn piano hiện đại tiêu chuẩn có 88 phím."
+  },
+  "general-x-32": {
+    "question": "Nghệ sĩ nào đã vẽ trần nhà nguyện Sistine?",
+    "options": [
+      "Michelangelo",
+      "Hệ thống nơi người mua và người bán trao đổi",
+      "Sự tăng giá chung",
+      "Một khoản thanh toán bắt buộc cho chính phủ"
+    ],
+    "explanation": "Michelangelo vẽ trần nhà nguyện Sistine."
+  },
+  "general-x-33": {
+    "question": "Đàn violin thuộc nhóm nhạc cụ nào?",
+    "options": [
+      "Dây",
+      "366",
+      "bảy",
+      "Bữa sáng"
+    ],
+    "explanation": "Đàn violin là một nhạc cụ dây cung."
+  },
+  "general-x-34": {
+    "question": "Loại hình nghệ thuật nào sử dụng chuyển động và vũ đạo cho âm nhạc?",
+    "options": [
+      "Nhảy",
+      "Khói",
+      "Seoul",
+      "Thắng"
+    ],
+    "explanation": "Khiêu vũ thể hiện ý tưởng và hình thức thông qua chuyển động."
+  },
+  "general-x-35": {
+    "question": "Chất liệu nào thường được sử dụng để làm kính màu?",
+    "options": [
+      "Kính màu",
+      "Buchaechum",
+      "Hanok",
+      "gayageum"
+    ],
+    "explanation": "Những tác phẩm kính màu được ghép từ những mảnh kính màu."
+  },
+  "general-x-36": {
+    "question": "Nhà soạn nhạc nào đã viết bài Bốn Mùa?",
+    "options": [
+      "Antonio Vivaldi",
+      "ăn tạp",
+      "Sự kết tủa",
+      "Cái thước kẻ"
+    ],
+    "explanation": "Vivaldi đã sáng tác bộ hòa tấu violin được gọi là Bốn mùa."
+  },
+  "general-x-37": {
+    "question": "Nhạc cụ nào được chơi bằng cung và lớn hơn đàn violin?",
+    "options": [
+      "Cello",
+      "canxit",
+      "60",
+      "Hydro"
+    ],
+    "explanation": "Cello là một nhạc cụ có dây cung lớn hơn violin."
+  },
+  "general-x-38": {
+    "question": "Nghệ thuật gấp giấy của Nhật Bản được gọi là gì?",
+    "options": [
+      "Origami",
+      "đậu xanh",
+      "Gạo Arborio",
+      "Đậu nành"
+    ],
+    "explanation": "Origami là nghệ thuật gấp giấy thành các hình khối."
+  },
+  "general-x-39": {
+    "question": "Phương tiện nào được sử dụng để tạo ra một bức bích họa?",
+    "options": [
+      "Thạch cao ướt",
+      "hạnh nhân",
+      "Kem",
+      "voi châu phi"
+    ],
+    "explanation": "Một bức bích họa được vẽ trên lớp thạch cao ướt mới trải."
+  },
+  "general-x-40": {
+    "question": "Hiện vật nào của bảo tàng sử dụng chữ viết trên đá, kim loại hoặc gỗ?",
+    "options": [
+      "Dòng chữ",
+      "Con vẹt",
+      "cá mập voi",
+      "ong mật"
+    ],
+    "explanation": "Một dòng chữ là văn bản được khắc hoặc viết trên một bề mặt bền."
+  },
+  "general-x-41": {
+    "question": "Có bao nhiêu cầu thủ của một đội bóng rổ có mặt trên sân cùng một lúc?",
+    "options": [
+      "Năm",
+      "Dây",
+      "Nhảy",
+      "Kính màu"
+    ],
+    "explanation": "Mỗi đội bóng rổ có năm cầu thủ trên sân."
+  },
+  "general-x-42": {
+    "question": "Trong quần vợt, điểm 0 được gọi là gì?",
+    "options": [
+      "Yêu",
+      "Dòng chữ",
+      "Năm",
+      "Cầu lông"
+    ],
+    "explanation": "Quần vợt sử dụng thuật ngữ tình yêu để chỉ số điểm bằng 0."
+  },
+  "general-x-43": {
+    "question": "Có bao nhiêu vòng tròn xuất hiện trên lá cờ Olympic?",
+    "options": [
+      "Năm",
+      "Cờ vua",
+      "Yên",
+      "Thu nhập và chi tiêu dự kiến"
+    ],
+    "explanation": "Biểu tượng Olympic có năm vòng đan xen nhau."
+  },
+  "general-x-44": {
+    "question": "Môn thể thao nào sử dụng cầu lông?",
+    "options": [
+      "Cầu lông",
+      "Sự tăng giá chung",
+      "Một khoản thanh toán bắt buộc cho chính phủ",
+      "Doanh thu trừ chi phí"
+    ],
+    "explanation": "Cầu lông được chơi bằng đá cầu."
+  },
+  "general-x-45": {
+    "question": "Có bao nhiêu căn cứ trên một viên kim cương bóng chày?",
+    "options": [
+      "bốn",
+      "bảy",
+      "Bữa sáng",
+      "Danh sách thành phần"
+    ],
+    "explanation": "Một viên kim cương bóng chày có bốn đế, bao gồm cả tấm chủ."
+  },
+  "general-x-46": {
+    "question": "Môn thể thao nào được chơi ở Wimbledon?",
+    "options": [
+      "quần vợt",
+      "Seoul",
+      "Thắng",
+      "Hangul"
+    ],
+    "explanation": "Wimbledon là một giải quần vợt lớn."
+  },
+  "general-x-47": {
+    "question": "Một lần chạm có giá trị bao nhiêu điểm trước bất kỳ chuyển đổi nào?",
+    "options": [
+      "Sáu",
+      "Hanok",
+      "gayageum",
+      "Ssireum"
+    ],
+    "explanation": "Một cú chạm bóng có giá trị sáu điểm trong bóng đá Mỹ."
+  },
+  "general-x-48": {
+    "question": "Môn thể thao nào sử dụng scrum?",
+    "options": [
+      "Bóng bầu dục",
+      "Sự kết tủa",
+      "Cái thước kẻ",
+      "Một ngọn lửa"
+    ],
+    "explanation": "Scrum là một phương pháp bắt đầu lại trận đấu trong môn bóng bầu dục."
+  },
+  "general-x-49": {
+    "question": "Một vòng golf tiêu chuẩn có bao nhiêu lỗ?",
+    "options": [
+      "mười tám",
+      "60",
+      "Hydro",
+      "Ấn Độ Dương"
+    ],
+    "explanation": "Một vòng golf tiêu chuẩn được chơi trên 18 lỗ."
+  },
+  "general-x-50": {
+    "question": "Môn thể thao nào sử dụng thuật ngữ chiếu tướng và chiếu tướng?",
+    "options": [
+      "Cờ vua",
+      "Gạo Arborio",
+      "Đậu nành",
+      "nghệ"
+    ],
+    "explanation": "Kiểm tra và chiếu tướng là những thuật ngữ trong cờ vua."
+  },
+  "general-x-51": {
+    "question": "Đơn vị tiền tệ được sử dụng ở Nhật Bản là gì?",
+    "options": [
+      "Yên",
+      "Kem",
+      "voi châu phi",
+      "báo gêpa"
+    ],
+    "explanation": "Yên là tiền tệ của Nhật Bản."
+  },
+  "general-x-52": {
+    "question": "Ngân sách so sánh những gì?",
+    "options": [
+      "Thu nhập và chi tiêu dự kiến",
+      "cá mập voi",
+      "ong mật",
+      "con nòng nọc"
+    ],
+    "explanation": "Ngân sách tổ chức thu nhập và chi phí dự kiến."
+  },
+  "general-x-53": {
+    "question": "Trao đổi hàng hóa là gì?",
+    "options": [
+      "Trao đổi hàng hóa không cần tiền",
+      "Nhảy",
+      "Kính màu",
+      "Antonio Vivaldi"
+    ],
+    "explanation": "Trao đổi là trao đổi trực tiếp mà không sử dụng tiền làm thanh toán."
+  },
+  "general-x-54": {
+    "question": "Lãi suất cho vay là gì?",
+    "options": [
+      "Chi phí đi vay",
+      "Năm",
+      "Yêu",
+      "Cầu lông"
+    ],
+    "explanation": "Lãi suất là cái giá phải trả cho việc vay tiền."
+  },
+  "general-x-55": {
+    "question": "Tiết kiệm nghĩa là gì?",
+    "options": [
+      "Giữ thu nhập để sử dụng trong tương lai",
+      "Cờ vua",
+      "Yên",
+      "Thu nhập và chi tiêu dự kiến"
+    ],
+    "explanation": "Tiết kiệm có nghĩa là dự trữ tài nguyên hơn là chi tiêu chúng ngay bây giờ."
+  },
+  "general-x-56": {
+    "question": "Thị trường trong kinh tế là gì?",
+    "options": [
+      "Hệ thống nơi người mua và người bán trao đổi",
+      "Một khoản thanh toán bắt buộc cho chính phủ",
+      "Doanh thu trừ chi phí",
+      "Người bán chào bán bao nhiêu"
+    ],
+    "explanation": "Thị trường kết nối người mua và người bán để trao đổi."
+  },
+  "general-x-57": {
+    "question": "Lạm phát là gì?",
+    "options": [
+      "Sự tăng giá chung",
+      "Bữa sáng",
+      "Danh sách thành phần",
+      "Xử lý nó để tái sử dụng"
+    ],
+    "explanation": "Lạm phát là sự gia tăng liên tục của mức giá chung."
+  },
+  "general-x-58": {
+    "question": "Thuế là gì?",
+    "options": [
+      "Một khoản thanh toán bắt buộc cho chính phủ",
+      "Thắng",
+      "Hangul",
+      "kim chi"
+    ],
+    "explanation": "Thuế tài trợ cho các dịch vụ công cộng và do chính phủ áp đặt."
+  },
+  "general-x-59": {
+    "question": "Lợi nhuận là gì?",
+    "options": [
+      "Doanh thu trừ chi phí",
+      "gayageum",
+      "Ssireum",
+      "Mét"
+    ],
+    "explanation": "Lợi nhuận là phần còn lại sau khi trừ đi chi phí khỏi doanh thu."
+  },
+  "general-x-60": {
+    "question": "Nguồn cung mô tả điều gì?",
+    "options": [
+      "Người bán chào bán bao nhiêu",
+      "Cái thước kẻ",
+      "Một ngọn lửa",
+      "Phía nam"
+    ],
+    "explanation": "Cung là số lượng mà người sản xuất sẵn sàng bán ở các mức giá khác nhau."
+  },
+  "general-x-61": {
+    "question": "Tên của một tập hợp các hướng dẫn bằng văn bản đến một địa điểm là gì?",
+    "options": [
+      "Một địa chỉ",
+      "Hydro",
+      "Ấn Độ Dương",
+      "100 °C"
+    ],
+    "explanation": "Một địa chỉ xác định một địa điểm để giao hàng hoặc điều hướng."
+  },
+  "general-x-62": {
+    "question": "Thiết bị nào thường được sử dụng để xác định phương hướng bằng kim nam châm?",
+    "options": [
+      "La bàn",
+      "Đậu nành",
+      "nghệ",
+      "quả bơ"
+    ],
+    "explanation": "Kim la bàn gần như thẳng hàng với từ trường của Trái đất."
+  },
+  "general-x-63": {
+    "question": "Năm nhuận có bao nhiêu ngày?",
+    "options": [
+      "366",
+      "voi châu phi",
+      "báo gêpa",
+      "thú mỏ vịt"
+    ],
+    "explanation": "Năm nhuận có thêm một ngày vào tháng 2, tổng cộng là 366 ngày."
+  },
+  "general-x-64": {
+    "question": "Có bao nhiêu tháng có 31 ngày?",
+    "options": [
+      "bảy",
+      "ong mật",
+      "con nòng nọc",
+      "dơi"
+    ],
+    "explanation": "Bảy tháng có 31 ngày."
+  },
+  "general-x-65": {
+    "question": "Bữa ăn đầu tiên trong ngày thường được gọi là gì?",
+    "options": [
+      "Bữa sáng",
+      "Kính màu",
+      "Antonio Vivaldi",
+      "Cello"
+    ],
+    "explanation": "Bữa sáng thường là bữa ăn đầu tiên sau khi thức dậy."
+  },
+  "general-x-66": {
+    "question": "Tài liệu nào liệt kê các thành phần có trong thực phẩm đóng gói?",
+    "options": [
+      "Danh sách thành phần",
+      "Yêu",
+      "Cầu lông",
+      "quần vợt"
+    ],
+    "explanation": "Nhãn thực phẩm liệt kê các thành phần, thường theo thứ tự giảm dần theo trọng lượng."
+  },
+  "general-x-67": {
+    "question": "Tái chế làm gì với vật liệu có thể sử dụng?",
+    "options": [
+      "Xử lý nó để tái sử dụng",
+      "Yên",
+      "Thu nhập và chi tiêu dự kiến",
+      "Trao đổi hàng hóa không cần tiền"
+    ],
+    "explanation": "Tái chế xử lý chất thải để nó có thể được sử dụng lại."
+  },
+  "general-x-68": {
+    "question": "Đường dành cho người đi bộ giúp ích gì cho người dân?",
+    "options": [
+      "Băng qua đường một cách an toàn",
+      "Một khoản thanh toán bắt buộc cho chính phủ",
+      "Doanh thu trừ chi phí",
+      "Người bán chào bán bao nhiêu"
+    ],
+    "explanation": "Những lối đi qua được đánh dấu chỉ định nơi cho người đi bộ băng qua."
+  },
+  "general-x-69": {
+    "question": "Số khẩn cấp nào được sử dụng trên toàn Liên minh Châu Âu?",
+    "options": [
+      "112",
+      "Bữa sáng",
+      "Danh sách thành phần",
+      "Xử lý nó để tái sử dụng"
+    ],
+    "explanation": "112 là số khẩn cấp chung trên toàn EU."
+  },
+  "general-x-70": {
+    "question": "Máy dò khói có ý nghĩa gì?",
+    "options": [
+      "Khói",
+      "Hangul",
+      "kim chi",
+      "Chuseok"
+    ],
+    "explanation": "Máy dò khói cảnh báo người cư ngụ khi phát hiện khói."
+  },
+  "general-x-71": {
+    "question": "Thủ đô của Hàn Quốc là gì?",
+    "options": [
+      "Seoul",
+      "Ssireum",
+      "Mét",
+      "Thứ hai"
+    ],
+    "explanation": "Seoul là thủ đô của Hàn Quốc."
+  },
+  "general-x-72": {
+    "question": "Đồng tiền quốc gia của Hàn Quốc là gì?",
+    "options": [
+      "Thắng",
+      "Một ngọn lửa",
+      "Phía nam",
+      "vỏ bánh"
+    ],
+    "explanation": "Đồng won là tiền tệ của Hàn Quốc."
+  },
+  "general-x-73": {
+    "question": "Bảng chữ cái tiếng Hàn nào được vua Sejong ban hành?",
+    "options": [
+      "Hangul",
+      "Ấn Độ Dương",
+      "100 °C",
+      "Sắt"
+    ],
+    "explanation": "Vua Sejong ban hành Hunminjeongeum, ngày nay gọi là Hangul, vào năm 1446."
+  },
+  "general-x-74": {
+    "question": "Món bắp cải lên men truyền thống của Hàn Quốc được gọi là gì?",
+    "options": [
+      "kim chi",
+      "nghệ",
+      "quả bơ",
+      "mận"
+    ],
+    "explanation": "Kim chi là món rau lên men truyền thống, thường được làm bằng bắp cải."
+  },
+  "general-x-75": {
+    "question": "Ngày lễ nào của Hàn Quốc gắn liền với lễ kỷ niệm thu hoạch?",
+    "options": [
+      "Chuseok",
+      "báo gêpa",
+      "thú mỏ vịt",
+      "Một gói"
+    ],
+    "explanation": "Chuseok là ngày lễ thu hoạch mùa thu lớn ở Hàn Quốc."
+  },
+  "general-x-76": {
+    "question": "Hệ thống sưởi sàn truyền thống của Hàn Quốc được gọi là gì?",
+    "options": [
+      "ondol",
+      "con nòng nọc",
+      "dơi",
+      "Đàn piano"
+    ],
+    "explanation": "Ondol là hệ thống sưởi sàn truyền thống của Hàn Quốc."
+  },
+  "general-x-77": {
+    "question": "Loại hình nghệ thuật nào của Hàn Quốc sử dụng quạt gấp trong biểu diễn múa?",
+    "options": [
+      "Buchaechum",
+      "Antonio Vivaldi",
+      "Cello",
+      "Origami"
+    ],
+    "explanation": "Buchaechum là điệu múa quạt của Hàn Quốc."
+  },
+  "general-x-78": {
+    "question": "Từ tiếng Hàn cho một ngôi nhà truyền thống là gì?",
+    "options": [
+      "Hanok",
+      "Cầu lông",
+      "quần vợt",
+      "Sáu"
+    ],
+    "explanation": "Hanok đề cập đến kiến ​​trúc và nhà ở truyền thống của Hàn Quốc."
+  },
+  "general-x-79": {
+    "question": "Nhạc cụ Hàn Quốc nào có cổ dài và thường có 12 dây?",
+    "options": [
+      "gayageum",
+      "Thu nhập và chi tiêu dự kiến",
+      "Trao đổi hàng hóa không cần tiền",
+      "Chi phí đi vay"
+    ],
+    "explanation": "Gayageum là loại đàn tam thập lục truyền thống của Hàn Quốc, thường có 12 dây."
+  },
+  "general-x-80": {
+    "question": "Môn thể thao đấu vật truyền thống của Hàn Quốc được gọi là gì?",
+    "options": [
+      "Ssireum",
+      "Doanh thu trừ chi phí",
+      "Người bán chào bán bao nhiêu",
+      "Một địa chỉ"
+    ],
+    "explanation": "Ssireum là một hình thức đấu vật truyền thống của Hàn Quốc."
+  },
+  "general-x-81": {
+    "question": "Đơn vị SI của chiều dài là gì?",
+    "options": [
+      "Mét",
+      "Danh sách thành phần",
+      "Xử lý nó để tái sử dụng",
+      "Băng qua đường một cách an toàn"
+    ],
+    "explanation": "Mét là đơn vị đo chiều dài cơ bản trong SI."
+  },
+  "general-x-82": {
+    "question": "Đơn vị SI của thời gian là gì?",
+    "options": [
+      "Thứ hai",
+      "Hangul",
+      "kim chi",
+      "Chuseok"
+    ],
+    "explanation": "Thứ hai là đơn vị cơ sở SI của thời gian."
+  },
+  "general-x-83": {
+    "question": "Một góc vuông có bao nhiêu độ?",
+    "options": [
+      "90",
+      "Ssireum",
+      "Mét",
+      "Thứ hai"
+    ],
+    "explanation": "Một góc vuông có số đo là 90 độ."
+  },
+  "general-x-84": {
+    "question": "Tên của loài động vật ăn cả thực vật và động vật là gì?",
+    "options": [
+      "ăn tạp",
+      "Proxima Centauri",
+      "bốn",
+      "máy đo độ ẩm"
+    ],
+    "explanation": "Động vật ăn tạp ăn cả thực vật và động vật."
+  },
+  "general-x-85": {
+    "question": "Thuật ngữ chỉ nước rơi từ mây dưới dạng mưa, tuyết hoặc mưa đá là gì?",
+    "options": [
+      "Sự kết tủa",
+      "100 °C",
+      "Sắt",
+      "Vitamin C"
+    ],
+    "explanation": "Lượng mưa bao gồm mưa, tuyết, mưa đá và mưa đá."
+  },
+  "general-x-86": {
+    "question": "Dụng cụ gia đình nào được thiết kế để đo chiều dài?",
+    "options": [
+      "Cái thước kẻ",
+      "quả bơ",
+      "mận",
+      "Đậu nành lên men"
+    ],
+    "explanation": "Thước có ghi đơn vị đo chiều dài."
+  },
+  "general-x-87": {
+    "question": "Bình chữa cháy giúp kiểm soát những gì?",
+    "options": [
+      "Một ngọn lửa",
+      "thú mỏ vịt",
+      "Một gói",
+      "tắc kè hoa"
+    ],
+    "explanation": "Bình chữa cháy được sử dụng để dập tắt những đám cháy nhỏ."
+  },
+  "general-x-88": {
+    "question": "Có bao nhiêu màu sắc được đặt tên theo truyền thống trong cầu vồng?",
+    "options": [
+      "bảy",
+      "dơi",
+      "Đàn piano",
+      "Michelangelo"
+    ],
+    "explanation": "Danh sách thông thường có bảy màu cầu vồng."
+  },
+  "general-x-89": {
+    "question": "Hướng nào đối diện với hướng bắc trên la bàn?",
+    "options": [
+      "Phía nam",
+      "Cello",
+      "Origami",
+      "Thạch cao ướt"
+    ],
+    "explanation": "Nam đối diện với bắc trên la bàn."
+  },
+  "general-x-90": {
+    "question": "Lớp vỏ cứng bên ngoài của ổ bánh mì gọi là gì?",
+    "options": [
+      "vỏ bánh",
+      "quần vợt",
+      "Sáu",
+      "Bóng bầu dục"
+    ],
+    "explanation": "Lớp vỏ là lớp bánh mì chín vàng bên ngoài."
+  },
+  "nonsense-x-1": {
+    "question": "Cái gì có thành phố nhưng không có nhà, có sông nhưng không có nước, có đường nhưng không có ô tô?",
+    "options": [
+      "Một bản đồ",
+      "Một quả trứng",
+      "Một chiếc điện thoại",
+      "một cuốn sách"
+    ],
+    "explanation": "Bản đồ thể hiện những đặc điểm này mà không chứa chúng về mặt vật lý."
+  },
+  "nonsense-x-2": {
+    "question": "Cái gì phải bị hỏng trước khi bạn có thể sử dụng nó?",
+    "options": [
+      "Một quả trứng",
+      "Ánh sáng",
+      "Một dòng sông",
+      "Một chiếc găng tay"
+    ],
+    "explanation": "Một quả trứng phải được đập vỡ trước khi có thể sử dụng được chất bên trong."
+  },
+  "nonsense-x-3": {
+    "question": "Cái gì có nhẫn nhưng không có ngón tay?",
+    "options": [
+      "Một chiếc điện thoại",
+      "Một ngân hàng",
+      "một đồng xu",
+      "Cảm lạnh"
+    ],
+    "explanation": "Điện thoại có thể đổ chuông mà không cần dùng ngón tay."
+  },
+  "nonsense-x-4": {
+    "question": "Cái gì có lời nhưng không bao giờ nói?",
+    "options": [
+      "một cuốn sách",
+      "Tên của bạn",
+      "Một cuốn lịch",
+      "Một cái cây"
+    ],
+    "explanation": "Một cuốn sách có chữ viết nhưng bản thân nó không nói lên điều gì."
+  },
+  "nonsense-x-5": {
+    "question": "Cái gì có thể lấp đầy một căn phòng nhưng không chiếm chỗ?",
+    "options": [
+      "Ánh sáng",
+      "đế",
+      "Một cây nấm",
+      "Hơi thở của bạn"
+    ],
+    "explanation": "Ánh sáng có thể chiếu sáng căn phòng mà không chiếm giữ nó như một vật thể rắn."
+  },
+  "nonsense-x-6": {
+    "question": "Cái gì chạy mà không bao giờ đi, có giường nhưng không bao giờ ngủ?",
+    "options": [
+      "Một dòng sông",
+      "Một phong bì",
+      "Một chiếc giày",
+      "Một cái chai"
+    ],
+    "explanation": "Một con sông chảy trong một kênh gọi là lòng sông."
+  },
+  "nonsense-x-7": {
+    "question": "Cái gì có ngón cái và bốn ngón nhưng không còn sống?",
+    "options": [
+      "Một chiếc găng tay",
+      "Một trò đùa",
+      "Một cây atisô",
+      "Một chiếc giường"
+    ],
+    "explanation": "Găng tay có các khoảng trống hình ngón tay và ngón cái."
+  },
+  "nonsense-x-8": {
+    "question": "Cái gì có cành nhưng không có quả, thân, lá?",
+    "options": [
+      "Một ngân hàng",
+      "một hang động",
+      "Một chiếc lông vũ",
+      "Một cục pin"
+    ],
+    "explanation": "Một ngân hàng có thể có chi nhánh làm địa điểm."
+  },
+  "nonsense-x-9": {
+    "question": "Con gì có đầu có đuôi nhưng không có thân?",
+    "options": [
+      "một đồng xu",
+      "chữ M",
+      "Một ấm trà",
+      "Một chiếc thuyền"
+    ],
+    "explanation": "Một đồng xu có hai mặt thường được gọi là mặt ngửa và mặt sấp."
+  },
+  "nonsense-x-10": {
+    "question": "Cái gì bạn có thể bắt nhưng không thể ném?",
+    "options": [
+      "Cảm lạnh",
+      "Bàn chải đánh răng",
+      "Một chiếc khóa",
+      "Một chiếc đồng hồ báo thức"
+    ],
+    "explanation": "Bạn có thể bị cảm lạnh, nhưng bạn không thể ném nó."
+  },
+  "nonsense-x-11": {
+    "question": "Cái gì thuộc về bạn nhưng người khác lại sử dụng nó nhiều hơn bạn?",
+    "options": [
+      "Tên của bạn",
+      "Một cái nồi",
+      "Một ấm đun nước",
+      "Kéo"
+    ],
+    "explanation": "Người khác thường gọi tên bạn khi xưng hô với bạn."
+  },
+  "nonsense-x-12": {
+    "question": "Cái gì có nhiều trang nhưng không phải là một cuốn sách và giúp bạn lên kế hoạch hẹn hò?",
+    "options": [
+      "Một cuốn lịch",
+      "Một trang web",
+      "một con ốc sên",
+      "một cây bút chì"
+    ],
+    "explanation": "Lịch hiển thị ngày và ngày trên các trang hoặc bảng."
+  },
+  "nonsense-x-13": {
+    "question": "Con gì có vỏ nhưng không cắn?",
+    "options": [
+      "Một cái cây",
+      "một con dao",
+      "Một chiếc máy ảnh",
+      "một chuyến tàu"
+    ],
+    "explanation": "Vỏ cây là lớp bảo vệ bên ngoài của cây."
+  },
+  "nonsense-x-14": {
+    "question": "Phần dưới của giày được gọi là gì?",
+    "options": [
+      "đế",
+      "Một máy tính",
+      "Một chiếc đồng hồ treo tường",
+      "một cây chổi"
+    ],
+    "explanation": "Đế là bề mặt dưới cùng của giày."
+  },
+  "nonsense-x-15": {
+    "question": "Loại phòng nào không có cửa ra vào và cửa sổ?",
+    "options": [
+      "Một cây nấm",
+      "Một chiếc điện thoại",
+      "một cuốn sách",
+      "Ánh sáng"
+    ],
+    "explanation": "Từ nấm chứa từ phòng, nhưng nó không phải là phòng."
+  },
+  "nonsense-x-16": {
+    "question": "Bạn có thể cầm cái gì mà không cần chạm vào nó?",
+    "options": [
+      "Hơi thở của bạn",
+      "Một dòng sông",
+      "Một chiếc găng tay",
+      "Một ngân hàng"
+    ],
+    "explanation": "Bạn có thể nín thở mà không cần cầm vật thể."
+  },
+  "nonsense-x-17": {
+    "question": "Cái gì bắt đầu và kết thúc bằng E và chứa một chữ cái?",
+    "options": [
+      "Một phong bì",
+      "một đồng xu",
+      "Cảm lạnh",
+      "Tên của bạn"
+    ],
+    "explanation": "Một phong bì bắt đầu và kết thúc bằng chữ E và bên trong có thể chứa một chữ cái."
+  },
+  "nonsense-x-18": {
+    "question": "Cái gì có cột sống nhưng không có xương?",
+    "options": [
+      "một cuốn sách",
+      "Một cái cây",
+      "đế",
+      "Một cây nấm"
+    ],
+    "explanation": "Gáy sách là phần bìa sách chứ không phải là khung xương."
+  },
+  "nonsense-x-19": {
+    "question": "Cái gì có lưỡi mà không nếm được?",
+    "options": [
+      "Một chiếc giày",
+      "Một cây nấm",
+      "Hơi thở của bạn",
+      "Một phong bì"
+    ],
+    "explanation": "Lưỡi của giày là vạt bên dưới dây buộc của nó."
+  },
+  "nonsense-x-20": {
+    "question": "Cái gì có mũ nhưng không có đầu?",
+    "options": [
+      "Một cái chai",
+      "Một chiếc giày",
+      "Một trò đùa",
+      "Một cây atisô"
+    ],
+    "explanation": "Một nắp chai che lỗ mở chai."
+  },
+  "nonsense-x-21": {
+    "question": "Những gì có thể được bẻ khóa, làm, kể và chơi?",
+    "options": [
+      "Một trò đùa",
+      "Một chiếc giường",
+      "một hang động",
+      "Một chiếc lông vũ"
+    ],
+    "explanation": "Mọi người bẻ khóa, pha trò, kể hoặc chơi đùa."
+  },
+  "nonsense-x-22": {
+    "question": "Có gì mà tim không đập?",
+    "options": [
+      "Một cây atisô",
+      "Một cục pin",
+      "chữ M",
+      "Một ấm trà"
+    ],
+    "explanation": "Phần trung tâm ăn được của atisô được gọi là trái tim của nó."
+  },
+  "nonsense-x-23": {
+    "question": "Cái gì có đầu có chân mà không có thân?",
+    "options": [
+      "Một chiếc giường",
+      "Một chiếc thuyền",
+      "Bàn chải đánh răng",
+      "Một chiếc khóa"
+    ],
+    "explanation": "Giường có đầu giường và chân giường."
+  },
+  "nonsense-x-24": {
+    "question": "Con gì có miệng nhưng không bao giờ ăn?",
+    "options": [
+      "một hang động",
+      "Một chiếc đồng hồ báo thức",
+      "Một cái nồi",
+      "Một ấm đun nước"
+    ],
+    "explanation": "Lối vào hang động đôi khi được gọi là miệng của nó."
+  },
+  "nonsense-x-25": {
+    "question": "Cái gì có tiếng sủa và lớn lên mà không phải là chó?",
+    "options": [
+      "Một cái cây",
+      "Kéo",
+      "Một trang web",
+      "một con ốc sên"
+    ],
+    "explanation": "Một cái cây mọc lên và có lớp vỏ bao phủ bên ngoài."
+  },
+  "nonsense-x-26": {
+    "question": "Vật nhẹ nào có thể bay lơ lửng trên không và phát triển trên cơ thể một con chim?",
+    "options": [
+      "Một chiếc lông vũ",
+      "một cây bút chì",
+      "một con dao",
+      "Một chiếc máy ảnh"
+    ],
+    "explanation": "Chiếc lông vũ rất nhẹ và mọc như một phần của bộ lông chim."
+  },
+  "nonsense-x-27": {
+    "question": "Cái gì không có sự sống nhưng có thể chết?",
+    "options": [
+      "Một cục pin",
+      "một chuyến tàu",
+      "Một máy tính",
+      "Một chiếc đồng hồ treo tường"
+    ],
+    "explanation": "Pin được cho là đã chết khi nó không còn có thể cung cấp năng lượng hữu ích nữa."
+  },
+  "nonsense-x-28": {
+    "question": "Cái gì có thể được nhìn thấy một lần trong một phút, hai lần trong một khoảnh khắc và không bao giờ được nhìn thấy trong một nghìn năm?",
+    "options": [
+      "chữ M",
+      "Một quả trứng",
+      "Một chiếc điện thoại",
+      "một cuốn sách"
+    ],
+    "explanation": "Chữ M xuất hiện một lần trong phút, hai lần trong khoảnh khắc chứ không phải trong nghìn năm."
+  },
+  "nonsense-x-29": {
+    "question": "Cái gì bắt đầu bằng T, kết thúc bằng T và có T bên trong?",
+    "options": [
+      "Một ấm trà",
+      "Ánh sáng",
+      "Một dòng sông",
+      "Một chiếc găng tay"
+    ],
+    "explanation": "Ấm trà bắt đầu và kết thúc bằng chữ T và có thể đựng trà bên trong."
+  },
+  "nonsense-x-30": {
+    "question": "Phần nào của chiếc thuyền là phần đầu của nó?",
+    "options": [
+      "Một chiếc thuyền",
+      "Một ngân hàng",
+      "một đồng xu",
+      "Cảm lạnh"
+    ],
+    "explanation": "Mũi tàu là phần cuối của con thuyền."
+  },
+  "nonsense-x-31": {
+    "question": "Bộ phận nào của con tàu hướng về phía trước khi nó chuyển động?",
+    "options": [
+      "Một chiếc thuyền",
+      "Tên của bạn",
+      "Một cuốn lịch",
+      "Một cái cây"
+    ],
+    "explanation": "Một chiếc thuyền có mũi tàu ở phía trước và có thể chở người."
+  },
+  "nonsense-x-32": {
+    "question": "Cái gì có tay cầm và lông nhưng không phải là cọ vẽ?",
+    "options": [
+      "Bàn chải đánh răng",
+      "đế",
+      "Một cây nấm",
+      "Hơi thở của bạn"
+    ],
+    "explanation": "Bàn chải đánh răng có tay cầm và lông bàn chải để làm sạch răng."
+  },
+  "nonsense-x-33": {
+    "question": "Cái gì có một lỗ ở giữa và giữ dây đai lại với nhau?",
+    "options": [
+      "Một chiếc khóa",
+      "Một phong bì",
+      "Một chiếc giày",
+      "Một cái chai"
+    ],
+    "explanation": "Khóa thắt lưng có một lỗ để buộc chặt thắt lưng."
+  },
+  "nonsense-x-34": {
+    "question": "Cái gì có mặt số và cho bạn biết khi nào nên thức dậy?",
+    "options": [
+      "Một chiếc đồng hồ báo thức",
+      "Một trò đùa",
+      "Một cây atisô",
+      "Một chiếc giường"
+    ],
+    "explanation": "Đồng hồ báo thức sử dụng cài đặt thời gian và báo thức để đánh thức ai đó."
+  },
+  "nonsense-x-35": {
+    "question": "Cái gì có nắp và giữ ấm súp?",
+    "options": [
+      "Một cái nồi",
+      "một hang động",
+      "Một chiếc lông vũ",
+      "Một cục pin"
+    ],
+    "explanation": "Nồi nấu có thể có nắp đậy và đựng súp ấm."
+  },
+  "nonsense-x-36": {
+    "question": "Cái gì có tay cầm và đổ nước nhưng không phải là sông?",
+    "options": [
+      "Một ấm đun nước",
+      "chữ M",
+      "Một ấm trà",
+      "Một chiếc thuyền"
+    ],
+    "explanation": "Ấm đun nước có vòi và tay cầm để rót nước nóng."
+  },
+  "nonsense-x-37": {
+    "question": "Cái gì có lưỡi dao nhưng lại dùng để cắt giấy bằng tay?",
+    "options": [
+      "Kéo",
+      "Bàn chải đánh răng",
+      "Một chiếc khóa",
+      "Một chiếc đồng hồ báo thức"
+    ],
+    "explanation": "Kéo có hai lưỡi cắt vật liệu khi tay cầm của chúng được siết chặt."
+  },
+  "nonsense-x-38": {
+    "question": "Cái gì có đế và dây buộc nhưng không phải là cá?",
+    "options": [
+      "Một chiếc giày",
+      "Một ấm đun nước",
+      "Kéo",
+      "Một trang web"
+    ],
+    "explanation": "Giày có thể có đế và dây buộc."
+  },
+  "nonsense-x-39": {
+    "question": "Cái gì có một trang nhưng không phải là một cuốn sách và tải trên trình duyệt?",
+    "options": [
+      "Một trang web",
+      "một con ốc sên",
+      "một cây bút chì",
+      "một con dao"
+    ],
+    "explanation": "Một trang web là một tài liệu được hiển thị trong trình duyệt."
+  },
+  "nonsense-x-40": {
+    "question": "Con gì có vỏ và có thể mang tổ ấm trên lưng?",
+    "options": [
+      "một con ốc sên",
+      "Một chiếc máy ảnh",
+      "một chuyến tàu",
+      "Một máy tính"
+    ],
+    "explanation": "Một con ốc mang theo một chiếc vỏ khi nó di chuyển."
+  },
+  "nonsense-x-41": {
+    "question": "Cái gì có lý nhưng không thể lập luận và viết ra giấy?",
+    "options": [
+      "một cây bút chì",
+      "Một bản đồ",
+      "Một quả trứng",
+      "Một chiếc điện thoại"
+    ],
+    "explanation": "Đầu bút chì để lại dấu vết trên giấy."
+  },
+  "nonsense-x-42": {
+    "question": "Cái gì có bìa, có trang, có tựa đề nhưng không phải là nhà?",
+    "options": [
+      "một cuốn sách",
+      "Ánh sáng",
+      "Một dòng sông",
+      "Một chiếc găng tay"
+    ],
+    "explanation": "Một cuốn sách có bìa và các trang, tiêu đề của nó xác định nó."
+  },
+  "nonsense-x-43": {
+    "question": "Cái gì có tay cầm và lưỡi dao và được sử dụng trong bữa tối?",
+    "options": [
+      "một con dao",
+      "Một chiếc găng tay",
+      "Một ngân hàng",
+      "một đồng xu"
+    ],
+    "explanation": "Dao ăn có tay cầm và lưỡi dao để cắt thức ăn."
+  },
+  "nonsense-x-44": {
+    "question": "Cái gì có ống kính và chụp ảnh?",
+    "options": [
+      "Một chiếc máy ảnh",
+      "Cảm lạnh",
+      "Tên của bạn",
+      "Một cuốn lịch"
+    ],
+    "explanation": "Một máy ảnh sử dụng một ống kính để tạo thành hình ảnh cho các bức ảnh."
+  },
+  "nonsense-x-45": {
+    "question": "Cái gì có quay số và đổ chuông khi ai đó gọi?",
+    "options": [
+      "Một chiếc điện thoại",
+      "đế",
+      "Một cây nấm",
+      "Hơi thở của bạn"
+    ],
+    "explanation": "Điện thoại truyền thống có thể đổ chuông để báo hiệu cuộc gọi đến."
+  },
+  "nonsense-x-46": {
+    "question": "Cái gì có bánh xe và chở hành khách dọc theo đường ray?",
+    "options": [
+      "một chuyến tàu",
+      "Hơi thở của bạn",
+      "Một phong bì",
+      "Một chiếc giày"
+    ],
+    "explanation": "Một đoàn tàu chạy trên đường ray và chở hành khách hoặc hàng hóa."
+  },
+  "nonsense-x-47": {
+    "question": "Cái gì có bàn phím và hiển thị chữ cái nhưng không phải là máy đánh chữ?",
+    "options": [
+      "Một máy tính",
+      "Một cái chai",
+      "Một trò đùa",
+      "Một cây atisô"
+    ],
+    "explanation": "Bàn phím máy tính nhập văn bản và màn hình hiển thị thông tin."
+  },
+  "nonsense-x-48": {
+    "question": "Cái gì có tay cầm, trang giấy và giúp làm sạch răng?",
+    "options": [
+      "Bàn chải đánh răng",
+      "Một chiếc giường",
+      "một hang động",
+      "Một chiếc lông vũ"
+    ],
+    "explanation": "Bàn chải đánh răng có tay cầm và lông bàn chải để làm sạch răng."
+  },
+  "nonsense-x-49": {
+    "question": "Cái gì có vòi rót trà vào cốc?",
+    "options": [
+      "Một ấm trà",
+      "Một cục pin",
+      "chữ M",
+      "Một chiếc thuyền"
+    ],
+    "explanation": "Một ấm trà giữ và rót trà qua vòi của nó."
+  },
+  "nonsense-x-50": {
+    "question": "Cái gì có mặt số, kim và giúp bạn xem giờ trên tường?",
+    "options": [
+      "Một chiếc đồng hồ treo tường",
+      "Một chiếc thuyền",
+      "Bàn chải đánh răng",
+      "Một chiếc khóa"
+    ],
+    "explanation": "Đồng hồ treo tường hiển thị thời gian bằng kim trên mặt số."
+  },
+  "nonsense-x-51": {
+    "question": "Cái gì có đầu lông và giúp quét sàn?",
+    "options": [
+      "một cây chổi",
+      "Một chiếc đồng hồ báo thức",
+      "Một cái nồi",
+      "Một ấm đun nước"
+    ],
+    "explanation": "Chổi sử dụng lông để quét bụi và mảnh vụn trên sàn nhà."
+  }
+}

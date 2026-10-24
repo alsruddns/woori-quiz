@@ -1,0 +1,2312 @@
+{
+  "general-001": {
+    "question": "Welke planeet staat bekend als de Rode Planeet?",
+    "options": [
+      "Venus",
+      "Mars",
+      "Jupiter",
+      "Kwik"
+    ],
+    "explanation": "IJzerrijk stof geeft Mars zijn roodachtige uiterlijk."
+  },
+  "general-002": {
+    "question": "Hoeveel zijden heeft een zeshoek?",
+    "options": [
+      "Vijf",
+      "Zes",
+      "Zeven",
+      "Acht"
+    ],
+    "explanation": "Een zeshoek heeft zes zijden."
+  },
+  "general-003": {
+    "question": "Welk instrument meet de luchtdruk?",
+    "options": [
+      "Thermometer",
+      "Barometer",
+      "Hygrometer",
+      "Kompas"
+    ],
+    "explanation": "Een barometer meet de atmosferische druk."
+  },
+  "general-004": {
+    "question": "Wat is het hardste natuurlijk voorkomende mineraal op de schaal van Mohs?",
+    "options": [
+      "Kwarts",
+      "Topaas",
+      "Diamant",
+      "Korund"
+    ],
+    "explanation": "Diamant heeft een score van 10 op de hardheidsschaal van Mohs."
+  },
+  "general-005": {
+    "question": "Hoeveel minuten duren twee uur?",
+    "options": [
+      "100",
+      "110",
+      "120",
+      "130"
+    ],
+    "explanation": "Twee uur bevatten 120 minuten."
+  },
+  "general-006": {
+    "question": "Welk gas vormt het grootste deel van de atmosfeer van de aarde?",
+    "options": [
+      "Zuurstof",
+      "Stikstof",
+      "Kooldioxide",
+      "Argon"
+    ],
+    "explanation": "Stikstof maakt ongeveer 78% uit van de droge lucht."
+  },
+  "general-007": {
+    "question": "Welke oceaan is de grootste?",
+    "options": [
+      "Atlantische Oceaan",
+      "Indiaas",
+      "Noordpoolgebied",
+      "Vreedzaam"
+    ],
+    "explanation": "De Stille Oceaan is qua oppervlakte de grootste oceaan."
+  },
+  "general-008": {
+    "question": "Wat is het vriespunt van water bij standaarddruk?",
+    "options": [
+      "0 °C",
+      "10 °C",
+      "32 °C",
+      "100 °C"
+    ],
+    "explanation": "Zuiver water bevriest bij 0 °C (32 °F) bij standaarddruk."
+  },
+  "general-009": {
+    "question": "Welke vorm heeft drie zijden?",
+    "options": [
+      "Vierkant",
+      "Driehoek",
+      "Vijfhoek",
+      "Cirkel"
+    ],
+    "explanation": "Een driehoek heeft drie zijden."
+  },
+  "general-010": {
+    "question": "Welk metaal is vloeibaar bij normale kamertemperatuur?",
+    "options": [
+      "Ijzer",
+      "Koper",
+      "Kwik",
+      "Aluminium"
+    ],
+    "explanation": "Kwik is vloeibaar bij normale kamertemperatuur."
+  },
+  "science-011": {
+    "question": "Wat is het chemische symbool voor water?",
+    "options": [
+      "CO₂",
+      "H₂O",
+      "O₂",
+      "NaCl"
+    ],
+    "explanation": "Een watermolecuul bevat twee waterstofatomen en één zuurstofatoom."
+  },
+  "science-012": {
+    "question": "Welk deel van een plant neemt gewoonlijk water uit de bodem op?",
+    "options": [
+      "Bloem",
+      "Blad",
+      "Wortel",
+      "Fruit"
+    ],
+    "explanation": "Wortels nemen water en mineralen uit de bodem op."
+  },
+  "science-013": {
+    "question": "Welke kracht houdt planeten in een baan rond de zon?",
+    "options": [
+      "Wrijving",
+      "Zwaartekracht",
+      "Magnetisme",
+      "Drijfvermogen"
+    ],
+    "explanation": "Zwaartekracht zorgt voor de centripetale versnelling voor planetaire banen."
+  },
+  "science-014": {
+    "question": "Welk deeltje heeft een negatieve elektrische lading?",
+    "options": [
+      "Proton",
+      "Neutron",
+      "Elektron",
+      "Foton"
+    ],
+    "explanation": "Elektronen hebben een negatieve elementaire lading."
+  },
+  "science-015": {
+    "question": "Bij welke temperatuur kookt water op zeeniveau?",
+    "options": [
+      "50 °C",
+      "75 °C",
+      "100 °C",
+      "150 °C"
+    ],
+    "explanation": "Bij standaard atmosferische druk kookt water bij 100 °C."
+  },
+  "science-016": {
+    "question": "Van welk organel is bekend dat het de meeste cellulaire ATP produceert?",
+    "options": [
+      "Kern",
+      "mitochondrium",
+      "Ribosoom",
+      "Golgi-apparaat"
+    ],
+    "explanation": "Mitochondria produceren een groot deel van de ATP van een eukaryotische cel via cellulaire ademhaling."
+  },
+  "science-017": {
+    "question": "Welk gas nemen planten op voor fotosynthese?",
+    "options": [
+      "Zuurstof",
+      "Kooldioxide",
+      "Helium",
+      "Waterstof"
+    ],
+    "explanation": "Planten gebruiken koolstofdioxide en water om suikers op te bouwen tijdens fotosynthese."
+  },
+  "science-018": {
+    "question": "Wat is ongeveer de snelheid van het licht in een vacuüm?",
+    "options": [
+      "30,000 km/s",
+      "150,000 km/s",
+      "300,000 km/s",
+      "3,000,000 km/s"
+    ],
+    "explanation": "Licht reist in vacuüm met ongeveer 300.000 kilometer per seconde."
+  },
+  "science-019": {
+    "question": "Welke bloedcellen transporteren voornamelijk zuurstof?",
+    "options": [
+      "Rode bloedcellen",
+      "Bloedplaatjes",
+      "Witte bloedcellen",
+      "Stamcellen"
+    ],
+    "explanation": "Hemoglobine in rode bloedcellen bindt en transporteert zuurstof."
+  },
+  "science-020": {
+    "question": "Hoe wordt het centrum van een atoom genoemd?",
+    "options": [
+      "Baan",
+      "Kern",
+      "Schelp",
+      "binding"
+    ],
+    "explanation": "De kern van een atoom bevat protonen en neutronen."
+  },
+  "geography-021": {
+    "question": "Wat is de hoofdstad van Japan?",
+    "options": [
+      "Osaka",
+      "Kioto",
+      "Tokio",
+      "Sapporo"
+    ],
+    "explanation": "Tokio is de hoofdstad van Japan."
+  },
+  "geography-022": {
+    "question": "In welk land ligt de stad Caïro?",
+    "options": [
+      "Marokko",
+      "Egypte",
+      "Jordanië",
+      "Soedan"
+    ],
+    "explanation": "Caïro is de hoofdstad van Egypte."
+  },
+  "geography-023": {
+    "question": "Wat is qua oppervlakte het grootste continent?",
+    "options": [
+      "Afrika",
+      "Azië",
+      "Europa",
+      "Noord-Amerika"
+    ],
+    "explanation": "Azië is qua landoppervlak het grootste continent."
+  },
+  "geography-024": {
+    "question": "Op welk continent ligt het Andesgebergte voornamelijk?",
+    "options": [
+      "Afrika",
+      "Azië",
+      "Zuid-Amerika",
+      "Europa"
+    ],
+    "explanation": "De Andes strekken zich uit langs de westkant van Zuid-Amerika."
+  },
+  "geography-025": {
+    "question": "Welk land heeft het esdoornblad op zijn nationale vlag?",
+    "options": [
+      "Canada",
+      "Oostenrijk",
+      "Denemarken",
+      "Peru"
+    ],
+    "explanation": "Het esdoornblad is het centrale embleem op de Canadese vlag."
+  },
+  "geography-026": {
+    "question": "Welke rivier stroomt door Parijs?",
+    "options": [
+      "Rijn",
+      "Seine",
+      "Donau",
+      "Theems"
+    ],
+    "explanation": "De Seine stroomt door Parijs."
+  },
+  "geography-027": {
+    "question": "Wat is qua oppervlakte het kleinste continent?",
+    "options": [
+      "Europa",
+      "Antarctica",
+      "Australië",
+      "Zuid-Amerika"
+    ],
+    "explanation": "Australië is qua oppervlakte het kleinste continent."
+  },
+  "geography-028": {
+    "question": "In welk land ligt de Kilimanjaro?",
+    "options": [
+      "Kenia",
+      "Tanzania",
+      "Oeganda",
+      "Ethiopië"
+    ],
+    "explanation": "Kilimanjaro ligt in het noordoosten van Tanzania."
+  },
+  "geography-029": {
+    "question": "Welke oceaan ligt ten oosten van Afrika?",
+    "options": [
+      "Vreedzaam",
+      "Atlantische Oceaan",
+      "Indiaas",
+      "Noordpoolgebied"
+    ],
+    "explanation": "De Indische Oceaan grenst in het oosten aan Afrika."
+  },
+  "geography-030": {
+    "question": "Wat is de hoofdstad van Italië?",
+    "options": [
+      "Milaan",
+      "Venetië",
+      "Rome",
+      "Napels"
+    ],
+    "explanation": "Rome is de hoofdstad van Italië."
+  },
+  "history-031": {
+    "question": "In welke regio begonnen de oude Olympische Spelen?",
+    "options": [
+      "Griekenland",
+      "Egypte",
+      "Perzië",
+      "Rome"
+    ],
+    "explanation": "De oude Olympische Spelen werden gehouden in Olympia in Griekenland."
+  },
+  "history-032": {
+    "question": "Welke muur viel in 1989 en werd een symbool van de Duitse hereniging?",
+    "options": [
+      "Hadrianus muur",
+      "Berlijnse Muur",
+      "Grote Muur",
+      "Westelijke Muur"
+    ],
+    "explanation": "De Berlijnse Muur werd in november 1989 geopend."
+  },
+  "history-033": {
+    "question": "Met wie is de drukpers geassocieerd met losse metalen letters in Europa verbonden?",
+    "options": [
+      "Galileo",
+      "Johannes Gutenberg",
+      "Isaak Newton",
+      "Marco Polo"
+    ],
+    "explanation": "De pers van Gutenberg hielp in de 15e eeuw de boekdrukkunst in Europa te verspreiden."
+  },
+  "history-034": {
+    "question": "Welke beschaving heeft de piramides van Gizeh gebouwd?",
+    "options": [
+      "Romeinen",
+      "Oude Egyptenaren",
+      "Azteken",
+      "Minoërs"
+    ],
+    "explanation": "De piramides van Gizeh werden gebouwd in het oude Egypte."
+  },
+  "history-035": {
+    "question": "In welk jaar begon de Franse Revolutie?",
+    "options": [
+      "1492",
+      "1776",
+      "1789",
+      "1815"
+    ],
+    "explanation": "De Franse Revolutie begon in 1789."
+  },
+  "history-036": {
+    "question": "In welk huidige land begon de Renaissance?",
+    "options": [
+      "Italië",
+      "Duitsland",
+      "Spanje",
+      "Engeland"
+    ],
+    "explanation": "De Renaissance begon in Italiaanse stadstaten voordat ze zich over Europa verspreidde."
+  },
+  "history-037": {
+    "question": "Wie was de eerste persoon die op de maan liep?",
+    "options": [
+      "Buzz Aldrin",
+      "Joeri Gagarin",
+      "Neil Armstrong",
+      "John Glenn"
+    ],
+    "explanation": "Neil Armstrong stapte in 1969 tijdens Apollo 11 op de maan."
+  },
+  "history-038": {
+    "question": "Welk rijk bouwde het uitgebreide wegennetwerk rond Rome?",
+    "options": [
+      "Mongoolse rijk",
+      "Romeinse Rijk",
+      "Mali-rijk",
+      "Inca-rijk"
+    ],
+    "explanation": "Romeinse wegen verbonden gebieden in het hele Romeinse rijk."
+  },
+  "history-039": {
+    "question": "In welk jaar werd de Magna Carta verzegeld?",
+    "options": [
+      "1066",
+      "1215",
+      "1492",
+      "1607"
+    ],
+    "explanation": "Koning John verzegelde de Magna Carta in 1215."
+  },
+  "history-040": {
+    "question": "Welk schip vervoerde de pelgrims in 1620 naar Noord-Amerika?",
+    "options": [
+      "Santa Maria",
+      "Meibloem",
+      "Avontuur",
+      "Brak"
+    ],
+    "explanation": "De Mayflower vervoerde de Engelse separatisten in 1620."
+  },
+  "math-041": {
+    "question": "Wat is 8×7?",
+    "options": [
+      "54",
+      "56",
+      "58",
+      "64"
+    ],
+    "explanation": "Acht groepen van zeven zijn gelijk aan 56."
+  },
+  "math-042": {
+    "question": "Wat is 144 ÷ 12?",
+    "options": [
+      "10",
+      "11",
+      "12",
+      "14"
+    ],
+    "explanation": "144 gedeeld door 12 is 12."
+  },
+  "math-043": {
+    "question": "Oplossen: 3x + 5 = 20.",
+    "options": [
+      "3",
+      "5",
+      "7",
+      "15"
+    ],
+    "explanation": "Trek 5 af om 3x = 15 te krijgen en deel vervolgens door 3: x = 5."
+  },
+  "math-044": {
+    "question": "Hoeveel is 25% van 80?",
+    "options": [
+      "10",
+      "15",
+      "20",
+      "25"
+    ],
+    "explanation": "25% is een kwart; 80 gedeeld door 4 is 20."
+  },
+  "math-045": {
+    "question": "Wat wordt 3/4 als decimaal geschreven?",
+    "options": [
+      "0.25",
+      "0.5",
+      "0.75",
+      "1.25"
+    ],
+    "explanation": "Drie gedeeld door vier is gelijk aan 0,75."
+  },
+  "math-046": {
+    "question": "Welk getal komt daarna: 2, 6, 12, 20, 30, …?",
+    "options": [
+      "36",
+      "40",
+      "42",
+      "44"
+    ],
+    "explanation": "De verschillen zijn 4, 6, 8, 10 en vervolgens 12; de volgende termijn is 42."
+  },
+  "math-047": {
+    "question": "Er wordt een eerlijke zeszijdige dobbelsteen gegooid. Wat is de kans dat je een even getal gooit?",
+    "options": [
+      "1/6",
+      "1/3",
+      "1/2",
+      "2/3"
+    ],
+    "explanation": "Drie van de zes uitkomsten (2, 4, 6) zijn even, dus de kans is 1/2."
+  },
+  "math-048": {
+    "question": "Een rechthoek heeft omtrek 30 en lengte 9. Wat is de breedte?",
+    "options": [
+      "5",
+      "6",
+      "7",
+      "12"
+    ],
+    "explanation": "2(9 + w) = 30, dus w = 6."
+  },
+  "math-049": {
+    "question": "Wat is het kleinste gemene veelvoud van 6 en 8?",
+    "options": [
+      "12",
+      "18",
+      "24",
+      "48"
+    ],
+    "explanation": "24 is het kleinste positieve getal dat deelbaar is door zowel 6 als 8."
+  },
+  "math-050": {
+    "question": "Als 5 werknemers een klus in 12 dagen in hetzelfde tempo voltooien, hoeveel arbeidsdagen bedraagt ​​de klus dan?",
+    "options": [
+      "17",
+      "30",
+      "60",
+      "72"
+    ],
+    "explanation": "5 werknemers × 12 dagen = 60 arbeidsdagen."
+  },
+  "language-051": {
+    "question": "Welk woord is synoniem voor ‘kort’?",
+    "options": [
+      "Short",
+      "Distant",
+      "Heavy",
+      "Quiet"
+    ],
+    "explanation": "Kort betekent kort van duur of lengte."
+  },
+  "language-052": {
+    "question": "Welk leesteken beëindigt een directe vraag?",
+    "options": [
+      "Comma",
+      "Colon",
+      "Question mark",
+      "Semicolon"
+    ],
+    "explanation": "Een directe vraag eindigt met een vraagteken."
+  },
+  "language-053": {
+    "question": "Wat is het meervoud van ‘kind’?",
+    "options": [
+      "Childs",
+      "Children",
+      "Childes",
+      "Childrens"
+    ],
+    "explanation": "Kinderen is de conventionele meervoudsvorm van kind."
+  },
+  "language-054": {
+    "question": "Welke zin gebruikt ‘hun’ correct?",
+    "options": [
+      "Their going home.",
+      "The team left their bags here.",
+      "Put it over their.",
+      "Their is a book."
+    ],
+    "explanation": "Het is een bezittelijke bepaling; het laat zien dat de tassen van het team zijn."
+  },
+  "language-055": {
+    "question": "Welk woord is correct gespeld?",
+    "options": [
+      "Separate",
+      "Seperate",
+      "Seperete",
+      "Sepparate"
+    ],
+    "explanation": "Separaat wordt gespeld met “par” in het midden."
+  },
+  "language-056": {
+    "question": "Wat is het tegenovergestelde van ‘oud’?",
+    "options": [
+      "Old",
+      "Historic",
+      "Modern",
+      "Early"
+    ],
+    "explanation": "Modern is een antoniem van oud."
+  },
+  "language-057": {
+    "question": "Welk woord is het bijwoord in 'Ze zong prachtig'?",
+    "options": [
+      "She",
+      "sang",
+      "beautifully",
+      "none"
+    ],
+    "explanation": "Wijzigt prachtig het werkwoord zong en is een bijwoord."
+  },
+  "language-058": {
+    "question": "Wat is een volledige zin?",
+    "options": [
+      "Because it was raining.",
+      "The bright red umbrella.",
+      "They walked home.",
+      "After the long trip."
+    ],
+    "explanation": "\"Ze liepen naar huis\" heeft een onderwerp en een volledig gezegde."
+  },
+  "language-059": {
+    "question": "Welk woord betekent ‘snel kijken’?",
+    "options": [
+      "Glance",
+      "Stare",
+      "Watch",
+      "Observe"
+    ],
+    "explanation": "Een blik is een korte of snelle blik."
+  },
+  "language-060": {
+    "question": "Welk paar zijn homofonen in de gebruikelijke Engelse uitspraak?",
+    "options": [
+      "Flower / flour",
+      "Book / boot",
+      "Cat / cut",
+      "Seat / set"
+    ],
+    "explanation": "Bloem en meel worden in het gewone Engels op dezelfde manier uitgesproken."
+  },
+  "technology-061": {
+    "question": "Waar staat CPU voor?",
+    "options": [
+      "Centrale verwerkingseenheid",
+      "Computerstroomvoorziening",
+      "Kernprogramma uploaden",
+      "Centrale printeenheid"
+    ],
+    "explanation": "CPU staat voor Central Processing Unit."
+  },
+  "technology-062": {
+    "question": "Welke taal wordt standaard in webbrowsers uitgevoerd?",
+    "options": [
+      "Java",
+      "C",
+      "JavaScript",
+      "Swift"
+    ],
+    "explanation": "Browsers implementeren JavaScript-engines om JavaScript uit te voeren."
+  },
+  "technology-063": {
+    "question": "Wat betekent HTTP-statuscode 404 gewoonlijk?",
+    "options": [
+      "Succes",
+      "Niet gevonden",
+      "Ongeautoriseerd",
+      "Server niet beschikbaar"
+    ],
+    "explanation": "HTTP 404 geeft aan dat de gevraagde bron niet is gevonden."
+  },
+  "technology-064": {
+    "question": "Welk apparaat stuurt pakketten door tussen verschillende netwerken?",
+    "options": [
+      "Router",
+      "Toetsenbord",
+      "Monitor",
+      "Printer"
+    ],
+    "explanation": "Een router stuurt pakketten door tussen netwerken."
+  },
+  "technology-065": {
+    "question": "Wat vertegenwoordigt een commit in Git?",
+    "options": [
+      "Een opgeslagen momentopname van projectwijzigingen",
+      "Een netwerkkabel",
+      "Een programmeertaal",
+      "Een bestandscompressieformaat"
+    ],
+    "explanation": "Een Git-commit legt een momentopname en de bijbehorende metadata vast in de repositorygeschiedenis."
+  },
+  "technology-066": {
+    "question": "Wat is een relationele databasequerytaal?",
+    "options": [
+      "SQL",
+      "HTML",
+      "CSS",
+      "PNG"
+    ],
+    "explanation": "SQL wordt gebruikt voor het opvragen en beheren van relationele databases."
+  },
+  "technology-067": {
+    "question": "Waar staat URL voor?",
+    "options": [
+      "Uniforme bronzoeker",
+      "Universele routeringslink",
+      "Uniforme recordlijst",
+      "Gebruikersreferentietaal"
+    ],
+    "explanation": "URL staat voor Uniform Resource Locator."
+  },
+  "technology-068": {
+    "question": "Welk getallensysteem gebruikt alleen 0 en 1?",
+    "options": [
+      "Decimale",
+      "Binair",
+      "Octaal",
+      "Romeins"
+    ],
+    "explanation": "Binair is grondtal 2 en gebruikt de cijfers 0 en 1."
+  },
+  "technology-069": {
+    "question": "Wat is de belangrijkste rol van DNS?",
+    "options": [
+      "Vertaal domeinnamen naar netwerkrecords zoals IP-adressen",
+      "Versleutel elk bestand",
+      "Bewaar wachtwoorden in een browser",
+      "Compileer de broncode"
+    ],
+    "explanation": "DNS zet domeinnamen om in records die worden gebruikt om internetdiensten te lokaliseren."
+  },
+  "technology-070": {
+    "question": "Welke bestandsextensie wordt vaak gebruikt voor een PNG-afbeelding?",
+    "options": [
+      ".png",
+      ".mp3",
+      ".csv",
+      ".exe"
+    ],
+    "explanation": "PNG-afbeeldingsbestanden gebruiken gewoonlijk de .png-extensie."
+  },
+  "brain-071": {
+    "question": "Wat komt er daarna in de reeks 1, 4, 9, 16, …?",
+    "options": [
+      "20",
+      "24",
+      "25",
+      "36"
+    ],
+    "explanation": "Dit zijn opeenvolgende vierkante getallen: 1², 2², 3², 4²; de volgende is 5² = 25."
+  },
+  "brain-072": {
+    "question": "Een klok geeft 3:15 aan. Wat is de kleinere hoek tussen zijn handen?",
+    "options": [
+      "0°",
+      "7.5°",
+      "15°",
+      "30°"
+    ],
+    "explanation": "Op 3:15 staat de minutenwijzer op 90° en de uurwijzer op 97,5°, een verschil van 7,5°."
+  },
+  "brain-073": {
+    "question": "Als alle Bloops Razzies zijn en alle Razzies Lazzies, zijn dan alle Bloops Lazzies?",
+    "options": [
+      "Ja",
+      "Nee",
+      "Kan niet worden vastgesteld",
+      "Slechts enkele"
+    ],
+    "explanation": "Door transitiviteit behoort elke Bloop tot de set Razzies en dus Lazzies."
+  },
+  "brain-074": {
+    "question": "Een patroon herhaalt zich: cirkel, vierkant, driehoek, cirkel, vierkant, … Wat komt er daarna?",
+    "options": [
+      "Cirkel",
+      "Vierkant",
+      "Driehoek",
+      "Vijfhoek"
+    ],
+    "explanation": "De reeks met drie vormen herhaalt zich, dus de driehoek is de volgende."
+  },
+  "brain-075": {
+    "question": "Je haalt de loper op de tweede plaats in. Op welke plek ben je?",
+    "options": [
+      "Eerst",
+      "Seconde",
+      "Derde",
+      "Vierde"
+    ],
+    "explanation": "Als u de loper op de tweede plaats passeert, komt u op de tweede plaats."
+  },
+  "brain-076": {
+    "question": "Welk getal hoort er niet bij: 2, 3, 5, 9, 11?",
+    "options": [
+      "2",
+      "3",
+      "9",
+      "11"
+    ],
+    "explanation": "9 is samengesteld; de anderen zijn priemgetallen."
+  },
+  "brain-077": {
+    "question": "Een boer heeft 17 schapen. Op 9 na gaan ze allemaal weg. Hoeveel blijven er over?",
+    "options": [
+      "8",
+      "9",
+      "17",
+      "26"
+    ],
+    "explanation": "“Alles behalve 9” betekent dat er nog 9 schapen over zijn."
+  },
+  "brain-078": {
+    "question": "Als het gisteren maandag was, welke dag is dan overmorgen?",
+    "options": [
+      "Dinsdag",
+      "Woensdag",
+      "Donderdag",
+      "Vrijdag"
+    ],
+    "explanation": "Gisteren maandag betekent vandaag dinsdag; morgen woensdag en overmorgen donderdag."
+  },
+  "brain-079": {
+    "question": "Twee vaders en twee zonen delen drie appels, elk één. Hoe is dat mogelijk?",
+    "options": [
+      "Ze sneden elke appel",
+      "Er zijn drie mensen: grootvader, vader, zoon",
+      "Eén persoon krijgt niets",
+      "Er zijn vier mensen"
+    ],
+    "explanation": "De middelste persoon is zowel een zoon als een vader, dus de groep bestaat uit drie personen."
+  },
+  "brain-080": {
+    "question": "Wat is de volgende letter: A, C, F, J, O, …?",
+    "options": [
+      "S",
+      "T",
+      "U",
+      "V"
+    ],
+    "explanation": "Letterposities nemen toe met 2, 3, 4, 5; voeg vervolgens 6 toe aan O (15) om U (21) te krijgen."
+  },
+  "nonsense-081": {
+    "question": "Wat heeft veel tanden, maar kan niet bijten?",
+    "options": [
+      "Een kam",
+      "Een haai",
+      "Een ritssluiting",
+      "Een zaag"
+    ],
+    "explanation": "Een kam heeft tanden, maar deze worden niet gebruikt om te bijten."
+  },
+  "nonsense-082": {
+    "question": "Wat wordt natter als het droogt?",
+    "options": [
+      "Een handdoek",
+      "Een wolk",
+      "Een spons",
+      "Een rivier"
+    ],
+    "explanation": "Een handdoek absorbeert water terwijl je iets anders droogt."
+  },
+  "nonsense-083": {
+    "question": "Wat heeft een nek maar geen hoofd?",
+    "options": [
+      "Een fles",
+      "Een persoon",
+      "Een giraffe",
+      "Een overhemd"
+    ],
+    "explanation": "Een fles heeft een hals maar geen kop."
+  },
+  "nonsense-084": {
+    "question": "Wat heeft handen maar kan niet klappen?",
+    "options": [
+      "Een klok",
+      "Een pianist",
+      "Een handschoen",
+      "Een standbeeld"
+    ],
+    "explanation": "Een klok heeft uren- en minutenwijzers."
+  },
+  "nonsense-085": {
+    "question": "Wat kan de wereld rondreizen terwijl hij in één hoek blijft?",
+    "options": [
+      "Een stempel",
+      "Een kompas",
+      "Een wolk",
+      "Een koffer"
+    ],
+    "explanation": "Een postzegel blijft tijdens het reizen in de hoek van een envelop."
+  },
+  "nonsense-086": {
+    "question": "Wat heeft één oog maar kan niet zien?",
+    "options": [
+      "Een naald",
+      "Een camera",
+      "Een storm",
+      "Een aardappel"
+    ],
+    "explanation": "Het oog van een naald is het gat voor draad."
+  },
+  "nonsense-087": {
+    "question": "Wat heeft sleutels maar kan geen slot openen?",
+    "options": [
+      "Een piano",
+      "Een slotenmaker",
+      "Een kaart",
+      "Een deur"
+    ],
+    "explanation": "Een piano heeft muziektoetsen, geen slottoetsen."
+  },
+  "nonsense-088": {
+    "question": "Wat heeft een gezicht en twee handen, maar geen armen of benen?",
+    "options": [
+      "Een klok",
+      "Een pop",
+      "Een schilderij",
+      "Een handschoen"
+    ],
+    "explanation": "Een wijzerplaat en wijzers worden genoemd naar analogie met een persoon."
+  },
+  "nonsense-089": {
+    "question": "Wat gaat omhoog, maar komt nooit naar beneden?",
+    "options": [
+      "Jouw leeftijd",
+      "Een ballon",
+      "Rook",
+      "Een lift"
+    ],
+    "explanation": "Uw leeftijd neemt toe naarmate de tijd verstrijkt."
+  },
+  "nonsense-090": {
+    "question": "Wat heeft vier poten, maar kan niet lopen?",
+    "options": [
+      "Een tafel",
+      "Een hond",
+      "Een paard",
+      "Een spin"
+    ],
+    "explanation": "Een tafel heeft poten, maar kan niet uit zichzelf bewegen."
+  },
+  "general-x-1": {
+    "question": "Welke ster staat na de zon het dichtst bij de aarde?",
+    "options": [
+      "Proxima Centauri",
+      "Vier",
+      "Hygrometer",
+      "Calciet"
+    ],
+    "explanation": "Proxima Centauri is na de zon zelf de dichtstbijzijnde ster bij de zon."
+  },
+  "general-x-2": {
+    "question": "Hoeveel snaren heeft een standaardviool?",
+    "options": [
+      "Vier",
+      "Ijzer",
+      "Vitamine C",
+      "Kikkererwten"
+    ],
+    "explanation": "Een standaardviool heeft vier snaren."
+  },
+  "general-x-3": {
+    "question": "Welk instrument meet de luchtvochtigheid?",
+    "options": [
+      "Hygrometer",
+      "Pruim",
+      "Gefermenteerde sojabonen",
+      "Amandel"
+    ],
+    "explanation": "Een hygrometer meet de luchtvochtigheid in de lucht."
+  },
+  "general-x-4": {
+    "question": "Welk mineraal is het hoofdbestanddeel van kalksteen?",
+    "options": [
+      "Calciet",
+      "Een pakje",
+      "Kameleon",
+      "Papegaai"
+    ],
+    "explanation": "Kalksteen bestaat voornamelijk uit het mineraal calciet."
+  },
+  "general-x-5": {
+    "question": "Hoeveel seconden zitten er in één minuut?",
+    "options": [
+      "60",
+      "Piano",
+      "Michelangelo",
+      "Snaren"
+    ],
+    "explanation": "Eén minuut bevat 60 seconden."
+  },
+  "general-x-6": {
+    "question": "Wat is het eerste element in het periodiek systeem?",
+    "options": [
+      "Waterstof",
+      "Origami",
+      "Natte gips",
+      "Inscriptie"
+    ],
+    "explanation": "Waterstof heeft atoomnummer 1 en is het eerste element in het periodiek systeem."
+  },
+  "general-x-7": {
+    "question": "Welke oceaan ligt tussen Oost-Afrika en West-Australië?",
+    "options": [
+      "Indische Oceaan",
+      "Zes",
+      "Rugby",
+      "Achttien"
+    ],
+    "explanation": "De Indische Oceaan ligt tussen Afrika, Azië en Australië."
+  },
+  "general-x-8": {
+    "question": "Bij welke temperatuur in Celsius kookt zuiver water bij standaarddruk?",
+    "options": [
+      "100 °C",
+      "De kosten van lenen",
+      "Inkomsten behouden voor toekomstig gebruik",
+      "Een systeem waarbij kopers en verkopers uitwisselen"
+    ],
+    "explanation": "Water kookt bij 100 °C bij één atmosfeer druk."
+  },
+  "general-x-9": {
+    "question": "Hoeveel gezichten heeft een tetraëder?",
+    "options": [
+      "Vier",
+      "Een adres",
+      "Kompas",
+      "366"
+    ],
+    "explanation": "Een tetraëder heeft vier driehoekige vlakken."
+  },
+  "general-x-10": {
+    "question": "Welk metaal heeft het chemische symbool Fe?",
+    "options": [
+      "Ijzer",
+      "Veilig een weg oversteken",
+      "112",
+      "Rook"
+    ],
+    "explanation": "Fe is het chemische symbool voor ijzer."
+  },
+  "general-x-11": {
+    "question": "Welke vitamine komt veel voor in citrusvruchten?",
+    "options": [
+      "Vitamine C",
+      "Chuseok",
+      "Ondol",
+      "Buchaechum"
+    ],
+    "explanation": "Citrusvruchten zijn bekende bronnen van vitamine C."
+  },
+  "general-x-12": {
+    "question": "Wat is het hoofdingrediënt van traditionele hummus?",
+    "options": [
+      "Kikkererwten",
+      "Seconde",
+      "90",
+      "Alleseter"
+    ],
+    "explanation": "Traditionele hummus wordt voornamelijk gemaakt van kikkererwten."
+  },
+  "general-x-13": {
+    "question": "Welk graan wordt gebruikt om risotto te maken?",
+    "options": [
+      "Arborio-rijst",
+      "Vier",
+      "Hygrometer",
+      "Calciet"
+    ],
+    "explanation": "Risotto gebruikt vaak kortkorrelige variëteiten zoals Arborio."
+  },
+  "general-x-14": {
+    "question": "Waar wordt tofu voornamelijk van gemaakt?",
+    "options": [
+      "Sojabonen",
+      "Ijzer",
+      "Vitamine C",
+      "Kikkererwten"
+    ],
+    "explanation": "Tofu wordt gemaakt door sojamelk te laten coaguleren."
+  },
+  "general-x-15": {
+    "question": "Welk kruid geeft veel curry’s een gele kleur?",
+    "options": [
+      "Kurkuma",
+      "Gefermenteerde sojabonen",
+      "Amandel",
+      "Room"
+    ],
+    "explanation": "Curcumine in kurkuma geeft het een sterke gele kleur."
+  },
+  "general-x-16": {
+    "question": "Wat is het hoofdbestanddeel van guacamole?",
+    "options": [
+      "Avocado",
+      "Kameleon",
+      "Papegaai",
+      "Walvishaai"
+    ],
+    "explanation": "Guacamole is gebaseerd op gepureerde avocado."
+  },
+  "general-x-17": {
+    "question": "Welke vrucht wordt gedroogd om een ​​pruim te maken?",
+    "options": [
+      "Pruim",
+      "Michelangelo",
+      "Snaren",
+      "Dans"
+    ],
+    "explanation": "Een pruim is een gedroogde pruim."
+  },
+  "general-x-18": {
+    "question": "Wat is het hoofdingrediënt van miso?",
+    "options": [
+      "Gefermenteerde sojabonen",
+      "Natte gips",
+      "Inscriptie",
+      "Vijf"
+    ],
+    "explanation": "Miso is een gefermenteerde pasta die gewoonlijk wordt gemaakt van sojabonen."
+  },
+  "general-x-19": {
+    "question": "Van welke noot wordt marsepein gemaakt?",
+    "options": [
+      "Amandel",
+      "Rugby",
+      "Achttien",
+      "Schaken"
+    ],
+    "explanation": "Marsepein wordt voornamelijk gemaakt van gemalen amandelen en suiker."
+  },
+  "general-x-20": {
+    "question": "Welk zuivelproduct wordt gekarnd om boter van te maken?",
+    "options": [
+      "Room",
+      "Inkomsten behouden voor toekomstig gebruik",
+      "Een systeem waarbij kopers en verkopers uitwisselen",
+      "Een algemene prijsstijging"
+    ],
+    "explanation": "Karnroom scheidt botervet van karnemelk."
+  },
+  "general-x-21": {
+    "question": "Wat is het grootste levende landdier?",
+    "options": [
+      "Afrikaanse olifant",
+      "Kompas",
+      "366",
+      "Zeven"
+    ],
+    "explanation": "De Afrikaanse olifant is het grootste levende landdier."
+  },
+  "general-x-22": {
+    "question": "Wat is het snelste landdier over korte afstanden?",
+    "options": [
+      "Cheeta",
+      "112",
+      "Rook",
+      "Seoel"
+    ],
+    "explanation": "Cheeta's kunnen de hoogste sprintsnelheden van landdieren bereiken."
+  },
+  "general-x-23": {
+    "question": "Welk zoogdier legt eieren en heeft een eendachtige snavel?",
+    "options": [
+      "Vogelbekdier",
+      "Ondol",
+      "Buchaechum",
+      "Hanok"
+    ],
+    "explanation": "Het vogelbekdier is een eierleggend zoogdier met een snavel."
+  },
+  "general-x-24": {
+    "question": "Hoe wordt een groep wolven gewoonlijk genoemd?",
+    "options": [
+      "Een pakje",
+      "90",
+      "Alleseter",
+      "Neerslag"
+    ],
+    "explanation": "Een groep wolven wordt gewoonlijk een roedel genoemd."
+  },
+  "general-x-25": {
+    "question": "Van welk dier is bekend dat het van kleur verandert met behulp van gespecialiseerde huidcellen?",
+    "options": [
+      "Kameleon",
+      "Hygrometer",
+      "Calciet",
+      "60"
+    ],
+    "explanation": "Kameleons kunnen van kleur veranderen met behulp van gespecialiseerde huidcellen."
+  },
+  "general-x-26": {
+    "question": "Welke vogel staat bekend om het nabootsen van menselijke spraak?",
+    "options": [
+      "Papegaai",
+      "Vitamine C",
+      "Kikkererwten",
+      "Arborio-rijst"
+    ],
+    "explanation": "Veel papegaaiensoorten kunnen geluiden imiteren, inclusief menselijke spraak."
+  },
+  "general-x-27": {
+    "question": "Wat is de grootste haaiensoort?",
+    "options": [
+      "Walvishaai",
+      "Gefermenteerde sojabonen",
+      "Amandel",
+      "Room"
+    ],
+    "explanation": "De walvishaai is de grootste levende vissoort."
+  },
+  "general-x-28": {
+    "question": "Welk insect produceert honing?",
+    "options": [
+      "Honingbij",
+      "Kameleon",
+      "Papegaai",
+      "Walvishaai"
+    ],
+    "explanation": "Honingbijen produceren honing uit verzamelde nectar."
+  },
+  "general-x-29": {
+    "question": "Hoe heet een jonge kikker?",
+    "options": [
+      "Kikkervisje",
+      "Snaren",
+      "Dans",
+      "Gekleurd glas"
+    ],
+    "explanation": "Het aquatische larvenstadium van een kikker wordt een kikkervisje genoemd."
+  },
+  "general-x-30": {
+    "question": "Welk zoogdier gebruikt echolocatie om te navigeren?",
+    "options": [
+      "Knuppel",
+      "Inscriptie",
+      "Vijf",
+      "Liefde"
+    ],
+    "explanation": "Veel vleermuizen gebruiken echolocatie om prooien te lokaliseren en te navigeren."
+  },
+  "general-x-31": {
+    "question": "Welk instrument heeft 88 toetsen in zijn standaard moderne vorm?",
+    "options": [
+      "Piano",
+      "Achttien",
+      "Schaken",
+      "Yen"
+    ],
+    "explanation": "Een standaard moderne piano heeft 88 toetsen."
+  },
+  "general-x-32": {
+    "question": "Welke kunstenaar schilderde het plafond van de Sixtijnse Kapel?",
+    "options": [
+      "Michelangelo",
+      "Een systeem waarbij kopers en verkopers uitwisselen",
+      "Een algemene prijsstijging",
+      "Een verplichte betaling aan de overheid"
+    ],
+    "explanation": "Michelangelo schilderde het plafond van de Sixtijnse Kapel."
+  },
+  "general-x-33": {
+    "question": "Tot welke instrumentenfamilie behoort de viool?",
+    "options": [
+      "Snaren",
+      "366",
+      "Zeven",
+      "Ontbijt"
+    ],
+    "explanation": "De viool is een strijkinstrument."
+  },
+  "general-x-34": {
+    "question": "Welke kunstvorm gebruikt beweging en choreografie op muziek?",
+    "options": [
+      "Dans",
+      "Rook",
+      "Seoel",
+      "Won"
+    ],
+    "explanation": "Dans drukt ideeën en vormen uit door middel van beweging."
+  },
+  "general-x-35": {
+    "question": "Welk materiaal wordt traditioneel gebruikt om glas-in-lood te maken?",
+    "options": [
+      "Gekleurd glas",
+      "Buchaechum",
+      "Hanok",
+      "Gayageum"
+    ],
+    "explanation": "Glas-in-loodkunstwerken worden samengesteld uit stukken gekleurd glas."
+  },
+  "general-x-36": {
+    "question": "Welke componist schreef de Vier Jaargetijden?",
+    "options": [
+      "Antonio Vivaldi",
+      "Alleseter",
+      "Neerslag",
+      "Liniaal"
+    ],
+    "explanation": "Vivaldi componeerde de reeks vioolconcerten die bekend staan ​​als The Four Seasons."
+  },
+  "general-x-37": {
+    "question": "Welk instrument wordt met een strijkstok bespeeld en is groter dan een viool?",
+    "options": [
+      "Cello",
+      "Calciet",
+      "60",
+      "Waterstof"
+    ],
+    "explanation": "De cello is een strijkinstrument dat groter is dan de viool."
+  },
+  "general-x-38": {
+    "question": "Hoe heet de Japanse kunst van het papiervouwen?",
+    "options": [
+      "Origami",
+      "Kikkererwten",
+      "Arborio-rijst",
+      "Sojabonen"
+    ],
+    "explanation": "Origami is de kunst van het vouwen van papier tot vormen."
+  },
+  "general-x-39": {
+    "question": "Welk medium wordt gebruikt om een ​​fresco te maken?",
+    "options": [
+      "Natte gips",
+      "Amandel",
+      "Room",
+      "Afrikaanse olifant"
+    ],
+    "explanation": "Op vers gelegd nat pleisterwerk wordt een fresco geschilderd."
+  },
+  "general-x-40": {
+    "question": "Bij welk museumartefact wordt op steen, metaal of hout geschreven?",
+    "options": [
+      "Inscriptie",
+      "Papegaai",
+      "Walvishaai",
+      "Honingbij"
+    ],
+    "explanation": "Een inscriptie is een tekst die op een duurzaam oppervlak is gesneden of geschreven."
+  },
+  "general-x-41": {
+    "question": "Hoeveel spelers van één basketbalteam staan ​​tegelijkertijd op het veld?",
+    "options": [
+      "Vijf",
+      "Snaren",
+      "Dans",
+      "Gekleurd glas"
+    ],
+    "explanation": "Elk basketbalteam zet vijf spelers op het veld."
+  },
+  "general-x-42": {
+    "question": "Hoe wordt bij tennis een score van nul genoemd?",
+    "options": [
+      "Liefde",
+      "Inscriptie",
+      "Vijf",
+      "Badminton"
+    ],
+    "explanation": "Tennis gebruikt de term liefde voor een score van nul."
+  },
+  "general-x-43": {
+    "question": "Hoeveel ringen verschijnen er op de Olympische vlag?",
+    "options": [
+      "Vijf",
+      "Schaken",
+      "Yen",
+      "Geplande inkomsten en uitgaven"
+    ],
+    "explanation": "Het Olympische symbool heeft vijf verweven ringen."
+  },
+  "general-x-44": {
+    "question": "Bij welke sport wordt een shuttle gebruikt?",
+    "options": [
+      "Badminton",
+      "Een algemene prijsstijging",
+      "Een verplichte betaling aan de overheid",
+      "Opbrengsten minus kosten"
+    ],
+    "explanation": "Badminton wordt gespeeld met een shuttle."
+  },
+  "general-x-45": {
+    "question": "Hoeveel honken zitten er op een honkbaldiamant?",
+    "options": [
+      "Vier",
+      "Zeven",
+      "Ontbijt",
+      "Ingrediëntenlijst"
+    ],
+    "explanation": "Een honkbaldiamant heeft vier honken, inclusief de thuisplaat."
+  },
+  "general-x-46": {
+    "question": "Welke sport wordt er gespeeld op Wimbledon?",
+    "options": [
+      "Tennis",
+      "Seoel",
+      "Won",
+      "Hangul"
+    ],
+    "explanation": "Wimbledon is een groot tennistoernooi."
+  },
+  "general-x-47": {
+    "question": "Hoeveel punten is een touchdown waard vóór enige conversie?",
+    "options": [
+      "Zes",
+      "Hanok",
+      "Gayageum",
+      "Sireum"
+    ],
+    "explanation": "Een touchdown is in het American football zes punten waard."
+  },
+  "general-x-48": {
+    "question": "Welke sport maakt gebruik van een scrum?",
+    "options": [
+      "Rugby",
+      "Neerslag",
+      "Liniaal",
+      "Een vuur"
+    ],
+    "explanation": "Een scrum is een methode om het spel bij rugby weer op gang te brengen."
+  },
+  "general-x-49": {
+    "question": "Hoeveel holes bevat een standaard golfronde?",
+    "options": [
+      "Achttien",
+      "60",
+      "Waterstof",
+      "Indische Oceaan"
+    ],
+    "explanation": "Een standaard golfronde wordt gespeeld over 18 holes."
+  },
+  "general-x-50": {
+    "question": "Welke sport gebruikt de termen schaak en schaakmat?",
+    "options": [
+      "Schaken",
+      "Arborio-rijst",
+      "Sojabonen",
+      "Kurkuma"
+    ],
+    "explanation": "Schaak en schaakmat zijn termen in het schaakspel."
+  },
+  "general-x-51": {
+    "question": "Wat is de munteenheid die in Japan wordt gebruikt?",
+    "options": [
+      "Yen",
+      "Room",
+      "Afrikaanse olifant",
+      "Cheeta"
+    ],
+    "explanation": "De yen is de Japanse munteenheid."
+  },
+  "general-x-52": {
+    "question": "Wat vergelijkt een begroting?",
+    "options": [
+      "Geplande inkomsten en uitgaven",
+      "Walvishaai",
+      "Honingbij",
+      "Kikkervisje"
+    ],
+    "explanation": "Een begroting organiseert de verwachte inkomsten en uitgaven."
+  },
+  "general-x-53": {
+    "question": "Wat is ruilhandel?",
+    "options": [
+      "Goederen uitwisselen zonder geld",
+      "Dans",
+      "Gekleurd glas",
+      "Antonio Vivaldi"
+    ],
+    "explanation": "Ruilhandel is een directe uitwisseling zonder geld als betaalmiddel te gebruiken."
+  },
+  "general-x-54": {
+    "question": "Wat is rente op een lening?",
+    "options": [
+      "De kosten van lenen",
+      "Vijf",
+      "Liefde",
+      "Badminton"
+    ],
+    "explanation": "Rente is de prijs die betaald wordt voor het lenen van geld."
+  },
+  "general-x-55": {
+    "question": "Wat betekent sparen?",
+    "options": [
+      "Inkomsten behouden voor toekomstig gebruik",
+      "Schaken",
+      "Yen",
+      "Geplande inkomsten en uitgaven"
+    ],
+    "explanation": "Besparen betekent middelen reserveren in plaats van ze nu uit te geven."
+  },
+  "general-x-56": {
+    "question": "Wat is een markt in de economie?",
+    "options": [
+      "Een systeem waarbij kopers en verkopers uitwisselen",
+      "Een verplichte betaling aan de overheid",
+      "Opbrengsten minus kosten",
+      "Hoeveel verkopers te koop aanbieden"
+    ],
+    "explanation": "Een markt verbindt kopers en verkopers voor uitwisseling."
+  },
+  "general-x-57": {
+    "question": "Wat is inflatie?",
+    "options": [
+      "Een algemene prijsstijging",
+      "Ontbijt",
+      "Ingrediëntenlijst",
+      "Verwerkt het voor hergebruik"
+    ],
+    "explanation": "Inflatie is een aanhoudende stijging van het algemene prijsniveau."
+  },
+  "general-x-58": {
+    "question": "Wat is een belasting?",
+    "options": [
+      "Een verplichte betaling aan de overheid",
+      "Won",
+      "Hangul",
+      "Kimchi"
+    ],
+    "explanation": "Belastingen financieren openbare diensten en worden door overheden opgelegd."
+  },
+  "general-x-59": {
+    "question": "Wat is winst?",
+    "options": [
+      "Opbrengsten minus kosten",
+      "Gayageum",
+      "Sireum",
+      "Meter"
+    ],
+    "explanation": "Winst is wat overblijft als de kosten van de opbrengsten worden afgetrokken."
+  },
+  "general-x-60": {
+    "question": "Wat beschrijft het aanbod?",
+    "options": [
+      "Hoeveel verkopers te koop aanbieden",
+      "Liniaal",
+      "Een vuur",
+      "Zuiden"
+    ],
+    "explanation": "Het aanbod is de hoeveelheid die producenten bereid zijn tegen verschillende prijzen te verkopen."
+  },
+  "general-x-61": {
+    "question": "Wat is de naam voor een schriftelijke routebeschrijving naar een plaats?",
+    "options": [
+      "Een adres",
+      "Waterstof",
+      "Indische Oceaan",
+      "100 °C"
+    ],
+    "explanation": "Een adres identificeert een locatie voor bezorging of navigatie."
+  },
+  "general-x-62": {
+    "question": "Welk apparaat wordt vaak gebruikt om richting te vinden met een magnetische naald?",
+    "options": [
+      "Kompas",
+      "Sojabonen",
+      "Kurkuma",
+      "Avocado"
+    ],
+    "explanation": "Een kompasnaald is ongeveer uitgelijnd met het magnetische veld van de aarde."
+  },
+  "general-x-63": {
+    "question": "Hoeveel dagen heeft een schrikkeljaar?",
+    "options": [
+      "366",
+      "Afrikaanse olifant",
+      "Cheeta",
+      "Vogelbekdier"
+    ],
+    "explanation": "Een schrikkeljaar heeft één extra dag in februari, dus 366 in totaal."
+  },
+  "general-x-64": {
+    "question": "Hoeveel maanden hebben 31 dagen?",
+    "options": [
+      "Zeven",
+      "Honingbij",
+      "Kikkervisje",
+      "Knuppel"
+    ],
+    "explanation": "Zeven maanden hebben 31 dagen."
+  },
+  "general-x-65": {
+    "question": "Hoe wordt de eerste maaltijd van de dag gewoonlijk genoemd?",
+    "options": [
+      "Ontbijt",
+      "Gekleurd glas",
+      "Antonio Vivaldi",
+      "Cello"
+    ],
+    "explanation": "Het ontbijt is doorgaans de eerste maaltijd na het ontwaken."
+  },
+  "general-x-66": {
+    "question": "In welk document staan ​​de ingrediënten van verpakt voedsel vermeld?",
+    "options": [
+      "Ingrediëntenlijst",
+      "Liefde",
+      "Badminton",
+      "Tennis"
+    ],
+    "explanation": "Op voedseletiketten staan ​​de ingrediënten vermeld, meestal in afnemende volgorde van gewicht."
+  },
+  "general-x-67": {
+    "question": "Wat doet recycling met bruikbaar materiaal?",
+    "options": [
+      "Verwerkt het voor hergebruik",
+      "Yen",
+      "Geplande inkomsten en uitgaven",
+      "Goederen uitwisselen zonder geld"
+    ],
+    "explanation": "Recycling verwerkt afvalmateriaal zodat het opnieuw kan worden gebruikt."
+  },
+  "general-x-68": {
+    "question": "Waar helpt een zebrapad mensen bij?",
+    "options": [
+      "Veilig een weg oversteken",
+      "Een verplichte betaling aan de overheid",
+      "Opbrengsten minus kosten",
+      "Hoeveel verkopers te koop aanbieden"
+    ],
+    "explanation": "Gemarkeerde oversteekplaatsen geven plaatsen aan waar voetgangers kunnen oversteken."
+  },
+  "general-x-69": {
+    "question": "Welk alarmnummer wordt in de hele Europese Unie gebruikt?",
+    "options": [
+      "112",
+      "Ontbijt",
+      "Ingrediëntenlijst",
+      "Verwerkt het voor hergebruik"
+    ],
+    "explanation": "112 is het algemene alarmnummer in de hele EU."
+  },
+  "general-x-70": {
+    "question": "Wat detecteert een rookmelder?",
+    "options": [
+      "Rook",
+      "Hangul",
+      "Kimchi",
+      "Chuseok"
+    ],
+    "explanation": "Rookmelders waarschuwen bewoners als er rook wordt gedetecteerd."
+  },
+  "general-x-71": {
+    "question": "Wat is de hoofdstad van Zuid-Korea?",
+    "options": [
+      "Seoel",
+      "Sireum",
+      "Meter",
+      "Seconde"
+    ],
+    "explanation": "Seoel is de hoofdstad van Zuid-Korea."
+  },
+  "general-x-72": {
+    "question": "Wat is de nationale munteenheid van Zuid-Korea?",
+    "options": [
+      "Won",
+      "Een vuur",
+      "Zuiden",
+      "Korst"
+    ],
+    "explanation": "De won is de munteenheid van Zuid-Korea."
+  },
+  "general-x-73": {
+    "question": "Welk Koreaanse alfabet werd afgekondigd door koning Sejong?",
+    "options": [
+      "Hangul",
+      "Indische Oceaan",
+      "100 °C",
+      "Ijzer"
+    ],
+    "explanation": "Koning Sejong vaardigde in 1446 Hunminjeongeum uit, nu Hangul genoemd."
+  },
+  "general-x-74": {
+    "question": "Hoe heet het traditionele Koreaanse gefermenteerde koolgerecht?",
+    "options": [
+      "Kimchi",
+      "Kurkuma",
+      "Avocado",
+      "Pruim"
+    ],
+    "explanation": "Kimchi is een traditioneel gefermenteerd groentegerecht, vaak gemaakt met kool."
+  },
+  "general-x-75": {
+    "question": "Welke Koreaanse feestdag wordt geassocieerd met een oogstfeest?",
+    "options": [
+      "Chuseok",
+      "Cheeta",
+      "Vogelbekdier",
+      "Een pakje"
+    ],
+    "explanation": "Chuseok is een belangrijke herfstoogstvakantie in Korea."
+  },
+  "general-x-76": {
+    "question": "Hoe heet het traditionele Koreaanse vloerverwarmingssysteem?",
+    "options": [
+      "Ondol",
+      "Kikkervisje",
+      "Knuppel",
+      "Piano"
+    ],
+    "explanation": "Ondol is een traditioneel Koreaans vloerverwarmingssysteem."
+  },
+  "general-x-77": {
+    "question": "Welke Koreaanse kunstvorm gebruikt vouwwaaiers in een dansvoorstelling?",
+    "options": [
+      "Buchaechum",
+      "Antonio Vivaldi",
+      "Cello",
+      "Origami"
+    ],
+    "explanation": "Buchaechum is een Koreaanse waaierdans."
+  },
+  "general-x-78": {
+    "question": "Wat is het Koreaanse woord voor een traditioneel huis?",
+    "options": [
+      "Hanok",
+      "Badminton",
+      "Tennis",
+      "Zes"
+    ],
+    "explanation": "Hanok verwijst naar traditionele Koreaanse architectuur en huizen."
+  },
+  "general-x-79": {
+    "question": "Welk Koreaans instrument heeft een lange hals en meestal 12 snaren?",
+    "options": [
+      "Gayageum",
+      "Geplande inkomsten en uitgaven",
+      "Goederen uitwisselen zonder geld",
+      "De kosten van lenen"
+    ],
+    "explanation": "De gayageum is een traditionele Koreaanse citer, meestal met 12 snaren."
+  },
+  "general-x-80": {
+    "question": "Hoe heet de Koreaanse traditionele worstelsport?",
+    "options": [
+      "Sireum",
+      "Opbrengsten minus kosten",
+      "Hoeveel verkopers te koop aanbieden",
+      "Een adres"
+    ],
+    "explanation": "Ssireum is een traditionele Koreaanse vorm van worstelen."
+  },
+  "general-x-81": {
+    "question": "Wat is de SI-lengte-eenheid?",
+    "options": [
+      "Meter",
+      "Ingrediëntenlijst",
+      "Verwerkt het voor hergebruik",
+      "Veilig een weg oversteken"
+    ],
+    "explanation": "De meter is de SI-basiseenheid van lengte."
+  },
+  "general-x-82": {
+    "question": "Wat is de SI-tijdseenheid?",
+    "options": [
+      "Seconde",
+      "Hangul",
+      "Kimchi",
+      "Chuseok"
+    ],
+    "explanation": "De tweede is de SI-basiseenheid van tijd."
+  },
+  "general-x-83": {
+    "question": "Hoeveel graden zijn er in een rechte hoek?",
+    "options": [
+      "90",
+      "Sireum",
+      "Meter",
+      "Seconde"
+    ],
+    "explanation": "Een rechte hoek meet 90 graden."
+  },
+  "general-x-84": {
+    "question": "Hoe heet een dier dat zowel planten als dieren eet?",
+    "options": [
+      "Alleseter",
+      "Proxima Centauri",
+      "Vier",
+      "Hygrometer"
+    ],
+    "explanation": "Alleseters eten zowel plantaardig als dierlijk materiaal."
+  },
+  "general-x-85": {
+    "question": "Wat is de term voor water dat uit wolken valt als regen, sneeuw of hagel?",
+    "options": [
+      "Neerslag",
+      "100 °C",
+      "Ijzer",
+      "Vitamine C"
+    ],
+    "explanation": "Neerslag omvat regen, sneeuw, natte sneeuw en hagel."
+  },
+  "general-x-86": {
+    "question": "Welk huishoudelijk hulpmiddel is ontworpen om lengte te meten?",
+    "options": [
+      "Liniaal",
+      "Avocado",
+      "Pruim",
+      "Gefermenteerde sojabonen"
+    ],
+    "explanation": "Een liniaal is gemarkeerd met eenheden voor het meten van de lengte."
+  },
+  "general-x-87": {
+    "question": "Wat helpt een brandblusser bij de controle?",
+    "options": [
+      "Een vuur",
+      "Vogelbekdier",
+      "Een pakje",
+      "Kameleon"
+    ],
+    "explanation": "Voor het blussen van kleine brandjes wordt een brandblusser gebruikt."
+  },
+  "general-x-88": {
+    "question": "Hoeveel kleuren worden traditioneel genoemd in een regenboog?",
+    "options": [
+      "Zeven",
+      "Knuppel",
+      "Piano",
+      "Michelangelo"
+    ],
+    "explanation": "De conventionele lijst noemt zeven regenboogkleuren."
+  },
+  "general-x-89": {
+    "question": "Welke richting is op een kompas tegengesteld aan het noorden?",
+    "options": [
+      "Zuiden",
+      "Cello",
+      "Origami",
+      "Natte gips"
+    ],
+    "explanation": "Zuid ligt tegenover het noorden op een kompas."
+  },
+  "general-x-90": {
+    "question": "Hoe wordt de stevige buitenlaag van een brood genoemd?",
+    "options": [
+      "Korst",
+      "Tennis",
+      "Zes",
+      "Rugby"
+    ],
+    "explanation": "De korst is de gebruinde buitenste laag brood."
+  },
+  "nonsense-x-1": {
+    "question": "Wat heeft steden maar geen huizen, rivieren maar geen water, en wegen maar geen auto's?",
+    "options": [
+      "Een kaart",
+      "Een ei",
+      "Een telefoon",
+      "Een boek"
+    ],
+    "explanation": "Een kaart vertegenwoordigt deze kenmerken zonder ze fysiek te bevatten."
+  },
+  "nonsense-x-2": {
+    "question": "Wat moet er kapot voordat je het kunt gebruiken?",
+    "options": [
+      "Een ei",
+      "Licht",
+      "Een rivier",
+      "Een handschoen"
+    ],
+    "explanation": "Een ei moet worden gekraakt voordat de inhoud ervan kan worden gebruikt."
+  },
+  "nonsense-x-3": {
+    "question": "Wat heeft een ring maar geen vinger?",
+    "options": [
+      "Een telefoon",
+      "Een bank",
+      "Een munt",
+      "Een verkoudheid"
+    ],
+    "explanation": "Een telefoon kan rinkelen zonder vingers."
+  },
+  "nonsense-x-4": {
+    "question": "Wat heeft woorden maar spreekt nooit?",
+    "options": [
+      "Een boek",
+      "Jouw naam",
+      "Een kalender",
+      "Een boom"
+    ],
+    "explanation": "Een boek bevat geschreven woorden, maar spreekt niet op zichzelf."
+  },
+  "nonsense-x-5": {
+    "question": "Wat kan een kamer vullen, maar neemt geen ruimte in beslag?",
+    "options": [
+      "Licht",
+      "De zool",
+      "Een paddestoel",
+      "Je adem"
+    ],
+    "explanation": "Licht kan een kamer verlichten zonder deze als een vast object in beslag te nemen."
+  },
+  "nonsense-x-6": {
+    "question": "Wat loopt maar loopt nooit, heeft een bed maar slaapt nooit?",
+    "options": [
+      "Een rivier",
+      "Een envelop",
+      "Een schoen",
+      "Een fles"
+    ],
+    "explanation": "Een rivier stroomt in een kanaal dat de bodem wordt genoemd."
+  },
+  "nonsense-x-7": {
+    "question": "Wat heeft een duim en vier vingers, maar leeft niet?",
+    "options": [
+      "Een handschoen",
+      "Een grap",
+      "Een artisjok",
+      "Een bed"
+    ],
+    "explanation": "Een handschoen heeft ruimtes die zijn gevormd voor vingers en een duim."
+  },
+  "nonsense-x-8": {
+    "question": "Wat heeft takken maar geen fruit, stam of bladeren?",
+    "options": [
+      "Een bank",
+      "Een grot",
+      "Een veer",
+      "Een batterij"
+    ],
+    "explanation": "Een bank kan vestigingen als vestigingsplaats hebben."
+  },
+  "nonsense-x-9": {
+    "question": "Wat heeft een kop en een staart, maar geen lichaam?",
+    "options": [
+      "Een munt",
+      "De letter M",
+      "Een theepot",
+      "Een boot"
+    ],
+    "explanation": "Een munt heeft twee zijden, gewoonlijk kop en munt genoemd."
+  },
+  "nonsense-x-10": {
+    "question": "Wat kun je vangen, maar niet gooien?",
+    "options": [
+      "Een verkoudheid",
+      "Een tandenborstel",
+      "Een gesp",
+      "Een wekker"
+    ],
+    "explanation": "Je kunt verkouden worden, maar je kunt er geen verkouden worden."
+  },
+  "nonsense-x-11": {
+    "question": "Wat is van jou, maar andere mensen gebruiken het meer dan jij?",
+    "options": [
+      "Jouw naam",
+      "Een pot",
+      "Een waterkoker",
+      "Schaar"
+    ],
+    "explanation": "Andere mensen zeggen vaak uw naam als ze u aanspreken."
+  },
+  "nonsense-x-12": {
+    "question": "Wat heeft veel pagina's, maar is geen boek en helpt u bij het plannen van datums?",
+    "options": [
+      "Een kalender",
+      "Een webpagina",
+      "Een slak",
+      "Een potlood"
+    ],
+    "explanation": "Een kalender geeft dagen en datums weer op pagina's of panelen."
+  },
+  "nonsense-x-13": {
+    "question": "Wat heeft een schors maar geen beet?",
+    "options": [
+      "Een boom",
+      "Een mes",
+      "Een camera",
+      "Een trein"
+    ],
+    "explanation": "Schors is de beschermende buitenste laag van een boom."
+  },
+  "nonsense-x-14": {
+    "question": "Hoe heet het onderste deel van een schoen?",
+    "options": [
+      "De zool",
+      "Een computer",
+      "Een wandklok",
+      "Een bezem"
+    ],
+    "explanation": "De zool is de onderkant van een schoen."
+  },
+  "nonsense-x-15": {
+    "question": "Wat voor soort kamer heeft geen deuren of ramen?",
+    "options": [
+      "Een paddestoel",
+      "Een telefoon",
+      "Een boek",
+      "Licht"
+    ],
+    "explanation": "Het woord paddenstoel bevat het woord kamer, maar het is geen kamer."
+  },
+  "nonsense-x-16": {
+    "question": "Wat kun je vasthouden zonder het aan te raken?",
+    "options": [
+      "Je adem",
+      "Een rivier",
+      "Een handschoen",
+      "Een bank"
+    ],
+    "explanation": "Je kunt je adem inhouden zonder een fysiek voorwerp vast te houden."
+  },
+  "nonsense-x-17": {
+    "question": "Wat begint en eindigt met E en bevat één letter?",
+    "options": [
+      "Een envelop",
+      "Een munt",
+      "Een verkoudheid",
+      "Jouw naam"
+    ],
+    "explanation": "Een envelop begint en eindigt met de letter E en kan één letter bevatten."
+  },
+  "nonsense-x-18": {
+    "question": "Wat heeft een ruggengraat maar geen botten?",
+    "options": [
+      "Een boek",
+      "Een boom",
+      "De zool",
+      "Een paddestoel"
+    ],
+    "explanation": "De rug van een boek is de gebonden rand, niet een skelet."
+  },
+  "nonsense-x-19": {
+    "question": "Wat heeft een tong, maar kan niet proeven?",
+    "options": [
+      "Een schoen",
+      "Een paddestoel",
+      "Je adem",
+      "Een envelop"
+    ],
+    "explanation": "De tong van een schoen is de flap onder de veters."
+  },
+  "nonsense-x-20": {
+    "question": "Wat heeft een pet maar geen hoofd?",
+    "options": [
+      "Een fles",
+      "Een schoen",
+      "Een grap",
+      "Een artisjok"
+    ],
+    "explanation": "Een flesdop bedekt de flesopening."
+  },
+  "nonsense-x-21": {
+    "question": "Wat kan er gekraakt, gemaakt, verteld en gespeeld worden?",
+    "options": [
+      "Een grap",
+      "Een bed",
+      "Een grot",
+      "Een veer"
+    ],
+    "explanation": "Mensen maken, maken, vertellen of spelen grappen."
+  },
+  "nonsense-x-22": {
+    "question": "Wat heeft een hart dat niet klopt?",
+    "options": [
+      "Een artisjok",
+      "Een batterij",
+      "De letter M",
+      "Een theepot"
+    ],
+    "explanation": "Het eetbare centrale deel van een artisjok wordt het hart genoemd."
+  },
+  "nonsense-x-23": {
+    "question": "Wat heeft een hoofd en een voet, maar geen lichaam?",
+    "options": [
+      "Een bed",
+      "Een boot",
+      "Een tandenborstel",
+      "Een gesp"
+    ],
+    "explanation": "Een bed heeft een hoofdbord en een voetbord."
+  },
+  "nonsense-x-24": {
+    "question": "Wat heeft een mond, maar eet nooit?",
+    "options": [
+      "Een grot",
+      "Een wekker",
+      "Een pot",
+      "Een waterkoker"
+    ],
+    "explanation": "De ingang van een grot wordt soms de monding genoemd."
+  },
+  "nonsense-x-25": {
+    "question": "Wat blaft en groeit, maar is geen hond?",
+    "options": [
+      "Een boom",
+      "Schaar",
+      "Een webpagina",
+      "Een slak"
+    ],
+    "explanation": "Een boom groeit en heeft schors als buitenste laag."
+  },
+  "nonsense-x-26": {
+    "question": "Welk lichtobject kan in de lucht zweven en op een vogel groeien?",
+    "options": [
+      "Een veer",
+      "Een potlood",
+      "Een mes",
+      "Een camera"
+    ],
+    "explanation": "Een veer is licht van gewicht en groeit als onderdeel van het verenkleed van een vogel."
+  },
+  "nonsense-x-27": {
+    "question": "Wat heeft geen leven maar kan sterven?",
+    "options": [
+      "Een batterij",
+      "Een trein",
+      "Een computer",
+      "Een wandklok"
+    ],
+    "explanation": "Er wordt gezegd dat een batterij leeg is als deze geen bruikbare stroom meer kan leveren."
+  },
+  "nonsense-x-28": {
+    "question": "Wat kun je één keer in een minuut, twee keer in een moment, en nooit in duizend jaar zien?",
+    "options": [
+      "De letter M",
+      "Een ei",
+      "Een telefoon",
+      "Een boek"
+    ],
+    "explanation": "De letter M verschijnt één keer per minuut, twee keer per moment, en niet in duizend jaar."
+  },
+  "nonsense-x-29": {
+    "question": "Wat begint met T, eindigt met T, en bevat T?",
+    "options": [
+      "Een theepot",
+      "Licht",
+      "Een rivier",
+      "Een handschoen"
+    ],
+    "explanation": "Een theepot begint en eindigt met T en er kan thee in worden bewaard."
+  },
+  "nonsense-x-30": {
+    "question": "Welk deel van een boot is de voorkant?",
+    "options": [
+      "Een boot",
+      "Een bank",
+      "Een munt",
+      "Een verkoudheid"
+    ],
+    "explanation": "De boeg is het voorste uiteinde van een boot."
+  },
+  "nonsense-x-31": {
+    "question": "Welk deel van een vaartuig wijst naar voren terwijl het beweegt?",
+    "options": [
+      "Een boot",
+      "Jouw naam",
+      "Een kalender",
+      "Een boom"
+    ],
+    "explanation": "Een boot heeft een boeg aan de voorkant en kan mensen vervoeren."
+  },
+  "nonsense-x-32": {
+    "question": "Wat heeft een handvat en borstelharen, maar is geen penseel?",
+    "options": [
+      "Een tandenborstel",
+      "De zool",
+      "Een paddestoel",
+      "Je adem"
+    ],
+    "explanation": "Een tandenborstel heeft een handvat en borstelharen voor het reinigen van de tanden."
+  },
+  "nonsense-x-33": {
+    "question": "Wat heeft een gat in het midden en houdt een riem bij elkaar?",
+    "options": [
+      "Een gesp",
+      "Een envelop",
+      "Een schoen",
+      "Een fles"
+    ],
+    "explanation": "Een riemgesp heeft een opening waardoor de riem wordt vastgemaakt."
+  },
+  "nonsense-x-34": {
+    "question": "Wat heeft een wijzerplaat en vertelt je wanneer je wakker moet worden?",
+    "options": [
+      "Een wekker",
+      "Een grap",
+      "Een artisjok",
+      "Een bed"
+    ],
+    "explanation": "Een wekker maakt gebruik van een tijdinstelling en alarm om iemand wakker te maken."
+  },
+  "nonsense-x-35": {
+    "question": "Wat heeft een deksel en houdt soep warm?",
+    "options": [
+      "Een pot",
+      "Een grot",
+      "Een veer",
+      "Een batterij"
+    ],
+    "explanation": "Een kookpot kan een deksel hebben en warme soep bevatten."
+  },
+  "nonsense-x-36": {
+    "question": "Wat heeft een handvat en giet water, maar is geen rivier?",
+    "options": [
+      "Een waterkoker",
+      "De letter M",
+      "Een theepot",
+      "Een boot"
+    ],
+    "explanation": "Een waterkoker heeft een tuit en handvat voor het gieten van verwarmd water."
+  },
+  "nonsense-x-37": {
+    "question": "Wat heeft een mes maar wordt gebruikt om papier met de hand te snijden?",
+    "options": [
+      "Schaar",
+      "Een tandenborstel",
+      "Een gesp",
+      "Een wekker"
+    ],
+    "explanation": "Scharen hebben twee bladen die materiaal snijden wanneer de handvatten worden samengedrukt."
+  },
+  "nonsense-x-38": {
+    "question": "Wat heeft een zool en veters, maar is geen vis?",
+    "options": [
+      "Een schoen",
+      "Een waterkoker",
+      "Schaar",
+      "Een webpagina"
+    ],
+    "explanation": "Schoenen kunnen een zool en veters hebben."
+  },
+  "nonsense-x-39": {
+    "question": "Wat heeft een pagina maar is geen boek en wordt in een browser geladen?",
+    "options": [
+      "Een webpagina",
+      "Een slak",
+      "Een potlood",
+      "Een mes"
+    ],
+    "explanation": "Een webpagina is een document dat in een browser wordt weergegeven."
+  },
+  "nonsense-x-40": {
+    "question": "Wat heeft een schelp en kan zijn huis op zijn rug dragen?",
+    "options": [
+      "Een slak",
+      "Een camera",
+      "Een trein",
+      "Een computer"
+    ],
+    "explanation": "Een slak draagt ​​een schelp terwijl hij beweegt."
+  },
+  "nonsense-x-41": {
+    "question": "Wat heeft een punt, maar kan geen argument maken en schrijft op papier?",
+    "options": [
+      "Een potlood",
+      "Een kaart",
+      "Een ei",
+      "Een telefoon"
+    ],
+    "explanation": "De punt van een potlood laat sporen achter op papier."
+  },
+  "nonsense-x-42": {
+    "question": "Wat heeft een omslag, pagina's en een titel, maar is geen huis?",
+    "options": [
+      "Een boek",
+      "Licht",
+      "Een rivier",
+      "Een handschoen"
+    ],
+    "explanation": "Een boek heeft een omslag en pagina's, en de titel identificeert dit."
+  },
+  "nonsense-x-43": {
+    "question": "Wat heeft een handvat en een mes en wordt gebruikt bij het avondeten?",
+    "options": [
+      "Een mes",
+      "Een handschoen",
+      "Een bank",
+      "Een munt"
+    ],
+    "explanation": "Een tafelmes heeft een handvat en een lemmet voor het snijden van voedsel."
+  },
+  "nonsense-x-44": {
+    "question": "Wat heeft een lens en maakt foto's?",
+    "options": [
+      "Een camera",
+      "Een verkoudheid",
+      "Jouw naam",
+      "Een kalender"
+    ],
+    "explanation": "Een camera gebruikt een lens om afbeeldingen voor foto's te vormen."
+  },
+  "nonsense-x-45": {
+    "question": "Wat heeft een wijzerplaat en gaat over als iemand belt?",
+    "options": [
+      "Een telefoon",
+      "De zool",
+      "Een paddestoel",
+      "Je adem"
+    ],
+    "explanation": "Een traditionele telefoon kan rinkelen om een ​​inkomend gesprek te signaleren."
+  },
+  "nonsense-x-46": {
+    "question": "Wat heeft wielen en vervoert passagiers over rails?",
+    "options": [
+      "Een trein",
+      "Je adem",
+      "Een envelop",
+      "Een schoen"
+    ],
+    "explanation": "Een trein rijdt op rails en vervoert passagiers of vracht."
+  },
+  "nonsense-x-47": {
+    "question": "Wat heeft een toetsenbord en geeft letters weer, maar is geen typemachine?",
+    "options": [
+      "Een computer",
+      "Een fles",
+      "Een grap",
+      "Een artisjok"
+    ],
+    "explanation": "Een computertoetsenbord voert tekst in en het display toont informatie."
+  },
+  "nonsense-x-48": {
+    "question": "Wat heeft een handvat, pagina's en helpt bij het reinigen van tanden?",
+    "options": [
+      "Een tandenborstel",
+      "Een bed",
+      "Een grot",
+      "Een veer"
+    ],
+    "explanation": "Een tandenborstel heeft een handvat en borstelharen voor het reinigen van de tanden."
+  },
+  "nonsense-x-49": {
+    "question": "Wat heeft een tuit en schenkt thee in een kopje?",
+    "options": [
+      "Een theepot",
+      "Een batterij",
+      "De letter M",
+      "Een boot"
+    ],
+    "explanation": "Een theepot houdt thee vast en giet thee door de tuit."
+  },
+  "nonsense-x-50": {
+    "question": "Wat heeft een wijzerplaat, wijzers en helpt je de tijd op een muur af te lezen?",
+    "options": [
+      "Een wandklok",
+      "Een boot",
+      "Een tandenborstel",
+      "Een gesp"
+    ],
+    "explanation": "Een wandklok geeft de tijd weer met wijzers op een wijzerplaat."
+  },
+  "nonsense-x-51": {
+    "question": "Wat heeft een borstelkop en helpt bij het vegen van een vloer?",
+    "options": [
+      "Een bezem",
+      "Een wekker",
+      "Een pot",
+      "Een waterkoker"
+    ],
+    "explanation": "Een bezem gebruikt borstelharen om stof en vuil van een vloer te vegen."
+  }
+}

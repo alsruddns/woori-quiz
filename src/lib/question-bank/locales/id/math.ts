@@ -1,6 +1,7 @@
 import type { MathPhrases } from "../math-patterns";
 export const phrases: MathPhrases = {
-  sum: (a,b) => `Berapakah ${a} + ${b}?`, product: (a,b) => `Berapakah ${a} × ${b}?`,
+  sum: (a,b) => `Berapakah ${a} + ${b}?`, sumWhy: (a,b,result) => `${a} ditambah ${b} sama dengan ${result}.`,
+  product: (a,b) => `Berapakah ${a} × ${b}?`, productWhy: (a,b,result) => `${a} dikalikan ${b} sama dengan ${result}.`,
   equation: (a,b,c) => `Tentukan x dalam persamaan ${a}x + ${b} = ${c}.`, equationWhy: (a,b,x) => `Kurangi ${b}, lalu bagi dengan ${a}: x = ${x}.`,
   percent: (p,n) => `Berapakah ${p}% dari ${n}?`, percentWhy: (n,p,x) => `${n} × ${p} ÷ 100 = ${x}.`,
   sequence: (s) => `Berapakah suku berikutnya dalam deret ${s}, __?`, sequenceWhy: (n,x) => `Suku-sukunya adalah kuadrat berurutan dikali ${n}. Berikutnya 5² × ${n} = ${x}.`,

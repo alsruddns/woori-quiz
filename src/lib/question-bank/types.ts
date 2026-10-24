@@ -1,3 +1,4 @@
+import type { TargetLocale } from "../i18n";
 import type { Difficulty } from "../registry";
 
 export type QuestionLocaleCopy = { question: string; options: string[]; explanation: string };
@@ -10,7 +11,7 @@ export type QuizQuestion = {
   answer: number;
   explanation: string;
   tags?: string[];
-  localizations?: Partial<Record<import("../i18n").Locale, QuestionLocaleCopy>>;
+  localizations?: Partial<Record<TargetLocale, QuestionLocaleCopy>>;
 };
 
 export function makeQuestion(
