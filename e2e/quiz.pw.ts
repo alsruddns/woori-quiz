@@ -225,7 +225,8 @@ test("all 26 locale routes render and SEO metadata and sitemap remain locale-fir
   await expect(page.locator('meta[property="og:url"]')).toHaveAttribute("content", /zh-tw\/quiz\/world-geography/u);
   await expect(page.locator('meta[name="robots"]')).not.toHaveAttribute("content", /noindex/u);
 
-  const sitemap = await request.get("/sitemap.xml");
+  const sitemapPath = process.env.PLAYWRIGHT_EXTERNAL_URL ? "/quiz-sitemap.xml" : "/sitemap.xml";
+  const sitemap = await request.get(sitemapPath);
   expect(sitemap.status()).toBe(200);
   const xml = await sitemap.text();
   for (const locale of supportedLocales) expect(xml).toContain(`https://www.woori.today/${locale}/quiz`);
