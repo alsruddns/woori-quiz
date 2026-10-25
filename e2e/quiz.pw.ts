@@ -4,6 +4,7 @@ const supportedLocales = ["ko", "en", "ja", "zh", "es", "pt-br", "de", "fr", "vi
 const codeLikeContinent = /^(?:002|005|021|142|150)$/u;
 
 async function startBankQuiz(page: Page, count: number) {
+  await expect(page.locator('.detail-content[data-quiz-ready="true"]')).toBeVisible();
   const start = page.locator(".start-panel > .button.primary");
   await expect(start).toBeVisible();
   await page.getByRole("button", { name: String(count), exact: true }).click();
@@ -58,6 +59,7 @@ async function completeRound(page: Page, requestedCount: number) {
 test("category selection, 20-question session, feedback, review, and replay", async ({ page }) => {
   await page.clock.install({ time: new Date("2025-01-01T00:00:00Z") });
   await page.goto("/en/quiz");
+  await expect(page.locator('.discovery-content:not(.detail-content)[data-quiz-ready="true"]')).toBeVisible();
   await expect(page.locator("main h1")).toBeVisible();
   await page.getByRole("button", { name: /General/i }).first().click();
   await expect(page).toHaveURL(/category=general/);
@@ -99,6 +101,7 @@ test("category selection, 20-question session, feedback, review, and replay", as
 test("10, 20, 30, 40, and 50 requested questions match actual unique question counts", async ({ page }) => {
   await page.clock.install({ time: new Date("2025-01-01T00:00:00Z") });
   await page.goto("/en/quiz/general-knowledge");
+  await expect(page.locator('.detail-content[data-quiz-ready="true"]')).toBeVisible();
   await page.locator(".difficulty-select select").selectOption("all");
 
   let firstRun = true;
@@ -117,6 +120,7 @@ test("10, 20, 30, 40, and 50 requested questions match actual unique question co
 test("limited pools explain the shortage and finish only the available unique questions", async ({ page }) => {
   await page.clock.install({ time: new Date("2025-01-01T00:00:00Z") });
   await page.goto("/en/quiz/world-geography");
+  await expect(page.locator('.detail-content[data-quiz-ready="true"]')).toBeVisible();
   await page.locator(".difficulty-select select").selectOption("easy");
   await page.getByRole("button", { name: "50", exact: true }).click();
   const summary = page.locator(".pool-summary");
@@ -137,6 +141,7 @@ test("Chinese geography never renders M.49 codes and numerical math answers stay
   await page.clock.install({ time: new Date("2025-01-01T00:00:00Z") });
   for (const locale of ["zh", "zh-tw"]) {
     await page.goto(`/${locale}/quiz/world-geography`);
+    await expect(page.locator('.detail-content[data-quiz-ready="true"]')).toBeVisible();
     await page.getByRole("button", { name: "50", exact: true }).click();
     await startBankQuiz(page, 50);
     for (let turn = 0; turn < 51 && await page.getByRole("progressbar").count(); turn++) {
@@ -149,6 +154,7 @@ test("Chinese geography never renders M.49 codes and numerical math answers stay
   }
 
   await page.goto("/en/quiz/addition-quiz");
+  await expect(page.locator('.detail-content[data-quiz-ready="true"]')).toBeVisible();
   await page.getByRole("button", { name: "10", exact: true }).click();
   await page.locator(".start-panel > .button.primary").click();
   await expect(page.getByRole("progressbar")).toHaveAttribute("aria-valuemax", "10");
@@ -160,6 +166,7 @@ test("keyboard answers advance, unmount clears the timer, and reduced motion is 
   await page.clock.install({ time: new Date("2025-01-01T00:00:00Z") });
   await page.emulateMedia({ reducedMotion: "reduce" });
   await page.goto("/en/quiz/general-knowledge");
+  await expect(page.locator('.detail-content[data-quiz-ready="true"]')).toBeVisible();
   await startBankQuiz(page, 20);
   const firstChoice = page.locator(".answer-grid .answer").first();
   await firstChoice.focus();
@@ -181,6 +188,7 @@ test("keyboard answers advance, unmount clears the timer, and reduced motion is 
 test("mobile and desktop result layouts stay within the viewport", async ({ page }) => {
   await page.clock.install({ time: new Date("2025-01-01T00:00:00Z") });
   await page.goto("/en/quiz/general-knowledge");
+  await expect(page.locator('.detail-content[data-quiz-ready="true"]')).toBeVisible();
   await startBankQuiz(page, 20);
   await completeRound(page, 20);
 

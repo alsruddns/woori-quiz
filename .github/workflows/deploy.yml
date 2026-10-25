@@ -116,6 +116,26 @@ jobs:
             fi
             exit 1
           fi
+          expected_image_id="$(docker image inspect "$versioned_image" --format='{{.Id}}')"
+          new_container="$("${compose[@]}" ps -q quiz)"
+          running_image_id="$(docker inspect --format='{{.Image}}' "$new_container")"
+          if [[ "$running_image_id" != "$expected_image_id" ]]; then
+            echo "Quiz container image does not match the requested immutable image."
+            if [[ -n "$old_image_id" ]]; then
+              docker image tag "$rollback_image" "$latest_image"
+              "${compose[@]}" up -d --no-deps --wait --wait-timeout 120 quiz
+            fi
+            exit 1
+          fi
+          if ! docker exec "$new_container" node -e 'fetch("http://127.0.0.1:3005/en/quiz/world-geography").then((response) => process.exit(response.ok ? 0 : 1)).catch(() => process.exit(1))'; then
+            echo "The new Quiz image failed its internal detail-route smoke check."
+            if [[ -n "$old_image_id" ]]; then
+              docker image tag "$rollback_image" "$latest_image"
+              "${compose[@]}" up -d --no-deps --wait --wait-timeout 120 quiz
+            fi
+            exit 1
+          fi
+          echo "Quiz container is running the requested image and serves its detail route."
           REMOTE
 
       - name: Check production health
