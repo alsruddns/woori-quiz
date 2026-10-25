@@ -9,6 +9,10 @@ permissions:
   contents: read
   packages: write
 
+concurrency:
+  group: quiz-production-deploy
+  cancel-in-progress: false
+
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
@@ -35,6 +39,9 @@ jobs:
       - name: Run tests
         run: pnpm test
 
+      - name: Validate question banks and locale data
+        run: pnpm quiz:validate
+
       - name: Run lint
         run: pnpm lint
 
@@ -43,6 +50,12 @@ jobs:
 
       - name: Build application
         run: pnpm build
+
+      - name: Install Playwright Chromium
+        run: pnpm exec playwright install --with-deps chromium
+
+      - name: Run Playwright E2E against the production build
+        run: pnpm test:e2e
 
       - name: Set up Docker Buildx
         uses: docker/setup-buildx-action@v3
@@ -55,29 +68,95 @@ jobs:
           password: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Build and push image
+        id: push-image
         uses: docker/build-push-action@v6
         with:
           context: .
           push: true
-          tags: ghcr.io/alsruddns/woori-quiz:latest
+          tags: |
+            ghcr.io/alsruddns/woori-quiz:latest
+            ghcr.io/alsruddns/woori-quiz:sha-${{ github.sha }}
           build-args: |
             NEXT_PUBLIC_GA_ID=G-ZJSJW06SCX
             NEXT_PUBLIC_ADS_ENABLED=false
 
-      - name: Deploy on iwinv
+      - name: Deploy Quiz only on iwinv
+        id: deploy
         env:
           SERVER_HOST: ${{ secrets.SERVER_HOST }}
           SERVER_USER: ${{ secrets.SERVER_USER }}
           SERVER_SSH_KEY: ${{ secrets.SERVER_SSH_KEY }}
+          IMAGE_SHA: ${{ github.sha }}
         run: |
           install -m 700 -d ~/.ssh
           printf '%s\n' "$SERVER_SSH_KEY" > ~/.ssh/id_ed25519
           chmod 600 ~/.ssh/id_ed25519
           ssh-keyscan -H "$SERVER_HOST" >> ~/.ssh/known_hosts
-          ssh "$SERVER_USER@$SERVER_HOST" 'cd /opt/services/compose && docker compose --env-file .env.portal --env-file .env.moneybook pull quiz && docker compose --env-file .env.portal --env-file .env.moneybook up -d quiz'
+          ssh "$SERVER_USER@$SERVER_HOST" bash -s -- "$IMAGE_SHA" <<'REMOTE'
+          set -Eeuo pipefail
+          image_sha="$1"
+          cd /opt/services/compose
+          compose=(docker compose --env-file .env.portal --env-file .env.moneybook)
+          "${compose[@]}" config --quiet
+          versioned_image="ghcr.io/alsruddns/woori-quiz:sha-${image_sha}"
+          latest_image="ghcr.io/alsruddns/woori-quiz:latest"
+          rollback_image="ghcr.io/alsruddns/woori-quiz:rollback-${image_sha}"
+          old_container="$("${compose[@]}" ps -q quiz)"
+          old_image_id=""
+          if [[ -n "$old_container" ]]; then
+            old_image_id="$(docker inspect --format='{{.Image}}' "$old_container")"
+            docker image tag "$old_image_id" "$rollback_image"
+          fi
+          docker pull "$versioned_image"
+          docker image tag "$versioned_image" "$latest_image"
+          if ! "${compose[@]}" up -d --no-deps --wait --wait-timeout 120 quiz; then
+            if [[ -n "$old_image_id" ]]; then
+              docker image tag "$rollback_image" "$latest_image"
+              "${compose[@]}" up -d --no-deps --wait --wait-timeout 120 quiz
+            fi
+            exit 1
+          fi
+          REMOTE
 
       - name: Check production health
         run: curl --fail --silent --show-error --retry 12 --retry-delay 5 --retry-connrefused https://www.woori.today/ko/quiz
+
+      - name: Verify deployed Quiz with Playwright
+        id: production-e2e
+        env:
+          PLAYWRIGHT_EXTERNAL_URL: https://www.woori.today
+        run: pnpm test:e2e
+
+      - name: Roll back Quiz if production browser checks fail
+        if: failure() && steps.deploy.outcome == 'success'
+        env:
+          SERVER_HOST: ${{ secrets.SERVER_HOST }}
+          SERVER_USER: ${{ secrets.SERVER_USER }}
+          SERVER_SSH_KEY: ${{ secrets.SERVER_SSH_KEY }}
+          IMAGE_SHA: ${{ github.sha }}
+        run: |
+          install -m 700 -d ~/.ssh
+          printf '%s\n' "$SERVER_SSH_KEY" > ~/.ssh/id_ed25519
+          chmod 600 ~/.ssh/id_ed25519
+          ssh-keyscan -H "$SERVER_HOST" >> ~/.ssh/known_hosts
+          ssh "$SERVER_USER@$SERVER_HOST" bash -s -- "$IMAGE_SHA" <<'REMOTE'
+          set -Eeuo pipefail
+          image_sha="$1"
+          cd /opt/services/compose
+          compose=(docker compose --env-file .env.portal --env-file .env.moneybook)
+          rollback_image="ghcr.io/alsruddns/woori-quiz:rollback-${image_sha}"
+          latest_image="ghcr.io/alsruddns/woori-quiz:latest"
+          docker image inspect "$rollback_image" >/dev/null
+          docker image tag "$rollback_image" "$latest_image"
+          "${compose[@]}" up -d --no-deps --wait --wait-timeout 120 quiz
+          REMOTE
+
+      - name: Report deployed image digest
+        if: always() && steps.push-image.outcome == 'success'
+        env:
+          IMAGE_DIGEST: ${{ steps.push-image.outputs.digest }}
+        run: |
+          echo "Quiz image digest: \`$IMAGE_DIGEST\`" >> "$GITHUB_STEP_SUMMARY"
 
       - name: Submit URLs to IndexNow
         env:
