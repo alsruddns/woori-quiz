@@ -23,7 +23,11 @@ describe("localization quality index policy", () => {
     expect(LOCALIZATION_INDEX_THRESHOLD).toEqual({ questionRate: 1, choiceRate: 1, explanationRate: 1 });
     for (const quiz of quizzes.filter((item) => item.isPublic)) {
       const quality = await getQuizLocalizationQuality("en", quiz);
+      expect(quality.complete, quiz.slug).toBe(true);
       expect(quality.indexable, quiz.slug).toBe(true);
+      expect(quality.questionRate, quiz.slug).toBe(1);
+      expect(quality.choiceRate, quiz.slug).toBe(1);
+      expect(quality.explanationRate, quiz.slug).toBe(1);
     }
   }, 30000);
 

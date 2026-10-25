@@ -433,16 +433,16 @@ export async function getQuizLocalizationQuality(locale: Locale, quiz: Quiz): Pr
       let translatedExplanationCount = 0;
       for (const question of questions) {
         const result = questionCopyResultForLocale(question, locale);
-        if (!result.questionIsFallback || isNeutral(result.value.question)) translatedQuestionCount++;
+        if (locale === "en" || !result.questionIsFallback || isNeutral(result.value.question)) translatedQuestionCount++;
         const copy = result.value;
         question.options.forEach((original, index) => {
           if (isPreservedChoice(question, original, locale)) return;
           choiceCount++;
-          if (!result.optionFallbacks[index] && copy.options[index] !== original) translatedChoiceCount++;
+          if (locale === "en" || (!result.optionFallbacks[index] && copy.options[index] !== original)) translatedChoiceCount++;
         });
         if (!isNeutral(question.explanation)) {
           explanationCount++;
-          if (!result.explanationIsFallback && copy.explanation !== question.explanation) translatedExplanationCount++;
+          if (locale === "en" || (!result.explanationIsFallback && copy.explanation !== question.explanation)) translatedExplanationCount++;
         }
       }
       const questionRate = rate(translatedQuestionCount, questions.length);

@@ -5,9 +5,11 @@
     "scripts": {
         "dev": "next dev -p 3005",
         "build": "next build",
-        "start": "next start -p 3005",
+        "start": "node scripts/start-standalone.mjs",
         "lint": "eslint",
         "test": "vitest run",
+        "test:e2e": "playwright test",
+        "quiz:validate": "vitest run tests/quiz-data-validation.test.ts tests/geography-patterns.test.ts tests/question-display-copy.test.ts",
         "check:localization-quality": "vitest run tests/localization-quality.test.ts"
     },
     "dependencies": {
@@ -16,6 +18,7 @@
         "react-dom": "19.3.0"
     },
     "devDependencies": {
+        "@playwright/test": "^1.64.1",
         "@tailwindcss/turbopack": "^4",
         "@types/node": "^20",
         "@types/react": "^19",
