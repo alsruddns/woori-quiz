@@ -8,6 +8,7 @@
         "start": "next start -p 3005",
         "lint": "eslint",
         "test": "vitest run",
+        "quiz:validate": "vitest run tests/quiz-data-validation.test.ts tests/geography-patterns.test.ts tests/question-display-copy.test.ts",
         "check:localization-quality": "vitest run tests/localization-quality.test.ts"
     },
     "dependencies": {

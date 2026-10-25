@@ -4,12 +4,12 @@ import type { QuizQuestion } from "./types";
 export function resolveQuestionCopy(question: QuizQuestion, locale: string): Pick<QuizQuestion, "question" | "options" | "explanation"> {
   const copy = question.localizations?.[locale as keyof NonNullable<QuizQuestion["localizations"]>];
   if (!copy) return question;
-  const codeLike = (value: string, source: string) => /^\d{1,6}$/.test(value.trim()) && value.trim() !== source.trim();
-  const validOptions = Array.isArray(copy.options) && copy.options.length === question.options.length && copy.options.every((value, index) =>
-    typeof value === "string" && value.trim().length > 0 && !codeLike(value, question.options[index] ?? ""));
+  const hasUnresolvedGeographyCode = (value: string) => question.id.startsWith("geography-x-feature-") && /(?:^|\D)(?:002|005|021|142|150)(?:$|\D)/.test(value);
+  const validOptions = Array.isArray(copy.options) && copy.options.length === question.options.length && copy.options.every((value) =>
+    typeof value === "string" && value.trim().length > 0 && !hasUnresolvedGeographyCode(value));
   return {
-    question: typeof copy.question === "string" && copy.question.trim() && !codeLike(copy.question, question.question) ? copy.question : question.question,
+    question: typeof copy.question === "string" && copy.question.trim() && !hasUnresolvedGeographyCode(copy.question) ? copy.question : question.question,
     options: validOptions ? copy.options : question.options,
-    explanation: typeof copy.explanation === "string" && copy.explanation.trim() && !codeLike(copy.explanation, question.explanation) ? copy.explanation : question.explanation,
+    explanation: typeof copy.explanation === "string" && copy.explanation.trim() && !hasUnresolvedGeographyCode(copy.explanation) ? copy.explanation : question.explanation,
   };
 }

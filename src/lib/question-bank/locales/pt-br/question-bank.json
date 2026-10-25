@@ -687,7 +687,7 @@
       "Armazene senhas em um navegador",
       "Compile o código-fonte"
     ],
-    "explanation": "O DNS resolve nomes de domínio para registros usados ​​para localizar serviços de Internet."
+    "explanation": "O DNS resolve nomes de domínio para registros usados para localizar serviços de Internet."
   },
   "technology-070": {
     "question": "Qual extensão de arquivo é comumente usada para uma imagem PNG?",
@@ -807,7 +807,7 @@
       "Um zíper",
       "Uma serra"
     ],
-    "explanation": "Um pente tem dentes, mas eles não são usados ​​para morder."
+    "explanation": "Um pente tem dentes, mas eles não são usados para morder."
   },
   "nonsense-082": {
     "question": "O que fica mais úmido à medida que seca?",
@@ -1567,7 +1567,7 @@
       "Receitas e gastos planejados",
       "Troca de mercadorias sem dinheiro"
     ],
-    "explanation": "A reciclagem processa resíduos para que possam ser usados ​​novamente."
+    "explanation": "A reciclagem processa resíduos para que possam ser usados novamente."
   },
   "general-x-68": {
     "question": "O que uma faixa de pedestres ajuda as pessoas a fazer?",
@@ -1660,7 +1660,7 @@
     "explanation": "Ondol é um sistema tradicional de aquecimento de piso coreano."
   },
   "general-x-77": {
-    "question": "Qual forma de arte coreana usa leques dobráveis ​​em uma apresentação de dança?",
+    "question": "Qual forma de arte coreana usa leques dobráveis em uma apresentação de dança?",
     "options": [
       "Buchaechum",
       "Antonio Vivaldi",
@@ -1880,7 +1880,7 @@
     "explanation": "Um banco pode ter agências como locais."
   },
   "nonsense-x-9": {
-    "question": "O que tem cabeça e cauda, ​​mas não tem corpo?",
+    "question": "O que tem cabeça e cauda, mas não tem corpo?",
     "options": [
       "Uma moeda",
       "A letra M",

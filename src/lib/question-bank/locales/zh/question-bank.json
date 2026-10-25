@@ -790,7 +790,7 @@
     "explanation": "中间的人既是儿子又是父亲，所以一行人是三个人"
   },
   "brain-080": {
-    "question": "下一个字母是什么：​​A、C、F、J、O、…？",
+    "question": "下一个字母是什么：A、C、F、J、O、…？",
     "options": [
       "S",
       "T",
@@ -1530,7 +1530,7 @@
     "explanation": "闰年二月多一天，共366天"
   },
   "general-x-64": {
-    "question": "多​​少个月有 31 天？",
+    "question": "多少个月有 31 天？",
     "options": [
       "七",
       "蜜蜂",

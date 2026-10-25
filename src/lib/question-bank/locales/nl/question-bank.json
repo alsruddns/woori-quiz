@@ -490,7 +490,7 @@
     "explanation": "24 is het kleinste positieve getal dat deelbaar is door zowel 6 als 8."
   },
   "math-050": {
-    "question": "Als 5 werknemers een klus in 12 dagen in hetzelfde tempo voltooien, hoeveel arbeidsdagen bedraagt ​​de klus dan?",
+    "question": "Als 5 werknemers een klus in 12 dagen in hetzelfde tempo voltooien, hoeveel arbeidsdagen bedraagt de klus dan?",
     "options": [
       "17",
       "30",
@@ -1060,7 +1060,7 @@
     "explanation": "Guacamole is gebaseerd op gepureerde avocado."
   },
   "general-x-17": {
-    "question": "Welke vrucht wordt gedroogd om een ​​pruim te maken?",
+    "question": "Welke vrucht wordt gedroogd om een pruim te maken?",
     "options": [
       "Pruim",
       "Michelangelo",
@@ -1257,7 +1257,7 @@
       "Neerslag",
       "Liniaal"
     ],
-    "explanation": "Vivaldi componeerde de reeks vioolconcerten die bekend staan ​​als The Four Seasons."
+    "explanation": "Vivaldi componeerde de reeks vioolconcerten die bekend staan als The Four Seasons."
   },
   "general-x-37": {
     "question": "Welk instrument wordt met een strijkstok bespeeld en is groter dan een viool?",
@@ -1280,7 +1280,7 @@
     "explanation": "Origami is de kunst van het vouwen van papier tot vormen."
   },
   "general-x-39": {
-    "question": "Welk medium wordt gebruikt om een ​​fresco te maken?",
+    "question": "Welk medium wordt gebruikt om een fresco te maken?",
     "options": [
       "Natte gips",
       "Amandel",
@@ -1300,7 +1300,7 @@
     "explanation": "Een inscriptie is een tekst die op een duurzaam oppervlak is gesneden of geschreven."
   },
   "general-x-41": {
-    "question": "Hoeveel spelers van één basketbalteam staan ​​tegelijkertijd op het veld?",
+    "question": "Hoeveel spelers van één basketbalteam staan tegelijkertijd op het veld?",
     "options": [
       "Vijf",
       "Snaren",
@@ -1550,14 +1550,14 @@
     "explanation": "Het ontbijt is doorgaans de eerste maaltijd na het ontwaken."
   },
   "general-x-66": {
-    "question": "In welk document staan ​​de ingrediënten van verpakt voedsel vermeld?",
+    "question": "In welk document staan de ingrediënten van verpakt voedsel vermeld?",
     "options": [
       "Ingrediëntenlijst",
       "Liefde",
       "Badminton",
       "Tennis"
     ],
-    "explanation": "Op voedseletiketten staan ​​de ingrediënten vermeld, meestal in afnemende volgorde van gewicht."
+    "explanation": "Op voedseletiketten staan de ingrediënten vermeld, meestal in afnemende volgorde van gewicht."
   },
   "general-x-67": {
     "question": "Wat doet recycling met bruikbaar materiaal?",
@@ -2197,7 +2197,7 @@
       "Een trein",
       "Een computer"
     ],
-    "explanation": "Een slak draagt ​​een schelp terwijl hij beweegt."
+    "explanation": "Een slak draagt een schelp terwijl hij beweegt."
   },
   "nonsense-x-41": {
     "question": "Wat heeft een punt, maar kan geen argument maken en schrijft op papier?",
@@ -2247,7 +2247,7 @@
       "Een paddestoel",
       "Je adem"
     ],
-    "explanation": "Een traditionele telefoon kan rinkelen om een ​​inkomend gesprek te signaleren."
+    "explanation": "Een traditionele telefoon kan rinkelen om een inkomend gesprek te signaleren."
   },
   "nonsense-x-46": {
     "question": "Wat heeft wielen en vervoert passagiers over rails?",

@@ -19,12 +19,17 @@ describe("question display copy", () => {
   });
 
   it("falls back to source text when a locale field contains an internal numeric code", () => {
-    const damaged = { ...sample, localizations: { zh: { question: "142", options: ["001", "002", "003", "004"], explanation: "002" } } };
+    const damaged = { ...sample, id: "geography-x-feature-1", localizations: { zh: { question: "142", options: ["002", "142", "150", "021"], explanation: "002" } } };
     expect(resolveQuestionCopy(damaged, "zh")).toEqual({ question: sample.question, options: sample.options, explanation: sample.explanation });
   });
 
   it("preserves numeric answer choices when they match the source options", () => {
     const numeric = { ...sample, options: ["142", "002", "003", "004"], localizations: { zh: { question: "哪一个？", options: ["142", "002", "003", "004"], explanation: "答案是 002。" } } };
     expect(resolveQuestionCopy(numeric, "zh").options).toEqual(numeric.options);
+  });
+
+  it("does not treat arbitrary digits as internal codes in numerical quizzes", () => {
+    const numeric = { ...sample, question: "Round 2,000 to the nearest hundred", options: ["1,900", "2,000", "2,100", "2,200"], answer: 1, localizations: { zh: { question: "将2000四舍五入到最接近的百位", options: ["1900", "2000", "2100", "2200"], explanation: "2000 已经是整百数。" } } };
+    expect(resolveQuestionCopy(numeric, "zh").options).toEqual(["1900", "2000", "2100", "2200"]);
   });
 });
