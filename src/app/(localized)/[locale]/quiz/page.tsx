@@ -12,7 +12,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   if (!isPublishedLocale(locale)) return {};
   const quality = await getListLocalizationQuality(locale);
   const indexableLocales = await getIndexableListLocales();
-  return { title: `${messages[locale].title} | woori.today`, description: messages[locale].subtitle, alternates: { canonical: quizPath(locale), languages: quizAlternates(indexableLocales) }, robots: { index: quality.indexable, follow: true }, openGraph: { url: quizPath(locale), title: messages[locale].title, description: messages[locale].subtitle, type: "website" } };
+  return { title: messages[locale].title, description: messages[locale].subtitle, alternates: { canonical: quizPath(locale), languages: quizAlternates(indexableLocales) }, robots: { index: quality.indexable, follow: true }, openGraph: { url: quizPath(locale), title: messages[locale].title, description: messages[locale].subtitle, type: "website" } };
 }
 export default async function LocaleHome({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
