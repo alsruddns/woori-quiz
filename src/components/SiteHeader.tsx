@@ -7,7 +7,8 @@ import Link from "next/link";
 import { isLocale, localeNames, publishedLocales, uiMessages, type Locale } from "@/lib/i18n";
 import { quizPath, quizPathForLocale, SITE_ORIGIN } from "@/lib/urls";
 
-type Service = { id: "portal" | "calculator" | "tools" | "moneyBook" | "docs" | "quiz"; href: string };
+type Service = { id: "portal" | "calculator" | "tools" | "docs" | "quiz"; href: string };
+const enabledServices = new Set<Service["id"]>(["portal", "calculator", "tools", "docs", "quiz"]);
 
 export function SiteHeader({ locale: rawLocale, logoHref, backHref, activeService = "quiz" }: { locale: string; logoHref: string; backHref?: string; activeService?: Service["id"] }) {
   const locale = isLocale(rawLocale) ? rawLocale : "en";
@@ -18,13 +19,13 @@ export function SiteHeader({ locale: rawLocale, logoHref, backHref, activeServic
     { id: "portal", href: `/${locale}` },
     { id: "calculator", href: `${SITE_ORIGIN}/${locale}/calculators` },
     { id: "tools", href: `${SITE_ORIGIN}/${locale}/tools` },
-    { id: "moneyBook", href: `${SITE_ORIGIN}/${locale}/money` },
     { id: "docs", href: `${SITE_ORIGIN}/${locale}/docs` },
     { id: "quiz", href: quizPath(locale) },
-  ];
+  ] satisfies Service[];
+  const visibleServices = services.filter((service) => enabledServices.has(service.id));
 
   function renderServices(className: string) {
-    return services.map(({ id, href }) => {
+    return visibleServices.map(({ id, href }) => {
       const current = id === activeService;
       const label = t[id];
       return <a key={id} href={href} className={`${className}${current ? " active" : ""}`} aria-current={current ? "page" : undefined} target={current ? undefined : "_blank"} rel={current ? undefined : "noopener noreferrer"} onClick={() => setMenuOpen(false)}>{label}</a>;
