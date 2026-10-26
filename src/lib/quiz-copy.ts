@@ -39,7 +39,7 @@ export function quizTitle(locale:Locale, quiz:Pick<Quiz,"slug"|"title">):string 
 export function quizSeoCopy(locale:Locale, quiz:Quiz):{title:string;description:string} {
   const data=catalog(locale), stored=data.quizSeo?.[quiz.slug];
   if (stored) return { ...stored, title: stored.title.replace(/\s*\|\s*woori\.today(?:\s+quiz)?\s*$/i, "") };
-  if (isExpansionLocale(locale) && quiz.slug==="brain-teaser" && data.brainSeo) return data.brainSeo;
+  if (isExpansionLocale(locale) && quiz.slug==="brain-teaser" && data.brainSeo) return { ...data.brainSeo, title: data.brainSeo.title.replace(/\s*\|\s*woori\.today(?:\s+quiz)?\s*$/i, "") };
   const title=quizTitle(locale,quiz);
   return { title, description:data.quizDescriptions[quiz.slug] ?? quizDescription(locale,quiz,title) };
 }
