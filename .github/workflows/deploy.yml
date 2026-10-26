@@ -113,6 +113,8 @@ jobs:
             if [[ -n "$old_image_id" ]]; then
               docker image tag "$rollback_image" "$latest_image"
               "${compose[@]}" up -d --no-deps --wait --wait-timeout 120 quiz
+              docker exec nginx nginx -t
+              docker exec nginx nginx -s reload
             fi
             exit 1
           fi
@@ -124,6 +126,8 @@ jobs:
             if [[ -n "$old_image_id" ]]; then
               docker image tag "$rollback_image" "$latest_image"
               "${compose[@]}" up -d --no-deps --wait --wait-timeout 120 quiz
+              docker exec nginx nginx -t
+              docker exec nginx nginx -s reload
             fi
             exit 1
           fi
@@ -132,10 +136,14 @@ jobs:
             if [[ -n "$old_image_id" ]]; then
               docker image tag "$rollback_image" "$latest_image"
               "${compose[@]}" up -d --no-deps --wait --wait-timeout 120 quiz
+              docker exec nginx nginx -t
+              docker exec nginx nginx -s reload
             fi
             exit 1
           fi
-          echo "Quiz container is running the requested image and serves its detail route."
+          docker exec nginx nginx -t
+          docker exec nginx nginx -s reload
+          echo "Quiz container serves its detail route; Nginx configuration validated and gracefully reloaded."
           REMOTE
 
       - name: Check production health
@@ -169,6 +177,8 @@ jobs:
           docker image inspect "$rollback_image" >/dev/null
           docker image tag "$rollback_image" "$latest_image"
           "${compose[@]}" up -d --no-deps --wait --wait-timeout 120 quiz
+          docker exec nginx nginx -t
+          docker exec nginx nginx -s reload
           REMOTE
 
       - name: Report deployed image digest
