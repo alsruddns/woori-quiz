@@ -192,7 +192,7 @@ test("mobile and desktop result layouts stay within the viewport", async ({ page
   await startBankQuiz(page, 20);
   await completeRound(page, 20);
 
-  for (const width of [320, 375, 390, 768, 1024, 1440]) {
+  for (const width of [320, 360, 375, 390, 430, 768, 1024, 1440]) {
     await page.setViewportSize({ width, height: 900 });
     const dimensions = await page.evaluate(() => ({
       viewport: document.documentElement.clientWidth,
@@ -202,10 +202,37 @@ test("mobile and desktop result layouts stay within the viewport", async ({ page
     expect(dimensions.document, `${width}px horizontal overflow`).toBeLessThanOrEqual(dimensions.viewport + 1);
     expect(dimensions.result, `${width}px result panel overflow`).toBeLessThanOrEqual(width + 1);
     await expect(page.locator(".result-panel")).toBeVisible();
+    const cards = await page.locator(".learning-card").evaluateAll((elements) => elements.map((element) => element.getBoundingClientRect().right));
+    expect(cards.length).toBe(5);
+    expect(cards.every((right) => right <= width + 1), `${width}px learning card overflow`).toBe(true);
   }
 });
 
+test("320px mobile can start, answer, auto-advance, and finish with learning cards visible", async ({ page }) => {
+  await page.clock.install({ time: new Date("2025-01-01T00:00:00Z") });
+  await page.setViewportSize({ width: 320, height: 740 });
+  await page.goto("/en/quiz/general-knowledge");
+  await expect(page.locator('.detail-content[data-quiz-ready="true"]')).toBeVisible();
+  await expect(page.locator(".learning-card")).toHaveCount(5);
+  await page.getByRole("button", { name: "10", exact: true }).click();
+  await page.locator(".start-panel > .button.primary").click();
+  await expect(page.getByRole("progressbar")).toHaveAttribute("aria-valuemax", "10");
+  await page.locator(".answer-grid .answer").first().click();
+  await expect(page.locator(".feedback[role=status]")).toBeVisible();
+  await page.clock.fastForward(850);
+  await expect(page.getByRole("progressbar")).toHaveAttribute("aria-valuenow", "2");
+  await completeRound(page, 10);
+  await expect(page.locator(".result-panel")).toBeVisible();
+  const dimensions = await page.evaluate(() => ({ viewport: document.documentElement.clientWidth, page: document.documentElement.scrollWidth }));
+  expect(dimensions.page).toBeLessThanOrEqual(dimensions.viewport + 1);
+  await expect(page.locator(".learning-card")).toHaveCount(5);
+});
+
 test("all 26 locale routes render and SEO metadata and sitemap remain locale-first", async ({ page, request }) => {
+  const browserErrors: string[] = [];
+  page.on("pageerror", (error) => browserErrors.push(error.message));
+  page.on("console", (message) => { if (message.type() === "error") browserErrors.push(message.text()); });
+
   for (const locale of supportedLocales) {
     for (const suffix of ["", "/world-geography"]) {
       const response = await request.get(`/${locale}/quiz${suffix}`);
@@ -213,6 +240,10 @@ test("all 26 locale routes render and SEO metadata and sitemap remain locale-fir
       const html = await response.text();
       expect(html, `${locale}/quiz${suffix}`).toMatch(/<h1[\s>]/u);
       expect(html, `${locale}/quiz${suffix}`).toContain(`/${locale}/quiz`);
+      if (suffix) {
+        expect(html.match(/class="learning-card"/gu), `${locale}/quiz${suffix}: server-rendered cards`).toHaveLength(5);
+        expect(html.match(/class="learning-card-copy"/gu), `${locale}/quiz${suffix}: visible copy`).toHaveLength(5);
+      }
     }
   }
 
@@ -240,4 +271,14 @@ test("all 26 locale routes render and SEO metadata and sitemap remain locale-fir
   for (const locale of supportedLocales) expect(xml).toContain(`https://www.woori.today/${locale}/quiz`);
   expect(xml).toContain("https://www.woori.today/zh-tw/quiz/world-geography");
   expect(new Set([...xml.matchAll(/<loc>([^<]+)<\/loc>/gu)].map(([, url]) => url)).size).toBe([...xml.matchAll(/<loc>([^<]+)<\/loc>/gu)].length);
+
+  await page.setViewportSize({ width: 320, height: 760 });
+  for (const locale of supportedLocales) {
+    await page.goto(`/${locale}/quiz/world-geography`);
+    await expect(page.locator('.detail-content[data-quiz-ready="true"]'), `${locale}: hydrated quiz`).toBeVisible();
+    await expect(page.locator(".learning-card"), `${locale}: learning cards`).toHaveCount(5);
+    const dimensions = await page.evaluate(() => ({ viewport: document.documentElement.clientWidth, page: document.documentElement.scrollWidth }));
+    expect(dimensions.page, `${locale}: 320px horizontal overflow`).toBeLessThanOrEqual(dimensions.viewport + 1);
+  }
+  expect(browserErrors).toEqual([]);
 });

@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useMemo, useRef, useState } from "react";
+import { useEffect, useMemo, useRef, useState, type ReactNode } from "react";
 import Link from "next/link";
 import { getQuiz, quizzes } from "@/lib/registry";
 import { detailCopy, isLocale, messages, uiMessages, type Locale } from "@/lib/i18n";
@@ -12,7 +12,7 @@ import { resolveQuestionCopy } from "@/lib/question-bank/display-copy";
 import { saveQuizResult } from "@/lib/storage";
 import { InteractiveTest } from "@/components/InteractiveTest";
 import { QuizShell } from "@/components/QuizShell";
-import { anyDifficultyLabel, categoryDescription, quizDescription, scoreFeedback, serviceGuide } from "@/lib/content-copy";
+import { anyDifficultyLabel, quizDescription, scoreFeedback, serviceGuide } from "@/lib/content-copy";
 import { useLocaleCatalog } from "@/lib/use-locale-catalog";
 
 const allDifficultyBankSlugs = new Set([
@@ -28,11 +28,11 @@ const availableLabel: Record<Locale, string> = {
 
 type ReviewAnswer = { question: QuizQuestion; selected: number };
 
-export function QuizView(props: { locale: string; slug: string }) {
+export function QuizView(props: { locale: string; slug: string; learningContent?: ReactNode }) {
   return <QuizSession key={`${props.locale}:${props.slug}`} {...props} />;
 }
 
-function QuizSession({ locale: rawLocale, slug }: { locale: string; slug: string }) {
+function QuizSession({ locale: rawLocale, slug, learningContent = null }: { locale: string; slug: string; learningContent?: ReactNode }) {
   const locale = isLocale(rawLocale) ? rawLocale : "en";
   useLocaleCatalog(locale);
   const t = uiMessages[locale];
@@ -183,10 +183,10 @@ function QuizSession({ locale: rawLocale, slug }: { locale: string; slug: string
       <div className="crumb"><Link href={quizPath(locale)}>{t.back}</Link><span> / </span>{title}</div>
       <section className="detail-hero">
         <span className="eyebrow">{quizCategoryName(locale, quiz.category)}</span>
-        <h1>{title}</h1><p>{quizDescription(locale, quiz, title)}</p>
+        <h1>{title}</h1><p>{t.quizSummary(title)}</p>
         <div className="detail-tags"><span>{quiz.mode === "interactive" ? t.interactiveTest : quiz.mode === "static" ? t.questionSetReview : t.questionCount(sessionLength)}</span><span>{quiz.mode === "bank" && bankDifficulty === "all" ? anyDifficultyLabel[locale] : quiz.difficulty.map((level) => t.difficultyLabels[level]).join(" · ")}</span><span>{quiz.mode === "bank" || quiz.mode === "dynamic" ? `${Math.max(1, Math.ceil(sessionLength * 18))} ${t.seconds}` : t.localeCount}</span></div>
       </section>
-      {quiz.mode === "interactive" ? <><InteractiveTest slug={slug} locale={locale}/><div className="howto"><h2>{t.aboutQuiz}</h2><p>{t.howToDescription}</p></div></> : <>
+      {quiz.mode === "interactive" ? <InteractiveTest slug={slug} locale={locale}/> : <>
         {!started && step < 1 && <div className="start-panel"><h2>{t.startHeading}</h2><p>{t.startDescription}</p>
           {quiz.mode === "dynamic" && <label className="difficulty-select">{t.difficulty}<select value={difficulty} onChange={(event) => setDifficulty(event.target.value as typeof difficulty)}>{quiz.difficulty.map((level) => <option key={level} value={level}>{t.difficultyLabels[level]}</option>)}</select></label>}
           {quiz.mode === "bank" && <label className="difficulty-select">{t.difficulty}<select value={bankDifficulty} onChange={(event) => { const value = event.target.value as typeof bankDifficulty; setBankDifficulty(value); if (value !== "all") setDifficulty(value); }}><option value="all">{anyDifficultyLabel[locale]}</option>{quiz.difficulty.map((level) => <option key={level} value={level}>{t.difficultyLabels[level]}</option>)}</select></label>}
@@ -211,11 +211,11 @@ function QuizSession({ locale: rawLocale, slug }: { locale: string; slug: string
           <div className="result-stats"><span>{t.questionCount(step)}<strong>{step}</strong></span><span>{detail.correctCount}<strong>{score}</strong></span><span>{detail.incorrectCount}<strong>{Math.max(0, step - score)}</strong></span><span>{t.accuracy}<strong>{Math.round(score / Math.max(1, step) * 100)}%</strong></span><span>{t.category[quiz.category]}<strong>{quizCategoryName(locale, quiz.category)}</strong></span><span>{t.difficulty}<strong>{quiz.mode === "bank" && bankDifficulty === "all" ? anyDifficultyLabel[locale] : t.difficultyLabels[difficulty]}</strong></span><span>{t.finishedIn}<strong>{elapsed} {t.seconds}</strong></span></div>
           <h3>{guide.score}</h3><p>{scoreFeedback(locale, score, step)}</p><p>{guide.scoreNote}</p><p>{t.bestScore}</p>
           <div className="result-actions"><button className="button primary" onClick={retry}>{base.retry}<span aria-hidden="true">↻</span></button>{quiz.mode === "bank" && <button className="button" onClick={() => { setStep(0); setScore(0); setStarted(false); setBankReview([]); }}>{detail.newSet}</button>}<Link className="button" href={quizPath(locale)}>{detail.otherQuizzes}</Link></div>
-          {quiz.mode === "bank" && bankReview.some(({ question, selected }) => selected !== question.answer) && <details className="question-review" open><summary>{detail.incorrectCount} ({step - score})</summary><ol>{bankReview.filter(({ question, selected }) => selected !== question.answer).map(({ question, selected }) => { const copy = resolveQuestionCopy(question, locale); const questionNumber = bankReview.findIndex((answerRecord) => answerRecord.question.id === question.id) + 1; return <li key={question.id}><small>{base.question} {questionNumber}</small><strong>{copy.question}</strong><p><b>{t.incorrect}:</b> {copy.options[selected]}</p><p><b>{t.correct}:</b> {copy.options[question.answer]}</p>{copy.explanation && <p>{copy.explanation}</p>}</li>; })}</ol></details>}
+          {quiz.mode === "bank" && bankReview.some(({ question, selected }) => selected !== question.answer) && <section className="question-review" aria-label={detail.incorrectCount}><h3>{detail.incorrectCount} ({step - score})</h3><ol>{bankReview.filter(({ question, selected }) => selected !== question.answer).map(({ question, selected }) => { const copy = resolveQuestionCopy(question, locale); const questionNumber = bankReview.findIndex((answerRecord) => answerRecord.question.id === question.id) + 1; return <li key={question.id}><small>{base.question} {questionNumber}</small><strong>{copy.question}</strong><p><b>{t.incorrect}:</b> {copy.options[selected]}</p><p><b>{t.correct}:</b> {copy.options[question.answer]}</p>{copy.explanation && <p>{copy.explanation}</p>}</li>; })}</ol></section>}
         </div>}
         {quiz.mode === "static" && <div className="coming-panel"><span aria-hidden="true">✦</span><div><b>{t.reviewHeading}</b><p>{t.reviewDescription}</p></div></div>}
-        <div className="howto"><h2>{guide.focus}</h2><p>{categoryDescription(locale, quiz.category)}</p><p>{t.difficulty}: {quiz.difficulty.map((level) => t.difficultyLabels[level]).join(", ")}.</p><h2>{t.howToPlay}</h2><p>{t.howToDescription}</p><h3>{guide.score}</h3><p>{guide.scoreNote}</p><h3>{t.faq}</h3><details><summary>{t.scoreUploadedQuestion}</summary><p>{t.scoreUploadedAnswer}</p></details></div>
       </>}
+      {learningContent}
       {related.length > 0 && <section className="related"><h2>{base.related}</h2><div className="quiz-grid">{related.map((item) => {
         const relatedTitle = quizTitle(locale, item);
         return <Link className="quiz-card" href={quizPath(locale, item.slug)} key={item.slug}><span className="card-category">{quizCategoryName(locale, item.category)}</span><h3>{relatedTitle}</h3><p>{quizDescription(locale, item, relatedTitle)}</p></Link>;
