@@ -282,3 +282,26 @@ test("all 26 locale routes render and SEO metadata and sitemap remain locale-fir
   }
   expect(browserErrors).toEqual([]);
 });
+
+test("learning cards and quiz flow fit required desktop and mobile widths", async ({ page }) => {
+  const widths = [320, 360, 375, 390, 430, 768, 1024, 1440];
+  for (const width of widths) {
+    await page.setViewportSize({ width, height: 900 });
+    await page.goto("/en/quiz/world-geography");
+    await expect(page.locator('.detail-content[data-quiz-ready="true"]')).toBeVisible();
+    await expect(page.locator("main h1")).toBeVisible();
+    await expect(page.locator(".learning-card")).toHaveCount(5);
+    const initial = await page.evaluate(() => ({ viewport: document.documentElement.clientWidth, page: document.documentElement.scrollWidth }));
+    expect(initial.page, `${width}px detail overflow`).toBeLessThanOrEqual(initial.viewport + 1);
+
+    await page.getByRole("button", { name: "10", exact: true }).click();
+    await page.locator(".start-panel > .button.primary").click();
+    await expect(page.getByRole("progressbar")).toHaveAttribute("aria-valuemax", "10");
+    await page.locator(".answer-grid .answer").first().click();
+    await expect(page.locator('.feedback[role="status"]')).toBeVisible();
+    await page.clock.fastForward(850);
+    await expect(page.getByRole("progressbar")).toHaveAttribute("aria-valuenow", "2");
+    const playing = await page.evaluate(() => ({ viewport: document.documentElement.clientWidth, page: document.documentElement.scrollWidth }));
+    expect(playing.page, `${width}px gameplay overflow`).toBeLessThanOrEqual(playing.viewport + 1);
+  }
+});
