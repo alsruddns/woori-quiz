@@ -150,6 +150,9 @@ describe("localization quality index policy", () => {
     for (const locale of locales.filter((item) => !publishedLocales.includes(item as (typeof publishedLocales)[number]))) {
       expect(audit.byLocale[locale].indexableQuizCount, `${locale} must wait for complete question coverage`).toBe(0);
     }
+    for (const locale of locales) {
+      expect(audit.byLocale[locale].explanationFallbacks, `${locale}: translated answer explanations`).toBe(0);
+    }
     for (const locale of locales.filter((item) => item !== "en")) {
       expect(audit.byLocale[locale].indexableQuizCount).toBeGreaterThanOrEqual(0);
       expect(audit.byLocale[locale].noindexQuizCount + audit.byLocale[locale].indexableQuizCount).toBe(58);

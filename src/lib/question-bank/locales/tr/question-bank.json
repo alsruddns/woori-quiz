@@ -2311,7 +2311,7 @@
   },
   "math-x-sum-1": {
     "question": "14 + 8 nedir?",
-    "explanation": "14 + 8 = 22.",
+    "explanation": "Bir sonraki onluğa tamamlayın: 14 + 8 = 20 + 2 = 22.",
     "options": [
       "22",
       "21",
@@ -2321,7 +2321,7 @@
   },
   "math-x-product-1": {
     "question": "7 × 5 kaçtır?",
-    "explanation": "7 × 5 = 35.",
+    "explanation": "Çarpımı hesaplayın: 7 × 5 = 35.",
     "options": [
       "35",
       "30",
@@ -2351,7 +2351,7 @@
   },
   "math-x-sum-2": {
     "question": "17 + 9 nedir?",
-    "explanation": "17 + 9 = 26.",
+    "explanation": "Bir sonraki onluğa tamamlayın: 17 + 9 = 20 + 6 = 26.",
     "options": [
       "26",
       "25",
@@ -2361,7 +2361,7 @@
   },
   "math-x-product-2": {
     "question": "8 × 6 kaçtır?",
-    "explanation": "8 × 6 = 48.",
+    "explanation": "Çarpımı hesaplayın: 8 × 6 = 48.",
     "options": [
       "48",
       "42",
@@ -2391,7 +2391,7 @@
   },
   "math-x-sum-3": {
     "question": "20 + 10 nedir?",
-    "explanation": "20 + 10 = 30.",
+    "explanation": "Bir sonraki onluğa tamamlayın: 20 + 10 = 30 + 0 = 30.",
     "options": [
       "30",
       "29",
@@ -2401,7 +2401,7 @@
   },
   "math-x-product-3": {
     "question": "9 × 7 kaçtır?",
-    "explanation": "9 × 7 = 63.",
+    "explanation": "Çarpımı hesaplayın: 9 × 7 = 63.",
     "options": [
       "63",
       "56",
@@ -2431,7 +2431,7 @@
   },
   "math-x-sum-4": {
     "question": "23 + 11 nedir?",
-    "explanation": "23 + 11 = 34.",
+    "explanation": "Bir sonraki onluğa tamamlayın: 23 + 11 = 30 + 4 = 34.",
     "options": [
       "34",
       "33",
@@ -2441,7 +2441,7 @@
   },
   "math-x-product-4": {
     "question": "10 × 8 kaçtır?",
-    "explanation": "10 × 8 = 80.",
+    "explanation": "Çarpımı hesaplayın: 10 × 8 = 80.",
     "options": [
       "80",
       "72",
@@ -2471,7 +2471,7 @@
   },
   "math-x-sum-5": {
     "question": "26 + 12 nedir?",
-    "explanation": "26 + 12 = 38.",
+    "explanation": "Bir sonraki onluğa tamamlayın: 26 + 12 = 30 + 8 = 38.",
     "options": [
       "38",
       "37",
@@ -2481,7 +2481,7 @@
   },
   "math-x-product-5": {
     "question": "11 × 9 kaçtır?",
-    "explanation": "11 × 9 = 99.",
+    "explanation": "Çarpımı hesaplayın: 11 × 9 = 99.",
     "options": [
       "99",
       "90",
@@ -2511,7 +2511,7 @@
   },
   "math-x-sum-6": {
     "question": "29 + 13 nedir?",
-    "explanation": "29 + 13 = 42.",
+    "explanation": "Bir sonraki onluğa tamamlayın: 29 + 13 = 30 + 12 = 42.",
     "options": [
       "42",
       "41",
@@ -2521,7 +2521,7 @@
   },
   "math-x-product-6": {
     "question": "12 × 10 kaçtır?",
-    "explanation": "12 × 10 = 120.",
+    "explanation": "Çarpanı basamaklarına ayırın: 12 × 10 = 12 × (10 + 0) = 120 + 0 = 120.",
     "options": [
       "120",
       "110",
@@ -2551,7 +2551,7 @@
   },
   "math-x-sum-7": {
     "question": "32 + 14 nedir?",
-    "explanation": "32 + 14 = 46.",
+    "explanation": "Bir sonraki onluğa tamamlayın: 32 + 14 = 40 + 6 = 46.",
     "options": [
       "46",
       "45",
@@ -2561,7 +2561,7 @@
   },
   "math-x-product-7": {
     "question": "13 × 11 kaçtır?",
-    "explanation": "13 × 11 = 143.",
+    "explanation": "Çarpanı basamaklarına ayırın: 13 × 11 = 13 × (10 + 1) = 130 + 13 = 143.",
     "options": [
       "143",
       "132",
@@ -2591,7 +2591,7 @@
   },
   "math-x-sum-8": {
     "question": "35 + 15 nedir?",
-    "explanation": "35 + 15 = 50.",
+    "explanation": "Bir sonraki onluğa tamamlayın: 35 + 15 = 40 + 10 = 50.",
     "options": [
       "50",
       "49",
@@ -2601,7 +2601,7 @@
   },
   "math-x-product-8": {
     "question": "14 × 12 kaçtır?",
-    "explanation": "14 × 12 = 168.",
+    "explanation": "Çarpanı basamaklarına ayırın: 14 × 12 = 14 × (10 + 2) = 140 + 28 = 168.",
     "options": [
       "168",
       "156",
@@ -2631,7 +2631,7 @@
   },
   "math-x-sum-9": {
     "question": "38 + 16 nedir?",
-    "explanation": "38 + 16 = 54.",
+    "explanation": "Bir sonraki onluğa tamamlayın: 38 + 16 = 40 + 14 = 54.",
     "options": [
       "54",
       "53",
@@ -2641,7 +2641,7 @@
   },
   "math-x-product-9": {
     "question": "15 × 13 kaçtır?",
-    "explanation": "15 × 13 = 195.",
+    "explanation": "Çarpanı basamaklarına ayırın: 15 × 13 = 15 × (10 + 3) = 150 + 45 = 195.",
     "options": [
       "195",
       "182",
@@ -2671,7 +2671,7 @@
   },
   "math-x-sum-10": {
     "question": "41 + 17 nedir?",
-    "explanation": "41 + 17 = 58.",
+    "explanation": "Bir sonraki onluğa tamamlayın: 41 + 17 = 50 + 8 = 58.",
     "options": [
       "58",
       "57",
@@ -2681,7 +2681,7 @@
   },
   "math-x-product-10": {
     "question": "16 × 14 kaçtır?",
-    "explanation": "16 × 14 = 224.",
+    "explanation": "Çarpanı basamaklarına ayırın: 16 × 14 = 16 × (10 + 4) = 160 + 64 = 224.",
     "options": [
       "224",
       "210",
@@ -2711,7 +2711,7 @@
   },
   "math-x-sum-11": {
     "question": "44 + 18 nedir?",
-    "explanation": "44 + 18 = 62.",
+    "explanation": "Bir sonraki onluğa tamamlayın: 44 + 18 = 50 + 12 = 62.",
     "options": [
       "62",
       "61",
@@ -2721,7 +2721,7 @@
   },
   "math-x-product-11": {
     "question": "17 × 15 kaçtır?",
-    "explanation": "17 × 15 = 255.",
+    "explanation": "Çarpanı basamaklarına ayırın: 17 × 15 = 17 × (10 + 5) = 170 + 85 = 255.",
     "options": [
       "255",
       "240",
@@ -2751,7 +2751,7 @@
   },
   "math-x-sum-12": {
     "question": "47 + 19 nedir?",
-    "explanation": "47 + 19 = 66.",
+    "explanation": "Bir sonraki onluğa tamamlayın: 47 + 19 = 50 + 16 = 66.",
     "options": [
       "66",
       "65",
@@ -2761,7 +2761,7 @@
   },
   "math-x-product-12": {
     "question": "18 × 16 kaçtır?",
-    "explanation": "18 × 16 = 288.",
+    "explanation": "Çarpanı basamaklarına ayırın: 18 × 16 = 18 × (10 + 6) = 180 + 108 = 288.",
     "options": [
       "288",
       "272",
@@ -2791,7 +2791,7 @@
   },
   "math-x-sum-13": {
     "question": "50 + 20 nedir?",
-    "explanation": "50 + 20 = 70.",
+    "explanation": "Bir sonraki onluğa tamamlayın: 50 + 20 = 60 + 10 = 70.",
     "options": [
       "70",
       "69",
@@ -2801,7 +2801,7 @@
   },
   "math-x-product-13": {
     "question": "19 × 17 kaçtır?",
-    "explanation": "19 × 17 = 323.",
+    "explanation": "Çarpanı basamaklarına ayırın: 19 × 17 = 19 × (10 + 7) = 190 + 133 = 323.",
     "options": [
       "323",
       "306",
@@ -2831,7 +2831,7 @@
   },
   "math-x-sum-14": {
     "question": "53 + 21 nedir?",
-    "explanation": "53 + 21 = 74.",
+    "explanation": "Bir sonraki onluğa tamamlayın: 53 + 21 = 60 + 14 = 74.",
     "options": [
       "74",
       "73",
@@ -2841,7 +2841,7 @@
   },
   "math-x-product-14": {
     "question": "20 × 18 kaçtır?",
-    "explanation": "20 × 18 = 360.",
+    "explanation": "Çarpanı basamaklarına ayırın: 20 × 18 = 20 × (10 + 8) = 200 + 160 = 360.",
     "options": [
       "360",
       "342",
@@ -2871,7 +2871,7 @@
   },
   "math-x-sum-15": {
     "question": "56 + 22 nedir?",
-    "explanation": "56 + 22 = 78.",
+    "explanation": "Bir sonraki onluğa tamamlayın: 56 + 22 = 60 + 18 = 78.",
     "options": [
       "78",
       "77",
@@ -2881,7 +2881,7 @@
   },
   "math-x-product-15": {
     "question": "21 × 19 kaçtır?",
-    "explanation": "21 × 19 = 399.",
+    "explanation": "Çarpanı basamaklarına ayırın: 21 × 19 = 21 × (10 + 9) = 210 + 189 = 399.",
     "options": [
       "399",
       "380",
@@ -2911,7 +2911,7 @@
   },
   "math-x-sum-16": {
     "question": "59 + 23 nedir?",
-    "explanation": "59 + 23 = 82.",
+    "explanation": "Bir sonraki onluğa tamamlayın: 59 + 23 = 60 + 22 = 82.",
     "options": [
       "82",
       "81",
@@ -2921,7 +2921,7 @@
   },
   "math-x-product-16": {
     "question": "22 × 20 kaçtır?",
-    "explanation": "22 × 20 = 440.",
+    "explanation": "Çarpanı basamaklarına ayırın: 22 × 20 = 22 × (20 + 0) = 440 + 0 = 440.",
     "options": [
       "440",
       "420",
@@ -2951,7 +2951,7 @@
   },
   "math-x-sum-17": {
     "question": "62 + 24 nedir?",
-    "explanation": "62 + 24 = 86.",
+    "explanation": "Bir sonraki onluğa tamamlayın: 62 + 24 = 70 + 16 = 86.",
     "options": [
       "86",
       "85",
@@ -2961,7 +2961,7 @@
   },
   "math-x-product-17": {
     "question": "23 × 21 kaçtır?",
-    "explanation": "23 × 21 = 483.",
+    "explanation": "Çarpanı basamaklarına ayırın: 23 × 21 = 23 × (20 + 1) = 460 + 23 = 483.",
     "options": [
       "483",
       "462",
@@ -2991,7 +2991,7 @@
   },
   "math-x-sum-18": {
     "question": "65 + 25 nedir?",
-    "explanation": "65 + 25 = 90.",
+    "explanation": "Bir sonraki onluğa tamamlayın: 65 + 25 = 70 + 20 = 90.",
     "options": [
       "90",
       "89",
@@ -3001,7 +3001,7 @@
   },
   "math-x-product-18": {
     "question": "24 × 22 kaçtır?",
-    "explanation": "24 × 22 = 528.",
+    "explanation": "Çarpanı basamaklarına ayırın: 24 × 22 = 24 × (20 + 2) = 480 + 48 = 528.",
     "options": [
       "528",
       "506",
@@ -3031,7 +3031,7 @@
   },
   "math-x-sum-19": {
     "question": "68 + 26 nedir?",
-    "explanation": "68 + 26 = 94.",
+    "explanation": "Bir sonraki onluğa tamamlayın: 68 + 26 = 70 + 24 = 94.",
     "options": [
       "94",
       "93",
@@ -3041,7 +3041,7 @@
   },
   "math-x-product-19": {
     "question": "25 × 23 kaçtır?",
-    "explanation": "25 × 23 = 575.",
+    "explanation": "Çarpanı basamaklarına ayırın: 25 × 23 = 25 × (20 + 3) = 500 + 75 = 575.",
     "options": [
       "575",
       "552",
@@ -3071,7 +3071,7 @@
   },
   "math-x-sum-20": {
     "question": "71 + 27 nedir?",
-    "explanation": "71 + 27 = 98.",
+    "explanation": "Bir sonraki onluğa tamamlayın: 71 + 27 = 80 + 18 = 98.",
     "options": [
       "98",
       "97",
@@ -3081,7 +3081,7 @@
   },
   "math-x-product-20": {
     "question": "26 × 24 kaçtır?",
-    "explanation": "26 × 24 = 624.",
+    "explanation": "Çarpanı basamaklarına ayırın: 26 × 24 = 26 × (20 + 4) = 520 + 104 = 624.",
     "options": [
       "624",
       "600",
@@ -3111,7 +3111,7 @@
   },
   "math-x-sum-21": {
     "question": "74 + 28 nedir?",
-    "explanation": "74 + 28 = 102.",
+    "explanation": "Bir sonraki onluğa tamamlayın: 74 + 28 = 80 + 22 = 102.",
     "options": [
       "102",
       "101",
@@ -3121,7 +3121,7 @@
   },
   "math-x-product-21": {
     "question": "27 × 25 kaçtır?",
-    "explanation": "27 × 25 = 675.",
+    "explanation": "Çarpanı basamaklarına ayırın: 27 × 25 = 27 × (20 + 5) = 540 + 135 = 675.",
     "options": [
       "675",
       "650",
@@ -3151,7 +3151,7 @@
   },
   "math-x-sum-22": {
     "question": "77 + 29 nedir?",
-    "explanation": "77 + 29 = 106.",
+    "explanation": "Bir sonraki onluğa tamamlayın: 77 + 29 = 80 + 26 = 106.",
     "options": [
       "106",
       "105",
@@ -3161,7 +3161,7 @@
   },
   "math-x-product-22": {
     "question": "28 × 26 kaçtır?",
-    "explanation": "28 × 26 = 728.",
+    "explanation": "Çarpanı basamaklarına ayırın: 28 × 26 = 28 × (20 + 6) = 560 + 168 = 728.",
     "options": [
       "728",
       "702",
@@ -3191,7 +3191,7 @@
   },
   "math-x-sum-23": {
     "question": "80 + 30 nedir?",
-    "explanation": "80 + 30 = 110.",
+    "explanation": "Bir sonraki onluğa tamamlayın: 80 + 30 = 90 + 20 = 110.",
     "options": [
       "110",
       "109",
@@ -3201,7 +3201,7 @@
   },
   "math-x-product-23": {
     "question": "29 × 27 kaçtır?",
-    "explanation": "29 × 27 = 783.",
+    "explanation": "Çarpanı basamaklarına ayırın: 29 × 27 = 29 × (20 + 7) = 580 + 203 = 783.",
     "options": [
       "783",
       "756",
@@ -3231,7 +3231,7 @@
   },
   "math-x-sum-24": {
     "question": "83 + 31 nedir?",
-    "explanation": "83 + 31 = 114.",
+    "explanation": "Bir sonraki onluğa tamamlayın: 83 + 31 = 90 + 24 = 114.",
     "options": [
       "114",
       "113",
@@ -3241,7 +3241,7 @@
   },
   "math-x-product-24": {
     "question": "30 × 28 kaçtır?",
-    "explanation": "30 × 28 = 840.",
+    "explanation": "Çarpanı basamaklarına ayırın: 30 × 28 = 30 × (20 + 8) = 600 + 240 = 840.",
     "options": [
       "840",
       "812",
