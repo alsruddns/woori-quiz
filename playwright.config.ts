@@ -1,12 +1,13 @@
 import { defineConfig, devices } from "@playwright/test";
 
-const baseURL = "http://127.0.0.1:3005";
+const port = process.env.PLAYWRIGHT_PORT ?? "3005";
+const baseURL = `http://127.0.0.1:${port}`;
 const webServer = process.env.PLAYWRIGHT_EXTERNAL_URL ? undefined : {
   command: "pnpm start",
   url: `${baseURL}/en/quiz`,
   reuseExistingServer: !process.env.CI,
   timeout: 120_000,
-  env: { PORT: "3005", HOSTNAME: "127.0.0.1" },
+  env: { PORT: port, HOSTNAME: "127.0.0.1" },
 };
 
 export default defineConfig({

@@ -260,14 +260,14 @@
     "explanation": "Sena curge prin Paris."
   },
   "geography-027": {
-    "question": "Care este cel mai mic continent de zonă?",
+    "question": "În modelul cu șapte continente, care continent are cea mai mică suprafață terestră?",
     "options": [
       "Europa",
       "Antarctica",
       "Australia",
       "America de Sud"
     ],
-    "explanation": "Australia este cel mai mic continent din zonă."
+    "explanation": "În modelul cu șapte continente, Australia are cea mai mică suprafață terestră. Împărțirea continentelor poate varia în funcție de model."
   },
   "geography-028": {
     "question": "În ce țară se află Muntele Kilimanjaro?",

@@ -260,14 +260,14 @@
     "explanation": "Die Seine fließt durch Paris."
   },
   "geography-027": {
-    "question": "Welcher ist flächenmäßig der kleinste Kontinent?",
+    "question": "Welcher Kontinent ist im Sieben-Kontinente-Modell flächenmäßig der kleinste?",
     "options": [
       "Europa",
       "Antarktis",
       "Australien",
       "Südamerika"
     ],
-    "explanation": "Australien ist flächenmäßig der kleinste Kontinent."
+    "explanation": "Im Sieben-Kontinente-Modell ist Australien flächenmäßig der kleinste Kontinent. Je nach Modell kann die Einteilung der Kontinente variieren."
   },
   "geography-028": {
     "question": "Der Kilimandscharo liegt in welchem Land?",

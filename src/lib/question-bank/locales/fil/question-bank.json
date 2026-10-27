@@ -260,14 +260,14 @@
     "explanation": "Dumadaloy ang Seine sa Paris."
   },
   "geography-027": {
-    "question": "Alin ang pinakamaliit na kontinente?",
+    "question": "Sa pitong-kontinenteng modelo, aling kontinente ang may pinakamaliit na lawak ng lupain?",
     "options": [
       "Europa",
       "Antartika",
       "Australia",
       "Timog Amerika"
     ],
-    "explanation": "Ang Australia ang pinakamaliit na kontinente ayon sa lawak."
+    "explanation": "Sa pitong-kontinenteng modelo, Australia ang may pinakamaliit na lawak ng lupain. Maaaring mag-iba ang pag-uuri ng mga kontinente depende sa modelo."
   },
   "geography-028": {
     "question": "Ang Bundok Kilimanjaro ay nasa aling bansa?",

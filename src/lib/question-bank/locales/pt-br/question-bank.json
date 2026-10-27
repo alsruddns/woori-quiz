@@ -260,14 +260,14 @@
     "explanation": "O Sena flui por Paris."
   },
   "geography-027": {
-    "question": "Qual é o menor continente em área?",
+    "question": "No modelo de sete continentes, qual continente tem a menor área terrestre?",
     "options": [
       "Europa",
       "Antártida",
       "Austrália",
       "América do Sul"
     ],
-    "explanation": "A Austrália é o menor continente em área."
+    "explanation": "No modelo de sete continentes, a Austrália é o continente com a menor área terrestre. A classificação pode variar conforme o modelo."
   },
   "geography-028": {
     "question": "O Monte Kilimanjaro fica em que país?",

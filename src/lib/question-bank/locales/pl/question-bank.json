@@ -260,8 +260,8 @@
     ]
   },
   "geography-027": {
-    "question": "Jaki jest najmniejszy kontynent po okolicy?",
-    "explanation": "Australia jest najmniejszym kontynentem według obszarów.",
+    "question": "Który kontynent jest najmniejszy pod względem powierzchni lądowej w modelu siedmiu kontynentów?",
+    "explanation": "W modelu siedmiu kontynentów Australia jest najmniejszym kontynentem pod względem powierzchni lądowej. Podział kontynentów może się różnić w zależności od modelu.",
     "options": [
       "Europa",
       "Antarktyka",
@@ -2311,7 +2311,7 @@
   },
   "math-x-sum-1": {
     "question": "Co to jest 14 + 8?",
-    "explanation": "14 + 8 = 22.",
+    "explanation": "Dopełnij do następnej dziesiątki: 14 + 8 = 20 + 2 = 22.",
     "options": [
       "22",
       "21",
@@ -2321,7 +2321,7 @@
   },
   "math-x-product-1": {
     "question": "Czym jest 7 × 5?",
-    "explanation": "7 × 5 = 35.",
+    "explanation": "Oblicz iloczyn: 7 × 5 = 35.",
     "options": [
       "35",
       "30",
@@ -2351,7 +2351,7 @@
   },
   "math-x-sum-2": {
     "question": "Co to jest 17 + 9?",
-    "explanation": "17 + 9 = 26.",
+    "explanation": "Dopełnij do następnej dziesiątki: 17 + 9 = 20 + 6 = 26.",
     "options": [
       "26",
       "25",
@@ -2361,7 +2361,7 @@
   },
   "math-x-product-2": {
     "question": "Co to jest 8 × 6?",
-    "explanation": "8 × 6 = 48.",
+    "explanation": "Oblicz iloczyn: 8 × 6 = 48.",
     "options": [
       "48",
       "42",
@@ -2391,7 +2391,7 @@
   },
   "math-x-sum-3": {
     "question": "Co to jest 20 + 10?",
-    "explanation": "20 + 10 = 30.",
+    "explanation": "Dopełnij do następnej dziesiątki: 20 + 10 = 30 + 0 = 30.",
     "options": [
       "30",
       "29",
@@ -2401,7 +2401,7 @@
   },
   "math-x-product-3": {
     "question": "Co to jest 9 × 7?",
-    "explanation": "9 × 7 = 63.",
+    "explanation": "Oblicz iloczyn: 9 × 7 = 63.",
     "options": [
       "63",
       "56",
@@ -2431,7 +2431,7 @@
   },
   "math-x-sum-4": {
     "question": "Co to jest 23 + 11?",
-    "explanation": "23 + 11 = 34.",
+    "explanation": "Dopełnij do następnej dziesiątki: 23 + 11 = 30 + 4 = 34.",
     "options": [
       "34",
       "33",
@@ -2441,7 +2441,7 @@
   },
   "math-x-product-4": {
     "question": "Co to jest 10 × 8?",
-    "explanation": "10 × 8 = 80.",
+    "explanation": "Oblicz iloczyn: 10 × 8 = 80.",
     "options": [
       "80",
       "72",
@@ -2471,7 +2471,7 @@
   },
   "math-x-sum-5": {
     "question": "Co to jest 26 + 12?",
-    "explanation": "26 + 12 = 38.",
+    "explanation": "Dopełnij do następnej dziesiątki: 26 + 12 = 30 + 8 = 38.",
     "options": [
       "38",
       "37",
@@ -2481,7 +2481,7 @@
   },
   "math-x-product-5": {
     "question": "Co to jest 11 × 9?",
-    "explanation": "11 × 9 = 99.",
+    "explanation": "Oblicz iloczyn: 11 × 9 = 99.",
     "options": [
       "99",
       "90",
@@ -2511,7 +2511,7 @@
   },
   "math-x-sum-6": {
     "question": "Co to jest 29 + 13?",
-    "explanation": "29 + 13 = 42.",
+    "explanation": "Dopełnij do następnej dziesiątki: 29 + 13 = 30 + 12 = 42.",
     "options": [
       "42",
       "41",
@@ -2521,7 +2521,7 @@
   },
   "math-x-product-6": {
     "question": "Co to jest 12 × 10?",
-    "explanation": "12 × 10 = 120.",
+    "explanation": "Rozbij czynnik na dziesiątki i jedynki: 12 × 10 = 12 × (10 + 0) = 120 + 0 = 120.",
     "options": [
       "120",
       "110",
@@ -2551,7 +2551,7 @@
   },
   "math-x-sum-7": {
     "question": "Co to jest 32 + 14?",
-    "explanation": "32 + 14 = 46.",
+    "explanation": "Dopełnij do następnej dziesiątki: 32 + 14 = 40 + 6 = 46.",
     "options": [
       "46",
       "45",
@@ -2561,7 +2561,7 @@
   },
   "math-x-product-7": {
     "question": "Co to jest 13 × 11?",
-    "explanation": "13 × 11 = 143.",
+    "explanation": "Rozbij czynnik na dziesiątki i jedynki: 13 × 11 = 13 × (10 + 1) = 130 + 13 = 143.",
     "options": [
       "143",
       "132",
@@ -2591,7 +2591,7 @@
   },
   "math-x-sum-8": {
     "question": "Co to jest 35 + 15?",
-    "explanation": "35 + 15 = 50.",
+    "explanation": "Dopełnij do następnej dziesiątki: 35 + 15 = 40 + 10 = 50.",
     "options": [
       "50",
       "49",
@@ -2601,7 +2601,7 @@
   },
   "math-x-product-8": {
     "question": "Czym jest 14 × 12?",
-    "explanation": "14 × 12 = 168.",
+    "explanation": "Rozbij czynnik na dziesiątki i jedynki: 14 × 12 = 14 × (10 + 2) = 140 + 28 = 168.",
     "options": [
       "168",
       "156",
@@ -2631,7 +2631,7 @@
   },
   "math-x-sum-9": {
     "question": "Co to jest 38 + 16?",
-    "explanation": "38 + 16 = 54.",
+    "explanation": "Dopełnij do następnej dziesiątki: 38 + 16 = 40 + 14 = 54.",
     "options": [
       "54",
       "53",
@@ -2641,7 +2641,7 @@
   },
   "math-x-product-9": {
     "question": "Co to jest 15 × 13?",
-    "explanation": "15 × 13 = 195.",
+    "explanation": "Rozbij czynnik na dziesiątki i jedynki: 15 × 13 = 15 × (10 + 3) = 150 + 45 = 195.",
     "options": [
       "195",
       "182",
@@ -2671,7 +2671,7 @@
   },
   "math-x-sum-10": {
     "question": "Co to jest 41 + 17?",
-    "explanation": "41 + 17 = 58.",
+    "explanation": "Dopełnij do następnej dziesiątki: 41 + 17 = 50 + 8 = 58.",
     "options": [
       "58",
       "57",
@@ -2681,7 +2681,7 @@
   },
   "math-x-product-10": {
     "question": "Co to jest 16 × 14?",
-    "explanation": "16 × 14 = 224.",
+    "explanation": "Rozbij czynnik na dziesiątki i jedynki: 16 × 14 = 16 × (10 + 4) = 160 + 64 = 224.",
     "options": [
       "224",
       "210",
@@ -2711,7 +2711,7 @@
   },
   "math-x-sum-11": {
     "question": "Co to jest 44 + 18?",
-    "explanation": "44 + 18 = 62.",
+    "explanation": "Dopełnij do następnej dziesiątki: 44 + 18 = 50 + 12 = 62.",
     "options": [
       "62",
       "61",
@@ -2721,7 +2721,7 @@
   },
   "math-x-product-11": {
     "question": "Co to jest 17 × 15?",
-    "explanation": "17 × 15 = 255.",
+    "explanation": "Rozbij czynnik na dziesiątki i jedynki: 17 × 15 = 17 × (10 + 5) = 170 + 85 = 255.",
     "options": [
       "255",
       "240",
@@ -2751,7 +2751,7 @@
   },
   "math-x-sum-12": {
     "question": "Co to jest 47 + 19?",
-    "explanation": "47 + 19 = 66.",
+    "explanation": "Dopełnij do następnej dziesiątki: 47 + 19 = 50 + 16 = 66.",
     "options": [
       "66",
       "65",
@@ -2761,7 +2761,7 @@
   },
   "math-x-product-12": {
     "question": "Co to jest 18 × 16?",
-    "explanation": "18 × 16 = 288.",
+    "explanation": "Rozbij czynnik na dziesiątki i jedynki: 18 × 16 = 18 × (10 + 6) = 180 + 108 = 288.",
     "options": [
       "288",
       "272",
@@ -2791,7 +2791,7 @@
   },
   "math-x-sum-13": {
     "question": "Co to jest 50 + 20?",
-    "explanation": "50 + 20 = 70.",
+    "explanation": "Dopełnij do następnej dziesiątki: 50 + 20 = 60 + 10 = 70.",
     "options": [
       "70",
       "69",
@@ -2801,7 +2801,7 @@
   },
   "math-x-product-13": {
     "question": "Czym jest 19 × 17?",
-    "explanation": "19 × 17 = 323.",
+    "explanation": "Rozbij czynnik na dziesiątki i jedynki: 19 × 17 = 19 × (10 + 7) = 190 + 133 = 323.",
     "options": [
       "323",
       "306",
@@ -2831,7 +2831,7 @@
   },
   "math-x-sum-14": {
     "question": "Co to jest 53 + 21?",
-    "explanation": "53 + 21 = 74.",
+    "explanation": "Dopełnij do następnej dziesiątki: 53 + 21 = 60 + 14 = 74.",
     "options": [
       "74",
       "73",
@@ -2841,7 +2841,7 @@
   },
   "math-x-product-14": {
     "question": "Co to jest 20 × 18?",
-    "explanation": "20 × 18 = 360.",
+    "explanation": "Rozbij czynnik na dziesiątki i jedynki: 20 × 18 = 20 × (10 + 8) = 200 + 160 = 360.",
     "options": [
       "360",
       "342",
@@ -2871,7 +2871,7 @@
   },
   "math-x-sum-15": {
     "question": "Co to jest 56 + 22?",
-    "explanation": "56 + 22 = 78.",
+    "explanation": "Dopełnij do następnej dziesiątki: 56 + 22 = 60 + 18 = 78.",
     "options": [
       "78",
       "77",
@@ -2881,7 +2881,7 @@
   },
   "math-x-product-15": {
     "question": "Co to jest 21 × 19?",
-    "explanation": "21 × 19 = 399.",
+    "explanation": "Rozbij czynnik na dziesiątki i jedynki: 21 × 19 = 21 × (10 + 9) = 210 + 189 = 399.",
     "options": [
       "399",
       "380",
@@ -2911,7 +2911,7 @@
   },
   "math-x-sum-16": {
     "question": "Co to jest 59 + 23?",
-    "explanation": "59 + 23 = 82.",
+    "explanation": "Dopełnij do następnej dziesiątki: 59 + 23 = 60 + 22 = 82.",
     "options": [
       "82",
       "81",
@@ -2921,7 +2921,7 @@
   },
   "math-x-product-16": {
     "question": "Co to jest 22 × 20?",
-    "explanation": "22 × 20 = 440.",
+    "explanation": "Rozbij czynnik na dziesiątki i jedynki: 22 × 20 = 22 × (20 + 0) = 440 + 0 = 440.",
     "options": [
       "440",
       "420",
@@ -2951,7 +2951,7 @@
   },
   "math-x-sum-17": {
     "question": "Co to jest 62 + 24?",
-    "explanation": "62 + 24 = 86.",
+    "explanation": "Dopełnij do następnej dziesiątki: 62 + 24 = 70 + 16 = 86.",
     "options": [
       "86",
       "85",
@@ -2961,7 +2961,7 @@
   },
   "math-x-product-17": {
     "question": "Co to jest 23 × 21?",
-    "explanation": "23 × 21 = 483.",
+    "explanation": "Rozbij czynnik na dziesiątki i jedynki: 23 × 21 = 23 × (20 + 1) = 460 + 23 = 483.",
     "options": [
       "483",
       "462",
@@ -2991,7 +2991,7 @@
   },
   "math-x-sum-18": {
     "question": "Co to jest 65 + 25?",
-    "explanation": "65 + 25 = 90.",
+    "explanation": "Dopełnij do następnej dziesiątki: 65 + 25 = 70 + 20 = 90.",
     "options": [
       "90",
       "89",
@@ -3001,7 +3001,7 @@
   },
   "math-x-product-18": {
     "question": "Co to jest 24 × 22?",
-    "explanation": "24 × 22 = 528.",
+    "explanation": "Rozbij czynnik na dziesiątki i jedynki: 24 × 22 = 24 × (20 + 2) = 480 + 48 = 528.",
     "options": [
       "528",
       "506",
@@ -3031,7 +3031,7 @@
   },
   "math-x-sum-19": {
     "question": "Co to jest 68 + 26?",
-    "explanation": "68 + 26 = 94.",
+    "explanation": "Dopełnij do następnej dziesiątki: 68 + 26 = 70 + 24 = 94.",
     "options": [
       "94",
       "93",
@@ -3041,7 +3041,7 @@
   },
   "math-x-product-19": {
     "question": "Czym jest 25 × 23?",
-    "explanation": "25 × 23 = 575.",
+    "explanation": "Rozbij czynnik na dziesiątki i jedynki: 25 × 23 = 25 × (20 + 3) = 500 + 75 = 575.",
     "options": [
       "575",
       "552",
@@ -3071,7 +3071,7 @@
   },
   "math-x-sum-20": {
     "question": "Co to jest 71 + 27?",
-    "explanation": "71 + 27 = 98.",
+    "explanation": "Dopełnij do następnej dziesiątki: 71 + 27 = 80 + 18 = 98.",
     "options": [
       "98",
       "97",
@@ -3081,7 +3081,7 @@
   },
   "math-x-product-20": {
     "question": "Co to jest 26 × 24?",
-    "explanation": "26 × 24 = 624.",
+    "explanation": "Rozbij czynnik na dziesiątki i jedynki: 26 × 24 = 26 × (20 + 4) = 520 + 104 = 624.",
     "options": [
       "624",
       "600",
@@ -3111,7 +3111,7 @@
   },
   "math-x-sum-21": {
     "question": "Co to jest 74 + 28?",
-    "explanation": "74 + 28 = 102.",
+    "explanation": "Dopełnij do następnej dziesiątki: 74 + 28 = 80 + 22 = 102.",
     "options": [
       "102",
       "101",
@@ -3121,7 +3121,7 @@
   },
   "math-x-product-21": {
     "question": "Co to jest 27 × 25?",
-    "explanation": "27 × 25 = 675.",
+    "explanation": "Rozbij czynnik na dziesiątki i jedynki: 27 × 25 = 27 × (20 + 5) = 540 + 135 = 675.",
     "options": [
       "675",
       "650",
@@ -3151,7 +3151,7 @@
   },
   "math-x-sum-22": {
     "question": "Co to jest 77 + 29?",
-    "explanation": "77 + 29 = 106.",
+    "explanation": "Dopełnij do następnej dziesiątki: 77 + 29 = 80 + 26 = 106.",
     "options": [
       "106",
       "105",
@@ -3161,7 +3161,7 @@
   },
   "math-x-product-22": {
     "question": "Co to jest 28 × 26?",
-    "explanation": "28 × 26 = 728.",
+    "explanation": "Rozbij czynnik na dziesiątki i jedynki: 28 × 26 = 28 × (20 + 6) = 560 + 168 = 728.",
     "options": [
       "728",
       "702",
@@ -3191,7 +3191,7 @@
   },
   "math-x-sum-23": {
     "question": "Co to jest 80 + 30?",
-    "explanation": "80 + 30 = 110.",
+    "explanation": "Dopełnij do następnej dziesiątki: 80 + 30 = 90 + 20 = 110.",
     "options": [
       "110",
       "109",
@@ -3201,7 +3201,7 @@
   },
   "math-x-product-23": {
     "question": "Co to jest 29 × 27?",
-    "explanation": "29 × 27 = 783.",
+    "explanation": "Rozbij czynnik na dziesiątki i jedynki: 29 × 27 = 29 × (20 + 7) = 580 + 203 = 783.",
     "options": [
       "783",
       "756",
@@ -3231,7 +3231,7 @@
   },
   "math-x-sum-24": {
     "question": "Co to jest 83 + 31?",
-    "explanation": "83 + 31 = 114.",
+    "explanation": "Dopełnij do następnej dziesiątki: 83 + 31 = 90 + 24 = 114.",
     "options": [
       "114",
       "113",
@@ -3241,7 +3241,7 @@
   },
   "math-x-product-24": {
     "question": "Co to jest 30 × 28?",
-    "explanation": "30 × 28 = 840.",
+    "explanation": "Rozbij czynnik na dziesiątki i jedynki: 30 × 28 = 30 × (20 + 8) = 600 + 240 = 840.",
     "options": [
       "840",
       "812",

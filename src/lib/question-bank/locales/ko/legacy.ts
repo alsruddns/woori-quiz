@@ -27,7 +27,7 @@ export const legacyKoreanCopies: Record<string, QuestionLocaleCopy> = {
   "geography-024": { question: "안데스산맥은 주로 어느 대륙에 있나요?", options: ["아프리카", "아시아", "남아메리카", "유럽"], explanation: "안데스산맥은 남아메리카 서쪽을 따라 뻗어 있습니다." },
   "geography-025": { question: "국기에 단풍잎이 그려진 나라는 어디인가요?", options: ["캐나다", "오스트리아", "덴마크", "페루"], explanation: "캐나다 국기 중앙에는 단풍잎이 그려져 있습니다." },
   "geography-026": { question: "파리를 흐르는 강은 무엇인가요?", options: ["라인강", "센강", "다뉴브강", "템스강"], explanation: "센강은 프랑스 파리를 가로질러 흐릅니다." },
-  "geography-027": { question: "면적이 가장 작은 대륙은 어디인가요?", options: ["유럽", "남극", "오스트레일리아", "남아메리카"], explanation: "오스트레일리아 대륙은 면적이 가장 작습니다." },
+  "geography-027": { question: "7대륙 모델에서 육지 면적이 가장 작은 대륙은 어디인가요?", options: ["유럽", "남극", "오스트레일리아", "남아메리카"], explanation: "7대륙 모델에서는 오스트레일리아가 육지 면적이 가장 작은 대륙입니다. 대륙 구분은 모델에 따라 달라질 수 있습니다." },
   "geography-028": { question: "킬리만자로산은 어느 나라에 있나요?", options: ["케냐", "탄자니아", "우간다", "에티오피아"], explanation: "킬리만자로산은 탄자니아 북동부에 있습니다." },
   "geography-029": { question: "아프리카 동쪽에 접한 바다는 무엇인가요?", options: ["태평양", "대서양", "인도양", "북극해"], explanation: "인도양은 아프리카 동쪽 해안과 맞닿아 있습니다." },
   "geography-030": { question: "이탈리아의 수도는 어디인가요?", options: ["밀라노", "베네치아", "로마", "나폴리"], explanation: "로마는 이탈리아의 수도입니다." },

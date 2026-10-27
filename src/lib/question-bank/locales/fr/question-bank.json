@@ -260,14 +260,14 @@
     "explanation": "La Seine traverse Paris."
   },
   "geography-027": {
-    "question": "Quel est le plus petit continent en termes de superficie ?",
+    "question": "Dans le modèle à sept continents, quel continent a la plus petite superficie terrestre ?",
     "options": [
       "Europe",
       "Antarctique",
       "Australie",
       "Amérique du Sud"
     ],
-    "explanation": "L'Australie est le plus petit continent en termes de superficie."
+    "explanation": "Dans le modèle à sept continents, l’Australie est le continent ayant la plus petite superficie terrestre. Le découpage peut varier selon le modèle."
   },
   "geography-028": {
     "question": "Dans quel pays se trouve le mont Kilimandjaro ?",

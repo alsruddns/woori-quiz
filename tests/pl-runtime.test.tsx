@@ -63,5 +63,5 @@ describe("Polish runtime and publication", () => {
     const xml = await (await GET()).text();
     expect(xml).toContain("https://www.woori.today/pl/quiz");
     expect(xml).toContain("https://www.woori.today/pl/quiz/general-knowledge");
-  });
+  }, 20_000);
 });

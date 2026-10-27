@@ -260,14 +260,14 @@
     "explanation": "La Senna attraversa Parigi."
   },
   "geography-027": {
-    "question": "Qual è il continente più piccolo per superficie?",
+    "question": "Nel modello dei sette continenti, qual è il continente con la minore superficie terrestre?",
     "options": [
       "Europa",
       "Antartide",
       "Australia",
       "Sud America"
     ],
-    "explanation": "L'Australia è il continente più piccolo per area."
+    "explanation": "Nel modello dei sette continenti, l’Australia è il continente con la minore superficie terrestre. La suddivisione può variare a seconda del modello."
   },
   "geography-028": {
     "question": "In quale paese si trova il Kilimanjaro?",
