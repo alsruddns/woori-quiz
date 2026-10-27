@@ -260,14 +260,14 @@
     "explanation": "Sông Seine chảy qua Paris."
   },
   "geography-027": {
-    "question": "Châu lục nào có diện tích nhỏ nhất?",
+    "question": "Theo mô hình bảy châu lục, châu lục nào có diện tích đất liền nhỏ nhất?",
     "options": [
       "Châu Âu",
       "Nam Cực",
       "Úc",
       "Nam Mỹ"
     ],
-    "explanation": "Úc là lục địa nhỏ nhất theo diện tích."
+    "explanation": "Theo mô hình bảy châu lục, Úc là châu lục có diện tích đất liền nhỏ nhất. Cách phân chia châu lục có thể khác nhau tùy mô hình."
   },
   "geography-028": {
     "question": "Núi Kilimanjaro ở nước nào?",

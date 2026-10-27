@@ -260,14 +260,14 @@
     "explanation": "De Seine stroomt door Parijs."
   },
   "geography-027": {
-    "question": "Wat is qua oppervlakte het kleinste continent?",
+    "question": "Welk continent is volgens het zevencontinentenmodel het kleinst qua landoppervlak?",
     "options": [
       "Europa",
       "Antarctica",
       "Australië",
       "Zuid-Amerika"
     ],
-    "explanation": "Australië is qua oppervlakte het kleinste continent."
+    "explanation": "Volgens het zevencontinentenmodel is Australië het kleinste continent qua landoppervlak. De indeling van continenten kan per model verschillen."
   },
   "geography-028": {
     "question": "In welk land ligt de Kilimanjaro?",

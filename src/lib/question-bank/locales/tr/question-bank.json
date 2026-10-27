@@ -260,8 +260,8 @@
     ]
   },
   "geography-027": {
-    "question": "Bölgeye göre en küçük kıta hangisidir?",
-    "explanation": "Avustralya, bölgeye göre en küçük kıtadır.",
+    "question": "Yedi kıta modelinde kara alanı en küçük olan kıta hangisidir?",
+    "explanation": "Yedi kıta modelinde Avustralya, kara alanı bakımından en küçük kıtadır. Kıtaların sınıflandırılması kullanılan modele göre değişebilir.",
     "options": [
       "Avrupa",
       "Antarktika",

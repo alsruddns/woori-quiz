@@ -260,8 +260,8 @@
     ]
   },
   "geography-027": {
-    "question": "Jaki jest najmniejszy kontynent po okolicy?",
-    "explanation": "Australia jest najmniejszym kontynentem według obszarów.",
+    "question": "Który kontynent jest najmniejszy pod względem powierzchni lądowej w modelu siedmiu kontynentów?",
+    "explanation": "W modelu siedmiu kontynentów Australia jest najmniejszym kontynentem pod względem powierzchni lądowej. Podział kontynentów może się różnić w zależności od modelu.",
     "options": [
       "Europa",
       "Antarktyka",

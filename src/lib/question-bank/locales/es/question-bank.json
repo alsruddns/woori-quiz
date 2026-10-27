@@ -260,14 +260,14 @@
     "explanation": "El Sena atraviesa París."
   },
   "geography-027": {
-    "question": "¿Cuál es el continente más pequeño por área?",
+    "question": "En el modelo de siete continentes, ¿cuál es el continente más pequeño por superficie terrestre?",
     "options": [
       "Europa",
       "Antártida",
       "Australia",
       "Sudamérica"
     ],
-    "explanation": "Australia es el continente más pequeño por área."
+    "explanation": "En el modelo de siete continentes, Australia es el continente más pequeño por superficie terrestre. La clasificación puede variar según el modelo."
   },
   "geography-028": {
     "question": "¿En qué país se encuentra el monte Kilimanjaro?",

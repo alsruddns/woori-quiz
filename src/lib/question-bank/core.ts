@@ -32,7 +32,7 @@ const rows: Array<[string, Difficulty, string, string[], number, string]> = [
   ["geography","medium","The Andes Mountains are primarily in which continent?",["Africa","Asia","South America","Europe"],2,"The Andes extend along the western side of South America."],
   ["geography","easy","Which country has the maple leaf on its national flag?",["Canada","Austria","Denmark","Peru"],0,"The maple leaf is the central emblem on Canada's flag."],
   ["geography","medium","Which river flows through Paris?",["Rhine","Seine","Danube","Thames"],1,"The Seine flows through Paris."],
-  ["geography","easy","Which is the smallest continent by area?",["Europe","Antarctica","Australia","South America"],2,"Australia is the smallest continent by area."],
+  ["geography","easy","In the seven-continent model, which continent is smallest by land area?",["Europe","Antarctica","Australia","South America"],2,"In the seven-continent model, Australia is the smallest continent by land area. Continent groupings vary by model."],
   ["geography","medium","Mount Kilimanjaro is in which country?",["Kenya","Tanzania","Uganda","Ethiopia"],1,"Kilimanjaro is in northeastern Tanzania."],
   ["geography","medium","Which ocean lies east of Africa?",["Pacific","Atlantic","Indian","Arctic"],2,"The Indian Ocean borders Africa to the east."],
   ["geography","easy","What is the capital of Italy?",["Milan","Venice","Rome","Naples"],2,"Rome is Italy's capital."],
